@@ -1,0 +1,32 @@
+{
+  "title": "Why Soldiers Break Step on Bridges",
+  "structure": "premise in sentence 2 (You see), story, question, late explainer with an everyday comparison, consequence, one-line why",
+  "fact": "A column marching in step can drive a suspension bridge at its natural frequency (resonance). On 12 April 1831 the Broughton Suspension Bridge near Manchester failed while 74 riflemen marched across it four abreast; a bolt in a stay chain snapped, about forty men fell into the river and twenty were hurt, none killed. The British Army then ordered troops to break step on bridges, and the order is still in use. INVENTED for this story: the keeper, the colonel, the horse, the lantern, every line of dialogue, the six hundred soldiers, the fifty miles, and the whole army ending up in the water.",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Broughton_Suspension_Bridge",
+    "https://www.livescience.com/34608-break-stride-frequency-of-vibration.html"
+  ],
+  "voice": "af_heart",
+  "sentences": [
+    {"beat": "hook", "text": "He stopped an army at his bridge and ordered every soldier to walk out of step."},
+    {"beat": "setup", "text": "You see, he's the bridge keeper, and this bridge is the only way across the river for fifty miles."},
+    {"beat": "setup", "text": "It hangs from iron chains, and he oils every link by hand."},
+    {"beat": "setup", "text": "So when six hundred soldiers show up marching in perfect rows, he plants himself in the middle of the road."},
+    {"beat": "conflict", "text": "The colonel glares down from his horse."},
+    {"beat": "conflict", "text": "My men march in step, or they don't march!", "speech": "colonel", "pitch": 3.0},
+    {"beat": "conflict", "text": "But the keeper won't move."},
+    {"beat": "conflict", "text": "Walk across like you're late for dinner, or swim.", "speech": "keeper", "pitch": -2.0},
+    {"beat": "escalation", "text": "So the colonel laughs and orders the drums even louder."},
+    {"beat": "escalation", "text": "Six hundred boots hit the planks at the exact same instant."},
+    {"beat": "escalation", "text": "Halfway across, the keeper's lantern starts swinging on its hook."},
+    {"beat": "escalation", "text": "Then the planks start bouncing."},
+    {"beat": "escalation", "text": "And the colonel's horse refuses to take another step."},
+    {"beat": "question", "text": "So how do boots break iron?", "pitch": 1.5},
+    {"beat": "explainer", "text": "Well, ever pushed a kid on a swing?", "pitch": 1.0},
+    {"beat": "explainer", "text": "One push does nothing, but push at the same moment every time, and she flies."},
+    {"beat": "explainer", "text": "A bridge swings too, and six hundred boots are one giant push, right on the beat."},
+    {"beat": "payoff", "text": "So every step lifts the deck a little higher, until an iron chain as fat as a fence post snaps like a shoelace."},
+    {"beat": "payoff", "text": "And the whole army goes for a swim, drums and all."},
+    {"beat": "ending", "text": "Which is why soldiers still break step when they cross a bridge."}
+  ]
+}

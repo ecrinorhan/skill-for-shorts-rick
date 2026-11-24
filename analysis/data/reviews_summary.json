@@ -1,0 +1,3662 @@
+{
+ "videos_reviewed": [
+  "01_NpRAk-5VKlo",
+  "02_7dGWuCeZ8Ic",
+  "04_aD73kaL_PtY",
+  "06_i4hYq1oSXTg",
+  "07_e9NoHjAXYIY",
+  "09_HxqtHI62otM",
+  "10_7xS87iActkU",
+  "11_Mz72MuPgnGY",
+  "12_5WMQhPObNqQ",
+  "13_ZDy3xXA2iHk",
+  "14_LC8hYwUZ-kU",
+  "15_t3OXkhlI6NQ",
+  "19_0m6G8pDtzNs"
+ ],
+ "n_reviewed": 13,
+ "structure_targets": {
+  "hook_end_s": {
+   "n": 13,
+   "mean": 4.271,
+   "median": 3.8,
+   "min": 3.2,
+   "max": 7.1,
+   "sd": 1.188
+  },
+  "explainer_turn_rel": {
+   "n": 9,
+   "mean": 0.649,
+   "median": 0.706,
+   "min": 0.198,
+   "max": 0.817,
+   "sd": 0.189
+  },
+  "ending_start_rel": {
+   "n": 13,
+   "mean": 0.912,
+   "median": 0.918,
+   "min": 0.744,
+   "max": 0.973,
+   "sd": 0.061
+  },
+  "direct_speech_lines": {
+   "n": 13,
+   "mean": 1.692,
+   "median": 2.0,
+   "min": 0.0,
+   "max": 4.0,
+   "sd": 1.182
+  },
+  "explainer_position": {
+   "story resumes after the explainer": 9,
+   "no separate explainer beat": 4
+  },
+  "beat_start_rel": {
+   "hook": {
+    "n": 13,
+    "mean": 0.0,
+    "median": 0.0,
+    "min": 0.0,
+    "max": 0.0,
+    "sd": 0.0
+   },
+   "setup": {
+    "n": 13,
+    "mean": 0.068,
+    "median": 0.064,
+    "min": 0.042,
+    "max": 0.128,
+    "sd": 0.023
+   },
+   "escalation": {
+    "n": 13,
+    "mean": 0.253,
+    "median": 0.242,
+    "min": 0.156,
+    "max": 0.403,
+    "sd": 0.065
+   },
+   "twist": {
+    "n": 13,
+    "mean": 0.521,
+    "median": 0.541,
+    "min": 0.351,
+    "max": 0.718,
+    "sd": 0.121
+   },
+   "payoff": {
+    "n": 12,
+    "mean": 0.763,
+    "median": 0.764,
+    "min": 0.587,
+    "max": 0.892,
+    "sd": 0.106
+   },
+   "explainer": {
+    "n": 9,
+    "mean": 0.649,
+    "median": 0.706,
+    "min": 0.198,
+    "max": 0.817,
+    "sd": 0.189
+   },
+   "ending": {
+    "n": 13,
+    "mean": 0.912,
+    "median": 0.918,
+    "min": 0.744,
+    "max": 0.973,
+    "sd": 0.061
+   }
+  },
+  "beat_share_of_runtime": {
+   "hook": {
+    "n": 13,
+    "mean": 0.068,
+    "median": 0.064,
+    "min": 0.042,
+    "max": 0.128,
+    "sd": 0.023
+   },
+   "setup": {
+    "n": 13,
+    "mean": 0.169,
+    "median": 0.168,
+    "min": 0.087,
+    "max": 0.258,
+    "sd": 0.047
+   },
+   "escalation": {
+    "n": 13,
+    "mean": 0.282,
+    "median": 0.263,
+    "min": 0.158,
+    "max": 0.528,
+    "sd": 0.106
+   },
+   "twist": {
+    "n": 13,
+    "mean": 0.169,
+    "median": 0.165,
+    "min": 0.103,
+    "max": 0.251,
+    "sd": 0.042
+   },
+   "payoff": {
+    "n": 12,
+    "mean": 0.115,
+    "median": 0.11,
+    "min": 0.068,
+    "max": 0.205,
+    "sd": 0.045
+   },
+   "explainer": {
+    "n": 9,
+    "mean": 0.166,
+    "median": 0.149,
+    "min": 0.123,
+    "max": 0.21,
+    "sd": 0.033
+   },
+   "ending": {
+    "n": 13,
+    "mean": 0.088,
+    "median": 0.082,
+    "min": 0.027,
+    "max": 0.255,
+    "sd": 0.06
+   }
+  },
+  "beat_start_rel_note": "reference medians: hook 0%, setup 6%, escalation 24%, twist 54%, payoff 76%, explainer 71%, ending 92%"
+ },
+ "join_check": {
+  "auto_counts": {
+   "dissolve": 146,
+   "inplace_blend": 35,
+   "cut": 32
+  },
+  "confirmed": {
+   "dissolve": 146,
+   "cut": 31,
+   "inplace_blend": 27
+  },
+  "precision": {
+   "dissolve": 1.0,
+   "inplace_blend": 0.771,
+   "cut": 0.969
+  },
+  "matrix": {
+   "dissolve->dissolve": 146,
+   "cut->cut": 31,
+   "inplace_blend->in_place_change": 23,
+   "inplace_blend->dissolve": 8,
+   "inplace_blend->camera_move": 4,
+   "cut->camera_move": 1
+  },
+  "missed_joins_found_by_eye": 16,
+  "recall_cut_or_dissolve": 0.917
+ },
+ "tallies": {
+  "hook.line_type": {
+   "strange action by he/they": 8,
+   "second-person hypothetical (if you)": 2,
+   "paradox or claim": 2,
+   "world premise (there is a)": 1
+  },
+  "hook.first_frame_shot_size": {
+   "medium-long": 5,
+   "long (full body)": 4,
+   "medium": 4
+  },
+  "hook.first_frame_subject": {
+   "protagonist doing the hook action": 10,
+   "protagonist posing with the key prop": 2,
+   "two characters": 1
+  },
+  "hook.protagonist_looks_at_camera": {
+   "true": 7,
+   "false": 6
+  },
+  "story.topic_type": {
+   "psychology/behaviour": 3,
+   "engineering/physics": 2,
+   "crime/scam": 2,
+   "history/war": 2,
+   "law/economics/work": 2,
+   "parable/fiction": 2
+  },
+  "story.setting_era": {
+   "modern": 4,
+   "future/space": 2,
+   "ancient/medieval": 2,
+   "1900s": 2,
+   "1700s-1800s": 2,
+   "timeless/fable": 1
+  },
+  "story.structure": {
+   "act first, explain at the end": 7,
+   "pure story with twist reveal": 3,
+   "second-person scenario, then explainer": 2,
+   "premise explained early, then story": 1
+  },
+  "story.likely_source_type": {
+   "invented parable": 5,
+   "psychology": 3,
+   "history": 3,
+   "urban legend": 1,
+   "news": 1
+  },
+  "story.tense": {
+   "mixed": 7,
+   "present": 6
+  },
+  "story.ending_type": {
+   "explanation is the last line": 7,
+   "consequence shown, stops on impact": 4,
+   "loops back to the hook": 1,
+   "twist reveal is the last line": 1
+  },
+  "story.call_to_action": {
+   "none": 13
+  },
+  "story.second_person": {
+   "false": 8,
+   "true": 5
+  },
+  "story.explainer_turn": {
+   "'you see'": 4,
+   "none": 3,
+   "'but how' at , then 'well, a spaceship toilet'": 1,
+   "'so how does this keep happening?' at , then 'target fixation'": 1,
+   "'and that's how'": 1,
+   "\"you see\"": 1,
+   "'you see,'": 1,
+   "\"you see\" at , then present-tense world rules": 1
+  },
+  "story.direct_speech_lines": {
+   "2": 4,
+   "1": 4,
+   "3": 2,
+   "0": 2,
+   "4": 1
+  },
+  "animation.lip_sync": {
+   "mouth changes with pose only": 6,
+   "flaps while speaking": 3,
+   "none (mouth static)": 3,
+   "true lip-sync": 1
+  },
+  "set_style": {
+   "mixed": 12,
+   "stylised 3d without outlines": 1
+  },
+  "character.shadow": {
+   "soft blob": 6,
+   "cast silhouette": 3,
+   "none": 3,
+   "unclear": 1
+  },
+  "_head_share": {
+   "0.33": 5,
+   "0.3": 3,
+   "0.35": 3,
+   "0.45": 1,
+   "0.4": 1
+  },
+  "n_characters": {
+   "4": 10,
+   "3": 3
+  },
+  "n_environments": {
+   "8": 4,
+   "11": 2,
+   "12": 2,
+   "18": 1,
+   "6": 1,
+   "10": 1,
+   "9": 1,
+   "15": 1
+  },
+  "n_beats": {
+   "7": 6,
+   "8": 5,
+   "6": 2
+  },
+  "effects.type": {
+   "particles": 23,
+   "other": 21,
+   "screen or ui insert": 15,
+   "glow": 13,
+   "colour shift": 11,
+   "smoke": 11,
+   "flash": 10,
+   "in-world sign": 9,
+   "diagram": 3,
+   "speed lines": 3,
+   "motion blur": 3,
+   "defocus": 3
+  },
+  "n_effects": {
+   "6": 3,
+   "9": 2,
+   "8": 2,
+   "13": 2,
+   "14": 1,
+   "19": 1,
+   "10": 1,
+   "4": 1
+  },
+  "evidence.points_to": {
+   "3d engine render": 55,
+   "hand animation": 15,
+   "unclear": 3
+  },
+  "env.time_of_day": {
+   "day": 21,
+   "night": 19,
+   "midday": 12,
+   "indoor, day": 4,
+   "bright day": 4,
+   "dusk": 4,
+   "indoor": 3,
+   "indoor, artificial": 3,
+   "indoor, time unclear": 3,
+   "sunset": 3,
+   "night interior": 3,
+   "space night": 2,
+   "rainy morning": 2,
+   "afternoon": 2,
+   "late afternoon (estimate)": 2,
+   "space/artificial light": 1,
+   "space daylight": 1,
+   "indoor/space": 1,
+   "space": 1,
+   "day, window light": 1,
+   "morning": 1,
+   "indoor, night shift per timestamp": 1,
+   "sunny day, late autumn or winter": 1,
+   "day, clear sky with clouds": 1,
+   "day, later dusk look at 16-17s": 1,
+   "day, stormy sky at 30-32s": 1,
+   "interior lights, then daytime": 1,
+   "night, rain and fog": 1,
+   "midday (estimate)": 1,
+   "overcast afternoon (estimate)": 1,
+   "afternoon (estimate)": 1,
+   "late afternoon turning to dusk": 1,
+   "sunrise": 1,
+   "bright morning": 1,
+   "day (sun through window, estimate)": 1,
+   "day (window light, estimate)": 1,
+   "day (sun patches)": 1,
+   "midday, blue sky with cumulus": 1,
+   "night (story); cell artificially lit": 1,
+   "night per story; hall looks evenly lit (estimate)": 1,
+   "estimate dusk then midday": 1,
+   "indoor/afternoon": 1,
+   "hot afternoon": 1,
+   "late afternoon": 1,
+   "dusk, then daylight": 1,
+   "day turning stormy dusk": 1,
+   "overcast": 1,
+   "warm indoor": 1,
+   "daytime": 1,
+   "afternoon, golden hour (estimate)": 1,
+   "indoors, lamp-lit": 1,
+   "dusk outside, lamp-lit inside": 1,
+   "evening, lamp-lit (estimate)": 1,
+   "dusk, night": 1,
+   "evening": 1,
+   "night to orange glow": 1,
+   "golden hour / sunset": 1,
+   "golden hour": 1,
+   "night / interior": 1,
+   "interior, warm lamp": 1,
+   "night / blue hour": 1,
+   "night, rain": 1,
+   "day to blue evening": 1,
+   "day, shifting to cool": 1
+  },
+  "env.has_in_world_text": {
+   "true": 77,
+   "false": 59
+  },
+  "camera.shot_sizes": {
+   "medium": 10,
+   "close-up": 10,
+   "wide": 9,
+   "medium-long": 5,
+   "extreme close-up": 3,
+   "medium close-up": 3,
+   "long (full body)": 2,
+   "long (full body) in the cell": 1,
+   "wide for cutaways, vault and street": 1,
+   "medium close-up in cafeteria and vault": 1,
+   "close-up for cellmate and guard": 1,
+   "pov": 1,
+   "long (full body) on characters": 1,
+   "medium-long groups": 1,
+   "medium close-up on faces": 1,
+   "close-up and macro on props": 1,
+   "wide landscape": 1,
+   "close-up (prop or face)": 1,
+   "top-down insert": 1,
+   "aerial wide": 1,
+   "macro": 1,
+   "extreme close-up (soup)": 1,
+   "extreme close-up (mirror, lens)": 1,
+   "wide/long (track, street)": 1,
+   "long": 1,
+   "two-shot": 1,
+   "extreme close-up on props": 1
+  },
+  "camera.angles": {
+   "eye level": 8,
+   "low angle": 4,
+   "high aerial": 3,
+   "high angle": 2,
+   "eye-level": 2,
+   "dutch roll": 1,
+   "eye level in cells and corridors": 1,
+   "slight low angle with converging verticals for seated cellmate and vault door": 1,
+   "high crane pull-out at 5.9-6.6 s": 1,
+   "side-on cutaway view": 1,
+   "low looking up": 1,
+   "over-the-dash pov": 1,
+   "eye level at character height, slightly low (estimate)": 1,
+   "low angle on the commander (10-12 s)": 1,
+   "worm's-eye through the rocket fan (53-55 s)": 1,
+   "aerial or top-down for the valley and army line (63.8 s)": 1,
+   "low": 1,
+   "pov": 1,
+   "high": 1,
+   "slight low angle on the guard in the booth": 1,
+   "slight high angle on tables": 1,
+   "straight top-down (paint mat)": 1,
+   "high-angle aerial": 1,
+   "ground-level macro": 1,
+   "high angle on deck": 1,
+   "low angle on hull": 1,
+   "top-down on bowl": 1,
+   "eye-level on characters": 1,
+   "near-ground along the rail (hook)": 1,
+   "high angle over the street (13-15 s)": 1,
+   "slightly low on the buddy at sunset (54 s)": 1,
+   "low angle up wall": 1,
+   "overhead top-down": 1,
+   "low angle on eddie (2.8-3.0 s)": 1,
+   "ground level during the fall (17-18 s)": 1,
+   "holster height at 14.4-15.0 s": 1,
+   "top-down": 1,
+   "high angle top-down": 1,
+   "tilted": 1
+  },
+  "camera.move_types": {
+   "push-in": 11,
+   "orbit": 8,
+   "fly-through": 5,
+   "pull-out": 4,
+   "slow push-in": 2,
+   "push-in with roll": 2,
+   "swing": 2,
+   "orbit/fly-through": 2,
+   "crane-up": 2,
+   "fast tilt/fly-by": 1,
+   "whip truck-left": 1,
+   "pull-out orbit": 1,
+   "crane-up pull-out": 1,
+   "dolly push-in": 1,
+   "pull-out and pan": 1,
+   "pull-out / tilt up": 1,
+   "zoom into face": 1,
+   "whip pan with crane-up": 1,
+   "slow pull-out": 1,
+   "pull-out through props": 1,
+   "push-in from above": 1,
+   "swoop out of the car": 1,
+   "crane-up + fly-over": 1,
+   "push-in with dissolve": 1,
+   "zoom-through": 1,
+   "slow push-in + crane-up": 1,
+   "tilt": 1,
+   "whip": 1,
+   "fly-in": 1,
+   "orbit / follow pour": 1,
+   "whip-style zoom out": 1,
+   "static with slow roll": 1,
+   "slow push-in then whip": 1,
+   "dive into small mirror": 1,
+   "tracking fly-through": 1,
+   "snap zoom": 1,
+   "whip / orbit": 1,
+   "dolly through lens": 1,
+   "fly-through / zoom blur": 1,
+   "low-angle push-in": 1,
+   "fast push-in then tilt-up": 1,
+   "follow / drop to ground": 1,
+   "fast orbit": 1,
+   "match-shape transition": 1,
+   "fly-through down to chip": 1,
+   "pan or swing": 1,
+   "whip/truck-right": 1,
+   "slow drift": 1
+  }
+ },
+ "depth_and_light_keywords_by_environment": {
+  "soft light": 61,
+  "haze/fog": 47,
+  "window light": 31,
+  "practical lights": 30,
+  "hard shadows": 29,
+  "background blur": 24,
+  "light shafts": 10,
+  "rim light": 8,
+  "depth of field": 7
+ },
+ "sampled_colours": {
+  "head": [
+   {
+    "video": "01_NpRAk-5VKlo",
+    "hex": "#01001B",
+    "what": "main character head fill"
+   },
+   {
+    "video": "02_7dGWuCeZ8Ic",
+    "hex": "#FDFAF5",
+    "what": "protagonist head fill (white cheek)"
+   },
+   {
+    "video": "02_7dGWuCeZ8Ic",
+    "hex": "#5F3C26",
+    "what": "protagonist brown hair crescent above headband"
+   },
+   {
+    "video": "04_aD73kaL_PtY",
+    "hex": "#CDCCCA",
+    "what": "sheriff head near face fill, white"
+   },
+   {
+    "video": "06_i4hYq1oSXTg",
+    "hex": "#FBFAF6",
+    "what": "main character head fill: protagonist cheek, final shot"
+   },
+   {
+    "video": "07_e9NoHjAXYIY",
+    "hex": "#969A7F",
+    "what": "scammer head fill (white)"
+   },
+   {
+    "video": "09_HxqtHI62otM",
+    "hex": "#DDBFC9",
+    "what": "main character (big inmate, finale) head fill, pale dome above the eyes"
+   },
+   {
+    "video": "10_7xS87iActkU",
+    "hex": "#A54ED1",
+    "what": "boss purple head"
+   },
+   {
+    "video": "12_5WMQhPObNqQ",
+    "hex": "#E8ECF7",
+    "what": "protagonist head fill (right cheek)"
+   },
+   {
+    "video": "13_ZDy3xXA2iHk",
+    "hex": "#7697DC",
+    "what": "Gary head fill (hook)"
+   },
+   {
+    "video": "14_LC8hYwUZ-kU",
+    "hex": "#FCF9F4",
+    "what": "challenger head fill (forehead under hat)"
+   },
+   {
+    "video": "15_t3OXkhlI6NQ",
+    "hex": "#645971",
+    "what": "Jerry head fill (white)"
+   },
+   {
+    "video": "19_0m6G8pDtzNs",
+    "hex": "#957D96",
+    "what": "boss head fill, dark room"
+   }
+  ],
+  "body/clothes": [
+   {
+    "video": "01_NpRAk-5VKlo",
+    "hex": "#000013",
+    "what": "hero yellow vest"
+   },
+   {
+    "video": "02_7dGWuCeZ8Ic",
+    "hex": "#E98839",
+    "what": "protagonist orange jumpsuit torso"
+   },
+   {
+    "video": "04_aD73kaL_PtY",
+    "hex": "#584C50",
+    "what": "sheriff cruiser white body (garage scene)"
+   },
+   {
+    "video": "07_e9NoHjAXYIY",
+    "hex": "#F2CF13",
+    "what": "scammer yellow shirt"
+   },
+   {
+    "video": "07_e9NoHjAXYIY",
+    "hex": "#3D3648",
+    "what": "yellow shirt in pool scene"
+   },
+   {
+    "video": "09_HxqtHI62otM",
+    "hex": "#A2A9BC",
+    "what": "big inmate white vest fill (arm-wrestle frame, thumbnail moment)"
+   },
+   {
+    "video": "10_7xS87iActkU",
+    "hex": "#463636",
+    "what": "hero teal jacket"
+   },
+   {
+    "video": "12_5WMQhPObNqQ",
+    "hex": "#69E1C8",
+    "what": "protagonist mint vest (below bow tie, above caption)"
+   },
+   {
+    "video": "13_ZDy3xXA2iHk",
+    "hex": "#E63F3C",
+    "what": "Gary red shirt"
+   },
+   {
+    "video": "14_LC8hYwUZ-kU",
+    "hex": "#E4263F",
+    "what": "challenger red shirt"
+   },
+   {
+    "video": "15_t3OXkhlI6NQ",
+    "hex": "#466379",
+    "what": "Jerry yellow vest"
+   },
+   {
+    "video": "19_0m6G8pDtzNs",
+    "hex": "#1D31A6",
+    "what": "boss suit, ending room"
+   }
+  ],
+  "hair/hat": [
+   {
+    "video": "01_NpRAk-5VKlo",
+    "hex": "#01001B",
+    "what": "hero brown hair"
+   },
+   {
+    "video": "02_7dGWuCeZ8Ic",
+    "hex": "#464D5F",
+    "what": "guard black cap crown, right of badge"
+   },
+   {
+    "video": "06_i4hYq1oSXTg",
+    "hex": "#A0A9BA",
+    "what": "hat: commander's silver helmet dome"
+   },
+   {
+    "video": "07_e9NoHjAXYIY",
+    "hex": "#C7CCCF",
+    "what": "scammer brown hair (estimate)"
+   },
+   {
+    "video": "09_HxqtHI62otM",
+    "hex": "#3B4964",
+    "what": "guard navy cap dome (hat)"
+   },
+   {
+    "video": "09_HxqtHI62otM",
+    "hex": "#882217",
+    "what": "ginger prisoner hair"
+   },
+   {
+    "video": "11_Mz72MuPgnGY",
+    "hex": "#883815",
+    "what": "chef toque hat fill"
+   },
+   {
+    "video": "12_5WMQhPObNqQ",
+    "hex": "#5C3E3B",
+    "what": "protagonist boater hat crown"
+   },
+   {
+    "video": "13_ZDy3xXA2iHk",
+    "hex": "#5E79C6",
+    "what": "Gary hair"
+   },
+   {
+    "video": "13_ZDy3xXA2iHk",
+    "hex": "#EFEAE6",
+    "what": "guard cap navy"
+   },
+   {
+    "video": "14_LC8hYwUZ-kU",
+    "hex": "#1D1F38",
+    "what": "challenger black hat crown"
+   },
+   {
+    "video": "14_LC8hYwUZ-kU",
+    "hex": "#F4DEB5",
+    "what": "Eddie straw hat crown"
+   },
+   {
+    "video": "15_t3OXkhlI6NQ",
+    "hex": "#474363",
+    "what": "Jerry orange hair"
+   },
+   {
+    "video": "19_0m6G8pDtzNs",
+    "hex": "#C1AD8C",
+    "what": "boss grey hair, close-up"
+   }
+  ],
+  "set": [
+   {
+    "video": "01_NpRAk-5VKlo",
+    "hex": "#CFC8D0",
+    "what": "bathroom white floor tile"
+   },
+   {
+    "video": "01_NpRAk-5VKlo",
+    "hex": "#608C97",
+    "what": "Mission Control blue-purple wall"
+   },
+   {
+    "video": "01_NpRAk-5VKlo",
+    "hex": "#100919",
+    "what": "cockpit exterior hull grey"
+   },
+   {
+    "video": "01_NpRAk-5VKlo",
+    "hex": "#4D485C",
+    "what": "toilet room black floor tile"
+   },
+   {
+    "video": "02_7dGWuCeZ8Ic",
+    "hex": "#5D3246",
+    "what": "day-cell maroon floor"
+   },
+   {
+    "video": "02_7dGWuCeZ8Ic",
+    "hex": "#171A5E",
+    "what": "night-cell navy-violet wall left of cellmate"
+   },
+   {
+    "video": "02_7dGWuCeZ8Ic",
+    "hex": "#F1BE6F",
+    "what": "cutaway orange-tan soil layer"
+   },
+   {
+    "video": "02_7dGWuCeZ8Ic",
+    "hex": "#384D68",
+    "what": "staff-lane navy wall above STAFF EXIT sign"
+   },
+   {
+    "video": "04_aD73kaL_PtY",
+    "hex": "#141416",
+    "what": "dashboard and wheel, dark brown-black"
+   },
+   {
+    "video": "06_i4hYq1oSXTg",
+    "hex": "#DFD4C9",
+    "what": "protagonist cream tunic below the belt, final shot"
+   },
+   {
+    "video": "06_i4hYq1oSXTg",
+    "hex": "#BCB9A8",
+    "what": "set: pale stone wall block in the opening shot"
+   },
+   {
+    "video": "06_i4hYq1oSXTg",
+    "hex": "#E8CE98",
+    "what": "set: sunlit tan stone floor on the rampart"
+   },
+   {
+    "video": "06_i4hYq1oSXTg",
+    "hex": "#D6651A",
+    "what": "set: orange mushroom-cloud puff"
+   },
+   {
+    "video": "06_i4hYq1oSXTg",
+    "hex": "#82A455",
+    "what": "set: valley grass field"
+   },
+   {
+    "video": "09_HxqtHI62otM",
+    "hex": "#325364",
+    "what": "teal brick wall of the hook cell"
+   },
+   {
+    "video": "09_HxqtHI62otM",
+    "hex": "#D41C96",
+    "what": "hot-pink cell wall (left strip above the chip card)"
+   },
+   {
+    "video": "09_HxqtHI62otM",
+    "hex": "#6E6772",
+    "what": "grey asphalt of the prison yard (day)"
+   },
+   {
+    "video": "09_HxqtHI62otM",
+    "hex": "#3F52B0",
+    "what": "deep blue floor of the night hall"
+   },
+   {
+    "video": "09_HxqtHI62otM",
+    "hex": "#ED84B8",
+    "what": "pale pink wall of the knitting cell"
+   },
+   {
+    "video": "10_7xS87iActkU",
+    "hex": "#EC3A20",
+    "what": "orange canyon wall (midday)"
+   },
+   {
+    "video": "10_7xS87iActkU",
+    "hex": "#FAE16F",
+    "what": "yellow heated rail"
+   },
+   {
+    "video": "10_7xS87iActkU",
+    "hex": "#B48252",
+    "what": "newspaper cream paper"
+   },
+   {
+    "video": "11_Mz72MuPgnGY",
+    "hex": "#1A0B10",
+    "what": "orange pot or deck planks"
+   },
+   {
+    "video": "11_Mz72MuPgnGY",
+    "hex": "#99ECFF",
+    "what": "bright cyan sea, day"
+   },
+   {
+    "video": "11_Mz72MuPgnGY",
+    "hex": "#12000E",
+    "what": "deep blue storm sea, night"
+   },
+   {
+    "video": "11_Mz72MuPgnGY",
+    "hex": "#2D0C07",
+    "what": "galley amber wall"
+   },
+   {
+    "video": "11_Mz72MuPgnGY",
+    "hex": "#FFFFB1",
+    "what": "yellow soup glow close-up"
+   },
+   {
+    "video": "12_5WMQhPObNqQ",
+    "hex": "#C15D2C",
+    "what": "red clay track (grandstand race)"
+   },
+   {
+    "video": "12_5WMQhPObNqQ",
+    "hex": "#EA944C",
+    "what": "betting room wood floor (below bench)"
+   },
+   {
+    "video": "12_5WMQhPObNqQ",
+    "hex": "#341F1A",
+    "what": "teller cage dark red wall"
+   },
+   {
+    "video": "12_5WMQhPObNqQ",
+    "hex": "#191F40",
+    "what": "final dusk room slate-blue board"
+   },
+   {
+    "video": "13_ZDy3xXA2iHk",
+    "hex": "#318824",
+    "what": "field grass"
+   },
+   {
+    "video": "13_ZDy3xXA2iHk",
+    "hex": "#B58174",
+    "what": "night street blue"
+   },
+   {
+    "video": "13_ZDy3xXA2iHk",
+    "hex": "#51AD28",
+    "what": "green town lawn"
+   },
+   {
+    "video": "13_ZDy3xXA2iHk",
+    "hex": "#438B36",
+    "what": "mom teal cardigan"
+   },
+   {
+    "video": "13_ZDy3xXA2iHk",
+    "hex": "#E9C069",
+    "what": "gold button base"
+   },
+   {
+    "video": "14_LC8hYwUZ-kU",
+    "hex": "#A48872",
+    "what": "midday sunlit sand"
+   },
+   {
+    "video": "14_LC8hYwUZ-kU",
+    "hex": "#C58651",
+    "what": "golden-hour sand, photo-shop street"
+   },
+   {
+    "video": "14_LC8hYwUZ-kU",
+    "hex": "#220A1D",
+    "what": "saloon interior dark maroon wall"
+   },
+   {
+    "video": "14_LC8hYwUZ-kU",
+    "hex": "#A66C5E",
+    "what": "night street ground between the men"
+   },
+   {
+    "video": "15_t3OXkhlI6NQ",
+    "hex": "#FFF0D3",
+    "what": "Pool water cyan"
+   },
+   {
+    "video": "15_t3OXkhlI6NQ",
+    "hex": "#75B5BB",
+    "what": "Hospital hall mint wall"
+   },
+   {
+    "video": "15_t3OXkhlI6NQ",
+    "hex": "#991719",
+    "what": "Ward red blanket"
+   },
+   {
+    "video": "19_0m6G8pDtzNs",
+    "hex": "#98B278",
+    "what": "green brick wall, day room"
+   },
+   {
+    "video": "19_0m6G8pDtzNs",
+    "hex": "#124ADF",
+    "what": "blue office carpet"
+   },
+   {
+    "video": "19_0m6G8pDtzNs",
+    "hex": "#E3E3E6",
+    "what": "white office ceiling"
+   },
+   {
+    "video": "19_0m6G8pDtzNs",
+    "hex": "#4955AE",
+    "what": "dark blue door wall at ending"
+   },
+   {
+    "video": "19_0m6G8pDtzNs",
+    "hex": "#2839BA",
+    "what": "blue floor of explainer room"
+   },
+   {
+    "video": "19_0m6G8pDtzNs",
+    "hex": "#152488",
+    "what": "night tower facade blue"
+   }
+  ],
+  "sky": [
+   {
+    "video": "01_NpRAk-5VKlo",
+    "hex": "#191C42",
+    "what": "space exterior dark sky"
+   },
+   {
+    "video": "04_aD73kaL_PtY",
+    "hex": "#D7D5D9",
+    "what": "sky upper left, pale blue and white"
+   },
+   {
+    "video": "04_aD73kaL_PtY",
+    "hex": "#414457",
+    "what": "night rain sky, dark blue-grey"
+   },
+   {
+    "video": "04_aD73kaL_PtY",
+    "hex": "#1B261E",
+    "what": "day sky blue near tree"
+   },
+   {
+    "video": "06_i4hYq1oSXTg",
+    "hex": "#524F6C",
+    "what": "set: night wall or sky in the rain scene"
+   },
+   {
+    "video": "06_i4hYq1oSXTg",
+    "hex": "#387DD8",
+    "what": "set: blue sky top right in the final shot"
+   },
+   {
+    "video": "07_e9NoHjAXYIY",
+    "hex": "#0F1658",
+    "what": "night sky navy"
+   },
+   {
+    "video": "07_e9NoHjAXYIY",
+    "hex": "#2E7DB3",
+    "what": "rainy morning sky blue-grey"
+   },
+   {
+    "video": "10_7xS87iActkU",
+    "hex": "#91A5D7",
+    "what": "blue sky"
+   },
+   {
+    "video": "10_7xS87iActkU",
+    "hex": "#CAB1B5",
+    "what": "dusk sky"
+   },
+   {
+    "video": "11_Mz72MuPgnGY",
+    "hex": "#D44C0F",
+    "what": "day sky blue"
+   },
+   {
+    "video": "11_Mz72MuPgnGY",
+    "hex": "#091196",
+    "what": "night sky dark blue"
+   },
+   {
+    "video": "12_5WMQhPObNqQ",
+    "hex": "#387BEC",
+    "what": "racetrack blue sky (hook)"
+   },
+   {
+    "video": "12_5WMQhPObNqQ",
+    "hex": "#4D218E",
+    "what": "sunset hill sky, purple top"
+   },
+   {
+    "video": "13_ZDy3xXA2iHk",
+    "hex": "#FDF5D5",
+    "what": "orange glow sky"
+   },
+   {
+    "video": "14_LC8hYwUZ-kU",
+    "hex": "#2A88F9",
+    "what": "midday sky blue"
+   },
+   {
+    "video": "14_LC8hYwUZ-kU",
+    "hex": "#080E5A",
+    "what": "night sky navy"
+   },
+   {
+    "video": "15_t3OXkhlI6NQ",
+    "hex": "#6F9E22",
+    "what": "Pool day sky blue"
+   },
+   {
+    "video": "15_t3OXkhlI6NQ",
+    "hex": "#A8B4BB",
+    "what": "Lake sunset sky"
+   }
+  ]
+ },
+ "generation_evidence": [
+  {
+   "video": "01_NpRAk-5VKlo",
+   "frames": [
+    660,
+    700
+   ],
+   "observation": "Cockpit glass, seats and hull keep stable geometry through a long orbit; sparkle debris moves consistently.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "01_NpRAk-5VKlo",
+   "frames": [
+    0,
+    30
+   ],
+   "observation": "Flat outlined characters sit on a rendered 3D set with checkerboard perspective that stays clean.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "01_NpRAk-5VKlo",
+   "frames": [
+    807,
+    809,
+    819
+   ],
+   "observation": "Mouth and eye sprites swap while the head outline stays identical.",
+   "points_to": "hand animation"
+  },
+  {
+   "video": "01_NpRAk-5VKlo",
+   "frames": [
+    660,
+    1560
+   ],
+   "observation": "The ship, LODESTAR lettering and orange stripe recur crisp across shots and look like one asset.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "01_NpRAk-5VKlo",
+   "frames": [
+    1128,
+    1202
+   ],
+   "observation": "Vent tunnel and rings stay solid; sparkles are clean particles, not warped texture.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "02_7dGWuCeZ8Ic",
+   "frames": [
+    176,
+    182,
+    188,
+    194,
+    198
+   ],
+   "observation": "One continuous crane-up from inside the vault cutaway to the bank facade and street: rigid geometry, consistent perspective, signage 'COBBLE FALLS SAVINGS' and 'BANK' stays crisp in every frame.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "02_7dGWuCeZ8Ic",
+   "frames": [
+    1265,
+    1300
+   ],
+   "observation": "CCTV monitor text (CAM 24, CELL BLOCK C - CELL 24, REC) is identical and crisp while the camera zooms and tilts; side monitor shows CAM 19 and a timestamp.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "02_7dGWuCeZ8Ic",
+   "frames": [
+    728,
+    732,
+    736,
+    740,
+    744,
+    748,
+    752,
+    756
+   ],
+   "observation": "Cellmate head outline, hair and proportions are stable; only the mouth swaps between a small dark oval and an open teeth-and-tongue shape about every 4 frames.",
+   "points_to": "hand animation"
+  },
+  {
+   "video": "02_7dGWuCeZ8Ic",
+   "frames": [
+    806,
+    815,
+    824,
+    833,
+    842,
+    851
+   ],
+   "observation": "Protagonist keeps identical shape and scale against the bunk during a push-in; expression snaps from smirk to closed-eye smile between f833 and f842; arms re-pose in steps.",
+   "points_to": "hand animation"
+  },
+  {
+   "video": "02_7dGWuCeZ8Ic",
+   "frames": [
+    150,
+    176,
+    600
+   ],
+   "observation": "Same vault door, gold lid, shelves and lamp reappear from several angles at 5, 5.9 and 20 s with identical geometry: one reusable 3D set, not re-generated images.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "02_7dGWuCeZ8Ic",
+   "frames": [
+    1530,
+    1655
+   ],
+   "observation": "Lane signs and X-ray UI (LANE 2, STAFF EXIT, CURRENCY 97%) are legible and unwarped; the conveyor casts a hatched floor shadow but the 2D characters cast none.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "04_aD73kaL_PtY",
+   "frames": [
+    0,
+    30,
+    42
+   ],
+   "observation": "Tree growth, leaves and bark stay coherent through the move; clean perspective and consistent geometry.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "04_aD73kaL_PtY",
+   "frames": [
+    1296,
+    1300,
+    1304
+   ],
+   "observation": "Zoom into the eye with a vector-clean outline stays sharp, then an iris-mask transition: a compositing effect.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "04_aD73kaL_PtY",
+   "frames": [
+    780,
+    795,
+    810
+   ],
+   "observation": "Sheriff face is identical across frames, static mouth, the hat and glasses crisp; the interior details (turtle toy, beer cup) stay stable.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "04_aD73kaL_PtY",
+   "frames": [
+    300,
+    360
+   ],
+   "observation": "Sign text DAYS SINCE LAST CRASH is crisp and stable and numbers swap cleanly; no warping text.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "04_aD73kaL_PtY",
+   "frames": [
+    125,
+    135,
+    150
+   ],
+   "observation": "Tyre rolls with physical bounce and shadow; cap man changes pose, with a hard outline unaffected.",
+   "points_to": "hand animation"
+  },
+  {
+   "video": "04_aD73kaL_PtY",
+   "frames": [
+    938,
+    965,
+    975
+   ],
+   "observation": "Chop blast and ring explosion look like stylised particle or sim effects with a radial burst.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "06_i4hYq1oSXTg",
+   "frames": [
+    60,
+    66,
+    72,
+    78,
+    82
+   ],
+   "observation": "Whip pan from the board up a wall corner past banner and pavilion to the valley in about 0.7 s; perspective, banner and brick courses stay geometrically consistent with no blur or warping.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "06_i4hYq1oSXTg",
+   "frames": [
+    2,
+    27
+   ],
+   "observation": "Blue banner emblem (white tiger, yellow chevron, fringe) and brick mortar lines are identical and crisp in two frames of one push-in; the same banner recurs at f66, f240 and f420.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "06_i4hYq1oSXTg",
+   "frames": [
+    345,
+    354,
+    357,
+    366,
+    369
+   ],
+   "observation": "Commander's mouth cycles through about four fixed drawn shapes in 1.1 s and his helmet lifts off the head on a bob: a layered 2D puppet, not frame-by-frame generation.",
+   "points_to": "hand animation"
+  },
+  {
+   "video": "06_i4hYq1oSXTg",
+   "frames": [
+    1248,
+    1500,
+    1998
+   ],
+   "observation": "Characters stand on sunlit stone with no cast or contact shadow while the cart and railings shade the floor: flat 2D art pasted into a lit 3D set.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "06_i4hYq1oSXTg",
+   "frames": [
+    1962,
+    1974,
+    1998,
+    2004
+   ],
+   "observation": "Mushroom cloud is a smooth painterly sprite with a flat white ring that darkens over 1 s, in front of a blocky low-res wall texture: stock-style VFX over an engine set.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "06_i4hYq1oSXTg",
+   "frames": [
+    658,
+    659,
+    660,
+    661
+   ],
+   "observation": "Foreground grass changes shape and brightness between consecutive frames while the characters and arch stay put: real-time grass sway or LOD, not AI morphing.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "07_e9NoHjAXYIY",
+   "frames": [
+    0,
+    36,
+    48
+   ],
+   "observation": "Car interior and exterior are consistent solid 3D geometry across a fast camera swoop; car design, wheels and reflections stay stable.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "07_e9NoHjAXYIY",
+   "frames": [
+    1700,
+    1790
+   ],
+   "observation": "Dashcam overlay text (REC, MPH, date, FRONT 1080P) stays crisp and the speed readout changes sensibly 54 to 0 MPH.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "07_e9NoHjAXYIY",
+   "frames": [
+    1102,
+    1110,
+    1114
+   ],
+   "observation": "2D head with same outline is re-drawn per pose over a stable 3D scene; face shapes switch discretely.",
+   "points_to": "hand animation"
+  },
+  {
+   "video": "07_e9NoHjAXYIY",
+   "frames": [
+    1240,
+    1265
+   ],
+   "observation": "Money, smoke and leaf bits move as particles; lamp, house, fence stay identical.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "07_e9NoHjAXYIY",
+   "frames": [
+    30,
+    36
+   ],
+   "observation": "Same hero car interior and hero assets appear across scenes at different times of day.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "09_HxqtHI62otM",
+   "frames": [
+    90,
+    106
+   ],
+   "observation": "Wall chart text (P-618, BAKER-MILLER PINK, recipe, EXACTLY!) stays crisp and identical through a push-in and a dissolve; no letter warping.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "09_HxqtHI62otM",
+   "frames": [
+    1388,
+    1394,
+    1398,
+    1410
+   ],
+   "observation": "Calendar 1979 JUNE and COFFEE note stay legible; the cell inside the CRT screen matches the full-frame cell (window, bench, tally marks, drain) after the zoom-through.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "09_HxqtHI62otM",
+   "frames": [
+    480,
+    495,
+    505
+   ],
+   "observation": "Hall details (C-4 plate, hanging cable box, ceiling lamp, cyan brick wall, floor line) and the scientist's tie stripes stay identical while the camera pulls out; no swimming textures.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "09_HxqtHI62otM",
+   "frames": [
+    1552,
+    1554,
+    1556,
+    1558
+   ],
+   "observation": "Debris cubes, cracks and the bar in the prisoner's hands keep consistent positions as the camera pulls out through the door; the guard enters with the same cap design.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "09_HxqtHI62otM",
+   "frames": [
+    384,
+    392,
+    400,
+    412
+   ],
+   "observation": "Faces swap between a few discrete mouth and eye sprites (grin, laugh, closed arcs) with no in-betweens; the guard designs repeat exactly across shots.",
+   "points_to": "hand animation"
+  },
+  {
+   "video": "09_HxqtHI62otM",
+   "frames": [
+    1164,
+    1166,
+    1167,
+    1168
+   ],
+   "observation": "Camera rises through the hall roof with consistent floor, skylight grid and roof gravel; clean perspective and no object morphing.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "10_7xS87iActkU",
+   "frames": [
+    1790,
+    1818,
+    1860
+   ],
+   "observation": "Steel arch bridge with lamps and rails stays rigid and consistent during a fly-in; rail geometry and perspective are clean.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "10_7xS87iActkU",
+   "frames": [
+    0,
+    30,
+    1100
+   ],
+   "observation": "Same hero model, cap stripes and colours reappear in every scene; limbs keep their length.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "10_7xS87iActkU",
+   "frames": [
+    960,
+    990,
+    1000
+   ],
+   "observation": "Newspaper text 'The Red Mesa Herald' is crisp, stable and readable across the take.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "10_7xS87iActkU",
+   "frames": [
+    1092,
+    1236
+   ],
+   "observation": "Calendar, thermometer and calipers stay readable; the coin gap grows smaller consistently; rails change colour smoothly.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "10_7xS87iActkU",
+   "frames": [
+    1790,
+    1860,
+    1900
+   ],
+   "observation": "Cliff walls show horizontal stripe or streak texture on the lower canyon, and the purple chasm water looks smeared.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "10_7xS87iActkU",
+   "frames": [
+    1930,
+    1936,
+    1942
+   ],
+   "observation": "The fireball looks like a volumetric VFX; the characters are then composited at the lower corners.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "11_Mz72MuPgnGY",
+   "frames": [
+    0,
+    30,
+    60
+   ],
+   "observation": "Pot, hull, porthole and oil stream keep consistent geometry through a long camera orbit; clean perspective.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "11_Mz72MuPgnGY",
+   "frames": [
+    440,
+    455,
+    461
+   ],
+   "observation": "Same hat badge, moustache and face outlines repeat identically between frames; only mouth/brow pose changes.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "11_Mz72MuPgnGY",
+   "frames": [
+    1320,
+    1350,
+    1370
+   ],
+   "observation": "Galley props (lantern, porthole, pot, cabinet) keep rigid positions while camera drifts; crisp perspective.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "11_Mz72MuPgnGY",
+   "frames": [
+    1400,
+    1470
+   ],
+   "observation": "STORM OIL label on tin stays crisp and spelled correctly; no warping text.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "11_Mz72MuPgnGY",
+   "frames": [
+    1894,
+    1903,
+    1912,
+    1930
+   ],
+   "observation": "Explosion and smoke are flat polygonal comic shapes with black outlines, hat shapes float like 2D sprites.",
+   "points_to": "hand animation"
+  },
+  {
+   "video": "11_Mz72MuPgnGY",
+   "frames": [
+    791,
+    797,
+    809
+   ],
+   "observation": "Fast zoom out holds geometry steady; ship and tower stay stable while sea turns stormy, consistent with a camera move not a generated morph.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "12_5WMQhPObNqQ",
+   "frames": [
+    30,
+    33,
+    36,
+    42
+   ],
+   "observation": "Piggy bank bursts into glossy shards, coins and dust that fly with consistent shading and lighting; pieces keep rigid shape from frame to frame.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "12_5WMQhPObNqQ",
+   "frames": [
+    378,
+    380,
+    384,
+    388
+   ],
+   "observation": "Camera dives through a hand mirror: foreground heads scale up with parallax, background blurs with real depth of field, outlines grow with the object, geometry stays solid.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "12_5WMQhPObNqQ",
+   "frames": [
+    1831,
+    1861,
+    1891,
+    1921
+   ],
+   "observation": "In-world sign letters N-I-N-E appear crisply one by one and stay readable; banknotes tumble and pile up without morphing; the MILK RUN 1000-1 plate stays identical.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "12_5WMQhPObNqQ",
+   "frames": [
+    1242,
+    1250,
+    1260,
+    1264
+   ],
+   "observation": "Teller's face redraws as discrete mouth shapes (D, closed, round O) with identical outline, visor and banknote in all frames; no limb or texture drift.",
+   "points_to": "hand animation"
+  },
+  {
+   "video": "12_5WMQhPObNqQ",
+   "frames": [
+    1458,
+    1464,
+    1469,
+    1475
+   ],
+   "observation": "Fast fly-through from the street into the telegraph nook keeps perspective, signs (BETS OPEN, horse-name board) and room geometry consistent frame to frame: a built set.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "12_5WMQhPObNqQ",
+   "frames": [
+    120,
+    720,
+    1560,
+    1900
+   ],
+   "observation": "The same odds board with the 9 MILK RUN plate and the same characters recur identically across the video with matching text and colours: reused assets, not regenerated images.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "13_ZDy3xXA2iHk",
+   "frames": [
+    150,
+    190
+   ],
+   "observation": "Clean geometry of concentric streets and houses holds through a fly-through.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "13_ZDy3xXA2iHk",
+   "frames": [
+    0,
+    1892
+   ],
+   "observation": "Characters keep identical outlines and shapes across shots; only eyes and mouth swap.",
+   "points_to": "hand animation"
+  },
+  {
+   "video": "13_ZDy3xXA2iHk",
+   "frames": [
+    720,
+    780
+   ],
+   "observation": "Counter digits and button details stay crisp and consistent.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "13_ZDy3xXA2iHk",
+   "frames": [
+    1600,
+    1700
+   ],
+   "observation": "Dozens of crowd members reuse the same few character assets.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "13_ZDy3xXA2iHk",
+   "frames": [
+    560,
+    571
+   ],
+   "observation": "Dissolve and ring glow added in compositing.",
+   "points_to": "unclear"
+  },
+  {
+   "video": "14_LC8hYwUZ-kU",
+   "frames": [
+    940,
+    1000,
+    1040
+   ],
+   "observation": "PHOTOGRAPHS sign and its tiny subtext keep identical spelling and shape across a 3.4 s push-in while defocused; no letter warping.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "14_LC8hYwUZ-kU",
+   "frames": [
+    1632,
+    1652,
+    1672
+   ],
+   "observation": "FIRST BANK sign, windows and cornice keep rigid perspective-correct geometry on a static camera; characters repeat the same costume details.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "14_LC8hYwUZ-kU",
+   "frames": [
+    429,
+    432,
+    435,
+    438
+   ],
+   "observation": "Flame wisps, glow ring and speed lines are flat 2D sprites over a 3D-lit blurred street; hat and holster shapes stay identical frame to frame.",
+   "points_to": "hand animation"
+  },
+  {
+   "video": "14_LC8hYwUZ-kU",
+   "frames": [
+    508,
+    520,
+    532,
+    544
+   ],
+   "observation": "Hat, gun, head and body move as separate objects with clean ballistic arcs and dust sprites; head size changes between poses by design, not by drift.",
+   "points_to": "hand animation"
+  },
+  {
+   "video": "14_LC8hYwUZ-kU",
+   "frames": [
+    1212,
+    1213,
+    1214,
+    1215
+   ],
+   "observation": "During a fast camera orbit frames come in identical pairs (1212=1213, 1214=1215): a held-frame cadence typical of keyed or on-twos output (estimate).",
+   "points_to": "hand animation"
+  },
+  {
+   "video": "14_LC8hYwUZ-kU",
+   "frames": [
+    366,
+    374,
+    390,
+    398,
+    406
+   ],
+   "observation": "Eddie's mouth swaps between a closed moustache and an open-mouth sprite while outline weight, hat and straw stay constant; no morphing or drifting detail.",
+   "points_to": "hand animation"
+  },
+  {
+   "video": "15_t3OXkhlI6NQ",
+   "frames": [
+    0,
+    90
+   ],
+   "observation": "Clean geometry of shelves, counter and lamp holds identical across shots; same clerk model repeats",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "15_t3OXkhlI6NQ",
+   "frames": [
+    1710,
+    1730
+   ],
+   "observation": "Ledger text legible and consistent between frames, but not checked closely",
+   "points_to": "unclear"
+  },
+  {
+   "video": "15_t3OXkhlI6NQ",
+   "frames": [
+    1590,
+    1610
+   ],
+   "observation": "Character head tint shifts from warm to blue within a take while outline stays rigid",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "15_t3OXkhlI6NQ",
+   "frames": [
+    2243,
+    2333
+   ],
+   "observation": "Wall drawings in ward are small repeating glyphs and shapes, stay stable",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "15_t3OXkhlI6NQ",
+   "frames": [
+    700,
+    715
+   ],
+   "observation": "Pool water transitions into streak overlay, a deliberate stylised transition",
+   "points_to": "unclear"
+  },
+  {
+   "video": "19_0m6G8pDtzNs",
+   "frames": [
+    1320,
+    1350,
+    1370
+   ],
+   "observation": "Furniture, door, bookshelf and tile floor keep exact geometry through a camera move.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "19_0m6G8pDtzNs",
+   "frames": [
+    1500,
+    1560
+   ],
+   "observation": "Small in-world text (CAREER DEVELOPMENT ROOM, LABOR LAW, SAFETY FIRST) stays crisp across shots.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "19_0m6G8pDtzNs",
+   "frames": [
+    1680,
+    1702
+   ],
+   "observation": "Cat, cabinet, noticeboard and lamp move rigidly with parallax and do not morph.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "19_0m6G8pDtzNs",
+   "frames": [
+    750,
+    780
+   ],
+   "observation": "Same boss, desk and room reused across many shots with identical details.",
+   "points_to": "3D engine render"
+  },
+  {
+   "video": "19_0m6G8pDtzNs",
+   "frames": [
+    1230,
+    1260
+   ],
+   "observation": "Faces swap between discrete expressions; mouth stays a fixed shape.",
+   "points_to": "hand animation"
+  }
+ ],
+ "lighting_mood_shifts": [
+  {
+   "video": "01_NpRAk-5VKlo",
+   "t": 14.0,
+   "change": "Bright room goes dark blue night",
+   "story_reason": "Secret night flush"
+  },
+  {
+   "video": "01_NpRAk-5VKlo",
+   "t": 25.5,
+   "change": "Red warning light on radio panel",
+   "story_reason": "Alarm"
+  },
+  {
+   "video": "01_NpRAk-5VKlo",
+   "t": 40.0,
+   "change": "Cyan glow in tunnel then bright ice sparkle",
+   "story_reason": "Spray vents into space"
+  },
+  {
+   "video": "01_NpRAk-5VKlo",
+   "t": 59.4,
+   "change": "Warm brown and gold scope ring",
+   "story_reason": "Final focus on real stars"
+  },
+  {
+   "video": "02_7dGWuCeZ8Ic",
+   "t": 0.8,
+   "change": "Warm orange glow appears in a cool bright cell",
+   "story_reason": "tunnel breakthrough"
+  },
+  {
+   "video": "02_7dGWuCeZ8Ic",
+   "t": 4.1,
+   "change": "Cool daylight to warm gold vault light",
+   "story_reason": "reveal of the bank vault and its treasure"
+  },
+  {
+   "video": "02_7dGWuCeZ8Ic",
+   "t": 12.5,
+   "change": "Gold to cool grey-blue prison interiors",
+   "story_reason": "back to dull prison reality while the problems are listed"
+  },
+  {
+   "video": "02_7dGWuCeZ8Ic",
+   "t": 21.3,
+   "change": "Day to deep navy-violet night with a warm hole glow",
+   "story_reason": "secret return from the heist; cellmate scene"
+  },
+  {
+   "video": "02_7dGWuCeZ8Ic",
+   "t": 30.6,
+   "change": "Night navy to washed-out bright morning with bloom through the doors",
+   "story_reason": "guards storm in; tension spike"
+  },
+  {
+   "video": "02_7dGWuCeZ8Ic",
+   "t": 32.5,
+   "change": "Flat clinical white and beige light",
+   "story_reason": "search scene, nothing hidden"
+  },
+  {
+   "video": "02_7dGWuCeZ8Ic",
+   "t": 43.7,
+   "change": "Bright break room to dark night block with warm accents",
+   "story_reason": "reveal of the guards' secret shovel handover"
+  },
+  {
+   "video": "02_7dGWuCeZ8Ic",
+   "t": 49.3,
+   "change": "Cool fluorescent staff lane",
+   "story_reason": "mechanism of the cash smuggling"
+  },
+  {
+   "video": "02_7dGWuCeZ8Ic",
+   "t": 52.8,
+   "change": "Indoor cool to sunny exterior with warm walls and blue shadows",
+   "story_reason": "payoff, release-day freedom"
+  },
+  {
+   "video": "04_aD73kaL_PtY",
+   "t": 16.5,
+   "change": "Warm dusk tint with orange cars",
+   "story_reason": "Crashes double; hazard turns darker."
+  },
+  {
+   "video": "04_aD73kaL_PtY",
+   "t": 31.0,
+   "change": "Stormy dark sky, lightning flash",
+   "story_reason": "Sheriff's rage with the axe."
+  },
+  {
+   "video": "04_aD73kaL_PtY",
+   "t": 43.6,
+   "change": "Hard switch to cold, dark rainy night",
+   "story_reason": "Explainer mode, a more serious tone."
+  },
+  {
+   "video": "04_aD73kaL_PtY",
+   "t": 52.0,
+   "change": "Warm orange glow on the sheriff's face, red eyes",
+   "story_reason": "Hypnotic lock-on to the tree."
+  },
+  {
+   "video": "06_i4hYq1oSXTg",
+   "t": 6.0,
+   "change": "Luma drops from about 147 to about 84; overcast look with a warm gate light cone",
+   "story_reason": "From the sunny hook to the gloomier mocking setup at the gate (estimate)."
+  },
+  {
+   "video": "06_i4hYq1oSXTg",
+   "t": 28.2,
+   "change": "Dusk to rainy blue-violet night; luma falls to about 58",
+   "story_reason": "Stakes: one leak could ruin the weapon."
+  },
+  {
+   "video": "06_i4hYq1oSXTg",
+   "t": 36.8,
+   "change": "Night to orange-pink dawn",
+   "story_reason": "Time jump to the morning of the attack."
+  },
+  {
+   "video": "06_i4hYq1oSXTg",
+   "t": 40.4,
+   "change": "Hard bright daylight and saturated blue sky",
+   "story_reason": "The charge: clarity and urgency."
+  },
+  {
+   "video": "06_i4hYq1oSXTg",
+   "t": 50.8,
+   "change": "Warm golden glow and bloom (luma about 145, saturation about 124)",
+   "story_reason": "The rope is lit and the secret is revealed."
+  },
+  {
+   "video": "06_i4hYq1oSXTg",
+   "t": 60.4,
+   "change": "White-gold flash, then orange fire glow on the army line",
+   "story_reason": "Launch and impact."
+  },
+  {
+   "video": "06_i4hYq1oSXTg",
+   "t": 65.4,
+   "change": "Fire-lit backlight behind the smirking protagonist under a cooler blue sky",
+   "story_reason": "Payoff image."
+  },
+  {
+   "video": "07_e9NoHjAXYIY",
+   "t": 18.6,
+   "change": "Bright day turns dusk purple",
+   "story_reason": "Escalation of repeated scam"
+  },
+  {
+   "video": "07_e9NoHjAXYIY",
+   "t": 29.5,
+   "change": "Warm to cold blue night",
+   "story_reason": "Crime accumulates, tension"
+  },
+  {
+   "video": "07_e9NoHjAXYIY",
+   "t": 43.6,
+   "change": "Bright to dim grey rain",
+   "story_reason": "Final scene and reversal"
+  },
+  {
+   "video": "07_e9NoHjAXYIY",
+   "t": 56.4,
+   "change": "Cool dashcam grading",
+   "story_reason": "Evidence reveal"
+  },
+  {
+   "video": "09_HxqtHI62otM",
+   "t": 26.8,
+   "change": "Pink fill darkens to a red vignette with red crack lines",
+   "story_reason": "Shows the inmate's violent strength before the pink treatment sets in"
+  },
+  {
+   "video": "09_HxqtHI62otM",
+   "t": 29.0,
+   "change": "Bright, pale, calm light at the door; the inmate looks drained of colour",
+   "story_reason": "After fifteen minutes the inmate is docile"
+  },
+  {
+   "video": "09_HxqtHI62otM",
+   "t": 31.0,
+   "change": "Hard sun beams, bloom and high contrast in the wide hall",
+   "story_reason": "Comic arm-wrestle demonstration of the weakened giant"
+  },
+  {
+   "video": "09_HxqtHI62otM",
+   "t": 43.2,
+   "change": "Daylight cross-dissolves to deep blue night with warm orange booth glow",
+   "story_reason": "Tension rises as a guard forgets the prisoner"
+  },
+  {
+   "video": "09_HxqtHI62otM",
+   "t": 50.3,
+   "change": "Cell glow blooms to hot pink with a wide top shaft, then a white starburst at 51.6 s",
+   "story_reason": "The prisoner snaps and rips up the bench"
+  },
+  {
+   "video": "09_HxqtHI62otM",
+   "t": 57.3,
+   "change": "Back to soft high-key pale pink around the knitting inmate",
+   "story_reason": "Calm explainer after the chaos"
+  },
+  {
+   "video": "09_HxqtHI62otM",
+   "t": 64.4,
+   "change": "Dark red vignette, red cracks and a darkened head with red eyes",
+   "story_reason": "Final reversal: overstaying turns calm into rage"
+  },
+  {
+   "video": "10_7xS87iActkU",
+   "t": 0,
+   "change": "Dark red and magenta key with the headlight",
+   "story_reason": "Tension at the opening"
+  },
+  {
+   "video": "10_7xS87iActkU",
+   "t": 3.5,
+   "change": "Bright blue sky, saturated sun",
+   "story_reason": "Setting up the race"
+  },
+  {
+   "video": "10_7xS87iActkU",
+   "t": 38.5,
+   "change": "Hot orange, rails go pink to yellow",
+   "story_reason": "Summer heat rises"
+  },
+  {
+   "video": "10_7xS87iActkU",
+   "t": 59.5,
+   "change": "Golden-pink dusk with haze",
+   "story_reason": "Calm before the buckle"
+  },
+  {
+   "video": "10_7xS87iActkU",
+   "t": 64.3,
+   "change": "White flash to orange fire, then blue sky",
+   "story_reason": "Explosion, then the aftermath"
+  },
+  {
+   "video": "11_Mz72MuPgnGY",
+   "t": 11.4,
+   "change": "Sky darkens to grey-blue with clouds",
+   "story_reason": "Storm announced."
+  },
+  {
+   "video": "11_Mz72MuPgnGY",
+   "t": 27.0,
+   "change": "Warm day palette switches to saturated deep blue night with rain",
+   "story_reason": "Ship enters the storm."
+  },
+  {
+   "video": "11_Mz72MuPgnGY",
+   "t": 43.0,
+   "change": "Cold blue switches to warm orange galley",
+   "story_reason": "Explanation moves indoors to a calm, cozy cut-away."
+  },
+  {
+   "video": "11_Mz72MuPgnGY",
+   "t": 50.5,
+   "change": "Very bright yellow soup close-up",
+   "story_reason": "Emphasis on the oily surface."
+  },
+  {
+   "video": "11_Mz72MuPgnGY",
+   "t": 53.0,
+   "change": "Returns to deep blue with glow under the ship",
+   "story_reason": "Back to the storm to prove the mechanism."
+  },
+  {
+   "video": "12_5WMQhPObNqQ",
+   "t": 3.45,
+   "change": "From hard low sun to soft cool window light on warm wood (luma about 94-120)",
+   "story_reason": "settling into the betting room and the mocking crowd"
+  },
+  {
+   "video": "12_5WMQhPObNqQ",
+   "t": 22.1,
+   "change": "Warm golden window light with amber floor patches (warm share about 0.8-0.86)",
+   "story_reason": "afternoon passing; heckling builds"
+  },
+  {
+   "video": "12_5WMQhPObNqQ",
+   "t": 35.5,
+   "change": "Sun-star flare blows out the window",
+   "story_reason": "the hill signals; turns the plot"
+  },
+  {
+   "video": "12_5WMQhPObNqQ",
+   "t": 37.7,
+   "change": "Dim low-key lamp light on maroon and green (luma about 70)",
+   "story_reason": "he risks everything; teller pities him"
+  },
+  {
+   "video": "12_5WMQhPObNqQ",
+   "t": 48.6,
+   "change": "Pink-orange dusk sky, then a bright bulb in the dark telegraph nook (luma about 51 at the desk)",
+   "story_reason": "the wire signal; time has passed"
+  },
+  {
+   "video": "12_5WMQhPObNqQ",
+   "t": 52.8,
+   "change": "Magenta-purple sunset on the hill; orange rim light and dust on the track",
+   "story_reason": "payoff race at its most dramatic"
+  },
+  {
+   "video": "12_5WMQhPObNqQ",
+   "t": 58.1,
+   "change": "Cool blue-violet dusk room (warm share about 0.1, luma about 76) with warm window specks",
+   "story_reason": "final reversal: the laughter stops"
+  },
+  {
+   "video": "13_ZDy3xXA2iHk",
+   "t": 16.1,
+   "change": "Day blue to deep blue night with orange glow.",
+   "story_reason": "Introduces the eerie glow."
+  },
+  {
+   "video": "13_ZDy3xXA2iHk",
+   "t": 31.3,
+   "change": "Town goes to night with lit windows.",
+   "story_reason": "Heist-like bet and 3am attempt."
+  },
+  {
+   "video": "13_ZDy3xXA2iHk",
+   "t": 46.5,
+   "change": "Sky flushes orange and overexposed.",
+   "story_reason": "Consequence of pressing the button."
+  },
+  {
+   "video": "13_ZDy3xXA2iHk",
+   "t": 48.8,
+   "change": "Bright daylight green field.",
+   "story_reason": "Reset after the town vanishes."
+  },
+  {
+   "video": "14_LC8hYwUZ-kU",
+   "t": 0.0,
+   "change": "Bright noon: hard high sun, saturated blue sky",
+   "story_reason": "Open standoff, clear and punchy"
+  },
+  {
+   "video": "14_LC8hYwUZ-kU",
+   "t": 25.7,
+   "change": "Golden hour: warm orange backlight, long blue shadows, dust haze",
+   "story_reason": "Time passes as many challengers arrive and fall"
+  },
+  {
+   "video": "14_LC8hYwUZ-kU",
+   "t": 36.8,
+   "change": "Dim saloon interior: maroon room, warm lamps, cool windows, bright phone glow",
+   "story_reason": "Everyday phone analogy away from the duel"
+  },
+  {
+   "video": "14_LC8hYwUZ-kU",
+   "t": 44.7,
+   "change": "Daylight seen through a round window, then teal office with a warm desk lamp",
+   "story_reason": "Enter the mind metaphor: deciding takes time"
+  },
+  {
+   "video": "14_LC8hYwUZ-kU",
+   "t": 52.0,
+   "change": "Office relit cold moonlit blue with an empty desk",
+   "story_reason": "Eddie decides nothing"
+  },
+  {
+   "video": "14_LC8hYwUZ-kU",
+   "t": 54.4,
+   "change": "Night street, blue key with pink bounce, small orange flash",
+   "story_reason": "Final reaction shot"
+  },
+  {
+   "video": "15_t3OXkhlI6NQ",
+   "t": 17.3,
+   "change": "Switch from dark blue to bright sunny pool",
+   "story_reason": "Rich side contrast"
+  },
+  {
+   "video": "15_t3OXkhlI6NQ",
+   "t": 23.5,
+   "change": "Back to cool dim blue",
+   "story_reason": "Poor side"
+  },
+  {
+   "video": "15_t3OXkhlI6NQ",
+   "t": 65.2,
+   "change": "White flash then warm sunbeam",
+   "story_reason": "Sale pays and brother cured"
+  },
+  {
+   "video": "15_t3OXkhlI6NQ",
+   "t": 71.3,
+   "change": "Warm to cold saturated blue",
+   "story_reason": "Jerry's blank face, loss"
+  },
+  {
+   "video": "19_0m6G8pDtzNs",
+   "t": 37.0,
+   "change": "Switch to a deep blue night exterior.",
+   "story_reason": "Peeks into other worker's solitude."
+  },
+  {
+   "video": "19_0m6G8pDtzNs",
+   "t": 49.6,
+   "change": "Bright white to dark saturated blue with warm lamp.",
+   "story_reason": "Explainer reveals the bleak mechanism."
+  }
+ ],
+ "could_not_determine": [
+  {
+   "video": "01_NpRAk-5VKlo",
+   "item": "Exact software (Blender, Unreal or Unity)"
+  },
+  {
+   "video": "01_NpRAk-5VKlo",
+   "item": "Whether characters are cut-out sprites or 3D planes with outline shader"
+  },
+  {
+   "video": "01_NpRAk-5VKlo",
+   "item": "Whether the voice is TTS or human"
+  },
+  {
+   "video": "02_7dGWuCeZ8Ic",
+   "item": "Human vs synthetic narration voice (audio not reviewed here)."
+  },
+  {
+   "video": "02_7dGWuCeZ8Ic",
+   "item": "Software used (Unreal, Unity, Blender, After Effects): no UI or watermark visible."
+  },
+  {
+   "video": "02_7dGWuCeZ8Ic",
+   "item": "Whether the 2D puppets are rigged inside a 3D engine or composited in a 2D tool."
+  },
+  {
+   "video": "02_7dGWuCeZ8Ic",
+   "item": "Whether the story is a real case: no real names or dates on screen (invented 'Cobble Falls' bank, 2026 CCTV stamp)."
+  },
+  {
+   "video": "02_7dGWuCeZ8Ic",
+   "item": "Whether the strata textures in the cutaways are painted, procedural or AI-made."
+  },
+  {
+   "video": "02_7dGWuCeZ8Ic",
+   "item": "Whether mouth shapes follow phonemes (a 4-frame sampling step is too coarse)."
+  },
+  {
+   "video": "02_7dGWuCeZ8Ic",
+   "item": "Whether the 41.27 s orange suspect (bars sweeping, figures at frame edge change) hides a swipe cut; treated as camera move."
+  },
+  {
+   "video": "02_7dGWuCeZ8Ic",
+   "item": "Exact caption font."
+  },
+  {
+   "video": "04_aD73kaL_PtY",
+   "item": "Which engine or software built the 3D scenes (visual evidence points to a real-time engine such as Unreal or Unity, not decided)"
+  },
+  {
+   "video": "04_aD73kaL_PtY",
+   "item": "Whether the characters are 2D sprites or flat 3D meshes"
+  },
+  {
+   "video": "04_aD73kaL_PtY",
+   "item": "Exact transition type at 28.67s (looks like a camera move)"
+  },
+  {
+   "video": "06_i4hYq1oSXTg",
+   "item": "Narrator voice (human vs TTS, any voice change for quoted lines): audio was not listened to in this by-eye review."
+  },
+  {
+   "video": "06_i4hYq1oSXTg",
+   "item": "Whether mouth swaps are hand-keyed or auto lip-sync: only one speaking moment (11.5-12.6 s) was sampled at 3-frame steps; lip-sync label is an estimate."
+  },
+  {
+   "video": "06_i4hYq1oSXTg",
+   "item": "Engine or software (Unreal, Unity, Blender, other) and whether the 2D characters are billboards, flat meshes or compositing layers: not decidable from frames."
+  },
+  {
+   "video": "06_i4hYq1oSXTg",
+   "item": "Blinks: none seen in 12 frames (1.1 s, commander) and 6 frames (2.5 s, rain scene); blinking elsewhere is unchecked."
+  },
+  {
+   "video": "06_i4hYq1oSXTg",
+   "item": "Eight orange suspects (1.17, 2.03, 2.33, 18.30, 22.00, 26.00, 54.00, 61.03 s) judged camera moves or VFX, not joins; 22.00 s is an in-place foreground-grass swap (estimate)."
+  },
+  {
+   "video": "06_i4hYq1oSXTg",
+   "item": "Hidden joins in the 22.6 s span 14.2-36.8 s: place and time of day change (dusk to night at 28-29 s) with no detected join; frames between contact-sheet seconds were not inspected."
+  },
+  {
+   "video": "06_i4hYq1oSXTg",
+   "item": "Camera shake: none seen in the 12-frame whip-pan sample; faster moves at 53-55 s were only seen on four consecutive frames."
+  },
+  {
+   "video": "07_e9NoHjAXYIY",
+   "item": "Whether the 60.63 s change is a separate take or a lighting tweak."
+  },
+  {
+   "video": "07_e9NoHjAXYIY",
+   "item": "Which characters share the single narrator voice."
+  },
+  {
+   "video": "07_e9NoHjAXYIY",
+   "item": "Shadow under 2D characters."
+  },
+  {
+   "video": "07_e9NoHjAXYIY",
+   "item": "Hair/hat sample point positions are estimates from the sheets."
+  },
+  {
+   "video": "09_HxqtHI62otM",
+   "item": "Whether mouth swaps are timed to narrator syllables (frames sampled only every 4 f)."
+  },
+  {
+   "video": "09_HxqtHI62otM",
+   "item": "Whether 9.5-10.1 s (wide hot-pink cell to scientist close-up) is a fast push-in or a hidden cut; not on the boundary sheets."
+  },
+  {
+   "video": "09_HxqtHI62otM",
+   "item": "Whether 38.90 s is one continuous camera rise or a spliced match cut (judged continuous, estimate)."
+  },
+  {
+   "video": "09_HxqtHI62otM",
+   "item": "Whether the knitting inmate and the 300-pound inmate are the same character (matching vest and anchor mark; estimate)."
+  },
+  {
+   "video": "09_HxqtHI62otM",
+   "item": "Engine or software (Blender, Unreal, Unity): no UI or watermark visible; the look fits several 3D pipelines."
+  },
+  {
+   "video": "09_HxqtHI62otM",
+   "item": "Any camera shake on the arm-wrestle slam (33-35 s); contact tiles show nothing conclusive."
+  },
+  {
+   "video": "09_HxqtHI62otM",
+   "item": "Exact calendar day and the truck lettering (tiny text)."
+  },
+  {
+   "video": "10_7xS87iActkU",
+   "item": "Whether the engine is Unreal, Unity or a game-style renderer"
+  },
+  {
+   "video": "10_7xS87iActkU",
+   "item": "Whether characters are real 3D or 2D planes in the scene"
+  },
+  {
+   "video": "10_7xS87iActkU",
+   "item": "Blink cycle (none clearly seen)"
+  },
+  {
+   "video": "10_7xS87iActkU",
+   "item": "Exact SFX sources"
+  },
+  {
+   "video": "10_7xS87iActkU",
+   "item": "Exact sample-point colours depend on the script reading; positions are estimates"
+  },
+  {
+   "video": "11_Mz72MuPgnGY",
+   "item": "Exact 3D software and whether character rigs are skeletal or sprite-based."
+  },
+  {
+   "video": "11_Mz72MuPgnGY",
+   "item": "Whether blinking exists in the characters, as no blink frame was caught."
+  },
+  {
+   "video": "11_Mz72MuPgnGY",
+   "item": "Exact lens focal length of the render camera."
+  },
+  {
+   "video": "12_5WMQhPObNqQ",
+   "item": "Phoneme-level lip-sync: mouth open/closed pattern and an O shape on the stressed vowel were seen, but no audio was checked, so 'flaps while speaking' is an estimate."
+  },
+  {
+   "video": "12_5WMQhPObNqQ",
+   "item": "48.10 s suspect (f1441-1444): ghosted double images over the judges' booth could be a 2-3 frame dissolve or glass reflections during a fast move."
+  },
+  {
+   "video": "12_5WMQhPObNqQ",
+   "item": "Gaze at frame 0 was judged from a 195 px tile (looks toward the piggy bank); later holds show him facing the lens."
+  },
+  {
+   "video": "12_5WMQhPObNqQ",
+   "item": "Blink rate: sampled frames 0.2-0.4 s apart can miss 3-5 frame blinks."
+  },
+  {
+   "video": "12_5WMQhPObNqQ",
+   "item": "Whether set outlines are baked into textures or a post-process line shader; whether head turns are true 3D rotation or sliding face features."
+  },
+  {
+   "video": "12_5WMQhPObNqQ",
+   "item": "Whether the mirror-and-wire story is a documented incident or an invented illustration of past-posting; software used (Blender, Unreal, After Effects) cannot be told by eye."
+  },
+  {
+   "video": "12_5WMQhPObNqQ",
+   "item": "Sample point coordinates were read by eye from the sheets (about +/-0.02); check the hex values land on flat fills."
+  },
+  {
+   "video": "13_ZDy3xXA2iHk",
+   "item": "Montage checks not done: the montage Bash call was blocked by the workspace policy."
+  },
+  {
+   "video": "13_ZDy3xXA2iHk",
+   "item": "Blink timing and lip movement frame-by-frame."
+  },
+  {
+   "video": "13_ZDy3xXA2iHk",
+   "item": "Whether the tally counter changes digit within the take."
+  },
+  {
+   "video": "14_LC8hYwUZ-kU",
+   "item": "Gaze direction of the challenger in frames 0-18: eyes are slits without pupils; head faces the camera (estimate)."
+  },
+  {
+   "video": "14_LC8hYwUZ-kU",
+   "item": "Whether Eddie's mouth flaps at syllable rate on the quoted line: samples were 8 frames apart, so fast flapping cannot be excluded."
+  },
+  {
+   "video": "14_LC8hYwUZ-kU",
+   "item": "Whether the paired frames at 40.47 s mean 15 fps animation or a camera rendered on twos: only 4 consecutive frames were viewed."
+  },
+  {
+   "video": "14_LC8hYwUZ-kU",
+   "item": "Exact thumbnail frame: it is an auto-picked still, matched only by caption and pose to about 35.0-35.8 s."
+  },
+  {
+   "video": "14_LC8hYwUZ-kU",
+   "item": "Full-resolution legibility of FEED & LIVERY, BANK, the REWARD poster and the saloon beer sign: no text crop was viewed."
+  },
+  {
+   "video": "14_LC8hYwUZ-kU",
+   "item": "The first montage call was blocked and counted against the 14-call budget, so only 3 montages were viewed; no zoomed text crop and no 5th montage."
+  },
+  {
+   "video": "14_LC8hYwUZ-kU",
+   "item": "Whether the video loops: the last frames are a standoff and frame 0 shows the draw, but no seam was measured."
+  },
+  {
+   "video": "15_t3OXkhlI6NQ",
+   "item": "Mouth movement during speech (face montage not built, tool budget used)"
+  },
+  {
+   "video": "15_t3OXkhlI6NQ",
+   "item": "Idle blink detail inside long holds"
+  },
+  {
+   "video": "15_t3OXkhlI6NQ",
+   "item": "Whether 42.4 s is a join or a camera swing"
+  },
+  {
+   "video": "15_t3OXkhlI6NQ",
+   "item": "Exact fine text on the ledger and in-world signs"
+  },
+  {
+   "video": "19_0m6G8pDtzNs",
+   "item": "Which 3D software was used"
+  },
+  {
+   "video": "19_0m6G8pDtzNs",
+   "item": "Whether stick characters are 2D layers composited in a 3D scene or 3D rigs"
+  },
+  {
+   "video": "19_0m6G8pDtzNs",
+   "item": "Exact tool for caption and SFX (estimate only)"
+  }
+ ],
+ "per_video": {
+  "01_NpRAk-5VKlo": {
+   "hook": {
+    "first_frame": "Smug boy in yellow vest with hands on hips beside a white toilet on a checkerboard floor, Earth in a porthole behind, toilet paper flying.",
+    "first_3s": "Hero smirks then closes eyes for ~1.1s, hard cut at 1.17s to exterior window, then a ship above Earth tilts and fires its thruster.",
+    "line_type": "second-person hypothetical (if you)",
+    "first_frame_shot_size": "medium-long",
+    "first_frame_subject": "protagonist posing with the key prop",
+    "protagonist_looks_at_camera": true,
+    "title_vs_first_line": "Title restates the topic as a question; the first line gives the dramatic consequence of the same act."
+   },
+   "story": {
+    "topic_type": "engineering/physics",
+    "setting_era": "future/space",
+    "structure": "act first, explain at the end",
+    "real_fact_core": "Spacecraft waste vented overboard freezes into glittering ice crystals and the vent gives tiny thrust, which could confuse star navigation.",
+    "likely_source_type": "invented parable",
+    "protagonist": "Rookie astronaut in yellow vest who breaks the flush rule",
+    "authority_or_antagonist": "Mission Control and a shouting controller; crewmates in red and purple uniforms",
+    "direct_speech_lines": 3,
+    "second_person": true,
+    "tense": "mixed",
+    "explainer_turn": "'But how' at 32.9s, then 'Well, a spaceship toilet' at 35.4s",
+    "ending_type": "explanation is the last line",
+    "call_to_action": "none"
+   },
+   "tone": {
+    "humour": "Absurd escalation from a toilet flush to being lost in space; exaggerated faces.",
+    "deadpan_or_irony": "Deadpan stakes with a rookie's smug eye-roll; faux-serious mission jargon.",
+    "dialogue_style": "Short shouted lines (It's a toilet! Who flushed?) inside fast narration; no pauses."
+   },
+   "beats": [
+    {
+     "name": "hook",
+     "start": 0.0,
+     "end": 3.8,
+     "said": "Flushing a spaceship toilet means you never get back to Earth.",
+     "shown": "Hero beside toilet, then fast cut to ship above Earth and thruster flare."
+    },
+    {
+     "name": "setup",
+     "start": 3.8,
+     "end": 13.7,
+     "said": "Mission Control schedules flushes; rookie ignores tonight's ban and scoffs at it.",
+     "shown": "Mission Control room, GO/NO GO screens, crew desks, rookie rolling eyes."
+    },
+    {
+     "name": "escalation",
+     "start": 13.7,
+     "end": 23.4,
+     "said": "At night he secretly flushes; morning, navigator sees hundreds of new stars.",
+     "shown": "Sleeping bags, hero at toilet, navigator in cockpit with floating sparkle stars."
+    },
+    {
+     "name": "twist",
+     "start": 23.4,
+     "end": 32.9,
+     "said": "Stars are off the map, radio warns they are off course and drifting.",
+     "shown": "Star map card, radio, OFF COURSE screen, shouting controller, drifting ship."
+    },
+    {
+     "name": "explainer",
+     "start": 32.9,
+     "end": 43.9,
+     "said": "Spaceship toilets just vent into space, and each flush pushes the ship.",
+     "shown": "Toilet room Q and A, waste vent tunnel, ship hull with thrust nub."
+    },
+    {
+     "name": "payoff",
+     "start": 43.9,
+     "end": 52.0,
+     "said": "Spray freezes into ice crystals that glitter beside the ship.",
+     "shown": "Close-ups of boiling blob, freezing sphere, snowflake, glittering particle cloud by hull."
+    },
+    {
+     "name": "ending",
+     "start": 52.0,
+     "end": 61.2,
+     "said": "Crew cannot tell fakes from real; without GPS they match real stars.",
+     "shown": "Crew in cockpit, phone searching, hero with telescope, scope LOCK, ship flies off."
+    }
+   ],
+   "thumbnail": "The navigator in purple floating in the glass cockpit surrounded by glitter stars with caption 'of new'; frame near 21 s.",
+   "set_style": "mixed",
+   "lip_sync": "flaps while speaking",
+   "n_joins_checked": 18,
+   "n_missed": 3
+  },
+  "02_7dGWuCeZ8Ic": {
+   "hook": {
+    "first_frame": "Prisoner (orange jumpsuit, headlamp) stands in a bright cell, shovel raised at his side, gritted-teeth face to camera; small white-and-red X mark on floor; first caption word already on screen.",
+    "first_3s": "Shovel swings down; from 0.8 s floor cracks into glowing orange hole with flying rubble; face swaps shocked then smug; hop with scale pop at 2.2 s; slow push-in; dissolve at 2.53 s to tunnel cutaway.",
+    "line_type": "strange action by he/they",
+    "first_frame_shot_size": "long (full body)",
+    "first_frame_subject": "protagonist doing the hook action",
+    "protagonist_looks_at_camera": true,
+    "title_vs_first_line": "Title compresses the premise (prisoner, tunnel, bank); first line gives prisoner and tunnel, the bank arrives in line two, so the title spoils part of the reveal."
+   },
+   "story": {
+    "topic_type": "crime/scam",
+    "setting_era": "modern",
+    "structure": "act first, explain at the end",
+    "real_fact_core": "Corrupt guards use a prisoner as free labour: they let him dig, skip his bunk at headcounts and smuggle the loot out in lunchboxes, splitting it with him.",
+    "likely_source_type": "invented parable",
+    "protagonist": "Unnamed prisoner in orange jumpsuit with headlamp and brown hair tuft",
+    "authority_or_antagonist": "Prison guards, secretly in on the scheme; cellmate is a sarcastic foil",
+    "direct_speech_lines": 2,
+    "second_person": false,
+    "tense": "mixed",
+    "explainer_turn": "'You see' at 41.5 s",
+    "ending_type": "explanation is the last line",
+    "call_to_action": "none"
+   },
+   "tone": {
+    "humour": "Dry situational irony: a heist that cannot work, then guards running it; visual gags (donut guards, shades, plaid lunchbox) and the cellmate's sarcastic quip (estimate).",
+    "deadpan_or_irony": "Deadpan narration with a reversal; viewer is led to think the prisoner is foolish before learning the guards profit (dramatic irony); faces stay smug or blank.",
+    "dialogue_style": "Two quoted one-liners embedded in the narration (cellmate's sarcastic congratulation, guard's one-word verdict); no separate character voices evident (audio not reviewed)."
+   },
+   "beats": [
+    {
+     "name": "hook",
+     "start": 0.0,
+     "end": 7.1,
+     "said": "A prisoner's escape tunnel from his cell ends unexpectedly inside a bank vault opposite the jail.",
+     "shown": "Prisoner swings shovel in sunny cell, floor bursts into orange hole; tunnel cutaway; he rises in the gold vault; camera cranes out to bank facade and street."
+    },
+    {
+     "name": "setup",
+     "start": 7.1,
+     "end": 17.8,
+     "said": "Asks why: he stays locked in, cannot spend loot in jail, and guards would find the bills.",
+     "shown": "Vault with hole, street cutaway, cafeteria with three inmates, corridor with protagonist in shades and guards behind him."
+    },
+    {
+     "name": "escalation",
+     "start": 17.8,
+     "end": 30.3,
+     "said": "He hauls cash back anyway; cellmate sarcastically congratulates him; he stashes it beneath the mattress and repeats nightly.",
+     "shown": "Vault cash grab, night cell with cellmate holding a noodle cup, protagonist on bunk with bills in his collar, glowing hole."
+    },
+    {
+     "name": "twist",
+     "start": 30.3,
+     "end": 41.5,
+     "said": "Guards raid the block at morning, flip his mattress, find nothing and wave him through as clean.",
+     "shown": "Bright doors burst open, guards sweep the block, mattress flipped, nothing under it; close-up of sunglasses guard with plaid bag."
+    },
+    {
+     "name": "explainer",
+     "start": 41.5,
+     "end": 49.0,
+     "said": "Reveal: guards supplied the shovel and left his bunk out of headcounts so he would do the digging.",
+     "shown": "Break-room guards with donut and CCTV monitor, glowing shovel on dark floor, guard with clipboard walks past, cutaway of prisoner digging."
+    },
+    {
+     "name": "payoff",
+     "start": 49.0,
+     "end": 52.8,
+     "said": "Each morning the loot leaves through the front gate inside the guards' lunchboxes.",
+     "shown": "Staff screening lane: X-ray monitor shows lunchboxes full of cash; guard and woman in purple carry lunchboxes out the staff exit."
+    },
+    {
+     "name": "ending",
+     "start": 52.8,
+     "end": 55.36,
+     "said": "Loot is split between guards and prisoner, who collects his half on release day.",
+     "shown": "Sunny street: group behind stacked lunchboxes; prisoner in brown suit walks in, arms up, big grin; last frame held, no CTA text."
+    }
+   ],
+   "thumbnail": "Frame grab of the night cell: cellmate on top bunk with noodle-soup cup, half-lidded eyes, mouth open mid-line, burned-in caption 'the'; about 24.5 s (near f735-f740); no added title or art.",
+   "set_style": "mixed",
+   "lip_sync": "flaps while speaking",
+   "n_joins_checked": 19,
+   "n_missed": 0
+  },
+  "04_aD73kaL_PtY": {
+   "hook": {
+    "first_frame": "Cartoon man in red cap and teal jacket stands on grass beside a road, holding a dark mitt-like object, a dirt mound in front of him.",
+    "first_3s": "He plants a seed, a huge tree bursts up and knocks him over; camera pulls out to a wide of the road with a car swerving toward the tree.",
+    "line_type": "second-person hypothetical (if you)",
+    "first_frame_shot_size": "medium-long",
+    "first_frame_subject": "protagonist doing the hook action",
+    "protagonist_looks_at_camera": false,
+    "title_vs_first_line": "Title names the effect (instinct that makes you crash); the first line states the tree premise, and the title's concept is only named at 43s."
+   },
+   "story": {
+    "topic_type": "psychology/behaviour",
+    "setting_era": "modern",
+    "structure": "act first, explain at the end",
+    "real_fact_core": "Target fixation: drivers steer toward what they stare at, so a salient lone obstacle draws crashes.",
+    "likely_source_type": "psychology",
+    "protagonist": "Tow truck guy and the sheriff (a comic escalation duo)",
+    "authority_or_antagonist": "The sheriff, who repeats the mistake despite knowing.",
+    "direct_speech_lines": 0,
+    "second_person": true,
+    "tense": "present",
+    "explainer_turn": "'So how does this keep happening?' at 42.07s, then 'target fixation' at 43.7s",
+    "ending_type": "explanation is the last line",
+    "call_to_action": "none"
+   },
+   "tone": {
+    "humour": "Absurd escalation: the fix makes it worse, tow driver profits, sheriff repeats the crash.",
+    "deadpan_or_irony": "Deadpan narration over slapstick; heavy irony in the arrow and the sheriff returning for a quiet road.",
+    "dialogue_style": "No quoted dialogue; fast narrated present-tense summary, very short sentences."
+   },
+   "beats": [
+    {
+     "name": "hook",
+     "start": 0.0,
+     "end": 4.1,
+     "said": "Plant a tree beside an empty road and cars will steer right into it.",
+     "shown": "Man plants tree, it grows fast and knocks him over; car veers toward it."
+    },
+    {
+     "name": "setup",
+     "start": 4.1,
+     "end": 9.3,
+     "said": "The road is dead straight for miles and this one tree stands alone beside it.",
+     "shown": "Man on grass by tyre; aerial view of straight road with lone tree."
+    },
+    {
+     "name": "escalation",
+     "start": 9.3,
+     "end": 21.9,
+     "said": "Somebody hits it weekly, so the town adds a flashing arrow, crashes double, tow driver profits.",
+     "shown": "Days-since-crash sign, giant neon arrow, wrecks, tow truck and lawn chair."
+    },
+    {
+     "name": "twist",
+     "start": 21.9,
+     "end": 35.6,
+     "said": "The sheriff investigates, crawls at 15 mph and still crashes, then axes the tree.",
+     "shown": "Sheriff in cruiser, speed sign, crash, furious axe chop with lightning, blast to sky."
+    },
+    {
+     "name": "payoff",
+     "start": 35.6,
+     "end": 42.1,
+     "said": "His cruiser gets fixed, he drives back for peace, and hits the stump again.",
+     "shown": "Garage repair, drive back, cruiser hitting stump by the arrow."
+    },
+    {
+     "name": "explainer",
+     "start": 42.1,
+     "end": 54.6,
+     "said": "It is target fixation: the lone tree stands out, the arrow adds to it, drivers' eyes lock on.",
+     "shown": "Night rain POV of dashboard with road sign, tree glowing in fog, sheriff close-ups."
+    },
+    {
+     "name": "ending",
+     "start": 54.6,
+     "end": 59.5,
+     "said": "Their hands drift the wheel toward it even when it's only a stump.",
+     "shown": "POV of steering wheel, then wide shot of cruiser hitting the stump under dark sky."
+    }
+   ],
+   "thumbnail": "Furious sheriff with red eyes in front of the neon DON'T HIT THIS TREE arrow and tow truck; taken from about 29.5s ('furious').",
+   "set_style": "mixed",
+   "lip_sync": "none (mouth static)",
+   "n_joins_checked": 18,
+   "n_missed": 1
+  },
+  "06_i4hYq1oSXTg": {
+   "hook": {
+    "first_frame": "Protagonist (red coat, white headband, bored half-lidded face) bent over a tall holed wooden board, hand-drilling; grey stone fort wall with a blue tiger banner behind, bright grass in front; caption 'He' at 70% height.",
+    "first_3s": "0-1 s slow push-in on the driller; 1-2 s fast swoop to the drill throwing wood chips into the holed board; 2-3 s whip up the wall past banner and pavilion to a wide valley with a tiny marching army.",
+    "line_type": "strange action by he/they",
+    "first_frame_shot_size": "long (full body)",
+    "first_frame_subject": "protagonist doing the hook action",
+    "protagonist_looks_at_camera": false,
+    "title_vs_first_line": "Title promises the outcome (a cart stops an army); the first line opens on an odd action (82 drilled holes) and withholds the cart, so the title's payoff stays hidden until the end."
+   },
+   "story": {
+    "topic_type": "history/war",
+    "setting_era": "ancient/medieval",
+    "structure": "pure story with twist reveal",
+    "real_fact_core": "A cart panel drilled with dozens of holes holds rocket arrows whose fuses are twisted into one rope, so one flame launches every rocket at once (hwacha-style launcher; estimate).",
+    "likely_source_type": "history",
+    "protagonist": "Deadpan engineer-soldier in a white headband and red coat who builds and guards the launcher cart.",
+    "authority_or_antagonist": "Plumed commander who mocks him; the yellow-uniformed attacking army.",
+    "direct_speech_lines": 2,
+    "second_person": false,
+    "tense": "mixed",
+    "explainer_turn": null,
+    "ending_type": "consequence shown, stops on impact",
+    "call_to_action": "none"
+   },
+   "tone": {
+    "humour": "Dry absurdity: a cheese-grater jibe from the commander, a man as a human umbrella, and an understated punchline over a mushroom cloud.",
+    "deadpan_or_irony": "Protagonist keeps a half-lidded deadpan face in nearly every shot; absurd actions are stated flatly; the smug arms-crossed pose before the explosion lands the irony.",
+    "dialogue_style": "Only two quoted lines, both from side characters whose mouths animate; the protagonist never speaks; one narrator voices them (estimate, audio not heard)."
+   },
+   "beats": [
+    {
+     "name": "hook",
+     "start": 0.0,
+     "end": 5.7,
+     "said": "A man has bored 82 holes in a plank as an enemy army marches on his fort.",
+     "shown": "Protagonist drilling a holed board by a stone wall, swoop to the drill throwing chips, whip up the wall to a valley with a tiny army and a parasol general."
+    },
+    {
+     "name": "setup",
+     "start": 5.7,
+     "end": 12.7,
+     "said": "Others sharpen swords while he keeps drilling; the commander mocks him, asking if this is battle or cheese-grating.",
+     "shown": "Dissolves to soldiers at the gate, the protagonist drilling in the corner, then the plumed commander sneering with an animated mouth (10-12.6 s)."
+    },
+    {
+     "name": "escalation",
+     "start": 12.7,
+     "end": 28.5,
+     "said": "Board on a cart, fused tubes in every hole, one forbidden rope; he slaps a soldier's hand.",
+     "shown": "Cart and board by the red tower, macro pull-out through paper-wrapped tubes and strings, rope twisting, soldiers watching, slap with a red-pink arc (26 s), dusk at 27-28 s."
+    },
+    {
+     "name": "escalation",
+     "start": 28.5,
+     "end": 36.5,
+     "said": "Night rain: he shields the cart with his coat, lying on it; one leak means everyone dies.",
+     "shown": "Blue-violet rainy rampart with glowing lanterns; protagonist leaps onto the cart and lies under a purple coat while two soldiers look up."
+    },
+    {
+     "name": "escalation",
+     "start": 36.5,
+     "end": 48.0,
+     "said": "Army storms the walls at dawn; defenders panic while he waits for the enemy to bunch up.",
+     "shown": "Dawn dissolve to the yellow army charging in dust, shouting defenders around the calm protagonist, three push-ins on the packed enemy crowd with grinning and screaming faces."
+    },
+    {
+     "name": "twist",
+     "start": 48.0,
+     "end": 59.7,
+     "said": "He uncovers the cart, ignites the rope; the fuse splits into 82 flames, each launching an arrow.",
+     "shown": "Red cloth flies off, spark runs along the rope, radial burst of golden rays, macro close-ups of rocket tubes with strong bloom."
+    },
+    {
+     "name": "payoff",
+     "start": 59.7,
+     "end": 65.1,
+     "said": "All 82 rockets leave the cart together and scatter, yet the enemy is so densely packed that...",
+     "shown": "Flash and fire jets at the cart, white smoke trails over the valley, top-down view of the army line catching orange fireballs."
+    },
+    {
+     "name": "ending",
+     "start": 65.1,
+     "end": 66.9,
+     "said": "Every single rocket finds a target; he stands arms crossed, smug, before a mushroom cloud.",
+     "shown": "Orange explosion dissolves to the protagonist on a wall, arms crossed with a smirk, mushroom cloud darkening behind him; the video stops on that image."
+    }
+   ],
+   "thumbnail": "Auto-picked frame, not designed art: the 'at him' beat (about 41.3 s, estimate): four characters on a sunlit stone rampart with a torch flame above, blue sky, protagonist holding the gold rope; caption 'at him' burned in at 70% height.",
+   "set_style": "mixed",
+   "lip_sync": "true lip-sync",
+   "n_joins_checked": 17,
+   "n_missed": 0
+  },
+  "07_e9NoHjAXYIY": {
+   "hook": {
+    "first_frame": "Cartoon driver in yellow shirt seated at the wheel, smirking sideways, in a detailed 3D car interior with a phone in the foreground.",
+    "first_3s": "Grin widens, camera swoops from interior out to a red car on the highway, then a white SUV rams it.",
+    "line_type": "strange action by he/they",
+    "first_frame_shot_size": "medium",
+    "first_frame_subject": "protagonist doing the hook action",
+    "protagonist_looks_at_camera": false,
+    "title_vs_first_line": "Title states the question of why drivers film the road; the first line starts the story with the brake-check crash and never repeats the title."
+   },
+   "story": {
+    "topic_type": "law/economics/work",
+    "setting_era": "modern",
+    "structure": "pure story with twist reveal",
+    "real_fact_core": "Staged rear-end collision insurance fraud (brake-checking) is exposed by video evidence, which is why dashcams spread (estimate).",
+    "likely_source_type": "urban legend",
+    "protagonist": "Fraudster driver in yellow shirt",
+    "authority_or_antagonist": "Insurance clerk, then the quiet driver with dashcam",
+    "direct_speech_lines": 2,
+    "second_person": false,
+    "tense": "present",
+    "explainer_turn": "'And that's how' at 60.1s",
+    "ending_type": "explanation is the last line",
+    "call_to_action": "none"
+   },
+   "tone": {
+    "humour": "Absurd escalation: money piles, buying cars to crash, weak-neck excuse.",
+    "deadpan_or_irony": "Flat clerk and deadpan quiet driver contrast the scammer's grin; final reveal is understated.",
+    "dialogue_style": "Two short lines of spoken dialogue in the same narrator voice; no separate voices (estimate from transcript)."
+   },
+   "beats": [
+    {
+     "name": "hook",
+     "start": 0.0,
+     "end": 4.6,
+     "said": "A man brakes hard on a highway and the car behind crashes into him.",
+     "shown": "Grinning driver in car interior, then red car on highway rear-ended by a white SUV."
+    },
+    {
+     "name": "setup",
+     "start": 4.6,
+     "end": 15.9,
+     "said": "He fakes a neck injury, insurance pays for car, doctor and pain money.",
+     "shown": "Driver and other man on road, lawn with hospital bed and cash."
+    },
+    {
+     "name": "escalation",
+     "start": 15.9,
+     "end": 32.3,
+     "said": "He repeats it with chosen targets, adds a buddy, buys nicer cars to crash.",
+     "shown": "Dusk traffic with red/teal cars, money piles, green sports car smoking."
+    },
+    {
+     "name": "twist",
+     "start": 32.3,
+     "end": 43.6,
+     "said": "Insurance notices five neck injuries; he claims a weak neck and counts on blame.",
+     "shown": "Insurance clerk at desk, man in pool on phone, night lawn with officer."
+    },
+    {
+     "name": "payoff",
+     "start": 43.6,
+     "end": 56.4,
+     "said": "On a rainy morning a quiet driver just points at a taped box.",
+     "shown": "Rainy dashboard POVs, quiet driver pointing at a camera, falling yellow man, sweating close-up."
+    },
+    {
+     "name": "ending",
+     "start": 56.4,
+     "end": 62.3,
+     "said": "The camera filmed an empty road and braking for nothing; thus the dashcam.",
+     "shown": "Dashcam footage with REC and speed overlay, then quiet driver beside camera on glass."
+    }
+   ],
+   "thumbnail": "Scammer in yellow shirt and sunglasses and an angry officer beside a green sports car and a huge money pile, from the night-lawn scene around 39 to 43 s.",
+   "set_style": "mixed",
+   "lip_sync": "mouth changes with pose only",
+   "n_joins_checked": 18,
+   "n_missed": 2
+  },
+  "09_HxqtHI62otM": {
+   "hook": {
+    "first_frame": "Full-body cartoon guard in a navy cap raises a paint roller on a long pole against a teal brick cell wall; hard window light shaft, pink tray lower-left, caption 'They' at about 70% height.",
+    "first_3s": "Guard rolls a magenta stripe down the wall in the light shaft (slow push-in, ~2 s); at 2.1 s the camera swings to a pinned chart (P-618 Baker-Miller Pink, 1 pint red + 1 gallon white) that fills the frame by 3 s.",
+    "line_type": "strange action by he/they",
+    "first_frame_shot_size": "long (full body)",
+    "first_frame_subject": "protagonist doing the hook action",
+    "protagonist_looks_at_camera": false,
+    "title_vs_first_line": "Title restates the first line's premise (pink jail cell) and adds the word experiment; it hides the 15-minute rule and the twist."
+   },
+   "story": {
+    "topic_type": "psychology/behaviour",
+    "setting_era": "1900s",
+    "structure": "act first, explain at the end",
+    "real_fact_core": "Baker-Miller pink (P-618, 1 pint red to 1 gallon white) is claimed to sap aggression for about 15 minutes, then backfire; as told in the video, not verified.",
+    "likely_source_type": "psychology",
+    "protagonist": "The scientist (brown hair, striped tie) who sets the paint recipe and the 15-minute rule; inmates are his test subjects.",
+    "authority_or_antagonist": "Prison guards who follow his rules; the pink cell itself flips from calming to enraging.",
+    "direct_speech_lines": 1,
+    "second_person": false,
+    "tense": "mixed",
+    "explainer_turn": "'You see' at 52.73 s",
+    "ending_type": "explanation is the last line",
+    "call_to_action": "none"
+   },
+   "tone": {
+    "humour": "Light absurd gags: delighted guards with a doll-brand quip, a skinny guard beating a huge inmate in two seconds, a giant knitting a candy-striped scarf, then an over-the-top rage burst.",
+    "deadpan_or_irony": "Fast deadpan narration; dramatic irony in the reversal (a calming colour makes the calm man rage); a rhetorical 'wait, what' beat after the arm-wrestle.",
+    "dialogue_style": "No on-screen speech: characters are mute with expression swaps; the one quoted guard remark is voiced inside the narration; captions mirror the narration only."
+   },
+   "beats": [
+    {
+     "name": "hook",
+     "start": 0.0,
+     "end": 3.32,
+     "said": "A jail cell gets painted pink, and it must be one very particular shade.",
+     "shown": "Guard rolls magenta onto a teal brick wall in a window light shaft; camera swings to a pinned chart reading P-618 Baker-Miller Pink, 1 pint red + 1 gallon white."
+    },
+    {
+     "name": "setup",
+     "start": 3.32,
+     "end": 14.32,
+     "said": "A scientist mixes a precise pink, guards repaint after a bad first coat, then joke about it.",
+     "shown": "Paint shop mixing (red swirls to pink), hot-pink cell with a P-618 chip card, guards laughing at a steel table with cups; dissolves at 8.05 and 11.33 s."
+    },
+    {
+     "name": "escalation",
+     "start": 14.32,
+     "end": 28.39,
+     "said": "One odd rule: each inmate stays exactly fifteen minutes, timed by stopwatch; first up is the largest inmate.",
+     "shown": "Scientist at pink door C-4 with stopwatch, a prisoner walks in, guards flank the door; the huge inmate grins in the pink cell as red cracks spread over walls and floor."
+    },
+    {
+     "name": "escalation",
+     "start": 28.39,
+     "end": 38.55,
+     "said": "Post-treatment, the skinniest guard beats the giant at arm wrestling in two seconds, and nobody knows why.",
+     "shown": "Door opens on a pale smiling inmate; wide sunlit hall; arm wrestle at a steel table with the scientist raising a stopwatch; camera orbits and rises."
+    },
+    {
+     "name": "escalation",
+     "start": 38.55,
+     "end": 42.79,
+     "said": "Within a year, prisons nationwide are repainting cells pink by the truckload.",
+     "shown": "Camera rises through the skylight, flies over roof and patchwork farmland, then lands in a yard where a pink truck marked P-618 arrives."
+    },
+    {
+     "name": "twist",
+     "start": 42.79,
+     "end": 52.73,
+     "said": "A guard forgets a prisoner overnight: calm at fifteen minutes, pacing at twenty, then wrecking the cell.",
+     "shown": "Day-to-night dissolve, dozing guard at a CRT monitor, zoom into the cell; ginger prisoner sits, paces, then lifts the bench in a starburst of debris; pull-out to the hall."
+    },
+    {
+     "name": "explainer",
+     "start": 52.73,
+     "end": 62.41,
+     "said": "Scientists claimed pink drained aggression within fifteen minutes, so prisons applied it to violent inmates, but only briefly.",
+     "shown": "Guards and scientist stare at the wrecked cell door; dissolve to a big inmate knitting a candy-striped scarf; a stopwatch swoops in at the left."
+    },
+    {
+     "name": "ending",
+     "start": 62.41,
+     "end": 65.3,
+     "said": "Stay longer than that, and it backfires completely.",
+     "shown": "Knitter's smile sours to a scowl, punch-in, then red cracks, shock ring and dark vignette as he flexes with red eyes; stopwatch lower-left; hard stop."
+    }
+   ],
+   "thumbnail": "Auto-picked video frame near 35.7 s (caption 'seconds.' burned in): skinny guard arm-wrestling the big tattooed inmate in the sunlit POD C hall, scientist raising a stopwatch behind; no designed thumbnail text.",
+   "set_style": "mixed",
+   "lip_sync": "mouth changes with pose only",
+   "n_joins_checked": 13,
+   "n_missed": 2
+  },
+  "10_7xS87iActkU": {
+   "hook": {
+    "first_frame": "Low-angle track at a red canyon with the hero crouched at left sawing the rail, locomotive headlight glowing ahead; caption 'He sawed'.",
+    "first_3s": "Camera pushes in on the hero's face (smirk, a wink, a toothy grin), then whips into a canyon fly-by that ends with sky and a long straight track.",
+    "line_type": "strange action by he/they",
+    "first_frame_shot_size": "medium",
+    "first_frame_subject": "protagonist doing the hook action",
+    "protagonist_looks_at_camera": true,
+    "title_vs_first_line": "Title poses the question; the first line states the odd action that raises it."
+   },
+   "story": {
+    "topic_type": "engineering/physics",
+    "setting_era": "1700s-1800s",
+    "structure": "act first, explain at the end",
+    "real_fact_core": "Steel rails expand in heat, so expansion gaps keep rails from buckling; rails without gaps buckle.",
+    "likely_source_type": "invented parable",
+    "protagonist": "Young engineer in striped cap and teal jacket",
+    "authority_or_antagonist": "Boss in yellow vest and black bowler who turns purple; the rival 'perfect' railroad company",
+    "direct_speech_lines": 1,
+    "second_person": false,
+    "tense": "present",
+    "explainer_turn": null,
+    "ending_type": "consequence shown, stops on impact",
+    "call_to_action": "none"
+   },
+   "tone": {
+    "humour": "Boss turning purple, steam puffs, handshake gag, smirking hero; spectacle at the end.",
+    "deadpan_or_irony": "Hero deadpan while others rage; the boss is thrilled 'proven wrong'; irony that perfect is worst.",
+    "dialogue_style": "One shouted line; the rest is narrated in present tense."
+   },
+   "beats": [
+    {
+     "name": "hook",
+     "start": 0.0,
+     "end": 3.3,
+     "said": "Hero cut gaps into a railroad at fixed spacing.",
+     "shown": "Hero crouches on the track with a saw and a locomotive approaching, then a camera fly-out along the canyon."
+    },
+    {
+     "name": "setup",
+     "start": 3.3,
+     "end": 13.5,
+     "said": "Two companies race a railroad along a bottomless canyon; winner takes the country's trade; he is the youngest engineer.",
+     "shown": "Fast canyon fly-bys, bridge, crane, desert, tycoon on stage, workers on a beam."
+    },
+    {
+     "name": "escalation",
+     "start": 13.5,
+     "end": 21.6,
+     "said": "The boss spots the gaps, turns purple with rage and shouts, but he refuses to close one.",
+     "shown": "Boss in yellow vest goes purple, steam puffs, shouts; handshake gag; hero stays calm."
+    },
+    {
+     "name": "escalation",
+     "start": 21.6,
+     "end": 36.0,
+     "said": "Rival lays smooth rails and wins; quiet trains glide while his clatter; papers mock it; everyone switches.",
+     "shown": "Conductor, trestle, lounge car, window man, newspaper reader, station crowd."
+    },
+    {
+     "name": "twist",
+     "start": 36.0,
+     "end": 47.9,
+     "said": "Summer heat shrinks his gaps from a coin width to a sheet; the boss is thrilled.",
+     "shown": "Calendar and thermometer, calipers on a rail that heats pink to yellow, hero and boss smiling."
+    },
+    {
+     "name": "payoff",
+     "start": 47.9,
+     "end": 59.4,
+     "said": "Rival's rails groan and push in the heat; on the hottest day his gaps close.",
+     "shown": "Long straight track, glowing rails, parasol character, hero, rail ends touching."
+    },
+    {
+     "name": "ending",
+     "start": 59.4,
+     "end": 65.2,
+     "said": "The perfect railroad buckles like a snake just as a train rolls on.",
+     "shown": "Bridge fly-in, train on a wavy track, falling loco, explosion, two characters watching."
+    }
+   ],
+   "thumbnail": "Conductor character in a blue cap and uniform sitting on a rail with a plank deck behind, caption 'end'; this is about 23.8-24.0 s ('end-to-end' rail laying).",
+   "set_style": "stylised 3D without outlines",
+   "lip_sync": "mouth changes with pose only",
+   "n_joins_checked": 15,
+   "n_missed": 1
+  },
+  "11_Mz72MuPgnGY": {
+   "hook": {
+    "first_frame": "Chef with white toque tips a copper pot, yellow oil stream falling onto a red ship hull; deep blue sky behind.",
+    "first_3s": "Camera follows the oil stream down the hull to the sea, splash shown, then swings out to reveal an orange-sailed pirate ship with a skull-cat figurehead.",
+    "line_type": "strange action by he/they",
+    "first_frame_shot_size": "medium-long",
+    "first_frame_subject": "protagonist doing the hook action",
+    "protagonist_looks_at_camera": false,
+    "title_vs_first_line": "Title asks why sailors carried storm oil; first line shows the odd action itself without naming the reason."
+   },
+   "story": {
+    "topic_type": "history/war",
+    "setting_era": "ancient/medieval",
+    "structure": "act first, explain at the end",
+    "real_fact_core": "Oil spread on water calms wave breaking because wind cannot grip a smooth oily surface, a real old seafaring practice.",
+    "likely_source_type": "history",
+    "protagonist": "Chef-hatted sailor pouring oil",
+    "authority_or_antagonist": "Ship captain doubting him; pirate crew chasing them",
+    "direct_speech_lines": 3,
+    "second_person": true,
+    "tense": "present",
+    "explainer_turn": "\"You see\" at 42.9 s",
+    "ending_type": "consequence shown, stops on impact",
+    "call_to_action": "none"
+   },
+   "tone": {
+    "humour": "Soup joke from the captain; pirates cheerfully welcoming a storm; comic explosion and floating hats at the end.",
+    "deadpan_or_irony": "Chef stays flat-faced and unbothered throughout, which contrasts with the panic around him.",
+    "dialogue_style": "Short reported lines inside narration; narrator voices both sides."
+   },
+   "beats": [
+    {
+     "name": "hook",
+     "start": 0.0,
+     "end": 5.5,
+     "said": "A cook pours oil into the sea while a pirate ship closes in laughing.",
+     "shown": "Chef pours from a copper pot; camera follows the stream down the hull to the sea, then reveals pirate ship."
+    },
+    {
+     "name": "setup",
+     "start": 5.5,
+     "end": 14.0,
+     "said": "Captain grabs the cook, shouts about boarding; cook ignores him and points at black clouds.",
+     "shown": "Pirate deck close-up, captain and chef two-shot, black clouds."
+    },
+    {
+     "name": "escalation",
+     "start": 14.0,
+     "end": 26.7,
+     "said": "Captain protests, cook says to trust the oil; hook lands and pirates cheer the storm.",
+     "shown": "Captain shouting, chef pouring, grappling hook, pirate deck with cannons."
+    },
+    {
+     "name": "twist",
+     "start": 26.7,
+     "end": 42.9,
+     "said": "Deep in the storm the crew ties down; he keeps pouring upwind as pirates board and a giant wave looms.",
+     "shown": "Dark blue storm sea, ship decks, swinging pirate, tiny ships under a wave."
+    },
+    {
+     "name": "explainer",
+     "start": 42.9,
+     "end": 56.0,
+     "said": "Sailors carried storm oil; breath on soup ripples but oily patches stay smooth, so wind cannot grab it.",
+     "shown": "Chef in galley, oil tin, soup bowl top-down, yellow surface close-up."
+    },
+    {
+     "name": "payoff",
+     "start": 56.0,
+     "end": 60.4,
+     "said": "The wave reaches the oily patch and merely lifts the ship and sets it down.",
+     "shown": "Stormy sea, ship glowing underneath, rain, light shafts."
+    },
+    {
+     "name": "ending",
+     "start": 60.4,
+     "end": 64.6,
+     "said": "Fifty yards behind, the wave curls and crushes the pirate deck.",
+     "shown": "Big wave curls over pirate ship, comic explosion and smoke, bobbing hat shapes."
+    }
+   ],
+   "thumbnail": "Pirate captain with feathered purple hat and open laughing mouth beside a crewmate with a parrot and a yellow cannon; caption reads a cannonball; from about 25 s.",
+   "set_style": "mixed",
+   "lip_sync": "mouth changes with pose only",
+   "n_joins_checked": 15,
+   "n_missed": 0
+  },
+  "12_5WMQhPObNqQ": {
+   "hook": {
+    "first_frame": "Protagonist (round white head, small hat, mint vest, polka-dot bow tie) stands behind a wooden table at the track with a mallet raised, a pink piggy bank beside him; white rail and blue sky behind; no caption yet.",
+    "first_3s": "0-1.0 s mallet raised, he smirks and blinks, slow push-in; about 1.0 s piggy bank bursts into shards and coins, camera whips away; 1.6-3.0 s low rail view of horses in dust, then a slow white horse with a jockey.",
+    "line_type": "strange action by he/they",
+    "first_frame_shot_size": "medium-long",
+    "first_frame_subject": "protagonist doing the hook action",
+    "protagonist_looks_at_camera": false,
+    "title_vs_first_line": "Title names the gimmick (a mirror rigging a race); the first line gives only the odd bet on the slowest horse, so the mirror is withheld until about 9.5 s."
+   },
+   "story": {
+    "topic_type": "crime/scam",
+    "setting_era": "1900s",
+    "structure": "act first, explain at the end",
+    "real_fact_core": "Race results reached betting rooms by telegraph wire with a delay and bets stayed open until it arrived, so a faster signal (a mirror flash from the hill) lets someone bet on a race already decided.",
+    "likely_source_type": "history",
+    "protagonist": "Silent, smug bettor in a boater hat, mint vest and polka-dot bow tie (the 'mirror man')",
+    "authority_or_antagonist": "Mocking regulars (plaid-vest man in a derby, round-glasses man) and a pitying teller; no true villain",
+    "direct_speech_lines": 4,
+    "second_person": false,
+    "tense": "mixed",
+    "explainer_turn": "'You see' at 45.37 s",
+    "ending_type": "consequence shown, stops on impact",
+    "call_to_action": "none"
+   },
+   "tone": {
+    "humour": "Absurd exaggeration (a jockey waving at his mother, a horse so far back it is in the car park, a nag beaten by the dairy wagon it hauls) plus small visual gags (pretzel, bill on the teller's head).",
+    "deadpan_or_irony": "Deadpan narration with dramatic irony: the audience knows the dark hill matters while the room mocks him; the ending flips the room from laughing to stunned.",
+    "dialogue_style": "Short taunts and one-liners from side characters plus a viewer-voiced question; faces and mouths animate while lines are spoken; no speech bubbles."
+   },
+   "beats": [
+    {
+     "name": "hook",
+     "start": 0.0,
+     "end": 3.2,
+     "said": "A man stakes everything he owns on the race's weakest runner.",
+     "shown": "Mint-vest man with a mallet beside a pink piggy bank on a track-side table; bank bursts at 1.0 s; camera whips to horses in dust and a plodding white horse with a jockey."
+    },
+    {
+     "name": "setup",
+     "start": 3.2,
+     "end": 18.3,
+     "said": "The room laughs at his idle day; a friend watches from the hilltop with a giant mirror.",
+     "shown": "Betting room with odds board and jeering regulars; protagonist smug on a window bench; mirror dive to the town street; buddy with a gold-framed mirror on a meadow hill."
+    },
+    {
+     "name": "escalation",
+     "start": 18.3,
+     "end": 34.7,
+     "said": "Favorites keep winning and the hilltop stays unlit; the regulars tease him; the final race is a rout.",
+     "shown": "Circular mirror view of the grandstand cutting back and forth with the buddy on the hill; regulars at a barrel; bench banter; grandstand race; empty track to a parking lot."
+    },
+    {
+     "name": "twist",
+     "start": 34.7,
+     "end": 45.3,
+     "said": "A flash from the hill; he stakes everything on horse nine; the clerk mocks its record.",
+     "shown": "Window sun flash; protagonist carries a green cash bundle to the cage; dim red-walled teller close-up (bill on forehead, laughing); dairy cart on the finish street."
+    },
+    {
+     "name": "explainer",
+     "start": 45.3,
+     "end": 53.2,
+     "said": "Back then, results came into betting rooms by telegraph wire, so wagers stayed open until it clicked.",
+     "shown": "Striped stands and target pole, judges' booth, fast fly-through of a dusk street with a spark on the wire into a telegraph nook with an odds chalkboard; regulars at the barrel."
+    },
+    {
+     "name": "payoff",
+     "start": 53.2,
+     "end": 57.7,
+     "said": "From the hill, the buddy watches horse nine surge out of nowhere and win by a nose.",
+     "shown": "Sunset hill, buddy peering through a huge brass lens; camera dives through it into the track; white horse 9 overtakes in orange light with dust and motion blur."
+    },
+    {
+     "name": "ending",
+     "start": 57.7,
+     "end": 64.13,
+     "said": "While the room still laughs, the wire clicks out the winner; once it spells nine, the laughter dies.",
+     "shown": "Dusk betting room: odds board, ladder man, crowd; sign letters N-I-N-E appear one by one; banknotes rain on the group; heckler's grin turns to shock; final still hold."
+    }
+   ],
+   "thumbnail": "Auto-picked frame at about 25 s ('Hey' line): mint-vest protagonist seated on the bench holding a pretzel and touching his boater beside the plaid-vest heckler with a toothpick; window shows the town and hill; MILK RUN 100-1 board above; caption 'Hey,' burned in.",
+   "set_style": "mixed",
+   "lip_sync": "flaps while speaking",
+   "n_joins_checked": 11,
+   "n_missed": 4
+  },
+  "13_ZDy3xXA2iHk": {
+   "hook": {
+    "first_frame": "Guard in blue cap and red-shirt man behind a red button on a stone pedestal, town blurred behind, caption 'There's'.",
+    "first_3s": "Camera pushes in on the button; the man's grin turns to a worried face with sweat drop and clenched teeth; guard stays flat-faced.",
+    "line_type": "world premise (there is a)",
+    "first_frame_shot_size": "medium",
+    "first_frame_subject": "two characters",
+    "protagonist_looks_at_camera": true,
+    "title_vs_first_line": "Title restates the premise (town built around a button); first line introduces the button and the ban."
+   },
+   "story": {
+    "topic_type": "parable/fiction",
+    "setting_era": "timeless/fable",
+    "structure": "pure story with twist reveal",
+    "real_fact_core": "No real fact; an invented fable of a taboo button, a forbidden act and a cycle where the town rebuilds around it.",
+    "likely_source_type": "invented parable",
+    "protagonist": "Gary, young man in red shirt with dark hair",
+    "authority_or_antagonist": "Two guards and the wall; his mom as final authority",
+    "direct_speech_lines": 1,
+    "second_person": false,
+    "tense": "present",
+    "explainer_turn": null,
+    "ending_type": "loops back to the hook",
+    "call_to_action": "none"
+   },
+   "tone": {
+    "humour": "Light absurdity: five-dollar bet, mug-holding guard, mom lookalike statue; sweat-drop reactions.",
+    "deadpan_or_irony": "Deadpan narration of an unexplained eerie premise; no explanation given.",
+    "dialogue_style": "Narrator voice only; one reported line from mom at the end."
+   },
+   "beats": [
+    {
+     "name": "hook",
+     "start": 0.0,
+     "end": 3.5,
+     "said": "A button sits mid-town and nobody may press it.",
+     "shown": "Guard and red-shirt man beside a red button on a pedestal; guard stoic, man sweating."
+    },
+    {
+     "name": "setup",
+     "start": 3.5,
+     "end": 20.4,
+     "said": "Town built in circles around button, guarded, walled, with a dimming glow beyond the wall.",
+     "shown": "Fly-through of circular town, guard with mug, ladder up wall, glowing ring in night sky."
+    },
+    {
+     "name": "escalation",
+     "start": 20.4,
+     "end": 31.3,
+     "said": "Gary notices 47 scratches under the glass and a statue woman resembling his mom.",
+     "shown": "Attic room, button with counter, guard, bronze statue."
+    },
+    {
+     "name": "twist",
+     "start": 31.3,
+     "end": 38.5,
+     "said": "Friends bet five dollars; at 3am during guard swap he has seconds.",
+     "shown": "Three friends at railing holding a bill, night town aerial."
+    },
+    {
+     "name": "payoff",
+     "start": 38.5,
+     "end": 48.8,
+     "said": "He presses it, nothing happens but a scratch sound; glow brightens as he walks home.",
+     "shown": "Gary at the glass dome, close-up of button, night street turning orange."
+    },
+    {
+     "name": "ending",
+     "start": 48.8,
+     "end": 65.5,
+     "said": "Town vanished into a field; 48 scratches; his mom says build the town here.",
+     "shown": "Gary in grass, big crowd in field, counter at 48, mom beside crowd and button."
+    }
+   ],
+   "thumbnail": "Three friends at a railing, Gary holding a five-dollar bill, night town behind; matches the bet at about 32-34 s.",
+   "set_style": "mixed",
+   "lip_sync": "mouth changes with pose only",
+   "n_joins_checked": 12,
+   "n_missed": 0
+  },
+  "14_LC8hYwUZ-kU": {
+   "hook": {
+    "first_frame": "Full-body red-shirted gunslinger in a black hat smirks and aims an oversized revolver at frame right on a sunlit sand street; blurred gun-shop front, blue sky, caption low centre.",
+    "first_3s": "Smirk turns to gritted teeth (0.2-0.6 s); gun fires through an 8-frame dissolve at 0.77 s; bullet-cam with zoom blur flies down the street to tiny Eddie (2.2 s), who rushes up to a holster macro by 3.0 s.",
+    "line_type": "paradox or claim",
+    "first_frame_shot_size": "long (full body)",
+    "first_frame_subject": "protagonist doing the hook action",
+    "protagonist_looks_at_camera": true,
+    "title_vs_first_line": "Title states the answer (second draw wins); the first line states the paradoxical rule (never draw first): the same idea inverted, so the title teases the solution to the opening puzzle."
+   },
+   "story": {
+    "topic_type": "psychology/behaviour",
+    "setting_era": "1700s-1800s",
+    "structure": "second-person scenario, then explainer",
+    "real_fact_core": "Reacting to a seen movement is faster than starting a self-chosen one, so the man who waits and reacts can win (reaction versus decision time; Bohr gunfight idea, estimate).",
+    "likely_source_type": "psychology",
+    "protagonist": "'you', the red-shirted challenger (second person)",
+    "authority_or_antagonist": "Slow Eddie, the calm gunslinger",
+    "direct_speech_lines": 1,
+    "second_person": true,
+    "tense": "mixed",
+    "explainer_turn": "'You see,' at 36.44 s",
+    "ending_type": "explanation is the last line",
+    "call_to_action": "none"
+   },
+   "tone": {
+    "humour": "Light slapstick and absurd gags: the fastest gun nicknamed Slow, a beer-carrier race joke, dizzy-eyed face-plant, tongue-out loser.",
+    "deadpan_or_irony": "Eddie's bored half-lidded stare and calm 'after you' are deadpan; irony that the slow-looking man always wins; narrator stays matter-of-fact.",
+    "dialogue_style": "Narrator-led second person in short declarative sentences; a single quoted line from Eddie; no back-and-forth."
+   },
+   "beats": [
+    {
+     "name": "hook",
+     "start": 0.0,
+     "end": 3.6,
+     "said": "The West's top gunslinger lived by one rule: never be the one who draws first.",
+     "shown": "Smirking red-shirt gunslinger aims a huge revolver; muzzle flash dissolves into a bullet-cam flight down the street to tiny Eddie, ending on a macro of his holster and star buckle."
+    },
+    {
+     "name": "setup",
+     "start": 3.6,
+     "end": 13.6,
+     "said": "At noon you face a calm man called Slow Eddie, who politely lets you go first.",
+     "shown": "Wide noon street with Eddie far away, holster close-ups, then Eddie in medium close-up with a bored stare and straw; his mouth opens and he nods on the quoted line."
+    },
+    {
+     "name": "escalation",
+     "start": 13.6,
+     "end": 19.7,
+     "said": "You snatch your gun faster than ever, yet you're flat on the ground before it's even out.",
+     "shown": "Challenger panics with wide eyes, sweat and gold flame wisps; camera slams into his holster, tilts to his face; he tumbles, hat flying, and lands face-down in the dirt with dizzy eyes."
+    },
+    {
+     "name": "twist",
+     "start": 19.7,
+     "end": 25.5,
+     "said": "Oddly, Eddie isn't quick at all; a man carrying two drinks would beat him to the saloon.",
+     "shown": "Dizzy head dissolves to Eddie at a saloon front while a man with two beer mugs gets ahead of him."
+    },
+    {
+     "name": "escalation",
+     "start": 25.5,
+     "end": 36.4,
+     "said": "Challengers come from distant states and all lose alike; the only oddity is Eddie watching their hands.",
+     "shown": "Golden-hour riders charge through dust; beaten men lie on the ground; at a PHOTOGRAPHS shop a goofy tongue-out loser stands beside Eddie, then a close-up of the two men and their gun hands."
+    },
+    {
+     "name": "explainer",
+     "start": 36.4,
+     "end": 44.6,
+     "said": "Think of catching a falling phone: you grab it before deciding to, because your body reacts automatically.",
+     "shown": "Dim saloon: the red-shirted man at a card table, a phone slides off the edge and he snatches it; ends on an extreme close-up of his wide eyes."
+    },
+    {
+     "name": "payoff",
+     "start": 44.6,
+     "end": 50.8,
+     "said": "Drawing a gun means choosing the exact moment, and that small decision slows your hand.",
+     "shown": "Pupil morphs into a round window on the noon street; teal office where a clerk in a green eyeshade works a desk gadget under a THINK BEFORE YOU DRAW sign, windows replaying a fall."
+    },
+    {
+     "name": "ending",
+     "start": 50.8,
+     "end": 56.1,
+     "said": "Eddie makes no decisions; he lets his reflexes answer once your hand moves.",
+     "shown": "Office turns cold blue with an empty desk; night street standoff: small flash at the challenger's belt, smoke at Eddie's holster, challenger's gun drops."
+    }
+   ],
+   "thumbnail": "Auto frame with the caption 'He just stares' burned in: the challenger (moustache, round eyes, sweat drop) and Eddie in a cream hat with a straw stand before the blurred PHOTOGRAPHS storefront at golden hour; matches roughly 35.0-35.8 s.",
+   "set_style": "mixed",
+   "lip_sync": "mouth changes with pose only",
+   "n_joins_checked": 10,
+   "n_missed": 0
+  },
+  "15_t3OXkhlI6NQ": {
+   "hook": {
+    "first_frame": "Orange-haired Jerry stands at a wooden counter in a dim shop, hooded grinning clerk behind glass at left, green lamp above",
+    "first_3s": "Slight push-in on Jerry, whip fly-through down to a glowing memory chip on the counter, then swing up to the clerk and shelves of chips",
+    "line_type": "strange action by he/they",
+    "first_frame_shot_size": "medium-long",
+    "first_frame_subject": "protagonist doing the hook action",
+    "protagonist_looks_at_camera": true,
+    "title_vs_first_line": "Title 'Every Memory Has a Price' is the theme of the first line; neither repeats the other"
+   },
+   "story": {
+    "topic_type": "parable/fiction",
+    "setting_era": "future/space",
+    "structure": "premise explained early, then story",
+    "real_fact_core": "Invented world where memories are currency; selling the happiest ones leaves nothing and the loved person is erased from memory.",
+    "likely_source_type": "invented parable",
+    "protagonist": "Jerry, orange-haired young man",
+    "authority_or_antagonist": "Hooded grinning memory-shop clerk",
+    "direct_speech_lines": 2,
+    "second_person": false,
+    "tense": "mixed",
+    "explainer_turn": "\"You see\" at 3.4 s, then present-tense world rules",
+    "ending_type": "twist reveal is the last line",
+    "call_to_action": "none"
+   },
+   "tone": {
+    "humour": "Dark with light gag touches (Bahamas 300 times from a couch, frog size of a football)",
+    "deadpan_or_irony": "Deadpan delivery; irony in the cure erasing the brother",
+    "dialogue_style": "Two short quoted lines, brother asks for the frog story; clerk warns"
+   },
+   "beats": [
+    {
+     "name": "hook",
+     "start": 0.0,
+     "end": 3.3,
+     "said": "A man sold his happiest memory to a stranger at a counter",
+     "shown": "Jerry at counter, fly-in to glowing memory chip, grinning hooded clerk"
+    },
+    {
+     "name": "setup",
+     "start": 3.3,
+     "end": 15.4,
+     "said": "Memories are currency; shops extract them; rent and groceries cost birthdays; wall splits city",
+     "shown": "Shop, street, storefronts, bicycle kid, wall light shafts"
+    },
+    {
+     "name": "explainer",
+     "start": 15.4,
+     "end": 31.3,
+     "said": "Rich buy summers, poor stare at photos; happier memories pay more",
+     "shown": "Pool, bell-helmet man, bench of elders, happiness gauge"
+    },
+    {
+     "name": "escalation",
+     "start": 31.4,
+     "end": 44.0,
+     "said": "Jerry sells one for rent; sick brother begs for frog story; medicine costs more",
+     "shown": "Night street, hospital bed, polaroid and lake dock, machine"
+    },
+    {
+     "name": "escalation",
+     "start": 44.1,
+     "end": 54.3,
+     "said": "He sells summer, birthday, then whole years until his head is bad days",
+     "shown": "Dark counter, deposit box, hospital hall, BUY SUMMERS street"
+    },
+    {
+     "name": "twist",
+     "start": 54.3,
+     "end": 65.6,
+     "said": "One good year left; clerk warns it is empty of happiness; he sells anyway",
+     "shown": "Ledger of SOLD years, clerk, close-up faces, white glowing chip"
+    },
+    {
+     "name": "payoff",
+     "start": 65.6,
+     "end": 72.9,
+     "said": "Brother wakes cured and asks for the frog story; Jerry does not know him",
+     "shown": "Brother sitting up in bed, Jerry blank face close-up"
+    },
+    {
+     "name": "ending",
+     "start": 73.0,
+     "end": 77.8,
+     "said": "Every happy year sold, and the brother was in all of them",
+     "shown": "Two-shot of brothers in ward, static, blue light"
+    }
+   ],
+   "thumbnail": "Jerry in hospital hall pressing a lever on the Surgical Deposit box, caption 'had'; taken from about 49 to 50 s",
+   "set_style": "mixed",
+   "lip_sync": "none (mouth static)",
+   "n_joins_checked": 28,
+   "n_missed": 1
+  },
+  "19_0m6G8pDtzNs": {
+   "hook": {
+    "first_frame": "Blurred protagonist at a desk with a small red FIRE button on a green mat, blue Japanese-style room behind.",
+    "first_3s": "Camera swoops to the big FIRE button, a mallet smacks it with spark lines, then pulls up and back to the worried seated protagonist, then boss with closed eyes.",
+    "line_type": "paradox or claim",
+    "first_frame_shot_size": "medium",
+    "first_frame_subject": "protagonist posing with the key prop",
+    "protagonist_looks_at_camera": true,
+    "title_vs_first_line": "Title promises an unwanted job; first line makes the claim that firing is impossible, then teases something worse."
+   },
+   "story": {
+    "topic_type": "law/economics/work",
+    "setting_era": "modern",
+    "structure": "second-person scenario, then explainer",
+    "real_fact_core": "Japanese law makes firing hard, so firms use pressure-by-idleness 'banishment rooms' to push staff out.",
+    "likely_source_type": "news",
+    "protagonist": "unnamed 'you' office worker with black hair, blue shirt, dropped into a room with nothing to do",
+    "authority_or_antagonist": "smiling grey-haired boss in dark suit and red tie",
+    "direct_speech_lines": 0,
+    "second_person": true,
+    "tense": "present",
+    "explainer_turn": "'You see' at 49.25 s",
+    "ending_type": "explanation is the last line",
+    "call_to_action": "none"
+   },
+   "tone": {
+    "humour": "Mild; cheerful boss and drinks-with-umbrellas lounging contrast with creeping dread.",
+    "deadpan_or_irony": "Irony: paradise turns to isolation; smiling boss as villain; closing line is a flat moral.",
+    "dialogue_style": "Narrator in second person, fast and unbroken; no quoted speech."
+   },
+   "beats": [
+    {
+     "name": "hook",
+     "start": 0.0,
+     "end": 4.5,
+     "said": "Firing is impossible in Japan, but companies found something worse.",
+     "shown": "Hand-slammed FIRE button on a desk, nervous employee, then smiling boss behind a button."
+    },
+    {
+     "name": "setup",
+     "start": 4.5,
+     "end": 16.0,
+     "said": "Imagine boss leads you to tiny room: no computer, a clock, a guy on phone; job is nothing.",
+     "shown": "Office, door sign, empty desk, wall clock, man with feet up, boss holding red box."
+    },
+    {
+     "name": "escalation",
+     "start": 16.0,
+     "end": 21.5,
+     "said": "Sit until six; you're paid for this; at first it's paradise.",
+     "shown": "Protagonist grins at desk, phone shows pay, lounging top-down."
+    },
+    {
+     "name": "escalation",
+     "start": 21.5,
+     "end": 33.4,
+     "said": "Coworkers stare, emails stop, desk replaced, boss cheerfully checks in each Friday.",
+     "shown": "Open office, empty inbox, family photo, calendar, boss smiling in doorway."
+    },
+    {
+     "name": "twist",
+     "start": 33.4,
+     "end": 42.6,
+     "said": "The corner guy seems happy, so you join him with feet up.",
+     "shown": "Man in corner, night tower window, two men relaxing with drinks."
+    },
+    {
+     "name": "payoff",
+     "start": 42.6,
+     "end": 49.5,
+     "said": "One Monday he is gone, desk cleared, nobody says where.",
+     "shown": "Empty desk and chair, coworkers standing, door."
+    },
+    {
+     "name": "explainer",
+     "start": 49.5,
+     "end": 58.5,
+     "said": "Law prevents firing but nothing prevents misery; they remove work and friends and wait.",
+     "shown": "Dark blue room, fire alarm with LABOR LAW tag, boss with mail cabinet."
+    },
+    {
+     "name": "ending",
+     "start": 58.5,
+     "end": 60.5,
+     "said": "Nobody can do nothing forever.",
+     "shown": "Close-up of door sign; through window the lone worker sits at desk."
+    }
+   ],
+   "thumbnail": "Wide-angle POV of a coworker holding a phone showing Inbox (0), with staring coworkers and a close foreground face; matches about 25 s ('past'/'emails stop').",
+   "set_style": "mixed",
+   "lip_sync": "none (mouth static)",
+   "n_joins_checked": 19,
+   "n_missed": 2
+  }
+ }
+}
