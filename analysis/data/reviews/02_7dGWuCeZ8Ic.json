@@ -1,0 +1,941 @@
+{
+ "video": "02_7dGWuCeZ8Ic",
+ "joins_verified": [
+  {
+   "t": 2.53,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Cell to underground street cross-section; double exposure visible in f74 and f77."
+  },
+  {
+   "t": 4.13,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Cross-section to bank vault interior; vault door ghosts in over the cutaway in f122 and f125."
+  },
+  {
+   "t": 5.67,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Two framings of the same vault set blend: close pop-up shot to wider shot (f169, f171); not a camera move."
+  },
+  {
+   "t": 7.65,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Street view above the bank to vault with protagonist beside the hole; double exposure in f228."
+  },
+  {
+   "t": 11.22,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Vault to street cutaway view; street ghosted over the vault door in f338."
+  },
+  {
+   "t": 12.52,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Street view to prison cafeteria; three inmates fade in across f374-f377."
+  },
+  {
+   "t": 14.82,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Cafeteria to corridor with shaded protagonist; slow 13-frame blend, double exposure in f442 and f446."
+  },
+  {
+   "t": 18.03,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Corridor to vault; vault door and floor hole ghost in at f542."
+  },
+  {
+   "t": 21.28,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Warm vault to blue night cell with glowing hole; the day-to-night colour change happens inside the blend (f636-f640)."
+  },
+  {
+   "t": 26.45,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Cellmate close-up to protagonist sitting on bunk; both figures ghosted in f791."
+  },
+  {
+   "t": 28.9,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Mattress close view to night cell with glowing hole and protagonist at top right; f865-f868 double exposure."
+  },
+  {
+   "t": 30.62,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Overexposed hole glow washes into a pale morning door wall; longest blend (15 frames), f916-f921."
+  },
+  {
+   "t": 32.47,
+   "auto_type": "cut",
+   "verdict": "cut",
+   "note": "Hard cut: hallway doorway with guards (f973) to barred cell block with yellow floor line (f974); no overlap frames."
+  },
+  {
+   "t": 41.77,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Corridor with protagonist to break room with two guards at CCTV monitors; double exposure f1251-f1254."
+  },
+  {
+   "t": 43.68,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Guards at monitors to a dark floor with a glowing object (shovel, estimate); f1309-f1312."
+  },
+  {
+   "t": 45.07,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Grinning protagonist close-up to guard with clipboard in dark cell block; short 6-frame blend."
+  },
+  {
+   "t": 47.35,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Guard in cell block to underground cutaway of prisoner crawling; f1419-f1421."
+  },
+  {
+   "t": 49.25,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Cutaway to staff screening lane with X-ray machine; f1476-f1479."
+  },
+  {
+   "t": 52.75,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Staff exit doorway to sunny street with stacked lunchboxes; f1581-f1584."
+  }
+ ],
+ "missed_joins": [],
+ "beats": [
+  {
+   "name": "hook",
+   "start": 0.0,
+   "end": 7.1,
+   "said": "A prisoner's escape tunnel from his cell ends unexpectedly inside a bank vault opposite the jail.",
+   "shown": "Prisoner swings shovel in sunny cell, floor bursts into orange hole; tunnel cutaway; he rises in the gold vault; camera cranes out to bank facade and street."
+  },
+  {
+   "name": "setup",
+   "start": 7.1,
+   "end": 17.8,
+   "said": "Asks why: he stays locked in, cannot spend loot in jail, and guards would find the bills.",
+   "shown": "Vault with hole, street cutaway, cafeteria with three inmates, corridor with protagonist in shades and guards behind him."
+  },
+  {
+   "name": "escalation",
+   "start": 17.8,
+   "end": 30.3,
+   "said": "He hauls cash back anyway; cellmate sarcastically congratulates him; he stashes it beneath the mattress and repeats nightly.",
+   "shown": "Vault cash grab, night cell with cellmate holding a noodle cup, protagonist on bunk with bills in his collar, glowing hole."
+  },
+  {
+   "name": "twist",
+   "start": 30.3,
+   "end": 41.5,
+   "said": "Guards raid the block at morning, flip his mattress, find nothing and wave him through as clean.",
+   "shown": "Bright doors burst open, guards sweep the block, mattress flipped, nothing under it; close-up of sunglasses guard with plaid bag."
+  },
+  {
+   "name": "explainer",
+   "start": 41.5,
+   "end": 49.0,
+   "said": "Reveal: guards supplied the shovel and left his bunk out of headcounts so he would do the digging.",
+   "shown": "Break-room guards with donut and CCTV monitor, glowing shovel on dark floor, guard with clipboard walks past, cutaway of prisoner digging."
+  },
+  {
+   "name": "payoff",
+   "start": 49.0,
+   "end": 52.8,
+   "said": "Each morning the loot leaves through the front gate inside the guards' lunchboxes.",
+   "shown": "Staff screening lane: X-ray monitor shows lunchboxes full of cash; guard and woman in purple carry lunchboxes out the staff exit."
+  },
+  {
+   "name": "ending",
+   "start": 52.8,
+   "end": 55.36,
+   "said": "Loot is split between guards and prisoner, who collects his half on release day.",
+   "shown": "Sunny street: group behind stacked lunchboxes; prisoner in brown suit walks in, arms up, big grin; last frame held, no CTA text."
+  }
+ ],
+ "hook": {
+  "first_frame": "Prisoner (orange jumpsuit, headlamp) stands in a bright cell, shovel raised at his side, gritted-teeth face to camera; small white-and-red X mark on floor; first caption word already on screen.",
+  "first_3s": "Shovel swings down; from 0.8 s floor cracks into glowing orange hole with flying rubble; face swaps shocked then smug; hop with scale pop at 2.2 s; slow push-in; dissolve at 2.53 s to tunnel cutaway.",
+  "line_type": "strange action by he/they",
+  "first_frame_shot_size": "long (full body)",
+  "first_frame_subject": "protagonist doing the hook action",
+  "protagonist_looks_at_camera": true,
+  "title_vs_first_line": "Title compresses the premise (prisoner, tunnel, bank); first line gives prisoner and tunnel, the bank arrives in line two, so the title spoils part of the reveal."
+ },
+ "story": {
+  "topic_type": "crime/scam",
+  "setting_era": "modern",
+  "structure": "act first, explain at the end",
+  "real_fact_core": "Corrupt guards use a prisoner as free labour: they let him dig, skip his bunk at headcounts and smuggle the loot out in lunchboxes, splitting it with him.",
+  "likely_source_type": "invented parable",
+  "protagonist": "Unnamed prisoner in orange jumpsuit with headlamp and brown hair tuft",
+  "authority_or_antagonist": "Prison guards, secretly in on the scheme; cellmate is a sarcastic foil",
+  "direct_speech_lines": 2,
+  "second_person": false,
+  "tense": "mixed",
+  "explainer_turn": "'You see' at 41.5 s",
+  "ending_type": "explanation is the last line",
+  "call_to_action": "none"
+ },
+ "tone": {
+  "humour": "Dry situational irony: a heist that cannot work, then guards running it; visual gags (donut guards, shades, plaid lunchbox) and the cellmate's sarcastic quip (estimate).",
+  "deadpan_or_irony": "Deadpan narration with a reversal; viewer is led to think the prisoner is foolish before learning the guards profit (dramatic irony); faces stay smug or blank.",
+  "dialogue_style": "Two quoted one-liners embedded in the narration (cellmate's sarcastic congratulation, guard's one-word verdict); no separate character voices evident (audio not reviewed)."
+ },
+ "characters": [
+  {
+   "role": "protagonist prisoner",
+   "head": "Big white-cream circle (about 1/3 of body height) with thick dark-brown outline and a thin white gloss arc",
+   "hair_or_hat": "Brown swept hair with a small teardrop tuft; white headband with black headlamp (two round lenses in later shots)",
+   "eyes": "Tiny black dots under thick brows; swaps to wide ring eyes, half-lids, closed arcs or sunglasses; faint pink blush once",
+   "mouth": "Small simple line or open shapes; gritted-teeth grid; toothy grin at the end",
+   "body_and_clothes": "Orange egg-shaped torso (jumpsuit) with white buttons and collar; brown suit jacket and trousers in the last shot",
+   "limbs": "Thin dark-brown noodle arms and legs, round ball hands, red slippers with blue stripe",
+   "accessories": "Shovel with green blade and wooden handle, headlamp, bills tucked in collar, sunglasses (14.8-21 s)",
+   "expressions_seen": [
+    "gritted teeth 0.0 s",
+    "shocked ring eyes 0.8 s",
+    "smug half-lid 1.2-2.0 s",
+    "eyes closed 2.2 s",
+    "smirk with blush 26.9 s",
+    "closed-eye smile 28.1 s",
+    "toothy grin 45.0 s and 54.9 s"
+   ]
+  },
+  {
+   "role": "cellmate (sarcastic foil)",
+   "head": "White circle, dark outline, larger than the protagonist's in close-ups",
+   "hair_or_hat": "Short black bowl cut with a pointed fringe",
+   "eyes": "Half-lidded black ovals under flat angled brows (bored, smug)",
+   "mouth": "Small dark-red oval; open shape with yellowish teeth and pink tongue while speaking",
+   "body_and_clothes": "Wide rectangular white top over orange trousers, seated on the top bunk",
+   "limbs": "Thin dark arms with ball hands, thin legs hanging",
+   "accessories": "Noodle-soup cup with red label, chopsticks",
+   "expressions_seen": [
+    "bored half-lid 22-24 s",
+    "talking smirk 24.3-25.2 s"
+   ]
+  },
+  {
+   "role": "prison guard (secret accomplice)",
+   "head": "White circle with thick dark outline and a bushy grey-black moustache",
+   "hair_or_hat": "Black peaked cap with gold badge",
+   "eyes": "Hidden by rainbow-gradient reflective sunglasses",
+   "mouth": "Under the moustache; open red lips in close-up while speaking (estimate)",
+   "body_and_clothes": "Grey uniform shirt with buttons, black belt with silver buckle",
+   "limbs": "Thin dark stick limbs, ball hands",
+   "accessories": "Clipboard, donut, red plaid lunchbox",
+   "expressions_seen": [
+    "deadpan 40.0 s",
+    "smug grin at the CCTV 43.7 s"
+   ]
+  },
+  {
+   "role": "background inmates, guards and staff (extras)",
+   "head": "Same white circles, some with round glasses",
+   "hair_or_hat": "Beanies, caps, small hair shapes, a hair bun",
+   "eyes": "Dots, round glasses or sunglasses",
+   "mouth": "Small lines or open smiles",
+   "body_and_clothes": "Orange inmate suits, grey guard uniforms, purple jacket on the woman, colourful jackets and backpacks in the last shot",
+   "limbs": "Same thin dark limbs",
+   "accessories": "Lunchboxes in pink, blue and green; clipboard",
+   "expressions_seen": [
+    "bored stares in cafeteria",
+    "smiles and smirks in last shot (faces swap during the hold)"
+   ]
+  }
+ ],
+ "character_style": {
+  "head_height_share_of_body_estimate": 0.33,
+  "outline": "Uniform thick dark-brown line, about 6-10 px at 1080 px width (estimate), same weight on head, torso and limbs",
+  "shading": "Flat fills with a thin white gloss arc and a soft tint from scene light (blue-violet at night, warm in vault); no drawn cast-shadow shapes (estimate)",
+  "consistency_between_shots": "High: identical proportions, outline weight and colours in every scene; only scale, tilt, pose and expression swap",
+  "shadow_under_character": "none"
+ },
+ "animation": {
+  "body_motion": "Cut-out puppet style: poses re-keyed in steps, arms re-posed, head tilts, one hop with squash-stretch (f66); puppets sit in the 3D scene and scale with the camera; leg-swing walk-in at f1634-f1640",
+  "lip_sync": "flaps while speaking",
+  "lip_sync_evidence_frames": [
+   728,
+   732,
+   736,
+   740,
+   748,
+   752
+  ],
+  "eyes_and_blinks": "Eyes are fixed dots; expression changes by swapping eye shapes; no blink seen in 6 sampled idle frames (f806-f851), a blink between samples is possible (estimate)",
+  "idle_motion": "Little: slight head tilts and arm re-poses in holds, extras swap faces, leaves drift; most motion comes from the 3D camera push-in",
+  "squash_and_stretch": "Only in the hop at 2.2-2.4 s (stretched tall then squashed, head scale pop); otherwise rigid shapes"
+ },
+ "environments": [
+  {
+   "start": 0.0,
+   "end": 2.5,
+   "place": "Prison cell, bright day",
+   "key_props": [
+    "bunk bed with ladder",
+    "tall barred window",
+    "shovel",
+    "dug hole with rubble and cable"
+   ],
+   "in_world_text": [],
+   "time_of_day": "day",
+   "lighting": "Hard sun from tall window top-right makes a diagonal shaft; cool white fill; warm orange glow from the hole",
+   "depth_cues": "Volumetric light shaft, floating dust and rubble particles; all planes sharp"
+  },
+  {
+   "start": 2.5,
+   "end": 4.1,
+   "place": "Underground cross-section of street and tunnel",
+   "key_props": [
+    "orange soil, sand and pebble strata",
+    "red-brick shaft",
+    "street and houses above"
+   ],
+   "in_world_text": [],
+   "time_of_day": "day",
+   "lighting": "Flat even daylight, no cast shadows, stylised strata",
+   "depth_cues": "Diagram-like flat layers; pale sky haze at top"
+  },
+  {
+   "start": 4.1,
+   "end": 5.9,
+   "place": "Bank vault interior (first visit)",
+   "key_props": [
+    "round steel vault door with dial and wheel",
+    "gold manhole lid",
+    "green deposit-box shelves",
+    "gold ceiling lamp"
+   ],
+   "in_world_text": [
+    "COBBLE FALLS SAVINGS & TRUST frieze (estimate)",
+    "EST. 1921 on floor ring (estimate)"
+   ],
+   "time_of_day": "indoor, artificial",
+   "lighting": "Warm gold key from ceiling lamp, soft; navy back wall; gold bounce on floor",
+   "depth_cues": "Strong perspective, specular steel, no depth of field"
+  },
+  {
+   "start": 5.9,
+   "end": 7.7,
+   "place": "Bank facade and street above the vault (crane-up reveal)",
+   "key_props": [
+    "white stone bank with arched windows",
+    "hanging BANK sign",
+    "street lamps",
+    "church steeple and water tower"
+   ],
+   "in_world_text": [
+    "COBBLE FALLS SAVINGS",
+    "BANK"
+   ],
+   "time_of_day": "midday",
+   "lighting": "Bright clear daylight, hard sun, blue sky with thin cloud; bluish shadows",
+   "depth_cues": "Haze toward far horizon, receding street, sharp throughout"
+  },
+  {
+   "start": 7.7,
+   "end": 11.2,
+   "place": "Bank vault interior (second visit)",
+   "key_props": [
+    "vault door",
+    "gold-ringed hole in floor",
+    "cash trolley and shelves",
+    "protagonist beside the hole"
+   ],
+   "in_world_text": [],
+   "time_of_day": "indoor, artificial",
+   "lighting": "Warm gold key, soft, same as first visit",
+   "depth_cues": "Strong perspective; slow tilt-up"
+  },
+  {
+   "start": 11.2,
+   "end": 12.5,
+   "place": "Street and tunnel cutaway (return view)",
+   "key_props": [
+    "street from above with bank",
+    "tunnel pipe heading back toward the prison"
+   ],
+   "in_world_text": [],
+   "time_of_day": "midday",
+   "lighting": "Bright daylight, flat strata",
+   "depth_cues": "Haze at horizon, church steeple and water tower far away"
+  },
+  {
+   "start": 12.5,
+   "end": 14.8,
+   "place": "Prison cafeteria",
+   "key_props": [
+    "round fixed-seat tables",
+    "three inmates",
+    "dollar bill on floor",
+    "purple wall banner"
+   ],
+   "in_world_text": [
+    "purple banner emblem (unreadable)"
+   ],
+   "time_of_day": "indoor, day",
+   "lighting": "Overhead white spotlight pool on floor, cool grey-blue ambient, hard table shadows",
+   "depth_cues": "Dark falloff around the lit pool; sharp elsewhere"
+  },
+  {
+   "start": 14.8,
+   "end": 18.0,
+   "place": "Prison corridor with barred doors",
+   "key_props": [
+    "barred doors",
+    "green bench",
+    "guards far behind",
+    "protagonist in shades in foreground"
+   ],
+   "in_world_text": [],
+   "time_of_day": "day, window light",
+   "lighting": "Cool daylight from windows, soft, bluish-white floor reflections",
+   "depth_cues": "Long perspective down the corridor, guards tiny at distance"
+  },
+  {
+   "start": 18.0,
+   "end": 21.3,
+   "place": "Bank vault (third visit, cash grab)",
+   "key_props": [
+    "vault door",
+    "gold-ringed floor hole",
+    "green safety-deposit shelves",
+    "cash bundles"
+   ],
+   "in_world_text": [],
+   "time_of_day": "indoor, artificial",
+   "lighting": "Warm gold key, soft; protagonist in shades holding cash",
+   "depth_cues": "Push-in on the hole; strong perspective"
+  },
+  {
+   "start": 21.3,
+   "end": 30.6,
+   "place": "Prison cell at night",
+   "key_props": [
+    "bunk beds",
+    "cellmate with noodle cup",
+    "glowing hole",
+    "scattered bills",
+    "mattress with sheet"
+   ],
+   "in_world_text": [
+    "NOODLE SOUP cup label"
+   ],
+   "time_of_day": "night",
+   "lighting": "Cool navy-violet ambient with hard window shaft and warm peach patches; orange glow from the hole as practical",
+   "depth_cues": "Wide-lens perspective, light shafts, no depth of field"
+  },
+  {
+   "start": 30.6,
+   "end": 32.5,
+   "place": "Cell-block entrance, morning",
+   "key_props": [
+    "double doors bursting open",
+    "beige brick wall",
+    "guards entering"
+   ],
+   "in_world_text": [],
+   "time_of_day": "morning",
+   "lighting": "Blown-out warm backlight through the doors with bloom; beige walls",
+   "depth_cues": "Dust shimmer in the light; bloom"
+  },
+  {
+   "start": 32.5,
+   "end": 38.1,
+   "place": "Cell block during search",
+   "key_props": [
+    "teal bar doors",
+    "concrete block walls",
+    "floor stencils",
+    "bunks being searched"
+   ],
+   "in_world_text": [
+    "floor stencil numbers '2 3' and '2 4'"
+   ],
+   "time_of_day": "indoor, day",
+   "lighting": "Flat cool-white fluorescent; beige walls, teal bars; soft shadows",
+   "depth_cues": "Foreground bars give parallax; sharp throughout"
+  },
+  {
+   "start": 38.1,
+   "end": 41.8,
+   "place": "Protagonist's cell during search",
+   "key_props": [
+    "bunk with blue mattress",
+    "red plaid bag",
+    "teal bars",
+    "guard in close-up"
+   ],
+   "in_world_text": [],
+   "time_of_day": "indoor, day",
+   "lighting": "Cool soft top light; beige tile wall; plaid bag in foreground",
+   "depth_cues": "Foreground bars and bag layered over the guard"
+  },
+  {
+   "start": 41.8,
+   "end": 43.7,
+   "place": "Guards' break room with CCTV wall",
+   "key_props": [
+    "CCTV monitors",
+    "donut",
+    "red and blue LED strip",
+    "pale green tile wall",
+    "two guards"
+   ],
+   "in_world_text": [
+    "CAM 24",
+    "CELL BLOCK C - CELL 24",
+    "REC",
+    "CAM 19",
+    "timestamp 11/19/2026 02:47 (estimate)"
+   ],
+   "time_of_day": "indoor, night shift per timestamp",
+   "lighting": "Bright white ceiling light with heavy bloom, blue-white screen glow",
+   "depth_cues": "Bloom on ceiling; monitors sharp"
+  },
+  {
+   "start": 43.7,
+   "end": 47.4,
+   "place": "Cell block at night",
+   "key_props": [
+    "glowing shovel on dark floor (estimate)",
+    "teal bars",
+    "protagonist grinning in the bars",
+    "guard with clipboard"
+   ],
+   "in_world_text": [],
+   "time_of_day": "night",
+   "lighting": "Dark navy with warm orange accent lights and floor glow",
+   "depth_cues": "Foreground bars; soft glow around lights"
+  },
+  {
+   "start": 47.4,
+   "end": 49.3,
+   "place": "Tunnel cutaway with prisoner digging",
+   "key_props": [
+    "orange soil and pebble wedge",
+    "red brick column",
+    "round tunnel with crawling prisoner",
+    "guards walking on street above"
+   ],
+   "in_world_text": [],
+   "time_of_day": "day",
+   "lighting": "Flat daylight, no shadows",
+   "depth_cues": "Diagram-like side-on layers; street above in pale haze"
+  },
+  {
+   "start": 49.3,
+   "end": 52.8,
+   "place": "Staff screening lane and exit",
+   "key_props": [
+    "X-ray scanner and conveyor",
+    "bag monitor",
+    "wall clock",
+    "plaid lunchbox",
+    "exit door with shop sign outside"
+   ],
+   "in_world_text": [
+    "LANE 2 STAFF SCREENING / ALL BAGS - ALL SHIFTS",
+    "STAFF EXIT",
+    "EXIT",
+    "X-RAY INSPECTION",
+    "CAUTION - X-RAY",
+    "CURRENCY 97% on scanner UI"
+   ],
+   "time_of_day": "indoor, day",
+   "lighting": "Cool fluorescent white; navy wall; screen glow; hatched conveyor shadow on floor",
+   "depth_cues": "Clean perspective, sharp; yellow floor line leads the eye"
+  },
+  {
+   "start": 52.8,
+   "end": 55.36,
+   "place": "Sunny street outside the prison",
+   "key_props": [
+    "stack of colourful lunchboxes",
+    "bare trees and falling leaves",
+    "church steeple",
+    "street lamp",
+    "group of staff"
+   ],
+   "in_world_text": [],
+   "time_of_day": "sunny day, late autumn or winter",
+   "lighting": "Low hard sun from the right; warm cream walls, long blue shadows on left wall and pavement",
+   "depth_cues": "Soft background houses, leaves in foreground, subjects sharp"
+  }
+ ],
+ "set_style": "mixed",
+ "layer_stack": [
+  "3D sky and distant street (outdoor scenes)",
+  "3D-rendered set with PBR-like textures: walls, floors, props",
+  "volumetric light shafts, dust and bloom",
+  "mid-ground 3D props (bunks, tables, bars, machines)",
+  "2D outlined character puppets placed in the 3D space",
+  "foreground 3D props and particles (bars, lunchboxes, rubble, leaves)",
+  "colour grade and vignette",
+  "white bold caption with black stroke at about 70% of frame height"
+ ],
+ "camera": {
+  "shot_sizes": [
+   "long (full body) in the cell",
+   "wide for cutaways, vault and street",
+   "medium close-up in cafeteria and vault",
+   "close-up for cellmate and guard"
+  ],
+  "angles": [
+   "eye level in cells and corridors",
+   "slight low angle with converging verticals for seated cellmate and vault door",
+   "high crane pull-out at 5.9-6.6 s",
+   "side-on cutaway view"
+  ],
+  "lens_feel": "Wide, about 20-28 mm equivalent (estimate), strong perspective convergence, no visible motion blur on fast moves",
+  "camera_height": "About standing eye height (1.5 m, estimate) in cells; low (0.5-1 m) for the seated cellmate; high crane in the pull-out",
+  "notable_moves": [
+   {
+    "t": 0.0,
+    "type": "push-in",
+    "note": "Slow push-in of about 9%/s over the first 2 s of the cell hold (pack metric; consistent with hook tiles)"
+   },
+   {
+    "t": 5.87,
+    "type": "crane-up pull-out",
+    "note": "One continuous 0.9 s move out of the vault cutaway to bank facade and street; rigid geometry; the suspects at 6.17 and 6.47 s are inside it"
+   },
+   {
+    "t": 20.17,
+    "type": "push-in",
+    "note": "0.7 s push toward the hole as he crawls (pack metric, not checked by eye)"
+   },
+   {
+    "t": 29.13,
+    "type": "push-in",
+    "note": "0.5 s push into the glowing hole (pack metric)"
+   },
+   {
+    "t": 32.57,
+    "type": "orbit",
+    "note": "0.7 s orbit into the cell block just after the hard cut; the suspect at 32.83 s is this move"
+   },
+   {
+    "t": 35.57,
+    "type": "dolly push-in",
+    "note": "2.6 s move along teal bars during the search; foreground bars show parallax; suspect at 37.73 s is inside it"
+   },
+   {
+    "t": 40.67,
+    "type": "orbit",
+    "note": "0.9 s fast orbit around the guard with foreground bars sweeping across; suspects at 40.67, 40.97 and 41.27 s belong to it"
+   },
+   {
+    "t": 52.77,
+    "type": "pull-out and pan",
+    "note": "Slow pull-out and pan on the final street shot (pack metric)"
+   }
+  ]
+ },
+ "effects": [
+  {
+   "t": 0.7,
+   "dur_s": 1.7,
+   "type": "particles",
+   "trigger": "shovel strike as the floor cracks (tunnel)"
+  },
+  {
+   "t": 0.8,
+   "dur_s": 1.7,
+   "type": "glow",
+   "trigger": "orange glow from the new hole after the strike"
+  },
+  {
+   "t": 2.2,
+   "dur_s": 0.3,
+   "type": "other",
+   "trigger": "squash-stretch hop with scale pop on 'yet'"
+  },
+  {
+   "t": 2.53,
+   "dur_s": 1.6,
+   "type": "diagram",
+   "trigger": "street cross-section with tunnel shaft on 'lead out'"
+  },
+  {
+   "t": 5.87,
+   "dur_s": 0.9,
+   "type": "diagram",
+   "trigger": "building cutaway revealed by the crane-up on 'bank across'"
+  },
+  {
+   "t": 6.3,
+   "dur_s": 1.4,
+   "type": "in-world sign",
+   "trigger": "bank facade and BANK sign on 'across the street'"
+  },
+  {
+   "t": 21.28,
+   "dur_s": 0.37,
+   "type": "colour shift",
+   "trigger": "dissolve from warm vault to blue night cell as he crawls back"
+  },
+  {
+   "t": 29.6,
+   "dur_s": 1.0,
+   "type": "glow",
+   "trigger": "overexposed hole glow as he goes back for more"
+  },
+  {
+   "t": 31.8,
+   "dur_s": 0.4,
+   "type": "flash",
+   "trigger": "doors burst open with blown-out backlight on 'storm'"
+  },
+  {
+   "t": 42.2,
+   "dur_s": 1.5,
+   "type": "screen or UI insert",
+   "trigger": "CCTV monitors with CAM 24 feed on 'figured out'"
+  },
+  {
+   "t": 47.4,
+   "dur_s": 1.9,
+   "type": "diagram",
+   "trigger": "tunnel cutaway of the prisoner digging on 'do all the digging'"
+  },
+  {
+   "t": 49.3,
+   "dur_s": 3.5,
+   "type": "screen or UI insert",
+   "trigger": "X-ray bag monitor with CURRENCY 97% on 'every morning'"
+  },
+  {
+   "t": 49.3,
+   "dur_s": 3.5,
+   "type": "in-world sign",
+   "trigger": "LANE 2 STAFF SCREENING and STAFF EXIT signs in the same shot"
+  },
+  {
+   "t": 52.8,
+   "dur_s": 2.6,
+   "type": "particles",
+   "trigger": "drifting autumn leaves over the final street shot"
+  }
+ ],
+ "lighting_mood_shifts": [
+  {
+   "t": 0.8,
+   "change": "Warm orange glow appears in a cool bright cell",
+   "story_reason": "tunnel breakthrough"
+  },
+  {
+   "t": 4.1,
+   "change": "Cool daylight to warm gold vault light",
+   "story_reason": "reveal of the bank vault and its treasure"
+  },
+  {
+   "t": 12.5,
+   "change": "Gold to cool grey-blue prison interiors",
+   "story_reason": "back to dull prison reality while the problems are listed"
+  },
+  {
+   "t": 21.3,
+   "change": "Day to deep navy-violet night with a warm hole glow",
+   "story_reason": "secret return from the heist; cellmate scene"
+  },
+  {
+   "t": 30.6,
+   "change": "Night navy to washed-out bright morning with bloom through the doors",
+   "story_reason": "guards storm in; tension spike"
+  },
+  {
+   "t": 32.5,
+   "change": "Flat clinical white and beige light",
+   "story_reason": "search scene, nothing hidden"
+  },
+  {
+   "t": 43.7,
+   "change": "Bright break room to dark night block with warm accents",
+   "story_reason": "reveal of the guards' secret shovel handover"
+  },
+  {
+   "t": 49.3,
+   "change": "Cool fluorescent staff lane",
+   "story_reason": "mechanism of the cash smuggling"
+  },
+  {
+   "t": 52.8,
+   "change": "Indoor cool to sunny exterior with warm walls and blue shadows",
+   "story_reason": "payoff, release-day freedom"
+  }
+ ],
+ "generation_evidence": [
+  {
+   "frames": [
+    176,
+    182,
+    188,
+    194,
+    198
+   ],
+   "observation": "One continuous crane-up from inside the vault cutaway to the bank facade and street: rigid geometry, consistent perspective, signage 'COBBLE FALLS SAVINGS' and 'BANK' stays crisp in every frame.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    1265,
+    1300
+   ],
+   "observation": "CCTV monitor text (CAM 24, CELL BLOCK C - CELL 24, REC) is identical and crisp while the camera zooms and tilts; side monitor shows CAM 19 and a timestamp.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    728,
+    732,
+    736,
+    740,
+    744,
+    748,
+    752,
+    756
+   ],
+   "observation": "Cellmate head outline, hair and proportions are stable; only the mouth swaps between a small dark oval and an open teeth-and-tongue shape about every 4 frames.",
+   "points_to": "hand animation"
+  },
+  {
+   "frames": [
+    806,
+    815,
+    824,
+    833,
+    842,
+    851
+   ],
+   "observation": "Protagonist keeps identical shape and scale against the bunk during a push-in; expression snaps from smirk to closed-eye smile between f833 and f842; arms re-pose in steps.",
+   "points_to": "hand animation"
+  },
+  {
+   "frames": [
+    150,
+    176,
+    600
+   ],
+   "observation": "Same vault door, gold lid, shelves and lamp reappear from several angles at 5, 5.9 and 20 s with identical geometry: one reusable 3D set, not re-generated images.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    1530,
+    1655
+   ],
+   "observation": "Lane signs and X-ray UI (LANE 2, STAFF EXIT, CURRENCY 97%) are legible and unwarped; the conveyor casts a hatched floor shadow but the 2D characters cast none.",
+   "points_to": "3D engine render"
+  }
+ ],
+ "sample_points": [
+  {
+   "frame": 42,
+   "x": 0.511,
+   "y": 0.397,
+   "what": "protagonist head fill (white cheek)",
+   "hex": "#FDFAF5",
+   "patch_spread": 1.1
+  },
+  {
+   "frame": 42,
+   "x": 0.39,
+   "y": 0.475,
+   "what": "protagonist orange jumpsuit torso",
+   "hex": "#E98839",
+   "patch_spread": 0.5
+  },
+  {
+   "frame": 42,
+   "x": 0.406,
+   "y": 0.303,
+   "what": "protagonist brown hair crescent above headband",
+   "hex": "#5F3C26",
+   "patch_spread": 2.6
+  },
+  {
+   "frame": 1200,
+   "x": 0.614,
+   "y": 0.402,
+   "what": "guard black cap crown, right of badge",
+   "hex": "#464D5F",
+   "patch_spread": 5.9
+  },
+  {
+   "frame": 42,
+   "x": 0.225,
+   "y": 0.745,
+   "what": "day-cell maroon floor",
+   "hex": "#5D3246",
+   "patch_spread": 0.5
+  },
+  {
+   "frame": 150,
+   "x": 0.2,
+   "y": 0.502,
+   "what": "vault gold manhole lid, top face",
+   "hex": "#BD9742",
+   "patch_spread": 16.9
+  },
+  {
+   "frame": 740,
+   "x": 0.078,
+   "y": 0.306,
+   "what": "night-cell navy-violet wall left of cellmate",
+   "hex": "#171A5E",
+   "patch_spread": 1.4
+  },
+  {
+   "frame": 1440,
+   "x": 0.144,
+   "y": 0.347,
+   "what": "cutaway orange-tan soil layer",
+   "hex": "#F1BE6F",
+   "patch_spread": 1.7
+  },
+  {
+   "frame": 1530,
+   "x": 0.856,
+   "y": 0.097,
+   "what": "staff-lane navy wall above STAFF EXIT sign",
+   "hex": "#384D68",
+   "patch_spread": 1.2
+  },
+  {
+   "frame": 1655,
+   "x": 0.65,
+   "y": 0.823,
+   "what": "final street cream pavement",
+   "hex": "#E8DBCA",
+   "patch_spread": 14.3
+  }
+ ],
+ "thumbnail": "Frame grab of the night cell: cellmate on top bunk with noodle-soup cup, half-lidded eyes, mouth open mid-line, burned-in caption 'the'; about 24.5 s (near f735-f740); no added title or art.",
+ "could_not_determine": [
+  "Human vs synthetic narration voice (audio not reviewed here).",
+  "Software used (Unreal, Unity, Blender, After Effects): no UI or watermark visible.",
+  "Whether the 2D puppets are rigged inside a 3D engine or composited in a 2D tool.",
+  "Whether the story is a real case: no real names or dates on screen (invented 'Cobble Falls' bank, 2026 CCTV stamp).",
+  "Whether the strata textures in the cutaways are painted, procedural or AI-made.",
+  "Whether mouth shapes follow phonemes (a 4-frame sampling step is too coarse).",
+  "Whether the 41.27 s orange suspect (bars sweeping, figures at frame edge change) hides a swipe cut; treated as camera move.",
+  "Exact caption font."
+ ]
+}
