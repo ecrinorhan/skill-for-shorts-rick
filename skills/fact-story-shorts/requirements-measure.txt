@@ -1,0 +1,6 @@
+# Extra packages for scripts/measure/measure.py (measuring a finished video). Install after requirements.txt.
+# Also needs the tesseract command (apt-get install tesseract-ocr / brew install tesseract).
+--extra-index-url https://download.pytorch.org/whl/cpu
+opencv-python-headless==5.1.0.95
+demucs==4.1.0
+faster-whisper==1.2.1
