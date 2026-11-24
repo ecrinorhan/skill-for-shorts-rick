@@ -1,0 +1,142 @@
+[
+ {
+  "i": 0,
+  "start": 0.08,
+  "end": 3.88,
+  "text": "He stopped an army at his bridge and ordered every soldier to walk out of step.",
+  "beat": "hook"
+ },
+ {
+  "i": 1,
+  "start": 4.04,
+  "end": 9.001,
+  "text": "You see, he's the bridge keeper, and this bridge is the only way across the river for fifty miles.",
+  "beat": "setup"
+ },
+ {
+  "i": 2,
+  "start": 9.181,
+  "end": 12.321,
+  "text": "It hangs from iron chains, and he oils every link by hand.",
+  "beat": "setup"
+ },
+ {
+  "i": 3,
+  "start": 12.501,
+  "end": 17.761,
+  "text": "So when six hundred soldiers show up marching in perfect rows, he plants himself in the middle of the road.",
+  "beat": "setup"
+ },
+ {
+  "i": 4,
+  "start": 17.921,
+  "end": 19.582,
+  "text": "The colonel glares down from his horse.",
+  "beat": "conflict"
+ },
+ {
+  "i": 5,
+  "start": 19.742,
+  "end": 21.682,
+  "text": "My men march in step, or they don't march!",
+  "beat": "conflict"
+ },
+ {
+  "i": 6,
+  "start": 21.862,
+  "end": 23.042,
+  "text": "But the keeper won't move.",
+  "beat": "conflict"
+ },
+ {
+  "i": 7,
+  "start": 23.242,
+  "end": 25.382,
+  "text": "Walk across like you're late for dinner, or swim.",
+  "beat": "conflict"
+ },
+ {
+  "i": 8,
+  "start": 25.602,
+  "end": 28.262,
+  "text": "So the colonel laughs and orders the drums even louder.",
+  "beat": "escalation"
+ },
+ {
+  "i": 9,
+  "start": 28.502,
+  "end": 31.523,
+  "text": "Six hundred boots hit the planks at the exact same instant.",
+  "beat": "escalation"
+ },
+ {
+  "i": 10,
+  "start": 31.683,
+  "end": 34.723,
+  "text": "Halfway across, the keeper's lantern starts swinging on its hook.",
+  "beat": "escalation"
+ },
+ {
+  "i": 11,
+  "start": 34.923,
+  "end": 36.223,
+  "text": "Then the planks start bouncing.",
+  "beat": "escalation"
+ },
+ {
+  "i": 12,
+  "start": 36.403,
+  "end": 39.043,
+  "text": "And the colonel's horse refuses to take another step.",
+  "beat": "escalation"
+ },
+ {
+  "i": 13,
+  "start": 39.283,
+  "end": 40.683,
+  "text": "So how do boots break iron?",
+  "beat": "question"
+ },
+ {
+  "i": 14,
+  "start": 40.903,
+  "end": 42.523,
+  "text": "Well, ever pushed a kid on a swing?",
+  "beat": "explainer"
+ },
+ {
+  "i": 15,
+  "start": 42.783,
+  "end": 46.564,
+  "text": "One push does nothing, but push at the same moment every time, and she flies.",
+  "beat": "explainer"
+ },
+ {
+  "i": 16,
+  "start": 46.764,
+  "end": 50.884,
+  "text": "A bridge swings too, and six hundred boots are one giant push, right on the beat.",
+  "beat": "explainer"
+ },
+ {
+  "i": 17,
+  "start": 51.084,
+  "end": 56.885,
+  "text": "So every step lifts the deck a little higher, until an iron chain as fat as a fence post snaps like a shoelace.",
+  "beat": "payoff"
+ },
+ {
+  "i": 18,
+  "start": 57.005,
+  "end": 59.425,
+  "text": "And the whole army goes for a swim, drums and all.",
+  "beat": "payoff"
+ },
+ {
+  "i": 19,
+  "start": 59.605,
+  "end": 62.665,
+  "text": "Which is why soldiers still break step when they cross a bridge.",
+  "beat": "ending"
+ }
+]

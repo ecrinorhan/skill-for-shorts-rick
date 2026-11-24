@@ -1,0 +1,821 @@
+{
+ "video": "08_QlDPMzGmYac",
+ "joins_verified": [
+  {
+   "t": 2.77,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Bent loop in the field cross-fades into the scaffold lift hill; loop ghosted over the scaffold at f81-f84 (8 frames)."
+  },
+  {
+   "t": 6.93,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Huge flat-faced close-up with the open wallet fades to a wide meadow; face and wallet ghost together at f206-f210 (12 frames)."
+  },
+  {
+   "t": 10.0,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Sunny rival-and-easel meadow cross-fades to the dim station under the banner; clear double exposure at f302 (14 frames)."
+  },
+  {
+   "t": 16.08,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Winking protagonist at the dusk banner fades to the moonlit night field; banner ghosts over the night sky at f484 (11 frames)."
+  },
+  {
+   "t": 21.0,
+   "auto_type": "cut",
+   "verdict": "cut",
+   "note": "Hard cut from the flat-faced protagonist at night to the rival squinting through a telescope; nothing blended between f629 and f630."
+  },
+  {
+   "t": 22.22,
+   "auto_type": "inplace_blend",
+   "verdict": "dissolve",
+   "note": "Auto label wrong: laughing rival close-up cross-fades to a wide dark shot of two tiny figures; his face is ghosted at f668 (9 frames)."
+  },
+  {
+   "t": 28.6,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Night loop with fairy lights cross-fades to the sunlit red-carpet midway; night and day double-exposed at f860 (12 frames)."
+  },
+  {
+   "t": 31.57,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Wide gate and Ferris wheel view cross-fades to the boarding platform with the crowd; platform ghosted over the gate at f948 (10 frames)."
+  },
+  {
+   "t": 34.07,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Rival waving in the front cart fades to the protagonist alone in a dim station; green-tinted ghost of the rival at f1024 (12 frames)."
+  },
+  {
+   "t": 35.13,
+   "auto_type": "inplace_blend",
+   "verdict": "dissolve",
+   "note": "4-frame dissolve with fixed framing: protagonist and cart front stay put while the dark station roof turns into sunlit track (ghosted f1054)."
+  },
+  {
+   "t": 41.35,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Tall narrow loop view cross-fades to a roadside scene with a car and hairpin sign; loop lines ghost over the road at f1242 (13 frames)."
+  },
+  {
+   "t": 44.32,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Teal-and-cream car approaching fades to a red hot rod on a bend; both cars overlap at f1330 (7 frames)."
+  },
+  {
+   "t": 52.35,
+   "auto_type": "inplace_blend",
+   "verdict": "dissolve",
+   "note": "Auto label wrong: wide field with a light trail cross-fades to a closer loop view; Ferris wheel and loop double-exposed at f1569-f1571 (7 frames)."
+  },
+  {
+   "t": 61.25,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Fireball bursts at the tower base while a red cart corner fades in at lower left; the VFX flash makes the blend hard to separate (estimate), 9 frames."
+  },
+  {
+   "t": 61.58,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Huge white-yellow fireball cross-fades to a smaller orange cloud as the protagonist's cap rises at lower left; fireball size jumps (7 frames)."
+  }
+ ],
+ "missed_joins": [
+  {
+   "t": 46.2,
+   "type": "dissolve",
+   "note": "Red hot rod mid-flip cross-fades (about 6 frames, f1383-f1389) into the white coaster and ring field; 50/50 ghost at f1385; detector only flagged a suspect."
+  }
+ ],
+ "beats": [
+  {
+   "name": "hook",
+   "start": 0.0,
+   "end": 2.44,
+   "said": "Inventor bent his coaster's loop into a lumpy shape.",
+   "shown": "Laughing protagonist slams a mallet on a rusty rail with sparks; fast pull-back reveals a bent loop standing in a meadow."
+  },
+  {
+   "name": "setup",
+   "start": 2.44,
+   "end": 15.2,
+   "said": "First upside-down ride cost him everything; rival copies it; test dummy returns crushed; he must open tomorrow.",
+   "shown": "Scaffold lift hill, flat-faced close-up with an empty open wallet, rival at a blueprint easel, dusk station with banner, cart with crushed green dummy."
+  },
+  {
+   "name": "escalation",
+   "start": 15.2,
+   "end": 28.3,
+   "said": "He hammers the loop's base gentle overnight, unsure it works; the rival slips in and squeezes it narrow.",
+   "shown": "Moonlit field: glowing white-hot rail and sparks, rival laughing at a telescope, loop squeezing from a circle into a narrow fairy-lit ellipse."
+  },
+  {
+   "name": "twist",
+   "start": 28.3,
+   "end": 41.03,
+   "said": "Opening morning: town queues at the rival's circle; owner's cart tips toward the skinny loop; cliffhanger.",
+   "shown": "Bright daylight midway with confetti, crowd on the platform, rival waving in front, owner's cart rolls over the hill toward the narrow loop."
+  },
+  {
+   "name": "explainer",
+   "start": 41.03,
+   "end": 52.0,
+   "said": "Hairpins flip fast cars; carts peak at a loop's base, where a circle's tight curve crushed the dummy.",
+   "shown": "Teal car and red hot rod on a hairpin road (smoke, flip), then a white-steel ring loop with a glowing speed trail."
+  },
+  {
+   "name": "payoff",
+   "start": 52.0,
+   "end": 59.7,
+   "said": "Flattened bottom plus the rival's squeeze lifted the hairpin to the slow top, so he floats over unharmed.",
+   "shown": "Camera flies through the tall loop as the red cart passes upside down with the protagonist's head hanging out, unhurt; then glides off the loop."
+  },
+  {
+   "name": "ending",
+   "start": 59.7,
+   "end": 63.2,
+   "said": "The rival's cart reaches the base of his perfect circle at that exact moment.",
+   "shown": "Low wide meadow with a blue tower; fireball and mushroom cloud erupt; protagonist's cap rises in his cart and he turns with a smug smirk."
+  }
+ ],
+ "hook": {
+  "first_frame": "Laughing protagonist (round white head, red cap, blue overalls) mid-swing with a big mallet over a rusty rail in the foreground; blue sky, trees and hills behind; caption 'He' low centre.",
+  "first_3s": "0-1.0 s mallet rises and slams the rail with sparks; 1.0-1.5 s fast pull-back and tilt-up reveals a lumpy bent loop in a green field (one continuous move); 1.6-2.77 s slow drift on the loop.",
+  "line_type": "strange action by he/they",
+  "first_frame_shot_size": "medium-long",
+  "first_frame_subject": "protagonist doing the hook action",
+  "protagonist_looks_at_camera": true,
+  "title_vs_first_line": "Title promises the payoff (the shape that saved coasters); the first line opens on the deformation itself, so the title is the answer and the line is the puzzle."
+ },
+ "story": {
+  "topic_type": "engineering/physics",
+  "setting_era": "1900s",
+  "structure": "act first, explain at the end",
+  "real_fact_core": "Riders move fastest at a loop's bottom, so a circle's tight bottom curve is the dangerous spot; a tall teardrop loop moves the tight curve to the slow top.",
+  "likely_source_type": "invented parable",
+  "protagonist": "Unnamed coaster owner and inventor: red cap, overalls, flat unimpressed default face",
+  "authority_or_antagonist": "Unnamed rival ride owner: dark pompadour, cream vest with gold trim, smug grin",
+  "direct_speech_lines": 0,
+  "second_person": false,
+  "tense": "mixed",
+  "explainer_turn": "'You see,' at 41.10 s (an earlier 'You see,' at 2.44 s is only a premise aside)",
+  "ending_type": "consequence shown, stops on impact",
+  "call_to_action": "none"
+ },
+ "tone": {
+  "humour": "Dark slapstick: gleeful mallet swinging, a crushed test dummy, a fly on his nose, a nuke-sized fireball for the rival and a smug final smirk.",
+  "deadpan_or_irony": "Deadpan narrator and an ironic reversal (the sabotage meant to kill him saves him); a self-answered rhetorical question works as a gag.",
+  "dialogue_style": "No character speech: one narrator voice, one rhetorical question, a 'You see' aside; characters only emote through swapped faces."
+ },
+ "characters": [
+  {
+   "role": "protagonist (coaster owner)",
+   "head": "Round white head about a third of body height, thick near-black outline, no neck",
+   "hair_or_hat": "Red six-panel cap with button, white dashed stitching and a yellow strap tag; brown hair fringe with a wavy edge under it",
+   "eyes": "Black dots, arcs or half-lidded ovals under thick brows; wide round pupil when winking",
+   "mouth": "Tiny dark dash; toothy grin or open laugh only in big moments; lopsided smirk at the end",
+   "body_and_clothes": "Bean torso; yellow shirt, light-blue denim overalls with gold buttons, patch pocket with yellow stitching and a red plaid cross-stitched patch",
+   "limbs": "Thin dark noodle limbs with round mitten hands, no visible shoes",
+   "accessories": "Oversized wooden mallet; open brown leather wallet (6.5 s); tiny fly on his nose (6.5 s)",
+   "expressions_seen": [
+    "laughing squint, open toothy mouth (0-1 s)",
+    "wide closed-eye grin (6.0 s)",
+    "flat half-lidded with thick brows (6.5, 15, 20, 34 s)",
+    "closed-eye smile (11 s, 35.4-36.2 s)",
+    "worried round eyes with sweat drop (13 s)",
+    "wink with toothy grin (15.8 s)",
+    "half-lidded smirk (62.5-63.2 s)"
+   ]
+  },
+  {
+   "role": "rival ride owner (antagonist)",
+   "head": "Round cream-white head slightly larger than the protagonist's, same thick outline",
+   "hair_or_hat": "Glossy dark-brown pompadour with a lighter ridge",
+   "eyes": "Slanted angry brows over dot eyes; half-lidded when smug; squeezed arcs when laughing",
+   "mouth": "Smirk line; toothy sneer; wide open laugh with dark interior and teeth",
+   "body_and_clothes": "Tall bean body in a cream vest with gold trim and a gold medallion on a dark chain over dark sleeves",
+   "limbs": "Thin dark arms; one hand on hip (21 s), both arms raised (33.9 s)",
+   "accessories": "Brass telescope on a tripod with a glowing lantern (21-22 s)",
+   "expressions_seen": [
+    "squint through telescope with smirk (21.1 s)",
+    "smug half-lid (21.4 s)",
+    "closed-eye flat smile (21.6 s)",
+    "open-mouth laugh (21.7-22.2 s)",
+    "toothy sneer with arms up (33.9 s)"
+   ]
+  },
+  {
+   "role": "townsfolk crowd",
+   "head": "Same round white head template with thick outline, mostly beaming closed-eye smiles",
+   "hair_or_hat": "Granny: white curls; woman: auburn bob; man: brown hair; policeman: blue cap with badge; boy: striped beanie with propeller",
+   "eyes": "Dots or ^ arcs",
+   "mouth": "Wide smiles",
+   "body_and_clothes": "Teal cardigan, teal polka-dot dress, plaid shirt, blue uniform, striped shirt; red-capped man in a white #7 pinstripe jersey",
+   "limbs": "Thin dark noodle limbs",
+   "accessories": "Ribbon on the rail, red balloon",
+   "expressions_seen": [
+    "beaming (33.9 s)",
+    "flat unimpressed (red-capped man, 33.9 s)"
+   ]
+  }
+ ],
+ "character_style": {
+  "head_height_share_of_body_estimate": 0.36,
+  "outline": "Thick uniform near-black outline (about 2-3% of head width) on heads, caps, bodies and limbs, kept while the head turns in 3D",
+  "shading": "Mostly flat cel fills with soft lilac-grey shading on the lower right of white heads; heads stay cream-white in blue night scenes (estimate)",
+  "consistency_between_shots": "High: same cap, face template, overalls and limb style from 0 s to 63 s; only the whole-face sprite changes per beat.",
+  "shadow_under_character": "none"
+ },
+ "animation": {
+  "body_motion": "Rigged puppet on a few strong poses: mallet wind-up f6-f12, slam f18, recoil f30; heads rotate in 3D (f1865-f1877); the camera supplies most of the motion.",
+  "lip_sync": "mouth changes with pose only",
+  "lip_sync_evidence_frames": [
+   641,
+   647,
+   650,
+   662
+  ],
+  "eyes_and_blinks": "No blink cycles seen; each look is a whole-face swap (dots, arcs, half-lids, round-pupil wink), e.g. grin to flat face f180-f195, smirk to open laugh f647-f650 (estimate).",
+  "idle_motion": "Near zero: faces and bodies freeze during holds (rival laugh f650-f665 is locked); exceptions are the rival's 3-frame head pop f641-f644 and the final head turn.",
+  "squash_and_stretch": "None seen on characters; arms look stretched in the overhead mallet pose (f6-f12, estimate); the loop mesh squeezes from circle to narrow ellipse at 23.5-27 s."
+ },
+ "environments": [
+  {
+   "start": 0.0,
+   "end": 3.0,
+   "place": "Coaster build site: rusty lattice rail in the foreground, hillside meadow with trees, red clay path, bent loop standing in a green field",
+   "key_props": [
+    "rusty steel rail",
+    "wooden crate",
+    "mallet",
+    "bent rounded-square loop"
+   ],
+   "in_world_text": [],
+   "time_of_day": "day",
+   "lighting": "Hard sun from upper left, neutral-warm, blue sky fill; foreground rail in shade with orange rust tones; no practical lights",
+   "depth_cues": "Foreground rail defocused into orange bokeh; aerial haze on far hills; sky lighter at the horizon"
+  },
+  {
+   "start": 3.0,
+   "end": 7.0,
+   "place": "Scaffold lift hill and wooden platform beside the loop; protagonist stands on the platform, then a huge close-up with the loop and park behind",
+   "key_props": [
+    "wooden scaffold tower",
+    "red test cart at the top",
+    "platform railing",
+    "open leather wallet"
+   ],
+   "in_world_text": [],
+   "time_of_day": "day",
+   "lighting": "Bright midday sun, hard shadows on the platform, cool blue sky fill, no practicals",
+   "depth_cues": "Fast orbit shows strong parallax of the tower against the loop; close-up background hazy (estimate)"
+  },
+  {
+   "start": 7.0,
+   "end": 10.0,
+   "place": "Green meadow with the rival at a blueprint easel, white ring loop and Ferris wheel behind",
+   "key_props": [
+    "blueprint easel with dark blue board",
+    "white ring loop",
+    "Ferris wheel"
+   ],
+   "in_world_text": [
+    "blueprint diagram (illegible)"
+   ],
+   "time_of_day": "day",
+   "lighting": "Soft bright daylight, sun partly cloud-filtered, green bounce from the meadow, board in light shade",
+   "depth_cues": "Sharp rival and easel, slightly hazy distant rides; slow drift gives mild parallax"
+  },
+  {
+   "start": 10.0,
+   "end": 16.0,
+   "place": "Wooden ride station under a corrugated roof at dusk with the banner, test cart on the track, tree stump with a mallet",
+   "key_props": [
+    "paint-drip banner",
+    "string bulbs",
+    "hanging spot lamp",
+    "red test cart with floral seat and crushed green dummy",
+    "tree stump"
+   ],
+   "in_world_text": [
+    "OPENING TOMORROW banner (red and navy drip letters)",
+    "UPSIDE-DOWNER on the cart"
+   ],
+   "time_of_day": "dusk to night",
+   "lighting": "Warm hanging lamp on the banner and small string bulbs against a cool navy sky; deck warm, background dark (luma about 62-78)",
+   "depth_cues": "Banner and character in focus, dark background softly blurred; push-in gives close-up parallax"
+  },
+  {
+   "start": 16.0,
+   "end": 21.0,
+   "place": "Moonlit park field with the loop outline, red dirt path, dark teal grass and ground lights; protagonist hammers the track bottom",
+   "key_props": [
+    "white moon disc",
+    "colour string lights on the loop",
+    "glowing hot rail",
+    "mallet"
+   ],
+   "in_world_text": [],
+   "time_of_day": "night",
+   "lighting": "Cool moonlight key, warm orange spark glow and white-hot rail, small white ground lights; orange against blue",
+   "depth_cues": "Haze and glow around the moon, soft bloom on the lights, tilt-up reveals the loop"
+  },
+  {
+   "start": 21.0,
+   "end": 28.6,
+   "place": "Night field at the loop: rival at a telescope on a tripod, then the loop squeezed tall and narrow with fairy lights",
+   "key_props": [
+    "brass telescope",
+    "tripod lantern",
+    "white-bulb ring",
+    "Ferris wheel silhouette",
+    "bunting"
+   ],
+   "in_world_text": [],
+   "time_of_day": "night",
+   "lighting": "Cold moon-blue ambient with a warm lantern practical and white bulbs outlining the ring; darkest section (luma about 57)",
+   "depth_cues": "Lantern and rival sharp, ring bulbs bloomed, ground mist at the loop base (estimate)"
+  },
+  {
+   "start": 28.6,
+   "end": 31.6,
+   "place": "Opening-day midway: red carpet with confetti up to a GRAND OPENING gate, Ferris wheel, red balloon, striped booths",
+   "key_props": [
+    "red carpet",
+    "gate sign",
+    "Ferris wheel",
+    "red balloon",
+    "booths and bunting",
+    "girl and man"
+   ],
+   "in_world_text": [
+    "GRAND OPENING gate sign"
+   ],
+   "time_of_day": "day",
+   "lighting": "Hard bright sun, high saturation, blue sky with white clouds, warm red carpet",
+   "depth_cues": "Strong perspective down the carpet; fast zoom toward the gate; light haze on the far wheel"
+  },
+  {
+   "start": 31.6,
+   "end": 35.1,
+   "place": "Boarding platform: wooden deck, crowd behind a rail with a ribbon, rival's white and red cart in front, green cart behind",
+   "key_props": [
+    "white and red cart",
+    "green cart with FIRST sign",
+    "ribbon",
+    "red balloon",
+    "translucent striped roof"
+   ],
+   "in_world_text": [
+    "FIRST! sign on the green cart"
+   ],
+   "time_of_day": "day",
+   "lighting": "Hard sun through the translucent roof casts blue-striped shade; warm wood deck; bright sky",
+   "depth_cues": "Foreground cart edge crisp, crowd layered in depth, background hills hazy"
+  },
+  {
+   "start": 35.1,
+   "end": 41.4,
+   "place": "Protagonist's cart leaving the station and rolling over the first hill above farmland, then a forward view of the tall narrow loop with a red dirt patch",
+   "key_props": [
+    "red UPSIDE-DOWNER cart",
+    "floral seat",
+    "green crushed dummy",
+    "red barn",
+    "carousel",
+    "Ferris wheel",
+    "yellow hedge maze",
+    "tall narrow loop"
+   ],
+   "in_world_text": [
+    "UPSIDE-DOWNER lettering on the cart front"
+   ],
+   "time_of_day": "day",
+   "lighting": "High sun with blown-out glare in the upper right as the camera levels; hazy distance",
+   "depth_cues": "Strong aerial haze, bloom on the sun, large parallax during the orbit"
+  },
+  {
+   "start": 41.4,
+   "end": 46.2,
+   "place": "Hillside road with a hairpin sign: teal-and-cream car, then a red hot rod drifting in smoke and flipping",
+   "key_props": [
+    "hairpin warning sign",
+    "teal and cream sedan",
+    "red hot rod",
+    "tyre smoke",
+    "debris"
+   ],
+   "in_world_text": [
+    "hairpin warning sign (symbol only)"
+   ],
+   "time_of_day": "day",
+   "lighting": "Bright sun, strong contrast, blue sky with white clouds, hazy rolling hills (estimate)",
+   "depth_cues": "Motion blur and speed streaks on the road; hills hazy; camera pushes in"
+  },
+  {
+   "start": 46.2,
+   "end": 59.7,
+   "place": "Green fairground field: white wooden coaster, perfect-circle ring loop, Ferris wheel, then the tall steel loop with the cart passing upside down",
+   "key_props": [
+    "white lattice coaster hill",
+    "white ring loop with glow trail",
+    "Ferris wheel",
+    "tall dark-steel loop",
+    "red cart with the protagonist's head"
+   ],
+   "in_world_text": [
+    "UPSIDE-DOWNER upside down on the cart (57-58 s)"
+   ],
+   "time_of_day": "day",
+   "lighting": "Even bright daylight, saturated greens, soft specular on white steel; emphasis glows on the rails",
+   "depth_cues": "Low-angle wide framing, hazy hills, bloom on glow trails, strong perspective on the loop"
+  },
+  {
+   "start": 59.7,
+   "end": 63.2,
+   "place": "Same park seen low and wide: blue lattice tower, Ferris wheel, carousel pavilion, hedge, power lines; fireball erupts behind with the protagonist's cart in front",
+   "key_props": [
+    "blue lattice tower",
+    "Ferris wheel",
+    "carousel pavilion",
+    "power pole and wires",
+    "red cart",
+    "fireball and mushroom cloud"
+   ],
+   "in_world_text": [
+    "UPSIDE-DOWNER on the cart side"
+   ],
+   "time_of_day": "day",
+   "lighting": "Pale flat haze (sat about 52, luma about 156) until a white-yellow fireball key, then orange dust haze under blue sky",
+   "depth_cues": "Modelled grass blades in the foreground, heavy atmospheric haze on hills; soft-focus fireball"
+  }
+ ],
+ "set_style": "mixed",
+ "layer_stack": [
+  "sky gradient with flat-bottomed sprite clouds and a sun or moon disc",
+  "hazy hill silhouettes and far trees",
+  "3D midground set: loops, track, scaffold, Ferris wheel, booths, tower",
+  "ground plane with modelled grass blades, clay path, red carpet or wood deck",
+  "toon-outlined round-head characters with flat cel fills",
+  "blurred 3D foreground props: rails, cart edges, posts, lamps",
+  "particle and glow VFX: sparks, smoke, confetti, light trails, fireball",
+  "caption: 1-2 bold white words with thick black outline at about 70% height, centred"
+ ],
+ "camera": {
+  "shot_sizes": [
+   "medium-long (0 s)",
+   "extreme wide on the loop (1.5-3 s, 46-62 s)",
+   "close-up (6-7 s, 15-16 s, 21.5-22 s)",
+   "medium (8-9 s, 20 s)",
+   "wide (28-35 s)",
+   "low over-the-shoulder toward the fireball (61.5-63 s)"
+  ],
+  "angles": [
+   "eye level on characters",
+   "low angle looking up at loops",
+   "high angle over the cart (35.4 s)",
+   "first-person cart view (36.5-37 s)",
+   "back-of-head over the shoulder (61.5-62.3 s)"
+  ],
+  "lens_feel": "Wide-angle (about 20-28 mm full-frame equivalent, estimate) with strong perspective stretch in close orbits and a bloomed sun",
+  "camera_height": "Mostly low, near ground or eye level looking slightly up at loops; drone-like high angles at 3.5 s and 35.4 s; ground-level grass at the end",
+  "notable_moves": [
+   {
+    "t": 1.0,
+    "type": "fast pull-back and tilt-up",
+    "note": "About 0.4 s: protagonist shrinks to a speck and the bent loop swings into frame; continuous, verified f34-f44."
+   },
+   {
+    "t": 3.07,
+    "type": "orbit around scaffold",
+    "note": "About 1 s, peak about 108 %H/s per pack; strong parallax of the tower against the loop."
+   },
+   {
+    "t": 5.0,
+    "type": "fast push-in",
+    "note": "Head grows about 3-4x in roughly 0.5 s to the huge close-up; background matches, no cut seen (not frame-checked)."
+   },
+   {
+    "t": 13.3,
+    "type": "push-in",
+    "note": "From the cart and worried protagonist to a close-up in front of the banner, 1.6 s."
+   },
+   {
+    "t": 17.0,
+    "type": "tilt-up and pull-out",
+    "note": "From the hammer strike to the moonlit loop, about 1.8 s, glow along the rail (verified f510-f565)."
+   },
+   {
+    "t": 28.6,
+    "type": "fast zoom toward the gate",
+    "note": "Pack measures about 17 %/s push-in over 3 s down the red carpet."
+   },
+   {
+    "t": 35.4,
+    "type": "swooping orbit to first-person view",
+    "note": "Fastest move (peak about 140 %H/s): high angle over the cart rolls to a forward view with sun glare; continuous, verified f1062-f1106."
+   },
+   {
+    "t": 44.8,
+    "type": "push-in tracking the car",
+    "note": "Peak about 81 %H/s with smoke and speed streaks."
+   },
+   {
+    "t": 58.3,
+    "type": "orbit down the loop leg then glide to the park",
+    "note": "About 2 s, peak about 79 %H/s; continuous, verified f1782-f1798; ends on a static low wide frame."
+   }
+  ]
+ },
+ "effects": [
+  {
+   "t": 0.0,
+   "dur_s": 1.0,
+   "type": "defocus",
+   "trigger": "opening shot: foreground rail blurred while the mallet swings"
+  },
+  {
+   "t": 0.5,
+   "dur_s": 0.6,
+   "type": "particles",
+   "trigger": "mallet strikes the rail: orange sparks"
+  },
+  {
+   "t": 7.1,
+   "dur_s": 2.9,
+   "type": "diagram",
+   "trigger": "rival copies the design: blueprint board on an easel (illegible)"
+  },
+  {
+   "t": 10.2,
+   "dur_s": 5.9,
+   "type": "in-world sign",
+   "trigger": "night before opening: paint-drip OPENING TOMORROW banner"
+  },
+  {
+   "t": 16.9,
+   "dur_s": 1.9,
+   "type": "glow",
+   "trigger": "hammering the loop's base flat: rail glows white-orange, ground flash and sparks"
+  },
+  {
+   "t": 23.6,
+   "dur_s": 3.4,
+   "type": "other",
+   "trigger": "rival squeezes the loop's sides in: loop morphs from circle to narrow ellipse"
+  },
+  {
+   "t": 29.0,
+   "dur_s": 2.6,
+   "type": "particles",
+   "trigger": "opening morning: confetti on the red carpet"
+  },
+  {
+   "t": 29.8,
+   "dur_s": 1.8,
+   "type": "in-world sign",
+   "trigger": "town arrives: GRAND OPENING gate sign"
+  },
+  {
+   "t": 36.6,
+   "dur_s": 0.6,
+   "type": "glow",
+   "trigger": "cart rolls over the crest: sun glare bloom in the upper right"
+  },
+  {
+   "t": 44.9,
+   "dur_s": 1.4,
+   "type": "smoke",
+   "trigger": "car drifts: tyre smoke billows"
+  },
+  {
+   "t": 45.0,
+   "dur_s": 0.4,
+   "type": "speed lines",
+   "trigger": "car takes the bend at speed: white streaks on the road"
+  },
+  {
+   "t": 45.6,
+   "dur_s": 1.0,
+   "type": "particles",
+   "trigger": "car flips: debris around the airborne car"
+  },
+  {
+   "t": 46.5,
+   "dur_s": 5.8,
+   "type": "glow",
+   "trigger": "speed peaks at the loop base: white-yellow light trail on the ring rail"
+  },
+  {
+   "t": 56.0,
+   "dur_s": 2.0,
+   "type": "glow",
+   "trigger": "cart crawls up top: orange rim glow on rail and cart (estimate)"
+  },
+  {
+   "t": 61.25,
+   "dur_s": 0.6,
+   "type": "flash",
+   "trigger": "rival's cart reaches the base: white-yellow fireball"
+  },
+  {
+   "t": 61.9,
+   "dur_s": 1.3,
+   "type": "smoke",
+   "trigger": "perfect circle: mushroom cloud with a white shock ring"
+  }
+ ],
+ "lighting_mood_shifts": [
+  {
+   "t": 10.0,
+   "change": "Bright daylight to dim blue dusk with a warm spot on the banner (luma about 118 to 62)",
+   "story_reason": "Night before opening; the test dummy returns crushed."
+  },
+  {
+   "t": 16.1,
+   "change": "Dusk to deep-blue moonlit night with orange spark glow",
+   "story_reason": "He hammers the loop into shape overnight."
+  },
+  {
+   "t": 21.0,
+   "change": "Darkest section (luma about 57): cold moon blue with a warm lantern practical",
+   "story_reason": "The rival slips in and sabotages the loop."
+  },
+  {
+   "t": 28.6,
+   "change": "Cross-fade to bright saturated daylight with confetti (luma about 108-128)",
+   "story_reason": "Opening morning, the town arrives."
+  },
+  {
+   "t": 36.6,
+   "change": "Overexposed sun glare and bloom in the upper sky as the view levels out",
+   "story_reason": "The ride starts and the skinny loop appears ahead: dread."
+  },
+  {
+   "t": 60.3,
+   "change": "Palette drains to pale hazy desaturation (sat about 52, luma about 156), then a white-yellow flash and orange dust haze",
+   "story_reason": "Calm before the rival's cart reaches the base and blows up."
+  }
+ ],
+ "generation_evidence": [
+  {
+   "frames": [
+    0,
+    18,
+    24
+   ],
+   "observation": "Foreground rail is defocused into orange bokeh while the character stays sharp, and sparks appear at the exact mallet contact point.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    34,
+    38,
+    42,
+    44
+   ],
+   "observation": "One continuous 0.35 s pull-back and tilt-up; the protagonist stays in the same spot and the rusty lattice and bent loop keep rigid, consistent perspective.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    330,
+    390,
+    450,
+    475
+   ],
+   "observation": "Paint-drip banner lettering keeps identical letter shapes, drips and brush texture across 5 s and a push-in; no warping or re-spelling.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    1865,
+    1873,
+    1877
+   ],
+   "observation": "Protagonist's head turns from back view (cap strap, hair) to a 3/4 face; outline, cap brim and hair stay coherent, so the head is a rigged 3D object with a toon outline.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    1062,
+    1086,
+    1106
+   ],
+   "observation": "Red UPSIDE-DOWNER cart and its lettering stay rigid and crisp through a 1.4 s swooping orbit; the same cart recurs at 13 s, 57-58 s and 62 s, and the same Ferris wheel and barn props recur across scenes.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    1840,
+    1853
+   ],
+   "observation": "Fireball and mushroom cloud are soft, blurred and photographic next to the crisp toon set, and sprite clouds have flat bottoms and a hard clipped edge; reads as a stock 2D VFX overlay (estimate).",
+   "points_to": "unclear"
+  }
+ ],
+ "sample_points": [
+  {
+   "frame": 195,
+   "x": 0.23,
+   "y": 0.36,
+   "what": "protagonist head fill (white left cheek, big close-up)",
+   "hex": "#FCF8F5",
+   "patch_spread": 0.0
+  },
+  {
+   "frame": 195,
+   "x": 0.31,
+   "y": 0.566,
+   "what": "protagonist blue overalls (patch pocket interior)",
+   "hex": "#6892C2",
+   "patch_spread": 0.0
+  },
+  {
+   "frame": 1853,
+   "x": 0.19,
+   "y": 0.6,
+   "what": "protagonist red cap panel",
+   "hex": "#DB3043",
+   "patch_spread": 1.0
+  },
+  {
+   "frame": 1853,
+   "x": 0.17,
+   "y": 0.686,
+   "what": "protagonist brown hair under the cap",
+   "hex": "#824A26",
+   "patch_spread": 1.3
+  },
+  {
+   "frame": 60,
+   "x": 0.5,
+   "y": 0.06,
+   "what": "day sky blue (opening shot)",
+   "hex": "#2B5DBE",
+   "patch_spread": 1.0
+  },
+  {
+   "frame": 1395,
+   "x": 0.5,
+   "y": 0.85,
+   "what": "bright lawn green (explainer field)",
+   "hex": "#4EA934",
+   "patch_spread": 5.2
+  },
+  {
+   "frame": 750,
+   "x": 0.85,
+   "y": 0.25,
+   "what": "night sky navy (sabotage scene)",
+   "hex": "#1E3274",
+   "patch_spread": 0.7
+  },
+  {
+   "frame": 900,
+   "x": 0.5,
+   "y": 0.95,
+   "what": "red carpet (opening-day midway)",
+   "hex": "#97002E",
+   "patch_spread": 0.1
+  },
+  {
+   "frame": 1290,
+   "x": 0.2,
+   "y": 0.9,
+   "what": "road asphalt grey (car analogy)",
+   "hex": "#585664",
+   "patch_spread": 1.5
+  },
+  {
+   "frame": 44,
+   "x": 0.2,
+   "y": 0.94,
+   "what": "red clay path (opening shot)",
+   "hex": "#456E25",
+   "patch_spread": 3.4
+  }
+ ],
+ "thumbnail": "Boarding platform at ~33.9 s (matches f1016): rival raises both arms in the front cart with a sneer, five townsfolk behind a ribbon and balloon, a red-capped #7-jersey man looks unimpressed at lower left; caption 'The'.",
+ "could_not_determine": [
+  "Which engine or software built the set (park-builder game, Unreal, Unity, Blender): no credits or UI in frames; check description, credits and socials.",
+  "Whether characters are true 3D rigs or layered 2D parts: the head turn at f1865-f1877 suggests 3D, flat fills and swapped faces suggest toon-shaded or layered rigs.",
+  "Character animation frame rate (poses may be held on twos); needs frame differencing on a moving limb.",
+  "Whether the fireball is a stock video overlay or an engine particle effect.",
+  "Hidden joins inside 46.4-59.7 s and 5.0-5.5 s (very fast push-in) were not frame-checked beyond the flagged suspects; 59.4-59.9 s was checked and is continuous.",
+  "Shadows cast by characters: none visible, but characters are small in most shots.",
+  "Era is never stated: 1900s is inferred from vintage cars, costumes and loop-coaster history (estimate); chalkboard diagram and wallet photo are illegible."
+ ]
+}
