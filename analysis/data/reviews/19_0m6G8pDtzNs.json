@@ -1,0 +1,669 @@
+{
+ "video": "19_0m6G8pDtzNs",
+ "joins_verified": [
+  {
+   "t": 4.65,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Boss on throne dissolves to two office workers; clear double exposure."
+  },
+  {
+   "t": 7.87,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Door/glass of tiny room dissolves into green-brick room with empty desk."
+  },
+  {
+   "t": 9.45,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Desk with in-tray dissolves to a wall clock close-up; circular overlap."
+  },
+  {
+   "t": 13.75,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Guy with phone and boss dissolves to boss in doorway holding red box."
+  },
+  {
+   "t": 16.13,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Boss at door dissolves to protagonist at desk in wide room."
+  },
+  {
+   "t": 17.47,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Door shot dissolves to desk with protagonist head in foreground."
+  },
+  {
+   "t": 19.22,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Phone showing pay dissolves to protagonist holding phone, wide-eyed."
+  },
+  {
+   "t": 20.08,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Smiling protagonist dissolves to top-down view of two lounging workers."
+  },
+  {
+   "t": 21.45,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Top-down lounging shot dissolves to bright open office with coworkers."
+  },
+  {
+   "t": 25.68,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Empty inbox phone screen dissolves to framed family photo on old desk."
+  },
+  {
+   "t": 28.72,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Office wide shot dissolves to a calendar page (NOV FRI 11) on green wall."
+  },
+  {
+   "t": 33.37,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Boss close-up in doorway dissolves to man in corner with feet up, sunbeam."
+  },
+  {
+   "t": 36.45,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Corner room dissolves to night view of lit window in office tower."
+  },
+  {
+   "t": 39.57,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Night skyscraper dissolves back to day: two men on desk."
+  },
+  {
+   "t": 42.62,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Two men with drinks dissolve to empty room, door and Monday calendar."
+  },
+  {
+   "t": 45.27,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Empty desk and chair dissolves to the same desk from a closer angle."
+  },
+  {
+   "t": 47.58,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Cleared desk dissolves to coworkers standing in bright office."
+  },
+  {
+   "t": 49.57,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Bright white door scene dissolves to same door in dark blue night grade."
+  },
+  {
+   "t": 54.03,
+   "auto_type": "inplace_blend",
+   "verdict": "in_place_change",
+   "note": "Same framing; boss swings open a cabinet door, revealing mail slots. Animated prop, not a join."
+  }
+ ],
+ "missed_joins": [
+  {
+   "t": 1.2,
+   "type": "cut",
+   "note": "f35 to f36: button close-up swaps to protagonist behind button with spark lines; framing jumps."
+  },
+  {
+   "t": 2.27,
+   "type": "cut",
+   "note": "f67 to f68: blurred protagonist swaps to a closer button shot; hard framing jump."
+  }
+ ],
+ "beats": [
+  {
+   "name": "hook",
+   "start": 0.0,
+   "end": 4.5,
+   "said": "Firing is impossible in Japan, but companies found something worse.",
+   "shown": "Hand-slammed FIRE button on a desk, nervous employee, then smiling boss behind a button."
+  },
+  {
+   "name": "setup",
+   "start": 4.5,
+   "end": 16.0,
+   "said": "Imagine boss leads you to tiny room: no computer, a clock, a guy on phone; job is nothing.",
+   "shown": "Office, door sign, empty desk, wall clock, man with feet up, boss holding red box."
+  },
+  {
+   "name": "escalation",
+   "start": 16.0,
+   "end": 21.5,
+   "said": "Sit until six; you're paid for this; at first it's paradise.",
+   "shown": "Protagonist grins at desk, phone shows pay, lounging top-down."
+  },
+  {
+   "name": "escalation",
+   "start": 21.5,
+   "end": 33.4,
+   "said": "Coworkers stare, emails stop, desk replaced, boss cheerfully checks in each Friday.",
+   "shown": "Open office, empty inbox, family photo, calendar, boss smiling in doorway."
+  },
+  {
+   "name": "twist",
+   "start": 33.4,
+   "end": 42.6,
+   "said": "The corner guy seems happy, so you join him with feet up.",
+   "shown": "Man in corner, night tower window, two men relaxing with drinks."
+  },
+  {
+   "name": "payoff",
+   "start": 42.6,
+   "end": 49.5,
+   "said": "One Monday he is gone, desk cleared, nobody says where.",
+   "shown": "Empty desk and chair, coworkers standing, door."
+  },
+  {
+   "name": "explainer",
+   "start": 49.5,
+   "end": 58.5,
+   "said": "Law prevents firing but nothing prevents misery; they remove work and friends and wait.",
+   "shown": "Dark blue room, fire alarm with LABOR LAW tag, boss with mail cabinet."
+  },
+  {
+   "name": "ending",
+   "start": 58.5,
+   "end": 60.5,
+   "said": "Nobody can do nothing forever.",
+   "shown": "Close-up of door sign; through window the lone worker sits at desk."
+  }
+ ],
+ "hook": {
+  "first_frame": "Blurred protagonist at a desk with a small red FIRE button on a green mat, blue Japanese-style room behind.",
+  "first_3s": "Camera swoops to the big FIRE button, a mallet smacks it with spark lines, then pulls up and back to the worried seated protagonist, then boss with closed eyes.",
+  "line_type": "paradox or claim",
+  "first_frame_shot_size": "medium",
+  "first_frame_subject": "protagonist posing with the key prop",
+  "protagonist_looks_at_camera": true,
+  "title_vs_first_line": "Title promises an unwanted job; first line makes the claim that firing is impossible, then teases something worse."
+ },
+ "story": {
+  "topic_type": "law/economics/work",
+  "setting_era": "modern",
+  "structure": "second-person scenario, then explainer",
+  "real_fact_core": "Japanese law makes firing hard, so firms use pressure-by-idleness 'banishment rooms' to push staff out.",
+  "likely_source_type": "news",
+  "protagonist": "unnamed 'you' office worker with black hair, blue shirt, dropped into a room with nothing to do",
+  "authority_or_antagonist": "smiling grey-haired boss in dark suit and red tie",
+  "direct_speech_lines": 0,
+  "second_person": true,
+  "tense": "present",
+  "explainer_turn": "'You see' at 49.25 s",
+  "ending_type": "explanation is the last line",
+  "call_to_action": "none"
+ },
+ "tone": {
+  "humour": "Mild; cheerful boss and drinks-with-umbrellas lounging contrast with creeping dread.",
+  "deadpan_or_irony": "Irony: paradise turns to isolation; smiling boss as villain; closing line is a flat moral.",
+  "dialogue_style": "Narrator in second person, fast and unbroken; no quoted speech."
+ },
+ "characters": [
+  {
+   "role": "boss",
+   "head": "big round off-white head, thick black outline",
+   "hair_or_hat": "grey side-parted hair cap",
+   "eyes": "closed upturned arcs when smiling; round dots with ring when alarmed",
+   "mouth": "wide toothy grid grin",
+   "body_and_clothes": "small dark navy suit, red tie, narrow torso",
+   "limbs": "thin black stick limbs, no hands detail",
+   "accessories": "wears badge, holds red box, mallet",
+   "expressions_seen": [
+    "grin",
+    "smile eyes closed",
+    "wide-eyed grin"
+   ]
+  },
+  {
+   "role": "protagonist (you)",
+   "head": "round head, thick outline",
+   "hair_or_hat": "black fringe cap hair",
+   "eyes": "round rings with dot pupils, sometimes glasses",
+   "mouth": "tiny dot, small frown or open grin",
+   "body_and_clothes": "light blue shirt or pill-shaped blue body",
+   "limbs": "stick limbs",
+   "accessories": "phone, chair",
+   "expressions_seen": [
+    "worried",
+    "deadpan",
+    "big smile",
+    "shocked"
+   ]
+  },
+  {
+   "role": "corner coworker",
+   "head": "round head, tan skin tone",
+   "hair_or_hat": "brown hair cap",
+   "eyes": "closed smile arcs",
+   "mouth": "small smile, later open laugh",
+   "body_and_clothes": "teal green jacket",
+   "limbs": "stick limbs, feet up on desk",
+   "accessories": "cocktail with straw and umbrella",
+   "expressions_seen": [
+    "content",
+    "smirk",
+    "laugh"
+   ]
+  },
+  {
+   "role": "background coworkers",
+   "head": "round head",
+   "hair_or_hat": "black hair, some with glasses",
+   "eyes": "dot or ring",
+   "mouth": "small flat or smirk",
+   "body_and_clothes": "bright yellow, orange, purple, green tops",
+   "limbs": "stick legs",
+   "accessories": "none",
+   "expressions_seen": [
+    "staring",
+    "smirk"
+   ]
+  }
+ ],
+ "character_style": {
+  "head_height_share_of_body_estimate": 0.35,
+  "outline": "Thick black, uneven ink line around heads and bodies; set has thinner dark outlines.",
+  "shading": "Soft painted gradients on heads and a cel-like flat look; rim light tinted by grade.",
+  "consistency_between_shots": "High: same head shape, outline weight and clothing colours in all shots.",
+  "shadow_under_character": "soft blob"
+ },
+ "animation": {
+  "body_motion": "Posed stick-limb figures with simple tweened gestures (lean, door peek, leg lift); big camera does most of the motion.",
+  "lip_sync": "none (mouth static)",
+  "lip_sync_evidence_frames": [
+   1230,
+   1254,
+   1257,
+   1260,
+   1680,
+   1702
+  ],
+  "eyes_and_blinks": "Eyes swap between open ring and closed arc by expression; no blinks seen in holds.",
+  "idle_motion": "Characters hold pose with small sway; slow camera push-in or drift supplies life.",
+  "squash_and_stretch": "Mild: legs lengthen in the whip move around f1736; pose swaps rather than true squash."
+ },
+ "environments": [
+  {
+   "start": 0,
+   "end": 4,
+   "place": "Japanese-style office with shoji window and Tokyo Tower poster",
+   "key_props": [
+    "FIRE button",
+    "mallet",
+    "wooden desk",
+    "shoji screen",
+    "kanji scroll"
+   ],
+   "in_world_text": [
+    "FIRE EMPLOYEE",
+    "kanji scroll"
+   ],
+   "time_of_day": "dusk",
+   "lighting": "Cool blue ambient with warm rim from window; soft; red glow from button.",
+   "depth_cues": "Strong defocus blur on background protagonist; low-angle camera."
+  },
+  {
+   "start": 4,
+   "end": 8,
+   "place": "Bright open-plan office with white ceiling",
+   "key_props": [
+    "bookshelves",
+    "desks",
+    "door sign"
+   ],
+   "in_world_text": [
+    "CAREER DEVELOPMENT ROOM"
+   ],
+   "time_of_day": "day",
+   "lighting": "Bright, soft, near-white fill; cool blue carpet.",
+   "depth_cues": "Clean perspective; light haze toward window."
+  },
+  {
+   "start": 8,
+   "end": 21,
+   "place": "Tiny green-brick career-development room",
+   "key_props": [
+    "wall clock",
+    "desk",
+    "phone",
+    "in-tray",
+    "yellow tape"
+   ],
+   "in_world_text": [
+    "TO DO tray",
+    "phone pay amount"
+   ],
+   "time_of_day": "day",
+   "lighting": "Yellow sunbeam stripe across green wall; soft; cool floor.",
+   "depth_cues": "Wide-angle perspective, shallow focus on near head."
+  },
+  {
+   "start": 21,
+   "end": 29,
+   "place": "Open office with city skyline windows",
+   "key_props": [
+    "phone Inbox (0)",
+    "family photo frame",
+    "cubicles"
+   ],
+   "in_world_text": [
+    "Inbox (0)",
+    "No new mail"
+   ],
+   "time_of_day": "day",
+   "lighting": "Bright white soft overhead; blue carpet.",
+   "depth_cues": "Skyline blur; coworkers staged in depth."
+  },
+  {
+   "start": 29,
+   "end": 37,
+   "place": "Green room with door; corner desk",
+   "key_props": [
+    "calendar NOV FRI 11",
+    "desk",
+    "clock"
+   ],
+   "in_world_text": [
+    "NOV FRI 11"
+   ],
+   "time_of_day": "day",
+   "lighting": "Warm soft sunbeam yellow on wall.",
+   "depth_cues": "Close-up boss in foreground; wide-angle."
+  },
+  {
+   "start": 37,
+   "end": 39.5,
+   "place": "Night exterior of office tower",
+   "key_props": [
+    "lit window",
+    "skyscrapers"
+   ],
+   "in_world_text": [],
+   "time_of_day": "night",
+   "lighting": "Deep blue night with warm window glow and violet-pink sky.",
+   "depth_cues": "Layered glass facade."
+  },
+  {
+   "start": 39.5,
+   "end": 49,
+   "place": "Green room: sitting together, then empty",
+   "key_props": [
+    "drinks with umbrellas",
+    "Monday calendar",
+    "empty desk and chair",
+    "bookshelf"
+   ],
+   "in_world_text": [
+    "APR MON 28"
+   ],
+   "time_of_day": "day, shifting to cool",
+   "lighting": "Soft side light, cooler as scene empties.",
+   "depth_cues": "Tilted wide-angle, floor tile perspective."
+  },
+  {
+   "start": 49,
+   "end": 60.5,
+   "place": "Dark blue corridor by the career room door",
+   "key_props": [
+    "fire alarm with LABOR LAW tag",
+    "wall lamp",
+    "mail cabinet",
+    "door sign",
+    "lucky cat"
+   ],
+   "in_world_text": [
+    "CAREER DEVELOPMENT ROOM",
+    "LABOR LAW",
+    "SAFETY FIRST",
+    "ELECTRICAL PANEL"
+   ],
+   "time_of_day": "night",
+   "lighting": "Saturated blue ambient, warm orange lamp wash from top left; soft.",
+   "depth_cues": "Vignette, warm glow halo on window."
+  }
+ ],
+ "set_style": "mixed",
+ "layer_stack": [
+  "3D-looking painted background room",
+  "furniture and props with thin outlines",
+  "2D ink-outlined characters",
+  "lighting, glow and vignette grade",
+  "white bold caption with black stroke"
+ ],
+ "camera": {
+  "shot_sizes": [
+   "close-up",
+   "medium",
+   "wide",
+   "extreme close-up on props"
+  ],
+  "angles": [
+   "low angle",
+   "high angle top-down",
+   "eye level",
+   "tilted"
+  ],
+  "lens_feel": "Wide-angle with strong perspective and shallow focus in places (estimate).",
+  "camera_height": "Varies from tabletop to ceiling.",
+  "notable_moves": [
+   {
+    "t": 0.9,
+    "type": "crane-up",
+    "note": "From FIRE button up to protagonist."
+   },
+   {
+    "t": 44.0,
+    "type": "whip/truck-right",
+    "note": "Door reveal to empty desk."
+   },
+   {
+    "t": 56.0,
+    "type": "slow drift",
+    "note": "Boss and cabinet nearly still with slight parallax."
+   },
+   {
+    "t": 60.0,
+    "type": "push-in",
+    "note": "Final push toward door window."
+   }
+  ]
+ },
+ "effects": [
+  {
+   "t": 1.0,
+   "dur_s": 0.2,
+   "type": "other",
+   "trigger": "mallet hit on button"
+  },
+  {
+   "t": 1.2,
+   "dur_s": 0.2,
+   "type": "speed lines",
+   "trigger": "'fired'"
+  },
+  {
+   "t": 25.0,
+   "dur_s": 1.0,
+   "type": "screen or UI insert",
+   "trigger": "'The emails stop'"
+  },
+  {
+   "t": 29.0,
+   "dur_s": 0.8,
+   "type": "in-world sign",
+   "trigger": "'Every Friday'"
+  },
+  {
+   "t": 37.0,
+   "dur_s": 2.5,
+   "type": "colour shift",
+   "trigger": "'happier than anyone'"
+  },
+  {
+   "t": 49.5,
+   "dur_s": 11.0,
+   "type": "colour shift",
+   "trigger": "'You see' explainer"
+  }
+ ],
+ "lighting_mood_shifts": [
+  {
+   "t": 37.0,
+   "change": "Switch to a deep blue night exterior.",
+   "story_reason": "Peeks into other worker's solitude."
+  },
+  {
+   "t": 49.6,
+   "change": "Bright white to dark saturated blue with warm lamp.",
+   "story_reason": "Explainer reveals the bleak mechanism."
+  }
+ ],
+ "generation_evidence": [
+  {
+   "frames": [
+    1320,
+    1350,
+    1370
+   ],
+   "observation": "Furniture, door, bookshelf and tile floor keep exact geometry through a camera move.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    1500,
+    1560
+   ],
+   "observation": "Small in-world text (CAREER DEVELOPMENT ROOM, LABOR LAW, SAFETY FIRST) stays crisp across shots.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    1680,
+    1702
+   ],
+   "observation": "Cat, cabinet, noticeboard and lamp move rigidly with parallax and do not morph.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    750,
+    780
+   ],
+   "observation": "Same boss, desk and room reused across many shots with identical details.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    1230,
+    1260
+   ],
+   "observation": "Faces swap between discrete expressions; mouth stays a fixed shape.",
+   "points_to": "hand animation"
+  }
+ ],
+ "sample_points": [
+  {
+   "frame": 1750,
+   "x": 0.5,
+   "y": 0.4,
+   "what": "boss head fill, dark room",
+   "hex": "#957D96",
+   "patch_spread": 13.3
+  },
+  {
+   "frame": 1740,
+   "x": 0.35,
+   "y": 0.62,
+   "what": "boss suit, ending room",
+   "hex": "#1D31A6",
+   "patch_spread": 1.3
+  },
+  {
+   "frame": 1000,
+   "x": 0.5,
+   "y": 0.1,
+   "what": "boss grey hair, close-up",
+   "hex": "#C1AD8C",
+   "patch_spread": 3.4
+  },
+  {
+   "frame": 1230,
+   "x": 0.5,
+   "y": 0.2,
+   "what": "green brick wall, day room",
+   "hex": "#98B278",
+   "patch_spread": 1.0
+  },
+  {
+   "frame": 700,
+   "x": 0.5,
+   "y": 0.8,
+   "what": "blue office carpet",
+   "hex": "#124ADF",
+   "patch_spread": 1.1
+  },
+  {
+   "frame": 150,
+   "x": 0.5,
+   "y": 0.1,
+   "what": "white office ceiling",
+   "hex": "#E3E3E6",
+   "patch_spread": 6.8
+  },
+  {
+   "frame": 1790,
+   "x": 0.5,
+   "y": 0.2,
+   "what": "dark blue door wall at ending",
+   "hex": "#4955AE",
+   "patch_spread": 0.9
+  },
+  {
+   "frame": 1620,
+   "x": 0.5,
+   "y": 0.8,
+   "what": "blue floor of explainer room",
+   "hex": "#2839BA",
+   "patch_spread": 1.2
+  },
+  {
+   "frame": 30,
+   "x": 0.5,
+   "y": 0.75,
+   "what": "green desk mat, hook",
+   "hex": "#D8922C",
+   "patch_spread": 37.9
+  },
+  {
+   "frame": 1130,
+   "x": 0.5,
+   "y": 0.4,
+   "what": "night tower facade blue",
+   "hex": "#152488",
+   "patch_spread": 1.5
+  }
+ ],
+ "thumbnail": "Wide-angle POV of a coworker holding a phone showing Inbox (0), with staring coworkers and a close foreground face; matches about 25 s ('past'/'emails stop').",
+ "could_not_determine": [
+  "Which 3D software was used",
+  "Whether stick characters are 2D layers composited in a 3D scene or 3D rigs",
+  "Exact tool for caption and SFX (estimate only)"
+ ]
+}
