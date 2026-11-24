@@ -163,21 +163,21 @@
   },
   "words": {
    "n": 20,
-   "mean": 230.85,
-   "sd": 20.33,
-   "median": 232.0,
+   "mean": 230.6,
+   "sd": 20.114,
+   "median": 231.0,
    "min": 202.0,
-   "max": 296.0,
+   "max": 295.0,
    "p10": 212.1,
    "p90": 245.2
   },
   "wpm": {
    "n": 20,
-   "mean": 222.23,
-   "sd": 11.209,
+   "mean": 222.0,
+   "sd": 11.112,
    "median": 223.55,
    "min": 199.8,
-   "max": 246.5,
+   "max": 245.5,
    "p10": 208.78,
    "p90": 234.1
   },
@@ -193,28 +193,28 @@
   },
   "avg_sentence_words": {
    "n": 20,
-   "mean": 12.06,
-   "sd": 2.006,
-   "median": 11.85,
+   "mean": 12.045,
+   "sd": 2.011,
+   "median": 11.8,
    "min": 8.9,
    "max": 17.1,
-   "p10": 9.27,
+   "p10": 9.26,
    "p90": 14.4
   },
   "median_sentence_words": {
    "n": 20,
-   "mean": 11.25,
-   "sd": 2.547,
+   "mean": 11.225,
+   "sd": 2.473,
    "median": 11.0,
    "min": 7.5,
-   "max": 18.5,
+   "max": 18.0,
    "p10": 8.9,
    "p90": 13.6
   },
   "max_sentence_words": {
    "n": 20,
-   "mean": 25.7,
-   "sd": 3.629,
+   "mean": 25.65,
+   "sd": 3.675,
    "median": 25.5,
    "min": 20.0,
    "max": 31.0,
@@ -393,8 +393,8 @@
   },
   "last_sentence_words": {
    "n": 20,
-   "mean": 13.15,
-   "sd": 7.058,
+   "mean": 13.1,
+   "sd": 7.018,
    "median": 13.0,
    "min": 2.0,
    "max": 27.0,
@@ -443,17 +443,17 @@
   },
   "words_per_caption": {
    "n": 20,
-   "mean": 1.261,
-   "sd": 0.038,
+   "mean": 1.26,
+   "sd": 0.037,
    "median": 1.27,
    "min": 1.19,
-   "max": 1.34,
+   "max": 1.33,
    "p10": 1.217,
    "p90": 1.3
   },
   "cap1_share": {
    "n": 20,
-   "mean": 0.76,
+   "mean": 0.761,
    "sd": 0.034,
    "median": 0.75,
    "min": 0.71,
@@ -463,8 +463,8 @@
   },
   "cap2_share": {
    "n": 20,
-   "mean": 0.217,
-   "sd": 0.034,
+   "mean": 0.215,
+   "sd": 0.033,
    "median": 0.22,
    "min": 0.15,
    "max": 0.27,
@@ -503,7 +503,7 @@
   },
   "caption_lead_frames_median": {
    "n": 20,
-   "mean": 3.728,
+   "mean": 3.729,
    "sd": 0.11,
    "median": 3.7,
    "min": 3.52,
@@ -1640,8 +1640,8 @@
  ],
  "sentence_words_pooled": {
   "n": 392,
-  "mean": 11.778,
-  "sd": 6.684,
+  "mean": 11.765,
+  "sd": 6.673,
   "median": 11.0,
   "min": 1.0,
   "max": 31.0,
@@ -1743,7 +1743,7 @@
     1.7
    ],
    "within_3f": 0.758,
-   "chance_within_3f": 0.646
+   "chance_within_3f": 0.645
   },
   "join_mid__vs__caption_on": {
    "n": 265,
@@ -1877,16 +1877,16 @@
   },
   "dissolve_start__vs__word_start": {
    "n": 210,
-   "abs_median_f": 1.7,
+   "abs_median_f": 1.75,
    "chance_abs_median_f": 2.11,
-   "ratio": 0.8,
-   "signed_median_f": -0.25,
+   "ratio": 0.83,
+   "signed_median_f": -0.3,
    "signed_p25_p75_f": [
     -2.2,
     1.6
    ],
-   "within_3f": 0.733,
-   "chance_within_3f": 0.648
+   "within_3f": 0.729,
+   "chance_within_3f": 0.647
   },
   "move_start__vs__sentence_start": {
    "n": 334,
@@ -1904,7 +1904,7 @@
   "move_start__vs__clause_start": {
    "n": 334,
    "abs_median_f": 16.15,
-   "chance_abs_median_f": 15.17,
+   "chance_abs_median_f": 15.18,
    "ratio": 1.06,
    "signed_median_f": 3.25,
    "signed_p25_p75_f": [
@@ -1917,7 +1917,7 @@
   "move_start__vs__word_start": {
    "n": 334,
    "abs_median_f": 2.05,
-   "chance_abs_median_f": 2.15,
+   "chance_abs_median_f": 2.16,
    "ratio": 0.95,
    "signed_median_f": 0.2,
    "signed_p25_p75_f": [
@@ -1973,11 +1973,11 @@
    "ratio": 0.94,
    "signed_median_f": -0.3,
    "signed_p25_p75_f": [
-    -2.0,
+    -2.1,
     1.9
    ],
    "within_3f": 0.681,
-   "chance_within_3f": 0.648
+   "chance_within_3f": 0.647
   },
   "sfx_onset__vs__sentence_start": {
    "n": 742,
@@ -2944,16 +2944,16 @@
    "diff_in_sd": 0.28
   },
   {
-   "metric": "words",
-   "top_mean": 229.4,
-   "bottom_mean": 234.8,
-   "diff_in_sd": -0.27
-  },
-  {
    "metric": "true_peak_dbtp",
    "top_mean": -2.08,
    "bottom_mean": -1.98,
    "diff_in_sd": -0.27
+  },
+  {
+   "metric": "words",
+   "top_mean": 229.4,
+   "bottom_mean": 234.6,
+   "diff_in_sd": -0.26
   },
   {
    "metric": "you_see_first_rel",
@@ -3112,12 +3112,6 @@
    "diff_in_sd": -0.12
   },
   {
-   "metric": "cap2_share",
-   "top_mean": 0.21,
-   "bottom_mean": 0.22,
-   "diff_in_sd": -0.12
-  },
-  {
    "metric": "sfx_peak_vs_voice_p50_db",
    "top_mean": -21.28,
    "bottom_mean": -20.96,
@@ -3138,19 +3132,13 @@
   {
    "metric": "avg_sentence_words",
    "top_mean": 11.78,
-   "bottom_mean": 11.92,
-   "diff_in_sd": -0.07
-  },
-  {
-   "metric": "wpm",
-   "top_mean": 219.86,
-   "bottom_mean": 220.48,
+   "bottom_mean": 11.9,
    "diff_in_sd": -0.06
   },
   {
-   "metric": "max_sentence_words",
-   "top_mean": 25.2,
-   "bottom_mean": 25.4,
+   "metric": "cap2_share",
+   "top_mean": 0.21,
+   "bottom_mean": 0.21,
    "diff_in_sd": -0.06
   },
   {
@@ -3164,6 +3152,18 @@
    "top_mean": 30.08,
    "bottom_mean": 29.58,
    "diff_in_sd": 0.06
+  },
+  {
+   "metric": "max_sentence_words",
+   "top_mean": 25.2,
+   "bottom_mean": 25.4,
+   "diff_in_sd": -0.05
+  },
+  {
+   "metric": "wpm",
+   "top_mean": 219.86,
+   "bottom_mean": 220.32,
+   "diff_in_sd": -0.04
   },
   {
    "metric": "dissolve_len_frames_median",
@@ -3225,7 +3225,7 @@
    "metric": "caption_lead_frames_median",
    "top_mean": 3.82,
    "bottom_mean": 3.65,
-   "diff_in_sd": 1.56
+   "diff_in_sd": 1.55
   },
   {
    "metric": "still_frame_pct",
@@ -3284,8 +3284,8 @@
   {
    "metric": "words",
    "top_mean": 229.4,
-   "bottom_mean": 251.0,
-   "diff_in_sd": -1.06
+   "bottom_mean": 250.4,
+   "diff_in_sd": -1.04
   },
   {
    "metric": "move_median_s",
@@ -3396,12 +3396,6 @@
    "diff_in_sd": -0.82
   },
   {
-   "metric": "cap2_share",
-   "top_mean": 0.21,
-   "bottom_mean": 0.24,
-   "diff_in_sd": -0.82
-  },
-  {
    "metric": "bloom_lift",
    "top_mean": 16.54,
    "bottom_mean": 31.74,
@@ -3456,6 +3450,12 @@
    "diff_in_sd": 0.73
   },
   {
+   "metric": "cap2_share",
+   "top_mean": 0.21,
+   "bottom_mean": 0.24,
+   "diff_in_sd": -0.73
+  },
+  {
    "metric": "sfx_lufs",
    "top_mean": -31.48,
    "bottom_mean": -34.76,
@@ -3498,12 +3498,6 @@
    "diff_in_sd": -0.65
   },
   {
-   "metric": "cap1_share",
-   "top_mean": 0.76,
-   "bottom_mean": 0.74,
-   "diff_in_sd": 0.65
-  },
-  {
    "metric": "caption_dur_median_s",
    "top_mean": 0.33,
    "bottom_mean": 0.32,
@@ -3538,6 +3532,12 @@
    "top_mean": 13.12,
    "bottom_mean": 10.63,
    "diff_in_sd": 0.6
+  },
+  {
+   "metric": "cap1_share",
+   "top_mean": 0.76,
+   "bottom_mean": 0.74,
+   "diff_in_sd": 0.59
   },
   {
    "metric": "music_starts_s",
@@ -3582,12 +3582,6 @@
    "diff_in_sd": 0.55
   },
   {
-   "metric": "wpm",
-   "top_mean": 219.86,
-   "bottom_mean": 225.94,
-   "diff_in_sd": -0.54
-  },
-  {
    "metric": "hold_luma_sd",
    "top_mean": 30.14,
    "bottom_mean": 33.24,
@@ -3618,6 +3612,12 @@
    "diff_in_sd": -0.51
   },
   {
+   "metric": "wpm",
+   "top_mean": 219.86,
+   "bottom_mean": 225.4,
+   "diff_in_sd": -0.5
+  },
+  {
    "metric": "caption_coverage_pct",
    "top_mean": 99.98,
    "bottom_mean": 99.96,
@@ -3630,12 +3630,6 @@
    "diff_in_sd": -0.48
   },
   {
-   "metric": "words_per_caption",
-   "top_mean": 1.25,
-   "bottom_mean": 1.27,
-   "diff_in_sd": -0.47
-  },
-  {
    "metric": "loop_overlap_words",
    "top_mean": 0.4,
    "bottom_mean": 0.2,
@@ -3646,6 +3640,12 @@
    "top_mean": 20.64,
    "bottom_mean": 17.08,
    "diff_in_sd": 0.44
+  },
+  {
+   "metric": "words_per_caption",
+   "top_mean": 1.25,
+   "bottom_mean": 1.27,
+   "diff_in_sd": -0.43
   },
   {
    "metric": "beat_mean_s",
@@ -3711,7 +3711,7 @@
    "metric": "median_sentence_words",
    "top_mean": 10.5,
    "bottom_mean": 11.3,
-   "diff_in_sd": -0.31
+   "diff_in_sd": -0.32
   },
   {
    "metric": "dissolve_len_frames_median",
@@ -3840,12 +3840,6 @@
    "diff_in_sd": 0.18
   },
   {
-   "metric": "max_sentence_words",
-   "top_mean": 25.2,
-   "bottom_mean": 25.8,
-   "diff_in_sd": -0.17
-  },
-  {
    "metric": "luma_mean",
    "top_mean": 111.04,
    "bottom_mean": 107.86,
@@ -3898,6 +3892,12 @@
    "top_mean": 97.98,
    "bottom_mean": 97.9,
    "diff_in_sd": 0.12
+  },
+  {
+   "metric": "max_sentence_words",
+   "top_mean": 25.2,
+   "bottom_mean": 25.6,
+   "diff_in_sd": -0.11
   },
   {
    "metric": "true_peak_dbtp",
@@ -3972,6 +3972,12 @@
    "diff_in_sd": 0.03
   },
   {
+   "metric": "avg_sentence_words",
+   "top_mean": 11.78,
+   "bottom_mean": 11.72,
+   "diff_in_sd": 0.03
+  },
+  {
    "metric": "grain_sigma",
    "top_mean": 1.46,
    "bottom_mean": 1.45,
@@ -3982,12 +3988,6 @@
    "top_mean": -14.2,
    "bottom_mean": -14.2,
    "diff_in_sd": 0.02
-  },
-  {
-   "metric": "avg_sentence_words",
-   "top_mean": 11.78,
-   "bottom_mean": 11.76,
-   "diff_in_sd": 0.01
   },
   {
    "metric": "title_words_in_first_sentence",
@@ -4070,27 +4070,27 @@
    "n": 17
   },
   {
+   "metric": "last_sentence_words",
+   "rho": 0.46,
+   "p": 0.06,
+   "n": 17
+  },
+  {
    "metric": "last_sentence_start_rel",
    "rho": -0.46,
    "p": 0.061,
    "n": 17
   },
   {
-   "metric": "last_sentence_words",
-   "rho": 0.45,
-   "p": 0.068,
+   "metric": "words",
+   "rho": -0.45,
+   "p": 0.071,
    "n": 17
   },
   {
    "metric": "hold_static_time_share",
    "rho": -0.45,
    "p": 0.073,
-   "n": 17
-  },
-  {
-   "metric": "words",
-   "rho": -0.44,
-   "p": 0.078,
    "n": 17
   },
   {
@@ -4115,12 +4115,6 @@
    "metric": "you_per_100w",
    "rho": 0.41,
    "p": 0.098,
-   "n": 17
-  },
-  {
-   "metric": "cap2_share",
-   "rho": -0.41,
-   "p": 0.106,
    "n": 17
   },
   {
@@ -4151,12 +4145,6 @@
    "metric": "music_starts_s",
    "rho": 0.39,
    "p": 0.122,
-   "n": 17
-  },
-  {
-   "metric": "caption_lead_frames_median",
-   "rho": 0.38,
-   "p": 0.133,
    "n": 17
   },
   {
@@ -4202,6 +4190,18 @@
    "n": 17
   },
   {
+   "metric": "cap2_share",
+   "rho": -0.36,
+   "p": 0.159,
+   "n": 17
+  },
+  {
+   "metric": "caption_lead_frames_median",
+   "rho": 0.36,
+   "p": 0.154,
+   "n": 17
+  },
+  {
    "metric": "move_median_s",
    "rho": 0.36,
    "p": 0.152,
@@ -4215,14 +4215,8 @@
   },
   {
    "metric": "cap1_share",
-   "rho": 0.34,
-   "p": 0.186,
-   "n": 17
-  },
-  {
-   "metric": "wpm",
-   "rho": -0.33,
-   "p": 0.2,
+   "rho": 0.33,
+   "p": 0.19,
    "n": 17
   },
   {
@@ -4235,6 +4229,12 @@
    "metric": "voice_centroid_hz",
    "rho": 0.33,
    "p": 0.198,
+   "n": 17
+  },
+  {
+   "metric": "wpm",
+   "rho": -0.32,
+   "p": 0.21,
    "n": 17
   },
   {
@@ -4334,12 +4334,6 @@
    "n": 17
   },
   {
-   "metric": "words_per_caption",
-   "rho": -0.26,
-   "p": 0.307,
-   "n": 17
-  },
-  {
    "metric": "move_peak_speed_median_pctH_s",
    "rho": 0.25,
    "p": 0.333,
@@ -4355,6 +4349,12 @@
    "metric": "last_word_end_s",
    "rho": -0.24,
    "p": 0.348,
+   "n": 17
+  },
+  {
+   "metric": "words_per_caption",
+   "rho": -0.24,
+   "p": 0.345,
    "n": 17
   },
   {
@@ -4544,12 +4544,6 @@
    "n": 17
   },
   {
-   "metric": "max_sentence_words",
-   "rho": -0.1,
-   "p": 0.707,
-   "n": 17
-  },
-  {
    "metric": "changes_per_min",
    "rho": 0.1,
    "p": 0.715,
@@ -4565,6 +4559,12 @@
    "metric": "voice_f0_median_hz",
    "rho": 0.1,
    "p": 0.693,
+   "n": 17
+  },
+  {
+   "metric": "max_sentence_words",
+   "rho": -0.09,
+   "p": 0.728,
    "n": 17
   },
   {
@@ -4660,7 +4660,7 @@
   {
    "metric": "avg_sentence_words",
    "rho": -0.05,
-   "p": 0.855,
+   "p": 0.837,
    "n": 17
   },
   {
@@ -4959,8 +4959,8 @@
   },
   {
    "metric": "cap1_share",
-   "rho": 0.38,
-   "p": 0.1,
+   "rho": 0.37,
+   "p": 0.108,
    "oldest5_mean": 0.76,
    "newest5_mean": 0.79
   },
@@ -4970,13 +4970,6 @@
    "p": 0.113,
    "oldest5_mean": 58.78,
    "newest5_mean": 53.72
-  },
-  {
-   "metric": "words_per_caption",
-   "rho": -0.36,
-   "p": 0.116,
-   "oldest5_mean": 1.26,
-   "newest5_mean": 1.23
   },
   {
    "metric": "comments",
@@ -5014,13 +5007,6 @@
    "newest5_mean": -25.5
   },
   {
-   "metric": "words",
-   "rho": -0.33,
-   "p": 0.155,
-   "oldest5_mean": 224.0,
-   "newest5_mean": 216.2
-  },
-  {
    "metric": "first_word_start_s",
    "rho": -0.33,
    "p": 0.152,
@@ -5035,10 +5021,24 @@
    "newest5_mean": 12.52
   },
   {
-   "metric": "max_sentence_words",
+   "metric": "words_per_caption",
+   "rho": -0.33,
+   "p": 0.154,
+   "oldest5_mean": 1.26,
+   "newest5_mean": 1.23
+  },
+  {
+   "metric": "words",
    "rho": -0.32,
-   "p": 0.167,
-   "oldest5_mean": 26.4,
+   "p": 0.169,
+   "oldest5_mean": 223.4,
+   "newest5_mean": 216.2
+  },
+  {
+   "metric": "max_sentence_words",
+   "rho": -0.31,
+   "p": 0.18,
+   "oldest5_mean": 26.2,
    "newest5_mean": 22.6
   },
   {
@@ -5077,13 +5077,6 @@
    "newest5_mean": 29.52
   },
   {
-   "metric": "cap2_share",
-   "rho": -0.29,
-   "p": 0.211,
-   "oldest5_mean": 0.21,
-   "newest5_mean": 0.19
-  },
-  {
    "metric": "joins",
    "rho": 0.29,
    "p": 0.221,
@@ -5101,7 +5094,7 @@
    "metric": "median_sentence_words",
    "rho": -0.28,
    "p": 0.224,
-   "oldest5_mean": 12.7,
+   "oldest5_mean": 12.6,
    "newest5_mean": 10.1
   },
   {
@@ -5161,6 +5154,13 @@
    "newest5_mean": 0.6
   },
   {
+   "metric": "cap2_share",
+   "rho": -0.25,
+   "p": 0.296,
+   "oldest5_mean": 0.21,
+   "newest5_mean": 0.19
+  },
+  {
    "metric": "cap3plus_share",
    "rho": -0.25,
    "p": 0.296,
@@ -5203,20 +5203,6 @@
    "newest5_mean": 33.6
   },
   {
-   "metric": "wpm",
-   "rho": -0.23,
-   "p": 0.327,
-   "oldest5_mean": 224.3,
-   "newest5_mean": 219.16
-  },
-  {
-   "metric": "avg_sentence_words",
-   "rho": -0.23,
-   "p": 0.325,
-   "oldest5_mean": 12.8,
-   "newest5_mean": 11.22
-  },
-  {
    "metric": "hold_static_time_share",
    "rho": -0.23,
    "p": 0.325,
@@ -5243,6 +5229,20 @@
    "p": 0.334,
    "oldest5_mean": 6.26,
    "newest5_mean": 5.66
+  },
+  {
+   "metric": "wpm",
+   "rho": -0.22,
+   "p": 0.347,
+   "oldest5_mean": 223.72,
+   "newest5_mean": 219.16
+  },
+  {
+   "metric": "avg_sentence_words",
+   "rho": -0.22,
+   "p": 0.343,
+   "oldest5_mean": 12.78,
+   "newest5_mean": 11.22
   },
   {
    "metric": "questions",
@@ -5422,7 +5422,7 @@
   {
    "metric": "caption_lead_frames_median",
    "rho": -0.11,
-   "p": 0.657,
+   "p": 0.655,
    "oldest5_mean": 3.76,
    "newest5_mean": 3.72
   },
@@ -5525,6 +5525,13 @@
    "newest5_mean": 1.0
   },
   {
+   "metric": "last_sentence_words",
+   "rho": 0.06,
+   "p": 0.788,
+   "oldest5_mean": 13.6,
+   "newest5_mean": 15.8
+  },
+  {
    "metric": "caption_dur_mean_s",
    "rho": 0.06,
    "p": 0.808,
@@ -5544,13 +5551,6 @@
    "p": 0.815,
    "oldest5_mean": -14.26,
    "newest5_mean": -14.08
-  },
-  {
-   "metric": "last_sentence_words",
-   "rho": 0.05,
-   "p": 0.835,
-   "oldest5_mean": 13.8,
-   "newest5_mean": 15.8
   },
   {
    "metric": "music_ends_before_end_s",

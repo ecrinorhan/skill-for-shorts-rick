@@ -192,8 +192,10 @@ def build(d: Path, meta_dir: Path, out_videos: Path):
         (od / stale).unlink(missing_ok=True)
     keep = {k: v_ for k, v_ in meta.items() if k not in ("top_comments", "uploader_comments_in_top100", "sources")}
     (od / "meta.json").write_text(json.dumps(keep, indent=1, ensure_ascii=False))
-    with open(d / "frame_metrics.csv", "rb") as fi, gzip.open(od / "frame_metrics.csv.gz", "wb") as fo:
-        shutil.copyfileobj(fi, fo)
+    gz, src = od / "frame_metrics.csv.gz", (d / "frame_metrics.csv").read_bytes()
+    if not gz.exists() or gzip.decompress(gz.read_bytes()) != src:      # rewrite only when the content changed (keeps git quiet)
+        with open(gz, "wb") as raw, gzip.GzipFile(filename="frame_metrics.csv", mode="wb", fileobj=raw, mtime=0) as fo:
+            fo.write(src)
     return rec, S
 
 
