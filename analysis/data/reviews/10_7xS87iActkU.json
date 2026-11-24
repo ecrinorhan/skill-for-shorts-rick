@@ -1,0 +1,682 @@
+{
+ "video": "10_7xS87iActkU",
+ "joins_verified": [
+  {
+   "t": 3.73,
+   "auto_type": "cut",
+   "verdict": "cut",
+   "note": "Camera flies past locomotive smoke on canyon track, hard switch to a different fly-by of the same canyon with blue sky; no blend frames."
+  },
+  {
+   "t": 8.53,
+   "auto_type": "inplace_blend",
+   "verdict": "camera_move",
+   "note": "Blue canyon-water streaks to sky and horizon during a rapid tilt-up; streaked texture, not a clip join."
+  },
+  {
+   "t": 9.02,
+   "auto_type": "inplace_blend",
+   "verdict": "camera_move",
+   "note": "Dark water/horizon streak resolves into orange desert plain; continuous fast tilt."
+  },
+  {
+   "t": 9.45,
+   "auto_type": "inplace_blend",
+   "verdict": "in_place_change",
+   "note": "Almost identical desert and sky frames; false alarm or tiny change within the same fly-over."
+  },
+  {
+   "t": 11.65,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Tycoon on stage 'FIRST LINE IN GETS IT ALL' cross-fades into streaked canyon with seated workers."
+  },
+  {
+   "t": 13.55,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Workers on a beam cross-fade into boss in yellow vest on the track; double exposure mid tiles."
+  },
+  {
+   "t": 26.23,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Pier with crane and track cross-fades into passenger car side (Vandergold) on trestle."
+  },
+  {
+   "t": 28.5,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Red lounge car interior with top-hat character cross-fades to the car exterior on the trestle."
+  },
+  {
+   "t": 31.23,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Man in car window cross-fades to the station platform with a newspaper reader."
+  },
+  {
+   "t": 36.13,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Station crowd cross-fades into green hut with thermometer and calendar."
+  },
+  {
+   "t": 47.95,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Hero and boss over orange cliff cross-fade into straight pale track on the other railroad."
+  },
+  {
+   "t": 54.43,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Parasol-chair character on the perfect railroad cross-fades into hero on the cliff track."
+  },
+  {
+   "t": 59.38,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Hero on the sunlit track cross-fades into the arched steel bridge at dusk."
+  },
+  {
+   "t": 62.98,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Train with wavy track cross-fades into a high shot of the bridge arch with falling smoke."
+  },
+  {
+   "t": 64.23,
+   "auto_type": "cut",
+   "verdict": "cut",
+   "note": "Falling locomotive over purple chasm hard-cuts to a white flash at the start of the explosion."
+  }
+ ],
+ "missed_joins": [
+  {
+   "t": 64.47,
+   "type": "cut",
+   "note": "Flash resolves into fireball; likely VFX, not a separate join. Cut to the two characters watching the mushroom cloud at about 64.7 s."
+  }
+ ],
+ "beats": [
+  {
+   "name": "hook",
+   "start": 0.0,
+   "end": 3.3,
+   "said": "Hero cut gaps into a railroad at fixed spacing.",
+   "shown": "Hero crouches on the track with a saw and a locomotive approaching, then a camera fly-out along the canyon."
+  },
+  {
+   "name": "setup",
+   "start": 3.3,
+   "end": 13.5,
+   "said": "Two companies race a railroad along a bottomless canyon; winner takes the country's trade; he is the youngest engineer.",
+   "shown": "Fast canyon fly-bys, bridge, crane, desert, tycoon on stage, workers on a beam."
+  },
+  {
+   "name": "escalation",
+   "start": 13.5,
+   "end": 21.6,
+   "said": "The boss spots the gaps, turns purple with rage and shouts, but he refuses to close one.",
+   "shown": "Boss in yellow vest goes purple, steam puffs, shouts; handshake gag; hero stays calm."
+  },
+  {
+   "name": "escalation",
+   "start": 21.6,
+   "end": 36.0,
+   "said": "Rival lays smooth rails and wins; quiet trains glide while his clatter; papers mock it; everyone switches.",
+   "shown": "Conductor, trestle, lounge car, window man, newspaper reader, station crowd."
+  },
+  {
+   "name": "twist",
+   "start": 36.0,
+   "end": 47.9,
+   "said": "Summer heat shrinks his gaps from a coin width to a sheet; the boss is thrilled.",
+   "shown": "Calendar and thermometer, calipers on a rail that heats pink to yellow, hero and boss smiling."
+  },
+  {
+   "name": "payoff",
+   "start": 47.9,
+   "end": 59.4,
+   "said": "Rival's rails groan and push in the heat; on the hottest day his gaps close.",
+   "shown": "Long straight track, glowing rails, parasol character, hero, rail ends touching."
+  },
+  {
+   "name": "ending",
+   "start": 59.4,
+   "end": 65.2,
+   "said": "The perfect railroad buckles like a snake just as a train rolls on.",
+   "shown": "Bridge fly-in, train on a wavy track, falling loco, explosion, two characters watching."
+  }
+ ],
+ "hook": {
+  "first_frame": "Low-angle track at a red canyon with the hero crouched at left sawing the rail, locomotive headlight glowing ahead; caption 'He sawed'.",
+  "first_3s": "Camera pushes in on the hero's face (smirk, a wink, a toothy grin), then whips into a canyon fly-by that ends with sky and a long straight track.",
+  "line_type": "strange action by he/they",
+  "first_frame_shot_size": "medium",
+  "first_frame_subject": "protagonist doing the hook action",
+  "protagonist_looks_at_camera": true,
+  "title_vs_first_line": "Title poses the question; the first line states the odd action that raises it."
+ },
+ "story": {
+  "topic_type": "engineering/physics",
+  "setting_era": "1700s-1800s",
+  "structure": "act first, explain at the end",
+  "real_fact_core": "Steel rails expand in heat, so expansion gaps keep rails from buckling; rails without gaps buckle.",
+  "likely_source_type": "invented parable",
+  "protagonist": "Young engineer in striped cap and teal jacket",
+  "authority_or_antagonist": "Boss in yellow vest and black bowler who turns purple; the rival 'perfect' railroad company",
+  "direct_speech_lines": 1,
+  "second_person": false,
+  "tense": "present",
+  "explainer_turn": null,
+  "ending_type": "consequence shown, stops on impact",
+  "call_to_action": "none"
+ },
+ "tone": {
+  "humour": "Boss turning purple, steam puffs, handshake gag, smirking hero; spectacle at the end.",
+  "deadpan_or_irony": "Hero deadpan while others rage; the boss is thrilled 'proven wrong'; irony that perfect is worst.",
+  "dialogue_style": "One shouted line; the rest is narrated in present tense."
+ },
+ "characters": [
+  {
+   "role": "hero engineer",
+   "head": "Large white circle, thick black outline, brown fringe",
+   "hair_or_hat": "Blue and white striped engineer cap",
+   "eyes": "Black dots with heavy lids; round glasses-like rings when shocked",
+   "mouth": "Small line or open shape swapped per pose",
+   "body_and_clothes": "Small teal vest with suspenders and red neckerchief",
+   "limbs": "Thin black stick lines for arms and legs",
+   "accessories": "Saw, rail tools",
+   "expressions_seen": [
+    "smirk",
+    "wink",
+    "toothy grin",
+    "bored",
+    "sweat-drop worry",
+    "wide-eyed shock"
+   ]
+  },
+  {
+   "role": "boss",
+   "head": "White circle that fills purple from the bottom",
+   "hair_or_hat": "Black bowler with grey patch",
+   "eyes": "Angry slanted brows, dot eyes; ringed eyes in shock",
+   "mouth": "Clenched teeth grid or open shout",
+   "body_and_clothes": "Yellow-mustard vest, white shirt, bow tie",
+   "limbs": "Stick arms and legs, cane",
+   "accessories": "Cane, steam puffs from the head, watch chain",
+   "expressions_seen": [
+    "furious purple",
+    "calm",
+    "thrilled grin",
+    "stunned"
+   ]
+  },
+  {
+   "role": "rival and townsfolk",
+   "head": "Same white circle head",
+   "hair_or_hat": "Top hat, grey bowler, conductor cap, hat with feather",
+   "eyes": "Black dots or ring eyes",
+   "mouth": "Tiny line",
+   "body_and_clothes": "Period suits, blue conductor uniform with gold buttons",
+   "limbs": "Stick limbs",
+   "accessories": "Newspaper, pocket watch, parasol chair",
+   "expressions_seen": [
+    "smug",
+    "sweating",
+    "unimpressed"
+   ]
+  }
+ ],
+ "character_style": {
+  "head_height_share_of_body_estimate": 0.45,
+  "outline": "Thick black outline (estimate about 1-2% of frame width), uniform weight, on head and clothes",
+  "shading": "Flat colour with soft cel shadows and subtle rim light on clothes; head near flat white",
+  "consistency_between_shots": "Very consistent: same designs, colours and cap stripes in every scene",
+  "shadow_under_character": "cast silhouette"
+ },
+ "animation": {
+  "body_motion": "Keyframed or puppet poses with squat, lean and bobbing; characters slide and shift weight; camera does most of the motion.",
+  "lip_sync": "mouth changes with pose only",
+  "lip_sync_evidence_frames": [
+   12,
+   24,
+   36,
+   44,
+   528,
+   552,
+   584
+  ],
+  "eyes_and_blinks": "Eyes are dots or lids; they change by expression swap, I saw no clear blink cycle.",
+  "idle_motion": "Slight lean and sway with some head tilt; tiny drift in held poses.",
+  "squash_and_stretch": "Mild: head scales in perspective with the push-in; steam puffs pop; no obvious deformation of limbs."
+ },
+ "environments": [
+  {
+   "start": 0,
+   "end": 3,
+   "place": "Red canyon track with locomotive approaching",
+   "key_props": [
+    "saw",
+    "cactus",
+    "telegraph pole",
+    "steam locomotive"
+   ],
+   "in_world_text": [],
+   "time_of_day": "estimate dusk then midday",
+   "lighting": "Low magenta-red key with the headlight as practical; hard shadows; warm red cast",
+   "depth_cues": "Strong perspective, smoke column, haze on the far canyon"
+  },
+  {
+   "start": 3,
+   "end": 11,
+   "place": "Canyon fly-bys with bridge, crane, desert plain",
+   "key_props": [
+    "bridge",
+    "crane",
+    "telegraph pole"
+   ],
+   "in_world_text": [],
+   "time_of_day": "midday",
+   "lighting": "Bright sun, blue sky, saturated orange cliffs, soft clouds",
+   "depth_cues": "Deep blue chasm, streaked layered cliff texture, motion blur"
+  },
+  {
+   "start": 11,
+   "end": 13,
+   "place": "Station stage and beam over canyon",
+   "key_props": [
+    "stage with sacks of money",
+    "beam with workers"
+   ],
+   "in_world_text": [
+    "FIRST LINE IN GETS IT ALL!",
+    "UNION"
+   ],
+   "time_of_day": "indoor/afternoon",
+   "lighting": "Warm spot on stage; vivid colour contrast",
+   "depth_cues": "Arched glass hall, blurred background"
+  },
+  {
+   "start": 13,
+   "end": 22,
+   "place": "Cliff-side track in the canyon",
+   "key_props": [
+    "boss",
+    "hero",
+    "telegraph pole",
+    "birds"
+   ],
+   "in_world_text": [],
+   "time_of_day": "midday",
+   "lighting": "Hard sun from upper right, strong cliff shadows, blue sky fill",
+   "depth_cues": "Long track vanishing, distant bridge haze"
+  },
+  {
+   "start": 22,
+   "end": 31,
+   "place": "Rival pier, trestle, passenger cars",
+   "key_props": [
+    "crane",
+    "wooden deck",
+    "Vandergold passenger car",
+    "red lounge interior"
+   ],
+   "in_world_text": [
+    "CANYON",
+    "VANDERGOLD"
+   ],
+   "time_of_day": "midday",
+   "lighting": "Sun with warm wood, deep red interior with practical lamps",
+   "depth_cues": "Moderate depth, tilt-shift-like blur on near planks"
+  },
+  {
+   "start": 31,
+   "end": 36,
+   "place": "Station platform with newspaper",
+   "key_props": [
+    "newspaper",
+    "brick station",
+    "checkered floor",
+    "clock"
+   ],
+   "in_world_text": [
+    "The Red Mesa Herald",
+    "THE CLICKETY CLACK LINE!",
+    "ALL ABOARD!"
+   ],
+   "time_of_day": "afternoon",
+   "lighting": "Warm window light and soft shafts through the glass roof",
+   "depth_cues": "Hall depth, haze through the roof glass"
+  },
+  {
+   "start": 36,
+   "end": 48,
+   "place": "Hero's cliff-side track with hut and calendar",
+   "key_props": [
+    "calendar 1880 May/June",
+    "thermometer",
+    "calipers",
+    "blue flag",
+    "coin"
+   ],
+   "in_world_text": [
+    "CALENDAR 1880 MAY",
+    "JUNE"
+   ],
+   "time_of_day": "hot afternoon",
+   "lighting": "Orange cliff glow, rails shift pink to yellow as they heat",
+   "depth_cues": "Macro close-ups, shallow depth, tiled rocks"
+  },
+  {
+   "start": 48,
+   "end": 59,
+   "place": "Perfect railroad, straight and long",
+   "key_props": [
+    "parasol chair",
+    "long rails",
+    "bridge deck"
+   ],
+   "in_world_text": [],
+   "time_of_day": "late afternoon",
+   "lighting": "Low warm sun, pink rails; cool shadows",
+   "depth_cues": "Strong vanishing point, haze, long rails"
+  },
+  {
+   "start": 59,
+   "end": 65,
+   "place": "Steel arch bridge at dusk then wide view with watchers",
+   "key_props": [
+    "arched bridge",
+    "lamps",
+    "locomotive",
+    "explosion"
+   ],
+   "in_world_text": [],
+   "time_of_day": "dusk, then daylight",
+   "lighting": "Golden-pink sunset, orange glow from explosion, soft light shafts",
+   "depth_cues": "Heavy haze, purple chasm, small foreground sparks"
+  }
+ ],
+ "set_style": "stylised 3D without outlines",
+ "layer_stack": [
+  "Sky and background haze",
+  "3D canyon, terrain and set (game-engine render)",
+  "Props, rails, trains with steam",
+  "Flat toon characters, thick outlined, in the 3D scene",
+  "Particles (steam puffs, sparks, smoke, explosion)",
+  "Bold white captions with black stroke at lower centre"
+ ],
+ "camera": {
+  "shot_sizes": [
+   "close-up",
+   "medium",
+   "wide",
+   "macro"
+  ],
+  "angles": [
+   "low angle",
+   "eye level",
+   "high aerial",
+   "ground-level macro"
+  ],
+  "lens_feel": "Wide-angle with strong perspective, some stretch at the frame edges",
+  "camera_height": "Ground level to aerial, mostly low",
+  "notable_moves": [
+   {
+    "t": 0.1,
+    "type": "push-in",
+    "note": "Fast push on the hero's face"
+   },
+   {
+    "t": 1.7,
+    "type": "orbit/fly-through",
+    "note": "Whip into canyon fly-by"
+   },
+   {
+    "t": 8.0,
+    "type": "tilt",
+    "note": "Rapid tilt-up from the chasm to the horizon"
+   },
+   {
+    "t": 33.3,
+    "type": "whip",
+    "note": "Whip pan across the station"
+   },
+   {
+    "t": 50.8,
+    "type": "fly-through",
+    "note": "Low glide along the glowing rails"
+   },
+   {
+    "t": 60.0,
+    "type": "fly-in",
+    "note": "Fly in over the bridge to the train"
+   }
+  ]
+ },
+ "effects": [
+  {
+   "t": 0.5,
+   "dur_s": 1.0,
+   "type": "particles",
+   "trigger": "Saw cutting rail; sparks"
+  },
+  {
+   "t": 18.0,
+   "dur_s": 2.0,
+   "type": "particles",
+   "trigger": "Boss turns purple; steam puffs"
+  },
+  {
+   "t": 2.0,
+   "dur_s": 1.0,
+   "type": "motion blur",
+   "trigger": "Fly-by through the canyon"
+  },
+  {
+   "t": 38.8,
+   "dur_s": 8.0,
+   "type": "colour shift",
+   "trigger": "Rails heat from purple to pink to yellow"
+  },
+  {
+   "t": 56.5,
+   "dur_s": 1.5,
+   "type": "glow",
+   "trigger": "Rails close, bright flare"
+  },
+  {
+   "t": 61.8,
+   "dur_s": 1.2,
+   "type": "particles",
+   "trigger": "Sparks as the track bends"
+  },
+  {
+   "t": 64.3,
+   "dur_s": 1.0,
+   "type": "flash",
+   "trigger": "Train hits the track; white flash then fireball"
+  },
+  {
+   "t": 64.5,
+   "dur_s": 0.7,
+   "type": "smoke",
+   "trigger": "Explosion cloud"
+  }
+ ],
+ "lighting_mood_shifts": [
+  {
+   "t": 0,
+   "change": "Dark red and magenta key with the headlight",
+   "story_reason": "Tension at the opening"
+  },
+  {
+   "t": 3.5,
+   "change": "Bright blue sky, saturated sun",
+   "story_reason": "Setting up the race"
+  },
+  {
+   "t": 38.5,
+   "change": "Hot orange, rails go pink to yellow",
+   "story_reason": "Summer heat rises"
+  },
+  {
+   "t": 59.5,
+   "change": "Golden-pink dusk with haze",
+   "story_reason": "Calm before the buckle"
+  },
+  {
+   "t": 64.3,
+   "change": "White flash to orange fire, then blue sky",
+   "story_reason": "Explosion, then the aftermath"
+  }
+ ],
+ "generation_evidence": [
+  {
+   "frames": [
+    1790,
+    1818,
+    1860
+   ],
+   "observation": "Steel arch bridge with lamps and rails stays rigid and consistent during a fly-in; rail geometry and perspective are clean.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    0,
+    30,
+    1100
+   ],
+   "observation": "Same hero model, cap stripes and colours reappear in every scene; limbs keep their length.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    960,
+    990,
+    1000
+   ],
+   "observation": "Newspaper text 'The Red Mesa Herald' is crisp, stable and readable across the take.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    1092,
+    1236
+   ],
+   "observation": "Calendar, thermometer and calipers stay readable; the coin gap grows smaller consistently; rails change colour smoothly.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    1790,
+    1860,
+    1900
+   ],
+   "observation": "Cliff walls show horizontal stripe or streak texture on the lower canyon, and the purple chasm water looks smeared.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    1930,
+    1936,
+    1942
+   ],
+   "observation": "The fireball looks like a volumetric VFX; the characters are then composited at the lower corners.",
+   "points_to": "3D engine render"
+  }
+ ],
+ "sample_points": [
+  {
+   "frame": 30,
+   "x": 0.42,
+   "y": 0.43,
+   "what": "hero head fill white",
+   "hex": "#3C2B2F",
+   "patch_spread": 73.2
+  },
+  {
+   "frame": 30,
+   "x": 0.27,
+   "y": 0.62,
+   "what": "hero teal jacket",
+   "hex": "#463636",
+   "patch_spread": 2.4
+  },
+  {
+   "frame": 30,
+   "x": 0.42,
+   "y": 0.36,
+   "what": "hero striped cap",
+   "hex": "#475D98",
+   "patch_spread": 14.9
+  },
+  {
+   "frame": 540,
+   "x": 0.4,
+   "y": 0.52,
+   "what": "boss purple head",
+   "hex": "#A54ED1",
+   "patch_spread": 1.4
+  },
+  {
+   "frame": 72,
+   "x": 0.25,
+   "y": 0.25,
+   "what": "orange canyon wall (midday)",
+   "hex": "#EC3A20",
+   "patch_spread": 1.5
+  },
+  {
+   "frame": 90,
+   "x": 0.3,
+   "y": 0.1,
+   "what": "blue sky",
+   "hex": "#91A5D7",
+   "patch_spread": 0.8
+  },
+  {
+   "frame": 1236,
+   "x": 0.5,
+   "y": 0.61,
+   "what": "yellow heated rail",
+   "hex": "#FAE16F",
+   "patch_spread": 7.8
+  },
+  {
+   "frame": 1860,
+   "x": 0.5,
+   "y": 0.08,
+   "what": "dusk sky",
+   "hex": "#CAB1B5",
+   "patch_spread": 5.3
+  },
+  {
+   "frame": 1000,
+   "x": 0.5,
+   "y": 0.85,
+   "what": "newspaper cream paper",
+   "hex": "#B48252",
+   "patch_spread": 1.3
+  },
+  {
+   "frame": 1380,
+   "x": 0.5,
+   "y": 0.1,
+   "what": "orange cliff in the hot afternoon",
+   "hex": "#C02C17",
+   "patch_spread": 27.9
+  }
+ ],
+ "thumbnail": "Conductor character in a blue cap and uniform sitting on a rail with a plank deck behind, caption 'end'; this is about 23.8-24.0 s ('end-to-end' rail laying).",
+ "could_not_determine": [
+  "Whether the engine is Unreal, Unity or a game-style renderer",
+  "Whether characters are real 3D or 2D planes in the scene",
+  "Blink cycle (none clearly seen)",
+  "Exact SFX sources",
+  "Exact sample-point colours depend on the script reading; positions are estimates"
+ ]
+}

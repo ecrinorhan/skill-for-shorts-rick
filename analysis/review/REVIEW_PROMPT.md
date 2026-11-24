@@ -21,12 +21,12 @@ copy the video. All inputs are on disk. Do not use the network. Create files onl
    pink = in-place blend, orange = "suspect" (a strong change the detector did NOT call a join).
 4. With ONE Bash call build 4 or 5 montages (never more than 5), then Read them in ONE step:
 
-       cd /opt/rc/review/{V} && M="/opt/rc/venv/bin/python /tmp/hoplite/workspace/analysis/scripts/lib/montage.py" && W=/opt/rc/work/{V}
-       $M a_move.jpg 300 6 $W 300-322:2        # 12 frames through one fast camera move (pick a MOVE from pack.md; frame = seconds x 30)
-       $M --crop 0.1,0.05,0.9,0.6 b_face.jpg 360 4 $W 550-564:2   # a character's face during a line of direct speech: does the mouth move?
-       $M c_idle.jpg 300 6 $W 900-925:5        # 6 frames of one hold: blinking, breathing, drifting detail?
-       $M --crop 0.1,0.2,0.9,0.7 d_text.jpg 500 2 $W 1000 1040   # any in-world text or fine detail, at two moments of one take
-       $M e_other.jpg 360 4 $W ...             # anything odd you want to check
+       cd /opt/rc/review/{V}   # then, with P = /opt/rc/venv/bin/python /tmp/hoplite/workspace/analysis/scripts/lib/montage.py and W = /opt/rc/work/{V} written out in full on every line (shell variables holding a command are blocked in this sandbox):
+       P a_move.jpg 300 6 W 300-322:2        # 12 frames through one fast camera move (pick a MOVE from pack.md; frame = seconds x 30)
+       P --crop 0.1,0.05,0.9,0.6 b_face.jpg 360 4 W 550-564:2   # a character's face during a line of direct speech: does the mouth move?
+       P c_idle.jpg 300 6 W 900-925:5        # 6 frames of one hold: blinking, breathing, drifting detail?
+       P --crop 0.1,0.2,0.9,0.7 d_text.jpg 500 2 W 1000 1040   # any in-world text or fine detail, at two moments of one take
+       P e_other.jpg 360 4 W ...             # anything odd you want to check
 
    (Frame files are `/opt/rc/work/{V}/frames/NNNNN.jpg`, 30 fps, 1080x1920. The crop option must come before the output name.)
 5. Write `/opt/rc/review/{V}/review.json` with the Write tool, then validate it with ONE Bash call:
