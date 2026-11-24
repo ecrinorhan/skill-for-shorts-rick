@@ -1,0 +1,485 @@
+{
+ "video": "19_0m6G8pDtzNs",
+ "seconds": [
+  {
+   "s": 0,
+   "shown": "Red FIRE EMPLOYEE alarm button close on a desk; blurred figure behind (estimate)",
+   "shot_size": "insert (object or detail)",
+   "subject": "object or prop",
+   "picture_job": "shows the object named",
+   "new_setup": true
+  },
+  {
+   "s": 1,
+   "shown": "Bespectacled stick figure in office chair, arms up, launched upward from a Japanese-style room (estimate)",
+   "shot_size": "medium-long",
+   "subject": "secondary character",
+   "picture_job": "visual gag",
+   "new_setup": true
+  },
+  {
+   "s": 2,
+   "shown": "Alarm button again, soft and ghosted, with a blue suit and red tie blurred behind (estimate)",
+   "shot_size": "insert (object or detail)",
+   "subject": "object or prop",
+   "picture_job": "travel or transition",
+   "new_setup": true
+  },
+  {
+   "s": 3,
+   "shown": "Grinning grey-haired boss at his desk, red button in front, kanji scroll behind, key raised",
+   "shot_size": "medium",
+   "subject": "antagonist or authority",
+   "picture_job": "visual gag",
+   "new_setup": true
+  },
+  {
+   "s": 4,
+   "shown": "Boss pushed in tight: grinning, eyes shut, key tag held up, kanji scroll above",
+   "shot_size": "medium close-up",
+   "subject": "antagonist or authority",
+   "picture_job": "visual gag",
+   "new_setup": false
+  },
+  {
+   "s": 5,
+   "shown": "Boss and employee walk side by side through a bright open office; corkboard left, shelves right",
+   "shot_size": "long (full body)",
+   "subject": "protagonist",
+   "picture_job": "shows the narrated action",
+   "new_setup": true
+  },
+  {
+   "s": 6,
+   "shown": "Boss ushers employee toward a door labelled CAREER DEVELOPMENT ROOM; both mid-stride",
+   "shot_size": "long (full body)",
+   "subject": "protagonist",
+   "picture_job": "shows the narrated action",
+   "new_setup": true
+  },
+  {
+   "s": 7,
+   "shown": "Door with taped CAREER DEVELOPMENT ROOM sign; doorway to a green brick room beside it",
+   "shot_size": "medium",
+   "subject": "environment",
+   "picture_job": "establishes the place",
+   "new_setup": true
+  },
+  {
+   "s": 8,
+   "shown": "Bare desk with yellow tape outlines, in-tray holding a cobweb, gray device on a stand",
+   "shot_size": "medium",
+   "subject": "object or prop",
+   "picture_job": "shows the object named",
+   "new_setup": true
+  },
+  {
+   "s": 9,
+   "shown": "Giant red-rimmed wall clock fills frame, faint ghost of the previous desk shot",
+   "shot_size": "insert (object or detail)",
+   "subject": "object or prop",
+   "picture_job": "shows the object named",
+   "new_setup": true
+  },
+  {
+   "s": 10,
+   "shown": "Wall clock at top, smirking man's head entering at bottom, yellow light beam across green wall",
+   "shot_size": "medium close-up",
+   "subject": "secondary character",
+   "picture_job": "shows the object named",
+   "new_setup": true
+  },
+  {
+   "s": 11,
+   "shown": "Teal-shirted man at gray desk, feet up, looking at a phone; clock and yellow beam behind",
+   "shot_size": "long (full body)",
+   "subject": "secondary character",
+   "picture_job": "shows the narrated action",
+   "new_setup": true
+  },
+  {
+   "s": 12,
+   "shown": "Man at desk, feet up, eyes on phone; blue-shirted employee steps in at right edge",
+   "shot_size": "long (full body)",
+   "subject": "secondary character",
+   "picture_job": "shows the narrated action",
+   "new_setup": false
+  },
+  {
+   "s": 13,
+   "shown": "Man holds up phone showing a photo (estimate) to deadpan blue-shirted employee at right",
+   "shot_size": "long (full body)",
+   "subject": "secondary character",
+   "picture_job": "visual gag",
+   "new_setup": false
+  },
+  {
+   "s": 14,
+   "shown": "Grinning boss in a doorway holds a red gift box with a yellow bow",
+   "shot_size": "medium-long",
+   "subject": "antagonist or authority",
+   "picture_job": "visual gag",
+   "new_setup": true
+  },
+  {
+   "s": 15,
+   "shown": "Boss lifts the lid of the red gift box, beaming open-mouthed; camera closer",
+   "shot_size": "medium",
+   "subject": "antagonist or authority",
+   "picture_job": "visual gag",
+   "new_setup": false
+  },
+  {
+   "s": 16,
+   "shown": "Dark-haired head in foreground, small smiling boss in a far doorway; wall calendar, boxes",
+   "shot_size": "wide",
+   "subject": "antagonist or authority",
+   "picture_job": "shows the narrated action",
+   "new_setup": true
+  },
+  {
+   "s": 17,
+   "shown": "Dissolve: doorway shot ghosting into a desk with yellow tape outline and a dark phone",
+   "shot_size": "insert (object or detail)",
+   "subject": "object or prop",
+   "picture_job": "travel or transition",
+   "new_setup": true
+  },
+  {
+   "s": 18,
+   "shown": "Top-down desk with taped outline; smartphone shows a blue payment-style screen (estimate), cable alongside",
+   "shot_size": "insert (object or detail)",
+   "subject": "object or prop",
+   "picture_job": "shows the object named",
+   "new_setup": false
+  },
+  {
+   "s": 19,
+   "shown": "Employee's face huge and beaming, wide smile, holding a phone at chest; green brick wall behind",
+   "shot_size": "medium close-up",
+   "subject": "protagonist",
+   "picture_job": "shows a reaction",
+   "new_setup": true
+  },
+  {
+   "s": 20,
+   "shown": "High-angle: employee and teal-shirted man lie side by side in sunglasses under a yellow light beam",
+   "shot_size": "long (full body)",
+   "subject": "protagonist",
+   "picture_job": "visual gag",
+   "new_setup": true
+  },
+  {
+   "s": 21,
+   "shown": "Dissolve to a high view of an open-plan office: staff at desks, lucky-cat statue, skyline windows",
+   "shot_size": "wide",
+   "subject": "crowd or group",
+   "picture_job": "establishes the place",
+   "new_setup": true
+  },
+  {
+   "s": 22,
+   "shown": "Walking view down the aisle past seated coworkers, who look back; blue cubicle screen at left",
+   "shot_size": "wide",
+   "subject": "crowd or group",
+   "picture_job": "shows the narrated action",
+   "new_setup": false
+  },
+  {
+   "s": 23,
+   "shown": "Coworkers in the foreground stare straight at camera with wide round eyes, glasses; same office",
+   "shot_size": "medium",
+   "subject": "crowd or group",
+   "picture_job": "shows a reaction",
+   "new_setup": false
+  },
+  {
+   "s": 24,
+   "shown": "Phone held up showing an empty inbox with a cobwebbed mailbox icon; wide-eyed coworker behind",
+   "shot_size": "insert (object or detail)",
+   "subject": "diagram or insert",
+   "picture_job": "consequence or result",
+   "new_setup": true
+  },
+  {
+   "s": 25,
+   "shown": "Camera pushes into the phone screen: white field with the cobwebbed mailbox icon at the bottom",
+   "shot_size": "insert (object or detail)",
+   "subject": "diagram or insert",
+   "picture_job": "travel or transition",
+   "new_setup": true
+  },
+  {
+   "s": 26,
+   "shown": "Man in green tie smiles eyes-closed beside a framed cartoon family photo; monitor and skyline behind",
+   "shot_size": "medium",
+   "subject": "secondary character",
+   "picture_job": "shows the object named",
+   "new_setup": true
+  },
+  {
+   "s": 27,
+   "shown": "Wide office: green-tied man grins at desk with framed photo; blue-shirted employee stands left, flat-faced",
+   "shot_size": "wide",
+   "subject": "secondary character",
+   "picture_job": "consequence or result",
+   "new_setup": true
+  },
+  {
+   "s": 28,
+   "shown": "Same wide shot; the standing employee's face has turned to a wide-eyed gritted-teeth grimace",
+   "shot_size": "wide",
+   "subject": "protagonist",
+   "picture_job": "shows a reaction",
+   "new_setup": false
+  },
+  {
+   "s": 29,
+   "shown": "Wall calendar page NOV FRI 25 on a green brick wall; door edge at right",
+   "shot_size": "insert (object or detail)",
+   "subject": "object or prop",
+   "picture_job": "shows the object named",
+   "new_setup": true
+  },
+  {
+   "s": 30,
+   "shown": "Boss grinning, peeking round an open door at left; office cubicles visible beyond; low angle",
+   "shot_size": "medium close-up",
+   "subject": "antagonist or authority",
+   "picture_job": "shows the narrated action",
+   "new_setup": true
+  },
+  {
+   "s": 31,
+   "shown": "Boss's grinning face closer, eyes shut in happy arcs, filling the left side; office behind",
+   "shot_size": "close-up",
+   "subject": "antagonist or authority",
+   "picture_job": "shows the narrated action",
+   "new_setup": false
+  },
+  {
+   "s": 32,
+   "shown": "Boss's face closer still, laughing with open mouth and shut eyes; desks and blue carpet behind",
+   "shot_size": "close-up",
+   "subject": "antagonist or authority",
+   "picture_job": "shows the narrated action",
+   "new_setup": false
+  },
+  {
+   "s": 33,
+   "shown": "High-angle on teal-shirted man in a chair, feet up on desk, eyes closed, red clock behind",
+   "shot_size": "long (full body)",
+   "subject": "secondary character",
+   "picture_job": "shows the narrated action",
+   "new_setup": true
+  },
+  {
+   "s": 34,
+   "shown": "Closer on the content man, eyes shut, feet up on a tilted desk; clock behind",
+   "shot_size": "medium-long",
+   "subject": "secondary character",
+   "picture_job": "shows the narrated action",
+   "new_setup": false
+  },
+  {
+   "s": 35,
+   "shown": "Desk top with two round brown marks, man's shoes resting on it, torso cut off right",
+   "shot_size": "medium",
+   "subject": "object or prop",
+   "picture_job": "visual gag",
+   "new_setup": true
+  },
+  {
+   "s": 36,
+   "shown": "Dusk-lit glowing window seen from outside: teal-shirted man inside, bookshelf behind, pigeon on sill",
+   "shot_size": "wide",
+   "subject": "secondary character",
+   "picture_job": "shows the narrated action",
+   "new_setup": true
+  },
+  {
+   "s": 37,
+   "shown": "Glass office-tower facade at dusk: blue-lit floors with tiny workers, one warm yellow window",
+   "shot_size": "extreme wide",
+   "subject": "environment",
+   "picture_job": "establishes the place",
+   "new_setup": true
+  },
+  {
+   "s": 38,
+   "shown": "Same tower facade, barely drifting; the warm window sits mid-frame among cold blue floors",
+   "shot_size": "extreme wide",
+   "subject": "environment",
+   "picture_job": "establishes the place",
+   "new_setup": false
+  },
+  {
+   "s": 39,
+   "shown": "Facade fading into a ghost of two seated men with drinks; wall clock appears mid-frame (estimate)",
+   "shot_size": "wide",
+   "subject": "environment",
+   "picture_job": "travel or transition",
+   "new_setup": false
+  },
+  {
+   "s": 40,
+   "shown": "Teal-shirted man and blue-shirted employee side by side, feet up, holding drinks; clock behind",
+   "shot_size": "medium-long",
+   "subject": "protagonist",
+   "picture_job": "shows the narrated action",
+   "new_setup": true
+  },
+  {
+   "s": 41,
+   "shown": "Tighter on the pair: both smiling, one sipping through a candy-cane straw, shoes up at bottom",
+   "shot_size": "medium",
+   "subject": "protagonist",
+   "picture_job": "visual gag",
+   "new_setup": false
+  },
+  {
+   "s": 42,
+   "shown": "Closer still on the smiling pair with drinks, eyes shut; faint calendar ghost starts to appear",
+   "shot_size": "medium",
+   "subject": "protagonist",
+   "picture_job": "visual gag",
+   "new_setup": false
+  },
+  {
+   "s": 43,
+   "shown": "Green brick room seen from inside, empty gray desk foreground; employee small in far open doorway",
+   "shot_size": "wide",
+   "subject": "protagonist",
+   "picture_job": "shows the narrated action",
+   "new_setup": true
+  },
+  {
+   "s": 44,
+   "shown": "Employee inside the room leaning toward a bookshelf and desk, small smile; green walls, boxes",
+   "shot_size": "long (full body)",
+   "subject": "protagonist",
+   "picture_job": "shows the narrated action",
+   "new_setup": true
+  },
+  {
+   "s": 45,
+   "shown": "Low view of empty desk with two brown marks; dark chair lower right; bookshelf behind",
+   "shot_size": "medium",
+   "subject": "object or prop",
+   "picture_job": "shows the object named",
+   "new_setup": true
+  },
+  {
+   "s": 46,
+   "shown": "Closer on the bare desk top, two round brown marks; chair back in foreground, shelf above",
+   "shot_size": "insert (object or detail)",
+   "subject": "object or prop",
+   "picture_job": "shows the object named",
+   "new_setup": false
+  },
+  {
+   "s": 47,
+   "shown": "Bare desk top, two brown marks, closer still; faint ghost of figures begins to blend in",
+   "shot_size": "insert (object or detail)",
+   "subject": "object or prop",
+   "picture_job": "consequence or result",
+   "new_setup": false
+  },
+  {
+   "s": 48,
+   "shown": "Employee leans out of an open sign-taped door, wary look; white corridor, fire alarm at right",
+   "shot_size": "long (full body)",
+   "subject": "protagonist",
+   "picture_job": "shows a reaction",
+   "new_setup": true
+  },
+  {
+   "s": 49,
+   "shown": "Closed pale door with CAREER DEVELOPMENT ROOM sign; fire alarm at right; faint ghosting",
+   "shot_size": "medium",
+   "subject": "environment",
+   "picture_job": "establishes the place",
+   "new_setup": true
+  },
+  {
+   "s": 50,
+   "shown": "Dark blue corridor, orange wall lamp glowing: red alarm button, fire pull-box, electrical panel",
+   "shot_size": "wide",
+   "subject": "environment",
+   "picture_job": "establishes the place",
+   "new_setup": true
+  },
+  {
+   "s": 51,
+   "shown": "Close on red FIRE pull-box with gold LABOR LAW padlock; dark suit looms at right",
+   "shot_size": "insert (object or detail)",
+   "subject": "object or prop",
+   "picture_job": "diagram or explanation",
+   "new_setup": true
+  },
+  {
+   "s": 52,
+   "shown": "Boss stands centre in the dark corridor, toothy grin with blush; alarm box behind his shoulder",
+   "shot_size": "medium-long",
+   "subject": "antagonist or authority",
+   "picture_job": "shows the narrated action",
+   "new_setup": true
+  },
+  {
+   "s": 53,
+   "shown": "Boss standing at centre-left, still grinning; electrical panel closed at right, lamp above",
+   "shot_size": "medium-long",
+   "subject": "antagonist or authority",
+   "picture_job": "shows the narrated action",
+   "new_setup": false
+  },
+  {
+   "s": 54,
+   "shown": "Boss cropped at left; the electrical panel now open, showing labelled switches (HOPE, LUNCH, WORK, FRIENDS)",
+   "shot_size": "medium",
+   "subject": "object or prop",
+   "picture_job": "diagram or explanation",
+   "new_setup": true
+  },
+  {
+   "s": 55,
+   "shown": "Camera drifts back: boss beside the open switch panel; blue lucky-cat statue appears at right",
+   "shot_size": "medium-long",
+   "subject": "antagonist or authority",
+   "picture_job": "diagram or explanation",
+   "new_setup": false
+  },
+  {
+   "s": 56,
+   "shown": "Wider: boss, open switch panel, lucky-cat statue and notice board; lamp glowing above",
+   "shot_size": "medium-long",
+   "subject": "antagonist or authority",
+   "picture_job": "diagram or explanation",
+   "new_setup": false
+  },
+  {
+   "s": 57,
+   "shown": "Wide corridor: boss stands grinning full-length by the open panel; sign-taped door at left",
+   "shot_size": "long (full body)",
+   "subject": "antagonist or authority",
+   "picture_job": "shows the narrated action",
+   "new_setup": false
+  },
+  {
+   "s": 58,
+   "shown": "Boss, now wide-eyed and unsmiling, at lower right; door with room sign behind, red light above",
+   "shot_size": "medium",
+   "subject": "antagonist or authority",
+   "picture_job": "shows a reaction",
+   "new_setup": true
+  },
+  {
+   "s": 59,
+   "shown": "Door fills frame, taped CAREER DEVELOPMENT ROOM sign; tiny man seen through its window",
+   "shot_size": "insert (object or detail)",
+   "subject": "object or prop",
+   "picture_job": "consequence or result",
+   "new_setup": true
+  }
+ ]
+}

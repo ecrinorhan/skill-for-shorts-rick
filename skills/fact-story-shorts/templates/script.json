@@ -1,0 +1,25 @@
+{
+  "title": "Why [Group] [Did the Odd Thing]",
+  "structure": "A: act first, explain at the end  |  B: pure story with a twist  |  C: premise first, then story  |  D: second-person scenario",
+  "fact": "What is real, with the key numbers and where they come from. Then: INVENTED for this story: the people, the dialogue, ...",
+  "sources": ["a URL or citation you have actually read"],
+  "voice": "af_heart",
+  "sentences": [
+    {"beat": "hook", "text": "He [did an odd physical thing] to [an object], and [the catch]."},
+    {"beat": "setup", "text": "[Who he is and what is at stake, in one sentence.]"},
+    {"beat": "setup", "text": "[The one rule, deadline or danger.]"},
+    {"beat": "conflict", "text": "[The doubter or the boss sees it.]"},
+    {"beat": "conflict", "text": "[A short sarcastic line.]", "speech": "doubter", "pitch": 3.0},
+    {"beat": "conflict", "text": "But he [does it anyway]."},
+    {"beat": "escalation", "text": "So [first consequence, a new picture]."},
+    {"beat": "escalation", "text": "Then [second consequence, worse]."},
+    {"beat": "escalation", "text": "[A three-to-five-word turn.]"},
+    {"beat": "escalation", "text": "And [the moment it seems lost, or the first sign he was right]."},
+    {"beat": "question", "text": "So how [does this work]?", "pitch": 1.5},
+    {"beat": "explainer", "text": "Well, [the fact, stated plainly and truthfully]."},
+    {"beat": "explainer", "text": "[The mechanism, with one everyday comparison.]"},
+    {"beat": "explainer", "text": "So [how that applies to this story]."},
+    {"beat": "payoff", "text": "[The mechanism plays out on screen.]"},
+    {"beat": "ending", "text": "And [the consequence lands. Stop here]."}
+  ]
+}

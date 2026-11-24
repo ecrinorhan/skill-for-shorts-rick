@@ -1,0 +1,1400 @@
+[
+ {
+  "text": "He",
+  "start": 0.08,
+  "end": 0.14,
+  "sentence": 0
+ },
+ {
+  "text": "stopped",
+  "start": 0.22,
+  "end": 0.5,
+  "sentence": 0
+ },
+ {
+  "text": "an",
+  "start": 0.52,
+  "end": 0.6,
+  "sentence": 0
+ },
+ {
+  "text": "army",
+  "start": 0.72,
+  "end": 0.94,
+  "sentence": 0
+ },
+ {
+  "text": "at",
+  "start": 1.04,
+  "end": 1.1,
+  "sentence": 0
+ },
+ {
+  "text": "his",
+  "start": 1.12,
+  "end": 1.24,
+  "sentence": 0
+ },
+ {
+  "text": "bridge",
+  "start": 1.3,
+  "end": 1.7,
+  "sentence": 0
+ },
+ {
+  "text": "and",
+  "start": 1.82,
+  "end": 1.9,
+  "sentence": 0
+ },
+ {
+  "text": "ordered",
+  "start": 1.98,
+  "end": 2.22,
+  "sentence": 0
+ },
+ {
+  "text": "every",
+  "start": 2.32,
+  "end": 2.52,
+  "sentence": 0
+ },
+ {
+  "text": "soldier",
+  "start": 2.62,
+  "end": 3.0,
+  "sentence": 0
+ },
+ {
+  "text": "to",
+  "start": 3.06,
+  "end": 3.14,
+  "sentence": 0
+ },
+ {
+  "text": "walk",
+  "start": 3.2,
+  "end": 3.38,
+  "sentence": 0
+ },
+ {
+  "text": "out",
+  "start": 3.44,
+  "end": 3.52,
+  "sentence": 0
+ },
+ {
+  "text": "of",
+  "start": 3.52,
+  "end": 3.56,
+  "sentence": 0
+ },
+ {
+  "text": "step.",
+  "start": 3.62,
+  "end": 3.88,
+  "sentence": 0
+ },
+ {
+  "text": "You",
+  "start": 4.04,
+  "end": 4.14,
+  "sentence": 1
+ },
+ {
+  "text": "see,",
+  "start": 4.22,
+  "end": 4.42,
+  "sentence": 1
+ },
+ {
+  "text": "he's",
+  "start": 4.62,
+  "end": 4.8,
+  "sentence": 1
+ },
+ {
+  "text": "the",
+  "start": 4.84,
+  "end": 4.92,
+  "sentence": 1
+ },
+ {
+  "text": "bridge",
+  "start": 4.96,
+  "end": 5.2,
+  "sentence": 1
+ },
+ {
+  "text": "keeper,",
+  "start": 5.26,
+  "end": 5.58,
+  "sentence": 1
+ },
+ {
+  "text": "and",
+  "start": 5.74,
+  "end": 5.82,
+  "sentence": 1
+ },
+ {
+  "text": "this",
+  "start": 5.84,
+  "end": 5.98,
+  "sentence": 1
+ },
+ {
+  "text": "bridge",
+  "start": 6.06,
+  "end": 6.421,
+  "sentence": 1
+ },
+ {
+  "text": "is",
+  "start": 6.501,
+  "end": 6.581,
+  "sentence": 1
+ },
+ {
+  "text": "the",
+  "start": 6.601,
+  "end": 6.681,
+  "sentence": 1
+ },
+ {
+  "text": "only",
+  "start": 6.821,
+  "end": 7.041,
+  "sentence": 1
+ },
+ {
+  "text": "way",
+  "start": 7.121,
+  "end": 7.261,
+  "sentence": 1
+ },
+ {
+  "text": "across",
+  "start": 7.321,
+  "end": 7.621,
+  "sentence": 1
+ },
+ {
+  "text": "the",
+  "start": 7.681,
+  "end": 7.741,
+  "sentence": 1
+ },
+ {
+  "text": "river",
+  "start": 7.781,
+  "end": 8.021,
+  "sentence": 1
+ },
+ {
+  "text": "for",
+  "start": 8.101,
+  "end": 8.201,
+  "sentence": 1
+ },
+ {
+  "text": "fifty",
+  "start": 8.281,
+  "end": 8.501,
+  "sentence": 1
+ },
+ {
+  "text": "miles.",
+  "start": 8.581,
+  "end": 9.001,
+  "sentence": 1
+ },
+ {
+  "text": "It",
+  "start": 9.181,
+  "end": 9.261,
+  "sentence": 2
+ },
+ {
+  "text": "hangs",
+  "start": 9.301,
+  "end": 9.581,
+  "sentence": 2
+ },
+ {
+  "text": "from",
+  "start": 9.641,
+  "end": 9.761,
+  "sentence": 2
+ },
+ {
+  "text": "iron",
+  "start": 9.941,
+  "end": 10.101,
+  "sentence": 2
+ },
+ {
+  "text": "chains,",
+  "start": 10.141,
+  "end": 10.521,
+  "sentence": 2
+ },
+ {
+  "text": "and",
+  "start": 10.661,
+  "end": 10.741,
+  "sentence": 2
+ },
+ {
+  "text": "he",
+  "start": 10.761,
+  "end": 10.801,
+  "sentence": 2
+ },
+ {
+  "text": "oils",
+  "start": 10.941,
+  "end": 11.181,
+  "sentence": 2
+ },
+ {
+  "text": "every",
+  "start": 11.301,
+  "end": 11.501,
+  "sentence": 2
+ },
+ {
+  "text": "link",
+  "start": 11.561,
+  "end": 11.721,
+  "sentence": 2
+ },
+ {
+  "text": "by",
+  "start": 11.801,
+  "end": 11.921,
+  "sentence": 2
+ },
+ {
+  "text": "hand.",
+  "start": 11.981,
+  "end": 12.321,
+  "sentence": 2
+ },
+ {
+  "text": "So",
+  "start": 12.501,
+  "end": 12.581,
+  "sentence": 3
+ },
+ {
+  "text": "when",
+  "start": 12.621,
+  "end": 12.741,
+  "sentence": 3
+ },
+ {
+  "text": "six",
+  "start": 12.841,
+  "end": 12.981,
+  "sentence": 3
+ },
+ {
+  "text": "hundred",
+  "start": 13.061,
+  "end": 13.301,
+  "sentence": 3
+ },
+ {
+  "text": "soldiers",
+  "start": 13.361,
+  "end": 13.881,
+  "sentence": 3
+ },
+ {
+  "text": "show",
+  "start": 14.021,
+  "end": 14.161,
+  "sentence": 3
+ },
+ {
+  "text": "up",
+  "start": 14.221,
+  "end": 14.321,
+  "sentence": 3
+ },
+ {
+  "text": "marching",
+  "start": 14.421,
+  "end": 14.841,
+  "sentence": 3
+ },
+ {
+  "text": "in",
+  "start": 14.901,
+  "end": 14.961,
+  "sentence": 3
+ },
+ {
+  "text": "perfect",
+  "start": 15.041,
+  "end": 15.441,
+  "sentence": 3
+ },
+ {
+  "text": "rows,",
+  "start": 15.501,
+  "end": 15.861,
+  "sentence": 3
+ },
+ {
+  "text": "he",
+  "start": 16.001,
+  "end": 16.061,
+  "sentence": 3
+ },
+ {
+  "text": "plants",
+  "start": 16.121,
+  "end": 16.401,
+  "sentence": 3
+ },
+ {
+  "text": "himself",
+  "start": 16.421,
+  "end": 16.801,
+  "sentence": 3
+ },
+ {
+  "text": "in",
+  "start": 16.881,
+  "end": 16.921,
+  "sentence": 3
+ },
+ {
+  "text": "the",
+  "start": 16.961,
+  "end": 17.021,
+  "sentence": 3
+ },
+ {
+  "text": "middle",
+  "start": 17.061,
+  "end": 17.261,
+  "sentence": 3
+ },
+ {
+  "text": "of",
+  "start": 17.281,
+  "end": 17.341,
+  "sentence": 3
+ },
+ {
+  "text": "the",
+  "start": 17.361,
+  "end": 17.421,
+  "sentence": 3
+ },
+ {
+  "text": "road.",
+  "start": 17.461,
+  "end": 17.761,
+  "sentence": 3
+ },
+ {
+  "text": "The",
+  "start": 17.921,
+  "end": 17.981,
+  "sentence": 4
+ },
+ {
+  "text": "colonel",
+  "start": 18.021,
+  "end": 18.301,
+  "sentence": 4
+ },
+ {
+  "text": "glares",
+  "start": 18.361,
+  "end": 18.662,
+  "sentence": 4
+ },
+ {
+  "text": "down",
+  "start": 18.722,
+  "end": 18.922,
+  "sentence": 4
+ },
+ {
+  "text": "from",
+  "start": 18.962,
+  "end": 19.082,
+  "sentence": 4
+ },
+ {
+  "text": "his",
+  "start": 19.102,
+  "end": 19.202,
+  "sentence": 4
+ },
+ {
+  "text": "horse.",
+  "start": 19.242,
+  "end": 19.582,
+  "sentence": 4
+ },
+ {
+  "text": "My",
+  "start": 19.742,
+  "end": 19.882,
+  "sentence": 5
+ },
+ {
+  "text": "men",
+  "start": 19.922,
+  "end": 20.082,
+  "sentence": 5
+ },
+ {
+  "text": "march",
+  "start": 20.162,
+  "end": 20.402,
+  "sentence": 5
+ },
+ {
+  "text": "in",
+  "start": 20.442,
+  "end": 20.502,
+  "sentence": 5
+ },
+ {
+  "text": "step,",
+  "start": 20.582,
+  "end": 20.842,
+  "sentence": 5
+ },
+ {
+  "text": "or",
+  "start": 21.022,
+  "end": 21.082,
+  "sentence": 5
+ },
+ {
+  "text": "they",
+  "start": 21.102,
+  "end": 21.202,
+  "sentence": 5
+ },
+ {
+  "text": "don't",
+  "start": 21.222,
+  "end": 21.362,
+  "sentence": 5
+ },
+ {
+  "text": "march!",
+  "start": 21.382,
+  "end": 21.682,
+  "sentence": 5
+ },
+ {
+  "text": "But",
+  "start": 21.862,
+  "end": 21.962,
+  "sentence": 6
+ },
+ {
+  "text": "the",
+  "start": 21.982,
+  "end": 22.042,
+  "sentence": 6
+ },
+ {
+  "text": "keeper",
+  "start": 22.082,
+  "end": 22.382,
+  "sentence": 6
+ },
+ {
+  "text": "won't",
+  "start": 22.462,
+  "end": 22.662,
+  "sentence": 6
+ },
+ {
+  "text": "move.",
+  "start": 22.702,
+  "end": 23.042,
+  "sentence": 6
+ },
+ {
+  "text": "Walk",
+  "start": 23.242,
+  "end": 23.422,
+  "sentence": 7
+ },
+ {
+  "text": "across",
+  "start": 23.462,
+  "end": 23.822,
+  "sentence": 7
+ },
+ {
+  "text": "like",
+  "start": 23.862,
+  "end": 24.022,
+  "sentence": 7
+ },
+ {
+  "text": "you're",
+  "start": 24.022,
+  "end": 24.142,
+  "sentence": 7
+ },
+ {
+  "text": "late",
+  "start": 24.162,
+  "end": 24.342,
+  "sentence": 7
+ },
+ {
+  "text": "for",
+  "start": 24.362,
+  "end": 24.462,
+  "sentence": 7
+ },
+ {
+  "text": "dinner,",
+  "start": 24.502,
+  "end": 24.742,
+  "sentence": 7
+ },
+ {
+  "text": "or",
+  "start": 24.942,
+  "end": 25.002,
+  "sentence": 7
+ },
+ {
+  "text": "swim.",
+  "start": 25.102,
+  "end": 25.382,
+  "sentence": 7
+ },
+ {
+  "text": "So",
+  "start": 25.602,
+  "end": 25.662,
+  "sentence": 8
+ },
+ {
+  "text": "the",
+  "start": 25.722,
+  "end": 25.782,
+  "sentence": 8
+ },
+ {
+  "text": "colonel",
+  "start": 25.822,
+  "end": 26.102,
+  "sentence": 8
+ },
+ {
+  "text": "laughs",
+  "start": 26.162,
+  "end": 26.522,
+  "sentence": 8
+ },
+ {
+  "text": "and",
+  "start": 26.662,
+  "end": 26.762,
+  "sentence": 8
+ },
+ {
+  "text": "orders",
+  "start": 26.842,
+  "end": 27.122,
+  "sentence": 8
+ },
+ {
+  "text": "the",
+  "start": 27.142,
+  "end": 27.222,
+  "sentence": 8
+ },
+ {
+  "text": "drums",
+  "start": 27.262,
+  "end": 27.602,
+  "sentence": 8
+ },
+ {
+  "text": "even",
+  "start": 27.702,
+  "end": 27.882,
+  "sentence": 8
+ },
+ {
+  "text": "louder.",
+  "start": 27.962,
+  "end": 28.262,
+  "sentence": 8
+ },
+ {
+  "text": "Six",
+  "start": 28.502,
+  "end": 28.642,
+  "sentence": 9
+ },
+ {
+  "text": "hundred",
+  "start": 28.722,
+  "end": 28.982,
+  "sentence": 9
+ },
+ {
+  "text": "boots",
+  "start": 29.022,
+  "end": 29.302,
+  "sentence": 9
+ },
+ {
+  "text": "hit",
+  "start": 29.422,
+  "end": 29.542,
+  "sentence": 9
+ },
+ {
+  "text": "the",
+  "start": 29.582,
+  "end": 29.642,
+  "sentence": 9
+ },
+ {
+  "text": "planks",
+  "start": 29.662,
+  "end": 30.022,
+  "sentence": 9
+ },
+ {
+  "text": "at",
+  "start": 30.082,
+  "end": 30.142,
+  "sentence": 9
+ },
+ {
+  "text": "the",
+  "start": 30.182,
+  "end": 30.242,
+  "sentence": 9
+ },
+ {
+  "text": "exact",
+  "start": 30.282,
+  "end": 30.723,
+  "sentence": 9
+ },
+ {
+  "text": "same",
+  "start": 30.823,
+  "end": 31.063,
+  "sentence": 9
+ },
+ {
+  "text": "instant.",
+  "start": 31.123,
+  "end": 31.523,
+  "sentence": 9
+ },
+ {
+  "text": "Halfway",
+  "start": 31.683,
+  "end": 32.023,
+  "sentence": 10
+ },
+ {
+  "text": "across,",
+  "start": 32.063,
+  "end": 32.483,
+  "sentence": 10
+ },
+ {
+  "text": "the",
+  "start": 32.623,
+  "end": 32.703,
+  "sentence": 10
+ },
+ {
+  "text": "keeper's",
+  "start": 32.723,
+  "end": 33.083,
+  "sentence": 10
+ },
+ {
+  "text": "lantern",
+  "start": 33.163,
+  "end": 33.563,
+  "sentence": 10
+ },
+ {
+  "text": "starts",
+  "start": 33.643,
+  "end": 33.883,
+  "sentence": 10
+ },
+ {
+  "text": "swinging",
+  "start": 33.923,
+  "end": 34.243,
+  "sentence": 10
+ },
+ {
+  "text": "on",
+  "start": 34.263,
+  "end": 34.343,
+  "sentence": 10
+ },
+ {
+  "text": "its",
+  "start": 34.363,
+  "end": 34.463,
+  "sentence": 10
+ },
+ {
+  "text": "hook.",
+  "start": 34.503,
+  "end": 34.723,
+  "sentence": 10
+ },
+ {
+  "text": "Then",
+  "start": 34.923,
+  "end": 35.063,
+  "sentence": 11
+ },
+ {
+  "text": "the",
+  "start": 35.083,
+  "end": 35.163,
+  "sentence": 11
+ },
+ {
+  "text": "planks",
+  "start": 35.183,
+  "end": 35.503,
+  "sentence": 11
+ },
+ {
+  "text": "start",
+  "start": 35.523,
+  "end": 35.723,
+  "sentence": 11
+ },
+ {
+  "text": "bouncing.",
+  "start": 35.763,
+  "end": 36.223,
+  "sentence": 11
+ },
+ {
+  "text": "And",
+  "start": 36.403,
+  "end": 36.483,
+  "sentence": 12
+ },
+ {
+  "text": "the",
+  "start": 36.483,
+  "end": 36.543,
+  "sentence": 12
+ },
+ {
+  "text": "colonel's",
+  "start": 36.583,
+  "end": 36.923,
+  "sentence": 12
+ },
+ {
+  "text": "horse",
+  "start": 37.003,
+  "end": 37.363,
+  "sentence": 12
+ },
+ {
+  "text": "refuses",
+  "start": 37.523,
+  "end": 38.023,
+  "sentence": 12
+ },
+ {
+  "text": "to",
+  "start": 38.083,
+  "end": 38.143,
+  "sentence": 12
+ },
+ {
+  "text": "take",
+  "start": 38.203,
+  "end": 38.423,
+  "sentence": 12
+ },
+ {
+  "text": "another",
+  "start": 38.463,
+  "end": 38.743,
+  "sentence": 12
+ },
+ {
+  "text": "step.",
+  "start": 38.803,
+  "end": 39.043,
+  "sentence": 12
+ },
+ {
+  "text": "So",
+  "start": 39.283,
+  "end": 39.343,
+  "sentence": 13
+ },
+ {
+  "text": "how",
+  "start": 39.443,
+  "end": 39.583,
+  "sentence": 13
+ },
+ {
+  "text": "do",
+  "start": 39.643,
+  "end": 39.703,
+  "sentence": 13
+ },
+ {
+  "text": "boots",
+  "start": 39.803,
+  "end": 40.043,
+  "sentence": 13
+ },
+ {
+  "text": "break",
+  "start": 40.103,
+  "end": 40.283,
+  "sentence": 13
+ },
+ {
+  "text": "iron?",
+  "start": 40.483,
+  "end": 40.683,
+  "sentence": 13
+ },
+ {
+  "text": "Well,",
+  "start": 40.903,
+  "end": 41.123,
+  "sentence": 14
+ },
+ {
+  "text": "ever",
+  "start": 41.303,
+  "end": 41.483,
+  "sentence": 14
+ },
+ {
+  "text": "pushed",
+  "start": 41.543,
+  "end": 41.763,
+  "sentence": 14
+ },
+ {
+  "text": "a",
+  "start": 41.783,
+  "end": 41.803,
+  "sentence": 14
+ },
+ {
+  "text": "kid",
+  "start": 41.843,
+  "end": 42.003,
+  "sentence": 14
+ },
+ {
+  "text": "on",
+  "start": 42.023,
+  "end": 42.103,
+  "sentence": 14
+ },
+ {
+  "text": "a",
+  "start": 42.143,
+  "end": 42.163,
+  "sentence": 14
+ },
+ {
+  "text": "swing?",
+  "start": 42.223,
+  "end": 42.523,
+  "sentence": 14
+ },
+ {
+  "text": "One",
+  "start": 42.783,
+  "end": 42.923,
+  "sentence": 15
+ },
+ {
+  "text": "push",
+  "start": 42.964,
+  "end": 43.204,
+  "sentence": 15
+ },
+ {
+  "text": "does",
+  "start": 43.264,
+  "end": 43.384,
+  "sentence": 15
+ },
+ {
+  "text": "nothing,",
+  "start": 43.444,
+  "end": 43.784,
+  "sentence": 15
+ },
+ {
+  "text": "but",
+  "start": 43.884,
+  "end": 43.984,
+  "sentence": 15
+ },
+ {
+  "text": "push",
+  "start": 44.024,
+  "end": 44.244,
+  "sentence": 15
+ },
+ {
+  "text": "at",
+  "start": 44.284,
+  "end": 44.344,
+  "sentence": 15
+ },
+ {
+  "text": "the",
+  "start": 44.364,
+  "end": 44.424,
+  "sentence": 15
+ },
+ {
+  "text": "same",
+  "start": 44.484,
+  "end": 44.724,
+  "sentence": 15
+ },
+ {
+  "text": "moment",
+  "start": 44.764,
+  "end": 45.044,
+  "sentence": 15
+ },
+ {
+  "text": "every",
+  "start": 45.124,
+  "end": 45.324,
+  "sentence": 15
+ },
+ {
+  "text": "time,",
+  "start": 45.384,
+  "end": 45.764,
+  "sentence": 15
+ },
+ {
+  "text": "and",
+  "start": 45.884,
+  "end": 45.964,
+  "sentence": 15
+ },
+ {
+  "text": "she",
+  "start": 46.004,
+  "end": 46.084,
+  "sentence": 15
+ },
+ {
+  "text": "flies.",
+  "start": 46.144,
+  "end": 46.564,
+  "sentence": 15
+ },
+ {
+  "text": "A",
+  "start": 46.764,
+  "end": 46.784,
+  "sentence": 16
+ },
+ {
+  "text": "bridge",
+  "start": 46.844,
+  "end": 47.144,
+  "sentence": 16
+ },
+ {
+  "text": "swings",
+  "start": 47.224,
+  "end": 47.504,
+  "sentence": 16
+ },
+ {
+  "text": "too,",
+  "start": 47.564,
+  "end": 47.804,
+  "sentence": 16
+ },
+ {
+  "text": "and",
+  "start": 48.004,
+  "end": 48.104,
+  "sentence": 16
+ },
+ {
+  "text": "six",
+  "start": 48.164,
+  "end": 48.304,
+  "sentence": 16
+ },
+ {
+  "text": "hundred",
+  "start": 48.364,
+  "end": 48.604,
+  "sentence": 16
+ },
+ {
+  "text": "boots",
+  "start": 48.624,
+  "end": 48.884,
+  "sentence": 16
+ },
+ {
+  "text": "are",
+  "start": 48.924,
+  "end": 49.024,
+  "sentence": 16
+ },
+ {
+  "text": "one",
+  "start": 49.104,
+  "end": 49.244,
+  "sentence": 16
+ },
+ {
+  "text": "giant",
+  "start": 49.304,
+  "end": 49.624,
+  "sentence": 16
+ },
+ {
+  "text": "push,",
+  "start": 49.664,
+  "end": 49.964,
+  "sentence": 16
+ },
+ {
+  "text": "right",
+  "start": 50.184,
+  "end": 50.424,
+  "sentence": 16
+ },
+ {
+  "text": "on",
+  "start": 50.484,
+  "end": 50.544,
+  "sentence": 16
+ },
+ {
+  "text": "the",
+  "start": 50.564,
+  "end": 50.644,
+  "sentence": 16
+ },
+ {
+  "text": "beat.",
+  "start": 50.664,
+  "end": 50.884,
+  "sentence": 16
+ },
+ {
+  "text": "So",
+  "start": 51.084,
+  "end": 51.144,
+  "sentence": 17
+ },
+ {
+  "text": "every",
+  "start": 51.264,
+  "end": 51.464,
+  "sentence": 17
+ },
+ {
+  "text": "step",
+  "start": 51.544,
+  "end": 51.784,
+  "sentence": 17
+ },
+ {
+  "text": "lifts",
+  "start": 51.864,
+  "end": 52.124,
+  "sentence": 17
+ },
+ {
+  "text": "the",
+  "start": 52.164,
+  "end": 52.244,
+  "sentence": 17
+ },
+ {
+  "text": "deck",
+  "start": 52.284,
+  "end": 52.484,
+  "sentence": 17
+ },
+ {
+  "text": "a",
+  "start": 52.524,
+  "end": 52.544,
+  "sentence": 17
+ },
+ {
+  "text": "little",
+  "start": 52.584,
+  "end": 52.764,
+  "sentence": 17
+ },
+ {
+  "text": "higher,",
+  "start": 52.784,
+  "end": 53.084,
+  "sentence": 17
+ },
+ {
+  "text": "until",
+  "start": 53.244,
+  "end": 53.464,
+  "sentence": 17
+ },
+ {
+  "text": "an",
+  "start": 53.484,
+  "end": 53.564,
+  "sentence": 17
+ },
+ {
+  "text": "iron",
+  "start": 53.764,
+  "end": 53.944,
+  "sentence": 17
+ },
+ {
+  "text": "chain",
+  "start": 54.004,
+  "end": 54.324,
+  "sentence": 17
+ },
+ {
+  "text": "as",
+  "start": 54.404,
+  "end": 54.484,
+  "sentence": 17
+ },
+ {
+  "text": "fat",
+  "start": 54.544,
+  "end": 54.744,
+  "sentence": 17
+ },
+ {
+  "text": "as",
+  "start": 54.784,
+  "end": 54.844,
+  "sentence": 17
+ },
+ {
+  "text": "a",
+  "start": 54.884,
+  "end": 54.904,
+  "sentence": 17
+ },
+ {
+  "text": "fence",
+  "start": 54.964,
+  "end": 55.204,
+  "sentence": 17
+ },
+ {
+  "text": "post",
+  "start": 55.245,
+  "end": 55.565,
+  "sentence": 17
+ },
+ {
+  "text": "snaps",
+  "start": 55.745,
+  "end": 56.085,
+  "sentence": 17
+ },
+ {
+  "text": "like",
+  "start": 56.105,
+  "end": 56.265,
+  "sentence": 17
+ },
+ {
+  "text": "a",
+  "start": 56.285,
+  "end": 56.305,
+  "sentence": 17
+ },
+ {
+  "text": "shoelace.",
+  "start": 56.385,
+  "end": 56.885,
+  "sentence": 17
+ },
+ {
+  "text": "And",
+  "start": 57.005,
+  "end": 57.085,
+  "sentence": 18
+ },
+ {
+  "text": "the",
+  "start": 57.105,
+  "end": 57.165,
+  "sentence": 18
+ },
+ {
+  "text": "whole",
+  "start": 57.205,
+  "end": 57.405,
+  "sentence": 18
+ },
+ {
+  "text": "army",
+  "start": 57.485,
+  "end": 57.665,
+  "sentence": 18
+ },
+ {
+  "text": "goes",
+  "start": 57.745,
+  "end": 57.925,
+  "sentence": 18
+ },
+ {
+  "text": "for",
+  "start": 57.985,
+  "end": 58.065,
+  "sentence": 18
+ },
+ {
+  "text": "a",
+  "start": 58.105,
+  "end": 58.125,
+  "sentence": 18
+ },
+ {
+  "text": "swim,",
+  "start": 58.205,
+  "end": 58.505,
+  "sentence": 18
+ },
+ {
+  "text": "drums",
+  "start": 58.685,
+  "end": 59.045,
+  "sentence": 18
+ },
+ {
+  "text": "and",
+  "start": 59.105,
+  "end": 59.205,
+  "sentence": 18
+ },
+ {
+  "text": "all.",
+  "start": 59.245,
+  "end": 59.425,
+  "sentence": 18
+ },
+ {
+  "text": "Which",
+  "start": 59.605,
+  "end": 59.765,
+  "sentence": 19
+ },
+ {
+  "text": "is",
+  "start": 59.785,
+  "end": 59.885,
+  "sentence": 19
+ },
+ {
+  "text": "why",
+  "start": 59.925,
+  "end": 60.105,
+  "sentence": 19
+ },
+ {
+  "text": "soldiers",
+  "start": 60.225,
+  "end": 60.745,
+  "sentence": 19
+ },
+ {
+  "text": "still",
+  "start": 60.925,
+  "end": 61.145,
+  "sentence": 19
+ },
+ {
+  "text": "break",
+  "start": 61.185,
+  "end": 61.385,
+  "sentence": 19
+ },
+ {
+  "text": "step",
+  "start": 61.445,
+  "end": 61.685,
+  "sentence": 19
+ },
+ {
+  "text": "when",
+  "start": 61.725,
+  "end": 61.825,
+  "sentence": 19
+ },
+ {
+  "text": "they",
+  "start": 61.845,
+  "end": 61.925,
+  "sentence": 19
+ },
+ {
+  "text": "cross",
+  "start": 61.965,
+  "end": 62.205,
+  "sentence": 19
+ },
+ {
+  "text": "a",
+  "start": 62.245,
+  "end": 62.265,
+  "sentence": 19
+ },
+ {
+  "text": "bridge.",
+  "start": 62.305,
+  "end": 62.665,
+  "sentence": 19
+ }
+]

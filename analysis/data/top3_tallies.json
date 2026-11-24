@@ -1,0 +1,250 @@
+{
+ "seconds_logged": 191,
+ "new_setups_by_eye": 119,
+ "seconds_per_setup": 1.61,
+ "shot_size_share": {
+  "wide": 0.257,
+  "medium": 0.215,
+  "medium-long": 0.168,
+  "insert (object or detail)": 0.136,
+  "medium close-up": 0.089,
+  "long (full body)": 0.068,
+  "extreme wide": 0.047,
+  "close-up": 0.021
+ },
+ "subject_share": {
+  "protagonist": 0.225,
+  "object or prop": 0.225,
+  "antagonist or authority": 0.199,
+  "environment": 0.178,
+  "secondary character": 0.11,
+  "crowd or group": 0.052,
+  "diagram or insert": 0.01
+ },
+ "picture_job_share": {
+  "shows the narrated action": 0.351,
+  "shows the object named": 0.168,
+  "shows a reaction": 0.126,
+  "establishes the place": 0.12,
+  "consequence or result": 0.068,
+  "travel or transition": 0.063,
+  "visual gag": 0.063,
+  "diagram or explanation": 0.042
+ },
+ "picture_job_by_beat": {
+  "hook": {
+   "shows the narrated action": 5,
+   "shows the object named": 3,
+   "visual gag": 2,
+   "establishes the place": 1,
+   "travel or transition": 1
+  },
+  "setup": {
+   "shows the narrated action": 11,
+   "shows the object named": 7,
+   "establishes the place": 5,
+   "visual gag": 4,
+   "travel or transition": 2,
+   "shows a reaction": 2
+  },
+  "escalation": {
+   "shows the narrated action": 16,
+   "shows a reaction": 13,
+   "shows the object named": 11,
+   "travel or transition": 5,
+   "establishes the place": 3,
+   "consequence or result": 3,
+   "visual gag": 2
+  },
+  "twist": {
+   "shows the narrated action": 16,
+   "shows a reaction": 5,
+   "establishes the place": 5,
+   "shows the object named": 4,
+   "diagram or explanation": 3,
+   "visual gag": 3,
+   "consequence or result": 1,
+   "travel or transition": 1
+  },
+  "payoff": {
+   "shows the narrated action": 7,
+   "shows the object named": 5,
+   "shows a reaction": 3,
+   "establishes the place": 2,
+   "consequence or result": 2,
+   "visual gag": 1,
+   "travel or transition": 1
+  },
+  "ending": {
+   "consequence or result": 6,
+   "shows the narrated action": 3,
+   "establishes the place": 2,
+   "travel or transition": 1,
+   "shows a reaction": 1
+  },
+  "explainer": {
+   "shows the narrated action": 9,
+   "establishes the place": 5,
+   "diagram or explanation": 5,
+   "shows the object named": 2,
+   "travel or transition": 1
+  }
+ },
+ "shot_size_by_beat": {
+  "hook": {
+   "medium": 6,
+   "medium-long": 3,
+   "insert (object or detail)": 2,
+   "wide": 1
+  },
+  "setup": {
+   "medium": 8,
+   "medium-long": 6,
+   "long (full body)": 6,
+   "wide": 5,
+   "extreme wide": 2,
+   "insert (object or detail)": 2,
+   "medium close-up": 2
+  },
+  "escalation": {
+   "medium": 11,
+   "wide": 11,
+   "medium close-up": 10,
+   "medium-long": 10,
+   "insert (object or detail)": 7,
+   "long (full body)": 2,
+   "close-up": 2
+  },
+  "twist": {
+   "wide": 12,
+   "medium": 10,
+   "insert (object or detail)": 6,
+   "medium-long": 6,
+   "extreme wide": 2,
+   "medium close-up": 1,
+   "long (full body)": 1
+  },
+  "payoff": {
+   "wide": 6,
+   "insert (object or detail)": 5,
+   "long (full body)": 3,
+   "extreme wide": 2,
+   "medium-long": 2,
+   "medium": 2,
+   "medium close-up": 1
+  },
+  "ending": {
+   "wide": 7,
+   "extreme wide": 3,
+   "close-up": 1,
+   "medium": 1,
+   "insert (object or detail)": 1
+  },
+  "explainer": {
+   "wide": 7,
+   "medium-long": 5,
+   "medium": 3,
+   "insert (object or detail)": 3,
+   "medium close-up": 3,
+   "long (full body)": 1
+  }
+ },
+ "per_video": {
+  "10_7xS87iActkU": {
+   "seconds": 66,
+   "new_setups_by_eye": 43,
+   "seconds_per_setup": 1.53,
+   "shot_size": {
+    "medium": 14,
+    "medium-long": 13,
+    "insert (object or detail)": 12,
+    "wide": 10,
+    "extreme wide": 7,
+    "medium close-up": 7,
+    "close-up": 2,
+    "long (full body)": 1
+   },
+   "picture_job": {
+    "shows a reaction": 16,
+    "shows the object named": 15,
+    "establishes the place": 11,
+    "consequence or result": 7,
+    "shows the narrated action": 6,
+    "travel or transition": 6,
+    "diagram or explanation": 3,
+    "visual gag": 2
+   },
+   "subject": {
+    "object or prop": 17,
+    "protagonist": 14,
+    "environment": 13,
+    "secondary character": 11,
+    "antagonist or authority": 9,
+    "crowd or group": 2
+   }
+  },
+  "19_0m6G8pDtzNs": {
+   "seconds": 61,
+   "new_setups_by_eye": 39,
+   "seconds_per_setup": 1.56,
+   "shot_size": {
+    "medium": 13,
+    "insert (object or detail)": 12,
+    "long (full body)": 10,
+    "wide": 9,
+    "medium-long": 8,
+    "medium close-up": 4,
+    "close-up": 2,
+    "extreme wide": 2
+   },
+   "picture_job": {
+    "shows the narrated action": 18,
+    "visual gag": 10,
+    "shows the object named": 9,
+    "establishes the place": 6,
+    "shows a reaction": 5,
+    "travel or transition": 4,
+    "consequence or result": 4,
+    "diagram or explanation": 4
+   },
+   "subject": {
+    "object or prop": 14,
+    "antagonist or authority": 14,
+    "protagonist": 11,
+    "secondary character": 10,
+    "environment": 6,
+    "crowd or group": 3,
+    "diagram or insert": 2
+   }
+  },
+  "11_Mz72MuPgnGY": {
+   "seconds": 65,
+   "new_setups_by_eye": 37,
+   "seconds_per_setup": 1.76,
+   "shot_size": {
+    "wide": 30,
+    "medium": 14,
+    "medium-long": 11,
+    "medium close-up": 6,
+    "long (full body)": 2,
+    "insert (object or detail)": 2
+   },
+   "picture_job": {
+    "shows the narrated action": 43,
+    "shows the object named": 8,
+    "establishes the place": 6,
+    "shows a reaction": 3,
+    "travel or transition": 2,
+    "consequence or result": 2,
+    "diagram or explanation": 1
+   },
+   "subject": {
+    "protagonist": 18,
+    "environment": 15,
+    "antagonist or authority": 15,
+    "object or prop": 12,
+    "crowd or group": 5
+   }
+  }
+ }
+}
