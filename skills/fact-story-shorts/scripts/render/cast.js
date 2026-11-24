@@ -208,6 +208,13 @@ export function drawActor(ctx, look, st) {
   ctx.beginPath(); ctx.arc(bA[0], bA[1], 21, 0, TAU); blob(ctx, skin, 8);
   const bL = seg(ctx, cx - (front ? 44 * k : 18), hipY, p.lB[0], legL, p.lB[0] - p.lB[1], legL, 40, bot);
   ctx.save(); ctx.translate(bL[0], bL[1]); ctx.rotate(-rad(bL[2]) * 0.35); ctx.beginPath(); ctx.roundRect(-26, -10, front ? 54 : 78, 34, 15); blob(ctx, look.boots || '#2a2420', 8); ctx.restore();
+  // near leg: under the coat, so the hem covers its top, unless the thigh is raised (sitting, kicking) and crosses the coat
+  const nearLeg = () => {
+    const fL = seg(ctx, cx + (front ? 44 * k : 22), hipY, p.lF[0], legL, p.lF[0] - p.lF[1], legL, 40, bot);
+    ctx.save(); ctx.translate(fL[0], fL[1]); ctx.rotate(-rad(fL[2]) * 0.35); ctx.beginPath(); ctx.roundRect(-26, -10, front ? 54 : 78, 34, 15); blob(ctx, look.boots || '#2a2420', 8); ctx.restore();
+  };
+  const legOver = Math.abs(p.lF[0]) > 40;
+  if (!legOver) nearLeg();
   // body: coat that widens toward the hem
   ctx.beginPath();
   const tw = 78 * k, bw = 112 * k;
@@ -227,9 +234,7 @@ export function drawActor(ctx, look, st) {
     ctx.beginPath(); ctx.roundRect(cx - tw * 0.5, shY + 8, 30, 74, 10); blob(ctx, look.detailColor || '#d94f3d', 8);
   }
   if (look.epaulettes) for (const sx of [-1, 1]) { ctx.beginPath(); ctx.roundRect(cx + sx * tw - 30, shY - 14, 60, 22, 9); blob(ctx, '#f0c75e', 7); }
-  // near leg
-  const fL = seg(ctx, cx + (front ? 44 * k : 22), hipY, p.lF[0], legL, p.lF[0] - p.lF[1], legL, 40, bot);
-  ctx.save(); ctx.translate(fL[0], fL[1]); ctx.rotate(-rad(fL[2]) * 0.35); ctx.beginPath(); ctx.roundRect(-26, -10, front ? 54 : 78, 34, 15); blob(ctx, look.boots || '#2a2420', 8); ctx.restore();
+  if (legOver) nearLeg();
   if (st.item === 'drum') heldItem(ctx, 'drum', cx + 70, hipY - 60, look);
   // head
   ctx.save();

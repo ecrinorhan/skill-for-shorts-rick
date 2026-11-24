@@ -75,12 +75,13 @@ def main():
            "merged_pair_chars_p50_p90_max": [float(np.percentile(chars2, 50)), float(np.percentile(chars2, 90)), int(max(chars2))]}
     # fit
     real = sum(len(W) for W in vids) / sum(len({w["cap"] for w in W}) for W in vids)
-    best, best_m = None, None
+    best, best_m, best_d = None, None, None
+    real_sh = [sizes[k] / sum(sizes.values()) for k in (1, 2, 3)]
     for short in (2, 3, 4):
-        for maxchars in range(8, 17):
-            for max3 in (0, 10, 11, 12, 13, 15):
+        for maxchars in range(6, 17):
+            for max3 in (0, 7, 8, 9, 10, 11, 12, 13, 15):
                 for stop in (".?!", ".?!,"):
-                    agree, n, ncap, nw = 0, 0, 0, 0
+                    agree, n, ncap, nw, sz = 0, 0, 0, 0, Counter()
                     for W in vids:
                         words = [(w["text"], 0) for w in W]
                         caps = group(words, short, maxchars, max3, stop)
@@ -92,8 +93,12 @@ def main():
                             agree += (k in pred_same) == (W[k]["cap"] == W[k + 1]["cap"])
                             n += 1
                         ncap += len(caps)
+                        sz.update(min(len(c), 3) for c in caps)
                         nw += len(W)
-                    rec = (agree / n, short, maxchars, max3, stop, nw / ncap)
+                    rec = (agree / n, short, maxchars, max3, stop, nw / ncap, [sz[k] / ncap for k in (1, 2, 3)])
+                    dist = sum(abs(p - q) for p, q in zip(rec[6], real_sh))      # how far the 1 / 2 / 3-word shares are from the real ones
+                    if best_d is None or (round(dist, 3), -rec[0]) < (round(best_d[7], 3), -best_d[0]):
+                        best_d = rec + (dist,)
                     if best is None or rec[0] > best[0]:
                         best = rec
                     if abs(rec[5] - real) <= 0.02 and (best_m is None or rec[0] > best_m[0]):
@@ -103,6 +108,7 @@ def main():
         return {"boundary_agreement": round(b[0], 4), "SHORT": b[1], "MAXCHARS": b[2], "MAX3": b[3], "stop_punct": b[4], "words_per_caption": round(b[5], 3)}
     res["best_rule"] = pack(best)
     res["best_rule_matching_words_per_caption"] = pack(best_m) if best_m else None
+    res["best_rule_matching_distribution"] = {**pack(best_d), "size_shares_1_2_3": [round(x, 3) for x in best_d[6]], "real_size_shares_1_2_3": [round(x, 3) for x in real_sh]}
     res["real_words_per_caption"] = round(real, 3)
     outp.write_text(json.dumps(res, indent=1))
     print(json.dumps(res))

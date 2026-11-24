@@ -22,7 +22,7 @@ const threeDir = path.join(here, 'node_modules', 'three', 'build');
 const FONT = path.join(here, '..', '..', 'assets', 'fonts', 'Archivo-VariableFont.ttf');
 const TYPES = { '.js': 'application/javascript', '.mjs': 'application/javascript', '.json': 'application/json', '.ttf': 'font/ttf', '.html': 'text/html' };
 
-const HTML = `<!doctype html><html><head><style>
+const HTML = `<!doctype html><html><head><script type="importmap">{"imports":{"three":"/three.module.js"}}</script><style>
 @font-face { font-family: Caption; src: url(/font.ttf); font-weight: 100 900; }
 body { margin: 0; background: #000; }</style></head><body><canvas id="out"></canvas>
 <script type="module">
@@ -51,6 +51,7 @@ async function open() {
     if (u.pathname === '/font.ttf') file = FONT;
     else if (u.pathname.startsWith('/project/')) file = path.join(proj, u.pathname.slice(9));
     else if (u.pathname.startsWith('/three.')) file = path.join(threeDir, u.pathname.slice(1));
+    else if (u.pathname.startsWith('/jsm/')) file = path.join(here, 'node_modules', 'three', 'examples', u.pathname.slice(1));
     else file = path.join(here, u.pathname.slice(1));
     if (!fs.existsSync(file)) return route.fulfill({ status: 404, body: 'not found: ' + u.pathname });
     return route.fulfill({ contentType: TYPES[path.extname(file)] || 'application/octet-stream', body: fs.readFileSync(file) });
@@ -78,7 +79,8 @@ if (opt('timeline')) {
   const { browser, page } = await open();
   const tl = await page.evaluate(() => window.stage.timeline());
   fs.writeFileSync(path.join(proj, 'timeline.json'), JSON.stringify(tl, null, 1));
-  console.log(`timeline: ${tl.frames} frames, ${tl.takes.length} takes, ${tl.moves.length} camera moves, ${tl.sfx.length} sfx cues`);
+  console.log(`timeline: ${tl.frames} frames, ${tl.takes.length} takes, ${tl.moves.length} camera moves, ${tl.sfx.length} sfx cues, ${(tl.lowPoly || []).length} low-poly shapes`);
+  for (const s of tl.lowPoly || []) console.log(`  low-poly: ${s.shape} with ${s.sides ?? 'sharp'} sides in take "${s.take}". Build it with tk.box, tk.cyl, tk.sphere, tk.cone, tk.capsule or tk.torus, or pass { sides: n } if it is meant to have flat faces.`);
   await browser.close();
 } else if (opt('still')) {
   const list = String(opt('still')).split(',').map(Number);

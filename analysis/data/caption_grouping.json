@@ -27,20 +27,38 @@
   17
  ],
  "best_rule": {
-  "boundary_agreement": 0.7798,
-  "SHORT": 2,
-  "MAXCHARS": 8,
+  "boundary_agreement": 0.8175,
+  "SHORT": 3,
+  "MAXCHARS": 7,
   "MAX3": 0,
   "stop_punct": ".?!,",
-  "words_per_caption": 1.176
+  "words_per_caption": 1.17
  },
  "best_rule_matching_words_per_caption": {
-  "boundary_agreement": 0.7774,
-  "SHORT": 2,
-  "MAXCHARS": 8,
+  "boundary_agreement": 0.8029,
+  "SHORT": 3,
+  "MAXCHARS": 7,
   "MAX3": 12,
   "stop_punct": ".?!,",
-  "words_per_caption": 1.253
+  "words_per_caption": 1.269
+ },
+ "best_rule_matching_distribution": {
+  "boundary_agreement": 0.721,
+  "SHORT": 2,
+  "MAXCHARS": 13,
+  "MAX3": 0,
+  "stop_punct": ".?!",
+  "words_per_caption": 1.213,
+  "size_shares_1_2_3": [
+   0.787,
+   0.213,
+   0.0
+  ],
+  "real_size_shares_1_2_3": [
+   0.761,
+   0.217,
+   0.022
+  ]
  },
  "real_words_per_caption": 1.261
 }

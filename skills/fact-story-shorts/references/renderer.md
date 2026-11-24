@@ -127,6 +127,10 @@ Every builder takes an options object: `p` position, `r` rotation in degrees, `s
 | `tk.box(w, h, d, o)`, `tk.cyl(rTop, rBottom, h, o, segments)`, `tk.sphere(r, o)`, `tk.cone(r, h, o, segments)`, `tk.plane(w, h, o)`, `tk.tube(points, radius, o)` | basic solids |
 | `tk.group({ p, r, in })` | an empty parent, to move or rotate several parts together |
 | `tk.add(geometry, o)` | any three.js geometry |
+| `tk.capsule(radius, length, o)`, `tk.torus(radius, tubeRadius, o)` | a pill shape (limbs, bodies, tails, logs) and a ring (chain links, hoops) |
+
+**Nothing is low-poly.** `tk.cyl`, `tk.cone`, `tk.sphere`, `tk.capsule` and `tk.torus` always draw at least 32 sides, whatever segment count is passed, and `tk.box` rounds its edges (`bevel` in metres, default up to 0.05; `bevel: 0` for a sharp box). A shape that really has flat faces, such as a pyramid roof, says so with `{ sides: 4 }` and gets crisp edges. Build animals and props from capsules and spheres, not from boxes. `--timeline` lists every shape that is still faceted (`tk.add` with a coarse geometry, a raw `BoxGeometry`) and must report `0 low-poly shapes`.
+
 
 | Environment | |
 |---|---|

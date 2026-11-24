@@ -40,7 +40,7 @@ function bridge(tk, o = {}) {
   tk.sun({ c: m.sun[0], i: m.sun[1], dir: m.sun[2], area: 32 });
   tk.hemi(...m.hemi);
   const amp = o.amp || (() => 0);
-  const chainY = (x) => (Math.abs(x) <= SPAN ? 1.05 + 6.5 * (x / SPAN) ** 2 : Math.max(0.3, 7.55 - (Math.abs(x) - SPAN) * 2.1));
+  const chainY = (x) => (Math.abs(x) <= SPAN ? 1.05 + 6.5 * (x / SPAN) ** 2 : Math.max(0.12, 7.55 - (Math.abs(x) - SPAN) * 6.2));
   const fallT = (x) => (o.collapse == null ? Infinity : o.collapse + 0.035 * Math.abs(x - 1));
   const yAt = (x, t) => {
     if (Math.abs(x) >= SPAN) return 0;
@@ -55,13 +55,13 @@ function bridge(tk, o = {}) {
     tk.box(60, 0.08, 5.0, { p: [sx * (SPAN + 30), 0.02, 0], c: '#cdb083', c2: '#a98c60', tex: 'gravel', rep: [20, 2], cast: false });
     for (const sz of [-1, 1]) {
       tk.box(1.2, 8.2, 1.2, { p: [sx * SPAN, 4.1, sz * 2.9], c: '#b9b0a2', c2: '#6f675e', tex: 'stone', rep: [1, 4] });
-      tk.cone(1.0, 1.1, { p: [sx * SPAN, 8.75, sz * 2.9], r: [0, 45, 0], c: '#b0503c' }, 4);
+      tk.cone(1.0, 1.1, { p: [sx * SPAN, 8.75, sz * 2.9], r: [0, 45, 0], c: '#b0503c', sides: 4 });
     }
     tk.box(1.0, 0.8, 6.6, { p: [sx * SPAN, 7.4, 0], c: '#a39a8c', c2: '#6f675e', tex: 'stone', rep: [3, 1] });
   }
   tk.water({ y: -10, c: m.water[0], c2: m.water[1], size: 420 });
   for (const sx of [-1, 1]) for (const sz of [-1, 1]) {            // living ground on both banks, clear of the road
-    tk.life({ x: sx > 0 ? [SPAN + 1.5, SPAN + 42] : [-SPAN - 42, -SPAN - 1.5], z: sz > 0 ? [3.4, 30] : [-30, -3.4] }, { n: 700, c: [m.grass[0], m.grass[1], '#8cc45a'] });
+    tk.life({ x: sx > 0 ? [SPAN + 1.5, SPAN + 42] : [-SPAN - 42, -SPAN - 1.5], z: sz > 0 ? [3.4, 30] : [-30, -3.4] }, { n: 700, c: [m.grass[0], m.grass[1], '#8cc45a'], skip: (x, z) => x > -22.6 && x < -18.4 && z > -8.5 && z < -4.6 });
   }
   for (const [x, z, s] of [[-70, -130, 1.3], [40, -150, 1.7], [110, -120, 1.2], [-140, -100, 1.5], [0, -180, 2.2]]) tk.sphere(30 * s, { p: [x, -6, z], s: [1.7, 0.5, 1], c: m.grass[1], cast: false }, 18);
   if (o.mood !== 'storm') for (const [x, y, z, s] of [[-30, 34, -120, 2.2], [45, 42, -150, 2.8], [10, 30, -100, 1.6], [-80, 46, -160, 3]]) tk.cloud([x, y, z], s);
@@ -76,7 +76,11 @@ function bridge(tk, o = {}) {
   // chains
   for (const sz of [-1, 1]) {
     const pts = [];
-    for (let x = -18; x <= 18; x += 1) pts.push([x, chainY(x), sz * 2.9]);
+    // the back stays drop steeply to anchor blocks beside the towers, clear of where people stand and cameras look
+    for (const x of [-15.2, -14.6]) pts.push([x, chainY(x), sz * 2.9]);
+    for (let x = -14; x <= 14; x += 1) pts.push([x, chainY(x), sz * 2.9]);
+    for (const x of [14.6, 15.2]) pts.push([x, chainY(x), sz * 2.9]);
+    for (const sx of [-1, 1]) tk.box(0.7, 0.5, 0.7, { p: [sx * 15.2, 0.25, sz * 2.9], c: '#8d8478', c2: '#5d564f', tex: 'stone' });
     if (o.broken && sz === 1) {
       tk.tube(pts.filter((p) => p[0] <= -4).concat([[-3.6, 1.0, 2.9], [-3.4, 0.1, 2.95]]), 0.1, IRON, 40);
       tk.tube([[5.3, 0.3, 2.95], [5.6, 1.4, 2.9]].concat(pts.filter((p) => p[0] >= 6)), 0.1, IRON, 40);
@@ -84,7 +88,7 @@ function bridge(tk, o = {}) {
   }
   const links = [];
   if (o.links) for (let k = -5; k <= 5; k++) {
-    const x = k * 0.36, l = tk.add(new THREE.TorusGeometry(0.18, 0.055, 8, 18), { p: [x, chainY(x), 2.9], r: [k % 2 ? 90 : 0, 0, 0], c: '#565c6c', rough: 0.45, metal: 0.3 });
+    const x = k * 0.36, l = tk.torus(0.18, 0.055, { p: [x, chainY(x), 2.9], r: [k % 2 ? 90 : 0, 0, 0], c: '#565c6c', rough: 0.45, metal: 0.3 });
     l.userData.y = chainY(x); links.push(l);
   }
   // deck
@@ -105,7 +109,7 @@ function bridge(tk, o = {}) {
   // keeper's hut and the lantern on its hook
   const hut = tk.group({ p: [-20.5, 0, -6.5] });
   tk.box(3.2, 2.5, 3.0, { in: hut, p: [0, 1.25, 0], c: '#ead9b5' });
-  tk.cone(2.9, 1.7, { in: hut, p: [0, 3.35, 0], r: [0, 45, 0], c: '#b0503c' }, 4);
+  tk.cone(2.9, 1.7, { in: hut, p: [0, 3.35, 0], r: [0, 45, 0], c: '#b0503c', sides: 4 });
   tk.box(0.9, 1.7, 0.08, { in: hut, p: [0.3, 0.85, 1.52], c: '#6b4a2e' });
   tk.box(0.8, 0.7, 0.08, { in: hut, p: [-0.9, 1.5, 1.52], c: '#ffd98a', emissive: '#ffb347', glowI: 0.9 });
   const post = tk.group({ p: [-15.6, 0, 3.6] });
@@ -114,7 +118,7 @@ function bridge(tk, o = {}) {
   const lantern = tk.group({ in: post, p: [0.62, 2.62, 0] });
   tk.cyl(0.014, 0.014, 0.22, { in: lantern, p: [0, -0.11, 0], c: '#2a2420' }, 6);
   tk.box(0.26, 0.34, 0.26, { in: lantern, p: [0, -0.4, 0], c: '#ffd35a', emissive: '#ffb428', glowI: 1.5 });
-  tk.cone(0.24, 0.16, { in: lantern, p: [0, -0.16, 0], r: [0, 45, 0], c: '#3a332c' }, 4);
+  tk.cone(0.24, 0.16, { in: lantern, p: [0, -0.16, 0], r: [0, 45, 0], c: '#3a332c', sides: 4 });
   tk.glow([0, -0.4, 0], 0.8, '#ffcf70', m.glow, { in: lantern });
   if (o.mood === 'storm') tk.lamp([-15, 2.2, 3.6], '#ffc56a', 14, 9);
   tk.every((t) => {
@@ -147,23 +151,23 @@ function column(tk, B, o) {
 function horse(tk, p, o = {}) {
   const c = o.c || '#8a5a34', dark = '#3f2a1a';
   const outer = tk.group({ p: [p[0] - 0.6, p[1], p[2]] }), g = tk.group({ in: outer, p: [0.6, 0, 0] });
-  tk.box(1.7, 0.72, 0.6, { in: g, p: [0, 1.25, 0], c });
-  tk.sphere(0.4, { in: g, p: [0.82, 1.27, 0], s: [1, 0.92, 0.76], c }, 14);
-  tk.sphere(0.42, { in: g, p: [-0.82, 1.27, 0], s: [1, 0.92, 0.76], c }, 14);
+  tk.capsule(0.36, 1.0, { in: g, p: [0, 1.27, 0], r: [0, 0, 90], s: [1, 1, 0.8], c });                    // barrel
+  tk.sphere(0.4, { in: g, p: [0.82, 1.27, 0], s: [1, 0.92, 0.76], c });
+  tk.sphere(0.42, { in: g, p: [-0.82, 1.27, 0], s: [1, 0.92, 0.76], c });
   const neck = tk.group({ in: g, p: [0.8, 1.5, 0] });
-  tk.box(0.44, 0.8, 0.42, { in: neck, p: [0.2, 0.3, 0], r: [0, 0, -40], c });
-  tk.box(0.12, 0.72, 0.16, { in: neck, p: [0.0, 0.42, 0], r: [0, 0, -40], c: dark });
+  tk.capsule(0.2, 0.5, { in: neck, p: [0.2, 0.3, 0], r: [0, 0, -40], c });
+  tk.capsule(0.07, 0.62, { in: neck, p: [0.0, 0.44, 0], r: [0, 0, -40], s: [1, 1, 1.3], c: dark });         // mane
   const head = tk.group({ in: neck, p: [0.5, 0.62, 0] });
-  tk.box(0.74, 0.36, 0.34, { in: head, p: [0.22, 0, 0], r: [0, 0, -20], c });
-  tk.box(0.2, 0.2, 0.36, { in: head, p: [0.52, -0.12, 0], r: [0, 0, -20], c: '#c9a57e' });
-  for (const sz of [-1, 1]) { tk.cone(0.07, 0.2, { in: head, p: [-0.06, 0.26, sz * 0.11], c: dark }, 6); tk.sphere(0.045, { in: head, p: [0.18, 0.08, sz * 0.175], c: '#1d1b33' }, 8); }
-  tk.box(0.14, 0.85, 0.14, { in: g, p: [-0.98, 1.05, 0], r: [0, 0, -16], c: dark });
+  tk.capsule(0.17, 0.4, { in: head, p: [0.22, 0, 0], r: [0, 0, -110], c });
+  tk.sphere(0.14, { in: head, p: [0.52, -0.12, 0], s: [1, 0.9, 1.15], c: '#c9a57e' });                      // muzzle
+  for (const sz of [-1, 1]) { tk.cone(0.07, 0.2, { in: head, p: [-0.06, 0.26, sz * 0.11], c: dark }); tk.sphere(0.045, { in: head, p: [0.18, 0.08, sz * 0.165], c: '#1d1b33' }); }
+  tk.capsule(0.07, 0.72, { in: g, p: [-0.98, 1.05, 0], r: [0, 0, -16], c: dark });                           // tail
   tk.box(0.72, 0.12, 0.66, { in: g, p: [-0.05, 1.66, 0], c: '#b33f3a' });
   const legs = [];
   for (const [x, z, ph] of [[0.62, 0.2, 0], [0.62, -0.2, 0.5], [-0.62, 0.2, 0.5], [-0.62, -0.2, 0]]) {
     const leg = tk.group({ in: g, p: [x, 1.0, z] });
-    tk.cyl(0.1, 0.075, 0.9, { in: leg, p: [0, -0.45, 0], c }, 8);
-    tk.box(0.2, 0.12, 0.2, { in: leg, p: [0, -0.94, 0], c: dark });
+    tk.capsule(0.085, 0.74, { in: leg, p: [0, -0.45, 0], c });
+    tk.cyl(0.1, 0.11, 0.13, { in: leg, p: [0, -0.94, 0], c: dark });
     legs.push({ leg, ph, front: x > 0 });
   }
   return {

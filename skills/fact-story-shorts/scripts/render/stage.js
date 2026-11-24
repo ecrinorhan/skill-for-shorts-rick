@@ -1,9 +1,12 @@
 // stage.js — scene kit for fact-story Shorts: flat 2D puppets inside lit 3D sets, rendered with three.js.
 // Everything is a pure function of time, so frames can be rendered in any order and in parallel workers.
 import * as THREE from './three.module.js';
+import { RoundedBoxGeometry } from './jsm/geometries/RoundedBoxGeometry.js';
+import { mergeGeometries } from './jsm/utils/BufferGeometryUtils.js';
 import { CW, CH, FOOT, POSES, EXPR, gait, blendPose, drawActor } from './cast.js';
 
 export const W = 1080, H = 1920, FPS = 30;
+export const ROUND = 32;                              // the fewest sides any round shape is drawn with
 const FIG_PX = 703;                                   // feet to top of head in the puppet canvas
 const clamp = (x, a, b) => Math.max(a, Math.min(b, x));
 const lerp = (a, b, u) => a + (b - a) * u;
@@ -104,6 +107,33 @@ function birdTex() {
   return tex;
 }
 
+/** One grass blade: a tapering ribbon that curves over toward +z, standing on y = 0. */
+function bladeGeometry(h, w, bend, n = 6) {
+  const pos = [], uv = [], idx = [];
+  for (let i = 0; i <= n; i++) {
+    const u = i / n, hw = w * (1 - u * u) + 0.0005, y = h * u, z = bend * u * u;
+    pos.push(-hw, y, z, hw, y, z); uv.push(0, u, 1, u);
+    if (i < n) { const a = i * 2; idx.push(a, a + 1, a + 2, a + 1, a + 3, a + 2); }
+  }
+  const g = new THREE.BufferGeometry();
+  g.setAttribute('position', new THREE.Float32BufferAttribute(pos, 3)); g.setAttribute('uv', new THREE.Float32BufferAttribute(uv, 2)); g.setIndex(idx); g.computeVertexNormals();
+  return g;
+}
+function tuftGeometry() {
+  if (texCache.has('tuft')) return texCache.get('tuft');
+  const r = rng(hash('tuft')), parts = [];
+  for (let k = 0; k < 6; k++) { const b = bladeGeometry(0.2 + 0.14 * r(), 0.016 + 0.008 * r(), 0.05 + 0.1 * r()); b.rotateX(0.25 * (r() - 0.3)); b.rotateY(k * 1.047 + r() * 0.6); b.translate(0.03 * (r() - 0.5), 0, 0.03 * (r() - 0.5)); parts.push(b); }
+  const g = mergeGeometries(parts); texCache.set('tuft', g); return g;
+}
+/** A flower head: a domed centre and six petals, coloured per vertex so one instance colour tints the petals. */
+function flowerGeometry() {
+  if (texCache.has('flower')) return texCache.get('flower');
+  const paint = (g, c) => { const n = g.attributes.position.count, a = new Float32Array(n * 3); for (let i = 0; i < n; i++) a.set(c, i * 3); g.setAttribute('color', new THREE.BufferAttribute(a, 3)); return g; };
+  const centre = new THREE.SphereGeometry(0.026, 16, 12); centre.scale(1, 0.6, 1);
+  const parts = [paint(centre, [1, 0.72, 0.12])];
+  for (let k = 0; k < 6; k++) { const p = new THREE.CircleGeometry(0.03, 20); p.scale(1, 1.25, 1); p.rotateX(-1.15); p.translate(0, 0.004, 0.045); p.rotateY(k * 1.0472); parts.push(paint(p, [1, 1, 1])); }
+  const g = mergeGeometries(parts); texCache.set('flower', g); return g;
+}
 function butterflyTex() {
   if (texCache.has('butterfly')) return texCache.get('butterfly');
   const cv = document.createElement('canvas'); cv.width = cv.height = 64;
@@ -286,6 +316,10 @@ export class Take {
     return m;
   }
   add(geom, o = {}) {
+    const gp = geom.parameters || {}, sides = geom.type === 'TorusGeometry' ? Math.min(gp.tubularSegments, gp.radialSegments * 2) : gp.radialSegments ?? gp.widthSegments ?? gp.segments ?? gp.thetaSegments;
+    if (!o.sides && !o.faceted && ((/Cylinder|Cone|Sphere|Torus|Capsule|Circle|Ring|Lathe/.test(geom.type) && sides < 24) || (/hedron/.test(geom.type) && (gp.detail ?? 0) < 2) || geom.type === 'BoxGeometry')) {
+      this.stage.lowPoly.push({ take: this.id, shape: geom.type, sides: sides ?? null });      // reported by --timeline
+    }
     const mesh = new THREE.Mesh(geom, o.material || this.mat(o));
     if (o.p) mesh.position.set(...o.p);
     if (o.r) mesh.rotation.set(...o.r.map(THREE.MathUtils.degToRad));
@@ -295,12 +329,19 @@ export class Take {
     return mesh;
   }
   group(o = {}) { const g = new THREE.Group(); if (o.p) g.position.set(...o.p); if (o.r) g.rotation.set(...o.r.map(THREE.MathUtils.degToRad)); (o.in || this.scene).add(g); return g; }
-  box(w, h, d, o) { return this.add(new THREE.BoxGeometry(w, h, d), o); }
-  cyl(r1, r2, h, o, seg = 20) { return this.add(new THREE.CylinderGeometry(r1, r2, h, seg), o); }
-  sphere(r, o, seg = 20) { return this.add(new THREE.SphereGeometry(r, seg, Math.max(8, seg * 0.7 | 0)), o); }
-  cone(r, h, o, seg = 16) { return this.add(new THREE.ConeGeometry(r, h, seg), o); }
+  // Round shapes never have fewer than ROUND sides, whatever the storyboard asks for, and boxes get soft edges. A shape that
+  // really has flat faces (a pyramid roof, a hexagonal nut) says so with { sides: n } and is drawn with crisp edges.
+  box(w, h, d, o = {}) {
+    const r = o.bevel ?? Math.min(0.05, 0.12 * Math.min(w, h, d));
+    return this.add(r > 0.002 ? new RoundedBoxGeometry(w, h, d, 3, r) : new THREE.BoxGeometry(w, h, d), { ...o, faceted: true });
+  }
+  cyl(r1, r2, h, o = {}, seg = ROUND) { return o.sides ? this.add(new THREE.CylinderGeometry(r1, r2, h, o.sides), { ...o, flat: true }) : this.add(new THREE.CylinderGeometry(r1, r2, h, Math.max(ROUND, seg)), o); }
+  sphere(r, o = {}, seg = ROUND) { const n = Math.max(ROUND, seg); return this.add(new THREE.SphereGeometry(r, n, Math.max(24, n * 0.75 | 0)), o); }
+  cone(r, h, o = {}, seg = ROUND) { return o.sides ? this.add(new THREE.ConeGeometry(r, h, o.sides), { ...o, flat: true }) : this.add(new THREE.ConeGeometry(r, h, Math.max(ROUND, seg)), o); }
+  capsule(r, len, o = {}) { return this.add(new THREE.CapsuleGeometry(r, len, 12, ROUND), o); }
+  torus(r, tubeR, o = {}) { return this.add(new THREE.TorusGeometry(r, tubeR, 16, 48), o); }
   plane(w, h, o) { return this.add(new THREE.PlaneGeometry(w, h), { double: true, ...o }); }
-  tube(points, radius, o, seg = 40) { return this.add(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(points.map(V)), seg, radius, 8, false), o); }
+  tube(points, radius, o, seg = 64) { return this.add(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(points.map(V)), Math.max(64, seg, points.length * 6), radius, 16, false), o); }
   // ---- environment
   sky(top, bottom, o = {}) {
     const cv = document.createElement('canvas'); cv.width = 4; cv.height = 256;
@@ -308,7 +349,7 @@ export class Take {
     gr.addColorStop(0, top); gr.addColorStop(o.mid ?? 0.52, bottom); gr.addColorStop(1, bottom);
     g.fillStyle = gr; g.fillRect(0, 0, 4, 256);
     const tex = new THREE.CanvasTexture(cv); tex.colorSpace = THREE.SRGBColorSpace;
-    const dome = new THREE.Mesh(new THREE.SphereGeometry(700, 24, 16), new THREE.MeshBasicMaterial({ map: tex, side: THREE.BackSide, fog: false, depthWrite: false }));
+    const dome = new THREE.Mesh(new THREE.SphereGeometry(700, 64, 32), new THREE.MeshBasicMaterial({ map: tex, side: THREE.BackSide, fog: false, depthWrite: false }));
     dome.renderOrder = -10; this.scene.add(dome);
     this.updaters.push(() => dome.position.copy(this.camera.position));
     if (o.fog !== false) this.fog(o.fogColor || bottom, o.near ?? 40, o.far ?? 260);
@@ -378,19 +419,22 @@ export class Take {
     });
     return follow;
   }
-  /** Life on a stretch of ground: grass tufts and flowers that sway in passing gusts, butterflies, and cloud shadows that drift
-   *  across it. area: { x: [a, b], z: [a, b], y }. o: { n: tufts, flowers, butterflies, shadows: false to leave them out,
-   *  c: [grass colours], wind: speed factor }. Keep roads, floors and water out of the area. */
+  /** Life on a stretch of ground: tufts of curved grass blades and flowers on stems that sway in passing gusts, butterflies,
+   *  and cloud shadows that drift across it. area: { x: [a, b], z: [a, b], y }. o: { n: tufts, flowers, butterflies,
+   *  shadows: false to leave them out, c: [grass colours], wind: speed factor, skip: (x, z) => true where nothing may grow }.
+   *  Keep roads, floors, buildings and water out of the area, or exclude them with skip. */
   life(area, o = {}) {
     const r = rng(hash(this.id + 'life' + area.x[0] + '/' + area.z[0])), y0 = area.y || 0, wind = o.wind ?? 1, dummy = new THREE.Object3D();
-    const at = () => [lerp(area.x[0], area.x[1], r()), lerp(area.z[0], area.z[1], r())];
-    const n = o.n ?? 140, cone = new THREE.ConeGeometry(0.075, 0.44, 5); cone.translate(0, 0.22, 0);
-    const tufts = new THREE.InstancedMesh(cone, this.mat({ c: '#ffffff' }), n), cols = (o.c || ['#6fae46', '#4f8a34', '#8cc45a']).map((c) => new THREE.Color(c));
+    const at = () => { let x, z; for (let i = 0; i < 30; i++) { x = lerp(area.x[0], area.x[1], r()); z = lerp(area.z[0], area.z[1], r()); if (!o.skip || !o.skip(x, z)) break; } return [x, z]; };
+    const n = o.n ?? 140, tufts = new THREE.InstancedMesh(tuftGeometry(), this.mat({ c: '#ffffff', double: true, rough: 1 }), n), cols = (o.c || ['#6fae46', '#4f8a34', '#8cc45a']).map((c) => new THREE.Color(c));
     const T = [...Array(n)].map((_, i) => { tufts.setColorAt(i, cols[i % cols.length]); return [...at(), 0.7 + r() * 0.9, r() * 6.28]; });
-    const nf = o.flowers ?? Math.round(n * 0.3), flowers = new THREE.InstancedMesh(new THREE.SphereGeometry(0.06, 7, 5), this.mat({ c: '#ffffff' }), nf);
+    const nf = o.flowers ?? Math.round(n * 0.3), heads = new THREE.InstancedMesh(flowerGeometry(), this.mat({ c: '#ffffff', double: true }), nf);
+    heads.material.vertexColors = true;
+    const stemGeo = new THREE.CylinderGeometry(0.006, 0.009, 1, 12); stemGeo.translate(0, 0.5, 0);
+    const stems = new THREE.InstancedMesh(stemGeo, this.mat({ c: '#4f8a34' }), nf);
     const fc = ['#ffffff', '#ffd84a', '#ff8fb0', '#c9a6ff'].map((c) => new THREE.Color(c));
-    const F = [...Array(nf)].map((_, i) => { flowers.setColorAt(i, fc[i % fc.length]); return [...at(), 0.2 + r() * 0.16, r() * 6.28]; });
-    for (const m of [tufts, flowers]) { m.castShadow = false; m.receiveShadow = true; m.frustumCulled = false; this.scene.add(m); }
+    const F = [...Array(nf)].map((_, i) => { heads.setColorAt(i, fc[i % fc.length]); return [...at(), 0.2 + r() * 0.16, r() * 6.28]; });
+    for (const m of [tufts, heads, stems]) { m.castShadow = false; m.receiveShadow = true; m.frustumCulled = false; this.scene.add(m); }
     const B = [...Array(o.butterflies ?? 4)].map((_, i) => {
       const sp = new THREE.Sprite(new THREE.SpriteMaterial({ map: butterflyTex(), color: ['#ffd84a', '#ffffff', '#ff9a5a', '#9fd4ff'][i % 4], transparent: true, depthWrite: false }));
       this.scene.add(sp); return [sp, ...at(), r() * 6.28, 0.5 + r() * 0.5];
@@ -402,11 +446,16 @@ export class Take {
       shade.rotation.x = -Math.PI / 2; shade.position.set((area.x[0] + area.x[1]) / 2, y0 + 0.05, (area.z[0] + area.z[1]) / 2); shade.renderOrder = 1; this.scene.add(shade);
     }
     this.updaters.push((t) => {
-      T.forEach(([x, z, s, ph], i) => {                                  // the 0.35 * x term makes the sway travel as a gust
-        dummy.position.set(x, y0, z); dummy.rotation.set(0.16 * Math.sin(1.6 * wind * t + ph * 0.3 + 0.35 * x), ph, 0.1 * Math.sin(1.3 * wind * t + ph)); dummy.scale.setScalar(s); dummy.updateMatrix(); tufts.setMatrixAt(i, dummy.matrix);
+      const gust = (x, ph) => Math.sin(1.6 * wind * t + ph * 0.3 + 0.35 * x);          // the 0.35 * x term makes the sway travel
+      T.forEach(([x, z, s, ph], i) => {
+        dummy.position.set(x, y0, z); dummy.rotation.set(0.16 * gust(x, ph), ph, 0.1 * Math.sin(1.3 * wind * t + ph)); dummy.scale.setScalar(s); dummy.updateMatrix(); tufts.setMatrixAt(i, dummy.matrix);
       });
-      F.forEach(([x, z, h, ph], i) => { dummy.position.set(x + 0.05 * Math.sin(1.6 * wind * t + ph * 0.3 + 0.35 * x), y0 + h, z); dummy.rotation.set(0, 0, 0); dummy.scale.setScalar(1); dummy.updateMatrix(); flowers.setMatrixAt(i, dummy.matrix); });
-      tufts.instanceMatrix.needsUpdate = flowers.instanceMatrix.needsUpdate = true;
+      F.forEach(([x, z, h, ph], i) => {
+        const a = 0.14 * gust(x, ph);
+        dummy.position.set(x, y0, z); dummy.rotation.set(0, 0, a); dummy.scale.set(1, h, 1); dummy.updateMatrix(); stems.setMatrixAt(i, dummy.matrix);
+        dummy.position.set(x - h * Math.sin(a), y0 + h * Math.cos(a), z); dummy.rotation.set(0, ph, a); dummy.scale.setScalar(1); dummy.updateMatrix(); heads.setMatrixAt(i, dummy.matrix);
+      });
+      tufts.instanceMatrix.needsUpdate = stems.instanceMatrix.needsUpdate = heads.instanceMatrix.needsUpdate = true;
       for (const [sp, x, z, ph, sp2] of B) {
         sp.position.set(x + 1.6 * Math.sin(0.5 * sp2 * t + ph) + 0.4 * Math.sin(1.7 * t + ph), y0 + 0.8 + 0.35 * Math.sin(1.1 * t + 2 * ph), z + 1.4 * Math.cos(0.4 * sp2 * t + ph));
         sp.scale.set(0.05 + 0.2 * Math.abs(Math.sin(11 * t + ph)), 0.24, 1);        // wings open and close
@@ -437,7 +486,7 @@ export class Take {
     s.scale.set(radius * 2, radius * 2, 1); s.position.set(...p); s.renderOrder = 5; (o.in || this.scene).add(s); return s;
   }
   beam(p, r, length, radius, c = '#fff2c4', opacity = 0.16) {
-    const g = new THREE.ConeGeometry(radius, length, 24, 1, true); g.translate(0, -length / 2, 0);
+    const g = new THREE.ConeGeometry(radius, length, 48, 1, true); g.translate(0, -length / 2, 0);
     const m = new THREE.Mesh(g, new THREE.MeshBasicMaterial({ color: c, transparent: true, opacity, blending: THREE.AdditiveBlending, depthWrite: false, side: THREE.DoubleSide, fog: false }));
     m.position.set(...p); m.rotation.set(...r.map(THREE.MathUtils.degToRad)); m.renderOrder = 4; this.scene.add(m); return m;
   }
@@ -454,9 +503,8 @@ export class Take {
   cloud(p, s = 1) { const g = this.group({ p }); for (const [x, y, z, r] of [[0, 0, 0, 5], [5, 1, 0, 4], [-5, 0.5, 0, 3.6], [1.5, 2.2, 0, 3.4]]) { const m = this.sphere(r * s, { c: '#ffffff', emissive: '#c9d6e6', glowI: 0.55, rough: 1, in: g, p: [x * s, y * s, z * s], cast: false, receive: false, s: [1.25, 0.72, 1] }, 14); m.material.fog = false; } return g; }
   /** scatter small instanced pieces: kind = pebble | blade | block */
   scatter(kind, count, area, o = {}) {
-    const geom = kind === 'blade' ? new THREE.ConeGeometry(0.035, 0.42, 4) : kind === 'block' ? new THREE.BoxGeometry(1, 1, 1) : new THREE.IcosahedronGeometry(0.5, 0);
-    if (kind === 'blade') geom.translate(0, 0.21, 0);
-    const mesh = new THREE.InstancedMesh(geom, this.mat({ c: '#ffffff', flat: kind !== 'blade', rough: 1 }), count);
+    const geom = kind === 'blade' ? bladeGeometry(0.42, 0.04, 0.1) : kind === 'block' ? new RoundedBoxGeometry(1, 1, 1, 3, 0.08) : new THREE.IcosahedronGeometry(0.5, 3);
+    const mesh = new THREE.InstancedMesh(geom, this.mat({ c: '#ffffff', rough: 1, double: kind === 'blade' }), count);
     const r = rng(hash(this.id + kind + count + JSON.stringify(area))), m4 = new THREE.Matrix4(), q = new THREE.Quaternion(), e = new THREE.Euler(), col = new THREE.Color();
     const pal = o.c || ['#8a8f96', '#a39a8c', '#6f6a66'], [s0, s1] = o.s || [0.08, 0.2];
     let k = 0, guard = 0;
@@ -512,7 +560,7 @@ export class Take {
   }
   /** expanding flat ring on the ground (explainer "pulse") */
   ring(o) {
-    const m = new THREE.Mesh(new THREE.RingGeometry(0.86, 1, 40), new THREE.MeshBasicMaterial({ color: o.c || '#ffe07a', transparent: true, depthWrite: false, side: THREE.DoubleSide, blending: THREE.AdditiveBlending, fog: false }));
+    const m = new THREE.Mesh(new THREE.RingGeometry(0.86, 1, 96), new THREE.MeshBasicMaterial({ color: o.c || '#ffe07a', transparent: true, depthWrite: false, side: THREE.DoubleSide, blending: THREE.AdditiveBlending, fog: false }));
     if (!o.upright) m.rotation.x = -Math.PI / 2;
     m.position.set(...o.p); m.renderOrder = 4; this.scene.add(m);
     const life = o.life || 0.6;
@@ -571,7 +619,7 @@ export class Stage {
     // pushGain, moveGain and vignette were set after measuring a finished video: at 1 / 1 / 0.22 the holds zoomed at 2.7 %/s
     // (reference 4.1), fast moves peaked at twice the reference speed, and the corners were not darker than the centre
     this.style = { push: 0.035, pushGain: 1.45, moveGain: 1.3, aliveSky: true, dissolveFrames: 10, vignette: 0.5, captionFont: 74, captionY: 1378, captionStroke: 5.5, captionShadow: [4, 5], ...(storyboard.style || {}), ...(style || {}) };
-    this.sentences = sentences; this.words = words; this.captions = captions; this.cast = storyboard.cast; this.sfx = []; this.moves = [];
+    this.sentences = sentences; this.words = words; this.captions = captions; this.cast = storyboard.cast; this.sfx = []; this.moves = []; this.lowPoly = [];
     this.duration = duration; this.frames = Math.round(duration * FPS);
     this.gl = document.createElement('canvas'); this.gl.width = W; this.gl.height = H;
     this.renderer = new THREE.WebGLRenderer({ canvas: this.gl, antialias: true, preserveDrawingBuffer: true });
@@ -632,6 +680,6 @@ export class Stage {
   timeline() {
     return { duration: this.duration, frames: this.frames, fps: FPS,
       takes: this.takes.map((t) => ({ id: t.id, start: +t.start.toFixed(3), end: +t.end.toFixed(3), join: t.join, joinFrames: t.joinFrames, shots: t.shots.map((s) => ({ t: +s.t.toFixed(3), move: s.move, push: s.push, orbit: s.orbit })) })),
-      moves: this.moves.sort((a, b) => a.t - b.t), sfx: this.sfx.sort((a, b) => a.t - b.t) };
+      moves: this.moves.sort((a, b) => a.t - b.t), sfx: this.sfx.sort((a, b) => a.t - b.t), lowPoly: this.lowPoly };
   }
 }

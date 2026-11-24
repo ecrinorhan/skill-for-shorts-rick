@@ -24,7 +24,7 @@ def main():
     m = s["metrics"]
     ss = json.loads((adir / "data" / "script_stats.json").read_text()) if (adir / "data" / "script_stats.json").exists() else {}
     rv = json.loads((adir / "data" / "reviews_summary.json").read_text()) if (adir / "data" / "reviews_summary.json").exists() else {}
-    rule = grp["best_rule_matching_words_per_caption"] or grp["best_rule"]
+    rule = grp.get("best_rule_matching_distribution") or grp["best_rule_matching_words_per_caption"] or grp["best_rule"]
     out = {
         "source": "20 Shorts measured in analysis/ (explained in references/style-bible.md)", "n_videos": s["n_videos"],
         "wpm": m["wpm"]["mean"], "words": m["words"]["mean"], "duration_s": m["duration_s"]["mean"], "voice_f0_range_st": m["voice_f0_range_st"]["mean"],

@@ -74,7 +74,11 @@ def run(script, *args, log=None):
     print(f"  {script} {time.time() - t0:.0f}s", flush=True)
 
 
-def verdict(v, s, mode):
+# Seconds of slack for values read off a 10 ms envelope of a separated stem: one hop.
+TOL = {"music_starts_s": 0.011}
+
+
+def verdict(v, s, mode, tol=0.0):
     mean, lo, hi = s["mean"], s["min"], s["max"]
     if v is None:
         return None, "n/a"
@@ -82,7 +86,7 @@ def verdict(v, s, mode):
     if mode == "exact":
         return dev, "ok" if abs(v - mean) < 1e-6 else "OFF"
     if mode == "range":
-        return dev, "ok" if lo - 1e-9 <= v <= hi + 1e-9 else "OFF"
+        return dev, "ok" if lo - tol - 1e-9 <= v <= hi + tol + 1e-9 else "OFF"
     if dev is not None and abs(dev) <= 15:
         return dev, "ok"
     return dev, "in range" if lo <= v <= hi else "OFF"
@@ -95,7 +99,7 @@ def compare(rec, targets):
             s = targets["metrics"].get(key)
             if not s or key not in rec:
                 continue
-            dev, ver = verdict(rec[key], s, mode)
+            dev, ver = verdict(rec[key], s, mode, TOL.get(key, 0.0))
             rows.append({"group": group, "key": key, "metric": label, "unit": unit, "mode": mode, "ref_mean": s["mean"], "ref_min": s["min"], "ref_max": s["max"], "ref_sd": s["sd"],
                          "test": rec[key], "dev_pct": None if dev is None else round(dev, 1), "verdict": ver})
     return rows

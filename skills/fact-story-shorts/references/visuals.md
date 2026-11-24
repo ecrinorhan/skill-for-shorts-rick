@@ -97,7 +97,7 @@ Working rules:
    payoff. Change the light two to nine times.
 4. **Complementary colours.** A cool set with a warm key light or the other way round: orange lamp on blue night, teal
    shadow on a tan desert.
-5. **Depth.** Haze toward the horizon, something soft in the foreground, a vignette at the corners.
+5. **Depth.** Haze toward the horizon, something soft in the foreground, a vignette at the corners. Nothing may look low-poly: round things are round, boxes have soft edges, and animals and props are built from capsules and spheres, not from blocks.
 6. **Keep heads in the upper 60 % of the frame.** The caption crosses the picture at 70 %.
 
 The five largest colour clusters of each video are listed in `analysis/output/02_video_cards.md`. Dark navy or plum

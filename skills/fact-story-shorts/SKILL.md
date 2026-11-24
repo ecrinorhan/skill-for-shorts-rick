@@ -103,7 +103,7 @@ commands from this skill folder.
 5. **Pictures.** Copy `templates/storyboard.mjs` to `P/storyboard.mjs` and write one `T(...)` block per row
    (`references/renderer.md`; full example in `examples/bridge-keeper/storyboard.mjs`).
    ```
-   node scripts/render/render.mjs P --timeline          # timeline.json and the counts: takes, camera moves, sound cues
+   node scripts/render/render.mjs P --timeline          # timeline.json and the counts: takes, camera moves, sound cues, low-poly shapes (must be 0)
    node scripts/render/render.mjs P --still 0,45,300    # single frames into P/stills/ to check framing and light
    node scripts/render/render.mjs P --frames 0:150      # a 5-second motion preview, P/preview.mp4
    node scripts/render/render.mjs P --workers 4         # every frame, P/video.mp4
@@ -171,6 +171,8 @@ Picture
 - [ ] 9 – 12 places, in-world text with invented names on 5 – 7 of them, 3 – 6 changes of light, 8 – 12 visual effects.
 - [ ] No background is empty or frozen: outdoor takes show the living backdrop (hills, drifting clouds, birds or
       stars), and interiors have something that moves, such as dust motes or a swinging lamp.
+- [ ] Nothing looks low-poly: no visible facets on round shapes, no razor-sharp boxes, no animals or props made of blocks.
+      With the bundled renderer, `--timeline` reports `0 low-poly shapes`.
 - [ ] Every character is lit and readable. With generated pictures, no warped text and no shapes that change inside a take.
 
 Sound
