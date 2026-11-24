@@ -1,0 +1,1896 @@
+{
+ "source": "20 Shorts measured in analysis/ (see analysis/output/03_style_bible.md)",
+ "n_videos": 20,
+ "wpm": 222.0,
+ "words": 230.6,
+ "duration_s": 62.361,
+ "voice_f0_range_st": 16.07,
+ "voice_f0_median_hz": 196.41,
+ "caption_rule": {
+  "SHORT": 2,
+  "MAXCHARS": 8,
+  "MAX3": 12,
+  "stop_punct": ".?!,",
+  "lead_frames": 3.729,
+  "boundary_agreement": 0.7774
+ },
+ "caption_style": {
+  "font_closest_free": [
+   "Mona Sans 900",
+   "Archivo 800",
+   "Chivo 900",
+   "Rubik 800"
+  ],
+  "font_px_at_1080x1920": {
+   "Mona Sans 900": {
+    "median": 72.6,
+    "p10_p90": [
+     71.5,
+     74.5
+    ],
+    "n": 219
+   },
+   "Archivo 800": {
+    "median": 74.0,
+    "p10_p90": [
+     72.9,
+     75.7
+    ],
+    "n": 219
+   },
+   "Chivo 900": {
+    "median": 75.0,
+    "p10_p90": [
+     73.8,
+     77.1
+    ],
+    "n": 219
+   },
+   "Rubik 800": {
+    "median": 74.1,
+    "p10_p90": [
+     71.9,
+     75.4
+    ],
+    "n": 219
+   }
+  },
+  "stroke_px": 5.5,
+  "shadow_offset_px": [
+   4,
+   5
+  ],
+  "ring_margin_px_measured": {
+   "top": 5.0,
+   "bottom": 10.0,
+   "left": 6.0,
+   "right": 10.0
+  },
+  "fill_luma": 253.64,
+  "stroke_luma": 13.03,
+  "line_top_px": 1323.7,
+  "letter_height_px": 54.0,
+  "centre_y_pct": 70.313
+ },
+ "title_patterns": {
+  "Why \u2026": 7,
+  "The X \u2026": 6,
+  "How \u2026": 3,
+  "This X \u2026": 1,
+  "other": 1,
+  "He/She \u2026": 1,
+  "What \u2026": 1
+ },
+ "script_stats": {
+  "pooled": {
+   "conjunction_opener_share": {
+    "n": 20,
+    "mean": 0.375,
+    "sd": 0.077,
+    "median": 0.367,
+    "min": 0.278,
+    "max": 0.526
+   },
+   "syllables_per_word": {
+    "n": 20,
+    "mean": 1.292,
+    "sd": 0.055,
+    "median": 1.289,
+    "min": 1.218,
+    "max": 1.417
+   },
+   "words_ge_3_syllables_share": {
+    "n": 20,
+    "mean": 0.048,
+    "sd": 0.02,
+    "median": 0.046,
+    "min": 0.021,
+    "max": 0.096
+   },
+   "letters_per_word": {
+    "n": 20,
+    "mean": 4.079,
+    "sd": 0.156,
+    "median": 4.04,
+    "min": 3.88,
+    "max": 4.48
+   },
+   "flesch_reading_ease": {
+    "n": 20,
+    "mean": 85.335,
+    "sd": 4.886,
+    "median": 85.55,
+    "min": 72.4,
+    "max": 94.5
+   },
+   "flesch_kincaid_grade": {
+    "n": 20,
+    "mean": 4.35,
+    "sd": 0.958,
+    "median": 4.4,
+    "min": 2.3,
+    "max": 6.7
+   },
+   "contractions_per_100w": {
+    "n": 20,
+    "mean": 2.564,
+    "sd": 1.11,
+    "median": 2.175,
+    "min": 1.26,
+    "max": 5.39
+   },
+   "numbers_per_script": {
+    "n": 20,
+    "mean": 5.6,
+    "sd": 2.563,
+    "median": 5.0,
+    "min": 1.0,
+    "max": 13.0
+   },
+   "like_similes": {
+    "n": 20,
+    "mean": 0.75,
+    "sd": 0.786,
+    "median": 1.0,
+    "min": 0.0,
+    "max": 2.0
+   },
+   "just_per_100w": {
+    "n": 20,
+    "mean": 0.7,
+    "sd": 0.486,
+    "median": 0.465,
+    "min": 0.0,
+    "max": 1.83
+   },
+   "speech_verb_sentences": {
+    "n": 20,
+    "mean": 1.6,
+    "sd": 0.883,
+    "median": 2.0,
+    "min": 0.0,
+    "max": 3.0
+   },
+   "first_person_sentences_proxy_for_direct_speech": {
+    "n": 20,
+    "mean": 0.6,
+    "sd": 0.598,
+    "median": 1.0,
+    "min": 0.0,
+    "max": 2.0
+   },
+   "time_jump_phrases": {
+    "n": 20,
+    "mean": 1.95,
+    "sd": 1.504,
+    "median": 2.0,
+    "min": 0.0,
+    "max": 7.0
+   },
+   "sentence_len_first_half_mean": {
+    "n": 20,
+    "mean": 12.05,
+    "sd": 2.151,
+    "median": 11.85,
+    "min": 8.5,
+    "max": 17.0
+   },
+   "sentence_len_second_half_mean": {
+    "n": 20,
+    "mean": 12.03,
+    "sd": 2.756,
+    "median": 11.6,
+    "min": 6.8,
+    "max": 17.4
+   },
+   "explainer_turn_rel": {
+    "n": 13,
+    "mean": 0.739,
+    "sd": 0.094,
+    "median": 0.73,
+    "min": 0.58,
+    "max": 0.91
+   },
+   "capitalised_mid_sentence_words_n": {
+    "n": 20,
+    "mean": 1.1,
+    "sd": 1.294,
+    "median": 1.0,
+    "min": 0.0,
+    "max": 4.0
+   }
+  },
+  "sentence_opener_share_pooled": {
+   "conjunction (so / and / but / then ...)": 0.374,
+   "article or determiner (the / his / a / every ...)": 0.183,
+   "pronoun (he / they / it / you ...)": 0.137,
+   "other": 0.105,
+   "interjection or imperative": 0.07,
+   "time or place (at / by / soon / in ...)": 0.07,
+   "you see": 0.048,
+   "well": 0.013
+  },
+  "hook_forms": {
+   "he/they + past-tense action": 14,
+   "if you + consequence": 2,
+   "claim or paradox about the world": 2,
+   "there is + premise": 1,
+   "imperative (look at / imagine)": 1
+  },
+  "hooks_with_turn": 15,
+  "videos_with_you_see": 16,
+  "videos_with_you_see_as_second_sentence": 7,
+  "videos_with_late_explainer_turn_after_30pct": 13,
+  "videos_with_question": 15,
+  "videos_with_it_is_called": 4,
+  "videos_with_analogy_turn": 1,
+  "question_positions_all": [
+   0.09,
+   0.09,
+   0.11,
+   0.13,
+   0.14,
+   0.17,
+   0.21,
+   0.22,
+   0.26,
+   0.29,
+   0.3,
+   0.32,
+   0.35,
+   0.37,
+   0.46,
+   0.54,
+   0.6,
+   0.64,
+   0.7,
+   0.7,
+   0.71,
+   0.73,
+   0.76
+  ],
+  "you_see_positions_all": [
+   0.04,
+   0.04,
+   0.05,
+   0.05,
+   0.06,
+   0.07,
+   0.07,
+   0.15,
+   0.65,
+   0.65,
+   0.66,
+   0.71,
+   0.75,
+   0.76,
+   0.81,
+   0.81,
+   0.87,
+   0.91
+  ]
+ },
+ "structure": {
+  "hook_end_s": {
+   "n": 20,
+   "mean": 4.293,
+   "median": 3.8,
+   "min": 2.44,
+   "max": 7.1,
+   "sd": 1.248
+  },
+  "explainer_turn_rel": {
+   "n": 15,
+   "mean": 0.576,
+   "median": 0.664,
+   "min": 0.052,
+   "max": 0.817,
+   "sd": 0.246
+  },
+  "ending_start_rel": {
+   "n": 19,
+   "mean": 0.916,
+   "median": 0.918,
+   "min": 0.744,
+   "max": 0.981,
+   "sd": 0.054
+  },
+  "direct_speech_lines": {
+   "n": 20,
+   "mean": 1.8,
+   "median": 2.0,
+   "min": 0.0,
+   "max": 4.0,
+   "sd": 1.24
+  },
+  "beat_start_rel": {
+   "hook": {
+    "n": 20,
+    "mean": 0.0,
+    "median": 0.0,
+    "min": 0.0,
+    "max": 0.0,
+    "sd": 0.0
+   },
+   "setup": {
+    "n": 20,
+    "mean": 0.076,
+    "median": 0.067,
+    "min": 0.039,
+    "max": 0.17,
+    "sd": 0.031
+   },
+   "escalation": {
+    "n": 20,
+    "mean": 0.257,
+    "median": 0.259,
+    "min": 0.156,
+    "max": 0.403,
+    "sd": 0.058
+   },
+   "twist": {
+    "n": 20,
+    "mean": 0.523,
+    "median": 0.53,
+    "min": 0.351,
+    "max": 0.718,
+    "sd": 0.109
+   },
+   "payoff": {
+    "n": 19,
+    "mean": 0.776,
+    "median": 0.795,
+    "min": 0.587,
+    "max": 0.918,
+    "sd": 0.103
+   },
+   "explainer": {
+    "n": 15,
+    "mean": 0.576,
+    "median": 0.664,
+    "min": 0.052,
+    "max": 0.817,
+    "sd": 0.246
+   },
+   "ending": {
+    "n": 19,
+    "mean": 0.916,
+    "median": 0.918,
+    "min": 0.744,
+    "max": 0.981,
+    "sd": 0.054
+   }
+  },
+  "beat_share_of_runtime": {
+   "hook": {
+    "n": 20,
+    "mean": 0.07,
+    "median": 0.064,
+    "min": 0.039,
+    "max": 0.128,
+    "sd": 0.023
+   },
+   "setup": {
+    "n": 20,
+    "mean": 0.165,
+    "median": 0.17,
+    "min": 0.087,
+    "max": 0.258,
+    "sd": 0.044
+   },
+   "escalation": {
+    "n": 20,
+    "mean": 0.272,
+    "median": 0.26,
+    "min": 0.158,
+    "max": 0.528,
+    "sd": 0.093
+   },
+   "twist": {
+    "n": 20,
+    "mean": 0.174,
+    "median": 0.17,
+    "min": 0.09,
+    "max": 0.286,
+    "sd": 0.048
+   },
+   "payoff": {
+    "n": 19,
+    "mean": 0.124,
+    "median": 0.112,
+    "min": 0.063,
+    "max": 0.26,
+    "sd": 0.054
+   },
+   "explainer": {
+    "n": 15,
+    "mean": 0.162,
+    "median": 0.149,
+    "min": 0.115,
+    "max": 0.219,
+    "sd": 0.035
+   },
+   "ending": {
+    "n": 19,
+    "mean": 0.084,
+    "median": 0.082,
+    "min": 0.019,
+    "max": 0.255,
+    "sd": 0.054
+   }
+  },
+  "beat_start_rel_note": "reference medians: hook 0%, setup 7%, escalation 26%, twist 53%, payoff 80%, explainer 66%, ending 92%"
+ },
+ "metrics": {
+  "age_days_at_snapshot": {
+   "n": 20,
+   "mean": 20.3,
+   "sd": 10.252,
+   "median": 23.4,
+   "min": 1.6,
+   "max": 33.3,
+   "p10": 5.77,
+   "p90": 31.4
+  },
+  "views": {
+   "n": 20,
+   "mean": 9604380.55,
+   "sd": 7410453.414,
+   "median": 9904531.0,
+   "min": 593228.0,
+   "max": 31318220.0,
+   "p10": 935156.7,
+   "p90": 17178240.2
+  },
+  "likes": {
+   "n": 20,
+   "mean": 221046.75,
+   "sd": 170603.088,
+   "median": 200337.0,
+   "min": 7692.0,
+   "max": 655799.0,
+   "p10": 22106.3,
+   "p90": 374080.6
+  },
+  "comments": {
+   "n": 20,
+   "mean": 1189.45,
+   "sd": 2479.512,
+   "median": 625.5,
+   "min": 223.0,
+   "max": 11636.0,
+   "p10": 253.6,
+   "p90": 1277.5
+  },
+  "like_rate_pct": {
+   "n": 20,
+   "mean": 2.348,
+   "sd": 0.637,
+   "median": 2.205,
+   "min": 1.3,
+   "max": 3.77,
+   "p10": 1.731,
+   "p90": 3.225
+  },
+  "comments_per_1k_views": {
+   "n": 20,
+   "mean": 0.147,
+   "sd": 0.15,
+   "median": 0.082,
+   "min": 0.041,
+   "max": 0.612,
+   "p10": 0.046,
+   "p90": 0.373
+  },
+  "views_per_day": {
+   "n": 20,
+   "mean": 515883.95,
+   "sd": 371579.49,
+   "median": 364009.5,
+   "min": 20874.0,
+   "max": 1407970.0,
+   "p10": 217770.8,
+   "p90": 860713.9
+  },
+  "uploader_comments_in_top100": {
+   "n": 20,
+   "mean": 0.0,
+   "sd": 0.0,
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "p10": 0.0,
+   "p90": 0.0
+  },
+  "title_words": {
+   "n": 20,
+   "mean": 5.9,
+   "sd": 0.912,
+   "median": 6.0,
+   "min": 4.0,
+   "max": 8.0,
+   "p10": 5.0,
+   "p90": 7.0
+  },
+  "duration_s": {
+   "n": 20,
+   "mean": 62.361,
+   "sd": 4.892,
+   "median": 61.776,
+   "min": 55.356,
+   "max": 77.857,
+   "p10": 57.627,
+   "p90": 65.705
+  },
+  "fps": {
+   "n": 20,
+   "mean": 30.0,
+   "sd": 0.0,
+   "median": 30.0,
+   "min": 30.0,
+   "max": 30.0,
+   "p10": 30.0,
+   "p90": 30.0
+  },
+  "video_kbps": {
+   "n": 20,
+   "mean": 3717.805,
+   "sd": 578.635,
+   "median": 3905.6,
+   "min": 2563.7,
+   "max": 4324.3,
+   "p10": 2828.92,
+   "p90": 4291.09
+  },
+  "audio_hz": {
+   "n": 20,
+   "mean": 44100.0,
+   "sd": 0.0,
+   "median": 44100.0,
+   "min": 44100.0,
+   "max": 44100.0,
+   "p10": 44100.0,
+   "p90": 44100.0
+  },
+  "audio_ch": {
+   "n": 20,
+   "mean": 2.0,
+   "sd": 0.0,
+   "median": 2.0,
+   "min": 2.0,
+   "max": 2.0,
+   "p10": 2.0,
+   "p90": 2.0
+  },
+  "audio_kbps": {
+   "n": 20,
+   "mean": 128.06,
+   "sd": 0.05,
+   "median": 128.1,
+   "min": 128.0,
+   "max": 128.1,
+   "p10": 128.0,
+   "p90": 128.1
+  },
+  "size_mb": {
+   "n": 20,
+   "mean": 29.995,
+   "sd": 4.876,
+   "median": 30.65,
+   "min": 18.9,
+   "max": 37.2,
+   "p10": 23.81,
+   "p90": 35.37
+  },
+  "words": {
+   "n": 20,
+   "mean": 230.6,
+   "sd": 20.114,
+   "median": 231.0,
+   "min": 202.0,
+   "max": 295.0,
+   "p10": 212.1,
+   "p90": 245.2
+  },
+  "wpm": {
+   "n": 20,
+   "mean": 222.0,
+   "sd": 11.112,
+   "median": 223.55,
+   "min": 199.8,
+   "max": 245.5,
+   "p10": 208.78,
+   "p90": 234.1
+  },
+  "sentences": {
+   "n": 20,
+   "mean": 19.6,
+   "sd": 3.235,
+   "median": 20.0,
+   "min": 14.0,
+   "max": 26.0,
+   "p10": 14.9,
+   "p90": 22.4
+  },
+  "avg_sentence_words": {
+   "n": 20,
+   "mean": 12.045,
+   "sd": 2.011,
+   "median": 11.8,
+   "min": 8.9,
+   "max": 17.1,
+   "p10": 9.26,
+   "p90": 14.4
+  },
+  "median_sentence_words": {
+   "n": 20,
+   "mean": 11.225,
+   "sd": 2.473,
+   "median": 11.0,
+   "min": 7.5,
+   "max": 18.0,
+   "p10": 8.9,
+   "p90": 13.6
+  },
+  "max_sentence_words": {
+   "n": 20,
+   "mean": 25.65,
+   "sd": 3.675,
+   "median": 25.5,
+   "min": 20.0,
+   "max": 31.0,
+   "p10": 21.0,
+   "p90": 30.1
+  },
+  "short_sentence_share_le5w": {
+   "n": 20,
+   "mean": 0.188,
+   "sd": 0.095,
+   "median": 0.17,
+   "min": 0.05,
+   "max": 0.38,
+   "p10": 0.097,
+   "p90": 0.311
+  },
+  "questions": {
+   "n": 20,
+   "mean": 1.15,
+   "sd": 0.933,
+   "median": 1.0,
+   "min": 0.0,
+   "max": 3.0,
+   "p10": 0.0,
+   "p90": 2.1
+  },
+  "exclamations": {
+   "n": 20,
+   "mean": 0.4,
+   "sd": 0.598,
+   "median": 0.0,
+   "min": 0.0,
+   "max": 2.0,
+   "p10": 0.0,
+   "p90": 1.0
+  },
+  "you_count": {
+   "n": 20,
+   "mean": 4.05,
+   "sd": 5.871,
+   "median": 2.0,
+   "min": 0.0,
+   "max": 21.0,
+   "p10": 0.0,
+   "p90": 7.4
+  },
+  "you_per_100w": {
+   "n": 20,
+   "mean": 1.8,
+   "sd": 2.663,
+   "median": 0.9,
+   "min": 0.0,
+   "max": 9.6,
+   "p10": 0.0,
+   "p90": 3.41
+  },
+  "first_word_start_s": {
+   "n": 20,
+   "mean": 0.107,
+   "sd": 0.028,
+   "median": 0.1,
+   "min": 0.08,
+   "max": 0.2,
+   "p10": 0.08,
+   "p90": 0.122
+  },
+  "last_word_end_s": {
+   "n": 20,
+   "mean": 62.18,
+   "sd": 4.884,
+   "median": 61.556,
+   "min": 55.316,
+   "max": 77.737,
+   "p10": 57.471,
+   "p90": 65.453
+  },
+  "tail_after_last_word_s": {
+   "n": 20,
+   "mean": 0.181,
+   "sd": 0.075,
+   "median": 0.18,
+   "min": 0.04,
+   "max": 0.34,
+   "p10": 0.098,
+   "p90": 0.264
+  },
+  "hook_sentence_words": {
+   "n": 20,
+   "mean": 13.85,
+   "sd": 3.746,
+   "median": 14.5,
+   "min": 6.0,
+   "max": 21.0,
+   "p10": 9.0,
+   "p90": 19.0
+  },
+  "hook_sentence_end_s": {
+   "n": 20,
+   "mean": 3.776,
+   "sd": 1.028,
+   "median": 3.671,
+   "min": 1.561,
+   "max": 5.601,
+   "p10": 2.913,
+   "p90": 5.304
+  },
+  "words_in_first_3s": {
+   "n": 20,
+   "mean": 11.5,
+   "sd": 1.051,
+   "median": 12.0,
+   "min": 9.0,
+   "max": 13.0,
+   "p10": 10.0,
+   "p90": 13.0
+  },
+  "title_content_words": {
+   "n": 20,
+   "mean": 3.75,
+   "sd": 0.55,
+   "median": 4.0,
+   "min": 2.0,
+   "max": 4.0,
+   "p10": 3.0,
+   "p90": 4.0
+  },
+  "title_words_in_first_sentence": {
+   "n": 20,
+   "mean": 1.05,
+   "sd": 0.605,
+   "median": 1.0,
+   "min": 0.0,
+   "max": 2.0,
+   "p10": 0.0,
+   "p90": 2.0
+  },
+  "title_words_in_script": {
+   "n": 20,
+   "mean": 2.4,
+   "sd": 1.095,
+   "median": 2.0,
+   "min": 1.0,
+   "max": 4.0,
+   "p10": 1.0,
+   "p90": 4.0
+  },
+  "you_see_count": {
+   "n": 20,
+   "mean": 0.9,
+   "sd": 0.553,
+   "median": 1.0,
+   "min": 0.0,
+   "max": 2.0,
+   "p10": 0.0,
+   "p90": 1.1
+  },
+  "you_see_first_s": {
+   "n": 16,
+   "mean": 24.772,
+   "sd": 21.635,
+   "median": 22.779,
+   "min": 2.441,
+   "max": 52.732,
+   "p10": 3.261,
+   "p90": 50.117
+  },
+  "you_see_first_rel": {
+   "n": 16,
+   "mean": 0.409,
+   "sd": 0.359,
+   "median": 0.4,
+   "min": 0.04,
+   "max": 0.87,
+   "p10": 0.045,
+   "p90": 0.81
+  },
+  "last_sentence_words": {
+   "n": 20,
+   "mean": 13.1,
+   "sd": 7.018,
+   "median": 13.0,
+   "min": 2.0,
+   "max": 27.0,
+   "p10": 5.0,
+   "p90": 20.2
+  },
+  "last_sentence_start_rel": {
+   "n": 20,
+   "mean": 0.94,
+   "sd": 0.031,
+   "median": 0.945,
+   "min": 0.89,
+   "max": 0.99,
+   "p10": 0.899,
+   "p90": 0.97
+  },
+  "loop_overlap_words": {
+   "n": 20,
+   "mean": 0.25,
+   "sd": 0.444,
+   "median": 0.0,
+   "min": 0.0,
+   "max": 1.0,
+   "p10": 0.0,
+   "p90": 1.0
+  },
+  "captions": {
+   "n": 20,
+   "mean": 182.9,
+   "sd": 14.242,
+   "median": 182.5,
+   "min": 163.0,
+   "max": 231.0,
+   "p10": 169.8,
+   "p90": 193.2
+  },
+  "captions_per_s": {
+   "n": 20,
+   "mean": 2.936,
+   "sd": 0.114,
+   "median": 2.96,
+   "min": 2.73,
+   "max": 3.15,
+   "p10": 2.802,
+   "p90": 3.061
+  },
+  "words_per_caption": {
+   "n": 20,
+   "mean": 1.26,
+   "sd": 0.037,
+   "median": 1.27,
+   "min": 1.19,
+   "max": 1.33,
+   "p10": 1.217,
+   "p90": 1.3
+  },
+  "cap1_share": {
+   "n": 20,
+   "mean": 0.761,
+   "sd": 0.034,
+   "median": 0.75,
+   "min": 0.71,
+   "max": 0.83,
+   "p10": 0.729,
+   "p90": 0.811
+  },
+  "cap2_share": {
+   "n": 20,
+   "mean": 0.215,
+   "sd": 0.033,
+   "median": 0.22,
+   "min": 0.15,
+   "max": 0.27,
+   "p10": 0.169,
+   "p90": 0.25
+  },
+  "cap3plus_share": {
+   "n": 20,
+   "mean": 0.024,
+   "sd": 0.009,
+   "median": 0.02,
+   "min": 0.01,
+   "max": 0.04,
+   "p10": 0.01,
+   "p90": 0.031
+  },
+  "caption_dur_median_s": {
+   "n": 20,
+   "mean": 0.325,
+   "sd": 0.021,
+   "median": 0.333,
+   "min": 0.3,
+   "max": 0.367,
+   "p10": 0.3,
+   "p90": 0.336
+  },
+  "caption_dur_mean_s": {
+   "n": 20,
+   "mean": 0.339,
+   "sd": 0.014,
+   "median": 0.335,
+   "min": 0.317,
+   "max": 0.366,
+   "p10": 0.325,
+   "p90": 0.356
+  },
+  "caption_lead_frames_median": {
+   "n": 20,
+   "mean": 3.729,
+   "sd": 0.11,
+   "median": 3.7,
+   "min": 3.52,
+   "max": 4.01,
+   "p10": 3.619,
+   "p90": 3.871
+  },
+  "caption_centre_y_pct": {
+   "n": 20,
+   "mean": 70.313,
+   "sd": 0.009,
+   "median": 70.31,
+   "min": 70.31,
+   "max": 70.34,
+   "p10": 70.31,
+   "p90": 70.313
+  },
+  "caption_line_top_px": {
+   "n": 20,
+   "mean": 1323.7,
+   "sd": 0.733,
+   "median": 1324.0,
+   "min": 1322.0,
+   "max": 1324.0,
+   "p10": 1322.0,
+   "p90": 1324.0
+  },
+  "caption_glyph_h_px": {
+   "n": 20,
+   "mean": 54.7,
+   "sd": 3.13,
+   "median": 54.0,
+   "min": 54.0,
+   "max": 68.0,
+   "p10": 54.0,
+   "p90": 54.0
+  },
+  "caption_coverage_pct": {
+   "n": 20,
+   "mean": 99.98,
+   "sd": 0.041,
+   "median": 100.0,
+   "min": 99.9,
+   "max": 100.0,
+   "p10": 99.9,
+   "p90": 100.0
+  },
+  "caption_chars_median": {
+   "n": 20,
+   "mean": 5.15,
+   "sd": 0.366,
+   "median": 5.0,
+   "min": 5.0,
+   "max": 6.0,
+   "p10": 5.0,
+   "p90": 6.0
+  },
+  "caption_chars_max": {
+   "n": 20,
+   "mean": 15.45,
+   "sd": 1.82,
+   "median": 15.5,
+   "min": 13.0,
+   "max": 21.0,
+   "p10": 14.0,
+   "p90": 17.1
+  },
+  "caption_width_pct_median": {
+   "n": 20,
+   "mean": 19.27,
+   "sd": 0.733,
+   "median": 19.05,
+   "min": 18.2,
+   "max": 20.6,
+   "p10": 18.49,
+   "p90": 20.3
+  },
+  "caption_width_pct_max": {
+   "n": 20,
+   "mean": 53.645,
+   "sd": 5.889,
+   "median": 53.05,
+   "min": 43.7,
+   "max": 66.2,
+   "p10": 47.76,
+   "p90": 62.59
+  },
+  "caption_nonwhite_share": {
+   "n": 20,
+   "mean": 0.001,
+   "sd": 0.002,
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.005,
+   "p10": 0.0,
+   "p90": 0.001
+  },
+  "joins": {
+   "n": 20,
+   "mean": 13.25,
+   "sd": 3.669,
+   "median": 12.0,
+   "min": 9.0,
+   "max": 19.0,
+   "p10": 9.9,
+   "p90": 19.0
+  },
+  "cuts": {
+   "n": 20,
+   "mean": 2.75,
+   "sd": 4.229,
+   "median": 1.0,
+   "min": 0.0,
+   "max": 14.0,
+   "p10": 0.0,
+   "p90": 7.5
+  },
+  "dissolves": {
+   "n": 20,
+   "mean": 10.5,
+   "sd": 4.571,
+   "median": 10.0,
+   "min": 4.0,
+   "max": 19.0,
+   "p10": 4.9,
+   "p90": 18.0
+  },
+  "dissolve_share": {
+   "n": 20,
+   "mean": 0.807,
+   "sd": 0.27,
+   "median": 0.935,
+   "min": 0.25,
+   "max": 1.0,
+   "p10": 0.35,
+   "p90": 1.0
+  },
+  "dissolve_len_frames_median": {
+   "n": 20,
+   "mean": 10.4,
+   "sd": 2.286,
+   "median": 11.0,
+   "min": 6.5,
+   "max": 14.0,
+   "p10": 7.0,
+   "p90": 13.0
+  },
+  "inplace_blends": {
+   "n": 20,
+   "mean": 2.6,
+   "sd": 2.326,
+   "median": 2.0,
+   "min": 0.0,
+   "max": 9.0,
+   "p10": 0.9,
+   "p90": 6.0
+  },
+  "take_mean_s": {
+   "n": 20,
+   "mean": 4.621,
+   "sd": 1.085,
+   "median": 4.835,
+   "min": 2.76,
+   "max": 6.52,
+   "p10": 3.167,
+   "p90": 5.878
+  },
+  "take_median_s": {
+   "n": 20,
+   "mean": 3.843,
+   "sd": 1.295,
+   "median": 3.64,
+   "min": 1.82,
+   "max": 6.03,
+   "p10": 2.287,
+   "p90": 5.577
+  },
+  "take_max_s": {
+   "n": 20,
+   "mean": 13.227,
+   "sd": 4.145,
+   "median": 12.284,
+   "min": 7.9,
+   "max": 22.633,
+   "p10": 9.044,
+   "p90": 18.64
+  },
+  "holds": {
+   "n": 20,
+   "mean": 30.9,
+   "sd": 5.609,
+   "median": 30.0,
+   "min": 24.0,
+   "max": 41.0,
+   "p10": 24.0,
+   "p90": 37.3
+  },
+  "hold_median_s": {
+   "n": 20,
+   "mean": 1.183,
+   "sd": 0.318,
+   "median": 1.23,
+   "min": 0.7,
+   "max": 1.8,
+   "p10": 0.766,
+   "p90": 1.565
+  },
+  "hold_max_s": {
+   "n": 20,
+   "mean": 6.501,
+   "sd": 2.577,
+   "median": 6.08,
+   "min": 3.53,
+   "max": 12.67,
+   "p10": 3.987,
+   "p90": 11.066
+  },
+  "moves": {
+   "n": 20,
+   "mean": 16.7,
+   "sd": 4.943,
+   "median": 16.5,
+   "min": 9.0,
+   "max": 28.0,
+   "p10": 11.9,
+   "p90": 21.6
+  },
+  "move_median_s": {
+   "n": 20,
+   "mean": 0.696,
+   "sd": 0.158,
+   "median": 0.685,
+   "min": 0.35,
+   "max": 1.02,
+   "p10": 0.524,
+   "p90": 0.9
+  },
+  "move_time_pct": {
+   "n": 20,
+   "mean": 22.2,
+   "sd": 7.994,
+   "median": 21.55,
+   "min": 7.7,
+   "max": 40.9,
+   "p10": 13.14,
+   "p90": 29.82
+  },
+  "move_peak_speed_median_pctH_s": {
+   "n": 20,
+   "mean": 64.58,
+   "sd": 12.21,
+   "median": 61.65,
+   "min": 45.5,
+   "max": 84.1,
+   "p10": 52.67,
+   "p90": 81.1
+  },
+  "moves_per_min": {
+   "n": 20,
+   "mean": 16.155,
+   "sd": 5.005,
+   "median": 15.4,
+   "min": 8.7,
+   "max": 28.9,
+   "p10": 11.58,
+   "p90": 20.76
+  },
+  "joins_per_min": {
+   "n": 20,
+   "mean": 12.785,
+   "sd": 3.563,
+   "median": 11.4,
+   "min": 8.3,
+   "max": 20.6,
+   "p10": 9.29,
+   "p90": 17.89
+  },
+  "changes_per_min": {
+   "n": 20,
+   "mean": 28.95,
+   "sd": 5.692,
+   "median": 26.85,
+   "min": 21.1,
+   "max": 38.5,
+   "p10": 23.16,
+   "p90": 36.95
+  },
+  "beat_median_s": {
+   "n": 20,
+   "mean": 1.625,
+   "sd": 0.344,
+   "median": 1.68,
+   "min": 1.08,
+   "max": 2.54,
+   "p10": 1.209,
+   "p90": 1.949
+  },
+  "beat_mean_s": {
+   "n": 20,
+   "mean": 2.074,
+   "sd": 0.376,
+   "median": 2.165,
+   "min": 1.52,
+   "max": 2.73,
+   "p10": 1.584,
+   "p90": 2.485
+  },
+  "beat_max_s": {
+   "n": 20,
+   "mean": 6.899,
+   "sd": 2.748,
+   "median": 6.6,
+   "min": 3.87,
+   "max": 13.73,
+   "p10": 4.385,
+   "p90": 11.284
+  },
+  "still_frame_pct": {
+   "n": 20,
+   "mean": 9.95,
+   "sd": 5.829,
+   "median": 8.9,
+   "min": 2.0,
+   "max": 19.4,
+   "p10": 3.29,
+   "p90": 18.65
+  },
+  "flow_median_pctH_s": {
+   "n": 20,
+   "mean": 9.065,
+   "sd": 3.244,
+   "median": 8.7,
+   "min": 4.4,
+   "max": 16.2,
+   "p10": 4.59,
+   "p90": 13.33
+  },
+  "flow_p90_pctH_s": {
+   "n": 20,
+   "mean": 41.535,
+   "sd": 10.241,
+   "median": 41.05,
+   "min": 23.2,
+   "max": 65.9,
+   "p10": 29.11,
+   "p90": 52.96
+  },
+  "hold_zoom_abs_median_pct_s": {
+   "n": 20,
+   "mean": 4.1,
+   "sd": 2.475,
+   "median": 3.42,
+   "min": 1.36,
+   "max": 11.8,
+   "p10": 2.118,
+   "p90": 6.406
+  },
+  "hold_push_in_time_share": {
+   "n": 20,
+   "mean": 0.634,
+   "sd": 0.12,
+   "median": 0.665,
+   "min": 0.42,
+   "max": 0.83,
+   "p10": 0.467,
+   "p90": 0.793
+  },
+  "hold_pull_out_time_share": {
+   "n": 20,
+   "mean": 0.108,
+   "sd": 0.082,
+   "median": 0.095,
+   "min": 0.01,
+   "max": 0.31,
+   "p10": 0.029,
+   "p90": 0.216
+  },
+  "hold_static_time_share": {
+   "n": 20,
+   "mean": 0.014,
+   "sd": 0.03,
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.12,
+   "p10": 0.0,
+   "p90": 0.033
+  },
+  "move_blur_sharp_ratio_median": {
+   "n": 20,
+   "mean": 1.023,
+   "sd": 0.108,
+   "median": 1.0,
+   "min": 0.82,
+   "max": 1.22,
+   "p10": 0.9,
+   "p90": 1.161
+  },
+  "moves_changing_content_share": {
+   "n": 20,
+   "mean": 0.506,
+   "sd": 0.179,
+   "median": 0.49,
+   "min": 0.2,
+   "max": 0.82,
+   "p10": 0.256,
+   "p90": 0.711
+  },
+  "luma_mean": {
+   "n": 20,
+   "mean": 109.44,
+   "sd": 18.693,
+   "median": 110.85,
+   "min": 62.8,
+   "max": 139.4,
+   "p10": 90.13,
+   "p90": 131.79
+  },
+  "contrast_rms": {
+   "n": 20,
+   "mean": 52.95,
+   "sd": 5.266,
+   "median": 52.55,
+   "min": 41.8,
+   "max": 63.1,
+   "p10": 46.88,
+   "p90": 59.34
+  },
+  "black_p01": {
+   "n": 20,
+   "mean": 21.01,
+   "sd": 8.065,
+   "median": 22.5,
+   "min": 1.2,
+   "max": 32.6,
+   "p10": 12.16,
+   "p90": 29.52
+  },
+  "white_p99": {
+   "n": 20,
+   "mean": 240.98,
+   "sd": 8.636,
+   "median": 241.6,
+   "min": 221.2,
+   "max": 253.6,
+   "p10": 231.89,
+   "p90": 251.53
+  },
+  "saturation_mean": {
+   "n": 20,
+   "mean": 113.82,
+   "sd": 20.134,
+   "median": 113.55,
+   "min": 69.2,
+   "max": 160.8,
+   "p10": 90.85,
+   "p90": 132.23
+  },
+  "colorfulness": {
+   "n": 20,
+   "mean": 65.935,
+   "sd": 14.159,
+   "median": 70.7,
+   "min": 39.5,
+   "max": 87.1,
+   "p10": 47.04,
+   "p90": 83.74
+  },
+  "warm_share": {
+   "n": 20,
+   "mean": 0.466,
+   "sd": 0.188,
+   "median": 0.472,
+   "min": 0.171,
+   "max": 0.964,
+   "p10": 0.222,
+   "p90": 0.619
+  },
+  "cool_share": {
+   "n": 20,
+   "mean": 0.454,
+   "sd": 0.173,
+   "median": 0.455,
+   "min": 0.034,
+   "max": 0.807,
+   "p10": 0.294,
+   "p90": 0.646
+  },
+  "warm_dominant_time_share": {
+   "n": 20,
+   "mean": 0.52,
+   "sd": 0.251,
+   "median": 0.552,
+   "min": 0.093,
+   "max": 1.0,
+   "p10": 0.182,
+   "p90": 0.789
+  },
+  "vignette_ratio": {
+   "n": 20,
+   "mean": 0.689,
+   "sd": 0.124,
+   "median": 0.688,
+   "min": 0.379,
+   "max": 0.861,
+   "p10": 0.556,
+   "p90": 0.822
+  },
+  "grain_sigma": {
+   "n": 20,
+   "mean": 1.475,
+   "sd": 0.354,
+   "median": 1.435,
+   "min": 0.82,
+   "max": 2.02,
+   "p10": 1.085,
+   "p90": 1.962
+  },
+  "bloom_lift": {
+   "n": 20,
+   "mean": 21.465,
+   "sd": 18.602,
+   "median": 18.6,
+   "min": -4.9,
+   "max": 78.9,
+   "p10": 4.3,
+   "p90": 36.83
+  },
+  "sharpness": {
+   "n": 20,
+   "mean": 1300.7,
+   "sd": 493.436,
+   "median": 1256.5,
+   "min": 619.0,
+   "max": 2329.0,
+   "p10": 718.3,
+   "p90": 1891.6
+  },
+  "luma_1s_sd": {
+   "n": 20,
+   "mean": 30.02,
+   "sd": 5.272,
+   "median": 30.8,
+   "min": 18.5,
+   "max": 38.4,
+   "p10": 23.47,
+   "p90": 36.9
+  },
+  "sat_1s_sd": {
+   "n": 20,
+   "mean": 26.495,
+   "sd": 6.869,
+   "median": 25.85,
+   "min": 14.8,
+   "max": 43.6,
+   "p10": 15.76,
+   "p90": 33.73
+  },
+  "hold_luma_sd": {
+   "n": 20,
+   "mean": 30.34,
+   "sd": 5.769,
+   "median": 30.35,
+   "min": 19.2,
+   "max": 40.8,
+   "p10": 25.1,
+   "p90": 37.66
+  },
+  "lufs_i": {
+   "n": 20,
+   "mean": -14.12,
+   "sd": 0.238,
+   "median": -14.1,
+   "min": -15.1,
+   "max": -14.0,
+   "p10": -14.11,
+   "p90": -14.0
+  },
+  "true_peak_dbtp": {
+   "n": 20,
+   "mean": -2.1,
+   "sd": 0.364,
+   "median": -2.05,
+   "min": -3.5,
+   "max": -1.7,
+   "p10": -2.22,
+   "p90": -1.89
+  },
+  "lra_lu": {
+   "n": 20,
+   "mean": 2.18,
+   "sd": 0.443,
+   "median": 2.15,
+   "min": 1.6,
+   "max": 3.2,
+   "p10": 1.7,
+   "p90": 2.72
+  },
+  "stereo_side_mid_db": {
+   "n": 20,
+   "mean": -26.54,
+   "sd": 3.235,
+   "median": -26.7,
+   "min": -32.2,
+   "max": -20.5,
+   "p10": -29.87,
+   "p90": -22.52
+  },
+  "voice_lufs": {
+   "n": 20,
+   "mean": -14.307,
+   "sd": 0.235,
+   "median": -14.245,
+   "min": -15.24,
+   "max": -14.14,
+   "p10": -14.41,
+   "p90": -14.16
+  },
+  "voice_f0_median_hz": {
+   "n": 20,
+   "mean": 196.41,
+   "sd": 9.699,
+   "median": 196.05,
+   "min": 174.7,
+   "max": 208.9,
+   "p10": 184.67,
+   "p90": 207.7
+  },
+  "voice_f0_range_st": {
+   "n": 20,
+   "mean": 16.07,
+   "sd": 0.645,
+   "median": 16.1,
+   "min": 15.0,
+   "max": 17.2,
+   "p10": 15.09,
+   "p90": 16.91
+  },
+  "voice_f0_sd_st": {
+   "n": 20,
+   "mean": 5.029,
+   "sd": 0.196,
+   "median": 5.065,
+   "min": 4.66,
+   "max": 5.34,
+   "p10": 4.788,
+   "p90": 5.291
+  },
+  "voice_active_pct": {
+   "n": 20,
+   "mean": 98.28,
+   "sd": 0.651,
+   "median": 98.4,
+   "min": 97.0,
+   "max": 99.3,
+   "p10": 97.39,
+   "p90": 99.11
+  },
+  "voice_syll_per_s": {
+   "n": 20,
+   "mean": 4.859,
+   "sd": 0.179,
+   "median": 4.84,
+   "min": 4.48,
+   "max": 5.24,
+   "p10": 4.673,
+   "p90": 5.056
+  },
+  "pauses_ge_120ms": {
+   "n": 20,
+   "mean": 0.3,
+   "sd": 0.657,
+   "median": 0.0,
+   "min": 0.0,
+   "max": 2.0,
+   "p10": 0.0,
+   "p90": 1.1
+  },
+  "pauses_ge_250ms": {
+   "n": 20,
+   "mean": 0.0,
+   "sd": 0.0,
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "p10": 0.0,
+   "p90": 0.0
+  },
+  "pause_max_s": {
+   "n": 20,
+   "mean": 0.03,
+   "sd": 0.064,
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.21,
+   "p10": 0.0,
+   "p90": 0.13
+  },
+  "breath_like_events": {
+   "n": 20,
+   "mean": 0.0,
+   "sd": 0.0,
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "p10": 0.0,
+   "p90": 0.0
+  },
+  "voice_level_spread_db": {
+   "n": 20,
+   "mean": 16.105,
+   "sd": 1.048,
+   "median": 15.9,
+   "min": 14.4,
+   "max": 18.6,
+   "p10": 15.17,
+   "p90": 17.62
+  },
+  "voice_crest_db": {
+   "n": 20,
+   "mean": 14.55,
+   "sd": 0.333,
+   "median": 14.65,
+   "min": 13.6,
+   "max": 15.0,
+   "p10": 14.19,
+   "p90": 14.9
+  },
+  "voice_centroid_hz": {
+   "n": 20,
+   "mean": 1007.7,
+   "sd": 131.99,
+   "median": 986.0,
+   "min": 771.0,
+   "max": 1244.0,
+   "p10": 878.1,
+   "p90": 1175.2
+  },
+  "voice_stereo_side_mid_db": {
+   "n": 20,
+   "mean": -37.68,
+   "sd": 1.53,
+   "median": -37.6,
+   "min": -40.6,
+   "max": -35.1,
+   "p10": -39.92,
+   "p90": -36.11
+  },
+  "music_lufs": {
+   "n": 20,
+   "mean": -33.66,
+   "sd": 2.126,
+   "median": -33.99,
+   "min": -36.08,
+   "max": -28.93,
+   "p10": -35.76,
+   "p90": -30.439
+  },
+  "voice_minus_music_lu": {
+   "n": 20,
+   "mean": 19.355,
+   "sd": 2.142,
+   "median": 19.75,
+   "min": 14.6,
+   "max": 21.9,
+   "p10": 16.14,
+   "p90": 21.61
+  },
+  "music_starts_s": {
+   "n": 20,
+   "mean": 0.115,
+   "sd": 0.136,
+   "median": 0.04,
+   "min": 0.04,
+   "max": 0.46,
+   "p10": 0.04,
+   "p90": 0.339
+  },
+  "music_ends_before_end_s": {
+   "n": 20,
+   "mean": 0.153,
+   "sd": 0.166,
+   "median": 0.105,
+   "min": 0.02,
+   "max": 0.59,
+   "p10": 0.029,
+   "p90": 0.329
+  },
+  "music_dropouts": {
+   "n": 20,
+   "mean": 0.05,
+   "sd": 0.224,
+   "median": 0.0,
+   "min": 0.0,
+   "max": 1.0,
+   "p10": 0.0,
+   "p90": 0.0
+  },
+  "music_level_steps": {
+   "n": 20,
+   "mean": 5.45,
+   "sd": 4.947,
+   "median": 3.5,
+   "min": 0.0,
+   "max": 16.0,
+   "p10": 0.9,
+   "p90": 13.1
+  },
+  "music_level_2s_sd_db": {
+   "n": 20,
+   "mean": 2.25,
+   "sd": 0.802,
+   "median": 2.065,
+   "min": 1.07,
+   "max": 3.85,
+   "p10": 1.437,
+   "p90": 3.709
+  },
+  "music_voice_level_corr": {
+   "n": 20,
+   "mean": 0.053,
+   "sd": 0.175,
+   "median": 0.095,
+   "min": -0.22,
+   "max": 0.31,
+   "p10": -0.192,
+   "p90": 0.273
+  },
+  "music_bpm_est": {
+   "n": 20,
+   "mean": 115.16,
+   "sd": 14.015,
+   "median": 117.5,
+   "min": 92.3,
+   "max": 152.0,
+   "p10": 99.03,
+   "p90": 129.2
+  },
+  "music_pulse_strength": {
+   "n": 20,
+   "mean": 0.669,
+   "sd": 0.041,
+   "median": 0.677,
+   "min": 0.597,
+   "max": 0.745,
+   "p10": 0.621,
+   "p90": 0.71
+  },
+  "music_key_score": {
+   "n": 20,
+   "mean": 0.737,
+   "sd": 0.111,
+   "median": 0.76,
+   "min": 0.535,
+   "max": 0.95,
+   "p10": 0.575,
+   "p90": 0.856
+  },
+  "music_centroid_hz": {
+   "n": 20,
+   "mean": 559.7,
+   "sd": 136.026,
+   "median": 571.0,
+   "min": 294.0,
+   "max": 829.0,
+   "p10": 412.3,
+   "p90": 715.2
+  },
+  "music_stereo_side_mid_db": {
+   "n": 20,
+   "mean": -62.895,
+   "sd": 1.795,
+   "median": -62.85,
+   "min": -66.5,
+   "max": -60.6,
+   "p10": -65.62,
+   "p90": -60.9
+  },
+  "sfx_events": {
+   "n": 20,
+   "mean": 37.1,
+   "sd": 8.843,
+   "median": 37.5,
+   "min": 23.0,
+   "max": 56.0,
+   "p10": 27.6,
+   "p90": 49.2
+  },
+  "sfx_per_10s": {
+   "n": 20,
+   "mean": 5.923,
+   "sd": 1.213,
+   "median": 5.81,
+   "min": 4.1,
+   "max": 8.54,
+   "p10": 4.335,
+   "p90": 7.41
+  },
+  "sfx_active_pct": {
+   "n": 20,
+   "mean": 28.915,
+   "sd": 8.777,
+   "median": 25.2,
+   "min": 18.8,
+   "max": 46.7,
+   "p10": 20.38,
+   "p90": 42.54
+  },
+  "sfx_peak_median_dbfs": {
+   "n": 20,
+   "mean": -38.415,
+   "sd": 2.793,
+   "median": -39.15,
+   "min": -43.2,
+   "max": -32.2,
+   "p10": -41.15,
+   "p90": -35.34
+  },
+  "sfx_lufs": {
+   "n": 20,
+   "mean": -31.662,
+   "sd": 4.475,
+   "median": -31.23,
+   "min": -39.44,
+   "max": -23.02,
+   "p10": -37.065,
+   "p90": -26.124
+  },
+  "sfx_peak_vs_voice_p50_db": {
+   "n": 20,
+   "mean": -20.51,
+   "sd": 2.724,
+   "median": -21.0,
+   "min": -25.5,
+   "max": -14.8,
+   "p10": -23.18,
+   "p90": -17.47
+  },
+  "joins_at_sentence_start_share": {
+   "n": 20,
+   "mean": 0.428,
+   "sd": 0.248,
+   "median": 0.408,
+   "min": 0.0,
+   "max": 1.0,
+   "p10": 0.164,
+   "p90": 0.68
+  }
+ }
+}

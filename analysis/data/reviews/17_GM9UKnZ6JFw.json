@@ -1,0 +1,673 @@
+{
+ "video": "17_GM9UKnZ6JFw",
+ "joins_verified": [
+  {
+   "t": 3.33,
+   "auto_type": "inplace_blend",
+   "verdict": "in_place_change",
+   "note": "Same bell post framing; grass and light shift from orange autumn to green (grade change within a push-in)."
+  },
+  {
+   "t": 10.07,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Underground cutaway of man in coffin dissolves into snowy night bell post; double exposure mid-frames."
+  },
+  {
+   "t": 13.3,
+   "auto_type": "inplace_blend",
+   "verdict": "dissolve",
+   "note": "Night bell post cross-fades to attic bedroom with sleeper; different scene, so a real dissolve despite in-place label."
+  },
+  {
+   "t": 17.3,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Bedroom window view fades to wide snowy street; window frame ghosted over street."
+  },
+  {
+   "t": 18.9,
+   "auto_type": "inplace_blend",
+   "verdict": "dissolve",
+   "note": "Street dissolves into porch with two neighbours; scene change, ghosted houses mid-blend."
+  },
+  {
+   "t": 21.95,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Porch two-shot dissolves to a wide night street with doctor being dragged; figures ghosted."
+  },
+  {
+   "t": 23.75,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Wide street dissolves to doctor and crowd in lantern light; double exposure of two scenes."
+  },
+  {
+   "t": 27.27,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Doctor close shot fades to exterior of dark house at night."
+  },
+  {
+   "t": 40.22,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Creditor queue garden dissolves to certificate of death held by the man; short 7f blend."
+  },
+  {
+   "t": 41.3,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Man with certificate in coffin dissolves into top-down coffin in soil shot; coffin outline ghosted."
+  },
+  {
+   "t": 46.33,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Green garden with shovel fades to dark room interior; green-to-purple colour jump."
+  },
+  {
+   "t": 47.92,
+   "auto_type": "inplace_blend",
+   "verdict": "dissolve",
+   "note": "Wife wide in rocking chair blends with close-up of her face; same room, framing changes (estimate: short dissolve)."
+  },
+  {
+   "t": 49.0,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Close-up of wife ghosted over the wider seated shot; double exposure of two sizes."
+  },
+  {
+   "t": 51.33,
+   "auto_type": "inplace_blend",
+   "verdict": "dissolve",
+   "note": "Close face blends toward a wider room shot over 4 frames; very quick."
+  },
+  {
+   "t": 52.17,
+   "auto_type": "inplace_blend",
+   "verdict": "in_place_change",
+   "note": "Same wide room; light shifts from cold blue-purple to warm orange sunrise."
+  },
+  {
+   "t": 52.67,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Room interior dissolves to sunny snowy bell post outdoors, pink sky."
+  }
+ ],
+ "missed_joins": [
+  {
+   "t": 37.43,
+   "type": "dissolve",
+   "note": "Bell on wall to man in coffin with growing grin: frames 1121-1124 show a very quick double exposure."
+  }
+ ],
+ "beats": [
+  {
+   "name": "hook",
+   "start": 0.0,
+   "end": 3.1,
+   "said": "A man was buried alive with a bell tied to his finger.",
+   "shown": "Two men at grave edge, then drop into grave and coffin, string up to bell post."
+  },
+  {
+   "name": "explainer",
+   "start": 3.1,
+   "end": 10.1,
+   "said": "People feared waking in coffins, so graves had a bell connected by string to the finger.",
+   "shown": "Bell post, cutaway of buried man with string running up through soil."
+  },
+  {
+   "name": "setup",
+   "start": 10.1,
+   "end": 19.4,
+   "said": "Bell rings at 2am; neighbour blames wind; it speeds up and the street comes out.",
+   "shown": "Snowy night bell, sleeper in bed, street, porch neighbours."
+  },
+  {
+   "name": "escalation",
+   "start": 19.4,
+   "end": 28.8,
+   "said": "Neighbours argue who checks; doctor is fetched and insists the man is dead; wife not outside.",
+   "shown": "Porch dialogue, doctor in lantern light with certificate, dark house."
+  },
+  {
+   "name": "twist",
+   "start": 28.8,
+   "end": 38.4,
+   "said": "Wife waits with shovel, recognises the practised signal; he was never dead.",
+   "shown": "Wife in dark room, bell and signal note on wall, man grinning in coffin."
+  },
+  {
+   "name": "payoff",
+   "start": 38.4,
+   "end": 53.9,
+   "said": "He faked death over debts; she was meant to dig him up, but sits listening all night.",
+   "shown": "Pile of debt notices, creditor queue, certificate, garden, wife in rocking chair."
+  },
+  {
+   "name": "ending",
+   "start": 53.9,
+   "end": 59.5,
+   "said": "Debts buried with him, house all hers.",
+   "shown": "Wife in snow shovelling a mound, small smile at the end."
+  }
+ ],
+ "hook": {
+  "first_frame": "Two characters stand at a fresh grave in orange dusk: ginger man in black suit and a man in a brown hat; bell post behind.",
+  "first_3s": "Fast push-in and crane-down into the grave and coffin, ginger man lying inside with sly grin, then up the string to a bell post.",
+  "line_type": "strange action by he/they",
+  "first_frame_shot_size": "medium-long",
+  "first_frame_subject": "two characters",
+  "protagonist_looks_at_camera": true,
+  "title_vs_first_line": "Title promises a hidden meaning of the bell; first line states the burial with a bell and leaves the meaning open."
+ },
+ "story": {
+  "topic_type": "parable/fiction",
+  "setting_era": "1700s-1800s",
+  "structure": "pure story with twist reveal",
+  "real_fact_core": "Safety coffins with bells existed; here a staged death clears a man's debts and the signal tells the wife the truth.",
+  "likely_source_type": "invented parable",
+  "protagonist": "Wife of the buried man (S. Holt), who sits in the dark with a shovel.",
+  "authority_or_antagonist": "Neighbours, the doctor who signed the certificate, and the creditors.",
+  "direct_speech_lines": 4,
+  "second_person": false,
+  "tense": "present",
+  "explainer_turn": "You see (3.16s), and again You see (54.02s)",
+  "ending_type": "twist reveal is the last line",
+  "call_to_action": "none"
+ },
+ "tone": {
+  "humour": "Dry dark comedy: neighbours dodge checking, wife calmly lets the husband stay buried.",
+  "deadpan_or_irony": "Flat voice, wife's half-lidded stare, and a smug victory smile at the end.",
+  "dialogue_style": "Short quoted lines inside narration, no distinct character voices (estimate from transcript)."
+ },
+ "characters": [
+  {
+   "role": "buried man S. Holt",
+   "head": "round white head, large",
+   "hair_or_hat": "ginger hair swept over forehead, ginger moustache later",
+   "eyes": "small dashes, half-lidded sly look",
+   "mouth": "wide grin with orange lips and fangs-like teeth",
+   "body_and_clothes": "bean-shaped black suit with white shirt",
+   "limbs": "thin black stick arms and legs",
+   "accessories": "string on finger, certificate of death",
+   "expressions_seen": [
+    "sly grin",
+    "eyes closed smirk"
+   ]
+  },
+  {
+   "role": "wife",
+   "head": "round pale head",
+   "hair_or_hat": "dark hair with stripe lines in a bun with a pin",
+   "eyes": "half-lidded, flat brows",
+   "mouth": "small flat line, opens when speaking",
+   "body_and_clothes": "long maroon dress with buttons",
+   "limbs": "thin stick arms",
+   "accessories": "shovel, rocking chair, teacup",
+   "expressions_seen": [
+    "deadpan",
+    "flat stare",
+    "small smile at end"
+   ]
+  },
+  {
+   "role": "doctor",
+   "head": "round head",
+   "hair_or_hat": "dark swept hair",
+   "eyes": "round glasses",
+   "mouth": "small, opens wide when speaking",
+   "body_and_clothes": "striped nightshirt",
+   "limbs": "thin black legs",
+   "accessories": "certificate board held to chest",
+   "expressions_seen": [
+    "smug eyes closed",
+    "mouth open"
+   ]
+  },
+  {
+   "role": "neighbours",
+   "head": "round heads",
+   "hair_or_hat": "striped nightcap, moustache, hair band",
+   "eyes": "round dot eyes, brows",
+   "mouth": "small",
+   "body_and_clothes": "red coat; peach/teal dress; pyjamas",
+   "limbs": "stick arms and legs",
+   "accessories": "lantern, shovel",
+   "expressions_seen": [
+    "worried with sweat drop",
+    "annoyed"
+   ]
+  }
+ ],
+ "character_style": {
+  "head_height_share_of_body_estimate": 0.4,
+  "outline": "thick dark ink outline on characters and props, thinner on the set",
+  "shading": "soft painted gradients and rim light on a flat character fill (estimate)",
+  "consistency_between_shots": "Faces and costumes are consistent across angles and sizes; the wife and doctor read the same in close and wide.",
+  "shadow_under_character": "soft blob"
+ },
+ "animation": {
+  "body_motion": "Mostly static poses with small arm and head poses; most motion is camera moves and dissolves.",
+  "lip_sync": "flaps while speaking",
+  "lip_sync_evidence_frames": [
+   992,
+   994,
+   1002,
+   754,
+   756,
+   760
+  ],
+  "eyes_and_blinks": "Eyes switch between open, half-lidded and closed poses (f990 to f994); wife's eye state changes across f1485-1530.",
+  "idle_motion": "Hold frames drift slightly with light motes and snow particles; wife nearly still in rocking chair.",
+  "squash_and_stretch": "None seen; shapes stay rigid."
+ },
+ "environments": [
+  {
+   "start": 0,
+   "end": 3,
+   "place": "Graveyard open grave at dusk",
+   "key_props": [
+    "coffin",
+    "grave",
+    "string",
+    "bell post"
+   ],
+   "in_world_text": [
+    "name plate S. Holt on post"
+   ],
+   "time_of_day": "dusk",
+   "lighting": "warm orange low sun, soft; purple sky",
+   "depth_cues": "shallow blur on foreground soil, perspective down into the grave"
+  },
+  {
+   "start": 3,
+   "end": 10,
+   "place": "Bell post and underground cutaway",
+   "key_props": [
+    "bell",
+    "string",
+    "coffin in soil"
+   ],
+   "in_world_text": [
+    "S. Holt plate"
+   ],
+   "time_of_day": "dusk to evening",
+   "lighting": "soft sunset, saturated colours",
+   "depth_cues": "cross-section view with flat layers"
+  },
+  {
+   "start": 10,
+   "end": 14,
+   "place": "Snowy cemetery at night",
+   "key_props": [
+    "bell",
+    "gravestones",
+    "lit house"
+   ],
+   "in_world_text": [
+    "S. Holt plate"
+   ],
+   "time_of_day": "night",
+   "lighting": "cold blue moonlight, warm window glow",
+   "depth_cues": "snow haze, vignette"
+  },
+  {
+   "start": 14,
+   "end": 17,
+   "place": "Attic bedroom",
+   "key_props": [
+    "bed",
+    "candle",
+    "patchwork quilt"
+   ],
+   "in_world_text": [],
+   "time_of_day": "night",
+   "lighting": "warm candle practical, soft",
+   "depth_cues": "shallow depth"
+  },
+  {
+   "start": 17,
+   "end": 23,
+   "place": "Snowy street and porch",
+   "key_props": [
+    "lanterns",
+    "shovel",
+    "porches"
+   ],
+   "in_world_text": [
+    "shop sign"
+   ],
+   "time_of_day": "night",
+   "lighting": "warm lantern against blue snow, soft",
+   "depth_cues": "street perspective, fog"
+  },
+  {
+   "start": 23,
+   "end": 29,
+   "place": "Lantern-lit yard in front of house",
+   "key_props": [
+    "lanterns",
+    "certificate",
+    "crowd"
+   ],
+   "in_world_text": [
+    "Certificate of Death S. Holt"
+   ],
+   "time_of_day": "night",
+   "lighting": "warm lantern, orange glow on snow",
+   "depth_cues": "slight defocus on background"
+  },
+  {
+   "start": 29,
+   "end": 38,
+   "place": "Wife's dark parlour",
+   "key_props": [
+    "rocking chair",
+    "shovel by door",
+    "bell on wall",
+    "signal note"
+   ],
+   "in_world_text": [
+    "dot-dot-dot-dash signal note",
+    "dated tally marks"
+   ],
+   "time_of_day": "night",
+   "lighting": "cool purple moonlight through window, shaft across face",
+   "depth_cues": "heavy blur on background in close-ups"
+  },
+  {
+   "start": 38,
+   "end": 46,
+   "place": "Faked-death flashback: parlour, garden, coffin",
+   "key_props": [
+    "coffin on trestles",
+    "debt notices",
+    "queue of townsfolk",
+    "vegetable bed"
+   ],
+   "in_world_text": [
+    "Final Notice",
+    "Overdue",
+    "Pay up",
+    "Certificate of death S. Holt"
+   ],
+   "time_of_day": "day",
+   "lighting": "bright sun, saturated green",
+   "depth_cues": "wide with perspective"
+  },
+  {
+   "start": 46,
+   "end": 53,
+   "place": "Parlour at night until sunrise",
+   "key_props": [
+    "rocking chair",
+    "stove",
+    "tea table",
+    "shovel"
+   ],
+   "in_world_text": [],
+   "time_of_day": "night to sunrise",
+   "lighting": "purple to warm orange light",
+   "depth_cues": "close-up background blur"
+  },
+  {
+   "start": 53,
+   "end": 59.5,
+   "place": "Snowy yard by bell post at sunrise",
+   "key_props": [
+    "shovel",
+    "mound of earth",
+    "bell post",
+    "tombstones"
+   ],
+   "in_world_text": [],
+   "time_of_day": "sunrise",
+   "lighting": "pink-peach low sun, soft",
+   "depth_cues": "faint haze, chimney smoke"
+  }
+ ],
+ "set_style": "stylised 3D without outlines",
+ "layer_stack": [
+  "gradient sky",
+  "3D set with faceted low-poly ground and painted textures",
+  "thick-outlined 2D character cutouts",
+  "particle motes and snow",
+  "bold white captions with black outline"
+ ],
+ "camera": {
+  "shot_sizes": [
+   "medium-long",
+   "close-up",
+   "wide",
+   "medium",
+   "high-angle"
+  ],
+  "angles": [
+   "high angle into grave",
+   "eye level",
+   "low angle on wife",
+   "top-down"
+  ],
+  "lens_feel": "Wide-angle with strong perspective on set; long-lens blur in close-ups (estimate).",
+  "camera_height": "Variable: from above the grave to near floor level.",
+  "notable_moves": [
+   {
+    "t": 0.4,
+    "type": "push-in and crane",
+    "note": "Fast fly into the grave."
+   },
+   {
+    "t": 2.1,
+    "type": "crane-up along string",
+    "note": "Rises from coffin to the bell post."
+   },
+   {
+    "t": 38.7,
+    "type": "fly-through",
+    "note": "Flies over coffin of debt notices to the window and out to the garden."
+   },
+   {
+    "t": 41.5,
+    "type": "pull-out",
+    "note": "Top-down coffin shot pulls out to the garden bed."
+   }
+  ]
+ },
+ "effects": [
+  {
+   "t": 0.4,
+   "dur_s": 1.0,
+   "type": "motion blur",
+   "trigger": "buried a man"
+  },
+  {
+   "t": 10.1,
+   "dur_s": 0.5,
+   "type": "particles",
+   "trigger": "snow flakes and motes"
+  },
+  {
+   "t": 32.7,
+   "dur_s": 1.4,
+   "type": "glow",
+   "trigger": "moonlit light shaft across the wife's face"
+  },
+  {
+   "t": 38.7,
+   "dur_s": 1.1,
+   "type": "other",
+   "trigger": "debt notices fly out of the coffin"
+  },
+  {
+   "t": 56.0,
+   "dur_s": 1.0,
+   "type": "particles",
+   "trigger": "earth shovelled onto the mound"
+  }
+ ],
+ "lighting_mood_shifts": [
+  {
+   "t": 10.1,
+   "change": "Warm dusk to cold blue night",
+   "story_reason": "Bell rings at 2 a.m."
+  },
+  {
+   "t": 29.2,
+   "change": "Cold and very dark purple",
+   "story_reason": "Wife waits in the dark"
+  },
+  {
+   "t": 38.4,
+   "change": "Bright green daylight",
+   "story_reason": "Flashback to the faked death"
+  },
+  {
+   "t": 46.3,
+   "change": "Return to dark purple",
+   "story_reason": "Back to the long night"
+  },
+  {
+   "t": 52.2,
+   "change": "Warm sunrise glow",
+   "story_reason": "Bell stops at dawn; house is hers"
+  }
+ ],
+ "generation_evidence": [
+  {
+   "frames": [
+    1161,
+    1170,
+    1176
+   ],
+   "observation": "Debt notice slips with legible Final Notice and Pay Up text sit in the coffin and stay readable; slips are inconsistent in detail but camera move is clean.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    1050,
+    1100
+   ],
+   "observation": "Wall bell note with dot-dash glyph and handwritten tally dates stay crisp in the same shot; fine text is legible but faint.",
+   "points_to": "unclear"
+  },
+  {
+   "frames": [
+    990,
+    994,
+    1002
+   ],
+   "observation": "Wife's mouth and eyes change between a few discrete drawn poses over frames while head fixed; a light band crosses face.",
+   "points_to": "hand animation"
+  },
+  {
+   "frames": [
+    1485,
+    1515,
+    1530
+   ],
+   "observation": "Wife in rocking chair stays rigid, with only eye pose changes; background room geometry is stable with perspective.",
+   "points_to": "AI image plus motion"
+  },
+  {
+   "frames": [
+    1183,
+    1191
+   ],
+   "observation": "Crowd in garden and a big coloured set remain consistent through a long fly-through, with no vanishing props.",
+   "points_to": "3D engine render"
+  }
+ ],
+ "sample_points": [
+  {
+   "frame": 1000,
+   "x": 0.5,
+   "y": 0.55,
+   "what": "wife head fill",
+   "hex": "#EDD7FB",
+   "patch_spread": 25.3
+  },
+  {
+   "frame": 1500,
+   "x": 0.4,
+   "y": 0.55,
+   "what": "wife dress",
+   "hex": "#52223D",
+   "patch_spread": 4.4
+  },
+  {
+   "frame": 1000,
+   "x": 0.45,
+   "y": 0.35,
+   "what": "wife hair",
+   "hex": "#604B9B",
+   "patch_spread": 21.5
+  },
+  {
+   "frame": 30,
+   "x": 0.5,
+   "y": 0.05,
+   "what": "dusk sky",
+   "hex": "#753419",
+   "patch_spread": 0.9
+  },
+  {
+   "frame": 360,
+   "x": 0.5,
+   "y": 0.1,
+   "what": "night sky",
+   "hex": "#091861",
+   "patch_spread": 1.3
+  },
+  {
+   "frame": 1230,
+   "x": 0.1,
+   "y": 0.5,
+   "what": "daytime green grass",
+   "hex": "#E0CB96",
+   "patch_spread": 1.3
+  },
+  {
+   "frame": 1170,
+   "x": 0.5,
+   "y": 0.4,
+   "what": "faked-death green garden and coffin",
+   "hex": "#6D81A6",
+   "patch_spread": 7.6
+  },
+  {
+   "frame": 1740,
+   "x": 0.5,
+   "y": 0.9,
+   "what": "sunrise snow mound",
+   "hex": "#DFBBC4",
+   "patch_spread": 1.1
+  },
+  {
+   "frame": 640,
+   "x": 0.9,
+   "y": 0.45,
+   "what": "red coat of neighbour",
+   "hex": "#352239",
+   "patch_spread": 4.8
+  },
+  {
+   "frame": 750,
+   "x": 0.5,
+   "y": 0.45,
+   "what": "doctor head fill",
+   "hex": "#E8C0C0",
+   "patch_spread": 1.2
+  }
+ ],
+ "thumbnail": "Frame like 20.7s: worried man in red with sweat drop next to a frowning woman on a snowy porch; shovel in front and a caption on screen.",
+ "could_not_determine": [
+  "Whether the camera moves are rendered 3D or 2D parallax of layered paintings",
+  "Exact join type for the 4-frame blend at 51.33s",
+  "Number of people voiced, since the narration is a single voice"
+ ]
+}
