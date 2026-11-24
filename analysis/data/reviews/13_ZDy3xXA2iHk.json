@@ -1,0 +1,620 @@
+{
+ "video": "13_ZDy3xXA2iHk",
+ "joins_verified": [
+  {
+   "t": 12.47,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Guard with mug to man in beanie climbing a ladder up a wall; double exposure in middle tiles."
+  },
+  {
+   "t": 16.08,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Wall face with ladder dissolves to night view with glowing arc and small red-shirt figure."
+  },
+  {
+   "t": 18.85,
+   "auto_type": "inplace_blend",
+   "verdict": "in_place_change",
+   "note": "Glowing ring framing kept; sound-wave marks and a wooden frame appear around it (state change in one take)."
+  },
+  {
+   "t": 23.35,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Wooden attic room with Gary dissolves to close shot of button under glass with counter."
+  },
+  {
+   "t": 27.37,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Guard close-up dissolves to bronze founder statue group."
+  },
+  {
+   "t": 31.28,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Statue plinth with woman and Gary dissolves to three friends at a railing, night."
+  },
+  {
+   "t": 38.5,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Night town aerial to Gary at the glass-covered button; short 8-frame blend."
+  },
+  {
+   "t": 44.78,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Close shot of scratched button top to Gary walking along a night street."
+  },
+  {
+   "t": 46.48,
+   "auto_type": "inplace_blend",
+   "verdict": "in_place_change",
+   "note": "Same street framing; sky shifts from dark blue to bright orange glow (colour/light change)."
+  },
+  {
+   "t": 48.77,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Overexposed bright glow street dissolves to Gary lying in grass beside the button."
+  },
+  {
+   "t": 55.57,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Empty field with tiny crowd dissolves to close crowd staring at camera."
+  },
+  {
+   "t": 60.65,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Button and counter close-up dissolves to crowd with Gary and his mom beside the button."
+  }
+ ],
+ "missed_joins": [],
+ "beats": [
+  {
+   "name": "hook",
+   "start": 0.0,
+   "end": 3.5,
+   "said": "A button sits mid-town and nobody may press it.",
+   "shown": "Guard and red-shirt man beside a red button on a pedestal; guard stoic, man sweating."
+  },
+  {
+   "name": "setup",
+   "start": 3.5,
+   "end": 20.4,
+   "said": "Town built in circles around button, guarded, walled, with a dimming glow beyond the wall.",
+   "shown": "Fly-through of circular town, guard with mug, ladder up wall, glowing ring in night sky."
+  },
+  {
+   "name": "escalation",
+   "start": 20.4,
+   "end": 31.3,
+   "said": "Gary notices 47 scratches under the glass and a statue woman resembling his mom.",
+   "shown": "Attic room, button with counter, guard, bronze statue."
+  },
+  {
+   "name": "twist",
+   "start": 31.3,
+   "end": 38.5,
+   "said": "Friends bet five dollars; at 3am during guard swap he has seconds.",
+   "shown": "Three friends at railing holding a bill, night town aerial."
+  },
+  {
+   "name": "payoff",
+   "start": 38.5,
+   "end": 48.8,
+   "said": "He presses it, nothing happens but a scratch sound; glow brightens as he walks home.",
+   "shown": "Gary at the glass dome, close-up of button, night street turning orange."
+  },
+  {
+   "name": "ending",
+   "start": 48.8,
+   "end": 65.5,
+   "said": "Town vanished into a field; 48 scratches; his mom says build the town here.",
+   "shown": "Gary in grass, big crowd in field, counter at 48, mom beside crowd and button."
+  }
+ ],
+ "hook": {
+  "first_frame": "Guard in blue cap and red-shirt man behind a red button on a stone pedestal, town blurred behind, caption 'There's'.",
+  "first_3s": "Camera pushes in on the button; the man's grin turns to a worried face with sweat drop and clenched teeth; guard stays flat-faced.",
+  "line_type": "world premise (there is a)",
+  "first_frame_shot_size": "medium",
+  "first_frame_subject": "two characters",
+  "protagonist_looks_at_camera": true,
+  "title_vs_first_line": "Title restates the premise (town built around a button); first line introduces the button and the ban."
+ },
+ "story": {
+  "topic_type": "parable/fiction",
+  "setting_era": "timeless/fable",
+  "structure": "pure story with twist reveal",
+  "real_fact_core": "No real fact; an invented fable of a taboo button, a forbidden act and a cycle where the town rebuilds around it.",
+  "likely_source_type": "invented parable",
+  "protagonist": "Gary, young man in red shirt with dark hair",
+  "authority_or_antagonist": "Two guards and the wall; his mom as final authority",
+  "direct_speech_lines": 1,
+  "second_person": false,
+  "tense": "present",
+  "explainer_turn": null,
+  "ending_type": "loops back to the hook",
+  "call_to_action": "none"
+ },
+ "tone": {
+  "humour": "Light absurdity: five-dollar bet, mug-holding guard, mom lookalike statue; sweat-drop reactions.",
+  "deadpan_or_irony": "Deadpan narration of an unexplained eerie premise; no explanation given.",
+  "dialogue_style": "Narrator voice only; one reported line from mom at the end."
+ },
+ "characters": [
+  {
+   "role": "Gary (protagonist)",
+   "head": "large white round head, thick dark outline",
+   "hair_or_hat": "dark brown bowl-shaped hair",
+   "eyes": "round circles with dots, sometimes glasses",
+   "mouth": "tiny line or toothy grin, small open oval",
+   "body_and_clothes": "bean-shaped red shirt (striped red/white later) on stick legs",
+   "limbs": "thin black stick arms and legs with small round hands/feet",
+   "accessories": "sweat drop when nervous",
+   "expressions_seen": [
+    "grin",
+    "worried",
+    "gritted teeth",
+    "smug",
+    "surprise"
+   ]
+  },
+  {
+   "role": "Guard",
+   "head": "round white head",
+   "hair_or_hat": "navy peaked cap with gold badge",
+   "eyes": "wide circles with dots, flat brows",
+   "mouth": "small flat line, moustache in close-ups",
+   "body_and_clothes": "navy uniform bean body",
+   "limbs": "stick limbs",
+   "accessories": "mug in one shot",
+   "expressions_seen": [
+    "blank stare",
+    "stern",
+    "shocked"
+   ]
+  },
+  {
+   "role": "Mom",
+   "head": "round white head",
+   "hair_or_hat": "brown hair bun",
+   "eyes": "glasses, narrowed",
+   "mouth": "small line, open when speaking",
+   "body_and_clothes": "teal cardigan bean body",
+   "limbs": "stick limbs",
+   "accessories": "glasses",
+   "expressions_seen": [
+    "stern",
+    "unimpressed"
+   ]
+  },
+  {
+   "role": "Friends",
+   "head": "round white heads",
+   "hair_or_hat": "orange beanie, orange bike helmet",
+   "eyes": "dots or circles",
+   "mouth": "smirk, moustache-like line",
+   "body_and_clothes": "purple and green bean bodies",
+   "limbs": "stick limbs",
+   "accessories": "five-dollar bill",
+   "expressions_seen": [
+    "smirk",
+    "nervous"
+   ]
+  }
+ ],
+ "character_style": {
+  "head_height_share_of_body_estimate": 0.35,
+  "outline": "Thick dark navy/black outline around heads and bodies; thin stick limbs.",
+  "shading": "Flat fills with slight soft gradient on bodies; no cel shadow bands (estimate).",
+  "consistency_between_shots": "High: same head and body shapes, colours and expressions reused across shots and sizes.",
+  "shadow_under_character": "soft blob"
+ },
+ "animation": {
+  "body_motion": "Characters pose and slide as 2D cutouts, with simple pose swaps and arm moves over a 3D camera move.",
+  "lip_sync": "mouth changes with pose only",
+  "lip_sync_evidence_frames": [
+   0,
+   60,
+   1892,
+   1952
+  ],
+  "eyes_and_blinks": "Eyes swap between sets (circles, glasses, wide); blinking not verified by frames.",
+  "idle_motion": "Small head tilts and expression swaps; sweat drop appears; crowd shuffles.",
+  "squash_and_stretch": "Not evident; shapes stay rigid (estimate)."
+ },
+ "environments": [
+  {
+   "start": 0,
+   "end": 3,
+   "place": "Town square pedestal with button",
+   "key_props": [
+    "red button",
+    "yellow pedestal ring",
+    "guard cap"
+   ],
+   "in_world_text": [],
+   "time_of_day": "day",
+   "lighting": "Soft overcast, cool blue top light.",
+   "depth_cues": "Blurred background town, glass-dome haze."
+  },
+  {
+   "start": 3,
+   "end": 13,
+   "place": "Circular town, rings of houses and walls",
+   "key_props": [
+    "concentric roads",
+    "blue houses",
+    "lamp posts",
+    "guards"
+   ],
+   "in_world_text": [],
+   "time_of_day": "day",
+   "lighting": "Soft overcast, diffuse, cool sky.",
+   "depth_cues": "Strong wide lens perspective, curved wall."
+  },
+  {
+   "start": 13,
+   "end": 17,
+   "place": "Giant wall with ladder",
+   "key_props": [
+    "ladder",
+    "wall panels"
+   ],
+   "in_world_text": [],
+   "time_of_day": "dusk",
+   "lighting": "Cool blue with warm top edge.",
+   "depth_cues": "Vertical perspective, haze."
+  },
+  {
+   "start": 17,
+   "end": 21,
+   "place": "Night sky with glowing ring",
+   "key_props": [
+    "glowing ring"
+   ],
+   "in_world_text": [],
+   "time_of_day": "night",
+   "lighting": "Orange-pink ring glow on deep blue.",
+   "depth_cues": "Glow bloom."
+  },
+  {
+   "start": 21,
+   "end": 24,
+   "place": "Wooden attic room",
+   "key_props": [
+    "lamp",
+    "window",
+    "round rug",
+    "desk"
+   ],
+   "in_world_text": [
+    "small framed map"
+   ],
+   "time_of_day": "evening",
+   "lighting": "Warm lamp key, cool window fill.",
+   "depth_cues": "Shallow room depth."
+  },
+  {
+   "start": 24,
+   "end": 27,
+   "place": "Button close-up with counter",
+   "key_props": [
+    "glass case",
+    "tally counter",
+    "red button"
+   ],
+   "in_world_text": [
+    "counter digits 0047"
+   ],
+   "time_of_day": "day",
+   "lighting": "Warm gold key, soft.",
+   "depth_cues": "Close macro."
+  },
+  {
+   "start": 27,
+   "end": 32,
+   "place": "Statue plaza",
+   "key_props": [
+    "bronze founders statue",
+    "plaque"
+   ],
+   "in_world_text": [
+    "plaque text"
+   ],
+   "time_of_day": "day",
+   "lighting": "Soft overcast.",
+   "depth_cues": "Background blurred curved wall."
+  },
+  {
+   "start": 32,
+   "end": 38,
+   "place": "Railing and night town",
+   "key_props": [
+    "railing",
+    "bill",
+    "lamp posts",
+    "houses with lit windows"
+   ],
+   "in_world_text": [
+    "$5 bill"
+   ],
+   "time_of_day": "night",
+   "lighting": "Cool blue moonlight with warm window and lamp practicals.",
+   "depth_cues": "Dark aerial perspective."
+  },
+  {
+   "start": 38,
+   "end": 45,
+   "place": "Button pedestal at night",
+   "key_props": [
+    "glass dome",
+    "button"
+   ],
+   "in_world_text": [],
+   "time_of_day": "night",
+   "lighting": "Cool blue ambient, red button glow.",
+   "depth_cues": "Haze."
+  },
+  {
+   "start": 45,
+   "end": 49,
+   "place": "Residential street",
+   "key_props": [
+    "picket fence",
+    "lit windows",
+    "tree"
+   ],
+   "in_world_text": [],
+   "time_of_day": "night to orange glow",
+   "lighting": "Orange sky glow from wall.",
+   "depth_cues": "Strong bloom."
+  },
+  {
+   "start": 49,
+   "end": 65.5,
+   "place": "Empty grass field with crowd",
+   "key_props": [
+    "button on octagonal base",
+    "crowd"
+   ],
+   "in_world_text": [
+    "counter 0048"
+   ],
+   "time_of_day": "day",
+   "lighting": "Soft bright daylight.",
+   "depth_cues": "Large crowd scale shift, pale wall at horizon."
+  }
+ ],
+ "set_style": "mixed",
+ "layer_stack": [
+  "3D stylised background",
+  "3D props (button, houses)",
+  "2D outlined characters",
+  "caption text",
+  "glow/bloom overlay"
+ ],
+ "camera": {
+  "shot_sizes": [
+   "medium",
+   "wide",
+   "close-up",
+   "long"
+  ],
+  "angles": [
+   "eye level",
+   "high aerial",
+   "low angle up wall",
+   "overhead top-down"
+  ],
+  "lens_feel": "wide (estimate)",
+  "camera_height": "mostly eye level to high aerial",
+  "notable_moves": [
+   {
+    "t": 3.5,
+    "type": "orbit/fly-through",
+    "note": "Orbit down into circular town."
+   },
+   {
+    "t": 25.0,
+    "type": "crane-up",
+    "note": "Rises from button to guard."
+   },
+   {
+    "t": 50.1,
+    "type": "orbit",
+    "note": "Moves from Gary lying down to the crowd."
+   },
+   {
+    "t": 54.2,
+    "type": "pull-out",
+    "note": "Pulls out to reveal crowd in field."
+   }
+  ]
+ },
+ "effects": [
+  {
+   "t": 16.1,
+   "dur_s": 4.5,
+   "type": "glow",
+   "trigger": "glow beyond the wall"
+  },
+  {
+   "t": 46.5,
+   "dur_s": 2.0,
+   "type": "colour shift",
+   "trigger": "glow brighter than ever"
+  },
+  {
+   "t": 23.4,
+   "dur_s": 4.0,
+   "type": "screen or UI insert",
+   "trigger": "47 scratches counter"
+  },
+  {
+   "t": 2.0,
+   "dur_s": 1.0,
+   "type": "other",
+   "trigger": "sweat drop on nervous face"
+  }
+ ],
+ "lighting_mood_shifts": [
+  {
+   "t": 16.1,
+   "change": "Day blue to deep blue night with orange glow.",
+   "story_reason": "Introduces the eerie glow."
+  },
+  {
+   "t": 31.3,
+   "change": "Town goes to night with lit windows.",
+   "story_reason": "Heist-like bet and 3am attempt."
+  },
+  {
+   "t": 46.5,
+   "change": "Sky flushes orange and overexposed.",
+   "story_reason": "Consequence of pressing the button."
+  },
+  {
+   "t": 48.8,
+   "change": "Bright daylight green field.",
+   "story_reason": "Reset after the town vanishes."
+  }
+ ],
+ "generation_evidence": [
+  {
+   "frames": [
+    150,
+    190
+   ],
+   "observation": "Clean geometry of concentric streets and houses holds through a fly-through.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    0,
+    1892
+   ],
+   "observation": "Characters keep identical outlines and shapes across shots; only eyes and mouth swap.",
+   "points_to": "hand animation"
+  },
+  {
+   "frames": [
+    720,
+    780
+   ],
+   "observation": "Counter digits and button details stay crisp and consistent.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    1600,
+    1700
+   ],
+   "observation": "Dozens of crowd members reuse the same few character assets.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    560,
+    571
+   ],
+   "observation": "Dissolve and ring glow added in compositing.",
+   "points_to": "unclear"
+  }
+ ],
+ "sample_points": [
+  {
+   "frame": 90,
+   "x": 0.88,
+   "y": 0.18,
+   "what": "Gary head fill (hook)",
+   "hex": "#7697DC",
+   "patch_spread": 0.6
+  },
+  {
+   "frame": 90,
+   "x": 0.82,
+   "y": 0.52,
+   "what": "Gary red shirt",
+   "hex": "#E63F3C",
+   "patch_spread": 2.7
+  },
+  {
+   "frame": 90,
+   "x": 0.88,
+   "y": 0.07,
+   "what": "Gary hair",
+   "hex": "#5E79C6",
+   "patch_spread": 1.5
+  },
+  {
+   "frame": 90,
+   "x": 0.15,
+   "y": 0.45,
+   "what": "guard cap navy",
+   "hex": "#EFEAE6",
+   "patch_spread": 1.9
+  },
+  {
+   "frame": 1500,
+   "x": 0.5,
+   "y": 0.9,
+   "what": "field grass",
+   "hex": "#318824",
+   "patch_spread": 11.1
+  },
+  {
+   "frame": 1400,
+   "x": 0.5,
+   "y": 0.1,
+   "what": "orange glow sky",
+   "hex": "#FDF5D5",
+   "patch_spread": 7.0
+  },
+  {
+   "frame": 1000,
+   "x": 0.5,
+   "y": 0.9,
+   "what": "night street blue",
+   "hex": "#B58174",
+   "patch_spread": 0.5
+  },
+  {
+   "frame": 150,
+   "x": 0.5,
+   "y": 0.9,
+   "what": "green town lawn",
+   "hex": "#51AD28",
+   "patch_spread": 1.1
+  },
+  {
+   "frame": 1892,
+   "x": 0.35,
+   "y": 0.5,
+   "what": "mom teal cardigan",
+   "hex": "#438B36",
+   "patch_spread": 7.0
+  },
+  {
+   "frame": 750,
+   "x": 0.5,
+   "y": 0.5,
+   "what": "gold button base",
+   "hex": "#E9C069",
+   "patch_spread": 6.3
+  }
+ ],
+ "thumbnail": "Three friends at a railing, Gary holding a five-dollar bill, night town behind; matches the bet at about 32-34 s.",
+ "could_not_determine": [
+  "Montage checks not done: the montage Bash call was blocked by the workspace policy.",
+  "Blink timing and lip movement frame-by-frame.",
+  "Whether the tally counter changes digit within the take."
+ ]
+}

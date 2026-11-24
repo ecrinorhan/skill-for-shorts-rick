@@ -1,0 +1,1149 @@
+{
+ "note": "Numbers only; the narration text is not stored. Reading-level formulas use a vowel-group syllable estimate.",
+ "pooled": {
+  "conjunction_opener_share": {
+   "n": 20,
+   "mean": 0.375,
+   "sd": 0.077,
+   "median": 0.367,
+   "min": 0.278,
+   "max": 0.526
+  },
+  "syllables_per_word": {
+   "n": 20,
+   "mean": 1.292,
+   "sd": 0.055,
+   "median": 1.289,
+   "min": 1.218,
+   "max": 1.417
+  },
+  "words_ge_3_syllables_share": {
+   "n": 20,
+   "mean": 0.048,
+   "sd": 0.02,
+   "median": 0.046,
+   "min": 0.021,
+   "max": 0.096
+  },
+  "letters_per_word": {
+   "n": 20,
+   "mean": 4.079,
+   "sd": 0.156,
+   "median": 4.04,
+   "min": 3.88,
+   "max": 4.48
+  },
+  "flesch_reading_ease": {
+   "n": 20,
+   "mean": 85.335,
+   "sd": 4.886,
+   "median": 85.55,
+   "min": 72.4,
+   "max": 94.5
+  },
+  "flesch_kincaid_grade": {
+   "n": 20,
+   "mean": 4.35,
+   "sd": 0.958,
+   "median": 4.4,
+   "min": 2.3,
+   "max": 6.7
+  },
+  "contractions_per_100w": {
+   "n": 20,
+   "mean": 2.564,
+   "sd": 1.11,
+   "median": 2.175,
+   "min": 1.26,
+   "max": 5.39
+  },
+  "numbers_per_script": {
+   "n": 20,
+   "mean": 5.6,
+   "sd": 2.563,
+   "median": 5.0,
+   "min": 1.0,
+   "max": 13.0
+  },
+  "like_similes": {
+   "n": 20,
+   "mean": 0.75,
+   "sd": 0.786,
+   "median": 1.0,
+   "min": 0.0,
+   "max": 2.0
+  },
+  "just_per_100w": {
+   "n": 20,
+   "mean": 0.7,
+   "sd": 0.486,
+   "median": 0.465,
+   "min": 0.0,
+   "max": 1.83
+  },
+  "speech_verb_sentences": {
+   "n": 20,
+   "mean": 1.6,
+   "sd": 0.883,
+   "median": 2.0,
+   "min": 0.0,
+   "max": 3.0
+  },
+  "first_person_sentences_proxy_for_direct_speech": {
+   "n": 20,
+   "mean": 0.6,
+   "sd": 0.598,
+   "median": 1.0,
+   "min": 0.0,
+   "max": 2.0
+  },
+  "time_jump_phrases": {
+   "n": 20,
+   "mean": 1.95,
+   "sd": 1.504,
+   "median": 2.0,
+   "min": 0.0,
+   "max": 7.0
+  },
+  "sentence_len_first_half_mean": {
+   "n": 20,
+   "mean": 12.05,
+   "sd": 2.151,
+   "median": 11.85,
+   "min": 8.5,
+   "max": 17.0
+  },
+  "sentence_len_second_half_mean": {
+   "n": 20,
+   "mean": 12.03,
+   "sd": 2.756,
+   "median": 11.6,
+   "min": 6.8,
+   "max": 17.4
+  },
+  "explainer_turn_rel": {
+   "n": 13,
+   "mean": 0.739,
+   "sd": 0.094,
+   "median": 0.73,
+   "min": 0.58,
+   "max": 0.91
+  },
+  "capitalised_mid_sentence_words_n": {
+   "n": 20,
+   "mean": 1.1,
+   "sd": 1.294,
+   "median": 1.0,
+   "min": 0.0,
+   "max": 4.0
+  }
+ },
+ "sentence_opener_share_pooled": {
+  "conjunction (so / and / but / then ...)": 0.374,
+  "article or determiner (the / his / a / every ...)": 0.183,
+  "pronoun (he / they / it / you ...)": 0.137,
+  "other": 0.105,
+  "interjection or imperative": 0.07,
+  "time or place (at / by / soon / in ...)": 0.07,
+  "you see": 0.048,
+  "well": 0.013
+ },
+ "hook_forms": {
+  "he/they + past-tense action": 14,
+  "if you + consequence": 2,
+  "claim or paradox about the world": 2,
+  "there is + premise": 1,
+  "imperative (look at / imagine)": 1
+ },
+ "hooks_with_turn": 15,
+ "videos_with_you_see": 16,
+ "videos_with_you_see_as_second_sentence": 7,
+ "videos_with_late_explainer_turn_after_30pct": 13,
+ "videos_with_question": 15,
+ "videos_with_it_is_called": 4,
+ "videos_with_analogy_turn": 1,
+ "question_positions_all": [
+  0.09,
+  0.09,
+  0.11,
+  0.13,
+  0.14,
+  0.17,
+  0.21,
+  0.22,
+  0.26,
+  0.29,
+  0.3,
+  0.32,
+  0.35,
+  0.37,
+  0.46,
+  0.54,
+  0.6,
+  0.64,
+  0.7,
+  0.7,
+  0.71,
+  0.73,
+  0.76
+ ],
+ "you_see_positions_all": [
+  0.04,
+  0.04,
+  0.05,
+  0.05,
+  0.06,
+  0.07,
+  0.07,
+  0.15,
+  0.65,
+  0.65,
+  0.66,
+  0.71,
+  0.75,
+  0.76,
+  0.81,
+  0.81,
+  0.87,
+  0.91
+ ],
+ "videos": [
+  {
+   "video": "01_NpRAk-5VKlo",
+   "sentences": 22,
+   "words": 204,
+   "opener_share": {
+    "you see": 0.048,
+    "conjunction (so / and / but / then ...)": 0.333,
+    "pronoun (he / they / it / you ...)": 0.19,
+    "other": 0.19,
+    "article or determiner (the / his / a / every ...)": 0.19,
+    "well": 0.048
+   },
+   "conjunction_opener_share": 0.333,
+   "hook_form": "if you + consequence",
+   "hook_first_two_words": "if you",
+   "hook_has_comma_or_and_but_turn": true,
+   "syllables_per_word": 1.338,
+   "words_ge_3_syllables_share": 0.059,
+   "letters_per_word": 4.35,
+   "flesch_reading_ease": 84.2,
+   "flesch_kincaid_grade": 3.8,
+   "contractions_per_100w": 5.39,
+   "numbers_per_script": 4,
+   "like_similes": 2,
+   "just_per_100w": 0.49,
+   "speech_verb_sentences": 2,
+   "first_person_sentences_proxy_for_direct_speech": 0,
+   "first_person_sentence_positions": [],
+   "time_jump_phrases": 2,
+   "question_positions": [
+    0.21,
+    0.46,
+    0.54
+   ],
+   "you_see_positions": [
+    0.06
+   ],
+   "well_positions": [
+    0.58
+   ],
+   "it_is_called_positions": [],
+   "analogy_turn_positions": [],
+   "capitalised_mid_sentence_words_n": 3,
+   "sentence_len_first_half_mean": 8.5,
+   "sentence_len_second_half_mean": 10.0,
+   "last_sentence_start_rel": 0.909,
+   "second_sentence_starts_you_see": true,
+   "explainer_turn_rel": 0.58
+  },
+  {
+   "video": "02_7dGWuCeZ8Ic",
+   "sentences": 15,
+   "words": 216,
+   "opener_share": {
+    "pronoun (he / they / it / you ...)": 0.286,
+    "conjunction (so / and / but / then ...)": 0.429,
+    "interjection or imperative": 0.143,
+    "other": 0.071,
+    "you see": 0.071
+   },
+   "conjunction_opener_share": 0.429,
+   "hook_form": "he/they + past-tense action",
+   "hook_first_two_words": "he dug",
+   "hook_has_comma_or_and_but_turn": true,
+   "syllables_per_word": 1.218,
+   "words_ge_3_syllables_share": 0.028,
+   "letters_per_word": 3.97,
+   "flesch_reading_ease": 89.2,
+   "flesch_kincaid_grade": 4.4,
+   "contractions_per_100w": 3.24,
+   "numbers_per_script": 5,
+   "like_similes": 0,
+   "just_per_100w": 0.93,
+   "speech_verb_sentences": 2,
+   "first_person_sentences_proxy_for_direct_speech": 0,
+   "first_person_sentence_positions": [],
+   "time_jump_phrases": 3,
+   "question_positions": [
+    0.13
+   ],
+   "you_see_positions": [
+    0.75
+   ],
+   "well_positions": [],
+   "it_is_called_positions": [],
+   "analogy_turn_positions": [],
+   "capitalised_mid_sentence_words_n": 1,
+   "sentence_len_first_half_mean": 13.4,
+   "sentence_len_second_half_mean": 15.2,
+   "last_sentence_start_rel": 0.886,
+   "second_sentence_starts_you_see": false,
+   "explainer_turn_rel": 0.75
+  },
+  {
+   "video": "03_R-mWVMM-LAs",
+   "sentences": 20,
+   "words": 213,
+   "opener_share": {
+    "you see": 0.053,
+    "conjunction (so / and / but / then ...)": 0.526,
+    "article or determiner (the / his / a / every ...)": 0.105,
+    "interjection or imperative": 0.053,
+    "pronoun (he / they / it / you ...)": 0.158,
+    "time or place (at / by / soon / in ...)": 0.053,
+    "well": 0.053
+   },
+   "conjunction_opener_share": 0.526,
+   "hook_form": "he/they + past-tense action",
+   "hook_first_two_words": "he rolled",
+   "hook_has_comma_or_and_but_turn": true,
+   "syllables_per_word": 1.286,
+   "words_ge_3_syllables_share": 0.033,
+   "letters_per_word": 4.03,
+   "flesch_reading_ease": 87.2,
+   "flesch_kincaid_grade": 3.7,
+   "contractions_per_100w": 3.76,
+   "numbers_per_script": 5,
+   "like_similes": 1,
+   "just_per_100w": 0.47,
+   "speech_verb_sentences": 0,
+   "first_person_sentences_proxy_for_direct_speech": 1,
+   "first_person_sentence_positions": [
+    0.25
+   ],
+   "time_jump_phrases": 1,
+   "question_positions": [
+    0.22,
+    0.7
+   ],
+   "you_see_positions": [
+    0.07
+   ],
+   "well_positions": [
+    0.72
+   ],
+   "it_is_called_positions": [
+    0.72
+   ],
+   "analogy_turn_positions": [],
+   "capitalised_mid_sentence_words_n": 0,
+   "sentence_len_first_half_mean": 10.1,
+   "sentence_len_second_half_mean": 11.2,
+   "last_sentence_start_rel": 0.972,
+   "second_sentence_starts_you_see": true,
+   "explainer_turn_rel": 0.72
+  },
+  {
+   "video": "04_aD73kaL_PtY",
+   "sentences": 17,
+   "words": 217,
+   "opener_share": {
+    "you see": 0.062,
+    "conjunction (so / and / but / then ...)": 0.438,
+    "article or determiner (the / his / a / every ...)": 0.125,
+    "time or place (at / by / soon / in ...)": 0.125,
+    "pronoun (he / they / it / you ...)": 0.125,
+    "well": 0.062,
+    "other": 0.062
+   },
+   "conjunction_opener_share": 0.438,
+   "hook_form": "if you + consequence",
+   "hook_first_two_words": "if you",
+   "hook_has_comma_or_and_but_turn": true,
+   "syllables_per_word": 1.304,
+   "words_ge_3_syllables_share": 0.046,
+   "letters_per_word": 4.14,
+   "flesch_reading_ease": 83.5,
+   "flesch_kincaid_grade": 4.8,
+   "contractions_per_100w": 2.3,
+   "numbers_per_script": 3,
+   "like_similes": 1,
+   "just_per_100w": 0.46,
+   "speech_verb_sentences": 1,
+   "first_person_sentences_proxy_for_direct_speech": 0,
+   "first_person_sentence_positions": [],
+   "time_jump_phrases": 2,
+   "question_positions": [
+    0.71
+   ],
+   "you_see_positions": [
+    0.07
+   ],
+   "well_positions": [
+    0.73
+   ],
+   "it_is_called_positions": [
+    0.73
+   ],
+   "analogy_turn_positions": [],
+   "capitalised_mid_sentence_words_n": 0,
+   "sentence_len_first_half_mean": 13.5,
+   "sentence_len_second_half_mean": 12.1,
+   "last_sentence_start_rel": 0.919,
+   "second_sentence_starts_you_see": true,
+   "explainer_turn_rel": 0.73
+  },
+  {
+   "video": "05_TRUkQ1wbV2E",
+   "sentences": 26,
+   "words": 231,
+   "opener_share": {
+    "article or determiner (the / his / a / every ...)": 0.08,
+    "conjunction (so / and / but / then ...)": 0.48,
+    "you see": 0.04,
+    "pronoun (he / they / it / you ...)": 0.12,
+    "time or place (at / by / soon / in ...)": 0.04,
+    "other": 0.24
+   },
+   "conjunction_opener_share": 0.48,
+   "hook_form": "he/they + past-tense action",
+   "hook_first_two_words": "he loaded",
+   "hook_has_comma_or_and_but_turn": true,
+   "syllables_per_word": 1.221,
+   "words_ge_3_syllables_share": 0.03,
+   "letters_per_word": 3.88,
+   "flesch_reading_ease": 94.5,
+   "flesch_kincaid_grade": 2.3,
+   "contractions_per_100w": 3.46,
+   "numbers_per_script": 5,
+   "like_similes": 1,
+   "just_per_100w": 1.3,
+   "speech_verb_sentences": 1,
+   "first_person_sentences_proxy_for_direct_speech": 1,
+   "first_person_sentence_positions": [
+    0.11
+   ],
+   "time_jump_phrases": 1,
+   "question_positions": [
+    0.11,
+    0.64
+   ],
+   "you_see_positions": [
+    0.15
+   ],
+   "well_positions": [],
+   "it_is_called_positions": [
+    0.15
+   ],
+   "analogy_turn_positions": [],
+   "capitalised_mid_sentence_words_n": 0,
+   "sentence_len_first_half_mean": 9.8,
+   "sentence_len_second_half_mean": 8.0,
+   "last_sentence_start_rel": 0.966,
+   "second_sentence_starts_you_see": false,
+   "explainer_turn_rel": null
+  },
+  {
+   "video": "06_i4hYq1oSXTg",
+   "sentences": 18,
+   "words": 235,
+   "opener_share": {
+    "conjunction (so / and / but / then ...)": 0.294,
+    "article or determiner (the / his / a / every ...)": 0.471,
+    "pronoun (he / they / it / you ...)": 0.059,
+    "other": 0.118,
+    "interjection or imperative": 0.059
+   },
+   "conjunction_opener_share": 0.294,
+   "hook_form": "he/they + past-tense action",
+   "hook_first_two_words": "he drilled",
+   "hook_has_comma_or_and_but_turn": true,
+   "syllables_per_word": 1.289,
+   "words_ge_3_syllables_share": 0.047,
+   "letters_per_word": 4.14,
+   "flesch_reading_ease": 84.5,
+   "flesch_kincaid_grade": 4.7,
+   "contractions_per_100w": 1.7,
+   "numbers_per_script": 9,
+   "like_similes": 1,
+   "just_per_100w": 0.43,
+   "speech_verb_sentences": 2,
+   "first_person_sentences_proxy_for_direct_speech": 2,
+   "first_person_sentence_positions": [
+    0.14,
+    0.51
+   ],
+   "time_jump_phrases": 2,
+   "question_positions": [
+    0.14
+   ],
+   "you_see_positions": [],
+   "well_positions": [],
+   "it_is_called_positions": [],
+   "analogy_turn_positions": [],
+   "capitalised_mid_sentence_words_n": 1,
+   "sentence_len_first_half_mean": 11.3,
+   "sentence_len_second_half_mean": 14.8,
+   "last_sentence_start_rel": 0.974,
+   "second_sentence_starts_you_see": false,
+   "explainer_turn_rel": null
+  },
+  {
+   "video": "07_e9NoHjAXYIY",
+   "sentences": 20,
+   "words": 237,
+   "opener_share": {
+    "pronoun (he / they / it / you ...)": 0.211,
+    "conjunction (so / and / but / then ...)": 0.421,
+    "article or determiner (the / his / a / every ...)": 0.211,
+    "time or place (at / by / soon / in ...)": 0.053,
+    "interjection or imperative": 0.105
+   },
+   "conjunction_opener_share": 0.421,
+   "hook_form": "he/they + past-tense action",
+   "hook_first_two_words": "he slammed",
+   "hook_has_comma_or_and_but_turn": true,
+   "syllables_per_word": 1.295,
+   "words_ge_3_syllables_share": 0.051,
+   "letters_per_word": 4.02,
+   "flesch_reading_ease": 85.2,
+   "flesch_kincaid_grade": 4.3,
+   "contractions_per_100w": 3.8,
+   "numbers_per_script": 3,
+   "like_similes": 0,
+   "just_per_100w": 1.27,
+   "speech_verb_sentences": 1,
+   "first_person_sentences_proxy_for_direct_speech": 1,
+   "first_person_sentence_positions": [
+    0.59
+   ],
+   "time_jump_phrases": 2,
+   "question_positions": [],
+   "you_see_positions": [],
+   "well_positions": [],
+   "it_is_called_positions": [],
+   "analogy_turn_positions": [],
+   "capitalised_mid_sentence_words_n": 0,
+   "sentence_len_first_half_mean": 12.4,
+   "sentence_len_second_half_mean": 11.3,
+   "last_sentence_start_rel": 0.964,
+   "second_sentence_starts_you_see": false,
+   "explainer_turn_rel": null
+  },
+  {
+   "video": "08_QlDPMzGmYac",
+   "sentences": 18,
+   "words": 237,
+   "opener_share": {
+    "you see": 0.118,
+    "conjunction (so / and / but / then ...)": 0.471,
+    "other": 0.059,
+    "interjection or imperative": 0.118,
+    "article or determiner (the / his / a / every ...)": 0.235
+   },
+   "conjunction_opener_share": 0.471,
+   "hook_form": "he/they + past-tense action",
+   "hook_first_two_words": "he bent",
+   "hook_has_comma_or_and_but_turn": false,
+   "syllables_per_word": 1.257,
+   "words_ge_3_syllables_share": 0.021,
+   "letters_per_word": 3.94,
+   "flesch_reading_ease": 87.1,
+   "flesch_kincaid_grade": 4.4,
+   "contractions_per_100w": 1.69,
+   "numbers_per_script": 5,
+   "like_similes": 2,
+   "just_per_100w": 0.42,
+   "speech_verb_sentences": 1,
+   "first_person_sentences_proxy_for_direct_speech": 0,
+   "first_person_sentence_positions": [],
+   "time_jump_phrases": 1,
+   "question_positions": [
+    0.3
+   ],
+   "you_see_positions": [
+    0.04,
+    0.65
+   ],
+   "well_positions": [],
+   "it_is_called_positions": [],
+   "analogy_turn_positions": [],
+   "capitalised_mid_sentence_words_n": 0,
+   "sentence_len_first_half_mean": 10.7,
+   "sentence_len_second_half_mean": 15.7,
+   "last_sentence_start_rel": 0.946,
+   "second_sentence_starts_you_see": true,
+   "explainer_turn_rel": 0.65
+  },
+  {
+   "video": "09_HxqtHI62otM",
+   "sentences": 20,
+   "words": 237,
+   "opener_share": {
+    "article or determiner (the / his / a / every ...)": 0.158,
+    "other": 0.158,
+    "conjunction (so / and / but / then ...)": 0.421,
+    "interjection or imperative": 0.053,
+    "time or place (at / by / soon / in ...)": 0.105,
+    "pronoun (he / they / it / you ...)": 0.053,
+    "you see": 0.053
+   },
+   "conjunction_opener_share": 0.421,
+   "hook_form": "he/they + past-tense action",
+   "hook_first_two_words": "they painted",
+   "hook_has_comma_or_and_but_turn": true,
+   "syllables_per_word": 1.304,
+   "words_ge_3_syllables_share": 0.051,
+   "letters_per_word": 4.15,
+   "flesch_reading_ease": 84.5,
+   "flesch_kincaid_grade": 4.4,
+   "contractions_per_100w": 1.27,
+   "numbers_per_script": 13,
+   "like_similes": 0,
+   "just_per_100w": 0.42,
+   "speech_verb_sentences": 2,
+   "first_person_sentences_proxy_for_direct_speech": 0,
+   "first_person_sentence_positions": [],
+   "time_jump_phrases": 3,
+   "question_positions": [],
+   "you_see_positions": [
+    0.81
+   ],
+   "well_positions": [],
+   "it_is_called_positions": [],
+   "analogy_turn_positions": [],
+   "capitalised_mid_sentence_words_n": 0,
+   "sentence_len_first_half_mean": 13.6,
+   "sentence_len_second_half_mean": 10.1,
+   "last_sentence_start_rel": 0.956,
+   "second_sentence_starts_you_see": false,
+   "explainer_turn_rel": 0.81
+  },
+  {
+   "video": "10_7xS87iActkU",
+   "sentences": 21,
+   "words": 218,
+   "opener_share": {
+    "you see": 0.05,
+    "conjunction (so / and / but / then ...)": 0.3,
+    "pronoun (he / they / it / you ...)": 0.1,
+    "article or determiner (the / his / a / every ...)": 0.25,
+    "time or place (at / by / soon / in ...)": 0.15,
+    "interjection or imperative": 0.1,
+    "other": 0.05
+   },
+   "conjunction_opener_share": 0.3,
+   "hook_form": "he/they + past-tense action",
+   "hook_first_two_words": "he sawed",
+   "hook_has_comma_or_and_but_turn": false,
+   "syllables_per_word": 1.417,
+   "words_ge_3_syllables_share": 0.096,
+   "letters_per_word": 4.48,
+   "flesch_reading_ease": 76.4,
+   "flesch_kincaid_grade": 5.2,
+   "contractions_per_100w": 1.83,
+   "numbers_per_script": 5,
+   "like_similes": 2,
+   "just_per_100w": 0.0,
+   "speech_verb_sentences": 1,
+   "first_person_sentences_proxy_for_direct_speech": 1,
+   "first_person_sentence_positions": [
+    0.28
+   ],
+   "time_jump_phrases": 2,
+   "question_positions": [
+    0.7
+   ],
+   "you_see_positions": [
+    0.05
+   ],
+   "well_positions": [],
+   "it_is_called_positions": [],
+   "analogy_turn_positions": [],
+   "capitalised_mid_sentence_words_n": 3,
+   "sentence_len_first_half_mean": 12.0,
+   "sentence_len_second_half_mean": 8.9,
+   "last_sentence_start_rel": 0.911,
+   "second_sentence_starts_you_see": true,
+   "explainer_turn_rel": null
+  },
+  {
+   "video": "11_Mz72MuPgnGY",
+   "sentences": 21,
+   "words": 247,
+   "opener_share": {
+    "article or determiner (the / his / a / every ...)": 0.15,
+    "conjunction (so / and / but / then ...)": 0.45,
+    "pronoun (he / they / it / you ...)": 0.1,
+    "interjection or imperative": 0.05,
+    "other": 0.15,
+    "time or place (at / by / soon / in ...)": 0.05,
+    "you see": 0.05
+   },
+   "conjunction_opener_share": 0.45,
+   "hook_form": "he/they + past-tense action",
+   "hook_first_two_words": "he poured",
+   "hook_has_comma_or_and_but_turn": true,
+   "syllables_per_word": 1.235,
+   "words_ge_3_syllables_share": 0.032,
+   "letters_per_word": 4.05,
+   "flesch_reading_ease": 90.4,
+   "flesch_kincaid_grade": 3.6,
+   "contractions_per_100w": 3.64,
+   "numbers_per_script": 1,
+   "like_similes": 0,
+   "just_per_100w": 1.21,
+   "speech_verb_sentences": 2,
+   "first_person_sentences_proxy_for_direct_speech": 1,
+   "first_person_sentence_positions": [
+    0.09
+   ],
+   "time_jump_phrases": 0,
+   "question_positions": [
+    0.09,
+    0.37,
+    0.73
+   ],
+   "you_see_positions": [
+    0.66
+   ],
+   "well_positions": [],
+   "it_is_called_positions": [
+    0.71
+   ],
+   "analogy_turn_positions": [
+    0.73
+   ],
+   "capitalised_mid_sentence_words_n": 0,
+   "sentence_len_first_half_mean": 10.6,
+   "sentence_len_second_half_mean": 12.8,
+   "last_sentence_start_rel": 0.935,
+   "second_sentence_starts_you_see": false,
+   "explainer_turn_rel": 0.66
+  },
+  {
+   "video": "12_5WMQhPObNqQ",
+   "sentences": 19,
+   "words": 244,
+   "opener_share": {
+    "article or determiner (the / his / a / every ...)": 0.167,
+    "pronoun (he / they / it / you ...)": 0.056,
+    "interjection or imperative": 0.222,
+    "well": 0.056,
+    "other": 0.056,
+    "conjunction (so / and / but / then ...)": 0.278,
+    "time or place (at / by / soon / in ...)": 0.111,
+    "you see": 0.056
+   },
+   "conjunction_opener_share": 0.278,
+   "hook_form": "he/they + past-tense action",
+   "hook_first_two_words": "he bet",
+   "hook_has_comma_or_and_but_turn": false,
+   "syllables_per_word": 1.27,
+   "words_ge_3_syllables_share": 0.033,
+   "letters_per_word": 3.95,
+   "flesch_reading_ease": 86.3,
+   "flesch_kincaid_grade": 4.4,
+   "contractions_per_100w": 2.05,
+   "numbers_per_script": 5,
+   "like_similes": 0,
+   "just_per_100w": 0.82,
+   "speech_verb_sentences": 0,
+   "first_person_sentences_proxy_for_direct_speech": 0,
+   "first_person_sentence_positions": [],
+   "time_jump_phrases": 1,
+   "question_positions": [
+    0.17
+   ],
+   "you_see_positions": [
+    0.71
+   ],
+   "well_positions": [
+    0.2
+   ],
+   "it_is_called_positions": [],
+   "analogy_turn_positions": [],
+   "capitalised_mid_sentence_words_n": 1,
+   "sentence_len_first_half_mean": 11.7,
+   "sentence_len_second_half_mean": 13.9,
+   "last_sentence_start_rel": 0.9,
+   "second_sentence_starts_you_see": false,
+   "explainer_turn_rel": 0.71
+  },
+  {
+   "video": "13_ZDy3xXA2iHk",
+   "sentences": 21,
+   "words": 245,
+   "opener_share": {
+    "article or determiner (the / his / a / every ...)": 0.2,
+    "time or place (at / by / soon / in ...)": 0.25,
+    "conjunction (so / and / but / then ...)": 0.35,
+    "pronoun (he / they / it / you ...)": 0.1,
+    "interjection or imperative": 0.05,
+    "other": 0.05
+   },
+   "conjunction_opener_share": 0.35,
+   "hook_form": "there is + premise",
+   "hook_first_two_words": "there's a",
+   "hook_has_comma_or_and_but_turn": true,
+   "syllables_per_word": 1.29,
+   "words_ge_3_syllables_share": 0.029,
+   "letters_per_word": 4.07,
+   "flesch_reading_ease": 85.9,
+   "flesch_kincaid_grade": 4.2,
+   "contractions_per_100w": 2.86,
+   "numbers_per_script": 7,
+   "like_similes": 2,
+   "just_per_100w": 0.41,
+   "speech_verb_sentences": 2,
+   "first_person_sentences_proxy_for_direct_speech": 1,
+   "first_person_sentence_positions": [
+    0.97
+   ],
+   "time_jump_phrases": 3,
+   "question_positions": [],
+   "you_see_positions": [],
+   "well_positions": [],
+   "it_is_called_positions": [],
+   "analogy_turn_positions": [],
+   "capitalised_mid_sentence_words_n": 2,
+   "sentence_len_first_half_mean": 12.4,
+   "sentence_len_second_half_mean": 11.0,
+   "last_sentence_start_rel": 0.974,
+   "second_sentence_starts_you_see": false,
+   "explainer_turn_rel": null
+  },
+  {
+   "video": "14_LC8hYwUZ-kU",
+   "sentences": 20,
+   "words": 219,
+   "opener_share": {
+    "interjection or imperative": 0.053,
+    "article or determiner (the / his / a / every ...)": 0.158,
+    "pronoun (he / they / it / you ...)": 0.263,
+    "conjunction (so / and / but / then ...)": 0.316,
+    "other": 0.158,
+    "you see": 0.053
+   },
+   "conjunction_opener_share": 0.316,
+   "hook_form": "claim or paradox about the world",
+   "hook_first_two_words": "the fastest",
+   "hook_has_comma_or_and_but_turn": true,
+   "syllables_per_word": 1.26,
+   "words_ge_3_syllables_share": 0.041,
+   "letters_per_word": 3.96,
+   "flesch_reading_ease": 89.1,
+   "flesch_kincaid_grade": 3.6,
+   "contractions_per_100w": 2.74,
+   "numbers_per_script": 5,
+   "like_similes": 0,
+   "just_per_100w": 1.83,
+   "speech_verb_sentences": 2,
+   "first_person_sentences_proxy_for_direct_speech": 0,
+   "first_person_sentence_positions": [],
+   "time_jump_phrases": 0,
+   "question_positions": [
+    0.35
+   ],
+   "you_see_positions": [
+    0.65
+   ],
+   "well_positions": [],
+   "it_is_called_positions": [],
+   "analogy_turn_positions": [],
+   "capitalised_mid_sentence_words_n": 3,
+   "sentence_len_first_half_mean": 12.0,
+   "sentence_len_second_half_mean": 9.9,
+   "last_sentence_start_rel": 0.939,
+   "second_sentence_starts_you_see": false,
+   "explainer_turn_rel": 0.65
+  },
+  {
+   "video": "15_t3OXkhlI6NQ",
+   "sentences": 22,
+   "words": 295,
+   "opener_share": {
+    "you see": 0.048,
+    "other": 0.238,
+    "article or determiner (the / his / a / every ...)": 0.238,
+    "time or place (at / by / soon / in ...)": 0.095,
+    "conjunction (so / and / but / then ...)": 0.286,
+    "pronoun (he / they / it / you ...)": 0.095
+   },
+   "conjunction_opener_share": 0.286,
+   "hook_form": "he/they + past-tense action",
+   "hook_first_two_words": "he sold",
+   "hook_has_comma_or_and_but_turn": false,
+   "syllables_per_word": 1.322,
+   "words_ge_3_syllables_share": 0.054,
+   "letters_per_word": 3.99,
+   "flesch_reading_ease": 81.4,
+   "flesch_kincaid_grade": 5.2,
+   "contractions_per_100w": 1.69,
+   "numbers_per_script": 6,
+   "like_similes": 0,
+   "just_per_100w": 0.34,
+   "speech_verb_sentences": 3,
+   "first_person_sentences_proxy_for_direct_speech": 1,
+   "first_person_sentence_positions": [
+    0.84
+   ],
+   "time_jump_phrases": 3,
+   "question_positions": [],
+   "you_see_positions": [
+    0.04
+   ],
+   "well_positions": [],
+   "it_is_called_positions": [],
+   "analogy_turn_positions": [],
+   "capitalised_mid_sentence_words_n": 2,
+   "sentence_len_first_half_mean": 13.5,
+   "sentence_len_second_half_mean": 13.4,
+   "last_sentence_start_rel": 0.99,
+   "second_sentence_starts_you_see": true,
+   "explainer_turn_rel": null
+  },
+  {
+   "video": "16_DEe0iKH4KIw",
+   "sentences": 26,
+   "words": 231,
+   "opener_share": {
+    "other": 0.24,
+    "conjunction (so / and / but / then ...)": 0.28,
+    "pronoun (he / they / it / you ...)": 0.24,
+    "article or determiner (the / his / a / every ...)": 0.12,
+    "interjection or imperative": 0.08,
+    "time or place (at / by / soon / in ...)": 0.04
+   },
+   "conjunction_opener_share": 0.28,
+   "hook_form": "imperative (look at / imagine)",
+   "hook_first_two_words": "look at",
+   "hook_has_comma_or_and_but_turn": false,
+   "syllables_per_word": 1.32,
+   "words_ge_3_syllables_share": 0.065,
+   "letters_per_word": 4.13,
+   "flesch_reading_ease": 86.1,
+   "flesch_kincaid_grade": 3.5,
+   "contractions_per_100w": 1.73,
+   "numbers_per_script": 9,
+   "like_similes": 1,
+   "just_per_100w": 0.43,
+   "speech_verb_sentences": 1,
+   "first_person_sentences_proxy_for_direct_speech": 0,
+   "first_person_sentence_positions": [],
+   "time_jump_phrases": 1,
+   "question_positions": [
+    0.32,
+    0.76
+   ],
+   "you_see_positions": [],
+   "well_positions": [],
+   "it_is_called_positions": [],
+   "analogy_turn_positions": [],
+   "capitalised_mid_sentence_words_n": 0,
+   "sentence_len_first_half_mean": 11.0,
+   "sentence_len_second_half_mean": 6.8,
+   "last_sentence_start_rel": 0.963,
+   "second_sentence_starts_you_see": false,
+   "explainer_turn_rel": null
+  },
+  {
+   "video": "17_GM9UKnZ6JFw",
+   "sentences": 20,
+   "words": 220,
+   "opener_share": {
+    "you see": 0.105,
+    "conjunction (so / and / but / then ...)": 0.316,
+    "article or determiner (the / his / a / every ...)": 0.263,
+    "pronoun (he / they / it / you ...)": 0.211,
+    "interjection or imperative": 0.053,
+    "well": 0.053
+   },
+   "conjunction_opener_share": 0.316,
+   "hook_form": "he/they + past-tense action",
+   "hook_first_two_words": "they buried",
+   "hook_has_comma_or_and_but_turn": true,
+   "syllables_per_word": 1.236,
+   "words_ge_3_syllables_share": 0.036,
+   "letters_per_word": 3.96,
+   "flesch_reading_ease": 91.1,
+   "flesch_kincaid_grade": 3.3,
+   "contractions_per_100w": 1.82,
+   "numbers_per_script": 5,
+   "like_similes": 0,
+   "just_per_100w": 0.45,
+   "speech_verb_sentences": 1,
+   "first_person_sentences_proxy_for_direct_speech": 1,
+   "first_person_sentence_positions": [
+    0.42
+   ],
+   "time_jump_phrases": 1,
+   "question_positions": [
+    0.6
+   ],
+   "you_see_positions": [
+    0.05,
+    0.91
+   ],
+   "well_positions": [
+    0.62
+   ],
+   "it_is_called_positions": [],
+   "analogy_turn_positions": [],
+   "capitalised_mid_sentence_words_n": 1,
+   "sentence_len_first_half_mean": 10.9,
+   "sentence_len_second_half_mean": 11.1,
+   "last_sentence_start_rel": 0.971,
+   "second_sentence_starts_you_see": true,
+   "explainer_turn_rel": 0.91
+  },
+  {
+   "video": "18_VKsamN3Fk4U",
+   "sentences": 14,
+   "words": 202,
+   "opener_share": {
+    "interjection or imperative": 0.154,
+    "article or determiner (the / his / a / every ...)": 0.154,
+    "time or place (at / by / soon / in ...)": 0.154,
+    "conjunction (so / and / but / then ...)": 0.385,
+    "other": 0.077,
+    "you see": 0.077
+   },
+   "conjunction_opener_share": 0.385,
+   "hook_form": "he/they + past-tense action",
+   "hook_first_two_words": "he scanned",
+   "hook_has_comma_or_and_but_turn": true,
+   "syllables_per_word": 1.416,
+   "words_ge_3_syllables_share": 0.079,
+   "letters_per_word": 4.32,
+   "flesch_reading_ease": 72.4,
+   "flesch_kincaid_grade": 6.7,
+   "contractions_per_100w": 1.49,
+   "numbers_per_script": 6,
+   "like_similes": 1,
+   "just_per_100w": 0.99,
+   "speech_verb_sentences": 3,
+   "first_person_sentences_proxy_for_direct_speech": 1,
+   "first_person_sentence_positions": [
+    0.1
+   ],
+   "time_jump_phrases": 2,
+   "question_positions": [],
+   "you_see_positions": [
+    0.76
+   ],
+   "well_positions": [],
+   "it_is_called_positions": [],
+   "analogy_turn_positions": [],
+   "capitalised_mid_sentence_words_n": 0,
+   "sentence_len_first_half_mean": 17.0,
+   "sentence_len_second_half_mean": 11.9,
+   "last_sentence_start_rel": 0.888,
+   "second_sentence_starts_you_see": false,
+   "explainer_turn_rel": 0.76
+  },
+  {
+   "video": "19_0m6G8pDtzNs",
+   "sentences": 18,
+   "words": 225,
+   "opener_share": {
+    "interjection or imperative": 0.176,
+    "article or determiner (the / his / a / every ...)": 0.235,
+    "conjunction (so / and / but / then ...)": 0.412,
+    "time or place (at / by / soon / in ...)": 0.059,
+    "pronoun (he / they / it / you ...)": 0.059,
+    "you see": 0.059
+   },
+   "conjunction_opener_share": 0.412,
+   "hook_form": "claim or paradox about the world",
+   "hook_first_two_words": "it's impossible",
+   "hook_has_comma_or_and_but_turn": true,
+   "syllables_per_word": 1.302,
+   "words_ge_3_syllables_share": 0.071,
+   "letters_per_word": 4.11,
+   "flesch_reading_ease": 84.0,
+   "flesch_kincaid_grade": 4.7,
+   "contractions_per_100w": 3.56,
+   "numbers_per_script": 4,
+   "like_similes": 1,
+   "just_per_100w": 1.33,
+   "speech_verb_sentences": 3,
+   "first_person_sentences_proxy_for_direct_speech": 1,
+   "first_person_sentence_positions": [
+    0.29
+   ],
+   "time_jump_phrases": 2,
+   "question_positions": [
+    0.29
+   ],
+   "you_see_positions": [
+    0.81
+   ],
+   "well_positions": [],
+   "it_is_called_positions": [],
+   "analogy_turn_positions": [],
+   "capitalised_mid_sentence_words_n": 4,
+   "sentence_len_first_half_mean": 9.9,
+   "sentence_len_second_half_mean": 15.1,
+   "last_sentence_start_rel": 0.911,
+   "second_sentence_starts_you_see": false,
+   "explainer_turn_rel": 0.81
+  },
+  {
+   "video": "20_nzbkkEZFM8g",
+   "sentences": 14,
+   "words": 239,
+   "opener_share": {
+    "article or determiner (the / his / a / every ...)": 0.154,
+    "conjunction (so / and / but / then ...)": 0.308,
+    "pronoun (he / they / it / you ...)": 0.308,
+    "time or place (at / by / soon / in ...)": 0.154,
+    "you see": 0.077
+   },
+   "conjunction_opener_share": 0.308,
+   "hook_form": "he/they + past-tense action",
+   "hook_first_two_words": "a man",
+   "hook_has_comma_or_and_but_turn": true,
+   "syllables_per_word": 1.251,
+   "words_ge_3_syllables_share": 0.067,
+   "letters_per_word": 3.93,
+   "flesch_reading_ease": 83.7,
+   "flesch_kincaid_grade": 5.8,
+   "contractions_per_100w": 1.26,
+   "numbers_per_script": 7,
+   "like_similes": 0,
+   "just_per_100w": 0.0,
+   "speech_verb_sentences": 2,
+   "first_person_sentences_proxy_for_direct_speech": 0,
+   "first_person_sentence_positions": [],
+   "time_jump_phrases": 7,
+   "question_positions": [
+    0.09,
+    0.26
+   ],
+   "you_see_positions": [
+    0.87
+   ],
+   "well_positions": [],
+   "it_is_called_positions": [],
+   "analogy_turn_positions": [],
+   "capitalised_mid_sentence_words_n": 1,
+   "sentence_len_first_half_mean": 16.7,
+   "sentence_len_second_half_mean": 17.4,
+   "last_sentence_start_rel": 0.932,
+   "second_sentence_starts_you_see": false,
+   "explainer_turn_rel": 0.87
+  }
+ ]
+}
