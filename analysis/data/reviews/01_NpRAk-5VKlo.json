@@ -1,0 +1,693 @@
+{
+ "video": "01_NpRAk-5VKlo",
+ "joins_verified": [
+  {
+   "t": 13.87,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Briefing room cross-fades into sleeping-bag quarters; double exposure in middle tiles (f413-418)."
+  },
+  {
+   "t": 16.57,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Dark crew bay fades to close-up of hero with toilet ghosted in; short 6f blend."
+  },
+  {
+   "t": 17.77,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Hero by toilet fades to dark exterior with a small planet and morning character; 14f."
+  },
+  {
+   "t": 23.67,
+   "auto_type": "inplace_blend",
+   "verdict": "dissolve",
+   "note": "Cockpit shot fades to a star-map card on black; framing differs, so really a dissolve."
+  },
+  {
+   "t": 25.53,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Star map fades into radio panel close-up, double exposure visible."
+  },
+  {
+   "t": 26.77,
+   "auto_type": "cut",
+   "verdict": "cut",
+   "note": "Radio panel to Mission Control with OFF COURSE screen; hard cut."
+  },
+  {
+   "t": 27.28,
+   "auto_type": "inplace_blend",
+   "verdict": "in_place_change",
+   "note": "Same Mission Control framing; the speaker's mouth/expression swaps (drifting to off)."
+  },
+  {
+   "t": 27.58,
+   "auto_type": "inplace_blend",
+   "verdict": "in_place_change",
+   "note": "Same framing; speaker mouth shape changes on 'course'."
+  },
+  {
+   "t": 28.28,
+   "auto_type": "inplace_blend",
+   "verdict": "in_place_change",
+   "note": "Same framing; speaker's mouth opens wider on 'flushed'."
+  },
+  {
+   "t": 28.9,
+   "auto_type": "cut",
+   "verdict": "cut",
+   "note": "Mission Control to astronaut in porthole window; hard cut."
+  },
+  {
+   "t": 33.38,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Drifting ship in space cross-fades to the toilet room with two astronauts."
+  },
+  {
+   "t": 40.68,
+   "auto_type": "inplace_blend",
+   "verdict": "camera_move",
+   "note": "Space particles to hull close-up; scene is a continuous fly-through with fast camera move, not a true join."
+  },
+  {
+   "t": 42.75,
+   "auto_type": "inplace_blend",
+   "verdict": "camera_move",
+   "note": "Hull windows pan into a vertical ship-tip shot; fast move with ghosting."
+  },
+  {
+   "t": 52.03,
+   "auto_type": "cut",
+   "verdict": "cut",
+   "note": "Spray glitter by hull to three astronauts in a cockpit window; hard cut."
+  },
+  {
+   "t": 55.73,
+   "auto_type": "cut",
+   "verdict": "cut",
+   "note": "Astronauts in cockpit to phone showing a searching map over stars; hard cut."
+  },
+  {
+   "t": 57.9,
+   "auto_type": "cut",
+   "verdict": "cut",
+   "note": "Star field/phone to hero in seat with hat; hard cut."
+  },
+  {
+   "t": 59.4,
+   "auto_type": "cut",
+   "verdict": "cut",
+   "note": "Hero with telescope to brass-ringed scope view with two stars; hard cut."
+  },
+  {
+   "t": 60.13,
+   "auto_type": "cut",
+   "verdict": "cut",
+   "note": "Scope view with LOCK to ship flying away from camera with two stars ahead; hard cut."
+  }
+ ],
+ "missed_joins": [
+  {
+   "t": 1.17,
+   "type": "cut",
+   "note": "Bathroom hero shot cuts to exterior station window wide (f34 to f35), then a fast move to the ship above Earth."
+  },
+  {
+   "t": 10.0,
+   "type": "cut",
+   "note": "Mission Control wall screen shot cuts to closer shot with new guy in foreground; framing jumps (f300-301)."
+  },
+  {
+   "t": 40.1,
+   "type": "cut",
+   "note": "Vent tunnel with ring of light cuts to a burst of ice particles in space (f1202-1203), a match cut on the circle."
+  }
+ ],
+ "beats": [
+  {
+   "name": "hook",
+   "start": 0.0,
+   "end": 3.8,
+   "said": "Flushing a spaceship toilet means you never get back to Earth.",
+   "shown": "Hero beside toilet, then fast cut to ship above Earth and thruster flare."
+  },
+  {
+   "name": "setup",
+   "start": 3.8,
+   "end": 13.7,
+   "said": "Mission Control schedules flushes; rookie ignores tonight's ban and scoffs at it.",
+   "shown": "Mission Control room, GO/NO GO screens, crew desks, rookie rolling eyes."
+  },
+  {
+   "name": "escalation",
+   "start": 13.7,
+   "end": 23.4,
+   "said": "At night he secretly flushes; morning, navigator sees hundreds of new stars.",
+   "shown": "Sleeping bags, hero at toilet, navigator in cockpit with floating sparkle stars."
+  },
+  {
+   "name": "twist",
+   "start": 23.4,
+   "end": 32.9,
+   "said": "Stars are off the map, radio warns they are off course and drifting.",
+   "shown": "Star map card, radio, OFF COURSE screen, shouting controller, drifting ship."
+  },
+  {
+   "name": "explainer",
+   "start": 32.9,
+   "end": 43.9,
+   "said": "Spaceship toilets just vent into space, and each flush pushes the ship.",
+   "shown": "Toilet room Q and A, waste vent tunnel, ship hull with thrust nub."
+  },
+  {
+   "name": "payoff",
+   "start": 43.9,
+   "end": 52.0,
+   "said": "Spray freezes into ice crystals that glitter beside the ship.",
+   "shown": "Close-ups of boiling blob, freezing sphere, snowflake, glittering particle cloud by hull."
+  },
+  {
+   "name": "ending",
+   "start": 52.0,
+   "end": 61.2,
+   "said": "Crew cannot tell fakes from real; without GPS they match real stars.",
+   "shown": "Crew in cockpit, phone searching, hero with telescope, scope LOCK, ship flies off."
+  }
+ ],
+ "hook": {
+  "first_frame": "Smug boy in yellow vest with hands on hips beside a white toilet on a checkerboard floor, Earth in a porthole behind, toilet paper flying.",
+  "first_3s": "Hero smirks then closes eyes for ~1.1s, hard cut at 1.17s to exterior window, then a ship above Earth tilts and fires its thruster.",
+  "line_type": "second-person hypothetical (if you)",
+  "first_frame_shot_size": "medium-long",
+  "first_frame_subject": "protagonist posing with the key prop",
+  "protagonist_looks_at_camera": true,
+  "title_vs_first_line": "Title restates the topic as a question; the first line gives the dramatic consequence of the same act."
+ },
+ "story": {
+  "topic_type": "engineering/physics",
+  "setting_era": "future/space",
+  "structure": "act first, explain at the end",
+  "real_fact_core": "Spacecraft waste vented overboard freezes into glittering ice crystals and the vent gives tiny thrust, which could confuse star navigation.",
+  "likely_source_type": "invented parable",
+  "protagonist": "Rookie astronaut in yellow vest who breaks the flush rule",
+  "authority_or_antagonist": "Mission Control and a shouting controller; crewmates in red and purple uniforms",
+  "direct_speech_lines": 3,
+  "second_person": true,
+  "tense": "mixed",
+  "explainer_turn": "'But how' at 32.9s, then 'Well, a spaceship toilet' at 35.4s",
+  "ending_type": "explanation is the last line",
+  "call_to_action": "none"
+ },
+ "tone": {
+  "humour": "Absurd escalation from a toilet flush to being lost in space; exaggerated faces.",
+  "deadpan_or_irony": "Deadpan stakes with a rookie's smug eye-roll; faux-serious mission jargon.",
+  "dialogue_style": "Short shouted lines (It's a toilet! Who flushed?) inside fast narration; no pauses."
+ },
+ "characters": [
+  {
+   "role": "Rookie astronaut hero",
+   "head": "Large white circle, about a third of body height",
+   "hair_or_hat": "Brown swept hair tuft",
+   "eyes": "Two small black dots or half-closed lines, sometimes ringed pupils",
+   "mouth": "Simple black line or open mouth with teeth",
+   "body_and_clothes": "Yellow bean-shaped vest with a small badge",
+   "limbs": "Thin black stick arms and legs, no hands",
+   "accessories": "None",
+   "expressions_seen": [
+    "smirk",
+    "eyes closed pleased",
+    "sweat drop worried",
+    "bored eyeroll"
+   ]
+  },
+  {
+   "role": "Mission Control chief",
+   "head": "White circle",
+   "hair_or_hat": "Dark hair, headset",
+   "eyes": "Ringed eyes or angry slanted brows",
+   "mouth": "Open shout with teeth",
+   "body_and_clothes": "White lab coat with buttons",
+   "limbs": "Stick arms, one raised",
+   "accessories": "Headset",
+   "expressions_seen": [
+    "alarmed",
+    "angry shout",
+    "grin"
+   ]
+  },
+  {
+   "role": "Navigator",
+   "head": "White circle",
+   "hair_or_hat": "Brown hair bun with cap band and gold badge",
+   "eyes": "Large ringed eyes",
+   "mouth": "Small round O or smirk",
+   "body_and_clothes": "Purple bean body with badge",
+   "limbs": "Stick limbs",
+   "accessories": "Brass telescope, mug",
+   "expressions_seen": [
+    "shocked",
+    "smug",
+    "squint"
+   ]
+  },
+  {
+   "role": "Crew member",
+   "head": "White circle",
+   "hair_or_hat": "Blue peaked cap",
+   "eyes": "Dots",
+   "mouth": "Line",
+   "body_and_clothes": "Red bean body",
+   "limbs": "Stick limbs",
+   "accessories": "Cap",
+   "expressions_seen": [
+    "annoyed",
+    "worried"
+   ]
+  }
+ ],
+ "character_style": {
+  "head_height_share_of_body_estimate": 0.33,
+  "outline": "Thick black outline on all characters, flat 2D look",
+  "shading": "Flat fills with no shading, sitting inside a lit 3D scene; characters look pasted into the 3D set",
+  "consistency_between_shots": "High; same faces, colours and proportions across all scenes",
+  "shadow_under_character": "cast silhouette"
+ },
+ "animation": {
+  "body_motion": "Stick arms swing; characters shift and lean as flat cut-outs, while camera moves around them in 3D.",
+  "lip_sync": "flaps while speaking",
+  "lip_sync_evidence_frames": [
+   803,
+   805,
+   807,
+   811,
+   819,
+   821,
+   823,
+   825
+  ],
+  "eyes_and_blinks": "Eyes swap between sprites (dots, ringed, closed lines); no smooth blinks seen.",
+  "idle_motion": "Bob and tilt; heads grow and shrink as the camera pushes in; sparkle debris drifts.",
+  "squash_and_stretch": "Little; mouth shapes swap abruptly, hero head scale pops between frames."
+ },
+ "environments": [
+  {
+   "start": 0,
+   "end": 1,
+   "place": "Spaceship bathroom with porthole",
+   "key_props": [
+    "toilet",
+    "checkerboard floor",
+    "toilet roll",
+    "potted plants"
+   ],
+   "in_world_text": [],
+   "time_of_day": "space/artificial light",
+   "lighting": "Soft top-down cool light, window blue glow, high contrast, no strong shadows",
+   "depth_cues": "Shallow depth, sharp focus, no haze"
+  },
+  {
+   "start": 1,
+   "end": 5,
+   "place": "Space exterior with Earth and ship",
+   "key_props": [
+    "Earth",
+    "ship LODESTAR",
+    "solar panels"
+   ],
+   "in_world_text": [
+    "LODESTAR"
+   ],
+   "time_of_day": "space daylight",
+   "lighting": "Hard sunlight from one side, blue Earth glow",
+   "depth_cues": "Starfield, atmosphere rim glow"
+  },
+  {
+   "start": 5,
+   "end": 14,
+   "place": "Mission Control room",
+   "key_props": [
+    "world map",
+    "GO/NO GO screen",
+    "desks",
+    "NO FLUSHING TONIGHT sign"
+   ],
+   "in_world_text": [
+    "FLUSH WINDOW",
+    "GO",
+    "NO GO",
+    "NO FLUSHING TONIGHT",
+    "HEAD"
+   ],
+   "time_of_day": "indoor",
+   "lighting": "Cool blue-purple fill with red and green screen glows, soft",
+   "depth_cues": "Wide room, mild falloff, no haze"
+  },
+  {
+   "start": 14,
+   "end": 18,
+   "place": "Crew sleeping quarters and bathroom",
+   "key_props": [
+    "sleeping bags",
+    "toilet"
+   ],
+   "in_world_text": [],
+   "time_of_day": "night",
+   "lighting": "Dark blue ambient with cyan rim, bright toilet",
+   "depth_cues": "Dark vignette, dim background"
+  },
+  {
+   "start": 18,
+   "end": 25,
+   "place": "Cockpit glass bubble with ship exterior",
+   "key_props": [
+    "seats",
+    "glitter stars",
+    "star-map card"
+   ],
+   "in_world_text": [],
+   "time_of_day": "space night",
+   "lighting": "Dark with bright star flares and orange accents",
+   "depth_cues": "Foreground sparkles, glass reflections"
+  },
+  {
+   "start": 25,
+   "end": 33,
+   "place": "Radio, Mission Control and ship in flight",
+   "key_props": [
+    "radio",
+    "OFF COURSE screen",
+    "porthole",
+    "ship LODESTAR"
+   ],
+   "in_world_text": [
+    "OFF COURSE",
+    "LODESTAR",
+    "12"
+   ],
+   "time_of_day": "indoor/space",
+   "lighting": "Red warning glow, magenta screen light; cool exterior",
+   "depth_cues": "Close-ups with shallow focus"
+  },
+  {
+   "start": 33,
+   "end": 52,
+   "place": "Toilet room, waste vent, ship hull, ice particles",
+   "key_props": [
+    "toilet",
+    "WASTE VENT sign",
+    "hose",
+    "ice blob"
+   ],
+   "in_world_text": [
+    "WASTE VENT"
+   ],
+   "time_of_day": "space",
+   "lighting": "Cyan and yellow glows, hard sun, bright cold light",
+   "depth_cues": "Bokeh specks and particle clouds"
+  },
+  {
+   "start": 52,
+   "end": 61,
+   "place": "Cockpit, star field, brass scope, ship flying away",
+   "key_props": [
+    "phone map",
+    "telescope",
+    "scope reticle",
+    "two bright stars"
+   ],
+   "in_world_text": [
+    "Searching",
+    "LOCK"
+   ],
+   "time_of_day": "space night",
+   "lighting": "Blue starlight; warm brown scope ring",
+   "depth_cues": "Starfield haze"
+  }
+ ],
+ "set_style": "mixed",
+ "layer_stack": [
+  "3D set or space render",
+  "3D props and ship",
+  "flat 2D outlined characters",
+  "particle sparkles",
+  "captions",
+  "vignette"
+ ],
+ "camera": {
+  "shot_sizes": [
+   "medium-long",
+   "wide",
+   "medium",
+   "close-up",
+   "extreme close-up"
+  ],
+  "angles": [
+   "eye level",
+   "high angle",
+   "low angle",
+   "dutch roll"
+  ],
+  "lens_feel": "Wide-angle perspective with strong parallax; virtual camera in a 3D scene",
+  "camera_height": "Varies; mostly eye level to high",
+  "notable_moves": [
+   {
+    "t": 1.2,
+    "type": "fast tilt/fly-by",
+    "note": "Exterior station to ship above Earth in under a second."
+   },
+   {
+    "t": 2.8,
+    "type": "whip truck-left",
+    "note": "Earth to Mission Control reveal."
+   },
+   {
+    "t": 18.6,
+    "type": "pull-out orbit",
+    "note": "Orbit around cockpit bubble during the star line, about 7s."
+   },
+   {
+    "t": 37.2,
+    "type": "fly-through",
+    "note": "Camera flies down vent tunnel for 3s."
+   },
+   {
+    "t": 48.5,
+    "type": "orbit",
+    "note": "Orbit around hull and sparkle cloud for 2s."
+   }
+  ]
+ },
+ "effects": [
+  {
+   "t": 0.4,
+   "dur_s": 0.8,
+   "type": "other",
+   "trigger": "Toilet roll flies out as hero grins"
+  },
+  {
+   "t": 3.4,
+   "dur_s": 1.0,
+   "type": "glow",
+   "trigger": "Thruster flame on the ship"
+  },
+  {
+   "t": 6.5,
+   "dur_s": 3.0,
+   "type": "screen or UI insert",
+   "trigger": "Wall screen counts 2, GO, NO GO"
+  },
+  {
+   "t": 18.8,
+   "dur_s": 6.0,
+   "type": "particles",
+   "trigger": "Glittering stars around cockpit"
+  },
+  {
+   "t": 26.9,
+   "dur_s": 2.0,
+   "type": "screen or UI insert",
+   "trigger": "OFF COURSE screen with a deviation graph"
+  },
+  {
+   "t": 31.4,
+   "dur_s": 2.0,
+   "type": "particles",
+   "trigger": "Vented spray trailing the ship"
+  },
+  {
+   "t": 44.5,
+   "dur_s": 4.0,
+   "type": "particles",
+   "trigger": "Boil/freeze of spray into ice"
+  },
+  {
+   "t": 55.8,
+   "dur_s": 2.0,
+   "type": "screen or UI insert",
+   "trigger": "Phone map showing Searching"
+  },
+  {
+   "t": 59.7,
+   "dur_s": 0.7,
+   "type": "screen or UI insert",
+   "trigger": "Scope shows LOCK"
+  }
+ ],
+ "lighting_mood_shifts": [
+  {
+   "t": 14.0,
+   "change": "Bright room goes dark blue night",
+   "story_reason": "Secret night flush"
+  },
+  {
+   "t": 25.5,
+   "change": "Red warning light on radio panel",
+   "story_reason": "Alarm"
+  },
+  {
+   "t": 40.0,
+   "change": "Cyan glow in tunnel then bright ice sparkle",
+   "story_reason": "Spray vents into space"
+  },
+  {
+   "t": 59.4,
+   "change": "Warm brown and gold scope ring",
+   "story_reason": "Final focus on real stars"
+  }
+ ],
+ "generation_evidence": [
+  {
+   "frames": [
+    660,
+    700
+   ],
+   "observation": "Cockpit glass, seats and hull keep stable geometry through a long orbit; sparkle debris moves consistently.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    0,
+    30
+   ],
+   "observation": "Flat outlined characters sit on a rendered 3D set with checkerboard perspective that stays clean.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    807,
+    809,
+    819
+   ],
+   "observation": "Mouth and eye sprites swap while the head outline stays identical.",
+   "points_to": "hand animation"
+  },
+  {
+   "frames": [
+    660,
+    1560
+   ],
+   "observation": "The ship, LODESTAR lettering and orange stripe recur crisp across shots and look like one asset.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    1128,
+    1202
+   ],
+   "observation": "Vent tunnel and rings stay solid; sparkles are clean particles, not warped texture.",
+   "points_to": "3D engine render"
+  }
+ ],
+ "sample_points": [
+  {
+   "frame": 0,
+   "x": 0.17,
+   "y": 0.2,
+   "what": "main character head fill",
+   "hex": "#01001B",
+   "patch_spread": 0.0
+  },
+  {
+   "frame": 0,
+   "x": 0.16,
+   "y": 0.3,
+   "what": "hero yellow vest",
+   "hex": "#000013",
+   "patch_spread": 2.1
+  },
+  {
+   "frame": 0,
+   "x": 0.17,
+   "y": 0.1,
+   "what": "hero brown hair",
+   "hex": "#01001B",
+   "patch_spread": 0.0
+  },
+  {
+   "frame": 0,
+   "x": 0.5,
+   "y": 0.95,
+   "what": "bathroom white floor tile",
+   "hex": "#CFC8D0",
+   "patch_spread": 1.6
+  },
+  {
+   "frame": 140,
+   "x": 0.5,
+   "y": 0.12,
+   "what": "space exterior dark sky",
+   "hex": "#191C42",
+   "patch_spread": 5.3
+  },
+  {
+   "frame": 150,
+   "x": 0.28,
+   "y": 0.4,
+   "what": "Mission Control blue-purple wall",
+   "hex": "#608C97",
+   "patch_spread": 0.5
+  },
+  {
+   "frame": 1800,
+   "x": 0.5,
+   "y": 0.5,
+   "what": "scope ring brown wood",
+   "hex": "#757FA3",
+   "patch_spread": 76.2
+  },
+  {
+   "frame": 660,
+   "x": 0.9,
+   "y": 0.1,
+   "what": "cockpit exterior hull grey",
+   "hex": "#100919",
+   "patch_spread": 1.2
+  },
+  {
+   "frame": 1000,
+   "x": 0.8,
+   "y": 0.4,
+   "what": "dark ship hull",
+   "hex": "#291418",
+   "patch_spread": 21.7
+  },
+  {
+   "frame": 1000,
+   "x": 0.5,
+   "y": 0.8,
+   "what": "toilet room black floor tile",
+   "hex": "#4D485C",
+   "patch_spread": 0.7
+  }
+ ],
+ "thumbnail": "The navigator in purple floating in the glass cockpit surrounded by glitter stars with caption 'of new'; frame near 21 s.",
+ "could_not_determine": [
+  "Exact software (Blender, Unreal or Unity)",
+  "Whether characters are cut-out sprites or 3D planes with outline shader",
+  "Whether the voice is TTS or human"
+ ]
+}

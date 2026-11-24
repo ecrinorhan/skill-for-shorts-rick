@@ -1,0 +1,829 @@
+{
+ "video": "06_i4hYq1oSXTg",
+ "joins_verified": [
+  {
+   "t": 4.78,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "7f dissolve; wide shot of the general under a parasol on the road becomes a closer view of the march with the fort wall; two parasols overlap in the middle tiles."
+  },
+  {
+   "t": 5.98,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "9f dissolve; marching general under a parasol becomes villagers and soldiers at the stone gate; the parasol ghosts over their faces in the middle tiles."
+  },
+  {
+   "t": 7.88,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "7f dissolve; two smiling soldiers at the gate become the protagonist drilling at the gate corner; both groups ghost in the middle tiles."
+  },
+  {
+   "t": 13.02,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "7f dissolve; commander beside the board-carrying protagonist becomes a new framing of the commander and the gold board by the red-roof tower; board double-exposed."
+  },
+  {
+   "t": 14.2,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "12f dissolve; commander and protagonist carrying the board before a red-roof tower become a wider shot of the cart and board at the gate; long double exposure."
+  },
+  {
+   "t": 36.82,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "11f dissolve; rainy night rampart with the protagonist on the cart and a soldier by a lantern becomes the cart under an orange-pink dawn sky; time of day changes inside the blend."
+  },
+  {
+   "t": 39.07,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "6f dissolve; dawn rampart with the cart becomes the yellow army charging through golden dust under a parasol; very short blend."
+  },
+  {
+   "t": 40.43,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "8f dissolve; charging army and parasol general become defenders on the rampart under bright blue sky with a torch; both ghost in the middle tiles."
+  },
+  {
+   "t": 43.42,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "7f dissolve; close group of faces becomes a wide field filled by the packed yellow army and flags; both ghost in the middle tiles."
+  },
+  {
+   "t": 45.15,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "7f dissolve; wide crowd with a grinning soldier at bottom centre becomes a denser mid-shot of the crowd; the grin ghosts over the crowd in the third tile."
+  },
+  {
+   "t": 46.88,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "7f dissolve; crowd with yellow banners becomes a close-up of enemy soldiers with yellow shields; banner and faces overlap mid-blend."
+  },
+  {
+   "t": 48.4,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "6f dissolve; shouting enemy soldiers become the commander and protagonist at the cart, with a red cloth on it; short blend."
+  },
+  {
+   "t": 50.8,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "8f dissolve; commander and protagonist beside the glowing cart become a low-angle view of the cart's fuse and arrow shafts; the shafts ghost across the characters."
+  },
+  {
+   "t": 58.63,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "8f dissolve; rows of golden rocket tubes with mountains behind become the commander and protagonist at the cart; the tubes fade under the characters."
+  },
+  {
+   "t": 60.37,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "6f dissolve; characters at the cart as the board glows become a closer cart and wall with the first fire plume at right; short blend."
+  },
+  {
+   "t": 63.67,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "12f dissolve; sky full of white rocket trails becomes a top-down view of the army line under the trails; long double exposure."
+  },
+  {
+   "t": 65.4,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "12f dissolve; big orange explosion becomes a mushroom cloud with the protagonist fading in on the wall; he is a ghost in the third tile."
+  }
+ ],
+ "missed_joins": [],
+ "beats": [
+  {
+   "name": "hook",
+   "start": 0.0,
+   "end": 5.7,
+   "said": "A man has bored 82 holes in a plank as an enemy army marches on his fort.",
+   "shown": "Protagonist drilling a holed board by a stone wall, swoop to the drill throwing chips, whip up the wall to a valley with a tiny army and a parasol general."
+  },
+  {
+   "name": "setup",
+   "start": 5.7,
+   "end": 12.7,
+   "said": "Others sharpen swords while he keeps drilling; the commander mocks him, asking if this is battle or cheese-grating.",
+   "shown": "Dissolves to soldiers at the gate, the protagonist drilling in the corner, then the plumed commander sneering with an animated mouth (10-12.6 s)."
+  },
+  {
+   "name": "escalation",
+   "start": 12.7,
+   "end": 28.5,
+   "said": "Board on a cart, fused tubes in every hole, one forbidden rope; he slaps a soldier's hand.",
+   "shown": "Cart and board by the red tower, macro pull-out through paper-wrapped tubes and strings, rope twisting, soldiers watching, slap with a red-pink arc (26 s), dusk at 27-28 s."
+  },
+  {
+   "name": "escalation",
+   "start": 28.5,
+   "end": 36.5,
+   "said": "Night rain: he shields the cart with his coat, lying on it; one leak means everyone dies.",
+   "shown": "Blue-violet rainy rampart with glowing lanterns; protagonist leaps onto the cart and lies under a purple coat while two soldiers look up."
+  },
+  {
+   "name": "escalation",
+   "start": 36.5,
+   "end": 48.0,
+   "said": "Army storms the walls at dawn; defenders panic while he waits for the enemy to bunch up.",
+   "shown": "Dawn dissolve to the yellow army charging in dust, shouting defenders around the calm protagonist, three push-ins on the packed enemy crowd with grinning and screaming faces."
+  },
+  {
+   "name": "twist",
+   "start": 48.0,
+   "end": 59.7,
+   "said": "He uncovers the cart, ignites the rope; the fuse splits into 82 flames, each launching an arrow.",
+   "shown": "Red cloth flies off, spark runs along the rope, radial burst of golden rays, macro close-ups of rocket tubes with strong bloom."
+  },
+  {
+   "name": "payoff",
+   "start": 59.7,
+   "end": 65.1,
+   "said": "All 82 rockets leave the cart together and scatter, yet the enemy is so densely packed that...",
+   "shown": "Flash and fire jets at the cart, white smoke trails over the valley, top-down view of the army line catching orange fireballs."
+  },
+  {
+   "name": "ending",
+   "start": 65.1,
+   "end": 66.9,
+   "said": "Every single rocket finds a target; he stands arms crossed, smug, before a mushroom cloud.",
+   "shown": "Orange explosion dissolves to the protagonist on a wall, arms crossed with a smirk, mushroom cloud darkening behind him; the video stops on that image."
+  }
+ ],
+ "hook": {
+  "first_frame": "Protagonist (red coat, white headband, bored half-lidded face) bent over a tall holed wooden board, hand-drilling; grey stone fort wall with a blue tiger banner behind, bright grass in front; caption 'He' at 70% height.",
+  "first_3s": "0-1 s slow push-in on the driller; 1-2 s fast swoop to the drill throwing wood chips into the holed board; 2-3 s whip up the wall past banner and pavilion to a wide valley with a tiny marching army.",
+  "line_type": "strange action by he/they",
+  "first_frame_shot_size": "long (full body)",
+  "first_frame_subject": "protagonist doing the hook action",
+  "protagonist_looks_at_camera": false,
+  "title_vs_first_line": "Title promises the outcome (a cart stops an army); the first line opens on an odd action (82 drilled holes) and withholds the cart, so the title's payoff stays hidden until the end."
+ },
+ "story": {
+  "topic_type": "history/war",
+  "setting_era": "ancient/medieval",
+  "structure": "pure story with twist reveal",
+  "real_fact_core": "A cart panel drilled with dozens of holes holds rocket arrows whose fuses are twisted into one rope, so one flame launches every rocket at once (hwacha-style launcher; estimate).",
+  "likely_source_type": "history",
+  "protagonist": "Deadpan engineer-soldier in a white headband and red coat who builds and guards the launcher cart.",
+  "authority_or_antagonist": "Plumed commander who mocks him; the yellow-uniformed attacking army.",
+  "direct_speech_lines": 2,
+  "second_person": false,
+  "tense": "mixed",
+  "explainer_turn": null,
+  "ending_type": "consequence shown, stops on impact",
+  "call_to_action": "none"
+ },
+ "tone": {
+  "humour": "Dry absurdity: a cheese-grater jibe from the commander, a man as a human umbrella, and an understated punchline over a mushroom cloud.",
+  "deadpan_or_irony": "Protagonist keeps a half-lidded deadpan face in nearly every shot; absurd actions are stated flatly; the smug arms-crossed pose before the explosion lands the irony.",
+  "dialogue_style": "Only two quoted lines, both from side characters whose mouths animate; the protagonist never speaks; one narrator voices them (estimate, audio not heard)."
+ },
+ "characters": [
+  {
+   "role": "Protagonist (inventor-soldier)",
+   "head": "Large round white circle with thick black outline, about a third of body height; flat face, no nose",
+   "hair_or_hat": "Short brown messy hair with a white headband",
+   "eyes": "Tiny black dots under heavy flat half-closed lids with slightly raised brows (deadpan); big ringed white circles with pupils when shocked",
+   "mouth": "Tiny pink 'o' or short dash; curved smirk at the end; no teeth",
+   "body_and_clothes": "Small rounded body; red coat with fine mesh pattern and brown belt early, off-white tunic with belt later",
+   "limbs": "Thin single-line black legs and arms, tiny feet, simple joints",
+   "accessories": "Small gold-handled hammer and pouch on the belt, hand drill, gold rope later",
+   "expressions_seen": [
+    "deadpan half-lidded",
+    "bored with pursed mouth",
+    "round-eyed shock",
+    "furrowed glare",
+    "smug smirk with raised brow"
+   ]
+  },
+  {
+   "role": "Commander (authority, mocks the protagonist)",
+   "head": "Round white circle with thick black outline and a brown hatched beard patch under the chin",
+   "hair_or_hat": "Silver dome helmet with gold rim studs and a red spiral plume that lifts off the head when he bobs",
+   "eyes": "Thick black slanted brows over tiny dots or flat lids (angry)",
+   "mouth": "Swaps between flat dash, open oval, wide open with tongue and clenched-teeth grid while speaking",
+   "body_and_clothes": "Navy armour covered in yellow stud dots, brown belt",
+   "limbs": "Thin black stick legs, outlined sleeves",
+   "accessories": "Red plume, beard",
+   "expressions_seen": [
+    "angry glare",
+    "sneer",
+    "shouting",
+    "smirk"
+   ]
+  },
+  {
+   "role": "Fort soldiers and villagers (extras)",
+   "head": "Round white circles, some with round glasses",
+   "hair_or_hat": "Grey brimmed metal hats with chin strap, navy flat cap with ginger beard, grey hood",
+   "eyes": "Dots or ringed circles; angry brows on some",
+   "mouth": "Small pink open ovals when worried or shouting",
+   "body_and_clothes": "Green striped or checked coats, blue tunics, brown belts",
+   "limbs": "Thin black stick legs, outlined sleeves",
+   "accessories": "Chin-strap hats, round glasses, torch",
+   "expressions_seen": [
+    "worried",
+    "angry",
+    "smiling",
+    "shocked"
+   ]
+  },
+  {
+   "role": "Attacking army (yellow and black)",
+   "head": "Round white heads, tiny at distance, drawn large with grins or screams in close-ups",
+   "hair_or_hat": "Silver domed helmets, some bearded; general under a parasol in dark armour",
+   "eyes": "Small dots with angry brows",
+   "mouth": "Wide open with teeth and tongue when screaming, or a wide grin",
+   "body_and_clothes": "Yellow tabards with black trim and yellow shields with a black beast emblem",
+   "limbs": "Thin black stick legs",
+   "accessories": "Yellow banners with black beast emblem, shields, parasol, red palanquin",
+   "expressions_seen": [
+    "screaming with teeth",
+    "wide grin",
+    "angry"
+   ]
+  }
+ ],
+ "character_style": {
+  "head_height_share_of_body_estimate": 0.3,
+  "outline": "Thick uniform-weight black ink outline (about 2-3% of body height, estimate) on characters and hand-held props; the 3D set has no outlines.",
+  "shading": "Flat white heads; clothes use small repeating texture patterns (mesh, dots, stripes, beard hatching); helmets have a soft grey gradient; almost no cel shading.",
+  "consistency_between_shots": "Proportions, outline weight and costumes stay identical across all takes; only pose and face sprites change, and figures are scaled by distance.",
+  "shadow_under_character": "none"
+ },
+ "animation": {
+  "body_motion": "Rigid cut-out puppet motion: whole bodies slide, tilt or hop (leap onto the cart at 32 s), thin limbs bend at simple joints, heads bob on stressed words; looks keyframed, not mocap (estimate).",
+  "lip_sync": "true lip-sync",
+  "lip_sync_evidence_frames": [
+   345,
+   348,
+   354,
+   357,
+   366,
+   369
+  ],
+  "eyes_and_blinks": "Eyes swap between drawn sprites (flat half-lidded dots, wide ringed circles, angry brows); no blink seen in 18 sampled frames.",
+  "idle_motion": "Held poses are almost frozen: the commander's helmet bobs on spoken words, the driller's head dips with the crank, the lying pose (f990-f1005) only tilts its head; life comes from camera drift, rain and lantern glow.",
+  "squash_and_stretch": "Little: the helmet lifts off the head on a bob (f366-f369) and the leaping body is stretched into a long horizontal shape (f960); otherwise rigid shapes."
+ },
+ "environments": [
+  {
+   "start": 0,
+   "end": 2,
+   "place": "Fort wall yard: stone wall with arch, grass, drilling station",
+   "key_props": [
+    "tall holed wooden board on a stand",
+    "hand drill",
+    "blue tiger banner",
+    "wood chips"
+   ],
+   "in_world_text": [
+    "white tiger emblem on blue banner (pictorial, no letters)"
+   ],
+   "time_of_day": "midday (estimate)",
+   "lighting": "Bright warm sun, soft-edged shadows, high key (luma about 147, warm share 0.85); direction not clear (estimate).",
+   "depth_cues": "No depth-of-field blur; grass blades overlap the feet; slow push-in parallax."
+  },
+  {
+   "start": 2,
+   "end": 6,
+   "place": "Rampart top and wide valley with terraced fields, road and marching army",
+   "key_props": [
+    "red-pillared pavilion",
+    "blue pennants",
+    "parasol general on a palanquin",
+    "tiny marching soldiers",
+    "mist wisps"
+   ],
+   "in_world_text": [
+    "pictorial banners only"
+   ],
+   "time_of_day": "bright day",
+   "lighting": "Hard bright daylight, blue sky with painted clouds, saturated greens (estimate).",
+   "depth_cues": "Mountains hazed blue-grey, tiny instanced soldiers give scale, sharp focus throughout."
+  },
+  {
+   "start": 6,
+   "end": 13,
+   "place": "Fort gate courtyard: arched stone gate, grass, soldiers",
+   "key_props": [
+    "arch with glowing light cone",
+    "soldiers in green and blue",
+    "holed board",
+    "wood-shaving curls"
+   ],
+   "in_world_text": [
+    "tiger banner (pictorial)"
+   ],
+   "time_of_day": "overcast afternoon (estimate)",
+   "lighting": "Soft dim ambient (luma about 84) with a warm yellow light cone from the arch acting like a practical light.",
+   "depth_cues": "Volumetric-looking light cone at the gate, darker background wall, no blur."
+  },
+  {
+   "start": 13,
+   "end": 22,
+   "place": "Work yard by a red-roofed tower: cart, board, macro of tubes and strings",
+   "key_props": [
+    "cart with wheel",
+    "perforated board",
+    "paper-wrapped tubes with strings",
+    "wooden fence"
+   ],
+   "in_world_text": [],
+   "time_of_day": "afternoon (estimate)",
+   "lighting": "Warm sun from high left with strong speculars on the tubes; grass lit green-gold (estimate).",
+   "depth_cues": "Macro close-ups with wide-angle perspective; no depth-of-field blur."
+  },
+  {
+   "start": 22,
+   "end": 28,
+   "place": "Grass courtyard under red-roofed towers; soldiers watch the coiled rope",
+   "key_props": [
+    "coiled gold rope",
+    "soldiers in grey helmets",
+    "towers"
+   ],
+   "in_world_text": [],
+   "time_of_day": "late afternoon turning to dusk",
+   "lighting": "Low warm sun with long shadows, pink-purple sky by 27 s (estimate).",
+   "depth_cues": "Layered grass in the foreground, hazy towers behind."
+  },
+  {
+   "start": 28,
+   "end": 37,
+   "place": "Night rampart in heavy rain: pagoda eaves, lanterns, cart under a purple coat",
+   "key_props": [
+    "paper lanterns",
+    "cart wheel",
+    "purple coat",
+    "rain"
+   ],
+   "in_world_text": [],
+   "time_of_day": "night",
+   "lighting": "Cool blue-violet ambient, warm lantern practicals about 2700 K (estimate), luma about 58.",
+   "depth_cues": "Layered rain streaks, lantern bloom, dark falloff at the edges."
+  },
+  {
+   "start": 37,
+   "end": 40,
+   "place": "Dawn rampart: stone floor, cart, mountains, orange horizon",
+   "key_props": [
+    "cart",
+    "stone floor",
+    "mountains"
+   ],
+   "in_world_text": [],
+   "time_of_day": "sunrise",
+   "lighting": "Low warm backlight from the horizon, long shadows, pink-orange sky, luma about 100.",
+   "depth_cues": "Haze over the mountains."
+  },
+  {
+   "start": 40,
+   "end": 48,
+   "place": "Grass plain and sunlit rampart: charging yellow army, defenders around the cart, packed crowd",
+   "key_props": [
+    "yellow shields and banners with a black beast emblem",
+    "parasol general",
+    "torch",
+    "dust"
+   ],
+   "in_world_text": [
+    "black spiky beast emblem on yellow banners (pictorial)"
+   ],
+   "time_of_day": "bright morning",
+   "lighting": "Hard warm sun from camera-left or behind (estimate), saturated blue sky, luma about 130.",
+   "depth_cues": "Instanced tiny crowd to the horizon, sharp focus, no blur."
+  },
+  {
+   "start": 48,
+   "end": 60,
+   "place": "Stone-tile rampart terrace with the launcher cart",
+   "key_props": [
+    "holed gold board",
+    "twisted gold rope",
+    "paper-wrapped rocket arrows",
+    "torch"
+   ],
+   "in_world_text": [],
+   "time_of_day": "midday",
+   "lighting": "Hard sun with diagonal light and shadow bands on tan tiles; strong bloom from the fuse and tubes (luma about 145).",
+   "depth_cues": "Macro views with wide-angle distortion; rocket fan radiates from the camera."
+  },
+  {
+   "start": 60,
+   "end": 65,
+   "place": "Rampart edge over the valley: rocket launch, sky trails, army line from above",
+   "key_props": [
+    "fire jets",
+    "white smoke trails",
+    "iron hooks",
+    "army line"
+   ],
+   "in_world_text": [],
+   "time_of_day": "bright day",
+   "lighting": "Overexposed white-gold flash, then hard sun; orange fire glow on the army line.",
+   "depth_cues": "Top-down view with a tiny army, dense trails near the camera."
+  },
+  {
+   "start": 65,
+   "end": 67,
+   "place": "Parapet wall top before mountains: mushroom-cloud explosion behind the protagonist",
+   "key_props": [
+    "blocky stone parapet",
+    "mushroom cloud with a white ring"
+   ],
+   "in_world_text": [],
+   "time_of_day": "day",
+   "lighting": "Fire-lit backlight and bright sun from the left (estimate); cloud darkens from bright orange to red-brown over 1 s.",
+   "depth_cues": "Layered mountains behind; low-res stone texture in front."
+  }
+ ],
+ "set_style": "mixed",
+ "layer_stack": [
+  "Painted-cloud sky dome with sun glow",
+  "Distant mountains and terraced-field terrain with instanced tiny soldiers, light haze",
+  "Modelled fort set: stone walls, arches, pavilions, towers, banners",
+  "3D props: cart, perforated board, tubes, rope, torches, lanterns",
+  "Flat 2D ink-outlined stick-figure characters placed in the 3D scene",
+  "Foreground grass blades, railings and cart wheel overlapping the characters' feet",
+  "VFX sprites and particles: rain, wood chips, smoke trails, fire, mushroom cloud, light rays",
+  "Post: bloom, vignette, colour grade, mild grain",
+  "Burned-in captions: white bold sans with black outline, centred about 70% down the frame"
+ ],
+ "camera": {
+  "shot_sizes": [
+   "long (full body) on characters",
+   "medium-long groups",
+   "medium close-up on faces",
+   "close-up and macro on props",
+   "wide landscape"
+  ],
+  "angles": [
+   "eye level at character height, slightly low (estimate)",
+   "low angle on the commander (10-12 s)",
+   "worm's-eye through the rocket fan (53-55 s)",
+   "aerial or top-down for the valley and army line (63.8 s)"
+  ],
+  "lens_feel": "Wide-angle (about 70-90 degrees, estimate) with strong perspective in close-ups and the rocket burst; no depth-of-field blur anywhere.",
+  "camera_height": "Mostly grass or character eye level (about 0.5-1.5 m, estimate); aerial or top-down for valley and army shots.",
+  "notable_moves": [
+   {
+    "t": 0.0,
+    "type": "slow push-in",
+    "note": "About 4 %/s zoom on the driller for 1 s, then a fast fly-in toward the board."
+   },
+   {
+    "t": 2.0,
+    "type": "whip pan with crane-up",
+    "note": "Peak 152 %H/s: board to wall to pavilion to valley in about 0.7 s; frames f60-f82 stay sharp with no motion blur."
+   },
+   {
+    "t": 7.9,
+    "type": "slow pull-out",
+    "note": "5.1 s hold with a 2 %/s zoom-out on the gate scene."
+   },
+   {
+    "t": 17.8,
+    "type": "pull-out through props",
+    "note": "3.5 s macro pull-out along the arrow tubes to the characters (peak 109 %H/s)."
+   },
+   {
+    "t": 25.0,
+    "type": "orbit",
+    "note": "Two 0.3 s orbits on the reaching hand and the slap, then a 1.7 s pull-out."
+   },
+   {
+    "t": 28.2,
+    "type": "push-in",
+    "note": "1.2 s push-in while dusk turns to night (largest content change, 0.43)."
+   },
+   {
+    "t": 43.4,
+    "type": "push-in with roll",
+    "note": "Three escalating push-ins on the packed army: 7.6, 12.5 and 20.5 %/s zoom with slight roll."
+   },
+   {
+    "t": 53.5,
+    "type": "fly-through",
+    "note": "2 s orbit through the radial rocket burst (peak 99 %H/s)."
+   },
+   {
+    "t": 62.3,
+    "type": "push-in from above",
+    "note": "12.9 and 14.9 %/s pushes over the army, then a 10.9 %/s push with tilt-down on the final smirk."
+   }
+  ]
+ },
+ "effects": [
+  {
+   "t": 1.2,
+   "dur_s": 0.9,
+   "type": "particles",
+   "trigger": "drilling: wood chips fly as the holes are mentioned"
+  },
+  {
+   "t": 2.6,
+   "dur_s": 3.0,
+   "type": "smoke",
+   "trigger": "dust and mist wisps trailing the marching army"
+  },
+  {
+   "t": 7.9,
+   "dur_s": 5.1,
+   "type": "glow",
+   "trigger": "warm light cone from the gate arch behind the driller and commander"
+  },
+  {
+   "t": 11.5,
+   "dur_s": 1.1,
+   "type": "particles",
+   "trigger": "gold wood-shaving curls drifting past the commander during his jibe"
+  },
+  {
+   "t": 25.9,
+   "dur_s": 0.3,
+   "type": "other",
+   "trigger": "slap lands: red-pink swipe arc plus dirt kick-up"
+  },
+  {
+   "t": 28.2,
+   "dur_s": 1.2,
+   "type": "colour shift",
+   "trigger": "night and rain arrive: dusk turns blue-violet"
+  },
+  {
+   "t": 29.0,
+   "dur_s": 7.8,
+   "type": "particles",
+   "trigger": "rain streaks across the night rampart"
+  },
+  {
+   "t": 30.8,
+   "dur_s": 6.0,
+   "type": "glow",
+   "trigger": "lantern bloom while he lies on the cart"
+  },
+  {
+   "t": 36.8,
+   "dur_s": 0.4,
+   "type": "colour shift",
+   "trigger": "next morning: night dissolves into orange dawn"
+  },
+  {
+   "t": 39.1,
+   "dur_s": 1.4,
+   "type": "smoke",
+   "trigger": "golden dust under the charging army"
+  },
+  {
+   "t": 48.9,
+   "dur_s": 0.5,
+   "type": "other",
+   "trigger": "coat removal: red cloth flies off the cart"
+  },
+  {
+   "t": 50.8,
+   "dur_s": 2.0,
+   "type": "particles",
+   "trigger": "lit rope: spark and flame run along the fuse"
+  },
+  {
+   "t": 52.8,
+   "dur_s": 5.5,
+   "type": "glow",
+   "trigger": "fuse splitting into many flames: strong golden bloom around the tubes"
+  },
+  {
+   "t": 53.2,
+   "dur_s": 2.3,
+   "type": "speed lines",
+   "trigger": "radial burst of rocket shafts and light rays toward the camera"
+  },
+  {
+   "t": 60.4,
+   "dur_s": 0.8,
+   "type": "flash",
+   "trigger": "launch: white-gold flash at the cart"
+  },
+  {
+   "t": 60.8,
+   "dur_s": 1.4,
+   "type": "particles",
+   "trigger": "fire jets and spark spray from the board"
+  },
+  {
+   "t": 61.8,
+   "dur_s": 2.6,
+   "type": "smoke",
+   "trigger": "white rocket trails across the sky"
+  },
+  {
+   "t": 64.2,
+   "dur_s": 0.8,
+   "type": "other",
+   "trigger": "chain of orange fireballs along the packed army line"
+  },
+  {
+   "t": 64.6,
+   "dur_s": 2.3,
+   "type": "smoke",
+   "trigger": "big explosion then mushroom cloud with a white shock ring"
+  }
+ ],
+ "lighting_mood_shifts": [
+  {
+   "t": 6.0,
+   "change": "Luma drops from about 147 to about 84; overcast look with a warm gate light cone",
+   "story_reason": "From the sunny hook to the gloomier mocking setup at the gate (estimate)."
+  },
+  {
+   "t": 28.2,
+   "change": "Dusk to rainy blue-violet night; luma falls to about 58",
+   "story_reason": "Stakes: one leak could ruin the weapon."
+  },
+  {
+   "t": 36.8,
+   "change": "Night to orange-pink dawn",
+   "story_reason": "Time jump to the morning of the attack."
+  },
+  {
+   "t": 40.4,
+   "change": "Hard bright daylight and saturated blue sky",
+   "story_reason": "The charge: clarity and urgency."
+  },
+  {
+   "t": 50.8,
+   "change": "Warm golden glow and bloom (luma about 145, saturation about 124)",
+   "story_reason": "The rope is lit and the secret is revealed."
+  },
+  {
+   "t": 60.4,
+   "change": "White-gold flash, then orange fire glow on the army line",
+   "story_reason": "Launch and impact."
+  },
+  {
+   "t": 65.4,
+   "change": "Fire-lit backlight behind the smirking protagonist under a cooler blue sky",
+   "story_reason": "Payoff image."
+  }
+ ],
+ "generation_evidence": [
+  {
+   "frames": [
+    60,
+    66,
+    72,
+    78,
+    82
+   ],
+   "observation": "Whip pan from the board up a wall corner past banner and pavilion to the valley in about 0.7 s; perspective, banner and brick courses stay geometrically consistent with no blur or warping.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    2,
+    27
+   ],
+   "observation": "Blue banner emblem (white tiger, yellow chevron, fringe) and brick mortar lines are identical and crisp in two frames of one push-in; the same banner recurs at f66, f240 and f420.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    345,
+    354,
+    357,
+    366,
+    369
+   ],
+   "observation": "Commander's mouth cycles through about four fixed drawn shapes in 1.1 s and his helmet lifts off the head on a bob: a layered 2D puppet, not frame-by-frame generation.",
+   "points_to": "hand animation"
+  },
+  {
+   "frames": [
+    1248,
+    1500,
+    1998
+   ],
+   "observation": "Characters stand on sunlit stone with no cast or contact shadow while the cart and railings shade the floor: flat 2D art pasted into a lit 3D set.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    1962,
+    1974,
+    1998,
+    2004
+   ],
+   "observation": "Mushroom cloud is a smooth painterly sprite with a flat white ring that darkens over 1 s, in front of a blocky low-res wall texture: stock-style VFX over an engine set.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    658,
+    659,
+    660,
+    661
+   ],
+   "observation": "Foreground grass changes shape and brightness between consecutive frames while the characters and arch stay put: real-time grass sway or LOD, not AI morphing.",
+   "points_to": "3D engine render"
+  }
+ ],
+ "sample_points": [
+  {
+   "frame": 1998,
+   "x": 0.44,
+   "y": 0.64,
+   "what": "main character head fill: protagonist cheek, final shot",
+   "hex": "#FBFAF6",
+   "patch_spread": 0.0
+  },
+  {
+   "frame": 1998,
+   "x": 0.486,
+   "y": 0.84,
+   "what": "protagonist cream tunic below the belt, final shot",
+   "hex": "#DFD4C9",
+   "patch_spread": 1.5
+  },
+  {
+   "frame": 345,
+   "x": 0.396,
+   "y": 0.393,
+   "what": "hat: commander's silver helmet dome",
+   "hex": "#A0A9BA",
+   "patch_spread": 0.5
+  },
+  {
+   "frame": 2,
+   "x": 0.393,
+   "y": 0.187,
+   "what": "set: pale stone wall block in the opening shot",
+   "hex": "#BCB9A8",
+   "patch_spread": 3.6
+  },
+  {
+   "frame": 975,
+   "x": 0.137,
+   "y": 0.237,
+   "what": "set: night wall or sky in the rain scene",
+   "hex": "#524F6C",
+   "patch_spread": 1.0
+  },
+  {
+   "frame": 1500,
+   "x": 0.453,
+   "y": 0.9,
+   "what": "set: sunlit tan stone floor on the rampart",
+   "hex": "#E8CE98",
+   "patch_spread": 1.7
+  },
+  {
+   "frame": 1998,
+   "x": 0.93,
+   "y": 0.372,
+   "what": "set: blue sky top right in the final shot",
+   "hex": "#387DD8",
+   "patch_spread": 0.0
+  },
+  {
+   "frame": 1998,
+   "x": 0.68,
+   "y": 0.361,
+   "what": "set: orange mushroom-cloud puff",
+   "hex": "#D6651A",
+   "patch_spread": 1.4
+  },
+  {
+   "frame": 82,
+   "x": 0.75,
+   "y": 0.74,
+   "what": "set: valley grass field",
+   "hex": "#82A455",
+   "patch_spread": 8.9
+  }
+ ],
+ "thumbnail": "Auto-picked frame, not designed art: the 'at him' beat (about 41.3 s, estimate): four characters on a sunlit stone rampart with a torch flame above, blue sky, protagonist holding the gold rope; caption 'at him' burned in at 70% height.",
+ "could_not_determine": [
+  "Narrator voice (human vs TTS, any voice change for quoted lines): audio was not listened to in this by-eye review.",
+  "Whether mouth swaps are hand-keyed or auto lip-sync: only one speaking moment (11.5-12.6 s) was sampled at 3-frame steps; lip-sync label is an estimate.",
+  "Engine or software (Unreal, Unity, Blender, other) and whether the 2D characters are billboards, flat meshes or compositing layers: not decidable from frames.",
+  "Blinks: none seen in 12 frames (1.1 s, commander) and 6 frames (2.5 s, rain scene); blinking elsewhere is unchecked.",
+  "Eight orange suspects (1.17, 2.03, 2.33, 18.30, 22.00, 26.00, 54.00, 61.03 s) judged camera moves or VFX, not joins; 22.00 s is an in-place foreground-grass swap (estimate).",
+  "Hidden joins in the 22.6 s span 14.2-36.8 s: place and time of day change (dusk to night at 28-29 s) with no detected join; frames between contact-sheet seconds were not inspected.",
+  "Camera shake: none seen in the 12-frame whip-pan sample; faster moves at 53-55 s were only seen on four consecutive frames."
+ ]
+}

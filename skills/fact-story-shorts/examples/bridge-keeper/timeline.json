@@ -1,0 +1,1024 @@
+{
+ "duration": 62.905,
+ "frames": 1887,
+ "fps": 30,
+ "takes": [
+  {
+   "id": "hook",
+   "start": 0,
+   "end": 4.04,
+   "join": "start",
+   "joinFrames": 10,
+   "shots": [
+    {
+     "t": 0,
+     "move": 0,
+     "push": 0.05,
+     "orbit": 0
+    },
+    {
+     "t": 0.62,
+     "move": 0.6,
+     "push": 0.03,
+     "orbit": 3
+    },
+    {
+     "t": 3.1,
+     "move": 0.5,
+     "push": 0.04,
+     "orbit": 2
+    }
+   ]
+  },
+  {
+   "id": "keeper",
+   "start": 4.04,
+   "end": 9.331,
+   "join": "cut",
+   "joinFrames": 10,
+   "shots": [
+    {
+     "t": 4.04,
+     "move": 0,
+     "push": 0.02,
+     "orbit": 5
+    },
+    {
+     "t": 4.72,
+     "move": 0.8,
+     "push": 0.05,
+     "orbit": 0
+    },
+    {
+     "t": 6.651,
+     "move": 0.9,
+     "push": -0.03,
+     "orbit": -3
+    }
+   ]
+  },
+  {
+   "id": "chains",
+   "start": 9.331,
+   "end": 12.691,
+   "join": "dissolve",
+   "joinFrames": 10,
+   "shots": [
+    {
+     "t": 8.161,
+     "move": 0,
+     "push": 0.03,
+     "orbit": -4
+    },
+    {
+     "t": 10.491,
+     "move": 0.75,
+     "push": 0.06,
+     "orbit": 0
+    }
+   ]
+  },
+  {
+   "id": "army",
+   "start": 12.691,
+   "end": 18.152,
+   "join": "dissolve",
+   "joinFrames": 10,
+   "shots": [
+    {
+     "t": 11.521,
+     "move": 0,
+     "push": 0.02,
+     "orbit": 0
+    },
+    {
+     "t": 15.581,
+     "move": 0.6,
+     "push": 0.04,
+     "orbit": 0
+    }
+   ]
+  },
+  {
+   "id": "colonel",
+   "start": 18.152,
+   "end": 21.922,
+   "join": "dissolve",
+   "joinFrames": 10,
+   "shots": [
+    {
+     "t": 16.982,
+     "move": 0,
+     "push": 0.04,
+     "orbit": 0
+    },
+    {
+     "t": 19.622,
+     "move": 0.4,
+     "push": 0.07,
+     "orbit": 0
+    }
+   ]
+  },
+  {
+   "id": "wontmove",
+   "start": 21.922,
+   "end": 25.832,
+   "join": "cut",
+   "joinFrames": 10,
+   "shots": [
+    {
+     "t": 20.922,
+     "move": 0,
+     "push": 0.05,
+     "orbit": 0
+    },
+    {
+     "t": 24.912,
+     "move": 0.6,
+     "push": 0.05,
+     "orbit": 0
+    }
+   ]
+  },
+  {
+   "id": "drums",
+   "start": 25.832,
+   "end": 28.732,
+   "join": "dissolve",
+   "joinFrames": 10,
+   "shots": [
+    {
+     "t": 24.662,
+     "move": 0,
+     "push": 0.04,
+     "orbit": 0
+    },
+    {
+     "t": 27.052,
+     "move": 0.5,
+     "push": 0.06,
+     "orbit": 0
+    }
+   ]
+  },
+  {
+   "id": "boots",
+   "start": 28.732,
+   "end": 31.933,
+   "join": "dissolve",
+   "joinFrames": 10,
+   "shots": [
+    {
+     "t": 27.562,
+     "move": 0,
+     "push": 0.03,
+     "orbit": 0
+    },
+    {
+     "t": 30.113,
+     "move": 0.6,
+     "push": 0.05,
+     "orbit": 0
+    }
+   ]
+  },
+  {
+   "id": "lantern",
+   "start": 31.933,
+   "end": 36.633,
+   "join": "dissolve",
+   "joinFrames": 10,
+   "shots": [
+    {
+     "t": 30.763,
+     "move": 0,
+     "push": 0.05,
+     "orbit": 0
+    },
+    {
+     "t": 34.853,
+     "move": 0.5,
+     "push": 0.04,
+     "orbit": 0
+    }
+   ]
+  },
+  {
+   "id": "horse",
+   "start": 36.633,
+   "end": 41.093,
+   "join": "dissolve",
+   "joinFrames": 10,
+   "shots": [
+    {
+     "t": 35.463,
+     "move": 0,
+     "push": 0.04,
+     "orbit": 0
+    },
+    {
+     "t": 39.223,
+     "move": 0.8,
+     "push": 0.02,
+     "orbit": 0
+    }
+   ]
+  },
+  {
+   "id": "swing",
+   "start": 41.093,
+   "end": 46.934,
+   "join": "dissolve",
+   "joinFrames": 10,
+   "shots": [
+    {
+     "t": 39.923,
+     "move": 0,
+     "push": 0.04,
+     "orbit": 0
+    },
+    {
+     "t": 45.744,
+     "move": 0.5,
+     "push": 0.03,
+     "orbit": 0
+    }
+   ]
+  },
+  {
+   "id": "pulse",
+   "start": 46.934,
+   "end": 51.294,
+   "join": "dissolve",
+   "joinFrames": 10,
+   "shots": [
+    {
+     "t": 45.764,
+     "move": 0,
+     "push": 0.03,
+     "orbit": 0
+    },
+    {
+     "t": 49.004,
+     "move": 0.7,
+     "push": 0.05,
+     "orbit": 0
+    }
+   ]
+  },
+  {
+   "id": "heave",
+   "start": 51.294,
+   "end": 56.045,
+   "join": "dissolve",
+   "joinFrames": 10,
+   "shots": [
+    {
+     "t": 50.124,
+     "move": 0,
+     "push": 0.03,
+     "orbit": 0
+    },
+    {
+     "t": 53.745,
+     "move": 0.6,
+     "push": 0.09,
+     "orbit": 0
+    }
+   ]
+  },
+  {
+   "id": "swim",
+   "start": 56.045,
+   "end": 59.795,
+   "join": "cut",
+   "joinFrames": 10,
+   "shots": [
+    {
+     "t": 55.045,
+     "move": 0,
+     "push": 0.03,
+     "orbit": 0
+    },
+    {
+     "t": 56.995,
+     "move": 0.6,
+     "push": 0.04,
+     "orbit": 0
+    },
+    {
+     "t": 58.525,
+     "move": 0.5,
+     "push": 0.05,
+     "orbit": 0
+    }
+   ]
+  },
+  {
+   "id": "epilogue",
+   "start": 59.795,
+   "end": 62.905,
+   "join": "dissolve",
+   "joinFrames": 10,
+   "shots": [
+    {
+     "t": 58.625,
+     "move": 0,
+     "push": 0.04,
+     "orbit": 0
+    },
+    {
+     "t": 60.935,
+     "move": 0.8,
+     "push": -0.03,
+     "orbit": 0
+    }
+   ]
+  }
+ ],
+ "moves": [
+  {
+   "t": 0.62,
+   "dur": 0.6
+  },
+  {
+   "t": 3.1,
+   "dur": 0.5
+  },
+  {
+   "t": 4.72,
+   "dur": 0.8
+  },
+  {
+   "t": 6.651,
+   "dur": 0.9
+  },
+  {
+   "t": 10.491,
+   "dur": 0.75
+  },
+  {
+   "t": 15.581,
+   "dur": 0.6
+  },
+  {
+   "t": 19.622,
+   "dur": 0.4
+  },
+  {
+   "t": 24.912,
+   "dur": 0.6
+  },
+  {
+   "t": 27.052,
+   "dur": 0.5
+  },
+  {
+   "t": 30.113,
+   "dur": 0.6
+  },
+  {
+   "t": 34.853,
+   "dur": 0.5
+  },
+  {
+   "t": 39.223,
+   "dur": 0.8
+  },
+  {
+   "t": 45.744,
+   "dur": 0.5
+  },
+  {
+   "t": 49.004,
+   "dur": 0.7
+  },
+  {
+   "t": 53.745,
+   "dur": 0.6
+  },
+  {
+   "t": 56.995,
+   "dur": 0.6
+  },
+  {
+   "t": 58.525,
+   "dur": 0.5
+  },
+  {
+   "t": 60.935,
+   "dur": 0.8
+  }
+ ],
+ "sfx": [
+  {
+   "type": "river",
+   "t": 0,
+   "dur": 4.04,
+   "loop": true,
+   "gain": -46
+  },
+  {
+   "type": "stomp",
+   "t": 0.05,
+   "gain": -14
+  },
+  {
+   "type": "drum",
+   "t": 0.3,
+   "gain": -22
+  },
+  {
+   "type": "whoosh",
+   "t": 0.62,
+   "gain": -27
+  },
+  {
+   "type": "neigh",
+   "t": 0.9,
+   "gain": -30
+  },
+  {
+   "type": "steps",
+   "t": 3.4,
+   "dur": 0.4399999999999998,
+   "every": 0.23,
+   "gain": -27
+  },
+  {
+   "type": "river",
+   "t": 4.04,
+   "dur": 5.291,
+   "loop": true,
+   "gain": -42
+  },
+  {
+   "type": "wind",
+   "t": 4.04,
+   "dur": 5.291,
+   "loop": true,
+   "gain": -46
+  },
+  {
+   "type": "whoosh",
+   "t": 4.72,
+   "gain": -26,
+   "down": true
+  },
+  {
+   "type": "squeak",
+   "t": 5.62,
+   "gain": -30
+  },
+  {
+   "type": "riser",
+   "t": 6.551,
+   "dur": 0.9,
+   "gain": -30
+  },
+  {
+   "type": "ding",
+   "t": 8.261,
+   "gain": -30,
+   "f": 1175
+  },
+  {
+   "type": "river",
+   "t": 9.331,
+   "dur": 3.36,
+   "loop": true,
+   "gain": -46
+  },
+  {
+   "type": "chain",
+   "t": 9.711,
+   "gain": -30
+  },
+  {
+   "type": "whoosh",
+   "t": 10.491,
+   "gain": -29,
+   "down": true
+  },
+  {
+   "type": "squeak",
+   "t": 10.991,
+   "gain": -28
+  },
+  {
+   "type": "chain",
+   "t": 11.541,
+   "gain": -32
+  },
+  {
+   "type": "squeak",
+   "t": 11.941,
+   "gain": -28,
+   "f": 2500
+  },
+  {
+   "type": "march",
+   "t": 12.521,
+   "dur": 3.210000000000001,
+   "every": 0.5172413793103449,
+   "gain": -31
+  },
+  {
+   "type": "drums",
+   "t": 12.521,
+   "dur": 3.210000000000001,
+   "every": 0.5172413793103449,
+   "gain": -33
+  },
+  {
+   "type": "whoosh",
+   "t": 15.581,
+   "gain": -28
+  },
+  {
+   "type": "step",
+   "t": 16.031,
+   "gain": -26
+  },
+  {
+   "type": "step",
+   "t": 16.331,
+   "gain": -26
+  },
+  {
+   "type": "thud",
+   "t": 16.651,
+   "gain": -17
+  },
+  {
+   "type": "neigh",
+   "t": 18.132,
+   "gain": -27
+  },
+  {
+   "type": "thud",
+   "t": 18.882,
+   "gain": -27
+  },
+  {
+   "type": "swish",
+   "t": 19.622,
+   "gain": -27
+  },
+  {
+   "type": "boom",
+   "t": 19.872,
+   "gain": -19
+  },
+  {
+   "type": "pop",
+   "t": 20.372,
+   "gain": -28
+  },
+  {
+   "type": "pop",
+   "t": 20.792,
+   "gain": -28,
+   "f": 620
+  },
+  {
+   "type": "river",
+   "t": 21.922,
+   "dur": 3.91,
+   "loop": true,
+   "gain": -40
+  },
+  {
+   "type": "thud",
+   "t": 22.022,
+   "gain": -24
+  },
+  {
+   "type": "pop",
+   "t": 23.372,
+   "gain": -29
+  },
+  {
+   "type": "whoosh",
+   "t": 24.912,
+   "gain": -25,
+   "down": true
+  },
+  {
+   "type": "splash",
+   "t": 25.612,
+   "gain": -29
+  },
+  {
+   "type": "pop",
+   "t": 25.812,
+   "gain": -27,
+   "f": 440
+  },
+  {
+   "type": "pop",
+   "t": 26.142,
+   "gain": -27,
+   "f": 500
+  },
+  {
+   "type": "pop",
+   "t": 26.472,
+   "gain": -27,
+   "f": 560
+  },
+  {
+   "type": "swish",
+   "t": 27.052,
+   "gain": -27
+  },
+  {
+   "type": "drums",
+   "t": 27.302,
+   "dur": 1.1899999999999984,
+   "every": 0.25862068965517243,
+   "gain": -22
+  },
+  {
+   "type": "stomp",
+   "t": 28.562,
+   "gain": -19
+  },
+  {
+   "type": "stomp",
+   "t": 29.079,
+   "gain": -19
+  },
+  {
+   "type": "stomp",
+   "t": 29.596,
+   "gain": -19
+  },
+  {
+   "type": "whoosh",
+   "t": 30.113,
+   "gain": -28
+  },
+  {
+   "type": "stomp",
+   "t": 30.114,
+   "gain": -19
+  },
+  {
+   "type": "stomp",
+   "t": 30.631,
+   "gain": -19
+  },
+  {
+   "type": "stomp",
+   "t": 31.148,
+   "gain": -19
+  },
+  {
+   "type": "stomp",
+   "t": 31.665,
+   "gain": -19
+  },
+  {
+   "type": "march",
+   "t": 31.763,
+   "dur": 4.539999999999996,
+   "every": 0.5172413793103449,
+   "gain": -33
+  },
+  {
+   "type": "squeak",
+   "t": 32.263,
+   "gain": -30,
+   "f": 1900
+  },
+  {
+   "type": "squeak",
+   "t": 33.297,
+   "gain": -28,
+   "f": 1980
+  },
+  {
+   "type": "squeak",
+   "t": 34.332,
+   "gain": -26,
+   "f": 2060
+  },
+  {
+   "type": "swish",
+   "t": 34.853,
+   "gain": -27
+  },
+  {
+   "type": "creak",
+   "t": 35.153,
+   "gain": -22
+  },
+  {
+   "type": "creak",
+   "t": 35.803,
+   "gain": -21,
+   "f": 110
+  },
+  {
+   "type": "rumble",
+   "t": 36.463,
+   "dur": 4.259999999999998,
+   "gain": -34
+  },
+  {
+   "type": "creak",
+   "t": 36.663,
+   "gain": -24
+  },
+  {
+   "type": "neigh",
+   "t": 37.443,
+   "gain": -15
+  },
+  {
+   "type": "thud",
+   "t": 37.793,
+   "gain": -20
+  },
+  {
+   "type": "thud",
+   "t": 38.043,
+   "gain": -22
+  },
+  {
+   "type": "whoosh",
+   "t": 39.223,
+   "gain": -24,
+   "dur": 0.8
+  },
+  {
+   "type": "ding",
+   "t": 40.073,
+   "gain": -27,
+   "f": 880
+  },
+  {
+   "type": "wind",
+   "t": 41.093,
+   "dur": 5.841,
+   "loop": true,
+   "gain": -47
+  },
+  {
+   "type": "swish",
+   "t": 41.832,
+   "gain": -29
+  },
+  {
+   "type": "swish",
+   "t": 42.885,
+   "gain": -29
+  },
+  {
+   "type": "swish",
+   "t": 43.938,
+   "gain": -29
+  },
+  {
+   "type": "pop",
+   "t": 44.87,
+   "gain": -25,
+   "f": 554.3717164502533
+  },
+  {
+   "type": "swish",
+   "t": 44.99,
+   "gain": -29
+  },
+  {
+   "type": "whoosh",
+   "t": 45.744,
+   "gain": -27
+  },
+  {
+   "type": "pop",
+   "t": 45.923,
+   "gain": -25,
+   "f": 622.2612123715342
+  },
+  {
+   "type": "swish",
+   "t": 46.043,
+   "gain": -29
+  },
+  {
+   "type": "ding",
+   "t": 46.164,
+   "gain": -22,
+   "f": 1568
+  },
+  {
+   "type": "blip",
+   "t": 46.764,
+   "gain": -29,
+   "f": 392
+  },
+  {
+   "type": "rumble",
+   "t": 46.764,
+   "dur": 4.140000000000001,
+   "gain": -36
+  },
+  {
+   "type": "blip",
+   "t": 47.281,
+   "gain": -28.2,
+   "f": 415.3095329888438
+  },
+  {
+   "type": "blip",
+   "t": 47.798,
+   "gain": -27.4,
+   "f": 440.0051229372742
+  },
+  {
+   "type": "blip",
+   "t": 48.316,
+   "gain": -26.6,
+   "f": 466.16918908106663
+  },
+  {
+   "type": "blip",
+   "t": 48.833,
+   "gain": -25.8,
+   "f": 493.8890515587903
+  },
+  {
+   "type": "whoosh",
+   "t": 49.004,
+   "gain": -27
+  },
+  {
+   "type": "blip",
+   "t": 49.35,
+   "gain": -25,
+   "f": 523.2572228346535
+  },
+  {
+   "type": "blip",
+   "t": 49.867,
+   "gain": -24.2,
+   "f": 554.3717164502533
+  },
+  {
+   "type": "creak",
+   "t": 50.304,
+   "gain": -24
+  },
+  {
+   "type": "blip",
+   "t": 50.385,
+   "gain": -23.4,
+   "f": 587.3363741356592
+  },
+  {
+   "type": "blip",
+   "t": 50.902,
+   "gain": -22.6,
+   "f": 622.2612123715342
+  },
+  {
+   "type": "march",
+   "t": 51.124,
+   "dur": 2.621000000000002,
+   "every": 0.5172413793103449,
+   "gain": -31
+  },
+  {
+   "type": "creak",
+   "t": 51.524,
+   "gain": -23,
+   "f": 95
+  },
+  {
+   "type": "creak",
+   "t": 52.524,
+   "gain": -21,
+   "f": 110
+  },
+  {
+   "type": "creak",
+   "t": 53.524,
+   "gain": -19,
+   "f": 125
+  },
+  {
+   "type": "swish",
+   "t": 53.745,
+   "gain": -27
+  },
+  {
+   "type": "riser",
+   "t": 53.945,
+   "dur": 1.9399999999999935,
+   "gain": -22
+  },
+  {
+   "type": "snap",
+   "t": 55.885,
+   "gain": -9
+  },
+  {
+   "type": "river",
+   "t": 56.045,
+   "dur": 3.75,
+   "loop": true,
+   "gain": -40
+  },
+  {
+   "type": "crash",
+   "t": 56.095,
+   "gain": -12
+  },
+  {
+   "type": "boom",
+   "t": 56.145,
+   "gain": -16
+  },
+  {
+   "type": "whoosh",
+   "t": 56.995,
+   "gain": -26,
+   "down": true
+  },
+  {
+   "type": "splash",
+   "t": 57.559,
+   "gain": -19
+  },
+  {
+   "type": "splash",
+   "t": 57.713,
+   "gain": -17
+  },
+  {
+   "type": "splash",
+   "t": 57.741,
+   "gain": -21
+  },
+  {
+   "type": "splash",
+   "t": 57.895,
+   "gain": -15
+  },
+  {
+   "type": "pop",
+   "t": 58.245,
+   "gain": -27,
+   "f": 300
+  },
+  {
+   "type": "pop",
+   "t": 58.495,
+   "gain": -29,
+   "f": 360
+  },
+  {
+   "type": "swish",
+   "t": 58.525,
+   "gain": -28
+  },
+  {
+   "type": "sip",
+   "t": 59.075,
+   "gain": -24
+  },
+  {
+   "type": "river",
+   "t": 59.795,
+   "dur": 3.11,
+   "loop": true,
+   "gain": -46
+  },
+  {
+   "type": "steps",
+   "t": 59.825,
+   "dur": 2.839999999999999,
+   "every": 0.19,
+   "gain": -29
+  },
+  {
+   "type": "ding",
+   "t": 59.875,
+   "gain": -23,
+   "f": 1568
+  },
+  {
+   "type": "whoosh",
+   "t": 60.935,
+   "gain": -28
+  },
+  {
+   "type": "chime",
+   "t": 62.165,
+   "gain": -24
+  }
+ ]
+}
