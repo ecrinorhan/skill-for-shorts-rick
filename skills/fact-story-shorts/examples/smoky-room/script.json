@@ -1,0 +1,31 @@
+{
+  "title": "Why Nobody Leaves the Smoky Room",
+  "structure": "claim hook, second-person scenario (Imagine), question, late explainer, last line is the sting of the explanation",
+  "fact": "Latané and Darley (1968) put male Columbia University students in a waiting room to fill out a questionnaire and let smoke in through a wall vent. Alone, 75 % reported the smoke within the six-minute session; next to two actors who had been told to ignore it, 10 % did; in groups of three real participants, someone reported it in only 38 % of the groups. The authors' reading: people take other people's calm as a sign that nothing is wrong. DRAMATISED for this story: what 'you' think and do in the room, the stinging eyes, the clipboard, and how thick the smoke is at minute six.",
+  "sources": [
+    "https://doi.org/10.1037/h0026570"
+  ],
+  "voice": "af_heart",
+  "sentences": [
+    {"beat": "hook", "text": "Smoke poured into the room, and nine out of ten people just kept filling out a form."},
+    {"beat": "setup", "text": "Imagine you're in a waiting room with two strangers, ticking boxes on a survey."},
+    {"beat": "setup", "text": "Then a thin white wisp curls out of a vent in the wall."},
+    {"beat": "conflict", "text": "You look up."},
+    {"beat": "conflict", "text": "The guy on your left glances at it, shrugs, and goes back to his survey."},
+    {"beat": "conflict", "text": "The guy on your right doesn't even blink."},
+    {"beat": "conflict", "text": "So you figure it's probably steam, and you tick another box."},
+    {"beat": "escalation", "text": "A minute later, that wisp is a cloud."},
+    {"beat": "escalation", "text": "Your eyes sting, and you're waving your clipboard like you're landing a plane."},
+    {"beat": "escalation", "text": "But they're both still writing, so you cough as politely as you can and keep going."},
+    {"beat": "escalation", "text": "You almost stand up, but what if you're the only one making a fuss?"},
+    {"beat": "escalation", "text": "By minute six, you can barely see the door, and nobody has said a word."},
+    {"beat": "question", "text": "So why is nobody running?", "pitch": 1.5},
+    {"beat": "explainer", "text": "Well, this was a real experiment, and those two strangers were actors, told to ignore the smoke no matter what."},
+    {"beat": "explainer", "text": "When students sat in that room alone, three out of four got up and reported it."},
+    {"beat": "explainer", "text": "But next to two calm faces, only one in ten did."},
+    {"beat": "explainer", "text": "You see, when you're not sure what's happening, you don't trust your own eyes."},
+    {"beat": "explainer", "text": "You check everybody else's face first."},
+    {"beat": "payoff", "text": "So the researchers took the actors out and filled the room with three real people."},
+    {"beat": "ending", "text": "And most of those rooms sat in the smoke too, each one waiting for somebody else to look scared first."}
+  ]
+}

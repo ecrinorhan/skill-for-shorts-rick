@@ -1,0 +1,683 @@
+{
+ "video": "07_e9NoHjAXYIY",
+ "joins_verified": [
+  {
+   "t": 3.3,
+   "auto_type": "cut",
+   "verdict": "cut",
+   "note": "Close on red car and white SUV, hard cut to a different close angle of the same collision; no blend."
+  },
+  {
+   "t": 4.82,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "7 frames of double exposure from crash exterior to the new dashboard interior."
+  },
+  {
+   "t": 6.97,
+   "auto_type": "cut",
+   "verdict": "cut",
+   "note": "Windshield POV hard cut to a wide side shot of the two drivers on the road."
+  },
+  {
+   "t": 10.3,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "12-frame cross-fade from highway scene to grass lawn and red car."
+  },
+  {
+   "t": 16.05,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "7 frames, money-confetti burst fades into a red car interior."
+  },
+  {
+   "t": 18.6,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "6 frames, daytime teal car fades into a dusk purple-sky traffic shot."
+  },
+  {
+   "t": 27.75,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "13 frames, dusk traffic fades into garage with money pile."
+  },
+  {
+   "t": 29.47,
+   "auto_type": "cut",
+   "verdict": "cut",
+   "note": "Day-lit garage money pile hard cut to night lawn with green sports car."
+  },
+  {
+   "t": 32.27,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "10 frames, smoking green car fades into the insurance office."
+  },
+  {
+   "t": 36.7,
+   "auto_type": "cut",
+   "verdict": "cut",
+   "note": "Office clerk close-up cuts to man in pool on phone."
+  },
+  {
+   "t": 38.7,
+   "auto_type": "cut",
+   "verdict": "cut",
+   "note": "Pool shot cuts to yellow man and officer by the green car."
+  },
+  {
+   "t": 43.63,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "6 frames, night street fades into rainy station wagon interior."
+  },
+  {
+   "t": 46.7,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "8 frames, wagon exterior-ish shot fades into dashboard POV with red car ahead."
+  },
+  {
+   "t": 50.02,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "11 frames, dashboard POV fades into interior two-shot of quiet driver and yellow man."
+  },
+  {
+   "t": 55.23,
+   "auto_type": "cut",
+   "verdict": "cut",
+   "note": "Yellow man falling at windshield cuts to his face close-up, goggles on forehead, with sweat drop."
+  },
+  {
+   "t": 56.35,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "13 frames, sweating face fades into dashcam view with REC overlay."
+  },
+  {
+   "t": 60.12,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "5 frames, dashcam view of black car fades into the quiet driver in car with camera on glass."
+  },
+  {
+   "t": 60.63,
+   "auto_type": "inplace_blend",
+   "verdict": "in_place_change",
+   "note": "Same framing; seat and light tone shift slightly, likely a take/lighting swap. Faint."
+  }
+ ],
+ "missed_joins": [
+  {
+   "t": 1.23,
+   "type": "cut",
+   "note": "Interior of the driver's car jumps to outside view of the red car on the highway; reads as a cut (suspect sheet), not a dissolve."
+  },
+  {
+   "t": 12.9,
+   "type": "cut",
+   "note": "Red car with sign-holding man cuts to house lawn with hospital bed; different place and framing."
+  }
+ ],
+ "beats": [
+  {
+   "name": "hook",
+   "start": 0.0,
+   "end": 4.6,
+   "said": "A man brakes hard on a highway and the car behind crashes into him.",
+   "shown": "Grinning driver in car interior, then red car on highway rear-ended by a white SUV."
+  },
+  {
+   "name": "setup",
+   "start": 4.6,
+   "end": 15.9,
+   "said": "He fakes a neck injury, insurance pays for car, doctor and pain money.",
+   "shown": "Driver and other man on road, lawn with hospital bed and cash."
+  },
+  {
+   "name": "escalation",
+   "start": 15.9,
+   "end": 32.3,
+   "said": "He repeats it with chosen targets, adds a buddy, buys nicer cars to crash.",
+   "shown": "Dusk traffic with red/teal cars, money piles, green sports car smoking."
+  },
+  {
+   "name": "twist",
+   "start": 32.3,
+   "end": 43.6,
+   "said": "Insurance notices five neck injuries; he claims a weak neck and counts on blame.",
+   "shown": "Insurance clerk at desk, man in pool on phone, night lawn with officer."
+  },
+  {
+   "name": "payoff",
+   "start": 43.6,
+   "end": 56.4,
+   "said": "On a rainy morning a quiet driver just points at a taped box.",
+   "shown": "Rainy dashboard POVs, quiet driver pointing at a camera, falling yellow man, sweating close-up."
+  },
+  {
+   "name": "ending",
+   "start": 56.4,
+   "end": 62.3,
+   "said": "The camera filmed an empty road and braking for nothing; thus the dashcam.",
+   "shown": "Dashcam footage with REC and speed overlay, then quiet driver beside camera on glass."
+  }
+ ],
+ "hook": {
+  "first_frame": "Cartoon driver in yellow shirt seated at the wheel, smirking sideways, in a detailed 3D car interior with a phone in the foreground.",
+  "first_3s": "Grin widens, camera swoops from interior out to a red car on the highway, then a white SUV rams it.",
+  "line_type": "strange action by he/they",
+  "first_frame_shot_size": "medium",
+  "first_frame_subject": "protagonist doing the hook action",
+  "protagonist_looks_at_camera": false,
+  "title_vs_first_line": "Title states the question of why drivers film the road; the first line starts the story with the brake-check crash and never repeats the title."
+ },
+ "story": {
+  "topic_type": "law/economics/work",
+  "setting_era": "modern",
+  "structure": "pure story with twist reveal",
+  "real_fact_core": "Staged rear-end collision insurance fraud (brake-checking) is exposed by video evidence, which is why dashcams spread (estimate).",
+  "likely_source_type": "urban legend",
+  "protagonist": "Fraudster driver in yellow shirt",
+  "authority_or_antagonist": "Insurance clerk, then the quiet driver with dashcam",
+  "direct_speech_lines": 2,
+  "second_person": false,
+  "tense": "present",
+  "explainer_turn": "'And that's how' at 60.1s",
+  "ending_type": "explanation is the last line",
+  "call_to_action": "none"
+ },
+ "tone": {
+  "humour": "Absurd escalation: money piles, buying cars to crash, weak-neck excuse.",
+  "deadpan_or_irony": "Flat clerk and deadpan quiet driver contrast the scammer's grin; final reveal is understated.",
+  "dialogue_style": "Two short lines of spoken dialogue in the same narrator voice; no separate voices (estimate from transcript)."
+ },
+ "characters": [
+  {
+   "role": "Scammer protagonist",
+   "head": "Big white round head, thick black outline",
+   "hair_or_hat": "Brown bowl hair; sunglasses perched on top later",
+   "eyes": "Simple black dots or small ovals, heavy lids",
+   "mouth": "Small black line or open shapes; wide grin with teeth in hook",
+   "body_and_clothes": "Short yellow shirt with buttons or belt, tiny torso",
+   "limbs": "Thin black stick arms and long legs, small feet",
+   "accessories": "Sunglasses on head, sweat drop when scared",
+   "expressions_seen": [
+    "smirk",
+    "toothy grin",
+    "gritted teeth",
+    "worried",
+    "wide-eyed sweat",
+    "eyes shut yelling"
+   ]
+  },
+  {
+   "role": "Quiet driver",
+   "head": "White round head, outline",
+   "hair_or_hat": "Dark messy hair",
+   "eyes": "Half-lidded flat",
+   "mouth": "Tiny flat line",
+   "body_and_clothes": "Maroon hoodie with seat belt",
+   "limbs": "Stick arms",
+   "accessories": "Dashcam on windshield",
+   "expressions_seen": [
+    "flat stare",
+    "small smirk"
+   ]
+  },
+  {
+   "role": "Officer",
+   "head": "White round head, outline",
+   "hair_or_hat": "Brown ranger hat with wide brim",
+   "eyes": "Narrow angry slits",
+   "mouth": "Small frown",
+   "body_and_clothes": "Grey uniform, pocket and belt",
+   "limbs": "Stick arms/legs",
+   "accessories": "Holds a thing in hand",
+   "expressions_seen": [
+    "stern",
+    "angry"
+   ]
+  },
+  {
+   "role": "Insurance clerk",
+   "head": "White round head",
+   "hair_or_hat": "Black swept hair with headset",
+   "eyes": "Narrow lids",
+   "mouth": "Open for speech",
+   "body_and_clothes": "Navy suit, red tie",
+   "limbs": "Stick arms",
+   "accessories": "Phone, desk sign",
+   "expressions_seen": [
+    "smug",
+    "speaking"
+   ]
+  }
+ ],
+ "character_style": {
+  "head_height_share_of_body_estimate": 0.35,
+  "outline": "Thick black ink outline on 2D characters; set has none",
+  "shading": "Flat white heads, minimal cel shading; lit by scene colour tint (estimate)",
+  "consistency_between_shots": "Faces redrawn per shot but shape, hair and clothes stay consistent.",
+  "shadow_under_character": "unclear"
+ },
+ "animation": {
+  "body_motion": "Stick limbs posed and keyframed; characters swing between poses; camera does most of the motion.",
+  "lip_sync": "mouth changes with pose only",
+  "lip_sync_evidence_frames": [
+   1102,
+   1104,
+   1106,
+   1108,
+   1110,
+   1112
+  ],
+  "eyes_and_blinks": "Eyes change per expression swap; no clear blinks seen.",
+  "idle_motion": "Small wobble of arms and head; in the hold at 41-42s, officer leans and turns while the other man stays mostly static.",
+  "squash_and_stretch": "Little to none on characters; stylised money explosions and smoke are particles."
+ },
+ "environments": [
+  {
+   "start": 0,
+   "end": 2,
+   "place": "Car interior",
+   "key_props": [
+    "phone",
+    "seat",
+    "dash",
+    "cash on mirror"
+   ],
+   "in_world_text": [
+    "phone clock 10:24"
+   ],
+   "time_of_day": "day",
+   "lighting": "Strong sun from the right, warm and hard, with blue sky out of the window",
+   "depth_cues": "Wide-angle lens, strong perspective"
+  },
+  {
+   "start": 2,
+   "end": 11,
+   "place": "Highway",
+   "key_props": [
+    "red car",
+    "white SUV",
+    "road signs"
+   ],
+   "in_world_text": [
+    "green road sign"
+   ],
+   "time_of_day": "day",
+   "lighting": "Bright sun, cool blue sky, soft shadows",
+   "depth_cues": "Distant tree line and light haze"
+  },
+  {
+   "start": 11,
+   "end": 16,
+   "place": "Suburban lawn",
+   "key_props": [
+    "hospital bed",
+    "cash confetti",
+    "red car"
+   ],
+   "in_world_text": [],
+   "time_of_day": "day",
+   "lighting": "Sunny, soft shadows, saturated green grass",
+   "depth_cues": "Shallow cartoon depth"
+  },
+  {
+   "start": 17,
+   "end": 28,
+   "place": "Dusk highway traffic",
+   "key_props": [
+    "red car",
+    "teal car",
+    "black cars"
+   ],
+   "in_world_text": [],
+   "time_of_day": "dusk",
+   "lighting": "Purple sky, headlights as practicals",
+   "depth_cues": "Haze and bokeh"
+  },
+  {
+   "start": 28,
+   "end": 33,
+   "place": "Garage and lawn with money",
+   "key_props": [
+    "money pile",
+    "green sports car",
+    "smoke"
+   ],
+   "in_world_text": [],
+   "time_of_day": "night",
+   "lighting": "Cool blue night, bright garage lamp and car headlights",
+   "depth_cues": "Smoke plume, light glow"
+  },
+  {
+   "start": 33,
+   "end": 37,
+   "place": "Insurance office",
+   "key_props": [
+    "desk",
+    "skyscraper window",
+    "framed photos",
+    "counter sign"
+   ],
+   "in_world_text": [
+    "desk sign with counter digits"
+   ],
+   "time_of_day": "day",
+   "lighting": "Soft daylight from window with warm interior wood",
+   "depth_cues": "Skyline blur"
+  },
+  {
+   "start": 37,
+   "end": 39,
+   "place": "Backyard pool",
+   "key_props": [
+    "rubber duck",
+    "string lights",
+    "towels",
+    "fence"
+   ],
+   "in_world_text": [],
+   "time_of_day": "night",
+   "lighting": "Warm string lights against blue night, pool glow",
+   "depth_cues": "Bokeh lights"
+  },
+  {
+   "start": 39,
+   "end": 44,
+   "place": "Night lawn with officer",
+   "key_props": [
+    "green sports car",
+    "money bushes",
+    "house",
+    "smoke"
+   ],
+   "in_world_text": [
+    "small license sign on car"
+   ],
+   "time_of_day": "night",
+   "lighting": "Moonlit blue key with a hard white spot on the car",
+   "depth_cues": "Cool haze, steam"
+  },
+  {
+   "start": 44,
+   "end": 56,
+   "place": "Rainy road, wagon and dashboard",
+   "key_props": [
+    "wagon",
+    "wipers",
+    "red car",
+    "dashboard"
+   ],
+   "in_world_text": [],
+   "time_of_day": "rainy morning",
+   "lighting": "Overcast grey-blue, soft, low contrast",
+   "depth_cues": "Wet haze, rain streaks"
+  },
+  {
+   "start": 56,
+   "end": 62,
+   "place": "Dashcam view and car interior",
+   "key_props": [
+    "dashcam",
+    "wiper",
+    "black car",
+    "REC overlay"
+   ],
+   "in_world_text": [
+    "REC",
+    "speed MPH",
+    "date 11/07/2026",
+    "FRONT 1080P"
+   ],
+   "time_of_day": "rainy morning",
+   "lighting": "Cool grey overcast",
+   "depth_cues": "Rain streaks, soft sky"
+  }
+ ],
+ "set_style": "mixed",
+ "layer_stack": [
+  "3D rendered sky/road/set",
+  "3D props and vehicles",
+  "flat 2D ink characters composited in",
+  "particles: money, smoke, rain",
+  "in-world UI (dashcam overlay)",
+  "white bold captions with black stroke at lower third"
+ ],
+ "camera": {
+  "shot_sizes": [
+   "medium",
+   "wide",
+   "close-up",
+   "medium-long"
+  ],
+  "angles": [
+   "low",
+   "eye-level",
+   "POV",
+   "high"
+  ],
+  "lens_feel": "Wide, strong perspective in interiors; longer lens for road shots (estimate)",
+  "camera_height": "Mostly low to eye height, vehicle-level",
+  "notable_moves": [
+   {
+    "t": 1.13,
+    "type": "swoop out of the car",
+    "note": "Fast move from interior to exterior over about 0.5 s"
+   },
+   {
+    "t": 15.23,
+    "type": "push-in",
+    "note": "Through a cash burst"
+   },
+   {
+    "t": 17.33,
+    "type": "orbit",
+    "note": "Around the next target car"
+   },
+   {
+    "t": 39.63,
+    "type": "pull-out",
+    "note": "Reveal of the two men and the green car"
+   }
+  ]
+ },
+ "effects": [
+  {
+   "t": 15.2,
+   "dur_s": 1.0,
+   "type": "particles",
+   "trigger": "pain money payout; cash confetti flood"
+  },
+  {
+   "t": 29.0,
+   "dur_s": 3.0,
+   "type": "particles",
+   "trigger": "buying nicer car; money piles"
+  },
+  {
+   "t": 30.8,
+   "dur_s": 2.0,
+   "type": "smoke",
+   "trigger": "crash of the green car"
+  },
+  {
+   "t": 56.0,
+   "dur_s": 4.0,
+   "type": "screen or UI insert",
+   "trigger": "dashcam REC overlay with speed readout"
+  },
+  {
+   "t": 44.0,
+   "dur_s": 12.0,
+   "type": "other",
+   "trigger": "rain streaks on lens and windshield"
+  },
+  {
+   "t": 1.1,
+   "dur_s": 0.5,
+   "type": "motion blur",
+   "trigger": "swoop out of car"
+  }
+ ],
+ "lighting_mood_shifts": [
+  {
+   "t": 18.6,
+   "change": "Bright day turns dusk purple",
+   "story_reason": "Escalation of repeated scam"
+  },
+  {
+   "t": 29.5,
+   "change": "Warm to cold blue night",
+   "story_reason": "Crime accumulates, tension"
+  },
+  {
+   "t": 43.6,
+   "change": "Bright to dim grey rain",
+   "story_reason": "Final scene and reversal"
+  },
+  {
+   "t": 56.4,
+   "change": "Cool dashcam grading",
+   "story_reason": "Evidence reveal"
+  }
+ ],
+ "generation_evidence": [
+  {
+   "frames": [
+    0,
+    36,
+    48
+   ],
+   "observation": "Car interior and exterior are consistent solid 3D geometry across a fast camera swoop; car design, wheels and reflections stay stable.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    1700,
+    1790
+   ],
+   "observation": "Dashcam overlay text (REC, MPH, date, FRONT 1080P) stays crisp and the speed readout changes sensibly 54 to 0 MPH.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    1102,
+    1110,
+    1114
+   ],
+   "observation": "2D head with same outline is re-drawn per pose over a stable 3D scene; face shapes switch discretely.",
+   "points_to": "hand animation"
+  },
+  {
+   "frames": [
+    1240,
+    1265
+   ],
+   "observation": "Money, smoke and leaf bits move as particles; lamp, house, fence stay identical.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    30,
+    36
+   ],
+   "observation": "Same hero car interior and hero assets appear across scenes at different times of day.",
+   "points_to": "3D engine render"
+  }
+ ],
+ "sample_points": [
+  {
+   "frame": 0,
+   "x": 0.2,
+   "y": 0.2,
+   "what": "scammer head fill (white)",
+   "hex": "#969A7F",
+   "patch_spread": 0.6
+  },
+  {
+   "frame": 0,
+   "x": 0.25,
+   "y": 0.4,
+   "what": "scammer yellow shirt",
+   "hex": "#F2CF13",
+   "patch_spread": 1.5
+  },
+  {
+   "frame": 24,
+   "x": 0.4,
+   "y": 0.04,
+   "what": "scammer brown hair (estimate)",
+   "hex": "#C7CCCF",
+   "patch_spread": 5.5
+  },
+  {
+   "frame": 120,
+   "x": 0.5,
+   "y": 0.04,
+   "what": "day sky blue",
+   "hex": "#D7D5D1",
+   "patch_spread": 44.1
+  },
+  {
+   "frame": 120,
+   "x": 0.5,
+   "y": 0.92,
+   "what": "highway asphalt grey",
+   "hex": "#8D8997",
+   "patch_spread": 28.6
+  },
+  {
+   "frame": 360,
+   "x": 0.5,
+   "y": 0.9,
+   "what": "lawn grass green",
+   "hex": "#528025",
+   "patch_spread": 43.1
+  },
+  {
+   "frame": 780,
+   "x": 0.5,
+   "y": 0.1,
+   "what": "dusk sky purple",
+   "hex": "#424055",
+   "patch_spread": 17.7
+  },
+  {
+   "frame": 1260,
+   "x": 0.5,
+   "y": 0.1,
+   "what": "night sky navy",
+   "hex": "#0F1658",
+   "patch_spread": 0.8
+  },
+  {
+   "frame": 1110,
+   "x": 0.5,
+   "y": 0.9,
+   "what": "yellow shirt in pool scene",
+   "hex": "#3D3648",
+   "patch_spread": 0.4
+  },
+  {
+   "frame": 1830,
+   "x": 0.5,
+   "y": 0.04,
+   "what": "rainy morning sky blue-grey",
+   "hex": "#2E7DB3",
+   "patch_spread": 0.7
+  }
+ ],
+ "thumbnail": "Scammer in yellow shirt and sunglasses and an angry officer beside a green sports car and a huge money pile, from the night-lawn scene around 39 to 43 s.",
+ "could_not_determine": [
+  "Whether the 60.63 s change is a separate take or a lighting tweak.",
+  "Which characters share the single narrator voice.",
+  "Shadow under 2D characters.",
+  "Hair/hat sample point positions are estimates from the sheets."
+ ]
+}
