@@ -1,0 +1,788 @@
+{
+ "video": "15_t3OXkhlI6NQ",
+ "joins_verified": [
+  {
+   "t": 5.22,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Memory-shop interior cross-fades to night street; double exposure mid-tiles"
+  },
+  {
+   "t": 6.62,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Street to MEMORIES shop interior with sign; double exposure"
+  },
+  {
+   "t": 7.92,
+   "auto_type": "inplace_blend",
+   "verdict": "in_place_change",
+   "note": "Same shop framing, lamp glow flares brighter"
+  },
+  {
+   "t": 8.73,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Shop interior to grocery storefront street; double exposure"
+  },
+  {
+   "t": 15.82,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Street with wall to sunny rich pool scene"
+  },
+  {
+   "t": 18.65,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Sunbathers to man with bell helmet by pool"
+  },
+  {
+   "t": 22.9,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Couch scene to turquoise pool water"
+  },
+  {
+   "t": 23.53,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Pool water to blurred glass streaks, camera dropping through"
+  },
+  {
+   "t": 23.77,
+   "auto_type": "inplace_blend",
+   "verdict": "dissolve",
+   "note": "Streaky blur overlay hands over to the poor-side scene"
+  },
+  {
+   "t": 24.15,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Streaks resolve into three people on a bench"
+  },
+  {
+   "t": 27.58,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Bench to happiness gauge with hooded clerk"
+  },
+  {
+   "t": 29.65,
+   "auto_type": "inplace_blend",
+   "verdict": "in_place_change",
+   "note": "Gauge scene, same framing, needle and light shift slightly"
+  },
+  {
+   "t": 31.67,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Gauge to night street with Jerry and a frog-hat boy"
+  },
+  {
+   "t": 36.0,
+   "auto_type": "inplace_blend",
+   "verdict": "dissolve",
+   "note": "Street fades to hospital bed; ghosted frog and boy visible"
+  },
+  {
+   "t": 39.42,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Polaroid frame fades into full lake-dock scene"
+  },
+  {
+   "t": 44.3,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Jerry at machine to dark counter close-up"
+  },
+  {
+   "t": 47.2,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Dark counter to birthday card, then hospital"
+  },
+  {
+   "t": 49.3,
+   "auto_type": "inplace_blend",
+   "verdict": "in_place_change",
+   "note": "Same hospital framing; Jerry eyes and expression change"
+  },
+  {
+   "t": 50.08,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Hospital hall to BUY SUMMERS street night"
+  },
+  {
+   "t": 52.55,
+   "auto_type": "inplace_blend",
+   "verdict": "in_place_change",
+   "note": "Same framing; Jerry head tint goes from warm to pale blue"
+  },
+  {
+   "t": 53.03,
+   "auto_type": "inplace_blend",
+   "verdict": "in_place_change",
+   "note": "Same framing; head colour and expression shift again"
+  },
+  {
+   "t": 53.72,
+   "auto_type": "inplace_blend",
+   "verdict": "in_place_change",
+   "note": "Same framing; head fill goes pale blue, eyes closed"
+  },
+  {
+   "t": 54.43,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Jerry on street to brother in bed, long 24f overlap"
+  },
+  {
+   "t": 55.98,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Bedside to Jerry holding memory ledger close-up"
+  },
+  {
+   "t": 58.08,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "SOLD ledger to Jerry and hooded clerk at counter"
+  },
+  {
+   "t": 65.18,
+   "auto_type": "inplace_blend",
+   "verdict": "in_place_change",
+   "note": "Glowing memory chip brightens to near white, same framing"
+  },
+  {
+   "t": 65.98,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "White glow dissolves into brother in bed"
+  },
+  {
+   "t": 71.28,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Brother in bed to Jerry close-up, double exposure"
+  }
+ ],
+ "missed_joins": [
+  {
+   "t": 42.45,
+   "type": "dissolve",
+   "note": "Polaroid shrinks and swings away, then machine scene at 42.8; join hidden by a fast move (estimate)"
+  }
+ ],
+ "beats": [
+  {
+   "name": "hook",
+   "start": 0.0,
+   "end": 3.3,
+   "said": "A man sold his happiest memory to a stranger at a counter",
+   "shown": "Jerry at counter, fly-in to glowing memory chip, grinning hooded clerk"
+  },
+  {
+   "name": "setup",
+   "start": 3.3,
+   "end": 15.4,
+   "said": "Memories are currency; shops extract them; rent and groceries cost birthdays; wall splits city",
+   "shown": "Shop, street, storefronts, bicycle kid, wall light shafts"
+  },
+  {
+   "name": "explainer",
+   "start": 15.4,
+   "end": 31.3,
+   "said": "Rich buy summers, poor stare at photos; happier memories pay more",
+   "shown": "Pool, bell-helmet man, bench of elders, happiness gauge"
+  },
+  {
+   "name": "escalation",
+   "start": 31.4,
+   "end": 44.0,
+   "said": "Jerry sells one for rent; sick brother begs for frog story; medicine costs more",
+   "shown": "Night street, hospital bed, polaroid and lake dock, machine"
+  },
+  {
+   "name": "escalation",
+   "start": 44.1,
+   "end": 54.3,
+   "said": "He sells summer, birthday, then whole years until his head is bad days",
+   "shown": "Dark counter, deposit box, hospital hall, BUY SUMMERS street"
+  },
+  {
+   "name": "twist",
+   "start": 54.3,
+   "end": 65.6,
+   "said": "One good year left; clerk warns it is empty of happiness; he sells anyway",
+   "shown": "Ledger of SOLD years, clerk, close-up faces, white glowing chip"
+  },
+  {
+   "name": "payoff",
+   "start": 65.6,
+   "end": 72.9,
+   "said": "Brother wakes cured and asks for the frog story; Jerry does not know him",
+   "shown": "Brother sitting up in bed, Jerry blank face close-up"
+  },
+  {
+   "name": "ending",
+   "start": 73.0,
+   "end": 77.8,
+   "said": "Every happy year sold, and the brother was in all of them",
+   "shown": "Two-shot of brothers in ward, static, blue light"
+  }
+ ],
+ "hook": {
+  "first_frame": "Orange-haired Jerry stands at a wooden counter in a dim shop, hooded grinning clerk behind glass at left, green lamp above",
+  "first_3s": "Slight push-in on Jerry, whip fly-through down to a glowing memory chip on the counter, then swing up to the clerk and shelves of chips",
+  "line_type": "strange action by he/they",
+  "first_frame_shot_size": "medium-long",
+  "first_frame_subject": "protagonist doing the hook action",
+  "protagonist_looks_at_camera": true,
+  "title_vs_first_line": "Title 'Every Memory Has a Price' is the theme of the first line; neither repeats the other"
+ },
+ "story": {
+  "topic_type": "parable/fiction",
+  "setting_era": "future/space",
+  "structure": "premise explained early, then story",
+  "real_fact_core": "Invented world where memories are currency; selling the happiest ones leaves nothing and the loved person is erased from memory.",
+  "likely_source_type": "invented parable",
+  "protagonist": "Jerry, orange-haired young man",
+  "authority_or_antagonist": "Hooded grinning memory-shop clerk",
+  "direct_speech_lines": 2,
+  "second_person": false,
+  "tense": "mixed",
+  "explainer_turn": "\"You see\" at 3.4 s, then present-tense world rules",
+  "ending_type": "twist reveal is the last line",
+  "call_to_action": "none"
+ },
+ "tone": {
+  "humour": "Dark with light gag touches (Bahamas 300 times from a couch, frog size of a football)",
+  "deadpan_or_irony": "Deadpan delivery; irony in the cure erasing the brother",
+  "dialogue_style": "Two short quoted lines, brother asks for the frog story; clerk warns"
+ },
+ "characters": [
+  {
+   "role": "Jerry (protagonist)",
+   "head": "Large white oval, roughly one third of body height, thick black outline",
+   "hair_or_hat": "Spiky orange swept hair with dark ink stripes",
+   "eyes": "Small black dots or ring glasses, brows carry expression",
+   "mouth": "Thin line or small curve, no teeth",
+   "body_and_clothes": "Short mustard-yellow vest over white shirt, green frog badge",
+   "limbs": "Thin black stick arms and long thin legs",
+   "accessories": "Frog badge, memory chip card",
+   "expressions_seen": [
+    "worried",
+    "sad",
+    "blank",
+    "tired",
+    "wide-eyed"
+   ]
+  },
+  {
+   "role": "Clerk (antagonist)",
+   "head": "Black hooded oval face, pale eyes",
+   "hair_or_hat": "Dark hood",
+   "eyes": "Pale small ovals",
+   "mouth": "Wide white toothy grin",
+   "body_and_clothes": "Dark robe",
+   "limbs": "Mostly hidden",
+   "accessories": "Gauge machine and counter",
+   "expressions_seen": [
+    "grin"
+   ]
+  },
+  {
+   "role": "Little brother",
+   "head": "White oval with round glasses or dots, smaller",
+   "hair_or_hat": "Small spiky orange hair",
+   "eyes": "Round ring glasses",
+   "mouth": "Small smile or open",
+   "body_and_clothes": "Pale green hospital gown in bed",
+   "limbs": "Stick arms",
+   "accessories": "Frog toy",
+   "expressions_seen": [
+    "sick",
+    "smiling",
+    "cured",
+    "excited"
+   ]
+  },
+  {
+   "role": "Background citizens",
+   "head": "Simple white or tan ovals",
+   "hair_or_hat": "Bell helmet, bald, hats",
+   "eyes": "Dots",
+   "mouth": "Lines",
+   "body_and_clothes": "Colourful simple clothes",
+   "limbs": "Stick limbs",
+   "accessories": "Flamingo float, photos",
+   "expressions_seen": [
+    "smug",
+    "blank"
+   ]
+  }
+ ],
+ "character_style": {
+  "head_height_share_of_body_estimate": 0.33,
+  "outline": "Thick black ink outline on characters, set pieces softer",
+  "shading": "Flat fills with rim light and coloured scene tint on head and body",
+  "consistency_between_shots": "High; same design and proportions in every shot, only tint and lighting change",
+  "shadow_under_character": "soft blob"
+ },
+ "animation": {
+  "body_motion": "Mostly held poses with small head tilt and arm moves; camera does the motion (estimate)",
+  "lip_sync": "none (mouth static)",
+  "lip_sync_evidence_frames": [
+   1830,
+   1845,
+   1860
+  ],
+  "eyes_and_blinks": "Eyes swap between open and half-closed poses; no smooth blinking seen",
+  "idle_motion": "Slight drift of head and glints of light; characters otherwise still (not checked frame by frame)",
+  "squash_and_stretch": "Not seen"
+ },
+ "environments": [
+  {
+   "start": 0,
+   "end": 5,
+   "place": "Memory shop counter",
+   "key_props": [
+    "memory chip",
+    "chip shelves",
+    "typewriter machine"
+   ],
+   "in_world_text": [],
+   "time_of_day": "night interior",
+   "lighting": "Green lamp overhead, warm window, dim purple ambient, soft",
+   "depth_cues": "Shallow focus blur, vignette"
+  },
+  {
+   "start": 5,
+   "end": 8,
+   "place": "Night street and MEMORIES shop interior",
+   "key_props": [
+    "neon shop sign",
+    "checkered floor",
+    "barber-style chair"
+   ],
+   "in_world_text": [
+    "MEMORIES pulled while you wait"
+   ],
+   "time_of_day": "night",
+   "lighting": "Blue ambient with warm glow lamp, soft bloom",
+   "depth_cues": "Haze, bloom"
+  },
+  {
+   "start": 8,
+   "end": 15,
+   "place": "Grocery street and wall alley",
+   "key_props": [
+    "red awning",
+    "bicycle",
+    "wall",
+    "light shafts"
+   ],
+   "in_world_text": [
+    "Deli Grocery"
+   ],
+   "time_of_day": "night, rain",
+   "lighting": "Warm shop windows against blue night, wet reflections",
+   "depth_cues": "Light shafts and fog"
+  },
+  {
+   "start": 15,
+   "end": 23,
+   "place": "Rich-side resort pool",
+   "key_props": [
+    "pool",
+    "palm trees",
+    "sun loungers",
+    "bell helmet",
+    "counter"
+   ],
+   "in_world_text": [
+    "300 BAHAMAS"
+   ],
+   "time_of_day": "bright day",
+   "lighting": "Hard sunlight, warm key, cyan water",
+   "depth_cues": "Distant skyline haze, bright sky"
+  },
+  {
+   "start": 23,
+   "end": 28,
+   "place": "Poor-side bench by wall",
+   "key_props": [
+    "bench",
+    "photos",
+    "chain-link fence"
+   ],
+   "in_world_text": [
+    "BOUGHT & SOLD"
+   ],
+   "time_of_day": "dusk",
+   "lighting": "Cool blue soft light",
+   "depth_cues": "Blur falloff"
+  },
+  {
+   "start": 28,
+   "end": 32,
+   "place": "Happiness gauge scale",
+   "key_props": [
+    "brass gauge",
+    "chip shelves"
+   ],
+   "in_world_text": [
+    "HAPPINESS"
+   ],
+   "time_of_day": "night interior",
+   "lighting": "Warm brass key, dark background",
+   "depth_cues": "Defocused clerk behind"
+  },
+  {
+   "start": 32,
+   "end": 39,
+   "place": "Night street and hospital bed",
+   "key_props": [
+    "hydrant",
+    "bunting",
+    "bed rail",
+    "frog hat"
+   ],
+   "in_world_text": [],
+   "time_of_day": "night",
+   "lighting": "Saturated blue ambient, warm window spots",
+   "depth_cues": "Haze and bokeh"
+  },
+  {
+   "start": 39,
+   "end": 43,
+   "place": "Polaroid of lake dock",
+   "key_props": [
+    "dock",
+    "fishing net",
+    "frog",
+    "lily pads"
+   ],
+   "in_world_text": [
+    "the frog!"
+   ],
+   "time_of_day": "sunset",
+   "lighting": "Warm low sun, golden reflection",
+   "depth_cues": "Soft glow"
+  },
+  {
+   "start": 43,
+   "end": 50,
+   "place": "Surgical deposit machine and hospital hall",
+   "key_props": [
+    "deposit box",
+    "checkered floor",
+    "OPERATING sign"
+   ],
+   "in_world_text": [
+    "EMPTY PAID",
+    "SURGICAL DEPOSIT",
+    "OPERATING"
+   ],
+   "time_of_day": "indoor",
+   "lighting": "Cool teal hospital fill, dark blue for machine close-ups",
+   "depth_cues": "Shallow blur"
+  },
+  {
+   "start": 50,
+   "end": 56,
+   "place": "BUY SUMMERS street at night",
+   "key_props": [
+    "yellow sign",
+    "street lamp",
+    "checker kerb"
+   ],
+   "in_world_text": [
+    "BUY SUMMERS"
+   ],
+   "time_of_day": "night",
+   "lighting": "Warm lamp above, blue fill, rim on head",
+   "depth_cues": "Defocused sign"
+  },
+  {
+   "start": 56,
+   "end": 65,
+   "place": "Ledger and shop counter",
+   "key_props": [
+    "ledger with SOLD years",
+    "bell lamp",
+    "hooded clerk"
+   ],
+   "in_world_text": [
+    "YEAR 2025 SOLD",
+    "MEMORIES bought & sold"
+   ],
+   "time_of_day": "night interior",
+   "lighting": "Dark, warm lamp and rim light",
+   "depth_cues": "Shallow focus"
+  },
+  {
+   "start": 65,
+   "end": 78,
+   "place": "Hospital ward",
+   "key_props": [
+    "bed",
+    "red blanket",
+    "wall drawings",
+    "frog toy"
+   ],
+   "in_world_text": [],
+   "time_of_day": "day to blue evening",
+   "lighting": "Warm window sunbeam, then cool blue",
+   "depth_cues": "Blurred wall decor"
+  }
+ ],
+ "set_style": "mixed",
+ "layer_stack": [
+  "Painted or rendered 3D set background",
+  "Props and midground furniture",
+  "Flat 2D ink-outline characters",
+  "Foreground blurred objects",
+  "Light bloom and vignette overlay",
+  "White bold stroke captions"
+ ],
+ "camera": {
+  "shot_sizes": [
+   "medium-long",
+   "close-up",
+   "medium",
+   "medium close-up",
+   "wide"
+  ],
+  "angles": [
+   "eye level",
+   "high angle",
+   "low angle",
+   "top-down"
+  ],
+  "lens_feel": "Wide with strong perspective, shallow depth of field (estimate)",
+  "camera_height": "Variable, often low or high to the counter",
+  "notable_moves": [
+   {
+    "t": 0.9,
+    "type": "fly-through down to chip",
+    "note": "Whip move from Jerry to counter"
+   },
+   {
+    "t": 14.0,
+    "type": "pull-out",
+    "note": "Pull back along wall with light shafts"
+   },
+   {
+    "t": 38.5,
+    "type": "push-in",
+    "note": "Into polaroid"
+   },
+   {
+    "t": 42.5,
+    "type": "swing",
+    "note": "Polaroid shrinks and swings to machine"
+   },
+   {
+    "t": 64.0,
+    "type": "pan or swing",
+    "note": "Quick move across counter faces"
+   }
+  ]
+ },
+ "effects": [
+  {
+   "t": 7.9,
+   "dur_s": 0.1,
+   "type": "glow",
+   "trigger": "pull out of your skull"
+  },
+  {
+   "t": 14.0,
+   "dur_s": 1.5,
+   "type": "other",
+   "trigger": "city split by wall; light shafts"
+  },
+  {
+   "t": 23.7,
+   "dur_s": 0.5,
+   "type": "defocus",
+   "trigger": "water streak transition"
+  },
+  {
+   "t": 39.0,
+   "dur_s": 1.0,
+   "type": "other",
+   "trigger": "polaroid reveal of the frog story"
+  },
+  {
+   "t": 57.0,
+   "dur_s": 2.0,
+   "type": "screen or UI insert",
+   "trigger": "ledger of SOLD years"
+  },
+  {
+   "t": 65.2,
+   "dur_s": 0.8,
+   "type": "flash",
+   "trigger": "He sells it anyway"
+  }
+ ],
+ "lighting_mood_shifts": [
+  {
+   "t": 17.3,
+   "change": "Switch from dark blue to bright sunny pool",
+   "story_reason": "Rich side contrast"
+  },
+  {
+   "t": 23.5,
+   "change": "Back to cool dim blue",
+   "story_reason": "Poor side"
+  },
+  {
+   "t": 65.2,
+   "change": "White flash then warm sunbeam",
+   "story_reason": "Sale pays and brother cured"
+  },
+  {
+   "t": 71.3,
+   "change": "Warm to cold saturated blue",
+   "story_reason": "Jerry's blank face, loss"
+  }
+ ],
+ "generation_evidence": [
+  {
+   "frames": [
+    0,
+    90
+   ],
+   "observation": "Clean geometry of shelves, counter and lamp holds identical across shots; same clerk model repeats",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    1710,
+    1730
+   ],
+   "observation": "Ledger text legible and consistent between frames, but not checked closely",
+   "points_to": "unclear"
+  },
+  {
+   "frames": [
+    1590,
+    1610
+   ],
+   "observation": "Character head tint shifts from warm to blue within a take while outline stays rigid",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    2243,
+    2333
+   ],
+   "observation": "Wall drawings in ward are small repeating glyphs and shapes, stay stable",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    700,
+    715
+   ],
+   "observation": "Pool water transitions into streak overlay, a deliberate stylised transition",
+   "points_to": "unclear"
+  }
+ ],
+ "sample_points": [
+  {
+   "frame": 6,
+   "x": 0.5,
+   "y": 0.18,
+   "what": "Jerry head fill (white)",
+   "hex": "#645971",
+   "patch_spread": 3.1
+  },
+  {
+   "frame": 6,
+   "x": 0.52,
+   "y": 0.28,
+   "what": "Jerry yellow vest",
+   "hex": "#466379",
+   "patch_spread": 1.5
+  },
+  {
+   "frame": 6,
+   "x": 0.46,
+   "y": 0.11,
+   "what": "Jerry orange hair",
+   "hex": "#474363",
+   "patch_spread": 1.1
+  },
+  {
+   "frame": 6,
+   "x": 0.1,
+   "y": 0.2,
+   "what": "Shop back wall teal",
+   "hex": "#181C3F",
+   "patch_spread": 22.4
+  },
+  {
+   "frame": 510,
+   "x": 0.5,
+   "y": 0.1,
+   "what": "Pool day sky blue",
+   "hex": "#6F9E22",
+   "patch_spread": 2.6
+  },
+  {
+   "frame": 510,
+   "x": 0.5,
+   "y": 0.5,
+   "what": "Pool water cyan",
+   "hex": "#FFF0D3",
+   "patch_spread": 0.7
+  },
+  {
+   "frame": 1230,
+   "x": 0.5,
+   "y": 0.1,
+   "what": "Lake sunset sky",
+   "hex": "#A8B4BB",
+   "patch_spread": 2.7
+  },
+  {
+   "frame": 1470,
+   "x": 0.1,
+   "y": 0.45,
+   "what": "Hospital hall mint wall",
+   "hex": "#75B5BB",
+   "patch_spread": 1.1
+  },
+  {
+   "frame": 1500,
+   "x": 0.5,
+   "y": 0.9,
+   "what": "Hospital floor teal tile",
+   "hex": "#23202C",
+   "patch_spread": 14.7
+  },
+  {
+   "frame": 2100,
+   "x": 0.5,
+   "y": 0.9,
+   "what": "Ward red blanket",
+   "hex": "#991719",
+   "patch_spread": 1.9
+  }
+ ],
+ "thumbnail": "Jerry in hospital hall pressing a lever on the Surgical Deposit box, caption 'had'; taken from about 49 to 50 s",
+ "could_not_determine": [
+  "Mouth movement during speech (face montage not built, tool budget used)",
+  "Idle blink detail inside long holds",
+  "Whether 42.4 s is a join or a camera swing",
+  "Exact fine text on the ledger and in-world signs"
+ ]
+}
