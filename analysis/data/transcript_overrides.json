@@ -1,0 +1,8 @@
+{
+  "_note": "Manual transcript corrections. The on-screen captions turned out to be machine captions too (they contain mis-hearings such as 'bottles,' for 'bolt with'), so disagreements between Whisper and the captions were settled from context, looking at the frames. 'to': '' deletes a word.",
+  "02_7dGWuCeZ8Ic": {"asr": [{"at": 54.6, "from": "he", "to": ""}]},
+  "05_TRUkQ1wbV2E": {"asr": [{"at": 45.2, "from": "boat", "to": "bolt"}]},
+  "07_e9NoHjAXYIY": {"asr": [{"at": 57.8, "from": "breaking", "to": "braking"}]},
+  "15_t3OXkhlI6NQ": {"asr": [{"at": 9.26, "from": "and", "to": "in"}]},
+  "17_GM9UKnZ6JFw": {"asr": [{"at": 24.02, "from": "body's", "to": "Bodies"}]}
+}
