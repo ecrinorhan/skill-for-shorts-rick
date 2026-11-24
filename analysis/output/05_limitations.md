@@ -60,6 +60,6 @@ What the analysis could not establish, and how far each kind of number can be tr
 
 ## Not done
 
-- No video made with the skill's tools was rendered at full length or measured against the targets. The tools were run
-  on the full narration and timeline of one example and on a short rendered and mixed preview.
+- One video was made with the skill's tools and measured against the targets: 8 of 86 metrics fall outside the
+  reference's range (listed in the skill's `SKILL.md`, section 7). No second story was produced.
 - Nobody listened to the tools' audio output.

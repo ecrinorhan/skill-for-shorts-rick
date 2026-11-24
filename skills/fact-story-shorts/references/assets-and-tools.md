@@ -39,19 +39,19 @@ Do not present any of the "Likely" or "Unknown" rows as fact about the channel.
 | Job | Option | Label | Notes |
 |---|---|---|---|
 | Script check | `scripts/check_script.py` | Tested here | all three example scripts pass its 36 checks |
-| Voice | the bundled Kokoro text-to-speech voice through `scripts/voice.py` | Tested here | the bridge-keeper script came out at 233 words in 62.9 s (222 words per minute), no pause of 120 ms or more, pitch range 14 to 14.5 semitones against a target of 16. Judge it by ear before publishing |
+| Voice | the bundled Kokoro text-to-speech voice through `scripts/voice.py` | Tested here | the bridge-keeper script came out at 233 words in 62.9 s (222 words per minute), no pause of 120 ms or more, pitch range 16 semitones by its own measure and 15.2 measured on the finished video (target 16). The pitch is widened by resynthesis in up to three passes: judge it by ear before publishing |
 | Voice | your own recording, one file per sentence (`--clips`) | Not tested here with a human recording | the surest way to reach the reference's wide pitch range |
 | Voice | another text-to-speech service or a voice actor | Not tested here | check that the licence covers monetised video, then feed the audio in through `--clips` |
 | Word timing and captions | `scripts/voice.py`: forced alignment, then the grouping rule fitted to the reference | Tested here | the rule reproduces 77.7 % of the reference's caption boundaries. Word starts agree with the analysis's timing model to within one frame for 91 % of 4,612 reference words; the constant 20 ms difference between the two models is built into the targets (`captions.md`, "Timing") |
 | Caption font | Archivo 800 (bundled) or Mona Sans 900 | Tested here (Archivo, drawn by the renderer) | a stand-in, not the reference's font |
-| Pictures | the bundled three.js renderer, `scripts/render/render.mjs` | Tested here on stills and a short preview | a full-length video was not rendered. Sets are plainer than the reference |
+| Pictures | the bundled three.js renderer, `scripts/render/render.mjs` | Tested here on a full 63-second video | rendering took 10 to 20 minutes on 8 CPU cores without a GPU. Sets are plainer than the reference, and fast moves came out about twice as fast as the reference's |
 | Pictures | Blender, Unreal Engine or Unity with the characters as flat planes | Not tested here | closest to what the frames suggest |
 | Pictures | generated stills or clips | Not tested here | check every take for warped lettering and shapes, and follow the platform's disclosure rules |
 | Music | the synthesised bed from `scripts/mix.py` | Tested here, by numbers only | the example mix measured −14.1 LUFS and −2.25 dBTP true peak, with the music 19.4 LU under the voice |
 | Music | a licensed library track or a commission | Not tested here | minor key, about 115 BPM, dark and soft, constant level; the licence must cover monetised Shorts |
-| Sound effects | synthesised by `scripts/mix.py` from the storyboard's cues | Tested here, by numbers only | the example storyboard emits 108 cues, about three times the 35 to 40 planned in `visuals.md`; how many of them a listener or the measuring tool would count as separate effects was not checked |
+| Sound effects | synthesised by `scripts/mix.py` from the storyboard's cues | Tested here, by numbers only | the example storyboard's 108 cues measured as 45 separate effects (reference mean 37), sounding for 17 % of the runtime against the reference's 29 %: add longer sounds such as ambience and risers |
 | Sound effects | a licensed effects library | Not tested here | keep most effects about 21 dB under the voice |
-| Final check | `scripts/measure/measure.py` | Tested here on a reference video only | it ran end to end on one reference video; after the word-timing model was replaced, its alignment step was re-run on all 20. It has not been run on a video made with these tools |
+| Final check | `scripts/measure/measure.py` | Tested here | run on a reference video and on the finished example video (`examples/bridge-keeper/measured.md`) |
 
 ## 3. Licences of what the tools install
 

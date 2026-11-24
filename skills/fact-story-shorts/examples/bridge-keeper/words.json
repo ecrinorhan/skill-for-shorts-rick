@@ -50,7 +50,7 @@
  {
   "text": "ordered",
   "start": 2.0,
-  "end": 2.221,
+  "end": 2.22,
   "sentence": 0
  },
  {
@@ -62,12 +62,12 @@
  {
   "text": "soldier",
   "start": 2.641,
-  "end": 3.001,
+  "end": 3.021,
   "sentence": 0
  },
  {
   "text": "to",
-  "start": 3.081,
+  "start": 3.101,
   "end": 3.161,
   "sentence": 0
  },
@@ -80,13 +80,13 @@
  {
   "text": "out",
   "start": 3.501,
-  "end": 3.561,
+  "end": 3.581,
   "sentence": 0
  },
  {
   "text": "of",
-  "start": 3.581,
-  "end": 3.621,
+  "start": 3.601,
+  "end": 3.641,
   "sentence": 0
  },
  {
@@ -98,24 +98,24 @@
  {
   "text": "You",
   "start": 4.041,
-  "end": 4.121,
+  "end": 4.141,
   "sentence": 1
  },
  {
   "text": "see,",
   "start": 4.221,
-  "end": 4.381,
+  "end": 4.401,
   "sentence": 1
  },
  {
   "text": "he's",
-  "start": 4.621,
+  "start": 4.641,
   "end": 4.801,
   "sentence": 1
  },
  {
   "text": "the",
-  "start": 4.841,
+  "start": 4.861,
   "end": 4.921,
   "sentence": 1
  },
@@ -127,44 +127,44 @@
  },
  {
   "text": "keeper,",
-  "start": 5.261,
-  "end": 5.561,
+  "start": 5.281,
+  "end": 5.581,
   "sentence": 1
  },
  {
   "text": "and",
   "start": 5.721,
-  "end": 5.801,
+  "end": 5.821,
   "sentence": 1
  },
  {
   "text": "this",
   "start": 5.841,
-  "end": 5.961,
+  "end": 5.981,
   "sentence": 1
  },
  {
   "text": "bridge",
-  "start": 6.081,
+  "start": 6.101,
   "end": 6.401,
   "sentence": 1
  },
  {
   "text": "is",
-  "start": 6.522,
-  "end": 6.582,
+  "start": 6.541,
+  "end": 6.581,
   "sentence": 1
  },
  {
   "text": "the",
-  "start": 6.622,
-  "end": 6.702,
+  "start": 6.621,
+  "end": 6.721,
   "sentence": 1
  },
  {
   "text": "only",
-  "start": 6.882,
-  "end": 7.062,
+  "start": 6.881,
+  "end": 7.082,
   "sentence": 1
  },
  {
@@ -175,7 +175,7 @@
  },
  {
   "text": "across",
-  "start": 7.362,
+  "start": 7.382,
   "end": 7.662,
   "sentence": 1
  },
@@ -187,14 +187,14 @@
  },
  {
   "text": "river",
-  "start": 7.822,
+  "start": 7.842,
   "end": 8.042,
   "sentence": 1
  },
  {
   "text": "for",
   "start": 8.142,
-  "end": 8.222,
+  "end": 8.242,
   "sentence": 1
  },
  {
@@ -211,13 +211,13 @@
  },
  {
   "text": "It",
-  "start": 9.202,
-  "end": 9.242,
+  "start": 9.222,
+  "end": 9.262,
   "sentence": 2
  },
  {
   "text": "hangs",
-  "start": 9.302,
+  "start": 9.322,
   "end": 9.582,
   "sentence": 2
  },
@@ -230,7 +230,7 @@
  {
   "text": "iron",
   "start": 9.942,
-  "end": 10.102,
+  "end": 10.122,
   "sentence": 2
  },
  {
@@ -242,36 +242,36 @@
  {
   "text": "and",
   "start": 10.702,
-  "end": 10.763,
+  "end": 10.782,
   "sentence": 2
  },
  {
   "text": "he",
-  "start": 10.823,
-  "end": 10.883,
+  "start": 10.822,
+  "end": 10.882,
   "sentence": 2
  },
  {
   "text": "oils",
-  "start": 11.003,
-  "end": 11.203,
+  "start": 11.002,
+  "end": 11.222,
   "sentence": 2
  },
  {
   "text": "every",
-  "start": 11.383,
-  "end": 11.563,
+  "start": 11.382,
+  "end": 11.562,
   "sentence": 2
  },
  {
   "text": "link",
   "start": 11.623,
-  "end": 11.763,
+  "end": 11.783,
   "sentence": 2
  },
  {
   "text": "by",
-  "start": 11.843,
+  "start": 11.863,
   "end": 11.963,
   "sentence": 2
  },
@@ -283,80 +283,80 @@
  },
  {
   "text": "So",
-  "start": 12.523,
-  "end": 12.603,
+  "start": 12.543,
+  "end": 12.623,
   "sentence": 3
  },
  {
   "text": "when",
-  "start": 12.643,
-  "end": 12.763,
+  "start": 12.663,
+  "end": 12.783,
   "sentence": 3
  },
  {
   "text": "six",
   "start": 12.883,
-  "end": 13.003,
+  "end": 13.023,
   "sentence": 3
  },
  {
   "text": "hundred",
   "start": 13.123,
-  "end": 13.343,
+  "end": 13.363,
   "sentence": 3
  },
  {
   "text": "soldiers",
-  "start": 13.423,
-  "end": 13.923,
+  "start": 13.443,
+  "end": 13.943,
   "sentence": 3
  },
  {
   "text": "show",
-  "start": 14.103,
-  "end": 14.243,
+  "start": 14.123,
+  "end": 14.263,
   "sentence": 3
  },
  {
   "text": "up",
-  "start": 14.343,
-  "end": 14.403,
+  "start": 14.363,
+  "end": 14.423,
   "sentence": 3
  },
  {
   "text": "marching",
-  "start": 14.523,
-  "end": 14.923,
+  "start": 14.543,
+  "end": 14.943,
   "sentence": 3
  },
  {
   "text": "in",
-  "start": 15.003,
-  "end": 15.043,
+  "start": 15.023,
+  "end": 15.063,
   "sentence": 3
  },
  {
   "text": "perfect",
-  "start": 15.164,
-  "end": 15.524,
+  "start": 15.183,
+  "end": 15.543,
   "sentence": 3
  },
  {
   "text": "rows,",
-  "start": 15.604,
-  "end": 15.924,
+  "start": 15.623,
+  "end": 15.943,
   "sentence": 3
  },
  {
   "text": "he",
-  "start": 16.104,
-  "end": 16.184,
+  "start": 16.123,
+  "end": 16.203,
   "sentence": 3
  },
  {
   "text": "plants",
-  "start": 16.244,
-  "end": 16.484,
+  "start": 16.264,
+  "end": 16.504,
   "sentence": 3
  },
  {
@@ -368,19 +368,19 @@
  {
   "text": "in",
   "start": 17.004,
-  "end": 17.044,
+  "end": 17.064,
   "sentence": 3
  },
  {
   "text": "the",
-  "start": 17.084,
-  "end": 17.144,
+  "start": 17.104,
+  "end": 17.164,
   "sentence": 3
  },
  {
   "text": "middle",
-  "start": 17.184,
-  "end": 17.384,
+  "start": 17.204,
+  "end": 17.404,
   "sentence": 3
  },
  {
@@ -391,98 +391,98 @@
  },
  {
   "text": "the",
-  "start": 17.484,
+  "start": 17.504,
   "end": 17.564,
   "sentence": 3
  },
  {
   "text": "road.",
-  "start": 17.604,
-  "end": 17.844,
+  "start": 17.624,
+  "end": 17.864,
   "sentence": 3
  },
  {
   "text": "The",
-  "start": 18.004,
-  "end": 18.084,
+  "start": 18.024,
+  "end": 18.104,
   "sentence": 4
  },
  {
   "text": "colonel",
-  "start": 18.144,
-  "end": 18.404,
+  "start": 18.164,
+  "end": 18.424,
   "sentence": 4
  },
  {
   "text": "glares",
   "start": 18.484,
-  "end": 18.764,
+  "end": 18.784,
   "sentence": 4
  },
  {
   "text": "down",
-  "start": 18.824,
-  "end": 19.004,
+  "start": 18.844,
+  "end": 19.024,
   "sentence": 4
  },
  {
   "text": "from",
-  "start": 19.064,
-  "end": 19.184,
+  "start": 19.084,
+  "end": 19.204,
   "sentence": 4
  },
  {
   "text": "his",
-  "start": 19.224,
-  "end": 19.324,
+  "start": 19.244,
+  "end": 19.344,
   "sentence": 4
  },
  {
   "text": "horse.",
-  "start": 19.364,
-  "end": 19.625,
+  "start": 19.384,
+  "end": 19.644,
   "sentence": 4
  },
  {
   "text": "My",
-  "start": 19.845,
-  "end": 19.925,
+  "start": 19.844,
+  "end": 19.924,
   "sentence": 5
  },
  {
   "text": "men",
-  "start": 20.025,
-  "end": 20.165,
+  "start": 20.044,
+  "end": 20.164,
   "sentence": 5
  },
  {
   "text": "march",
-  "start": 20.245,
-  "end": 20.465,
+  "start": 20.264,
+  "end": 20.484,
   "sentence": 5
  },
  {
   "text": "in",
-  "start": 20.545,
-  "end": 20.585,
+  "start": 20.544,
+  "end": 20.604,
   "sentence": 5
  },
  {
   "text": "step,",
-  "start": 20.685,
-  "end": 20.885,
+  "start": 20.684,
+  "end": 20.905,
   "sentence": 5
  },
  {
   "text": "or",
   "start": 21.085,
-  "end": 21.125,
+  "end": 21.145,
   "sentence": 5
  },
  {
   "text": "they",
-  "start": 21.165,
-  "end": 21.265,
+  "start": 21.185,
+  "end": 21.285,
   "sentence": 5
  },
  {
@@ -494,109 +494,109 @@
  {
   "text": "march!",
   "start": 21.485,
-  "end": 21.745,
+  "end": 21.765,
   "sentence": 5
  },
  {
   "text": "But",
   "start": 21.965,
-  "end": 22.045,
+  "end": 22.065,
   "sentence": 6
  },
  {
   "text": "the",
   "start": 22.085,
-  "end": 22.145,
+  "end": 22.165,
   "sentence": 6
  },
  {
   "text": "keeper",
   "start": 22.205,
-  "end": 22.485,
+  "end": 22.505,
   "sentence": 6
  },
  {
   "text": "won't",
-  "start": 22.565,
-  "end": 22.745,
+  "start": 22.585,
+  "end": 22.765,
   "sentence": 6
  },
  {
   "text": "move.",
-  "start": 22.805,
+  "start": 22.825,
   "end": 23.085,
   "sentence": 6
  },
  {
   "text": "Walk",
-  "start": 23.325,
-  "end": 23.485,
+  "start": 23.345,
+  "end": 23.505,
   "sentence": 7
  },
  {
   "text": "across",
-  "start": 23.565,
-  "end": 23.906,
+  "start": 23.585,
+  "end": 23.925,
   "sentence": 7
  },
  {
   "text": "like",
-  "start": 23.966,
-  "end": 24.086,
+  "start": 23.965,
+  "end": 24.085,
   "sentence": 7
  },
  {
   "text": "you're",
-  "start": 24.106,
-  "end": 24.246,
+  "start": 24.125,
+  "end": 24.265,
   "sentence": 7
  },
  {
   "text": "late",
-  "start": 24.266,
-  "end": 24.426,
+  "start": 24.285,
+  "end": 24.425,
   "sentence": 7
  },
  {
   "text": "for",
-  "start": 24.466,
-  "end": 24.566,
+  "start": 24.485,
+  "end": 24.585,
   "sentence": 7
  },
  {
   "text": "dinner,",
-  "start": 24.606,
-  "end": 24.846,
+  "start": 24.625,
+  "end": 24.845,
   "sentence": 7
  },
  {
   "text": "or",
-  "start": 25.026,
-  "end": 25.106,
+  "start": 25.045,
+  "end": 25.105,
   "sentence": 7
  },
  {
   "text": "swim.",
-  "start": 25.186,
-  "end": 25.426,
+  "start": 25.205,
+  "end": 25.445,
   "sentence": 7
  },
  {
   "text": "So",
-  "start": 25.666,
+  "start": 25.686,
   "end": 25.746,
   "sentence": 8
  },
  {
   "text": "the",
-  "start": 25.786,
-  "end": 25.866,
+  "start": 25.806,
+  "end": 25.886,
   "sentence": 8
  },
  {
   "text": "colonel",
-  "start": 25.906,
-  "end": 26.166,
+  "start": 25.926,
+  "end": 26.186,
   "sentence": 8
  },
  {
@@ -607,7 +607,7 @@
  },
  {
   "text": "and",
-  "start": 26.726,
+  "start": 26.746,
   "end": 26.826,
   "sentence": 8
  },
@@ -619,152 +619,152 @@
  },
  {
   "text": "the",
-  "start": 27.226,
-  "end": 27.306,
+  "start": 27.246,
+  "end": 27.326,
   "sentence": 8
  },
  {
   "text": "drums",
-  "start": 27.346,
-  "end": 27.666,
+  "start": 27.366,
+  "end": 27.686,
   "sentence": 8
  },
  {
   "text": "even",
-  "start": 27.806,
-  "end": 27.987,
+  "start": 27.826,
+  "end": 27.986,
   "sentence": 8
  },
  {
   "text": "louder.",
-  "start": 28.047,
-  "end": 28.347,
+  "start": 28.066,
+  "end": 28.366,
   "sentence": 8
  },
  {
   "text": "Six",
-  "start": 28.567,
-  "end": 28.687,
+  "start": 28.566,
+  "end": 28.706,
   "sentence": 9
  },
  {
   "text": "hundred",
-  "start": 28.787,
-  "end": 29.067,
+  "start": 28.806,
+  "end": 29.066,
   "sentence": 9
  },
  {
   "text": "boots",
-  "start": 29.127,
-  "end": 29.387,
+  "start": 29.126,
+  "end": 29.386,
   "sentence": 9
  },
  {
   "text": "hit",
-  "start": 29.527,
-  "end": 29.647,
+  "start": 29.546,
+  "end": 29.666,
   "sentence": 9
  },
  {
   "text": "the",
-  "start": 29.687,
-  "end": 29.747,
+  "start": 29.686,
+  "end": 29.766,
   "sentence": 9
  },
  {
   "text": "planks",
-  "start": 29.787,
-  "end": 30.087,
+  "start": 29.806,
+  "end": 30.106,
   "sentence": 9
  },
  {
   "text": "at",
   "start": 30.207,
-  "end": 30.247,
+  "end": 30.267,
   "sentence": 9
  },
  {
   "text": "the",
   "start": 30.287,
-  "end": 30.367,
+  "end": 30.387,
   "sentence": 9
  },
  {
   "text": "exact",
-  "start": 30.427,
-  "end": 30.807,
+  "start": 30.447,
+  "end": 30.827,
   "sentence": 9
  },
  {
   "text": "same",
   "start": 30.927,
-  "end": 31.147,
+  "end": 31.167,
   "sentence": 9
  },
  {
   "text": "instant.",
-  "start": 31.247,
+  "start": 31.267,
   "end": 31.607,
   "sentence": 9
  },
  {
   "text": "Halfway",
-  "start": 31.787,
-  "end": 32.107,
+  "start": 31.807,
+  "end": 32.127,
   "sentence": 10
  },
  {
   "text": "across,",
-  "start": 32.187,
-  "end": 32.568,
+  "start": 32.207,
+  "end": 32.587,
   "sentence": 10
  },
  {
   "text": "the",
-  "start": 32.728,
-  "end": 32.828,
+  "start": 32.747,
+  "end": 32.827,
   "sentence": 10
  },
  {
   "text": "keeper's",
-  "start": 32.868,
-  "end": 33.208,
+  "start": 32.867,
+  "end": 33.227,
   "sentence": 10
  },
  {
   "text": "lantern",
-  "start": 33.288,
-  "end": 33.668,
+  "start": 33.307,
+  "end": 33.687,
   "sentence": 10
  },
  {
   "text": "starts",
-  "start": 33.788,
-  "end": 34.008,
+  "start": 33.787,
+  "end": 34.027,
   "sentence": 10
  },
  {
   "text": "swinging",
-  "start": 34.068,
-  "end": 34.368,
+  "start": 34.067,
+  "end": 34.387,
   "sentence": 10
  },
  {
   "text": "on",
-  "start": 34.428,
-  "end": 34.468,
+  "start": 34.447,
+  "end": 34.487,
   "sentence": 10
  },
  {
   "text": "its",
-  "start": 34.528,
-  "end": 34.608,
+  "start": 34.547,
+  "end": 34.627,
   "sentence": 10
  },
  {
   "text": "hook.",
-  "start": 34.628,
-  "end": 34.808,
+  "start": 34.647,
+  "end": 34.828,
   "sentence": 10
  },
  {
@@ -775,626 +775,626 @@
  },
  {
   "text": "the",
-  "start": 35.188,
-  "end": 35.268,
+  "start": 35.208,
+  "end": 35.288,
   "sentence": 11
  },
  {
   "text": "planks",
-  "start": 35.308,
-  "end": 35.608,
+  "start": 35.328,
+  "end": 35.628,
   "sentence": 11
  },
  {
   "text": "start",
-  "start": 35.648,
+  "start": 35.668,
   "end": 35.848,
   "sentence": 11
  },
  {
   "text": "bouncing.",
-  "start": 35.908,
-  "end": 36.328,
+  "start": 35.928,
+  "end": 36.348,
   "sentence": 11
  },
  {
   "text": "And",
   "start": 36.508,
-  "end": 36.568,
+  "end": 36.588,
   "sentence": 12
  },
  {
   "text": "the",
-  "start": 36.589,
-  "end": 36.669,
+  "start": 36.608,
+  "end": 36.688,
   "sentence": 12
  },
  {
   "text": "colonel's",
-  "start": 36.709,
-  "end": 37.049,
+  "start": 36.728,
+  "end": 37.068,
   "sentence": 12
  },
  {
   "text": "horse",
-  "start": 37.109,
-  "end": 37.409,
+  "start": 37.128,
+  "end": 37.428,
   "sentence": 12
  },
  {
   "text": "refuses",
-  "start": 37.609,
-  "end": 38.089,
+  "start": 37.628,
+  "end": 38.108,
   "sentence": 12
  },
  {
   "text": "to",
-  "start": 38.169,
-  "end": 38.229,
+  "start": 38.188,
+  "end": 38.248,
   "sentence": 12
  },
  {
   "text": "take",
-  "start": 38.289,
-  "end": 38.489,
+  "start": 38.308,
+  "end": 38.508,
   "sentence": 12
  },
  {
   "text": "another",
-  "start": 38.569,
-  "end": 38.829,
+  "start": 38.568,
+  "end": 38.848,
   "sentence": 12
  },
  {
   "text": "step.",
-  "start": 38.889,
-  "end": 39.129,
+  "start": 38.908,
+  "end": 39.128,
   "sentence": 12
  },
  {
   "text": "So",
-  "start": 39.329,
-  "end": 39.409,
+  "start": 39.348,
+  "end": 39.428,
   "sentence": 13
  },
  {
   "text": "how",
-  "start": 39.489,
-  "end": 39.609,
+  "start": 39.529,
+  "end": 39.629,
   "sentence": 13
  },
  {
   "text": "do",
-  "start": 39.709,
-  "end": 39.789,
+  "start": 39.729,
+  "end": 39.809,
   "sentence": 13
  },
  {
   "text": "boots",
-  "start": 39.869,
-  "end": 40.089,
+  "start": 39.889,
+  "end": 40.109,
   "sentence": 13
  },
  {
   "text": "break",
-  "start": 40.149,
-  "end": 40.309,
+  "start": 40.189,
+  "end": 40.349,
   "sentence": 13
  },
  {
   "text": "iron?",
-  "start": 40.509,
-  "end": 40.729,
+  "start": 40.549,
+  "end": 40.749,
   "sentence": 13
  },
  {
   "text": "Well,",
-  "start": 40.93,
-  "end": 41.13,
+  "start": 40.949,
+  "end": 41.169,
   "sentence": 14
  },
  {
   "text": "ever",
-  "start": 41.33,
-  "end": 41.49,
+  "start": 41.349,
+  "end": 41.509,
   "sentence": 14
  },
  {
   "text": "pushed",
-  "start": 41.55,
-  "end": 41.77,
+  "start": 41.569,
+  "end": 41.789,
   "sentence": 14
  },
  {
   "text": "a",
-  "start": 41.81,
-  "end": 41.83,
+  "start": 41.849,
+  "end": 41.869,
   "sentence": 14
  },
  {
   "text": "kid",
-  "start": 41.87,
-  "end": 42.01,
+  "start": 41.909,
+  "end": 42.049,
   "sentence": 14
  },
  {
   "text": "on",
-  "start": 42.07,
-  "end": 42.11,
+  "start": 42.089,
+  "end": 42.149,
   "sentence": 14
  },
  {
   "text": "a",
-  "start": 42.17,
-  "end": 42.19,
+  "start": 42.209,
+  "end": 42.229,
   "sentence": 14
  },
  {
   "text": "swing?",
-  "start": 42.25,
-  "end": 42.51,
+  "start": 42.289,
+  "end": 42.529,
   "sentence": 14
  },
  {
   "text": "One",
-  "start": 42.81,
-  "end": 42.91,
+  "start": 42.829,
+  "end": 42.929,
   "sentence": 15
  },
  {
   "text": "push",
-  "start": 42.97,
-  "end": 43.19,
+  "start": 43.009,
+  "end": 43.229,
   "sentence": 15
  },
  {
   "text": "does",
-  "start": 43.27,
-  "end": 43.41,
+  "start": 43.289,
+  "end": 43.429,
   "sentence": 15
  },
  {
   "text": "nothing,",
-  "start": 43.45,
-  "end": 43.77,
+  "start": 43.469,
+  "end": 43.789,
   "sentence": 15
  },
  {
   "text": "but",
-  "start": 43.89,
-  "end": 43.99,
+  "start": 43.909,
+  "end": 44.029,
   "sentence": 15
  },
  {
   "text": "push",
-  "start": 44.05,
-  "end": 44.25,
+  "start": 44.069,
+  "end": 44.27,
   "sentence": 15
  },
  {
   "text": "at",
-  "start": 44.29,
-  "end": 44.35,
+  "start": 44.33,
+  "end": 44.37,
   "sentence": 15
  },
  {
   "text": "the",
-  "start": 44.39,
-  "end": 44.45,
+  "start": 44.41,
+  "end": 44.47,
   "sentence": 15
  },
  {
   "text": "same",
-  "start": 44.51,
-  "end": 44.73,
+  "start": 44.53,
+  "end": 44.75,
   "sentence": 15
  },
  {
   "text": "moment",
-  "start": 44.81,
-  "end": 45.07,
+  "start": 44.83,
+  "end": 45.09,
   "sentence": 15
  },
  {
   "text": "every",
-  "start": 45.17,
-  "end": 45.351,
+  "start": 45.21,
+  "end": 45.37,
   "sentence": 15
  },
  {
   "text": "time,",
-  "start": 45.431,
-  "end": 45.731,
+  "start": 45.45,
+  "end": 45.75,
   "sentence": 15
  },
  {
   "text": "and",
-  "start": 45.911,
-  "end": 45.991,
+  "start": 45.93,
+  "end": 46.01,
   "sentence": 15
  },
  {
   "text": "she",
-  "start": 46.031,
-  "end": 46.131,
+  "start": 46.05,
+  "end": 46.15,
   "sentence": 15
  },
  {
   "text": "flies.",
-  "start": 46.171,
-  "end": 46.551,
+  "start": 46.21,
+  "end": 46.57,
   "sentence": 15
  },
  {
   "text": "A",
-  "start": 46.811,
-  "end": 46.831,
+  "start": 46.83,
+  "end": 46.85,
   "sentence": 16
  },
  {
   "text": "bridge",
-  "start": 46.891,
-  "end": 47.151,
+  "start": 46.91,
+  "end": 47.17,
   "sentence": 16
  },
  {
   "text": "swings",
-  "start": 47.231,
-  "end": 47.511,
+  "start": 47.27,
+  "end": 47.55,
   "sentence": 16
  },
  {
   "text": "too,",
-  "start": 47.611,
-  "end": 47.771,
+  "start": 47.63,
+  "end": 47.79,
   "sentence": 16
  },
  {
   "text": "and",
-  "start": 48.031,
-  "end": 48.111,
+  "start": 48.05,
+  "end": 48.13,
   "sentence": 16
  },
  {
   "text": "six",
-  "start": 48.191,
-  "end": 48.311,
+  "start": 48.21,
+  "end": 48.33,
   "sentence": 16
  },
  {
   "text": "hundred",
-  "start": 48.411,
-  "end": 48.631,
+  "start": 48.43,
+  "end": 48.65,
   "sentence": 16
  },
  {
   "text": "boots",
-  "start": 48.671,
-  "end": 48.911,
+  "start": 48.69,
+  "end": 48.931,
   "sentence": 16
  },
  {
   "text": "are",
-  "start": 48.951,
-  "end": 49.031,
+  "start": 48.971,
+  "end": 49.051,
   "sentence": 16
  },
  {
   "text": "one",
-  "start": 49.151,
-  "end": 49.251,
+  "start": 49.171,
+  "end": 49.271,
   "sentence": 16
  },
  {
   "text": "giant",
-  "start": 49.351,
-  "end": 49.672,
+  "start": 49.371,
+  "end": 49.691,
   "sentence": 16
  },
  {
   "text": "push,",
-  "start": 49.732,
-  "end": 49.972,
+  "start": 49.751,
+  "end": 49.991,
   "sentence": 16
  },
  {
   "text": "right",
-  "start": 50.232,
-  "end": 50.452,
+  "start": 50.251,
+  "end": 50.471,
   "sentence": 16
  },
  {
   "text": "on",
-  "start": 50.532,
-  "end": 50.592,
+  "start": 50.571,
+  "end": 50.611,
   "sentence": 16
  },
  {
   "text": "the",
-  "start": 50.632,
-  "end": 50.692,
+  "start": 50.651,
+  "end": 50.711,
   "sentence": 16
  },
  {
   "text": "beat.",
-  "start": 50.732,
-  "end": 50.912,
+  "start": 50.751,
+  "end": 50.931,
   "sentence": 16
  },
  {
   "text": "So",
-  "start": 51.112,
-  "end": 51.192,
+  "start": 51.131,
+  "end": 51.211,
   "sentence": 17
  },
  {
   "text": "every",
-  "start": 51.352,
-  "end": 51.532,
+  "start": 51.371,
+  "end": 51.551,
   "sentence": 17
  },
  {
   "text": "step",
-  "start": 51.612,
-  "end": 51.812,
+  "start": 51.631,
+  "end": 51.831,
   "sentence": 17
  },
  {
   "text": "lifts",
-  "start": 51.932,
-  "end": 52.152,
+  "start": 51.951,
+  "end": 52.191,
   "sentence": 17
  },
  {
   "text": "the",
-  "start": 52.232,
-  "end": 52.312,
+  "start": 52.271,
+  "end": 52.331,
   "sentence": 17
  },
  {
   "text": "deck",
-  "start": 52.352,
-  "end": 52.532,
+  "start": 52.371,
+  "end": 52.551,
   "sentence": 17
  },
  {
   "text": "a",
-  "start": 52.612,
-  "end": 52.632,
+  "start": 52.631,
+  "end": 52.651,
   "sentence": 17
  },
  {
   "text": "little",
-  "start": 52.672,
-  "end": 52.832,
+  "start": 52.691,
+  "end": 52.851,
   "sentence": 17
  },
  {
   "text": "higher,",
-  "start": 52.872,
-  "end": 53.132,
+  "start": 52.891,
+  "end": 53.171,
   "sentence": 17
  },
  {
   "text": "until",
-  "start": 53.312,
-  "end": 53.532,
+  "start": 53.311,
+  "end": 53.552,
   "sentence": 17
  },
  {
   "text": "an",
   "start": 53.592,
-  "end": 53.632,
+  "end": 53.652,
   "sentence": 17
  },
  {
   "text": "iron",
-  "start": 53.833,
-  "end": 54.013,
+  "start": 53.832,
+  "end": 54.012,
   "sentence": 17
  },
  {
   "text": "chain",
-  "start": 54.093,
-  "end": 54.353,
+  "start": 54.112,
+  "end": 54.372,
   "sentence": 17
  },
  {
   "text": "as",
-  "start": 54.493,
-  "end": 54.553,
+  "start": 54.512,
+  "end": 54.572,
   "sentence": 17
  },
  {
   "text": "fat",
-  "start": 54.633,
-  "end": 54.813,
+  "start": 54.652,
+  "end": 54.832,
   "sentence": 17
  },
  {
   "text": "as",
-  "start": 54.873,
-  "end": 54.933,
+  "start": 54.892,
+  "end": 54.952,
   "sentence": 17
  },
  {
   "text": "a",
-  "start": 54.993,
-  "end": 55.013,
+  "start": 55.012,
+  "end": 55.032,
   "sentence": 17
  },
  {
   "text": "fence",
-  "start": 55.073,
-  "end": 55.273,
+  "start": 55.072,
+  "end": 55.292,
   "sentence": 17
  },
  {
   "text": "post",
-  "start": 55.353,
-  "end": 55.613,
+  "start": 55.372,
+  "end": 55.632,
   "sentence": 17
  },
  {
   "text": "snaps",
-  "start": 55.833,
-  "end": 56.153,
+  "start": 55.852,
+  "end": 56.172,
   "sentence": 17
  },
  {
   "text": "like",
-  "start": 56.213,
-  "end": 56.333,
+  "start": 56.232,
+  "end": 56.352,
   "sentence": 17
  },
  {
   "text": "a",
-  "start": 56.393,
-  "end": 56.413,
+  "start": 56.412,
+  "end": 56.432,
   "sentence": 17
  },
  {
   "text": "shoelace.",
-  "start": 56.473,
-  "end": 56.873,
+  "start": 56.492,
+  "end": 56.892,
   "sentence": 17
  },
  {
   "text": "And",
-  "start": 57.073,
-  "end": 57.153,
+  "start": 57.092,
+  "end": 57.172,
   "sentence": 18
  },
  {
   "text": "the",
-  "start": 57.173,
-  "end": 57.233,
+  "start": 57.192,
+  "end": 57.272,
   "sentence": 18
  },
  {
   "text": "whole",
-  "start": 57.293,
-  "end": 57.473,
+  "start": 57.292,
+  "end": 57.492,
   "sentence": 18
  },
  {
   "text": "army",
-  "start": 57.573,
-  "end": 57.753,
+  "start": 57.572,
+  "end": 57.772,
   "sentence": 18
  },
  {
   "text": "goes",
-  "start": 57.813,
-  "end": 58.013,
+  "start": 57.832,
+  "end": 58.033,
   "sentence": 18
  },
  {
   "text": "for",
-  "start": 58.053,
-  "end": 58.154,
+  "start": 58.073,
+  "end": 58.173,
   "sentence": 18
  },
  {
   "text": "a",
-  "start": 58.194,
-  "end": 58.214,
+  "start": 58.213,
+  "end": 58.233,
   "sentence": 18
  },
  {
   "text": "swim,",
-  "start": 58.294,
-  "end": 58.554,
+  "start": 58.313,
+  "end": 58.573,
   "sentence": 18
  },
  {
   "text": "drums",
-  "start": 58.774,
-  "end": 59.114,
+  "start": 58.793,
+  "end": 59.133,
   "sentence": 18
  },
  {
   "text": "and",
-  "start": 59.194,
-  "end": 59.274,
+  "start": 59.213,
+  "end": 59.293,
   "sentence": 18
  },
  {
   "text": "all.",
-  "start": 59.374,
-  "end": 59.494,
+  "start": 59.393,
+  "end": 59.493,
   "sentence": 18
  },
  {
   "text": "Which",
-  "start": 59.634,
-  "end": 59.794,
+  "start": 59.653,
+  "end": 59.813,
   "sentence": 19
  },
  {
   "text": "is",
-  "start": 59.854,
-  "end": 59.914,
+  "start": 59.873,
+  "end": 59.933,
   "sentence": 19
  },
  {
   "text": "why",
-  "start": 59.994,
-  "end": 60.134,
+  "start": 59.993,
+  "end": 60.153,
   "sentence": 19
  },
  {
   "text": "soldiers",
-  "start": 60.294,
-  "end": 60.774,
+  "start": 60.313,
+  "end": 60.793,
   "sentence": 19
  },
  {
   "text": "still",
-  "start": 60.954,
-  "end": 61.174,
+  "start": 60.973,
+  "end": 61.193,
   "sentence": 19
  },
  {
   "text": "break",
-  "start": 61.214,
-  "end": 61.374,
+  "start": 61.233,
+  "end": 61.393,
   "sentence": 19
  },
  {
   "text": "step",
-  "start": 61.474,
-  "end": 61.694,
+  "start": 61.493,
+  "end": 61.713,
   "sentence": 19
  },
  {
   "text": "when",
-  "start": 61.754,
-  "end": 61.854,
+  "start": 61.773,
+  "end": 61.873,
   "sentence": 19
  },
  {
   "text": "they",
-  "start": 61.874,
-  "end": 61.974,
+  "start": 61.893,
+  "end": 61.993,
   "sentence": 19
  },
  {
   "text": "cross",
-  "start": 62.014,
-  "end": 62.234,
+  "start": 62.033,
+  "end": 62.253,
   "sentence": 19
  },
  {
   "text": "a",
-  "start": 62.294,
-  "end": 62.314,
+  "start": 62.313,
+  "end": 62.333,
   "sentence": 19
  },
  {
   "text": "bridge.",
-  "start": 62.374,
-  "end": 62.655,
+  "start": 62.393,
+  "end": 62.674,
   "sentence": 19
  }
 ]

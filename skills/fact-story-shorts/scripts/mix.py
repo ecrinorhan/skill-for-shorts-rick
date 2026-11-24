@@ -405,6 +405,15 @@ def render_music(dur, sections, bpm, seed):
     return st.astype(np.float32)
 
 
+def even_level(y, strength=0.6, win=2.0):
+    """Ride the bed's level so sections with fewer instruments are not quieter. The reference bed varies by about 2 dB
+    over 2 s windows; without this the bundled one measured 5.4 dB."""
+    p = uniform_filter1d((y.mean(axis=1) ** 2).astype(np.float64), int(win * SR), mode="nearest")
+    lev = 10 * np.log10(p + 1e-12)
+    g = np.clip(-strength * (lev - np.median(lev)), -9, 9)
+    return (y * db(g)[:, None]).astype(np.float32)
+
+
 def sections_from(sent, dur):
     """Map story beats (script.json 'beat' of each sentence) to music sections."""
     def first(beat, dflt):
@@ -444,7 +453,9 @@ def main():
     v = compress(v, thr=-26, ratio=3.5)
     voice = np.stack([v, v], 1)
     voice *= db(a.lufs - 0.2 - lufs(voice))
-    music = render_music(dur, sections_from(sent, dur), a.bpm, a.seed)
+    music = even_level(render_music(dur, sections_from(sent, dur), a.bpm, a.seed))
+    lead = int(0.06 * SR)                                      # the reference bed starts 0.04 - 0.46 s in, never on sample 0
+    music = np.concatenate([np.zeros((lead, 2), np.float32), music[:-lead]])
     music *= db(lufs(voice) - a.music_lu - lufs(music))
     sfx = render_sfx(tl["sfx"], dur, a.seed) * db(a.sfx_db)
     mix = voice + music + sfx

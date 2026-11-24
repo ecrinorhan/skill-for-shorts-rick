@@ -378,7 +378,17 @@ export class Take {
   sfx(type, t, o = {}) { this.stage.sfx.push({ type, t: +t.toFixed(3), ...o }); }
   ambience(type, o = {}) { this.stage.sfx.push({ type, t: +this.start.toFixed(3), dur: +(this.end - this.start).toFixed(3), loop: true, ...o }); }
   /** camera shots. {t, pos, look, fov, push (zoom-in rate /s, negative = pull out), orbit (deg/s around look), drift [x,y,z]/s, move (s to arrive from the previous shot), ease} */
-  cam(shots) { this.shots = shots.map((s) => ({ fov: 35, push: this.stage.style.push, orbit: 0, move: 0, ease: 'inOut', ...s })).sort((a, b) => a.t - b.t); shots.forEach((s) => { if (s.move) this.stage.moves.push({ t: +s.t.toFixed(3), dur: s.move }); }); }
+  cam(shots) {
+    const st = this.stage.style;
+    this.shots = shots.map((s) => ({ fov: 35, push: st.push, orbit: 0, move: 0, ease: 'inOut', ...s })).sort((a, b) => a.t - b.t);
+    this.shots.forEach((s, i) => {
+      s.push *= st.pushGain;
+      if (!s.move) return;
+      const next = this.shots[i + 1];                       // a longer move must still finish before the next shot
+      s.move = Math.min(s.move * st.moveGain, next ? (next.t - s.t) * 0.9 : Infinity);
+      this.stage.moves.push({ t: +s.t.toFixed(3), dur: +s.move.toFixed(3) });
+    });
+  }
   shotAt(i, t) {
     const s = this.shots[i], dt = t - s.t, look = V(s.look), rel = V(s.pos).sub(look);
     if (s.orbit) rel.applyAxisAngle(THREE.Object3D.DEFAULT_UP, THREE.MathUtils.degToRad(s.orbit * dt));
@@ -408,7 +418,9 @@ export class Take {
 // ------------------------------------------------------------------ the whole film
 export class Stage {
   constructor({ storyboard, sentences, words, captions, duration, style }) {
-    this.style = { push: 0.035, dissolveFrames: 10, vignette: 0.22, captionFont: 74, captionY: 1378, captionStroke: 5.5, captionShadow: [4, 5], ...(storyboard.style || {}), ...(style || {}) };
+    // pushGain, moveGain and vignette were set after measuring a finished video: at 1 / 1 / 0.22 the holds zoomed at 2.7 %/s
+    // (reference 4.1), fast moves peaked at twice the reference speed, and the corners were not darker than the centre
+    this.style = { push: 0.035, pushGain: 1.45, moveGain: 1.3, dissolveFrames: 10, vignette: 0.5, captionFont: 74, captionY: 1378, captionStroke: 5.5, captionShadow: [4, 5], ...(storyboard.style || {}), ...(style || {}) };
     this.sentences = sentences; this.words = words; this.captions = captions; this.cast = storyboard.cast; this.sfx = []; this.moves = [];
     this.duration = duration; this.frames = Math.round(duration * FPS);
     this.gl = document.createElement('canvas'); this.gl.width = W; this.gl.height = H;
@@ -430,7 +442,7 @@ export class Stage {
   }
   makeVignette(a) {
     const cv = document.createElement('canvas'); cv.width = W / 4; cv.height = H / 4;
-    const g = cv.getContext('2d'), gr = g.createRadialGradient(W / 8, H / 8, H / 8 * 0.55, W / 8, H / 8, H / 8 * 1.15);
+    const g = cv.getContext('2d'), gr = g.createRadialGradient(W / 8, H / 8, H / 8 * 0.42, W / 8, H / 8, H / 8 * 1.15);
     gr.addColorStop(0, 'rgba(0,0,0,0)'); gr.addColorStop(1, `rgba(0,0,0,${a})`); g.fillStyle = gr; g.fillRect(0, 0, cv.width, cv.height);
     return cv;
   }

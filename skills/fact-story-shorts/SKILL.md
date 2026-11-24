@@ -108,8 +108,7 @@ commands from this skill folder.
    node scripts/render/render.mjs P --frames 0:150      # a 5-second motion preview, P/preview.mp4
    node scripts/render/render.mjs P --workers 4         # every frame, P/video.mp4
    ```
-   Software rendering is slow: a 90-frame preview took 37 s here with 3 workers, which works out at about 13 minutes
-   for a full video. Other ways to make the pictures are in `references/visuals.md` section 8.
+   Software rendering is slow: the full 63-second example took 10 to 20 minutes here with 6 workers on 8 CPU cores. Other ways to make the pictures are in `references/visuals.md` section 8.
 6. **Sound.**
    ```
    .venv/bin/python scripts/mix.py P                        # voice chain, music bed, effects, loudness -> P/final.mp4
@@ -153,7 +152,7 @@ Voice
 - [ ] No pause of 250 ms or more. The voice sounds for about 98 % of the runtime.
 - [ ] The first word starts about 0.1 s in. The file ends about 0.2 s after the last word, with no fade-out.
 - [ ] The pitch moves over about 16 semitones. Spoken lines and questions sit 3 semitones or more away from the
-      narrator's normal pitch. The bundled text-to-speech voice reaches about 14.
+      narrator's normal pitch. The bundled text-to-speech voice is widened to about 16 by resynthesis.
 
 Captions
 - [ ] A caption is on screen in every frame: one line, one or two words, about 2.9 per second.
@@ -193,10 +192,14 @@ Publishing
 - "By eye" means an AI reviewer working from extracted frames. No person reviewed the videos.
 - How the reference videos are produced (software, voice, music, font) is not known. What the evidence does and does
   not support is in `references/assets-and-tools.md`.
-- The tools were run from a fresh copy of this folder: install, script check, the full narration, captions and timeline
-  of one example, three stills, and a 2-second rendered and mixed preview (1080 × 1920, 30 fps, −14.1 LUFS). A
-  full-length video has not been rendered or put through `scripts/measure/measure.py`, and nobody has listened to the
-  result. Do both before you rely on the sound.
+- One full video, the bridge-keeper example, was made with these tools and measured with `scripts/measure/measure.py`
+  (`examples/bridge-keeper/measured.md`). Of 86 metrics, 64 are within 15 % of the reference mean, 14 are inside the
+  reference's range and 8 are outside it: fast camera moves peak at about twice the reference's speed; brightness
+  changes half as much across the video; effects sound for 17 % of the runtime against 29 %; loudness range is 1.3 LU
+  against 2.2; two-word captions are 11 % of captions against 22 %; the picture is softer; the music is detected
+  0.03 s in against 0.04 s at the earliest. So when you storyboard: let fast moves travel less, change the light more
+  between places, and add longer sounds such as ambience and risers.
+- Nobody has listened to the result. Listen before you publish, above all to the widened pitch of the bundled voice.
 
 ## 8. Licences
 

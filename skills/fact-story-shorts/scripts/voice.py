@@ -335,10 +335,12 @@ def build(args):
             pos += gap_s
     track.append(np.zeros(int(args.tail * SR), np.float32))
     x = np.concatenate(track)
-    f0, rng_st = f0_stats(x, SR)
-    shift = 12 * np.log2(args.f0 / f0) if args.f0 and f0 else 0.0
-    expand = float(np.clip(args.f0_range / rng_st, 1.0, 1.7)) if args.f0_range and rng_st and not args.clips else 1.0
-    if abs(shift) > 0.3 or expand > 1.05:      # the reference narration moves over 16 semitones; flat TTS reads as flat
+    for _ in range(3):      # the reference narration moves over 16 semitones; one pass falls short, so measure and widen again
+        f0, rng_st = f0_stats(x, SR)
+        shift = 12 * np.log2(args.f0 / f0) if args.f0 and f0 else 0.0
+        expand = float(np.clip(args.f0_range / rng_st, 1.0, 1.7)) if args.f0_range and rng_st and not args.clips else 1.0
+        if abs(shift) <= 0.3 and expand <= 1.05:
+            break
         x = reshape_pitch(x, SR, shift if abs(shift) > 0.3 else 0.0, expand)
     x = x / (np.abs(x).max() + 1e-9) * 0.7
     duration = len(x) / SR

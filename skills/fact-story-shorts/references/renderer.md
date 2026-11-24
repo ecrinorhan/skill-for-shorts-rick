@@ -169,7 +169,7 @@ turn, one loud hit at the climax.
 
 ## Style defaults
 
-`export default { cast, takes, style: { ... } }` can override: `push` 0.035, `dissolveFrames` 10, `vignette` 0.22,
+`export default { cast, takes, style: { ... } }` can override: `push` 0.035, `pushGain` 1.45, `moveGain` 1.3, `dissolveFrames` 10, `vignette` 0.5,
 `captionFont` 74, `captionY` 1378, `captionStroke` 5.5, `captionShadow` [4, 5]. The caption values are the measured ones;
 change them only if you change the font (`assets/fonts/`).
 
