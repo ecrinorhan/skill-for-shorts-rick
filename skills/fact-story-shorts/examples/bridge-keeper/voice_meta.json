@@ -1,0 +1,13 @@
+{
+ "voice": "af_heart",
+ "speed": 1.012,
+ "stretch": 1.007,
+ "words": 231,
+ "duration_s": 62.431,
+ "frames": 1873,
+ "wpm": 222.0,
+ "f0_median_hz": 199.9,
+ "f0_range_st": 14.6,
+ "captions": 184,
+ "words_per_caption": 1.255
+}
