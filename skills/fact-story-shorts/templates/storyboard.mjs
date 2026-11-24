@@ -21,6 +21,7 @@ function yard(tk, mood = 'day') {
   tk.box(1.6, 0.9, 0.9, { p: [1.3, 0.45, -1.2], c: '#a9754a', c2: '#6b4a2e', tex: 'planks' });                    // crate
   tk.sign('NO\nENTRY', { p: [-0.75, 2.0, -2.42], w: 1.2, h: 0.85 });                                              // in-world text
   tk.scatter('blade', 400, { x: [-7, 7], z: [-2, 5] }, { c: ['#7cba4e', '#58963a', '#8fca5a'], s: [0.06, 0.12] });
+  tk.life({ x: [-7, 7], z: [0.6, 5] }, { n: 70 });                                                            // swaying grass, flowers, butterflies, cloud shadows
   if (night) tk.lamp([1.3, 1.6, -1.1], '#ffc56a', 16, 9, { glow: 0.5 });
 }
 

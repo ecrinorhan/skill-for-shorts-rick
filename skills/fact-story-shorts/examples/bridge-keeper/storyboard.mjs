@@ -60,6 +60,9 @@ function bridge(tk, o = {}) {
     tk.box(1.0, 0.8, 6.6, { p: [sx * SPAN, 7.4, 0], c: '#a39a8c', c2: '#6f675e', tex: 'stone', rep: [3, 1] });
   }
   tk.water({ y: -10, c: m.water[0], c2: m.water[1], size: 420 });
+  for (const sx of [-1, 1]) for (const sz of [-1, 1]) {            // living ground on both banks, clear of the road
+    tk.life({ x: sx > 0 ? [SPAN + 1.5, SPAN + 42] : [-SPAN - 42, -SPAN - 1.5], z: sz > 0 ? [3.4, 30] : [-30, -3.4] }, { n: 700, c: [m.grass[0], m.grass[1], '#8cc45a'] });
+  }
   for (const [x, z, s] of [[-70, -130, 1.3], [40, -150, 1.7], [110, -120, 1.2], [-140, -100, 1.5], [0, -180, 2.2]]) tk.sphere(30 * s, { p: [x, -6, z], s: [1.7, 0.5, 1], c: m.grass[1], cast: false }, 18);
   if (o.mood !== 'storm') for (const [x, y, z, s] of [[-30, 34, -120, 2.2], [45, 42, -150, 2.8], [10, 30, -100, 1.6], [-80, 46, -160, 3]]) tk.cloud([x, y, z], s);
   const r = rng(11);

@@ -79,6 +79,56 @@ function dotTex() {
   return tex;
 }
 
+function cloudTex(v) {
+  const key = 'cloud' + v;
+  if (texCache.has(key)) return texCache.get(key);
+  const cv = document.createElement('canvas'); cv.width = 256; cv.height = 128;
+  const g = cv.getContext('2d'), r = rng(hash(key));
+  for (let i = 0; i < 9; i++) {
+    const x = 52 + r() * 152, rad = 22 + r() * 22, y = 86 - rad * 0.55 - r() * 14, gr = g.createRadialGradient(x, y, rad * 0.45, x, y, rad);
+    gr.addColorStop(0, 'rgba(255,255,255,0.96)'); gr.addColorStop(1, 'rgba(255,255,255,0)');
+    g.fillStyle = gr; g.fillRect(x - rad, y - rad, rad * 2, rad * 2);
+  }
+  g.globalCompositeOperation = 'destination-out';                       // flat underside
+  const fl = g.createLinearGradient(0, 80, 0, 96); fl.addColorStop(0, 'rgba(0,0,0,0)'); fl.addColorStop(1, 'rgba(0,0,0,1)');
+  g.fillStyle = fl; g.fillRect(0, 80, 256, 48);
+  const tex = new THREE.CanvasTexture(cv); tex.colorSpace = THREE.SRGBColorSpace; texCache.set(key, tex);
+  return tex;
+}
+function birdTex() {
+  if (texCache.has('bird')) return texCache.get('bird');
+  const cv = document.createElement('canvas'); cv.width = 64; cv.height = 32;
+  const g = cv.getContext('2d'); g.strokeStyle = '#ffffff'; g.lineWidth = 5; g.lineCap = 'round'; g.lineJoin = 'round';
+  g.beginPath(); g.moveTo(5, 7); g.quadraticCurveTo(21, 4, 32, 21); g.quadraticCurveTo(43, 4, 59, 7); g.stroke();
+  const tex = new THREE.CanvasTexture(cv); tex.colorSpace = THREE.SRGBColorSpace; texCache.set('bird', tex);
+  return tex;
+}
+
+function butterflyTex() {
+  if (texCache.has('butterfly')) return texCache.get('butterfly');
+  const cv = document.createElement('canvas'); cv.width = cv.height = 64;
+  const g = cv.getContext('2d'); g.fillStyle = '#ffffff';
+  for (const sx of [-1, 1]) { g.beginPath(); g.ellipse(32 + sx * 15, 24, 14, 17, sx * 0.5, 0, 6.2832); g.fill(); g.beginPath(); g.ellipse(32 + sx * 11, 45, 9, 11, -sx * 0.4, 0, 6.2832); g.fill(); }
+  g.fillStyle = '#2a2420'; g.fillRect(30, 12, 4, 44);
+  const tex = new THREE.CanvasTexture(cv); tex.colorSpace = THREE.SRGBColorSpace; texCache.set('butterfly', tex);
+  return tex;
+}
+function shadowTex() {
+  if (texCache.has('cloudshadow')) return texCache.get('cloudshadow');
+  const cv = document.createElement('canvas'); cv.width = cv.height = 256;
+  const g = cv.getContext('2d'), r = rng(hash('cloudshadow'));
+  for (let i = 0; i < 7; i++) {
+    const x = r() * 256, y = r() * 256, rad = 36 + r() * 44;
+    for (const dx of [-256, 0, 256]) for (const dy of [-256, 0, 256]) {   // drawn nine times so the tile repeats without an edge
+      const gr = g.createRadialGradient(x + dx, y + dy, rad * 0.2, x + dx, y + dy, rad);
+      gr.addColorStop(0, 'rgba(255,255,255,0.85)'); gr.addColorStop(1, 'rgba(255,255,255,0)');
+      g.fillStyle = gr; g.fillRect(x + dx - rad, y + dy - rad, rad * 2, rad * 2);
+    }
+  }
+  const tex = new THREE.CanvasTexture(cv); tex.colorSpace = THREE.SRGBColorSpace; tex.wrapS = tex.wrapT = THREE.RepeatWrapping; texCache.set('cloudshadow', tex);
+  return tex;
+}
+
 // ------------------------------------------------------------------ actors
 class Puppet {
   constructor(look) {
@@ -262,7 +312,107 @@ export class Take {
     dome.renderOrder = -10; this.scene.add(dome);
     this.updaters.push(() => dome.position.copy(this.camera.position));
     if (o.fog !== false) this.fog(o.fogColor || bottom, o.near ?? 40, o.far ?? 260);
+    if (o.alive !== false && this.stage.style.aliveSky !== false) this.backdrop(top, bottom, o);
     return dome;
+  }
+  /** Living backdrop behind the set: two ridges of hills on the horizon, drifting clouds, a flock of birds, and stars instead
+   *  of birds when the sky is dark. It follows the camera, so it never comes closer, and every part is a function of t alone.
+   *  o: { hills: colour | false, clouds: count, birds: count, stars: true | false, wind: degrees of drift per second } */
+  backdrop(top, bottom, o = {}) {
+    const r = rng(hash(this.id + 'backdrop'));
+    const rgb = (c) => { const h = new THREE.Color(c).getHex(); return [h >> 16 & 255, h >> 8 & 255, h & 255]; };
+    const mix = (a, b, u) => { const A = rgb(a), B = rgb(b); return `rgb(${A.map((v, i) => Math.round(lerp(v, B[i], u))).join(',')})`; };
+    const T = rgb(top), lum = (0.2126 * T[0] + 0.7152 * T[1] + 0.0722 * T[2]) / 255, dark = lum < 0.2;
+    const follow = new THREE.Group(); this.scene.add(follow);
+    let h0 = null;                                                       // where the take's first shot looks, so the sky is not empty there
+    const heading = () => { const s = this.shots[0]; return s ? Math.atan2(s.look[0] - s.pos[0], s.look[2] - s.pos[2]) : Math.PI; };
+    const put = (obj, rad, az, el) => obj.position.set(rad * Math.cos(el) * Math.sin(az), rad * Math.sin(el), rad * Math.cos(el) * Math.cos(az));
+    if (o.hills !== false) {
+      const cv = document.createElement('canvas'); cv.width = 2048; cv.height = 256;
+      const g = cv.getContext('2d'), hill = o.hills || (dark ? '#232b4a' : '#4f8a5a');
+      for (const [near, base, amp, haze] of [[0, 0.52, 0.2, 0.72], [1, 0.3, 0.13, 0.38]]) {
+        const ph = [r() * 6.28, r() * 6.28, r() * 6.28];                 // whole numbers of waves, so the ring has no seam
+        const ridge = (px) => { const x = px / 2048 * 6.2832; return 256 * (1 - base - amp * (0.5 * Math.sin(3 * x + ph[0]) + 0.3 * Math.sin(7 * x + ph[1]) + 0.2 * Math.sin(13 * x + ph[2]))); };
+        g.fillStyle = mix(hill, bottom, haze); g.beginPath(); g.moveTo(0, 256);
+        for (let px = 0; px <= 2048; px += 4) g.lineTo(px, ridge(px));
+        g.lineTo(2048, 256); g.closePath(); g.fill();
+        if (near) for (let i = 0; i < 150; i++) { const px = r() * 2048, y = ridge(px), s = 5 + r() * 9; g.beginPath(); g.moveTo(px - s * 0.55, y + 2); g.lineTo(px, y - s * 1.7); g.lineTo(px + s * 0.55, y + 2); g.fill(); }
+      }
+      const tex = new THREE.CanvasTexture(cv); tex.colorSpace = THREE.SRGBColorSpace; tex.wrapS = THREE.RepeatWrapping;
+      const ring = new THREE.Mesh(new THREE.CylinderGeometry(480, 480, 76, 72, 1, true), new THREE.MeshBasicMaterial({ map: tex, transparent: true, side: THREE.BackSide, fog: false, depthWrite: false }));
+      ring.position.y = 28; ring.renderOrder = -9; follow.add(ring);
+    }
+    const wind = THREE.MathUtils.degToRad(o.wind ?? 0.45), nC = o.clouds ?? (dark ? 9 : 24), clouds = [];
+    const cc = new THREE.Color(mix('#ffffff', top, clamp(0.75 - lum * 1.4, 0.12, 0.7)));
+    for (let i = 0; i < nC; i++) {
+      const sp = new THREE.Sprite(new THREE.SpriteMaterial({ map: cloudTex(i % 3), color: cc, transparent: true, opacity: dark ? 0.5 : 0.92, depthWrite: false, fog: false }));
+      const w = 44 + r() * 56; sp.scale.set(w, w * 0.5, 1); sp.renderOrder = -8; follow.add(sp);
+      clouds.push({ sp, ahead: i < nC * 0.45, off: i < nC * 0.45 ? (r() - 0.5) * 1.4 : r() * 6.2832, el: 0.09 + Math.pow(r(), 1.5) * 0.42, k: 0.6 + r() * 0.9 });
+    }
+    const birds = [], bc = new THREE.Color(mix('#1d2030', top, 0.25));
+    for (let i = 0; i < (o.birds ?? (dark ? 0 : 6)); i++) {
+      const sp = new THREE.Sprite(new THREE.SpriteMaterial({ map: birdTex(), color: bc, transparent: true, depthWrite: false, fog: false }));
+      sp.renderOrder = -7; follow.add(sp);
+      const row = Math.ceil(i / 2), side = i % 2 ? 1 : -1;               // a loose V formation
+      birds.push({ sp, daz: -row * 0.013 + (r() - 0.5) * 0.004, del: side * row * 0.007, ph: r() * 6.28, f: 2.6 + r() * 0.8 });
+    }
+    const stars = [];
+    if (o.stars ?? dark) for (let k = 0; k < 3; k++) {
+      const n = 110, pos = new Float32Array(n * 3), geo = new THREE.BufferGeometry();
+      for (let i = 0; i < n; i++) { const az = r() * 6.2832, el = 0.07 + r() * 1.3; pos.set([600 * Math.cos(el) * Math.sin(az), 600 * Math.sin(el), 600 * Math.cos(el) * Math.cos(az)], i * 3); }
+      geo.setAttribute('position', new THREE.BufferAttribute(pos, 3));
+      const pts = new THREE.Points(geo, new THREE.PointsMaterial({ size: 3.4, sizeAttenuation: false, color: '#fff6dc', map: dotTex(), transparent: true, depthWrite: false, fog: false }));
+      pts.frustumCulled = false; pts.renderOrder = -9.5; follow.add(pts); stars.push(pts);
+    }
+    this.updaters.push((t) => {
+      if (h0 === null) h0 = heading();
+      const tt = t - this.start;
+      follow.position.copy(this.camera.position);
+      for (const c of clouds) put(c.sp, 430, (c.ahead ? h0 + c.off : c.off) + wind * c.k * (c.ahead ? tt : t), c.el);
+      for (const b of birds) {
+        const az = h0 - 0.3 + ((0.035 * tt + 0.3) % 0.9) + b.daz;         // crosses the view, comes round again off screen
+        put(b.sp, 300, az, 0.15 + b.del + 0.004 * Math.sin(0.9 * t + b.ph));
+        b.sp.scale.set(4.2, 2.1 * Math.sin(6.2832 * b.f * t + b.ph), 1);   // the wings flip up and down
+      }
+      stars.forEach((s, k) => { s.material.opacity = 0.55 + 0.4 * Math.sin(1.7 * t + 2.1 * k); });
+    });
+    return follow;
+  }
+  /** Life on a stretch of ground: grass tufts and flowers that sway in passing gusts, butterflies, and cloud shadows that drift
+   *  across it. area: { x: [a, b], z: [a, b], y }. o: { n: tufts, flowers, butterflies, shadows: false to leave them out,
+   *  c: [grass colours], wind: speed factor }. Keep roads, floors and water out of the area. */
+  life(area, o = {}) {
+    const r = rng(hash(this.id + 'life' + area.x[0] + '/' + area.z[0])), y0 = area.y || 0, wind = o.wind ?? 1, dummy = new THREE.Object3D();
+    const at = () => [lerp(area.x[0], area.x[1], r()), lerp(area.z[0], area.z[1], r())];
+    const n = o.n ?? 140, cone = new THREE.ConeGeometry(0.075, 0.44, 5); cone.translate(0, 0.22, 0);
+    const tufts = new THREE.InstancedMesh(cone, this.mat({ c: '#ffffff' }), n), cols = (o.c || ['#6fae46', '#4f8a34', '#8cc45a']).map((c) => new THREE.Color(c));
+    const T = [...Array(n)].map((_, i) => { tufts.setColorAt(i, cols[i % cols.length]); return [...at(), 0.7 + r() * 0.9, r() * 6.28]; });
+    const nf = o.flowers ?? Math.round(n * 0.3), flowers = new THREE.InstancedMesh(new THREE.SphereGeometry(0.06, 7, 5), this.mat({ c: '#ffffff' }), nf);
+    const fc = ['#ffffff', '#ffd84a', '#ff8fb0', '#c9a6ff'].map((c) => new THREE.Color(c));
+    const F = [...Array(nf)].map((_, i) => { flowers.setColorAt(i, fc[i % fc.length]); return [...at(), 0.2 + r() * 0.16, r() * 6.28]; });
+    for (const m of [tufts, flowers]) { m.castShadow = false; m.receiveShadow = true; m.frustumCulled = false; this.scene.add(m); }
+    const B = [...Array(o.butterflies ?? 4)].map((_, i) => {
+      const sp = new THREE.Sprite(new THREE.SpriteMaterial({ map: butterflyTex(), color: ['#ffd84a', '#ffffff', '#ff9a5a', '#9fd4ff'][i % 4], transparent: true, depthWrite: false }));
+      this.scene.add(sp); return [sp, ...at(), r() * 6.28, 0.5 + r() * 0.5];
+    });
+    let shade = null;
+    if (o.shadows !== false) {
+      const w = area.x[1] - area.x[0], d = area.z[1] - area.z[0], map = shadowTex().clone(); map.needsUpdate = true; map.repeat.set(w / 36, d / 36);
+      shade = new THREE.Mesh(new THREE.PlaneGeometry(w, d), new THREE.MeshBasicMaterial({ map, color: '#0b1830', transparent: true, opacity: o.shadowOpacity ?? 0.22, depthWrite: false, polygonOffset: true, polygonOffsetFactor: -2 }));
+      shade.rotation.x = -Math.PI / 2; shade.position.set((area.x[0] + area.x[1]) / 2, y0 + 0.05, (area.z[0] + area.z[1]) / 2); shade.renderOrder = 1; this.scene.add(shade);
+    }
+    this.updaters.push((t) => {
+      T.forEach(([x, z, s, ph], i) => {                                  // the 0.35 * x term makes the sway travel as a gust
+        dummy.position.set(x, y0, z); dummy.rotation.set(0.16 * Math.sin(1.6 * wind * t + ph * 0.3 + 0.35 * x), ph, 0.1 * Math.sin(1.3 * wind * t + ph)); dummy.scale.setScalar(s); dummy.updateMatrix(); tufts.setMatrixAt(i, dummy.matrix);
+      });
+      F.forEach(([x, z, h, ph], i) => { dummy.position.set(x + 0.05 * Math.sin(1.6 * wind * t + ph * 0.3 + 0.35 * x), y0 + h, z); dummy.rotation.set(0, 0, 0); dummy.scale.setScalar(1); dummy.updateMatrix(); flowers.setMatrixAt(i, dummy.matrix); });
+      tufts.instanceMatrix.needsUpdate = flowers.instanceMatrix.needsUpdate = true;
+      for (const [sp, x, z, ph, sp2] of B) {
+        sp.position.set(x + 1.6 * Math.sin(0.5 * sp2 * t + ph) + 0.4 * Math.sin(1.7 * t + ph), y0 + 0.8 + 0.35 * Math.sin(1.1 * t + 2 * ph), z + 1.4 * Math.cos(0.4 * sp2 * t + ph));
+        sp.scale.set(0.05 + 0.2 * Math.abs(Math.sin(11 * t + ph)), 0.24, 1);        // wings open and close
+      }
+      if (shade) shade.material.map.offset.set(0.012 * wind * t, 0.004 * wind * t);
+    });
   }
   fog(c, near, far) { this.scene.fog = new THREE.Fog(c, near, far); }
   sun(o = {}) {
@@ -420,7 +570,7 @@ export class Stage {
   constructor({ storyboard, sentences, words, captions, duration, style }) {
     // pushGain, moveGain and vignette were set after measuring a finished video: at 1 / 1 / 0.22 the holds zoomed at 2.7 %/s
     // (reference 4.1), fast moves peaked at twice the reference speed, and the corners were not darker than the centre
-    this.style = { push: 0.035, pushGain: 1.45, moveGain: 1.3, dissolveFrames: 10, vignette: 0.5, captionFont: 74, captionY: 1378, captionStroke: 5.5, captionShadow: [4, 5], ...(storyboard.style || {}), ...(style || {}) };
+    this.style = { push: 0.035, pushGain: 1.45, moveGain: 1.3, aliveSky: true, dissolveFrames: 10, vignette: 0.5, captionFont: 74, captionY: 1378, captionStroke: 5.5, captionShadow: [4, 5], ...(storyboard.style || {}), ...(style || {}) };
     this.sentences = sentences; this.words = words; this.captions = captions; this.cast = storyboard.cast; this.sfx = []; this.moves = [];
     this.duration = duration; this.frames = Math.round(duration * FPS);
     this.gl = document.createElement('canvas'); this.gl.width = W; this.gl.height = H;

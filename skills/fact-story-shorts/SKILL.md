@@ -169,6 +169,8 @@ Picture
 - [ ] 15 – 20 fast camera moves of 0.5 – 0.9 s, and a new framing about every 1.6 s.
 - [ ] A slow push-in of 3 – 5 % per second on every hold. No stretch longer than about 7 s without a new picture.
 - [ ] 9 – 12 places, in-world text with invented names on 5 – 7 of them, 3 – 6 changes of light, 8 – 12 visual effects.
+- [ ] No background is empty or frozen: outdoor takes show the living backdrop (hills, drifting clouds, birds or
+      stars), and interiors have something that moves, such as dust motes or a swinging lamp.
 - [ ] Every character is lit and readable. With generated pictures, no warped text and no shapes that change inside a take.
 
 Sound

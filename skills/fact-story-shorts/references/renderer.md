@@ -130,13 +130,15 @@ Every builder takes an options object: `p` position, `r` rotation in degrees, `s
 
 | Environment | |
 |---|---|
-| `tk.sky(top, bottom, { near, far, mid })` | gradient sky dome and matching fog |
+| `tk.sky(top, bottom, { near, far, mid })` | gradient sky dome and matching fog, plus the living backdrop below unless `alive: false` |
+| `tk.backdrop(top, bottom, { hills, clouds, birds, stars, wind })` | what `tk.sky` adds so the background is never empty: two ridges of hills with trees on the horizon, clouds that drift, a flock of birds that flaps across the view, and twinkling stars instead of birds when the sky is dark. `hills` is a colour or `false`, `clouds` and `birds` are counts, `wind` is degrees of drift per second. Pass the same options to `tk.sky` |
 | `tk.sun({ c, i, dir, area, soft })` | key light with shadows |
 | `tk.hemi(skyColor, groundColor, intensity)` | fill light |
 | `tk.lamp([x, y, z], c, intensity, distance, { glow })` | a practical light |
 | `tk.glow([x, y, z], radius, c, opacity)` | a soft additive halo |
 | `tk.beam(p, r, length, radius, c, opacity)` | a light shaft |
 | `tk.ground({ c, c2, tex, tile })`, `tk.water({ y, c, c2, flow })` | large planes |
+| `tk.life({ x: [a, b], z: [a, b], y }, { n, flowers, butterflies, shadows, c, wind })` | life on a stretch of ground: grass tufts and flowers that sway in gusts, butterflies, and cloud shadows drifting across. Call it for every area of open ground a take shows, and keep roads, floors and water out of the area |
 | `tk.cloud([x, y, z], scale)` | a cloud |
 | `tk.scatter('pebble' | 'blade' | 'block', count, { x: [a, b], z: [a, b] }, { c: [colours], s: [min, max], skip })` | hundreds of small pieces |
 | `tk.sign('TEXT\nLINE 2', { p, r, w, h, bg, c })` | in-world text on a board |
@@ -169,7 +171,7 @@ turn, one loud hit at the climax.
 
 ## Style defaults
 
-`export default { cast, takes, style: { ... } }` can override: `push` 0.035, `pushGain` 1.45, `moveGain` 1.3, `dissolveFrames` 10, `vignette` 0.5,
+`export default { cast, takes, style: { ... } }` can override: `push` 0.035, `pushGain` 1.45, `moveGain` 1.3, `aliveSky` true, `dissolveFrames` 10, `vignette` 0.5,
 `captionFont` 74, `captionY` 1378, `captionStroke` 5.5, `captionShadow` [4, 5]. The caption values are the measured ones;
 change them only if you change the font (`assets/fonts/`).
 
