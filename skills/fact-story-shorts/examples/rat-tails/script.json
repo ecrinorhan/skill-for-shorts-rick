@@ -1,0 +1,34 @@
+{
+  "title": "The City That Paid for Rat Tails",
+  "structure": "act first, bystander objects, story with time jumps, question, reveal, explainer at the end, last line is the consequence",
+  "fact": "In 1902 the French colonial administration in Hanoi, afraid of plague, tried to clear the rats out of the city's new sewers. Hired rat catchers killed up to about 20,000 a day, which was not enough, so the city offered the public one cent per rat tail (tails only, to avoid handling the bodies). Officials then noticed live rats without tails; people were cutting tails off and letting the rats go to breed, bringing rats in from outside the city, and running rat farms on the outskirts. The bounty was cancelled, with the rat problem worse than before. Documented by the historian Michael G. Vann. INVENTED for this story: the boy, his little brother, the inspector and his walk home, the shed, the governor's boast, and every line of dialogue.",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Great_Hanoi_Rat_Massacre",
+    "https://www.atlasobscura.com/articles/hanoi-rat-massacre-1902",
+    "Michael G. Vann, 'Of Rats, Rice, and Race: The Great Hanoi Rat Massacre, an Episode in French Colonial History', French Colonial History 4 (2003)"
+  ],
+  "voice": "af_heart",
+  "sentences": [
+    {"beat": "hook", "text": "He caught a rat, cut off its tail, and let it go."},
+    {"beat": "setup", "text": "His little brother just watches it run off."},
+    {"beat": "setup", "text": "That was a whole cent, and it's getting away!", "speech": "brother", "pitch": 3.0},
+    {"beat": "setup", "text": "But he just pockets the tail."},
+    {"beat": "setup", "text": "Because in this city, the sewers are crawling with rats, and the governor pays one cent for every tail you bring in."},
+    {"beat": "setup", "text": "Only the tail, so nobody has to count a mountain of dead rats."},
+    {"beat": "escalation", "text": "The first week, tails come in by the bucket."},
+    {"beat": "escalation", "text": "A month later, by the wagon."},
+    {"beat": "escalation", "text": "The governor is thrilled, and he tells everyone the rats are finished."},
+    {"beat": "escalation", "text": "Then one night, an inspector walks home, and a rat runs right over his shoe."},
+    {"beat": "escalation", "text": "It has no tail."},
+    {"beat": "escalation", "text": "Neither does the next one."},
+    {"beat": "question", "text": "So where are all these tails coming from?", "pitch": 1.5},
+    {"beat": "escalation", "text": "The next morning, he follows the kid past the edge of town to an old shed."},
+    {"beat": "payoff", "text": "Inside, cages are stacked to the roof, and every one is full of rats."},
+    {"beat": "payoff", "text": "This kid isn't a rat catcher, he's a rancher."},
+    {"beat": "explainer", "text": "You see, this really happened, in Hanoi, in 1902."},
+    {"beat": "explainer", "text": "The city never paid for dead rats, it paid for tails."},
+    {"beat": "explainer", "text": "And a rat with no tail can still have babies, and every one of them comes with a brand new tail."},
+    {"beat": "explainer", "text": "So people stopped hunting rats and started farming them."},
+    {"beat": "ending", "text": "And by the time the city gave up and cancelled the reward, its rat problem was worse than the day it started."}
+  ]
+}
