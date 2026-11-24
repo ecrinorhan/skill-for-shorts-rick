@@ -1,0 +1,533 @@
+{
+ "video": "10_7xS87iActkU",
+ "seconds": [
+  {
+   "s": 0,
+   "shown": "Cartoon engineer in striped cap crouches on track with a saw, oncoming train behind in canyon",
+   "shot_size": "medium-long",
+   "subject": "protagonist",
+   "picture_job": "shows the narrated action",
+   "new_setup": true
+  },
+  {
+   "s": 1,
+   "shown": "Engineer grins sideways, hunched over saw on rails; train with smoke closer behind him",
+   "shot_size": "medium",
+   "subject": "protagonist",
+   "picture_job": "shows the narrated action",
+   "new_setup": false
+  },
+  {
+   "s": 2,
+   "shown": "Engineer stands on the track beside an orange canyon wall, smirking, telegraph pole behind",
+   "shot_size": "medium-long",
+   "subject": "protagonist",
+   "picture_job": "establishes the place",
+   "new_setup": true
+  },
+  {
+   "s": 3,
+   "shown": "Low track-level view: train front at left, engineer small on the rails ahead, canyon wall right",
+   "shot_size": "medium-long",
+   "subject": "protagonist",
+   "picture_job": "establishes the place",
+   "new_setup": true
+  },
+  {
+   "s": 4,
+   "shown": "Wide view of a deep blue canyon with a steel arch bridge and scaffold tower on the right",
+   "shot_size": "extreme wide",
+   "subject": "environment",
+   "picture_job": "establishes the place",
+   "new_setup": true
+  },
+  {
+   "s": 5,
+   "shown": "Canyon gap with a lattice bridge tower and half-built rail span, camera pushing in",
+   "shot_size": "wide",
+   "subject": "environment",
+   "picture_job": "establishes the place",
+   "new_setup": false
+  },
+  {
+   "s": 6,
+   "shown": "Unfinished rail span on a steel tower over the deep blue canyon, tiny workers on it",
+   "shot_size": "wide",
+   "subject": "environment",
+   "picture_job": "shows the narrated action",
+   "new_setup": false
+  },
+  {
+   "s": 7,
+   "shown": "Tiny figure on a plank edge over the blue canyon abyss, looking down",
+   "shot_size": "wide",
+   "subject": "protagonist",
+   "picture_job": "shows the object named",
+   "new_setup": false
+  },
+  {
+   "s": 8,
+   "shown": "Striped purple-blue canyon wall filling the frame, looking straight down the depth",
+   "shot_size": "insert (object or detail)",
+   "subject": "environment",
+   "picture_job": "shows the object named",
+   "new_setup": true
+  },
+  {
+   "s": 9,
+   "shown": "Blurred sweep over orange desert flats toward a distant town under blue sky",
+   "shot_size": "extreme wide",
+   "subject": "environment",
+   "picture_job": "travel or transition",
+   "new_setup": true
+  },
+  {
+   "s": 10,
+   "shown": "Fast-moving shot down a station hall toward a far banner, motion blur at right",
+   "shot_size": "wide",
+   "subject": "environment",
+   "picture_job": "travel or transition",
+   "new_setup": true
+  },
+  {
+   "s": 11,
+   "shown": "Top-hatted tycoon winking beside money bags on gold bars under a 'first line in gets it all' banner",
+   "shot_size": "medium-long",
+   "subject": "secondary character",
+   "picture_job": "shows the object named",
+   "new_setup": true
+  },
+  {
+   "s": 12,
+   "shown": "Row of bowler-hatted men sit on a beam over the canyon; young engineer at right, motion-blurred",
+   "shot_size": "medium",
+   "subject": "crowd or group",
+   "picture_job": "establishes the place",
+   "new_setup": true
+  },
+  {
+   "s": 13,
+   "shown": "Same beam group dissolving to the canyon; engineer grins widely at right",
+   "shot_size": "medium",
+   "subject": "protagonist",
+   "picture_job": "travel or transition",
+   "new_setup": false
+  },
+  {
+   "s": 14,
+   "shown": "Boss in bowler hat and yellow vest leans over a rail gap, scowling, pebbles below",
+   "shot_size": "medium close-up",
+   "subject": "antagonist or authority",
+   "picture_job": "shows a reaction",
+   "new_setup": true
+  },
+  {
+   "s": 15,
+   "shown": "Boss leans closer, frowning at the small rail gap, camera low on the track",
+   "shot_size": "medium close-up",
+   "subject": "antagonist or authority",
+   "picture_job": "shows a reaction",
+   "new_setup": false
+  },
+  {
+   "s": 16,
+   "shown": "Boss stands on the track with cane, hand on hip, angry brow, rails receding behind",
+   "shot_size": "medium-long",
+   "subject": "antagonist or authority",
+   "picture_job": "shows a reaction",
+   "new_setup": true
+  },
+  {
+   "s": 17,
+   "shown": "Boss turned purple with steam from his ears, gritted teeth, orange canyon wall behind",
+   "shot_size": "medium",
+   "subject": "antagonist or authority",
+   "picture_job": "shows a reaction",
+   "new_setup": true
+  },
+  {
+   "s": 18,
+   "shown": "Purple steaming boss walking along the track beside the canyon wall, angled low shot",
+   "shot_size": "medium",
+   "subject": "antagonist or authority",
+   "picture_job": "shows a reaction",
+   "new_setup": false
+  },
+  {
+   "s": 19,
+   "shown": "Engineer, calm, faces the steaming purple boss with teeth bared at right edge",
+   "shot_size": "medium-long",
+   "subject": "protagonist",
+   "picture_job": "shows a reaction",
+   "new_setup": true
+  },
+  {
+   "s": 20,
+   "shown": "Engineer stands unmoved on track; boss, pale and angry, at right edge",
+   "shot_size": "medium-long",
+   "subject": "protagonist",
+   "picture_job": "shows a reaction",
+   "new_setup": false
+  },
+  {
+   "s": 21,
+   "shown": "Ground-level view of a rail gap and gravel, canyon striations in the background, blurred",
+   "shot_size": "insert (object or detail)",
+   "subject": "object or prop",
+   "picture_job": "shows the object named",
+   "new_setup": true
+  },
+  {
+   "s": 22,
+   "shown": "Wooden bridge deck with crane; worker in cap leans over rails, top-hat man far off",
+   "shot_size": "wide",
+   "subject": "secondary character",
+   "picture_job": "shows the narrated action",
+   "new_setup": true
+  },
+  {
+   "s": 23,
+   "shown": "Rival railway officer in blue uniform and cap stands on the deck, arms at sides, lamppost behind",
+   "shot_size": "medium-long",
+   "subject": "antagonist or authority",
+   "picture_job": "establishes the place",
+   "new_setup": true
+  },
+  {
+   "s": 24,
+   "shown": "Close view of a smooth bridge-deck rail joint with pole and orange block, no gap",
+   "shot_size": "insert (object or detail)",
+   "subject": "object or prop",
+   "picture_job": "shows the object named",
+   "new_setup": true
+  },
+  {
+   "s": 25,
+   "shown": "Rail track runs to a crane on the deck; top-hat man stands near, bunting overhead",
+   "shot_size": "wide",
+   "subject": "secondary character",
+   "picture_job": "consequence or result",
+   "new_setup": true
+  },
+  {
+   "s": 26,
+   "shown": "Side of a luxury train car named in gold; a top-hat man seen in the window",
+   "shot_size": "medium",
+   "subject": "object or prop",
+   "picture_job": "shows the object named",
+   "new_setup": true
+  },
+  {
+   "s": 27,
+   "shown": "Top-hatted rival smiles with a teacup in a plush red train compartment",
+   "shot_size": "medium",
+   "subject": "secondary character",
+   "picture_job": "visual gag",
+   "new_setup": true
+  },
+  {
+   "s": 28,
+   "shown": "Dissolve: rival with teacup in the compartment overlaid on a trestle bridge in the canyon",
+   "shot_size": "medium",
+   "subject": "secondary character",
+   "picture_job": "travel or transition",
+   "new_setup": false
+  },
+  {
+   "s": 29,
+   "shown": "Sweating bowler-hatted man with glasses and a blue mug peers from a wooden car window",
+   "shot_size": "medium close-up",
+   "subject": "secondary character",
+   "picture_job": "shows a reaction",
+   "new_setup": true
+  },
+  {
+   "s": 30,
+   "shown": "Same sweating man in the arched wooden window, mustache and mug, wide-eyed",
+   "shot_size": "medium close-up",
+   "subject": "secondary character",
+   "picture_job": "shows a reaction",
+   "new_setup": false
+  },
+  {
+   "s": 31,
+   "shown": "Man holding a newspaper in a glass-roofed station hall, checkered floor, another man behind",
+   "shot_size": "medium-long",
+   "subject": "secondary character",
+   "picture_job": "shows the object named",
+   "new_setup": true
+  },
+  {
+   "s": 32,
+   "shown": "Newspaper-holder closer, front-page headline readable, station hall behind him",
+   "shot_size": "medium",
+   "subject": "secondary character",
+   "picture_job": "shows the object named",
+   "new_setup": false
+  },
+  {
+   "s": 33,
+   "shown": "Newspaper held very close to camera; headline with train picture, man behind it blinking",
+   "shot_size": "medium close-up",
+   "subject": "secondary character",
+   "picture_job": "shows the object named",
+   "new_setup": false
+  },
+  {
+   "s": 34,
+   "shown": "Empty station hall with brick building and clock; crowd walking off, paper flutters",
+   "shot_size": "wide",
+   "subject": "environment",
+   "picture_job": "establishes the place",
+   "new_setup": true
+  },
+  {
+   "s": 35,
+   "shown": "Man in yellow vest holds an all-aboard sign, smiling, crowd waiting on the platform",
+   "shot_size": "medium-long",
+   "subject": "crowd or group",
+   "picture_job": "shows the narrated action",
+   "new_setup": true
+  },
+  {
+   "s": 36,
+   "shown": "Close view of green toolbox with thermometer and May calendar, orange canyon wall behind",
+   "shot_size": "insert (object or detail)",
+   "subject": "object or prop",
+   "picture_job": "shows the object named",
+   "new_setup": true
+  },
+  {
+   "s": 37,
+   "shown": "Engineer in cap crouching beside toolbox, hand raised, puzzled; blue flag and track",
+   "shot_size": "medium-long",
+   "subject": "protagonist",
+   "picture_job": "shows a reaction",
+   "new_setup": true
+  },
+  {
+   "s": 38,
+   "shown": "Rail gap in dark purple colour with caliper tool; toolbox and flag behind",
+   "shot_size": "insert (object or detail)",
+   "subject": "object or prop",
+   "picture_job": "diagram or explanation",
+   "new_setup": true
+  },
+  {
+   "s": 39,
+   "shown": "Same gap now pink, caliper measuring across it",
+   "shot_size": "insert (object or detail)",
+   "subject": "object or prop",
+   "picture_job": "diagram or explanation",
+   "new_setup": false
+  },
+  {
+   "s": 40,
+   "shown": "Rail turned orange-yellow, gap narrower, caliper reading across it",
+   "shot_size": "insert (object or detail)",
+   "subject": "object or prop",
+   "picture_job": "diagram or explanation",
+   "new_setup": false
+  },
+  {
+   "s": 41,
+   "shown": "Yellow rail with a coin sitting in the gap, caliper above",
+   "shot_size": "insert (object or detail)",
+   "subject": "object or prop",
+   "picture_job": "shows the object named",
+   "new_setup": false
+  },
+  {
+   "s": 42,
+   "shown": "Glowing yellow rail, gap almost closed, paper sheet atop toolbox in the distance",
+   "shot_size": "medium",
+   "subject": "object or prop",
+   "picture_job": "consequence or result",
+   "new_setup": true
+  },
+  {
+   "s": 43,
+   "shown": "Large caliper arm and paper slip in a nearly closed yellow rail gap",
+   "shot_size": "insert (object or detail)",
+   "subject": "object or prop",
+   "picture_job": "shows the object named",
+   "new_setup": false
+  },
+  {
+   "s": 44,
+   "shown": "Engineer looks bored in close-up foreground; boss behind smirks, rail glowing yellow",
+   "shot_size": "medium close-up",
+   "subject": "protagonist",
+   "picture_job": "shows a reaction",
+   "new_setup": true
+  },
+  {
+   "s": 45,
+   "shown": "Engineer flat-faced at left, boss grinning at right, toolbox between them",
+   "shot_size": "medium",
+   "subject": "antagonist or authority",
+   "picture_job": "shows a reaction",
+   "new_setup": true
+  },
+  {
+   "s": 46,
+   "shown": "Engineer side-eyes at left; boss lifts cane and speaks, mouth open, at right",
+   "shot_size": "medium",
+   "subject": "antagonist or authority",
+   "picture_job": "shows a reaction",
+   "new_setup": true
+  },
+  {
+   "s": 47,
+   "shown": "Engineer smirks sideways, boss points cane smugly, rail glowing below",
+   "shot_size": "medium",
+   "subject": "antagonist or authority",
+   "picture_job": "shows a reaction",
+   "new_setup": false
+  },
+  {
+   "s": 48,
+   "shown": "Long straight bridge track with tiny figure under a parasol far ahead",
+   "shot_size": "extreme wide",
+   "subject": "environment",
+   "picture_job": "establishes the place",
+   "new_setup": true
+  },
+  {
+   "s": 49,
+   "shown": "Track receding to a distant top-hat man seated under a parasol, lamps either side",
+   "shot_size": "extreme wide",
+   "subject": "environment",
+   "picture_job": "establishes the place",
+   "new_setup": false
+  },
+  {
+   "s": 50,
+   "shown": "Low angle close on a purple glowing rail and sleepers on the bridge",
+   "shot_size": "insert (object or detail)",
+   "subject": "object or prop",
+   "picture_job": "shows the object named",
+   "new_setup": true
+  },
+  {
+   "s": 51,
+   "shown": "Pink-purple rail running along sleepers, sunlit deck and railing beyond",
+   "shot_size": "insert (object or detail)",
+   "subject": "object or prop",
+   "picture_job": "shows the object named",
+   "new_setup": false
+  },
+  {
+   "s": 52,
+   "shown": "Red-hot rail along the track toward the parasol and top-hat man far ahead",
+   "shot_size": "wide",
+   "subject": "object or prop",
+   "picture_job": "shows the narrated action",
+   "new_setup": false
+  },
+  {
+   "s": 53,
+   "shown": "Top-hat man relaxed in a striped chair under a parasol with a drink, camera close",
+   "shot_size": "medium-long",
+   "subject": "secondary character",
+   "picture_job": "visual gag",
+   "new_setup": true
+  },
+  {
+   "s": 54,
+   "shown": "Dissolve: striped-cap engineer frowning, ghosted over a canyon backdrop above a rail",
+   "shot_size": "medium",
+   "subject": "protagonist",
+   "picture_job": "travel or transition",
+   "new_setup": true
+  },
+  {
+   "s": 55,
+   "shown": "Engineer grins broadly with wide eyes, standing by the rail against orange cliff",
+   "shot_size": "medium-long",
+   "subject": "protagonist",
+   "picture_job": "shows a reaction",
+   "new_setup": false
+  },
+  {
+   "s": 56,
+   "shown": "Engineer's face tilted above frame, deadpan, standing over a glowing hot rail",
+   "shot_size": "medium close-up",
+   "subject": "protagonist",
+   "picture_job": "shows a reaction",
+   "new_setup": true
+  },
+  {
+   "s": 57,
+   "shown": "Yellow-white glowing rail running toward camera, canyon cliff with palms behind",
+   "shot_size": "insert (object or detail)",
+   "subject": "object or prop",
+   "picture_job": "shows the object named",
+   "new_setup": true
+  },
+  {
+   "s": 58,
+   "shown": "Small smiling engineer on the track between rail ends, canyon wall right, long perspective",
+   "shot_size": "long (full body)",
+   "subject": "protagonist",
+   "picture_job": "consequence or result",
+   "new_setup": true
+  },
+  {
+   "s": 59,
+   "shown": "Dissolve: sunset-coloured bridge over the canyon with ghost of engineer's face",
+   "shot_size": "extreme wide",
+   "subject": "environment",
+   "picture_job": "travel or transition",
+   "new_setup": true
+  },
+  {
+   "s": 60,
+   "shown": "Steel arch bridge spanning the canyon at dusk, train with smoke far away",
+   "shot_size": "extreme wide",
+   "subject": "environment",
+   "picture_job": "establishes the place",
+   "new_setup": true
+  },
+  {
+   "s": 61,
+   "shown": "Straight track on the bridge, train head-on with smoke plume in the distance",
+   "shot_size": "wide",
+   "subject": "object or prop",
+   "picture_job": "establishes the place",
+   "new_setup": true
+  },
+  {
+   "s": 62,
+   "shown": "Train closer; the rails ahead of it buckle in a snake-like curve",
+   "shot_size": "wide",
+   "subject": "object or prop",
+   "picture_job": "consequence or result",
+   "new_setup": false
+  },
+  {
+   "s": 63,
+   "shown": "Train on a pale arch bridge, smoke trailing sideways, bridge lines kinked",
+   "shot_size": "extreme wide",
+   "subject": "object or prop",
+   "picture_job": "consequence or result",
+   "new_setup": true
+  },
+  {
+   "s": 64,
+   "shown": "Orange fireball explosion with smoke and sparks fills the whole frame",
+   "shot_size": "close-up",
+   "subject": "environment",
+   "picture_job": "consequence or result",
+   "new_setup": true
+  },
+  {
+   "s": 65,
+   "shown": "Explosion fireball still filling the frame as the video ends (estimate from last tile)",
+   "shot_size": "close-up",
+   "subject": "environment",
+   "picture_job": "consequence or result",
+   "new_setup": false
+  }
+ ]
+}

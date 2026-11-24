@@ -1,0 +1,704 @@
+{
+ "video": "14_LC8hYwUZ-kU",
+ "joins_verified": [
+  {
+   "t": 0.77,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Gunslinger shot (f19-21) cross-fades over 8 frames into the bullet-cam street (f27); f24 is a true double exposure with the muzzle flash."
+  },
+  {
+   "t": 8.48,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Wide shot of far-off Eddie (f251) fades over 7 frames into a macro of his belt buckle and holster (f258); ghosted at f253-255."
+  },
+  {
+   "t": 13.67,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Eddie medium shot (f407) cross-fades in 6 frames to the red challenger at similar framing (f413); both hats overlap at f411."
+  },
+  {
+   "t": 16.9,
+   "auto_type": "inplace_blend",
+   "verdict": "in_place_change",
+   "note": "Same street framing; challenger's pose and face snap from upright (f505) to tipping over (f509). No double exposure: a drawn pose and face swap."
+  },
+  {
+   "t": 21.07,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Fallen challenger's X-eyed head (f626) fades over 12 frames into Eddie at the saloon front (f638); wooden posts ghost in at f630."
+  },
+  {
+   "t": 25.7,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Eddie at the saloon doors (f766) fades over 10 frames into a golden-hour rider on horseback (f776); warm double exposure at f772."
+  },
+  {
+   "t": 31.17,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Beaten men lying at sunset (f931) cross-fade over 8 frames into the photo-shop two-shot (f939); both visible at f936."
+  },
+  {
+   "t": 36.75,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Two-shot close-up (f1100) dissolves over 11 frames into the challenger at the saloon table (f1108); double exposure at f1104."
+  },
+  {
+   "t": 44.7,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Black pupil of an extreme close-up eye (f1336) morphs over 10 frames into a round porthole window onto the noon street (f1342): shape-matched dissolve."
+  },
+  {
+   "t": 51.1,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Teal office close-up with the eyeshade clerk (f1528) fades over 10 frames into the blue-lit office, red shirt in the window (f1538); ghosted at f1534."
+  }
+ ],
+ "missed_joins": [],
+ "beats": [
+  {
+   "name": "hook",
+   "start": 0.0,
+   "end": 3.6,
+   "said": "The West's top gunslinger lived by one rule: never be the one who draws first.",
+   "shown": "Smirking red-shirt gunslinger aims a huge revolver; muzzle flash dissolves into a bullet-cam flight down the street to tiny Eddie, ending on a macro of his holster and star buckle."
+  },
+  {
+   "name": "setup",
+   "start": 3.6,
+   "end": 13.6,
+   "said": "At noon you face a calm man called Slow Eddie, who politely lets you go first.",
+   "shown": "Wide noon street with Eddie far away, holster close-ups, then Eddie in medium close-up with a bored stare and straw; his mouth opens and he nods on the quoted line."
+  },
+  {
+   "name": "escalation",
+   "start": 13.6,
+   "end": 19.7,
+   "said": "You snatch your gun faster than ever, yet you're flat on the ground before it's even out.",
+   "shown": "Challenger panics with wide eyes, sweat and gold flame wisps; camera slams into his holster, tilts to his face; he tumbles, hat flying, and lands face-down in the dirt with dizzy eyes."
+  },
+  {
+   "name": "twist",
+   "start": 19.7,
+   "end": 25.5,
+   "said": "Oddly, Eddie isn't quick at all; a man carrying two drinks would beat him to the saloon.",
+   "shown": "Dizzy head dissolves to Eddie at a saloon front while a man with two beer mugs gets ahead of him."
+  },
+  {
+   "name": "escalation",
+   "start": 25.5,
+   "end": 36.4,
+   "said": "Challengers come from distant states and all lose alike; the only oddity is Eddie watching their hands.",
+   "shown": "Golden-hour riders charge through dust; beaten men lie on the ground; at a PHOTOGRAPHS shop a goofy tongue-out loser stands beside Eddie, then a close-up of the two men and their gun hands."
+  },
+  {
+   "name": "explainer",
+   "start": 36.4,
+   "end": 44.6,
+   "said": "Think of catching a falling phone: you grab it before deciding to, because your body reacts automatically.",
+   "shown": "Dim saloon: the red-shirted man at a card table, a phone slides off the edge and he snatches it; ends on an extreme close-up of his wide eyes."
+  },
+  {
+   "name": "payoff",
+   "start": 44.6,
+   "end": 50.8,
+   "said": "Drawing a gun means choosing the exact moment, and that small decision slows your hand.",
+   "shown": "Pupil morphs into a round window on the noon street; teal office where a clerk in a green eyeshade works a desk gadget under a THINK BEFORE YOU DRAW sign, windows replaying a fall."
+  },
+  {
+   "name": "ending",
+   "start": 50.8,
+   "end": 56.1,
+   "said": "Eddie makes no decisions; he lets his reflexes answer once your hand moves.",
+   "shown": "Office turns cold blue with an empty desk; night street standoff: small flash at the challenger's belt, smoke at Eddie's holster, challenger's gun drops."
+  }
+ ],
+ "hook": {
+  "first_frame": "Full-body red-shirted gunslinger in a black hat smirks and aims an oversized revolver at frame right on a sunlit sand street; blurred gun-shop front, blue sky, caption low centre.",
+  "first_3s": "Smirk turns to gritted teeth (0.2-0.6 s); gun fires through an 8-frame dissolve at 0.77 s; bullet-cam with zoom blur flies down the street to tiny Eddie (2.2 s), who rushes up to a holster macro by 3.0 s.",
+  "line_type": "paradox or claim",
+  "first_frame_shot_size": "long (full body)",
+  "first_frame_subject": "protagonist doing the hook action",
+  "protagonist_looks_at_camera": true,
+  "title_vs_first_line": "Title states the answer (second draw wins); the first line states the paradoxical rule (never draw first): the same idea inverted, so the title teases the solution to the opening puzzle."
+ },
+ "story": {
+  "topic_type": "psychology/behaviour",
+  "setting_era": "1700s-1800s",
+  "structure": "second-person scenario, then explainer",
+  "real_fact_core": "Reacting to a seen movement is faster than starting a self-chosen one, so the man who waits and reacts can win (reaction versus decision time; Bohr gunfight idea, estimate).",
+  "likely_source_type": "psychology",
+  "protagonist": "'you', the red-shirted challenger (second person)",
+  "authority_or_antagonist": "Slow Eddie, the calm gunslinger",
+  "direct_speech_lines": 1,
+  "second_person": true,
+  "tense": "mixed",
+  "explainer_turn": "'You see,' at 36.44 s",
+  "ending_type": "explanation is the last line",
+  "call_to_action": "none"
+ },
+ "tone": {
+  "humour": "Light slapstick and absurd gags: the fastest gun nicknamed Slow, a beer-carrier race joke, dizzy-eyed face-plant, tongue-out loser.",
+  "deadpan_or_irony": "Eddie's bored half-lidded stare and calm 'after you' are deadpan; irony that the slow-looking man always wins; narrator stays matter-of-fact.",
+  "dialogue_style": "Narrator-led second person in short declarative sentences; a single quoted line from Eddie; no back-and-forth."
+ },
+ "characters": [
+  {
+   "role": "Challenger, the 'you' of the narration (red-shirt gunslinger)",
+   "head": "Big round white-cream head with a thick black outline, about a third of body height; flat drawn face, blush and freckles in some shots",
+   "hair_or_hat": "Black flat-crown wide-brim hat with a gold band (flies off when he falls); hatless in the photo-shop scene; green striped eyeshade in the teal office",
+   "eyes": "Slit or half-lidded lines when smug; ring eyes with dot pupils when panicked or goofy; wide eyes with yellow glints in the grab",
+   "mouth": "Separate drawn mouths swapped per pose: smirk, gritted-teeth grid, tongue out, wavy worry line; moustache appears in some shots",
+   "body_and_clothes": "Capsule torso in saturated red with cream tassel fringe and white buttons, dark belt with silver concho and brown holster",
+   "limbs": "Thin uniform black stick arms and very long stick legs (about half the figure height) with tiny round hand and foot bulbs",
+   "accessories": "Oversized blue-steel revolver, brown holster, sweat drops, flame wisps in the grab",
+   "expressions_seen": [
+    "smug smirk",
+    "gritted teeth",
+    "wide-eyed panic with sweat",
+    "dazed spiral eyes",
+    "tongue-out goof",
+    "worried moustache face",
+    "wince"
+   ]
+  },
+  {
+   "role": "Slow Eddie, the calm gunslinger / antagonist",
+   "head": "Same round head template, pale with a lavender-blue shade on top, thick black outline",
+   "hair_or_hat": "Cream straw cowboy hat with a brown band and very wide brim; tilts when he nods",
+   "eyes": "Flat half-lidded dash eyes with tiny pupils and level brows (bored, deadpan)",
+   "mouth": "Big dark-brown moustache with a wheat straw in the mouth; a small open-mouth pose on the quoted line and at 55 s",
+   "body_and_clothes": "Brown leather vest over a teal shirt, belt with silver star-shaped buckle, holster with a cream checkered grip",
+   "limbs": "Thin black stick arms hanging still at his sides, longer stick legs",
+   "accessories": "Wheat straw, star buckle, holstered revolver",
+   "expressions_seen": [
+    "bored half-lidded stare",
+    "nod",
+    "open mouth on the quoted line",
+    "calm open-mouth o at the end"
+   ]
+  },
+  {
+   "role": "Extras: other challengers, card players, beer carrier, riders",
+   "head": "Same round-head template",
+   "hair_or_hat": "Assorted hats (tan, orange, green) on blue, orange, purple and yellow shirts",
+   "eyes": "Dot or ring eyes with simple brows",
+   "mouth": "Simple drawn lines",
+   "body_and_clothes": "Same capsule-torso template recoloured",
+   "limbs": "Same thin stick limbs",
+   "accessories": "Beer mugs, horses, playing cards and chips",
+   "expressions_seen": [
+    "worried",
+    "surprised",
+    "neutral"
+   ]
+  }
+ ],
+ "character_style": {
+  "head_height_share_of_body_estimate": 0.3,
+  "outline": "Thick uniform-weight black ink outline on heads, torsos and limbs (about 1% of frame width in close shots, estimate); none on the 3D set.",
+  "shading": "Flat fills with soft gradient shading (lavender shade on pale heads, warm rim light on edges, glossy gun highlights); faces drawn flat; long soft blue cast shadows at golden hour (estimate).",
+  "consistency_between_shots": "Costume, hat, holster and proportions are identical in every shot; face parts (moustache, freckles, eyes, mouth) change per pose (estimate).",
+  "shadow_under_character": "soft blob"
+ },
+ "animation": {
+  "body_motion": "Rigged 2D puppet parts (head, torso, arms, hat, gun) posed pose-to-pose; falls throw hat, gun and head as separate pieces; some moves repeat in frame pairs (f1212=f1213); FX sprites on extreme poses (estimate).",
+  "lip_sync": "mouth changes with pose only",
+  "lip_sync_evidence_frames": [
+   350,
+   358,
+   366,
+   374,
+   382,
+   390,
+   398,
+   406,
+   1632,
+   1652,
+   1672
+  ],
+  "eyes_and_blinks": "Flat drawn eye parts (ring with dot pupil, or half-lidded dash); pupils jump between poses (f940-f1020); no blink frames seen in the sampled holds (estimate).",
+  "idle_motion": "Eddie is near-frozen in holds (no visible breathing; only a nod and hat tilt); the other man waves his arms and swaps faces; slow camera push-ins supply most motion (estimate).",
+  "squash_and_stretch": "Little: rigid capsule bodies; head scales up and tilts as he lands (f508-f544); Eddie's hat tilts on the nod (f358); no volume-preserving squash seen (estimate)."
+ },
+ "environments": [
+  {
+   "start": 0.0,
+   "end": 21.0,
+   "place": "Wild West main street at noon: bullet-cam fly-down, Eddie close-up before a red barn, challenger's frantic draw and face-plant",
+   "key_props": [
+    "oversized revolver",
+    "bullet",
+    "holster with star buckle",
+    "FEED & LIVERY barn",
+    "bank",
+    "red mesas",
+    "grass tufts"
+   ],
+   "in_world_text": [
+    "GUN (partial)",
+    "FEED & LIVERY",
+    "BANK (partial)"
+   ],
+   "time_of_day": "midday",
+   "lighting": "Hard high sun from upper right/behind, saturated blue sky fill, warm sand bounce, soft blue cast shadows to lower left (estimate)",
+   "depth_cues": "Strong background defocus and radial zoom blur in bullet-cam; hazy distant mesas; Eddie tiny at the far end of the street"
+  },
+  {
+   "start": 21.0,
+   "end": 25.7,
+   "place": "Saloon front with barber pole, wooden posts and swinging doors",
+   "key_props": [
+    "barber pole",
+    "wooden posts",
+    "hanging beer sign",
+    "swinging doors",
+    "two beer mugs"
+   ],
+   "in_world_text": [
+    "beer sign (illegible at this scale)"
+   ],
+   "time_of_day": "midday",
+   "lighting": "Warm sunlit red wooden facade, mid contrast, soft shade under the porch (estimate)",
+   "depth_cues": "Shallow defocus on the street behind; porch posts layered in front"
+  },
+  {
+   "start": 25.7,
+   "end": 31.2,
+   "place": "Dusty trail/street at golden hour with riders on horseback and fallen challengers",
+   "key_props": [
+    "horses",
+    "dust clouds",
+    "riders in red, blue and orange shirts",
+    "fallen men"
+   ],
+   "in_world_text": [],
+   "time_of_day": "golden hour / sunset",
+   "lighting": "Low warm orange sun behind the riders as backlight, rim-lit dust, long blue-violet cast shadows toward camera (estimate)",
+   "depth_cues": "Heavy dust haze, riders layered in depth, sun glow washing out the distance"
+  },
+  {
+   "start": 31.2,
+   "end": 36.8,
+   "place": "Town street in front of a blue PHOTOGRAPHS studio, two-shot",
+   "key_props": [
+    "PHOTOGRAPHS storefront",
+    "street lamp",
+    "pebbles and grass tufts"
+   ],
+   "in_world_text": [
+    "PHOTOGRAPHS",
+    "PORTRAITS / TINTYPES (small)"
+   ],
+   "time_of_day": "golden hour",
+   "lighting": "Warm low sun from the right/back, blue shadow cast to lower left, blue-violet building fill (estimate)",
+   "depth_cues": "Strong bokeh on the storefront and sign, sharp characters, slow push-in"
+  },
+  {
+   "start": 36.8,
+   "end": 44.7,
+   "place": "Saloon interior at a round wooden card table",
+   "key_props": [
+    "round table",
+    "cards and chips",
+    "phone with glowing screen",
+    "lamps",
+    "windows with blue light"
+   ],
+   "in_world_text": [],
+   "time_of_day": "night / interior",
+   "lighting": "Dim maroon room, warm lamp practicals and orange table glow, cool blue window light, bright phone-screen glow (estimate)",
+   "depth_cues": "Dark vignetted corners, shallow defocus at the edges, camera swings around the table"
+  },
+  {
+   "start": 44.7,
+   "end": 51.1,
+   "place": "Teal-green office with round porthole windows that replay the duel; clerk in a green eyeshade at a desk gadget",
+   "key_props": [
+    "round windows with wood rims",
+    "desk with telegraph-like gadget",
+    "oil lamp",
+    "reward-style poster",
+    "hanging sign"
+   ],
+   "in_world_text": [
+    "THINK BEFORE YOU DRAW",
+    "poster (REWARD, estimate)"
+   ],
+   "time_of_day": "interior, warm lamp",
+   "lighting": "Warm lamp practical plus window daylight against teal walls; soft, mid contrast (estimate)",
+   "depth_cues": "Windows show a defocused daylight street; foreground desk gadget sharp; camera pans and pulls back"
+  },
+  {
+   "start": 51.1,
+   "end": 54.4,
+   "place": "Same office relit cold blue and empty",
+   "key_props": [
+    "round windows",
+    "empty desk with gadget",
+    "red-shirted figure seen in the window"
+   ],
+   "in_world_text": [],
+   "time_of_day": "night",
+   "lighting": "Cold moonlit blue key through the windows, no warm lamp, deep navy shadows (estimate)",
+   "depth_cues": "Window light falls across the desk; window content pans from the challenger to Eddie"
+  },
+  {
+   "start": 54.4,
+   "end": 56.1,
+   "place": "Night street in front of FIRST BANK, final standoff",
+   "key_props": [
+    "FIRST BANK building",
+    "challenger at left",
+    "Eddie at right",
+    "holsters"
+   ],
+   "in_world_text": [
+    "FIRST BANK",
+    "PORTRAITS (small sign, right)"
+   ],
+   "time_of_day": "night / blue hour",
+   "lighting": "Cold blue moonlight from above with pink-violet bounce on the street, small orange gun flash, soft ellipse shadows (estimate)",
+   "depth_cues": "Eddie large in the foreground, challenger small and far; shallow perspective depth, no haze"
+  }
+ ],
+ "set_style": "mixed",
+ "layer_stack": [
+  "gradient sky and clouds",
+  "distant mesas / skyline",
+  "stylised 3D street set with depth-of-field blur and baked warm/cool lighting",
+  "ground with pebbles, grass tufts and soft blue shadows",
+  "2D ink-outlined character puppets (hat, gun, limbs as parts)",
+  "2D FX sprites: flames, rings, bullet, dust, sweat",
+  "grade: mild vignette and light grain",
+  "bold white captions with black stroke in the lower third"
+ ],
+ "camera": {
+  "shot_sizes": [
+   "long (full body)",
+   "wide",
+   "medium close-up",
+   "close-up",
+   "extreme close-up",
+   "two-shot"
+  ],
+  "angles": [
+   "eye level",
+   "low angle on Eddie (2.8-3.0 s)",
+   "ground level during the fall (17-18 s)",
+   "holster height at 14.4-15.0 s"
+  ],
+  "lens_feel": "Wide-angle perspective with fast fly-throughs and strong defocus; flatter longer-lens look for the photo-shop two-shot (estimate)",
+  "camera_height": "Mostly chest height of the characters; drops to ground level for the fall (estimate)",
+  "notable_moves": [
+   {
+    "t": 0.8,
+    "type": "fly-through / zoom blur",
+    "note": "Bullet-cam: after an 8-frame dissolve the camera follows the bullet down the street with radial blur, defocus and flare (0.8-2.4 s), then rushes up to Eddie."
+   },
+   {
+    "t": 2.8,
+    "type": "low-angle push-in",
+    "note": "Camera rises to Eddie's belt and holster macro at 3.0 s, looking up at him."
+   },
+   {
+    "t": 14.3,
+    "type": "fast push-in then tilt-up",
+    "note": "From mid-shot into the challenger's holster (f429-438), hold with flames, then pull-out and tilt up to his face (f451-463)."
+   },
+   {
+    "t": 16.9,
+    "type": "follow / drop to ground",
+    "note": "Camera drops from wide to ground level as he tumbles and lands (f508-f544)."
+   },
+   {
+    "t": 31.2,
+    "type": "slow push-in",
+    "note": "Photo-shop two-shot drifts in about 4 percent per second for 4.2 s, then a quick push at 35.4-35.8 s."
+   },
+   {
+    "t": 40.2,
+    "type": "fast orbit",
+    "note": "0.67 s swing around the card table; frames repeat in pairs (f1212=f1213, f1214=f1215) (estimate)."
+   },
+   {
+    "t": 44.7,
+    "type": "match-shape transition",
+    "note": "Extreme close-up pupil becomes a round window, then the camera pulls back into the teal office."
+   }
+  ]
+ },
+ "effects": [
+  {
+   "t": 0.77,
+   "dur_s": 0.3,
+   "type": "flash",
+   "trigger": "gun fires on 'in the West'; muzzle flash plus dissolve"
+  },
+  {
+   "t": 1.0,
+   "dur_s": 1.4,
+   "type": "speed lines",
+   "trigger": "bullet flight: radial zoom streaks and white flare on 'West had one rule'"
+  },
+  {
+   "t": 1.2,
+   "dur_s": 1.2,
+   "type": "defocus",
+   "trigger": "bullet-cam: street buildings heavily blurred behind the sharp bullet"
+  },
+  {
+   "t": 14.3,
+   "dur_s": 1.4,
+   "type": "particles",
+   "trigger": "'grab for your gun': gold flame wisps and flying pebbles"
+  },
+  {
+   "t": 14.4,
+   "dur_s": 0.3,
+   "type": "glow",
+   "trigger": "'your gun': ring and starburst at the holster as the hand hits the gun"
+  },
+  {
+   "t": 15.2,
+   "dur_s": 1.0,
+   "type": "other",
+   "trigger": "sweat drops and forehead wrinkle marks on the panicked face"
+  },
+  {
+   "t": 17.3,
+   "dur_s": 1.5,
+   "type": "smoke",
+   "trigger": "'face down in the dirt': dust puffs and a dirt streak as he slides"
+  },
+  {
+   "t": 38.0,
+   "dur_s": 5.0,
+   "type": "screen or UI insert",
+   "trigger": "'your phone': bright phone screen glowing on the table"
+  },
+  {
+   "t": 44.7,
+   "dur_s": 0.33,
+   "type": "other",
+   "trigger": "'But when you went': pupil-to-porthole shape-matched dissolve"
+  },
+  {
+   "t": 46.0,
+   "dur_s": 2.0,
+   "type": "in-world sign",
+   "trigger": "'you had to decide': THINK BEFORE YOU DRAW sign in the office"
+  },
+  {
+   "t": 52.0,
+   "dur_s": 2.4,
+   "type": "colour shift",
+   "trigger": "'Eddie never decides anything': office relit cold blue"
+  },
+  {
+   "t": 55.07,
+   "dur_s": 0.3,
+   "type": "flash",
+   "trigger": "'react': small orange flash at the challenger's belt"
+  },
+  {
+   "t": 55.4,
+   "dur_s": 0.7,
+   "type": "smoke",
+   "trigger": "'on its own': white puffs at Eddie's holster"
+  }
+ ],
+ "lighting_mood_shifts": [
+  {
+   "t": 0.0,
+   "change": "Bright noon: hard high sun, saturated blue sky",
+   "story_reason": "Open standoff, clear and punchy"
+  },
+  {
+   "t": 25.7,
+   "change": "Golden hour: warm orange backlight, long blue shadows, dust haze",
+   "story_reason": "Time passes as many challengers arrive and fall"
+  },
+  {
+   "t": 36.8,
+   "change": "Dim saloon interior: maroon room, warm lamps, cool windows, bright phone glow",
+   "story_reason": "Everyday phone analogy away from the duel"
+  },
+  {
+   "t": 44.7,
+   "change": "Daylight seen through a round window, then teal office with a warm desk lamp",
+   "story_reason": "Enter the mind metaphor: deciding takes time"
+  },
+  {
+   "t": 52.0,
+   "change": "Office relit cold moonlit blue with an empty desk",
+   "story_reason": "Eddie decides nothing"
+  },
+  {
+   "t": 54.4,
+   "change": "Night street, blue key with pink bounce, small orange flash",
+   "story_reason": "Final reaction shot"
+  }
+ ],
+ "generation_evidence": [
+  {
+   "frames": [
+    940,
+    1000,
+    1040
+   ],
+   "observation": "PHOTOGRAPHS sign and its tiny subtext keep identical spelling and shape across a 3.4 s push-in while defocused; no letter warping.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    1632,
+    1652,
+    1672
+   ],
+   "observation": "FIRST BANK sign, windows and cornice keep rigid perspective-correct geometry on a static camera; characters repeat the same costume details.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    429,
+    432,
+    435,
+    438
+   ],
+   "observation": "Flame wisps, glow ring and speed lines are flat 2D sprites over a 3D-lit blurred street; hat and holster shapes stay identical frame to frame.",
+   "points_to": "hand animation"
+  },
+  {
+   "frames": [
+    508,
+    520,
+    532,
+    544
+   ],
+   "observation": "Hat, gun, head and body move as separate objects with clean ballistic arcs and dust sprites; head size changes between poses by design, not by drift.",
+   "points_to": "hand animation"
+  },
+  {
+   "frames": [
+    1212,
+    1213,
+    1214,
+    1215
+   ],
+   "observation": "During a fast camera orbit frames come in identical pairs (1212=1213, 1214=1215): a held-frame cadence typical of keyed or on-twos output (estimate).",
+   "points_to": "hand animation"
+  },
+  {
+   "frames": [
+    366,
+    374,
+    390,
+    398,
+    406
+   ],
+   "observation": "Eddie's mouth swaps between a closed moustache and an open-mouth sprite while outline weight, hat and straw stay constant; no morphing or drifting detail.",
+   "points_to": "hand animation"
+  }
+ ],
+ "sample_points": [
+  {
+   "frame": 1,
+   "x": 0.286,
+   "y": 0.326,
+   "what": "challenger head fill (forehead under hat)",
+   "hex": "#FCF9F4",
+   "patch_spread": 0.8
+  },
+  {
+   "frame": 1,
+   "x": 0.286,
+   "y": 0.489,
+   "what": "challenger red shirt",
+   "hex": "#E4263F",
+   "patch_spread": 0.1
+  },
+  {
+   "frame": 1,
+   "x": 0.308,
+   "y": 0.279,
+   "what": "challenger black hat crown",
+   "hex": "#1D1F38",
+   "patch_spread": 1.7
+  },
+  {
+   "frame": 350,
+   "x": 0.45,
+   "y": 0.395,
+   "what": "Eddie straw hat crown",
+   "hex": "#F4DEB5",
+   "patch_spread": 2.4
+  },
+  {
+   "frame": 366,
+   "x": 0.78,
+   "y": 0.15,
+   "what": "midday sky blue",
+   "hex": "#2A88F9",
+   "patch_spread": 0.7
+  },
+  {
+   "frame": 1,
+   "x": 0.8,
+   "y": 0.57,
+   "what": "midday sunlit sand",
+   "hex": "#A48872",
+   "patch_spread": 2.3
+  },
+  {
+   "frame": 1020,
+   "x": 0.88,
+   "y": 0.8,
+   "what": "golden-hour sand, photo-shop street",
+   "hex": "#C58651",
+   "patch_spread": 1.0
+  },
+  {
+   "frame": 1140,
+   "x": 0.06,
+   "y": 0.12,
+   "what": "saloon interior dark maroon wall",
+   "hex": "#220A1D",
+   "patch_spread": 0.8
+  },
+  {
+   "frame": 1652,
+   "x": 0.08,
+   "y": 0.04,
+   "what": "night sky navy",
+   "hex": "#080E5A",
+   "patch_spread": 0.6
+  },
+  {
+   "frame": 1652,
+   "x": 0.5,
+   "y": 0.85,
+   "what": "night street ground between the men",
+   "hex": "#A66C5E",
+   "patch_spread": 2.2
+  }
+ ],
+ "thumbnail": "Auto frame with the caption 'He just stares' burned in: the challenger (moustache, round eyes, sweat drop) and Eddie in a cream hat with a straw stand before the blurred PHOTOGRAPHS storefront at golden hour; matches roughly 35.0-35.8 s.",
+ "could_not_determine": [
+  "Gaze direction of the challenger in frames 0-18: eyes are slits without pupils; head faces the camera (estimate).",
+  "Whether Eddie's mouth flaps at syllable rate on the quoted line: samples were 8 frames apart, so fast flapping cannot be excluded.",
+  "Whether the paired frames at 40.47 s mean 15 fps animation or a camera rendered on twos: only 4 consecutive frames were viewed.",
+  "Exact thumbnail frame: it is an auto-picked still, matched only by caption and pose to about 35.0-35.8 s.",
+  "Full-resolution legibility of FEED & LIVERY, BANK, the REWARD poster and the saloon beer sign: no text crop was viewed.",
+  "The first montage call was blocked and counted against the 14-call budget, so only 3 montages were viewed; no zoomed text crop and no 5th montage.",
+  "Whether the video loops: the last frames are a standoff and frame 0 shows the draw, but no seam was measured."
+ ]
+}
