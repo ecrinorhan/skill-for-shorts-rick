@@ -1,0 +1,770 @@
+{
+ "video": "16_DEe0iKH4KIw",
+ "joins_verified": [
+  {
+   "t": 2.08,
+   "auto_type": "inplace_blend",
+   "verdict": "in_place_change",
+   "note": "Same framing; hero's face swaps from squint to wide round eyes and a golden glow with sparkles floods the cards and him."
+  },
+  {
+   "t": 5.2,
+   "auto_type": "cut",
+   "verdict": "unclear",
+   "note": "Golden card still enlarging; f154-155 crisp, f156-157 show a faint ghost, so possibly a very short blend or zoom continuation, not a clear hard cut."
+  },
+  {
+   "t": 6.57,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Number grid cross-fades to a shopfront at sunset; double exposure in middle tiles."
+  },
+  {
+   "t": 8.68,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Hero in the doorway with a box cross-fades into the shop interior; both overlap in f258/f262."
+  },
+  {
+   "t": 11.05,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Shop counter shot fades into a close-up of a scratch card with an ID badge swinging in."
+  },
+  {
+   "t": 13.77,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Card close-up fades to the hero at his desk, card text ghosting over his face."
+  },
+  {
+   "t": 17.85,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Card shown from above morphs into a lighter, slightly bigger card; mostly the same layout (estimate: dissolve plus zoom)."
+  },
+  {
+   "t": 22.62,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Print factory with the worker fades to the shop interior with the hero carrying a box."
+  },
+  {
+   "t": 27.97,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Shop with flying cards fades to a dark blue apartment floor covered in cards."
+  },
+  {
+   "t": 29.83,
+   "auto_type": "inplace_blend",
+   "verdict": "dissolve",
+   "note": "Wide apartment view blends into a close-up of the hero at the same spot; a ghost of the close-up appears in f893, so a soft dissolve with a scale change."
+  },
+  {
+   "t": 31.82,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Hero close-up cross-fades to a tilted scratch card and a grid of cards."
+  },
+  {
+   "t": 42.67,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Winning card close-up fades to the hero standing in the apartment of cards."
+  },
+  {
+   "t": 45.0,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Hero with raised arm dissolves into a state map with gas-station pins."
+  },
+  {
+   "t": 48.42,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Map with red circle fades to the hero by a wall phone in a dark green room."
+  },
+  {
+   "t": 60.15,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Lottery office with the operator fades into the shop queue with the red-shirt character."
+  }
+ ],
+ "missed_joins": [
+  {
+   "t": 50.3,
+   "type": "dissolve",
+   "note": "Close-up of a phone keypad cross-fades to a close-up of the headset operator's face (f1507-1510 show a double exposure); the detector marked it only as a suspect."
+  }
+ ],
+ "beats": [
+  {
+   "name": "hook",
+   "start": 0.0,
+   "end": 6.4,
+   "said": "Two scratch cards: one winner, one loser, and a way to tell which without scratching.",
+   "shown": "Hero at a desk lays two cards down, a golden glow lights one, then a zoom into a card and a number grid."
+  },
+  {
+   "name": "setup",
+   "start": 6.4,
+   "end": 17.2,
+   "said": "A fired man spends five dollars on two cards, wins his money back, but turns suspicious.",
+   "shown": "Shopfront, shop counter, close-up of the card with a badge, then the hero at his desk with a flat skeptical look."
+  },
+  {
+   "name": "escalation",
+   "start": 17.2,
+   "end": 31.8,
+   "said": "He wonders how the lottery knows winners, then spends his severance on a huge stack and stares.",
+   "shown": "Card close-up, tilt down to a print factory with a winners counter, the shop with flying cards, an apartment floor of cards."
+  },
+  {
+   "name": "explainer",
+   "start": 31.8,
+   "end": 42.7,
+   "said": "Card numbers mostly repeat; where three singletons line up in a row, the card wins.",
+   "shown": "Close-ups of a number grid on cards, numbers colour-coded, singletons glow gold and a pencil strikes a row."
+  },
+  {
+   "name": "twist",
+   "start": 42.7,
+   "end": 48.4,
+   "said": "He has cracked the lottery and could clean out every gas station in the state.",
+   "shown": "Hero beaming with a card in the apartment of cards, then a state map with gas-station pins and a red circle."
+  },
+  {
+   "name": "escalation",
+   "start": 48.4,
+   "end": 55.0,
+   "said": "He calls the lottery, is told it's impossible, and brings a box of unscratched cards to the office.",
+   "shown": "Phone close-up, headset operator speaking and unconvinced, then hero with box at the operator's desk."
+  },
+  {
+   "name": "payoff",
+   "start": 55.0,
+   "end": 60.2,
+   "said": "He sorts unscratched cards into winners and losers and gets ninety right.",
+   "shown": "Hero with a desk-stuff box, operator checks cards against a row of cards on the desk."
+  },
+  {
+   "name": "ending",
+   "start": 60.2,
+   "end": 63.3,
+   "said": "By week's end the game is pulled from every store.",
+   "shown": "Shop queue, game closed sign on the machine, hero walks in carrying the box. Stops on the image."
+  }
+ ],
+ "hook": {
+  "first_frame": "Hero stands behind a wooden desk in a green office with a lamp and red phone, holding a scratch card in each outstretched hand, scowling at the camera.",
+  "first_3s": "Cards drop to the desk and spread; the camera pushes in then tilts to a tighter shot; a golden glow with sparkles hits the left card and the hero's face goes bright with wide eyes.",
+  "line_type": "direct demo (look at)",
+  "first_frame_shot_size": "medium",
+  "first_frame_subject": "protagonist posing with the key prop",
+  "protagonist_looks_at_camera": true,
+  "title_vs_first_line": "Title promises he spotted winners by looking; the first line sets up two cards to look at, which is the same promise as a demo."
+ },
+ "story": {
+  "topic_type": "law/economics/work",
+  "setting_era": "modern",
+  "structure": "premise explained early, then story",
+  "real_fact_core": "Printed number grids on scratch cards leak winners: singletons forming a row mark a winner, so cards can be sorted without scratching.",
+  "likely_source_type": "reddit-style anecdote",
+  "protagonist": "Fired office worker in a yellow vest, tie and ID badge, brown fringe",
+  "authority_or_antagonist": "Lottery office operator in a headset who dismisses him; later the lottery stops the game",
+  "direct_speech_lines": 1,
+  "second_person": false,
+  "tense": "present",
+  "explainer_turn": "Every card has, about 31.7s",
+  "ending_type": "consequence shown, stops on impact",
+  "call_to_action": "none"
+ },
+ "tone": {
+  "humour": "Dry and sarcastic; mock-sensible lines about a drastic spending choice; deadpan faces and blank stares carry the jokes.",
+  "deadpan_or_irony": "Heavy: the narration sells reckless acts as what any sane person would do, while the hero's expression stays flat.",
+  "dialogue_style": "Almost all narration; one line of reported speech from the operator, short and flat."
+ },
+ "characters": [
+  {
+   "role": "protagonist",
+   "head": "Large round white head, thick dark outline",
+   "hair_or_hat": "Orange-brown side-swept fringe",
+   "eyes": "Small black ovals with heavy lids and thick brows; switches to ringed wide pupils when excited",
+   "mouth": "Tiny line or small shape; wide toothy grin in happy shots",
+   "body_and_clothes": "Bean-shaped yellow-orange vest body, blue and red striped tie, ID badge on lanyard",
+   "limbs": "Thin dark noodle arms and legs, no hands",
+   "accessories": "Badge, desk-stuff box, scratch cards",
+   "expressions_seen": [
+    "smirk",
+    "squint",
+    "wide-eyed",
+    "grin",
+    "skeptical",
+    "worried"
+   ]
+  },
+  {
+   "role": "lottery operator",
+   "head": "White round head, outline",
+   "hair_or_hat": "Dark hair under a headset, red chair behind",
+   "eyes": "Half-lidded flat eyes and heavy brows",
+   "mouth": "Small dark oval shape that changes while speaking",
+   "body_and_clothes": "Navy suit with yellow tie",
+   "limbs": "Thin dark arms",
+   "accessories": "Headset with microphone",
+   "expressions_seen": [
+    "bored",
+    "speaking",
+    "bubble gum",
+    "worried (estimate)"
+   ]
+  },
+  {
+   "role": "queue extra (red shirt)",
+   "head": "White round head",
+   "hair_or_hat": "Dark brown bun on top",
+   "eyes": "Half-lidded, annoyed brows",
+   "mouth": "Small line",
+   "body_and_clothes": "Red shirt",
+   "limbs": "Thin dark limbs",
+   "accessories": "Prize ribbon rosette in hand",
+   "expressions_seen": [
+    "unimpressed"
+   ]
+  }
+ ],
+ "character_style": {
+  "head_height_share_of_body_estimate": 0.33,
+  "outline": "Thick dark outline, uniform weight, slightly purple-black; same weight on props and environments.",
+  "shading": "Flat fills with soft gradient and rim glow from the set lighting; light tints on the faces from lamps.",
+  "consistency_between_shots": "High: same face shapes, vest and colours across all shots; scale varies with camera.",
+  "shadow_under_character": "unclear"
+ },
+ "animation": {
+  "body_motion": "Cut-out style: head and body slide and tilt as whole shapes; limbs bend as loops; the camera does most of the work with push-ins and tilts.",
+  "lip_sync": "mouth changes with pose only",
+  "lip_sync_evidence_frames": [
+   1514,
+   1522,
+   1534,
+   1538,
+   1550
+  ],
+  "eyes_and_blinks": "Eyes are swapped between a few drawn states (squint, wide ring, half-lid); no clear blinks seen in the idle hold.",
+  "idle_motion": "Faint camera drift; hero stays almost still; small sparkles or glow pulses; lamp glow stays steady.",
+  "squash_and_stretch": "Little; the head shifts slightly while a card or a badge drops with bounce; mostly rigid cut-out shapes."
+ },
+ "environments": [
+  {
+   "start": 0,
+   "end": 6,
+   "place": "Green office with wooden desk",
+   "key_props": [
+    "lamp",
+    "red phone",
+    "two scratch cards",
+    "wooden desk"
+   ],
+   "in_world_text": [
+    "Vault Buster"
+   ],
+   "time_of_day": "evening (estimate)",
+   "lighting": "Warm lamp from left, soft, orange; dark vignette",
+   "depth_cues": "Blurred background, shallow depth"
+  },
+  {
+   "start": 6,
+   "end": 7,
+   "place": "Close-up number grid",
+   "key_props": [
+    "number grid"
+   ],
+   "in_world_text": [
+    "34 05 37",
+    "19 08 24"
+   ],
+   "time_of_day": "unclear",
+   "lighting": "Dark with glowing amber numerals",
+   "depth_cues": "Shallow focus"
+  },
+  {
+   "start": 7,
+   "end": 9,
+   "place": "Shopfront at sunset",
+   "key_props": [
+    "glass doors",
+    "tiled floor"
+   ],
+   "in_world_text": [
+    "1200"
+   ],
+   "time_of_day": "sunset",
+   "lighting": "Orange backlight through glass, long floor reflections",
+   "depth_cues": "Strong perspective on the floor"
+  },
+  {
+   "start": 9,
+   "end": 12,
+   "place": "Convenience store counter",
+   "key_props": [
+    "lottery machine",
+    "shelves",
+    "queue"
+   ],
+   "in_world_text": [
+    "LOTTERY"
+   ],
+   "time_of_day": "day",
+   "lighting": "Soft overhead white light, cool",
+   "depth_cues": "Perspective ceiling tiles"
+  },
+  {
+   "start": 12,
+   "end": 14,
+   "place": "Close-up of Vault Buster card",
+   "key_props": [
+    "ID badge",
+    "coins"
+   ],
+   "in_world_text": [
+    "Vault Buster",
+    "$500,000",
+    "$5 $20 $5"
+   ],
+   "time_of_day": "n/a",
+   "lighting": "Warm spotlight on the card, dark surround",
+   "depth_cues": "Shallow"
+  },
+  {
+   "start": 14,
+   "end": 17,
+   "place": "Hero's desk, dark green office",
+   "key_props": [
+    "lamp",
+    "cabinet",
+    "card"
+   ],
+   "in_world_text": [],
+   "time_of_day": "night",
+   "lighting": "Dim, warm rim light on face",
+   "depth_cues": "Blurred background"
+  },
+  {
+   "start": 17,
+   "end": 20,
+   "place": "Card sheet then print factory",
+   "key_props": [
+    "printing rollers",
+    "winners counter",
+    "worker on lift"
+   ],
+   "in_world_text": [
+    "WINNERS 400,000",
+    "Vault Buster"
+   ],
+   "time_of_day": "n/a",
+   "lighting": "Bright, saturated, colour-keyed teal and yellow",
+   "depth_cues": "Wide-angle perspective, converging lines"
+  },
+  {
+   "start": 20,
+   "end": 23,
+   "place": "Print factory",
+   "key_props": [
+    "press",
+    "paper rolls",
+    "conveyor"
+   ],
+   "in_world_text": [
+    "WINNERS 400,000",
+    "THIS PRINT RUN"
+   ],
+   "time_of_day": "n/a",
+   "lighting": "Even bright light",
+   "depth_cues": "High angle looking down"
+  },
+  {
+   "start": 23,
+   "end": 28,
+   "place": "Convenience store",
+   "key_props": [
+    "lottery machine",
+    "desk stuff box",
+    "cheque",
+    "plant"
+   ],
+   "in_world_text": [
+    "LOTTERY",
+    "DESK STUFF"
+   ],
+   "time_of_day": "day",
+   "lighting": "Soft overhead, white",
+   "depth_cues": "Receding ceiling"
+  },
+  {
+   "start": 28,
+   "end": 32,
+   "place": "Hero's apartment floor of cards",
+   "key_props": [
+    "rows of cards",
+    "window",
+    "picture"
+   ],
+   "in_world_text": [],
+   "time_of_day": "dusk",
+   "lighting": "Blue room with warm window light",
+   "depth_cues": "Floor perspective, small hero"
+  },
+  {
+   "start": 32,
+   "end": 42,
+   "place": "Close-ups of card numbers",
+   "key_props": [
+    "coin stack",
+    "barcode",
+    "number grids",
+    "pencil"
+   ],
+   "in_world_text": [
+    "PROD. CODE 0471-083-2310",
+    "VOID IF TORN OR ALTERED",
+    "numbers 15 27 18 ..."
+   ],
+   "time_of_day": "n/a",
+   "lighting": "Dark navy with gold glow at top",
+   "depth_cues": "Shallow"
+  },
+  {
+   "start": 42,
+   "end": 45,
+   "place": "Apartment floor",
+   "key_props": [
+    "cards",
+    "window"
+   ],
+   "in_world_text": [],
+   "time_of_day": "dusk",
+   "lighting": "Blue with orange window",
+   "depth_cues": "Floor perspective"
+  },
+  {
+   "start": 45,
+   "end": 48,
+   "place": "State map",
+   "key_props": [
+    "gas-station pins",
+    "red roads",
+    "red circle"
+   ],
+   "in_world_text": [
+    "STATE ROAD MAP",
+    "Springfield",
+    "Fairview"
+   ],
+   "time_of_day": "n/a",
+   "lighting": "Flat, cream",
+   "depth_cues": "Flat map with a pointer"
+  },
+  {
+   "start": 48,
+   "end": 51,
+   "place": "Hero's office with wall phone",
+   "key_props": [
+    "wall phone",
+    "cabinet"
+   ],
+   "in_world_text": [],
+   "time_of_day": "night",
+   "lighting": "Dim green, warm rim",
+   "depth_cues": "Blurred"
+  },
+  {
+   "start": 51,
+   "end": 60,
+   "place": "Lottery office",
+   "key_props": [
+    "red chair",
+    "window",
+    "basketball hoop",
+    "navy desk"
+   ],
+   "in_world_text": [
+    "SECURITY",
+    "DESK STUFF"
+   ],
+   "time_of_day": "day",
+   "lighting": "Bright, even, cool window light",
+   "depth_cues": "Flat, clean"
+  },
+  {
+   "start": 60,
+   "end": 63,
+   "place": "Convenience store queue",
+   "key_props": [
+    "lottery machine",
+    "shelves"
+   ],
+   "in_world_text": [
+    "LOTTERY",
+    "GAME CLOSED"
+   ],
+   "time_of_day": "day",
+   "lighting": "Soft overhead white",
+   "depth_cues": "Slight blur at back"
+  }
+ ],
+ "set_style": "toon 3D with ink outlines",
+ "layer_stack": [
+  "blurred painted background",
+  "set props with outlines",
+  "characters (flat cut-outs)",
+  "glow and sparkles",
+  "gradient vignette and grain",
+  "white bold captions with black stroke"
+ ],
+ "camera": {
+  "shot_sizes": [
+   "medium",
+   "close-up",
+   "wide",
+   "extreme close-up",
+   "high-angle wide"
+  ],
+  "angles": [
+   "eye level",
+   "high angle",
+   "top-down tilt"
+  ],
+  "lens_feel": "Wide-ish with strong perspective in factory shots; shallow depth blur in close-ups (estimate)",
+  "camera_height": "Eye level to hero in office, high for the factory",
+  "notable_moves": [
+   {
+    "t": 1.4,
+    "type": "tilt/push",
+    "note": "Camera lifts from the cards to a tighter shot of hero and cards."
+   },
+   {
+    "t": 18.3,
+    "type": "tilt down/pull out",
+    "note": "From a card sheet pulled down through the machine to the factory floor in about 2 s."
+   },
+   {
+    "t": 49.7,
+    "type": "push-in",
+    "note": "Fast zoom into the phone keypad."
+   },
+   {
+    "t": 50.3,
+    "type": "dissolve and pull-out",
+    "note": "Close-up of the operator's face, pulling out to the desk."
+   }
+  ]
+ },
+ "effects": [
+  {
+   "t": 2.1,
+   "dur_s": 1.5,
+   "type": "glow",
+   "trigger": "winner card revealed"
+  },
+  {
+   "t": 2.2,
+   "dur_s": 1.0,
+   "type": "particles",
+   "trigger": "sparkles around the card"
+  },
+  {
+   "t": 35.0,
+   "dur_s": 4.5,
+   "type": "colour shift",
+   "trigger": "numbers colour-coded by repetition"
+  },
+  {
+   "t": 38.5,
+   "dur_s": 1.0,
+   "type": "glow",
+   "trigger": "singleton numbers glow gold"
+  },
+  {
+   "t": 41.0,
+   "dur_s": 0.8,
+   "type": "diagram",
+   "trigger": "pencil strikes a row"
+  },
+  {
+   "t": 45.5,
+   "dur_s": 3.0,
+   "type": "map",
+   "trigger": "gas stations"
+  },
+  {
+   "t": 0.2,
+   "dur_s": 1.2,
+   "type": "speed lines",
+   "trigger": "cards land on the desk"
+  }
+ ],
+ "lighting_mood_shifts": [
+  {
+   "t": 2.1,
+   "change": "Warm golden glow floods the desk and hero's face.",
+   "story_reason": "Marks the winner."
+  },
+  {
+   "t": 8.7,
+   "change": "Sunset shopfront switches to the bright white of the shop.",
+   "story_reason": "Scene change into the store."
+  },
+  {
+   "t": 28.0,
+   "change": "Bright shop to cool blue apartment.",
+   "story_reason": "Hero goes home and obsesses."
+  },
+  {
+   "t": 51.5,
+   "change": "Dim green desk changes to a bright cool office.",
+   "story_reason": "Shift to the lottery office."
+  }
+ ],
+ "generation_evidence": [
+  {
+   "frames": [
+    1030,
+    1170
+   ],
+   "observation": "In-world numerals and barcode stay sharp across the whole shot with a solid, repeating grid; colour-coding changes cleanly in place.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    550,
+    600
+   ],
+   "observation": "Card sheets, machine and the winners counter keep consistent perspective through a 2 s tilt, and the text stays legible.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    1514,
+    1538
+   ],
+   "observation": "The operator's face changes between a few discrete mouth shapes and the same head shape appears in every frame; the face is a rigid cut-out.",
+   "points_to": "hand animation"
+  },
+  {
+   "frames": [
+    430,
+    485
+   ],
+   "observation": "Hero's eye states swap between distinct drawn shapes (wide ring eyes, half-lid) instead of morphing.",
+   "points_to": "hand animation"
+  },
+  {
+   "frames": [
+    0,
+    5
+   ],
+   "observation": "Cards fall to the desk with a faint motion trail and drop marks; hero stays crisp.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    1807,
+    1897
+   ],
+   "observation": "Queue extras and signs are repeated identical assets across the final shot; the sign reads GAME CLOSED cleanly.",
+   "points_to": "3D engine render"
+  }
+ ],
+ "sample_points": [
+  {
+   "frame": 60,
+   "x": 0.5,
+   "y": 0.2,
+   "what": "hero head fill",
+   "hex": "#F8EFE8",
+   "patch_spread": 0.7
+  },
+  {
+   "frame": 60,
+   "x": 0.47,
+   "y": 0.34,
+   "what": "hero vest",
+   "hex": "#5A2425",
+   "patch_spread": 50.3
+  },
+  {
+   "frame": 60,
+   "x": 0.53,
+   "y": 0.12,
+   "what": "hero hair",
+   "hex": "#B6552D",
+   "patch_spread": 11.2
+  },
+  {
+   "frame": 60,
+   "x": 0.5,
+   "y": 0.85,
+   "what": "wood desk orange",
+   "hex": "#BE6723",
+   "patch_spread": 1.0
+  },
+  {
+   "frame": 640,
+   "x": 0.1,
+   "y": 0.45,
+   "what": "factory yellow press",
+   "hex": "#546FA4",
+   "patch_spread": 0.7
+  },
+  {
+   "frame": 640,
+   "x": 0.5,
+   "y": 0.08,
+   "what": "factory blue back wall",
+   "hex": "#8CCEF5",
+   "patch_spread": 1.4
+  },
+  {
+   "frame": 1890,
+   "x": 0.5,
+   "y": 0.08,
+   "what": "shop ceiling white",
+   "hex": "#D5D4D0",
+   "patch_spread": 1.0
+  },
+  {
+   "frame": 1890,
+   "x": 0.35,
+   "y": 0.5,
+   "what": "red shirt of queue extra",
+   "hex": "#E63919",
+   "patch_spread": 23.1
+  },
+  {
+   "frame": 1320,
+   "x": 0.5,
+   "y": 0.1,
+   "what": "apartment blue wall",
+   "hex": "#19143C",
+   "patch_spread": 0.0
+  },
+  {
+   "frame": 1400,
+   "x": 0.1,
+   "y": 0.5,
+   "what": "map cream paper",
+   "hex": "#F9DA8D",
+   "patch_spread": 25.1
+  }
+ ],
+ "thumbnail": "Print factory at 21-22 s: yellow press, a winners counter reading 400,000, a worker with a clipboard on a lift and the caption they are, over a card conveyor.",
+ "could_not_determine": [
+  "Whether the join at 5.20 s is a cut or a very short blend.",
+  "Whether the characters have cast shadows; no clear ground shadow visible in the sheets.",
+  "Whether background parallax is rendered 3D or layered 2D images with virtual camera.",
+  "Exact boundary times of environments in the quick middle sections (estimate within about 1 s)."
+ ]
+}

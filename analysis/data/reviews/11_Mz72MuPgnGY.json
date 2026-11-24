@@ -1,0 +1,662 @@
+{
+ "video": "11_Mz72MuPgnGY",
+ "joins_verified": [
+  {
+   "t": 6.02,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Pirate-ship deck close-up cross-fades to captain and chef on deck; double exposure in middle tiles."
+  },
+  {
+   "t": 12.85,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Wide shot of ship and storm clouds fades into captain and chef close two-shot."
+  },
+  {
+   "t": 16.48,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Shouting captain and chef fade to chef pouring pot, same set; clear double exposure."
+  },
+  {
+   "t": 22.77,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Captain at wheel fades to pirates on their own deck, ghosted overlap."
+  },
+  {
+   "t": 25.6,
+   "auto_type": "cut",
+   "verdict": "cut",
+   "note": "Pirate captain pose changes between f767 and f768 with same framing: hard cut inside the same set, mid-speech."
+  },
+  {
+   "t": 27.05,
+   "auto_type": "inplace_blend",
+   "verdict": "dissolve",
+   "note": "Pirate ship on glassy sea fades toward darker stormy sea; ship and sea fade together over 5 frames."
+  },
+  {
+   "t": 27.62,
+   "auto_type": "inplace_blend",
+   "verdict": "in_place_change",
+   "note": "Same horizon framing, ship swaps from front to side view and waves rise; short 3-frame blend."
+  },
+  {
+   "t": 28.87,
+   "auto_type": "cut",
+   "verdict": "cut",
+   "note": "Small ship under wave crest, hard cut to a similar framing with a larger ridge; subtle but real."
+  },
+  {
+   "t": 30.8,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Wheel deck with two crew fades to chef pouring at the rail; double exposure."
+  },
+  {
+   "t": 36.72,
+   "auto_type": "inplace_blend",
+   "verdict": "dissolve",
+   "note": "Ship seen from above fades into a low dark ship hull; a different camera view, not same take."
+  },
+  {
+   "t": 38.68,
+   "auto_type": "inplace_blend",
+   "verdict": "in_place_change",
+   "note": "Swinging pirate keeps framing; pose and rope angle change over 3 frames."
+  },
+  {
+   "t": 39.03,
+   "auto_type": "inplace_blend",
+   "verdict": "dissolve",
+   "note": "Close swinging pirate on dark ship fades to distant wave and two tiny ships."
+  },
+  {
+   "t": 40.63,
+   "auto_type": "cut",
+   "verdict": "cut",
+   "note": "Distant ships and wave: framing nearly identical, only a small glow and position change; hard cut."
+  },
+  {
+   "t": 49.9,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Chef at galley counter fades to top-down view of the soup bowl on wooden counter."
+  },
+  {
+   "t": 52.47,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Yellow soup surface close-up fades into stormy sea with ship lit from below."
+  }
+ ],
+ "missed_joins": [],
+ "beats": [
+  {
+   "name": "hook",
+   "start": 0.0,
+   "end": 5.5,
+   "said": "A cook pours oil into the sea while a pirate ship closes in laughing.",
+   "shown": "Chef pours from a copper pot; camera follows the stream down the hull to the sea, then reveals pirate ship."
+  },
+  {
+   "name": "setup",
+   "start": 5.5,
+   "end": 14.0,
+   "said": "Captain grabs the cook, shouts about boarding; cook ignores him and points at black clouds.",
+   "shown": "Pirate deck close-up, captain and chef two-shot, black clouds."
+  },
+  {
+   "name": "escalation",
+   "start": 14.0,
+   "end": 26.7,
+   "said": "Captain protests, cook says to trust the oil; hook lands and pirates cheer the storm.",
+   "shown": "Captain shouting, chef pouring, grappling hook, pirate deck with cannons."
+  },
+  {
+   "name": "twist",
+   "start": 26.7,
+   "end": 42.9,
+   "said": "Deep in the storm the crew ties down; he keeps pouring upwind as pirates board and a giant wave looms.",
+   "shown": "Dark blue storm sea, ship decks, swinging pirate, tiny ships under a wave."
+  },
+  {
+   "name": "explainer",
+   "start": 42.9,
+   "end": 56.0,
+   "said": "Sailors carried storm oil; breath on soup ripples but oily patches stay smooth, so wind cannot grab it.",
+   "shown": "Chef in galley, oil tin, soup bowl top-down, yellow surface close-up."
+  },
+  {
+   "name": "payoff",
+   "start": 56.0,
+   "end": 60.4,
+   "said": "The wave reaches the oily patch and merely lifts the ship and sets it down.",
+   "shown": "Stormy sea, ship glowing underneath, rain, light shafts."
+  },
+  {
+   "name": "ending",
+   "start": 60.4,
+   "end": 64.6,
+   "said": "Fifty yards behind, the wave curls and crushes the pirate deck.",
+   "shown": "Big wave curls over pirate ship, comic explosion and smoke, bobbing hat shapes."
+  }
+ ],
+ "hook": {
+  "first_frame": "Chef with white toque tips a copper pot, yellow oil stream falling onto a red ship hull; deep blue sky behind.",
+  "first_3s": "Camera follows the oil stream down the hull to the sea, splash shown, then swings out to reveal an orange-sailed pirate ship with a skull-cat figurehead.",
+  "line_type": "strange action by he/they",
+  "first_frame_shot_size": "medium-long",
+  "first_frame_subject": "protagonist doing the hook action",
+  "protagonist_looks_at_camera": false,
+  "title_vs_first_line": "Title asks why sailors carried storm oil; first line shows the odd action itself without naming the reason."
+ },
+ "story": {
+  "topic_type": "history/war",
+  "setting_era": "ancient/medieval",
+  "structure": "act first, explain at the end",
+  "real_fact_core": "Oil spread on water calms wave breaking because wind cannot grip a smooth oily surface, a real old seafaring practice.",
+  "likely_source_type": "history",
+  "protagonist": "Chef-hatted sailor pouring oil",
+  "authority_or_antagonist": "Ship captain doubting him; pirate crew chasing them",
+  "direct_speech_lines": 3,
+  "second_person": true,
+  "tense": "present",
+  "explainer_turn": "\"You see\" at 42.9 s",
+  "ending_type": "consequence shown, stops on impact",
+  "call_to_action": "none"
+ },
+ "tone": {
+  "humour": "Soup joke from the captain; pirates cheerfully welcoming a storm; comic explosion and floating hats at the end.",
+  "deadpan_or_irony": "Chef stays flat-faced and unbothered throughout, which contrasts with the panic around him.",
+  "dialogue_style": "Short reported lines inside narration; narrator voices both sides."
+ },
+ "characters": [
+  {
+   "role": "protagonist chef",
+   "head": "round white circle",
+   "hair_or_hat": "tall white toque with vertical pleats",
+   "eyes": "two short horizontal lines, half-lidded, one brow raised",
+   "mouth": "tiny dark oval or short line, rarely open",
+   "body_and_clothes": "small white apron body with narrow torso",
+   "limbs": "thin black stick arms and legs",
+   "accessories": "copper pot, ladle, orange oil tin labelled STORM OIL",
+   "expressions_seen": [
+    "deadpan half-lidded",
+    "closed-eye smirk",
+    "annoyed",
+    "side-eyed"
+   ]
+  },
+  {
+   "role": "ship captain",
+   "head": "round white circle with brown moustache",
+   "hair_or_hat": "navy bicorn hat with red-ringed target badge",
+   "eyes": "wide white with black pupils, angry brows when shouting",
+   "mouth": "wide open dark mouth under moustache",
+   "body_and_clothes": "blue naval coat, rounded torso",
+   "limbs": "thin black stick limbs",
+   "accessories": "none noted",
+   "expressions_seen": [
+    "shouting",
+    "shocked",
+    "worried"
+   ]
+  },
+  {
+   "role": "pirate captain",
+   "head": "round white circle with curly black moustache",
+   "hair_or_hat": "purple hat with gold skull and big white feather",
+   "eyes": "squinted, smug or laughing",
+   "mouth": "large open laughing mouth",
+   "body_and_clothes": "red and yellow striped coat with gold fringe collar",
+   "limbs": "very long thin black stick legs",
+   "accessories": "yellow cannon, cannonball stacks, green parrot on crewmate's hat",
+   "expressions_seen": [
+    "laughing",
+    "smug wink",
+    "smirk"
+   ]
+  },
+  {
+   "role": "pirate crew",
+   "head": "round white circle",
+   "hair_or_hat": "blue polka-dot bandana or brown tricorn",
+   "eyes": "wide dot pupils or closed happy arcs",
+   "mouth": "small, open when laughing",
+   "body_and_clothes": "orange or brown vests",
+   "limbs": "thin black stick limbs",
+   "accessories": "parrot, spyglass",
+   "expressions_seen": [
+    "laughing",
+    "startled",
+    "swinging with fear"
+   ]
+  }
+ ],
+ "character_style": {
+  "head_height_share_of_body_estimate": 0.4,
+  "outline": "Thick black ink outline on characters and some props; set mostly has none.",
+  "shading": "Flat white heads with soft painted shading on clothes; props shaded 3D; rim colour tint from scene light.",
+  "consistency_between_shots": "Very high: identical heads, hat shapes, colours and proportions repeat across shots (estimate).",
+  "shadow_under_character": "soft blob"
+ },
+ "animation": {
+  "body_motion": "Limbs and torso pose-swap or slide with little tween; most action is carried by camera and props; chef pours with a smooth tilt.",
+  "lip_sync": "mouth changes with pose only",
+  "lip_sync_evidence_frames": [
+   440,
+   449,
+   455,
+   461
+  ],
+  "eyes_and_blinks": "Eyes are drawn lines or dots; chef's half-lids stay constant; expression swaps between poses, no blinks seen in sampled frames.",
+  "idle_motion": "Chef in galley hold (f1320-1375) stays near-still; small stirring ladle movement, steam and background drift from camera.",
+  "squash_and_stretch": "Minor on character heads when shouting or laughing; stronger on drawn effects like splash and wave (estimate)."
+ },
+ "environments": [
+  {
+   "start": 0,
+   "end": 4,
+   "place": "Pirate-chased ship deck and hull edge on sunny sea",
+   "key_props": [
+    "copper pot",
+    "red and white hull",
+    "porthole",
+    "orange-sailed pirate ship"
+   ],
+   "in_world_text": [],
+   "time_of_day": "day",
+   "lighting": "Hard sun from upper left, warm, saturated blue sky and cyan water.",
+   "depth_cues": "Soft distant islands and hazy ship; low-poly clouds."
+  },
+  {
+   "start": 4,
+   "end": 7,
+   "place": "Pirate ship deck with figurehead",
+   "key_props": [
+    "skull-cat figurehead",
+    "crew"
+   ],
+   "in_world_text": [],
+   "time_of_day": "day",
+   "lighting": "Warm, sunlit, strong contrast.",
+   "depth_cues": "Shallow depth, foreground figurehead big and out-of-focus."
+  },
+  {
+   "start": 7,
+   "end": 22,
+   "place": "Captain's ship deck with clouds gathering",
+   "key_props": [
+    "wheel",
+    "grappling hook",
+    "copper pot",
+    "green oil"
+   ],
+   "in_world_text": [],
+   "time_of_day": "day turning stormy dusk",
+   "lighting": "Warm key low from side, sky darkening to grey-blue, cool fill.",
+   "depth_cues": "Horizon haze, distant ship with red-and-white sails."
+  },
+  {
+   "start": 22,
+   "end": 27,
+   "place": "Pirate ship deck",
+   "key_props": [
+    "cannon",
+    "cannonballs",
+    "parrot",
+    "stone tower on horizon"
+   ],
+   "in_world_text": [],
+   "time_of_day": "overcast",
+   "lighting": "Soft, grey-blue key with warm planks, red rail.",
+   "depth_cues": "Mist at horizon, small ship behind."
+  },
+  {
+   "start": 27,
+   "end": 43,
+   "place": "Open storm sea and ship decks at night",
+   "key_props": [
+    "tall waves",
+    "ship wheel",
+    "lantern",
+    "life ring",
+    "rope"
+   ],
+   "in_world_text": [],
+   "time_of_day": "night",
+   "lighting": "Deep blue ambient, cool, warm lantern accents, rain streaks.",
+   "depth_cues": "Dark haze, distant ships, rain overlay."
+  },
+  {
+   "start": 43,
+   "end": 50,
+   "place": "Ship galley kitchen",
+   "key_props": [
+    "porthole",
+    "pot",
+    "STORM OIL tin",
+    "soup bowl",
+    "lantern"
+   ],
+   "in_world_text": [
+    "STORM OIL"
+   ],
+   "time_of_day": "warm indoor",
+   "lighting": "Warm orange lantern key, soft, amber walls, window showing storm.",
+   "depth_cues": "Mild defocus, steam particles, vignette."
+  },
+  {
+   "start": 50,
+   "end": 53,
+   "place": "Bowl of soup close-up",
+   "key_props": [
+    "soup surface",
+    "wooden counter"
+   ],
+   "in_world_text": [],
+   "time_of_day": "indoor",
+   "lighting": "Bright warm glow, very saturated yellow.",
+   "depth_cues": "Top-down, flat."
+  },
+  {
+   "start": 53,
+   "end": 64.6,
+   "place": "Storm sea with pirate ship and rolling wave",
+   "key_props": [
+    "glowing ship",
+    "giant wave",
+    "light shafts",
+    "rain"
+   ],
+   "in_world_text": [],
+   "time_of_day": "night",
+   "lighting": "Cool blue, diagonal light shafts from upper left, warm glow under the ship.",
+   "depth_cues": "Rain overlay, haze, light shafts, small distant ships."
+  }
+ ],
+ "set_style": "mixed",
+ "layer_stack": [
+  "sky and sea background (3D)",
+  "ship and set geometry (3D, painted look)",
+  "outlined 2D-style characters",
+  "props and effects (water, smoke, explosion)",
+  "rain and light-shaft overlays",
+  "vignette and glow",
+  "white bold captions with black stroke"
+ ],
+ "camera": {
+  "shot_sizes": [
+   "medium-long",
+   "medium",
+   "close-up",
+   "wide",
+   "extreme close-up (soup)"
+  ],
+  "angles": [
+   "eye level",
+   "high angle on deck",
+   "low angle on hull",
+   "top-down on bowl"
+  ],
+  "lens_feel": "wide-angle with strong perspective on decks; compressed telephoto look on distant waves (estimate).",
+  "camera_height": "Chest to eye height for characters; high for sea shots (estimate).",
+  "notable_moves": [
+   {
+    "t": 0.6,
+    "type": "orbit / follow pour",
+    "note": "Camera tracks oil stream down hull to sea and swings out to the pirate ship."
+   },
+   {
+    "t": 2.0,
+    "type": "push-in",
+    "note": "Fast push-in on the pirate ship over about two seconds."
+   },
+   {
+    "t": 26.4,
+    "type": "whip-style zoom out",
+    "note": "Pirate captain close-up rapidly flies out to the distant ship over about 0.7 s."
+   },
+   {
+    "t": 59.5,
+    "type": "orbit",
+    "note": "Camera swings around the ship before the final wave shot."
+   },
+   {
+    "t": 61.5,
+    "type": "static with slow roll",
+    "note": "Final wave shot nearly still before the impact."
+   }
+  ]
+ },
+ "effects": [
+  {
+   "t": 1.6,
+   "dur_s": 1.0,
+   "type": "particles",
+   "trigger": "oil hits the sea: splash droplets and white ring"
+  },
+  {
+   "t": 15.8,
+   "dur_s": 0.5,
+   "type": "other",
+   "trigger": "captain's angry shout, squashed head"
+  },
+  {
+   "t": 27.0,
+   "dur_s": 38.0,
+   "type": "other",
+   "trigger": "rain streak overlay and storm tint from sea scene on"
+  },
+  {
+   "t": 31.8,
+   "dur_s": 0.2,
+   "type": "other",
+   "trigger": "bolted down: small rock or hit"
+  },
+  {
+   "t": 46.5,
+   "dur_s": 2.0,
+   "type": "smoke",
+   "trigger": "steam rising over the soup"
+  },
+  {
+   "t": 48.6,
+   "dur_s": 0.3,
+   "type": "other",
+   "trigger": "air ripples near chef's mouth as he blows"
+  },
+  {
+   "t": 60.0,
+   "dur_s": 4.0,
+   "type": "other",
+   "trigger": "light shafts from upper left on the finale shots"
+  },
+  {
+   "t": 63.3,
+   "dur_s": 1.3,
+   "type": "smoke",
+   "trigger": "explosion with smoke column and orange fireball when the wave lands"
+  },
+  {
+   "t": 63.3,
+   "dur_s": 0.1,
+   "type": "flash",
+   "trigger": "yellow impact spikes at crash frame f1900"
+  }
+ ],
+ "lighting_mood_shifts": [
+  {
+   "t": 11.4,
+   "change": "Sky darkens to grey-blue with clouds",
+   "story_reason": "Storm announced."
+  },
+  {
+   "t": 27.0,
+   "change": "Warm day palette switches to saturated deep blue night with rain",
+   "story_reason": "Ship enters the storm."
+  },
+  {
+   "t": 43.0,
+   "change": "Cold blue switches to warm orange galley",
+   "story_reason": "Explanation moves indoors to a calm, cozy cut-away."
+  },
+  {
+   "t": 50.5,
+   "change": "Very bright yellow soup close-up",
+   "story_reason": "Emphasis on the oily surface."
+  },
+  {
+   "t": 53.0,
+   "change": "Returns to deep blue with glow under the ship",
+   "story_reason": "Back to the storm to prove the mechanism."
+  }
+ ],
+ "generation_evidence": [
+  {
+   "frames": [
+    0,
+    30,
+    60
+   ],
+   "observation": "Pot, hull, porthole and oil stream keep consistent geometry through a long camera orbit; clean perspective.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    440,
+    455,
+    461
+   ],
+   "observation": "Same hat badge, moustache and face outlines repeat identically between frames; only mouth/brow pose changes.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    1320,
+    1350,
+    1370
+   ],
+   "observation": "Galley props (lantern, porthole, pot, cabinet) keep rigid positions while camera drifts; crisp perspective.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    1400,
+    1470
+   ],
+   "observation": "STORM OIL label on tin stays crisp and spelled correctly; no warping text.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    1894,
+    1903,
+    1912,
+    1930
+   ],
+   "observation": "Explosion and smoke are flat polygonal comic shapes with black outlines, hat shapes float like 2D sprites.",
+   "points_to": "hand animation"
+  },
+  {
+   "frames": [
+    791,
+    797,
+    809
+   ],
+   "observation": "Fast zoom out holds geometry steady; ship and tower stay stable while sea turns stormy, consistent with a camera move not a generated morph.",
+   "points_to": "3D engine render"
+  }
+ ],
+ "sample_points": [
+  {
+   "frame": 360,
+   "x": 0.52,
+   "y": 0.18,
+   "what": "chef head fill",
+   "hex": "#201D40",
+   "patch_spread": 50.9
+  },
+  {
+   "frame": 360,
+   "x": 0.8,
+   "y": 0.8,
+   "what": "orange pot or deck planks",
+   "hex": "#1A0B10",
+   "patch_spread": 0.9
+  },
+  {
+   "frame": 1350,
+   "x": 0.45,
+   "y": 0.58,
+   "what": "chef toque hat fill",
+   "hex": "#883815",
+   "patch_spread": 10.1
+  },
+  {
+   "frame": 90,
+   "x": 0.5,
+   "y": 0.9,
+   "what": "bright cyan sea, day",
+   "hex": "#99ECFF",
+   "patch_spread": 5.4
+  },
+  {
+   "frame": 90,
+   "x": 0.5,
+   "y": 0.1,
+   "what": "day sky blue",
+   "hex": "#D44C0F",
+   "patch_spread": 8.2
+  },
+  {
+   "frame": 1000,
+   "x": 0.5,
+   "y": 0.8,
+   "what": "deep blue storm sea, night",
+   "hex": "#12000E",
+   "patch_spread": 0.4
+  },
+  {
+   "frame": 1350,
+   "x": 0.5,
+   "y": 0.12,
+   "what": "galley amber wall",
+   "hex": "#2D0C07",
+   "patch_spread": 0.4
+  },
+  {
+   "frame": 1530,
+   "x": 0.5,
+   "y": 0.5,
+   "what": "yellow soup glow close-up",
+   "hex": "#FFFFB1",
+   "patch_spread": 0.9
+  },
+  {
+   "frame": 750,
+   "x": 0.5,
+   "y": 0.8,
+   "what": "pirate deck wooden planks",
+   "hex": "#936A41",
+   "patch_spread": 46.6
+  },
+  {
+   "frame": 1900,
+   "x": 0.5,
+   "y": 0.1,
+   "what": "night sky dark blue",
+   "hex": "#091196",
+   "patch_spread": 1.1
+  }
+ ],
+ "thumbnail": "Pirate captain with feathered purple hat and open laughing mouth beside a crewmate with a parrot and a yellow cannon; caption reads a cannonball; from about 25 s.",
+ "could_not_determine": [
+  "Exact 3D software and whether character rigs are skeletal or sprite-based.",
+  "Whether blinking exists in the characters, as no blink frame was caught.",
+  "Exact lens focal length of the render camera."
+ ]
+}
