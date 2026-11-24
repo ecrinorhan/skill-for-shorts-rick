@@ -70,6 +70,11 @@ How often a pair was joined, by the length of its shorter word: 1 letter 45 %, 2
 The early appearance matters: text that arrives a tenth of a second ahead of the voice reads as "in sync", text that
 arrives with or after the word reads as late.
 
+Where a word "starts" depends on the model that times the words. The 3.7 frames come from the model used for the
+analysis. The bundled tools time words with a different model, which puts each start a median 20 ms later (91 % of 4,612
+reference words agree within one frame). By that model's clock the same reference captions lead by 4.1 frames (3.9 – 4.3
+between videos), so `voice.py` and `measure.py` work to 4.1. The captions land on the same frames either way.
+
 ## The captions are machine-made
 
 The reference captions contain speech-recognition mistakes that were left in (a wrong homophone, a doubled word across a

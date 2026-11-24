@@ -50,7 +50,7 @@ What this means for a narrator or a text-to-speech voice:
 2. **Fast but even.** 220 – 225 words per minute throughout. It does not start slow and speed up.
 3. **Wide melody.** The pitch moves over 16 semitones, which is animated storytelling, not a flat read. Eleven stock
    text-to-speech voices reading a test paragraph measured 6 – 15 semitones (the bundled default, `af_heart`, 10). `voice.py`
-   widens the pitch contour toward the target; the bundled example ends at 14.8.
+   widens the pitch contour toward the target; the bundled example ends at 14 to 14.5 (it varies a little between runs).
 4. **Act the quoted lines.** One sentence in four sits 3 semitones or more above or below the narrator's normal pitch. Those are the
    lines spoken by characters, the questions and the exclamations. One voice plays every part; there are no second voices.
 5. **Dry and close.** No audible room. A gentle high-pass, a little compression, nothing else.

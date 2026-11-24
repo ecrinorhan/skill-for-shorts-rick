@@ -193,6 +193,10 @@ Publishing
 - "By eye" means an AI reviewer working from extracted frames. No person reviewed the videos.
 - How the reference videos are produced (software, voice, music, font) is not known. What the evidence does and does
   not support is in `references/assets-and-tools.md`.
+- The tools were run from a fresh copy of this folder: install, script check, the full narration, captions and timeline
+  of one example, three stills, and a 2-second rendered and mixed preview (1080 × 1920, 30 fps, −14.1 LUFS). A
+  full-length video has not been rendered or put through `scripts/measure/measure.py`, and nobody has listened to the
+  result. Do both before you rely on the sound.
 
 ## 8. Licences
 
