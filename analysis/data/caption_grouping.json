@@ -1,0 +1,46 @@
+{
+ "caption_size_hist": {
+  "2": 795,
+  "1": 2781,
+  "3": 82
+ },
+ "merge_prob_by_shorter_word_len": {
+  "1": 0.446,
+  "2": 0.324,
+  "3": 0.203,
+  "4": 0.065,
+  "5": 0.048,
+  "6": 0.009,
+  "7": 0.0
+ },
+ "merge_after_punct": {
+  "! merged=False": 8,
+  ", merged=False": 285,
+  ", merged=True": 10,
+  ". merged=False": 338,
+  ". merged=True": 3,
+  "? merged=False": 23
+ },
+ "merged_pair_chars_p50_p90_max": [
+  7.0,
+  10.0,
+  17
+ ],
+ "best_rule": {
+  "boundary_agreement": 0.7788,
+  "SHORT": 2,
+  "MAXCHARS": 8,
+  "MAX3": 0,
+  "stop_punct": ".?!,",
+  "words_per_caption": 1.176
+ },
+ "best_rule_matching_words_per_caption": {
+  "boundary_agreement": 0.7766,
+  "SHORT": 2,
+  "MAXCHARS": 8,
+  "MAX3": 12,
+  "stop_punct": ".?!,",
+  "words_per_caption": 1.253
+ },
+ "real_words_per_caption": 1.262
+}
