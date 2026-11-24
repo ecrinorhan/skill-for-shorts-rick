@@ -1,0 +1,10 @@
+{
+  "name": "fact-story-shorts-render",
+  "private": true,
+  "type": "module",
+  "description": "Headless three.js renderer for fact-story Shorts",
+  "dependencies": {
+    "playwright": "^1.50.0",
+    "three": "^0.170.0"
+  }
+}

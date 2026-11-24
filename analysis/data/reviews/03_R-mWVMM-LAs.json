@@ -1,0 +1,809 @@
+{
+ "video": "03_R-mWVMM-LAs",
+ "joins_verified": [
+  {
+   "t": 0.83,
+   "auto_type": "cut",
+   "verdict": "cut",
+   "note": "Hard cut from the protagonist rolling the bomb by the lantern post to a ground-level view behind a giant bomb heading for the camp; the rolling action carries across."
+  },
+  {
+   "t": 8.97,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "10-frame cross-dissolve (f264-f274) from the city wall to the tent; protagonist and tent interior overlap in f267-f270."
+  },
+  {
+   "t": 12.43,
+   "auto_type": "cut",
+   "verdict": "cut",
+   "note": "Hard cut inside the tent from a medium two-shot to a close-up of the captain with the protagonist's head in the foreground; new camera, same set."
+  },
+  {
+   "t": 18.13,
+   "auto_type": "inplace_blend",
+   "verdict": "dissolve",
+   "note": "Really a cross-dissolve (f540-f548) from the tent window view to a dark gatehouse with lanterns and a seated guard; similar framing made the detector call it in-place."
+  },
+  {
+   "t": 19.15,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "7-frame cross-dissolve from the lantern-lit gatehouse to the moonlit hillside; the moon fades in over the lanterns (f575)."
+  },
+  {
+   "t": 19.63,
+   "auto_type": "cut",
+   "verdict": "cut",
+   "note": "Hard cut from the protagonist on the moonlit hill to a ground-level view of the bomb rolling toward the camp; same staging as the hook shot."
+  },
+  {
+   "t": 32.3,
+   "auto_type": "cut",
+   "verdict": "cut",
+   "note": "Hard cut from the grinning soldier holding the bomb to a wide low-angle camp shot of a soldier raising a sword."
+  },
+  {
+   "t": 39.1,
+   "auto_type": "cut",
+   "verdict": "cut",
+   "note": "Hard cut from the close-up of the commander with the coin tray to a wide torch-lit shot of a soldier mid-swing."
+  },
+  {
+   "t": 44.02,
+   "auto_type": "dissolve",
+   "verdict": "in_place_change",
+   "note": "No second scene appears in f1317-f1324: same shot, lightning arcs grow around the bomb and the cone-hat soldier changes pose; FX flashes fooled the detector."
+  },
+  {
+   "t": 44.68,
+   "auto_type": "dissolve",
+   "verdict": "camera_move",
+   "note": "f1336-f1345: lightning fades while the camera pans onto the bomb, which then splits open (f1356-f1376); one continuous 3D take, no dissolve."
+  },
+  {
+   "t": 53.03,
+   "auto_type": "cut",
+   "verdict": "cut",
+   "note": "Low-change match cut (estimate): the spool stays put while hill, sky and brightness jump in one frame and a black stake appears (f1590-f1591)."
+  },
+  {
+   "t": 54.27,
+   "auto_type": "cut",
+   "verdict": "cut",
+   "note": "Hard cut from an empty field with the lone bomb and stakes to a wide dawn shot of the antlered samurai between two seated soldiers."
+  }
+ ],
+ "missed_joins": [
+  {
+   "t": 35.43,
+   "type": "cut",
+   "note": "f1062 soldier at the snapped sword -> f1063 wide shot with a lamp pole and black drum; the detector kept it inside one hold (orange suspect)."
+  },
+  {
+   "t": 57.9,
+   "type": "dissolve",
+   "note": "Fireball fills the frame and whites out (f1729-f1735); the final wall scene fades in from white (f1737-f1740), so the flash hides the scene change."
+  }
+ ],
+ "beats": [
+  {
+   "name": "hook",
+   "start": 0.0,
+   "end": 3.8,
+   "said": "He sends a bomb rolling toward the enemy camp but rigs it so it will not explode.",
+   "shown": "Protagonist rolls a small bomb by a lantern post, hard cut to a ground-level view behind a giant bomb rolling toward a moonlit bonfire camp; captions word by word."
+  },
+  {
+   "name": "setup",
+   "start": 3.8,
+   "end": 10.9,
+   "said": "Ten thousand samurai besiege his city and will strike at dawn; he presents his bomb to the captain.",
+   "shown": "Camera lifts into an aerial fly-over of a field of tents and the town, protagonist on the city wall holding the bomb, dissolve into the captain's tent with a smug protagonist."
+  },
+  {
+   "name": "escalation",
+   "start": 10.9,
+   "end": 24.4,
+   "said": "Captain scorns a bomb that never explodes; the inventor sneaks out and rolls it into camp.",
+   "shown": "Tent close-ups: captain shocked then angry with a vein mark, protagonist sweating; captain asleep; dissolves via a gatehouse to the moonlit hill; bomb rolls to the fire, guards dive away."
+  },
+  {
+   "name": "twist",
+   "start": 24.4,
+   "end": 41.3,
+   "said": "No blast; soldiers shake the dud, hope for treasure, snap swords on it, and bet on cracking it.",
+   "shown": "Quiet beat, then a soldier picks up and shakes the bomb; star-eyed greed grin; sword strike with sparks; crowd around a black drum with a tray of gold coins and a tally board."
+  },
+  {
+   "name": "explainer",
+   "start": 41.3,
+   "end": 54.25,
+   "said": "Names the weapon; inside is a wooden tube wound with fuse that burns slowly, not in seconds.",
+   "shown": "Torch-lit soldiers, lightning arcs on the bomb, then the shell splits open into a 3D cutaway: a giant wooden spool with a glowing creeping fuse, sparks, repeated close-ups."
+  },
+  {
+   "name": "payoff",
+   "start": 54.25,
+   "end": 58.0,
+   "said": "As the biggest soldier raises a hammer to smash it, the fuse finally hits the gunpowder.",
+   "shown": "Dawn camp: antlered samurai with red glowing eyes lifts a mallet, sweat drop; red cracks spread from the bomb; fireball fills the frame and whites out."
+  },
+  {
+   "name": "ending",
+   "start": 58.0,
+   "end": 59.1,
+   "said": "Final words play over the blast; the clip ends right on the explosion, no outro.",
+   "shown": "Two deadpan characters on the city wall watch a mushroom cloud, impact ticks around them; video cuts off on the blast with no outro."
+  }
+ ],
+ "hook": {
+  "first_frame": "Night, long shot: teal-robed protagonist leans forward on a dirt road beside a glowing paper-lantern post, a small black bomb in his swung-back hand; caption 'He' low-centre.",
+  "first_3s": "0-0.83 s he rolls the bomb (head turns in 3D); hard cut at 0.83 s to a ground-level view behind a giant bomb rolling toward a moonlit bonfire camp while the camera creeps in; captions swap every 0.2-0.4 s.",
+  "line_type": "strange action by he/they",
+  "first_frame_shot_size": "long (full body)",
+  "first_frame_subject": "protagonist doing the hook action",
+  "protagonist_looks_at_camera": false,
+  "title_vs_first_line": "Title asks why samurai feared a named weapon; the first line instead opens on a paradox (a bomb rolled in but rigged not to explode) and the weapon's name only comes at about 42 s."
+ },
+ "story": {
+  "topic_type": "history/war",
+  "setting_era": "ancient/medieval",
+  "structure": "act first, explain at the end",
+  "real_fact_core": "A long fuse coiled around a wooden core inside a sealed shell burns slowly, so a seeming dud can explode long after it lands.",
+  "likely_source_type": "history",
+  "protagonist": "Inventor-soldier in a teal robe who built the slow-fuse bomb",
+  "authority_or_antagonist": "His captain, then the besieging samurai army and their commander",
+  "direct_speech_lines": 2,
+  "second_person": false,
+  "tense": "mixed",
+  "explainer_turn": "'what's in there' at 41.4 s; the weapon is named at 42.5 s",
+  "ending_type": "consequence shown, stops on impact",
+  "call_to_action": "none"
+ },
+ "tone": {
+  "humour": "Light slapstick and irony: guards leap for cover from a dud, then treat it like treasure and bet on it; cartoon symbols (sweat drop, anger vein, star eyes) add gags.",
+  "deadpan_or_irony": "Dramatic irony: viewers know the fuse is burning while everyone calls it a dud; deadpan half-lidded faces, and two flat-faced survivors watch a mushroom cloud.",
+  "dialogue_style": "Third-person narration; only two quoted lines, both the captain's; the speaking mouth flaps on those lines while other characters stay mute (estimate)."
+ },
+ "characters": [
+  {
+   "role": "protagonist: inventor-soldier",
+   "head": "big perfectly round cream-white circle, thick black outline, no nose, faint pink cheek smudge; about as wide as the torso",
+   "hair_or_hat": "black hair with a grey-striped headband and a small topknot with a gold pin",
+   "eyes": "small black ovals under heavy half-lids and slanted black brows; white ring eyes when shocked; closed arcs when dismayed",
+   "mouth": "tiny black dash or small 'o', no lips; swapped per expression",
+   "body_and_clothes": "bean-shaped torso in a mint-teal robe with fine vertical pinstripes, brown diagonal strap with a small white bow",
+   "limbs": "thin solid black stick legs with tiny black shoes; thin black arms ending in round black ball hands",
+   "accessories": "round glossy black bomb with a lid stub; gold hairpin",
+   "expressions_seen": [
+    "determined frown (0 s)",
+    "deadpan half-lidded (7-9 s)",
+    "smug smile (9-11 s)",
+    "worried with sweat drop (13.7-14.7 s)",
+    "dismayed closed eyes (14.3-14.5 s)",
+    "flat unimpressed (58-59 s)"
+   ]
+  },
+  {
+   "role": "captain (authority)",
+   "head": "round cream-white circle with thick outline and a black triangular goatee",
+   "hair_or_hat": "flat wide-brim black hat with a red crown and a green feather with a blue tip",
+   "eyes": "half-lidded flat ovals; big white ring eyes when shocked; slanted angry brows with a red anger-vein mark",
+   "mouth": "swaps between wide open with tongue, small oval, teeth strip, round 'o' and flat line while he speaks",
+   "body_and_clothes": "bean torso in a purple robe with a cream front panel and a red sash tied in a bow",
+   "limbs": "thin black stick legs and arms with ball hands",
+   "accessories": "red anger-vein cartoon symbol on the hat side",
+   "expressions_seen": [
+    "smug scoff (13 s)",
+    "shocked ring eyes (14-14.5 s)",
+    "shouting O mouth (14.5 s)",
+    "angry brows (14.7-16 s)",
+    "slumped asleep (about 17 s, estimate)"
+   ]
+  },
+  {
+   "role": "enemy samurai soldiers and commander",
+   "head": "round cream-white circles with thick outline; some with red or white headbands, an eyepatch, or stubble drawn from square pixels",
+   "hair_or_hat": "topknots, wide black jingasa hats (one with a gold ring), a conical straw hat, red headband",
+   "eyes": "white ring eyes when alarmed; yellow four-point star glints when greedy; half-lidded smirks",
+   "mouth": "wide toothy grin with pink tongue, small 'o', flat smirk",
+   "body_and_clothes": "bean torsos in red-orange lacquered armour with black stripes and white lacing dots; blue-grey armour; commander in a teal haori with gold bead chain over red armour",
+   "limbs": "thin black stick legs, ball hands",
+   "accessories": "swords, mallet, torches, tray of gold coins",
+   "expressions_seen": [
+    "alarmed ring eyes (23-24 s)",
+    "angry shaking the bomb (30 s)",
+    "star-eyed greedy grin (32 s, 38.8 s)",
+    "dazed (33-35 s)",
+    "smug smirk (49 s)"
+   ]
+  },
+  {
+   "role": "antlered samurai (the biggest guy)",
+   "head": "round cream-white circle, thick outline",
+   "hair_or_hat": "black and gold kabuto helmet with large golden antler horns",
+   "eyes": "glowing red eyes with a wide grin at 56.4-56.8 s, then plain dots with a blue sweat drop at 57 s",
+   "mouth": "wide menacing grin, then a small worried line",
+   "body_and_clothes": "black armour with gold plates",
+   "limbs": "thin black stick legs and arms",
+   "accessories": "wooden mallet raised overhead",
+   "expressions_seen": [
+    "menacing red-eyed grin (56.4-56.8 s)",
+    "nervous sweat drop (57 s)"
+   ]
+  }
+ ],
+ "character_style": {
+  "head_height_share_of_body_estimate": 0.33,
+  "outline": "Uniform thick black ink line, about 3-5% of head width (estimate), round heads, torsos and hats; limbs are solid black lines of similar weight",
+  "shading": "Mostly flat cel fills with soft 3D lighting and specular on hats, armour and robes; faces stay flat cream; soft dark cast shadows on the ground (estimate)",
+  "consistency_between_shots": "Very high: same face designs, outline weight and colours in every shot; expressions are discrete swaps",
+  "shadow_under_character": "cast silhouette"
+ },
+ "animation": {
+  "body_motion": "Rigid keyframed puppet style: bean torsos, stick limbs, big pose-to-pose changes; heads turn in 3D (f0-f24); characters glide without walk cycles (soldier exits f1478-f1488), no motion blur on the slide",
+  "lip_sync": "flaps while speaking",
+  "lip_sync_evidence_frames": [
+   395,
+   400,
+   405,
+   410,
+   435,
+   440,
+   460,
+   465
+  ],
+  "eyes_and_blinks": "Discrete eye sprites: half-lid, white ring, angry brow, closed arc; no blink seen in 6 samples over 1.7 s (f212-f262); closed arcs at f430-f435 read as an expression (estimate)",
+  "idle_motion": "Almost frozen: across f212-f232 the character only drifts with the camera; motion arrives as discrete action poses (arm lifts at f242); no breathing sway seen (estimate)",
+  "squash_and_stretch": "None seen: rigid bean torsos and spheres; exaggeration comes from face swaps and cartoon symbols (sweat drop, anger vein, star eyes)"
+ },
+ "environments": [
+  {
+   "start": 0.0,
+   "end": 0.8,
+   "place": "Dirt road by a grassy hill with a paper-lantern post, just outside the city (estimate)",
+   "key_props": [
+    "paper lantern on a black pole",
+    "grass tufts",
+    "dirt road",
+    "moonlit clouds"
+   ],
+   "in_world_text": [],
+   "time_of_day": "night",
+   "lighting": "Cool blue ambient moonlight, warm orange lantern glow and road bounce, soft cast shadows to the right (estimate)",
+   "depth_cues": "Grass and hill soft at the edges, layered clouds"
+  },
+  {
+   "start": 0.8,
+   "end": 4.4,
+   "place": "Ground-level road toward the enemy camp",
+   "key_props": [
+    "giant glossy black bomb",
+    "bonfire",
+    "bench with three seated soldiers",
+    "tents",
+    "black banners",
+    "smoke columns",
+    "full moon"
+   ],
+   "in_world_text": [
+    "white crest on black banners"
+   ],
+   "time_of_day": "night",
+   "lighting": "Cool moon key from behind the camp; warm bonfire glow is the only warm source; soft (estimate)",
+   "depth_cues": "Atmospheric haze, rising smoke, camp grows as the camera pushes in"
+  },
+  {
+   "start": 4.4,
+   "end": 7.0,
+   "place": "Aerial fly-over of fields, road and the walled town",
+   "key_props": [
+    "thousands of tiny tents and torches",
+    "road",
+    "flat-topped trees",
+    "tiled and thatched houses",
+    "pampas grass",
+    "distant city lights and mountains",
+    "moon"
+   ],
+   "in_world_text": [],
+   "time_of_day": "night",
+   "lighting": "Cool moonlight; warm window and torch specks",
+   "depth_cues": "Strong parallax and horizon haze; clouds streak across the sky"
+  },
+  {
+   "start": 7.0,
+   "end": 9.0,
+   "place": "Stone city-wall walkway above the town",
+   "key_props": [
+    "stone parapet",
+    "floor slabs",
+    "bomb",
+    "moon",
+    "town houses with lit windows"
+   ],
+   "in_world_text": [],
+   "time_of_day": "night, before dawn",
+   "lighting": "Cool blue moonlight from behind-right, warm points from town windows; soft, low contrast (estimate)",
+   "depth_cues": "Town and mountains hazed behind the wall; slow drift zoom"
+  },
+  {
+   "start": 9.0,
+   "end": 18.0,
+   "place": "Captain's tent interior",
+   "key_props": [
+    "red ornate carpet",
+    "wooden chests",
+    "red armour on a stand",
+    "folding screen with leaf pattern and red disc",
+    "gold ropes on canvas",
+    "window with mountain view",
+    "hanging scroll with a round crest"
+   ],
+   "in_world_text": [
+    "round swirl crest on a hanging scroll"
+   ],
+   "time_of_day": "night (warm interior)",
+   "lighting": "Warm golden lamp light from low practicals, soft; cool blue window fill; slight dutch roll during the argument (estimate)",
+   "depth_cues": "Wide-angle perspective, hazy window view"
+  },
+  {
+   "start": 18.0,
+   "end": 19.6,
+   "place": "Dark gatehouse interior, then the moonlit exit road",
+   "key_props": [
+    "wooden gate and stairs",
+    "yellow paper lanterns",
+    "seated guard in black with a red cap"
+   ],
+   "in_world_text": [],
+   "time_of_day": "night",
+   "lighting": "Warm lantern pools in deep shadow; cool moon outside",
+   "depth_cues": "Dark vignette; cross-dissolve to the hill with the moon behind"
+  },
+  {
+   "start": 19.6,
+   "end": 44.0,
+   "place": "Enemy camp at night",
+   "key_props": [
+    "bonfire",
+    "benches and stools",
+    "crates",
+    "black studded drum with a tray of gold coins",
+    "tally board",
+    "torches",
+    "tents",
+    "banners"
+   ],
+   "in_world_text": [
+    "tally marks on a wooden board (38-39 s)",
+    "white crests on black banners"
+   ],
+   "time_of_day": "night",
+   "lighting": "Cool moonlight rim from upper left; warm orange firelight and torches; blue-white lightning bursts at 43-44.7 s; soft shadows (estimate)",
+   "depth_cues": "Smoke and haze, distant tents softly blurred, low-angle perspective"
+  },
+  {
+   "start": 44.0,
+   "end": 54.3,
+   "place": "Abstract cutaway stage in a night field (inside the bomb)",
+   "key_props": [
+    "split iron shell",
+    "star-shaped shards",
+    "giant wooden spool wound with fuse",
+    "fuse sparks",
+    "small thread spool",
+    "ground cracks",
+    "distant tents and a banner pole"
+   ],
+   "in_world_text": [
+    "white crest on a banner pole"
+   ],
+   "time_of_day": "night",
+   "lighting": "Dim cool blue ambient; warm orange glow from the spool and sparks as the only warm light (estimate)",
+   "depth_cues": "Ground-level camera, background tents and hills slightly soft, dark vignette"
+  },
+  {
+   "start": 54.3,
+   "end": 57.6,
+   "place": "Enemy camp at dawn",
+   "key_props": [
+    "antlered-helmet samurai",
+    "two seated soldiers",
+    "bomb on cracked ground",
+    "bonsai-style pines",
+    "tents",
+    "banners",
+    "mallet"
+   ],
+   "in_world_text": [],
+   "time_of_day": "dawn",
+   "lighting": "Cool bright sky fill, low sun or moon behind the samurai; red glow from ground cracks at 56.4 s (estimate)",
+   "depth_cues": "Haze on distant hills and clouds; camera pushes to a close-up"
+  },
+  {
+   "start": 57.6,
+   "end": 59.1,
+   "place": "Fireball, then the city-wall top with the mushroom cloud behind",
+   "key_props": [
+    "fireball",
+    "mushroom cloud",
+    "stone wall with a small black square vent",
+    "two watching characters"
+   ],
+   "in_world_text": [],
+   "time_of_day": "day or dawn glow",
+   "lighting": "Very warm orange-yellow glow from the blast, backlit figures, pale haze (estimate)",
+   "depth_cues": "White-out flash at 57.6-57.9 s, then hazy sky with soft cloud edges"
+  }
+ ],
+ "set_style": "mixed",
+ "layer_stack": [
+  "sky dome with clouds and a flat bloomed moon disc",
+  "distant 3D set: hills, town, tents, banners, haze",
+  "midground 3D props: bonfire, benches, drum, crates, torches, smoke",
+  "toon characters: flat cream heads, thick black ink outline, stick limbs, soft ground shadows",
+  "foreground hero props: glossy bomb, spool, coin tray",
+  "VFX overlays: sparks, lightning arcs, fire, mushroom cloud, impact ticks, cartoon symbols",
+  "post: bloom, vignette, colour grade, grain",
+  "captions: white bold text with black stroke, centred at about 70% of frame height"
+ ],
+ "camera": {
+  "shot_sizes": [
+   "long (full body)",
+   "wide ground-level POV",
+   "aerial wide",
+   "medium",
+   "medium close-up",
+   "close-up",
+   "macro prop shots"
+  ],
+  "angles": [
+   "eye level",
+   "low ground level (bomb POV, spool)",
+   "high aerial (4.4-6 s)",
+   "slight dutch roll in the tent (12.4-17.7 s)"
+  ],
+  "lens_feel": "Wide-angle, roughly 24-28 mm equivalent (estimate): stretched heads in close-ups, deep wide shots",
+  "camera_height": "Mostly chest height; ground level for the bomb and spool shots; high for the fly-over (estimate)",
+  "notable_moves": [
+   {
+    "t": 0.0,
+    "type": "slow drift right with slight roll",
+    "note": "follows the protagonist rolling the bomb (pack: pan/truck-right + roll)"
+   },
+   {
+    "t": 0.83,
+    "type": "push-in",
+    "note": "ground-level creep behind the bomb toward the camp, about 3.8%/s zoom for 3.6 s (pack)"
+   },
+   {
+    "t": 4.4,
+    "type": "crane up and fly-over",
+    "note": "lifts from the camp, sweeps over tents and town, settles behind the wall; smooth, correct parallax (f132-f192, verified)"
+   },
+   {
+    "t": 12.43,
+    "type": "pull-out with roll",
+    "note": "tent argument: camera backs away and tilts a few degrees (f390-f465, verified)"
+   },
+   {
+    "t": 17.7,
+    "type": "fast push-in",
+    "note": "toward the tent window, then dissolve to the gatehouse (pack 66%H/s)"
+   },
+   {
+    "t": 38.1,
+    "type": "fast push-in",
+    "note": "to the commander and coin tray close-up (pack)"
+   },
+   {
+    "t": 45.2,
+    "type": "pan and push-in",
+    "note": "swings from the opening shell to the spool, then pushes in (f1356-f1384)"
+   },
+   {
+    "t": 49.33,
+    "type": "none (character exit)",
+    "note": "the flagged move is the soldier sliding out right; background and spool stay fixed (f1478-f1488)"
+   },
+   {
+    "t": 57.53,
+    "type": "pull-out into flash",
+    "note": "fireball fills the frame, then white-out (f1727-f1735)"
+   }
+  ]
+ },
+ "effects": [
+  {
+   "t": 1.0,
+   "dur_s": 3.4,
+   "type": "smoke",
+   "trigger": "smoke columns rise over the camp as the bomb rolls toward it"
+  },
+  {
+   "t": 13.7,
+   "dur_s": 1.0,
+   "type": "other",
+   "trigger": "blue sweat drop on the protagonist while the captain scoffs (cartoon symbol)"
+  },
+  {
+   "t": 14.7,
+   "dur_s": 1.0,
+   "type": "other",
+   "trigger": "red anger-vein symbol on the captain's hat when he orders him out"
+  },
+  {
+   "t": 32.8,
+   "dur_s": 0.3,
+   "type": "flash",
+   "trigger": "sword hits the bomb: spark burst (f986)"
+  },
+  {
+   "t": 38.1,
+   "dur_s": 1.0,
+   "type": "in-world sign",
+   "trigger": "tally-mark board by the coin tray during the betting line"
+  },
+  {
+   "t": 40.8,
+   "dur_s": 0.6,
+   "type": "particles",
+   "trigger": "orange sparks off the bomb on the swing"
+  },
+  {
+   "t": 43.0,
+   "dur_s": 1.8,
+   "type": "other",
+   "trigger": "blue-white lightning arcs crawl around the bomb as the weapon is named"
+  },
+  {
+   "t": 45.2,
+   "dur_s": 0.8,
+   "type": "particles",
+   "trigger": "shell halves, star shards and discs burst apart as the inside is revealed"
+  },
+  {
+   "t": 45.2,
+   "dur_s": 9.0,
+   "type": "diagram",
+   "trigger": "3D cutaway of the bomb's insides (spool, fuse) used as the explanation visual"
+  },
+  {
+   "t": 46.0,
+   "dur_s": 8.0,
+   "type": "defocus",
+   "trigger": "cutaway stage: tents and hills behind the spool look slightly soft (estimate)"
+  },
+  {
+   "t": 50.0,
+   "dur_s": 3.0,
+   "type": "glow",
+   "trigger": "glowing fuse coil with sparks while the fuse is described as creeping"
+  },
+  {
+   "t": 56.4,
+   "dur_s": 0.7,
+   "type": "colour shift",
+   "trigger": "red crack lines on the ground and red glowing eyes as the samurai lifts the hammer"
+  },
+  {
+   "t": 57.5,
+   "dur_s": 0.5,
+   "type": "flash",
+   "trigger": "fireball fills the frame and whites out as the fuse reaches the powder"
+  },
+  {
+   "t": 58.0,
+   "dur_s": 1.1,
+   "type": "smoke",
+   "trigger": "mushroom cloud with yellow impact ticks around the survivors on the last word"
+  }
+ ],
+ "lighting_mood_shifts": [
+  {
+   "t": 0.83,
+   "change": "Cool moonlight with a single warm bonfire glow",
+   "story_reason": "Establishes the enemy camp at night"
+  },
+  {
+   "t": 8.97,
+   "change": "Warm golden tent lamplight with cool window fill",
+   "story_reason": "Indoor argument with the captain"
+  },
+  {
+   "t": 19.15,
+   "change": "Back to cool moonlit outdoors",
+   "story_reason": "Sneaking out at night"
+  },
+  {
+   "t": 38.1,
+   "change": "Golden specular glow on the coin tray",
+   "story_reason": "Greed beat: the prize is shown"
+  },
+  {
+   "t": 43.0,
+   "change": "Blue-white lightning flashes light the scene",
+   "story_reason": "The weapon is named"
+  },
+  {
+   "t": 45.2,
+   "change": "Dark navy cutaway with the spool as the only warm light",
+   "story_reason": "Explainer: attention on the fuse"
+  },
+  {
+   "t": 54.3,
+   "change": "Sky brightens to dawn blue",
+   "story_reason": "Attack time is near; the clock is running"
+  },
+  {
+   "t": 56.4,
+   "change": "Red glow from ground cracks and red eyes",
+   "story_reason": "Tension: the fuse is about to hit the powder"
+  },
+  {
+   "t": 57.6,
+   "change": "White-yellow flash, then warm orange glow",
+   "story_reason": "Detonation payoff"
+  }
+ ],
+ "generation_evidence": [
+  {
+   "frames": [
+    1356,
+    1360,
+    1364,
+    1368,
+    1372,
+    1376
+   ],
+   "observation": "Bomb opens in a clean exploded view: shell halves, star shards and discs fly apart on smooth paths while the camera pans to the spool; geometry stays consistent frame to frame.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    132,
+    144,
+    156,
+    168,
+    180,
+    192
+   ],
+   "observation": "One continuous aerial fly-over with correct parallax over trees, houses and thousands of tiny tents and torches; nothing morphs between frames.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    212,
+    222,
+    232,
+    242,
+    252,
+    262
+   ],
+   "observation": "Protagonist keeps identical outline, pinstripe robe, hair band and gold pin for 1.7 s while the arm lifts the bomb in front of the moon; stone texture stays crisp.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    390,
+    395,
+    400,
+    420,
+    435,
+    445
+   ],
+   "observation": "Captain's face swaps discrete eye sets and mouth shapes under a steady ink outline while hat, body and set stay rock solid; reads as keyframed swaps.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    80,
+    600
+   ],
+   "observation": "Hook shot and the 20 s shot share the same camp staging (bench with three seated soldiers, fire, moon, banners) from different cameras: re-used assets.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    1165
+   ],
+   "observation": "Thumbnail-frame detail: tally marks on the board, studded drum, specular gold coins and square-pixel stubble stay crisp with no warping.",
+   "points_to": "3D engine render"
+  }
+ ],
+ "sample_points": [
+  {
+   "frame": 212,
+   "x": 0.48,
+   "y": 0.3,
+   "what": "protagonist head fill (cheek, cream white)",
+   "hex": "#FEFCFA",
+   "patch_spread": 81.2
+  },
+  {
+   "frame": 212,
+   "x": 0.332,
+   "y": 0.453,
+   "what": "protagonist teal robe, left of the strap",
+   "hex": "#6ED1AE",
+   "patch_spread": 25.5
+  },
+  {
+   "frame": 212,
+   "x": 0.29,
+   "y": 0.295,
+   "what": "protagonist black hair, left side of head",
+   "hex": "#FDF9F6",
+   "patch_spread": 1.3
+  },
+  {
+   "frame": 600,
+   "x": 0.5,
+   "y": 0.95,
+   "what": "night camp ground, warm dark brown dirt",
+   "hex": "#302126",
+   "patch_spread": 0.0
+  },
+  {
+   "frame": 1376,
+   "x": 0.49,
+   "y": 0.91,
+   "what": "cutaway stage ground, dusky purple-brown",
+   "hex": "#36272C",
+   "patch_spread": 0.5
+  },
+  {
+   "frame": 420,
+   "x": 0.382,
+   "y": 0.125,
+   "what": "tent canvas, pinkish beige",
+   "hex": "#675668",
+   "patch_spread": 0.8
+  },
+  {
+   "frame": 420,
+   "x": 0.88,
+   "y": 0.92,
+   "what": "tent red carpet, bottom right",
+   "hex": "#700E1D",
+   "patch_spread": 1.5
+  },
+  {
+   "frame": 1710,
+   "x": 0.75,
+   "y": 0.07,
+   "what": "dawn sky blue, top right",
+   "hex": "#426096",
+   "patch_spread": 0.0
+  },
+  {
+   "frame": 212,
+   "x": 0.143,
+   "y": 0.478,
+   "what": "city wall front face, ochre stone",
+   "hex": "#90643F",
+   "patch_spread": 1.3
+  },
+  {
+   "frame": 1729,
+   "x": 0.5,
+   "y": 0.2,
+   "what": "fireball orange, upper middle",
+   "hex": "#F6A83D",
+   "patch_spread": 5.1
+  }
+ ],
+ "thumbnail": "Auto-picked Short frame at about 38.8 s (f1165): teal-robed commander with gold beads behind a tray of gold coins on a black studded drum, two star-eyed grinning soldiers, caption 'open.'; the bet beat before the 39.10 s cut.",
+ "could_not_determine": [
+  "Whether the mouth shapes track phonemes (needs 1-frame stepping against the voice stem); only flapping confirmed at 0.17 s sampling.",
+  "Blink cadence: samples 0.33 s apart over 1.7 s showed no blink; a longer dense run is needed.",
+  "Whether the 15.77 s suspect is a pose snap or a hidden cut (f471-f474 were not stepped).",
+  "Whether the 53.03 s change is a cut or an orbit with a lighting pop (only f1589-f1592 seen).",
+  "Camera shake and motion blur on fast camera moves: none seen in sampled frames, not checked at every frame.",
+  "Identity of the black-coat red-cap man beside the protagonist in the last shot (gate guard or captain).",
+  "Exact engine (Unreal, Unity, Blender) and asset sources; frames alone cannot name them.",
+  "Whether the story is documented history or an invented dramatisation (needs a source check)."
+ ]
+}

@@ -1,0 +1,695 @@
+{
+ "video": "20_nzbkkEZFM8g",
+ "joins_verified": [
+  {
+   "t": 1.78,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Garden at night to bedroom wall window: double exposure of burglar on AC unit and burglar on sill."
+  },
+  {
+   "t": 2.75,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Burglar on sill fades into burglar leaning on red armchair; both bodies ghosted mid-way."
+  },
+  {
+   "t": 5.65,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Close shot of couch leg and tape measure fades to bright living room with dad and cat."
+  },
+  {
+   "t": 9.02,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Living room with cat fades to yellow kitchen with checker floor and fridge; blended mid frames."
+  },
+  {
+   "t": 15.38,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Worried dad in kitchen fades to the officer tilted beside the couch."
+  },
+  {
+   "t": 21.93,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Laughing officer fades into round binocular-style view of patrol car on a street."
+  },
+  {
+   "t": 23.37,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Round street view fades into a night living room with mum, dad, red couch."
+  },
+  {
+   "t": 25.1,
+   "auto_type": "inplace_blend",
+   "verdict": "in_place_change",
+   "note": "Same living-room framing; lamp light and blue night tint shift over about 6 frames, no new scene."
+  },
+  {
+   "t": 25.62,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Living room fades to top-down view of two people in bed; ghosted window and bed overlap."
+  },
+  {
+   "t": 30.73,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Overhead bed shot fades to low blue bedroom with girl under quilt and bunny clock."
+  },
+  {
+   "t": 39.13,
+   "auto_type": "inplace_blend",
+   "verdict": "in_place_change",
+   "note": "Same couch framing; dad's pose changes (bat lifted, face shifts) and light brightens. Estimate: clip swap."
+  },
+  {
+   "t": 48.17,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Living room with boxes fades to front lawn with for-sale sign and the dad."
+  },
+  {
+   "t": 54.65,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Close on burglar holding a key fades to living room with framed pictures and plant."
+  }
+ ],
+ "missed_joins": [
+  {
+   "t": 35.0,
+   "type": "dissolve",
+   "note": "Cat on floor fades into dad with lantern; double exposure visible at frame 1052, about 6-8 frames. Detector marked suspect only."
+  }
+ ],
+ "beats": [
+  {
+   "name": "hook",
+   "start": 0.0,
+   "end": 5.3,
+   "said": "A man sneaks into a family's house nightly and shifts everything one inch left.",
+   "shown": "Masked burglar in garden climbs AC unit, sill, then pushes armchair; tape measure at the end."
+  },
+  {
+   "name": "setup",
+   "start": 5.3,
+   "end": 15.3,
+   "said": "Nobody notices at first; by week's end the fridge blocks the door and dad doubts himself, so police are called.",
+   "shown": "Dad and cat in living room, then kitchen with fridge shoved to the back door, dad sweating."
+  },
+  {
+   "name": "escalation",
+   "start": 15.3,
+   "end": 23.3,
+   "said": "Officer mocks the complaint about an inch of furniture and laughs all the way to his car.",
+   "shown": "Smug officer close-up with half-lidded eyes, then circular street view of patrol car."
+  },
+  {
+   "name": "escalation",
+   "start": 23.3,
+   "end": 34.9,
+   "said": "They lock up, yet things keep creeping; bed meets wall; daughter hears sliding at 3 a.m.",
+   "shown": "Night living room, top-down bed shot, girl under quilt with bunny clock, low floor pan to cat."
+  },
+  {
+   "name": "twist",
+   "start": 34.9,
+   "end": 43.3,
+   "said": "Dad stakes out on the couch with a bat, and wakes to find himself moved.",
+   "shown": "Dad with headlamp, lantern, bat on couch; then couch leg and slippers close-ups."
+  },
+  {
+   "name": "payoff",
+   "start": 43.3,
+   "end": 50.9,
+   "said": "By month's end the couch is mid-room; the family sells at half price, to the buyer.",
+   "shown": "Wide living room with furniture shifted, sale sign on lawn, buyer in beanie and beard."
+  },
+  {
+   "name": "ending",
+   "start": 50.9,
+   "end": 58.4,
+   "said": "He had sold them the house earlier, kept a key, and bought it back cheap.",
+   "shown": "Burglar with key, family photo SOLD sign, then burglar on couch with cat and sold sign."
+  }
+ ],
+ "hook": {
+  "first_frame": "Night garden: masked black round-headed burglar walks on stepping stones past a bush, pumpkin and AC unit by a blue clapboard house.",
+  "first_3s": "He hops onto the AC unit, reaches a window, dissolves to the lit room where he sits on the sill, then leans on a red armchair.",
+  "line_type": "strange action by he/they",
+  "first_frame_shot_size": "medium-long",
+  "first_frame_subject": "protagonist doing the hook action",
+  "protagonist_looks_at_camera": true,
+  "title_vs_first_line": "Title restates the premise (burglar who only moved furniture); first line states the same act in different words."
+ },
+ "story": {
+  "topic_type": "crime/scam",
+  "setting_era": "modern",
+  "structure": "pure story with twist reveal",
+  "real_fact_core": "Slow, tiny changes go unnoticed, so a former owner who kept a key can drive a family out and buy the house back cheap.",
+  "likely_source_type": "invented parable",
+  "protagonist": "Dad in green sweater and round glasses",
+  "authority_or_antagonist": "Masked burglar, later revealed as the previous owner; a mocking police officer",
+  "direct_speech_lines": 1,
+  "second_person": false,
+  "tense": "mixed",
+  "explainer_turn": "\"You see\" at about 50.98 s",
+  "ending_type": "twist reveal is the last line",
+  "call_to_action": "none"
+ },
+ "tone": {
+  "humour": "Dry absurdist: tiny shifts treated as a menace; slapstick poses, smug cat and officer.",
+  "deadpan_or_irony": "Strong deadpan; the inch-per-night premise delivered straight, twist reveals the burglar was the seller.",
+  "dialogue_style": "One line of reported speech by the officer; rest is fast third-person narration, present tense then past."
+ },
+ "characters": [
+  {
+   "role": "burglar / former owner",
+   "head": "Large round black head with white face panel and beard (masked); later bare white head with beard and sleepy eyes",
+   "hair_or_hat": "Black ski mask with red band; later grey knit beanie",
+   "eyes": "Narrow half-lidded dashes or small dots",
+   "mouth": "Small line or smirk",
+   "body_and_clothes": "Slim dark pinstripe suit and belt; later yellow-brown jacket",
+   "limbs": "Thin black noodle arms and legs",
+   "accessories": "Gold key, tape measure",
+   "expressions_seen": [
+    "smug",
+    "sly smile",
+    "sleepy",
+    "eyes closed grin"
+   ]
+  },
+  {
+   "role": "dad",
+   "head": "Round white head, small brown hair tuft",
+   "hair_or_hat": "Brown tuft; later headlamp cap",
+   "eyes": "Round glasses with dot pupils",
+   "mouth": "Tiny line, worried wobble",
+   "body_and_clothes": "Teal-green sweater, later green puffer",
+   "limbs": "Thin black stick limbs",
+   "accessories": "Headlamp, lantern, baseball bat, slippers",
+   "expressions_seen": [
+    "blank",
+    "worried",
+    "sweating",
+    "sleepy",
+    "shocked"
+   ]
+  },
+  {
+   "role": "police officer",
+   "head": "Very large round white head",
+   "hair_or_hat": "Blue peaked cap with gold star",
+   "eyes": "Heavy half-closed lids, thick brows",
+   "mouth": "Flat line; open oval when talking",
+   "body_and_clothes": "Blue uniform, gold badge, yellow belt buckle",
+   "limbs": "Thin black arms and legs",
+   "accessories": "Badge, patrol car",
+   "expressions_seen": [
+    "smug",
+    "bored",
+    "laughing"
+   ]
+  },
+  {
+   "role": "orange cat (pet)",
+   "head": "Round with pointed ears",
+   "hair_or_hat": "Orange tabby stripes",
+   "eyes": "Large yellow-green with slit pupils",
+   "mouth": "Small cat mouth",
+   "body_and_clothes": "Orange striped fur, white chest",
+   "limbs": "Short",
+   "accessories": "none",
+   "expressions_seen": [
+    "curious",
+    "sleepy",
+    "smug"
+   ]
+  }
+ ],
+ "character_style": {
+  "head_height_share_of_body_estimate": 0.4,
+  "outline": "Thick dark ink outline on characters, thinner outline on props; estimate",
+  "shading": "Flat colour fills with soft gradient and rim light, coloured light glows; estimate",
+  "consistency_between_shots": "High: dad, officer, cat and burglar keep the same proportions, colours and face shapes across scenes.",
+  "shadow_under_character": "soft blob"
+ },
+ "animation": {
+  "body_motion": "Posed, puppet-like limb and torso movements: hops, leans, bat raise; thin limbs bend smoothly.",
+  "lip_sync": "flaps while speaking",
+  "lip_sync_evidence_frames": [
+   540,
+   542,
+   544,
+   546,
+   548,
+   550,
+   552
+  ],
+  "eyes_and_blinks": "Eyes are mostly fixed; expression swaps by changing lids and brows; blinks not clearly seen.",
+  "idle_motion": "Held takes keep mostly still; headlamp glints, slight head sway; push-in camera gives most motion.",
+  "squash_and_stretch": "Mild: torso stretches when burglar leans and cap tilts; limbs thin and elastic."
+ },
+ "environments": [
+  {
+   "start": 0,
+   "end": 2,
+   "place": "Suburban garden at night",
+   "key_props": [
+    "AC unit",
+    "pumpkin",
+    "bush",
+    "stepping stones",
+    "window"
+   ],
+   "in_world_text": [],
+   "time_of_day": "night",
+   "lighting": "Cool blue moonlight from front-left, soft, glowing window; estimate"
+  },
+  {
+   "start": 2,
+   "end": 5,
+   "place": "Living room at night (burglar entering)",
+   "key_props": [
+    "window",
+    "red armchair",
+    "floor lamp",
+    "pumpkin",
+    "tape measure"
+   ],
+   "in_world_text": [],
+   "time_of_day": "night",
+   "lighting": "Blue-violet ambient with warm spill from floor, rim glow on burglar"
+  },
+  {
+   "start": 5,
+   "end": 9,
+   "place": "Daylight living room",
+   "key_props": [
+    "red couch",
+    "cat",
+    "plants",
+    "framed pictures",
+    "window"
+   ],
+   "in_world_text": [],
+   "time_of_day": "day",
+   "lighting": "Soft warm daylight from window, low contrast"
+  },
+  {
+   "start": 9,
+   "end": 15,
+   "place": "Yellow kitchen with checker floor",
+   "key_props": [
+    "teal fridge",
+    "hanging lamp",
+    "wall phone",
+    "calendar",
+    "back door"
+   ],
+   "in_world_text": [
+    "note on fridge (DON'T MOVE!)",
+    "calendar OCTOBER"
+   ],
+   "time_of_day": "day",
+   "lighting": "Bright soft daylight, warm red glow when dad worries"
+  },
+  {
+   "start": 15,
+   "end": 22,
+   "place": "Living room with officer",
+   "key_props": [
+    "couch",
+    "officer",
+    "kitchen doorway",
+    "floor rug"
+   ],
+   "in_world_text": [],
+   "time_of_day": "day",
+   "lighting": "Soft bright light, pale cream wall"
+  },
+  {
+   "start": 22,
+   "end": 24,
+   "place": "Street with patrol car (circular view)",
+   "key_props": [
+    "patrol car",
+    "houses",
+    "lawn"
+   ],
+   "in_world_text": [
+    "POLICE on car"
+   ],
+   "time_of_day": "dusk/sunset",
+   "lighting": "Orange sunset sky, black circular vignette"
+  },
+  {
+   "start": 24,
+   "end": 31,
+   "place": "Night living room and bedroom top-down",
+   "key_props": [
+    "couch",
+    "lamps",
+    "bed",
+    "nightstand"
+   ],
+   "in_world_text": [],
+   "time_of_day": "night",
+   "lighting": "Blue night with warm lamp glow"
+  },
+  {
+   "start": 31,
+   "end": 35,
+   "place": "Dark bedroom, then hallway floor",
+   "key_props": [
+    "bunny alarm clock",
+    "door",
+    "quilt",
+    "cat"
+   ],
+   "in_world_text": [
+    "clock display 3:00"
+   ],
+   "time_of_day": "night",
+   "lighting": "Cyan clock glow, orange light under the door"
+  },
+  {
+   "start": 35,
+   "end": 44,
+   "place": "Living room stakeout",
+   "key_props": [
+    "red couch",
+    "lantern",
+    "baseball bat",
+    "slippers",
+    "moon window"
+   ],
+   "in_world_text": [],
+   "time_of_day": "night",
+   "lighting": "Moonlight through window, lantern glow, headlamp glint"
+  },
+  {
+   "start": 44,
+   "end": 48,
+   "place": "Wide living room with furniture shifted",
+   "key_props": [
+    "couch",
+    "bookshelf",
+    "boxes",
+    "rug lines"
+   ],
+   "in_world_text": [],
+   "time_of_day": "day",
+   "lighting": "Bright warm sunlight from window"
+  },
+  {
+   "start": 48,
+   "end": 55,
+   "place": "Front lawn and house",
+   "key_props": [
+    "For Sale sign",
+    "red door",
+    "SOLD sign",
+    "family photo"
+   ],
+   "in_world_text": [
+    "FOR SALE",
+    "SOLD",
+    "Welcome home"
+   ],
+   "time_of_day": "day",
+   "lighting": "Bright sunny, saturated greens"
+  },
+  {
+   "start": 55,
+   "end": 58.4,
+   "place": "Living room at night (end)",
+   "key_props": [
+    "couch",
+    "cat",
+    "SOLD / FOR SALE sign",
+    "plant",
+    "framed pictures"
+   ],
+   "in_world_text": [
+    "SOLD / FOR SALE sign"
+   ],
+   "time_of_day": "night",
+   "lighting": "Dark blue-purple ambient, soft, warm curtain"
+  }
+ ],
+ "set_style": "toon 3D with ink outlines",
+ "layer_stack": [
+  "painted or 3D-looking background with perspective",
+  "furniture and props with fine ink lines",
+  "flat 2D toon characters with thick outlines",
+  "light glow and vignette overlays",
+  "bold white captions with black outline"
+ ],
+ "camera": {
+  "shot_sizes": [
+   "medium-long",
+   "medium",
+   "close-up",
+   "wide",
+   "extreme close-up",
+   "overhead"
+  ],
+  "angles": [
+   "eye-level",
+   "low",
+   "high/overhead",
+   "tilted"
+  ],
+  "lens_feel": "Wide-angle with strong perspective and slightly bent lines; estimate",
+  "camera_height": "Mostly low to eye-level; floor-level at 34 s and overhead at 26-30 s",
+  "notable_moves": [
+   {
+    "t": 4.0,
+    "type": "orbit/zoom",
+    "note": "Swings around burglar to a close push on the armchair."
+   },
+   {
+    "t": 34.0,
+    "type": "low pan and dolly",
+    "note": "Camera glides along floor from bed to cat in hall; no cut."
+   },
+   {
+    "t": 43.0,
+    "type": "pull-out",
+    "note": "Close on slippers then pulls back to wide living room."
+   },
+   {
+    "t": 55.0,
+    "type": "whip pan",
+    "note": "Whip to living room with burglar leaning over couch."
+   }
+  ]
+ },
+ "effects": [
+  {
+   "t": 1.78,
+   "dur_s": 0.4,
+   "type": "other",
+   "trigger": "dissolve between scenes with whoosh"
+  },
+  {
+   "t": 22.0,
+   "dur_s": 1.4,
+   "type": "other",
+   "trigger": "circular binocular-style vignette on patrol car shot"
+  },
+  {
+   "t": 31.0,
+   "dur_s": 3.0,
+   "type": "glow",
+   "trigger": "cyan bunny clock glow and orange door light"
+  },
+  {
+   "t": 35.5,
+   "dur_s": 4.0,
+   "type": "glow",
+   "trigger": "lantern and headlamp glow"
+  },
+  {
+   "t": 38.45,
+   "dur_s": 0.9,
+   "type": "other",
+   "trigger": "low hit sound with the line about waking"
+  }
+ ],
+ "lighting_mood_shifts": [
+  {
+   "t": 5.3,
+   "change": "Cool blue night to bright warm daylight",
+   "story_reason": "From break-in to ordinary family life."
+  },
+  {
+   "t": 22.0,
+   "change": "Cream indoor light to sunset orange with dark vignette",
+   "story_reason": "Officer leaves; mood turns ominous."
+  },
+  {
+   "t": 24.0,
+   "change": "Warm orange evening to deep blue night",
+   "story_reason": "Nightly creeping continues."
+  },
+  {
+   "t": 44.4,
+   "change": "Back to bright sunny warm daylight",
+   "story_reason": "Month-end, house for sale."
+  },
+  {
+   "t": 57.0,
+   "change": "Dark blue-purple ending room",
+   "story_reason": "Burglar back in the house, sly mood."
+  }
+ ],
+ "generation_evidence": [
+  {
+   "frames": [
+    540,
+    542,
+    544,
+    546,
+    548,
+    550,
+    552
+   ],
+   "observation": "Officer's mouth goes line, small oval, big oval, line while his head and cap stay fixed in shape.",
+   "points_to": "hand animation"
+  },
+  {
+   "frames": [
+    770,
+    778,
+    786,
+    794,
+    802
+   ],
+   "observation": "Top-down bed shot: faces change expression while quilt and bed geometry stay rigid; striped quilt shows moire-like banding.",
+   "points_to": "hand animation"
+  },
+  {
+   "frames": [
+    1020,
+    1024,
+    1028,
+    1040
+   ],
+   "observation": "Camera glides along the floor and wall lines remain straight with correct perspective; bunny clock 3:00 stays crisp.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    1150,
+    1158,
+    1166
+   ],
+   "observation": "Same couch, window and slippers across frames; only a slight head sway and glints change.",
+   "points_to": "hand animation"
+  },
+  {
+   "frames": [
+    1588,
+    1655
+   ],
+   "observation": "Same cat, couch, sign and character models recur identically between scenes, suggesting reusable assets.",
+   "points_to": "3D engine render"
+  }
+ ],
+ "sample_points": [
+  {
+   "frame": 1020,
+   "x": 0.15,
+   "y": 0.5,
+   "what": "blue bedroom wall",
+   "hex": "#6161DD",
+   "patch_spread": 2.7
+  },
+  {
+   "frame": 560,
+   "x": 0.5,
+   "y": 0.35,
+   "what": "officer head fill",
+   "hex": "#FBF5F6",
+   "patch_spread": 1.3
+  },
+  {
+   "frame": 560,
+   "x": 0.5,
+   "y": 0.62,
+   "what": "officer blue uniform",
+   "hex": "#2A1C2D",
+   "patch_spread": 0.8
+  },
+  {
+   "frame": 560,
+   "x": 0.5,
+   "y": 0.1,
+   "what": "officer cap blue",
+   "hex": "#F4F0E7",
+   "patch_spread": 0.5
+  },
+  {
+   "frame": 330,
+   "x": 0.15,
+   "y": 0.2,
+   "what": "kitchen yellow wall",
+   "hex": "#73BDC8",
+   "patch_spread": 67.7
+  },
+  {
+   "frame": 330,
+   "x": 0.3,
+   "y": 0.9,
+   "what": "kitchen teal floor tile",
+   "hex": "#118594",
+   "patch_spread": 0.4
+  },
+  {
+   "frame": 1450,
+   "x": 0.3,
+   "y": 0.9,
+   "what": "lawn green",
+   "hex": "#674446",
+   "patch_spread": 3.9
+  },
+  {
+   "frame": 1735,
+   "x": 0.5,
+   "y": 0.8,
+   "what": "couch red end scene",
+   "hex": "#180E21",
+   "patch_spread": 1.5
+  },
+  {
+   "frame": 40,
+   "x": 0.5,
+   "y": 0.2,
+   "what": "dark blue house siding",
+   "hex": "#243E9A",
+   "patch_spread": 20.8
+  },
+  {
+   "frame": 200,
+   "x": 0.5,
+   "y": 0.9,
+   "what": "living room carpet cream",
+   "hex": "#AEA0B9",
+   "patch_spread": 3.3
+  }
+ ],
+ "thumbnail": "Officer in blue cap close up, half-lidded smug, dad small in kitchen doorway behind; a frame from about 18 s.",
+ "could_not_determine": [
+  "Whether backgrounds are rendered 3D or painted 2.5D with parallax",
+  "Exact blink timing of characters",
+  "Whether 39.13 s is a clip swap or one continuous take",
+  "Whether the cuts hide generative AI image-to-video use"
+ ]
+}
