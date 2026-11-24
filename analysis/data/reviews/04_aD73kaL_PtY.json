@@ -1,0 +1,632 @@
+{
+ "video": "04_aD73kaL_PtY",
+ "joins_verified": [
+  {
+   "t": 9.45,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Road with tree to 'Days since last crash 7' sign; double exposure in middle tiles."
+  },
+  {
+   "t": 12.12,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Sign reading 0 on tyre dissolves into the tree with a man on a ladder; both visible in the middle tiles."
+  },
+  {
+   "t": 14.85,
+   "auto_type": "inplace_blend",
+   "verdict": "in_place_change",
+   "note": "Same framing of tree, arrow sign and townsfolk; the sign lettering changes (HIT THIS TREE to DON'T HIT THIS TREE). Not a clip join."
+  },
+  {
+   "t": 17.27,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Crash scene at dusk dissolves into red tow truck with TREE TOWING sign."
+  },
+  {
+   "t": 21.95,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Tow guy in lawn chair dissolves into Sheriff's Office sign with sheriff asleep in car."
+  },
+  {
+   "t": 22.9,
+   "auto_type": "cut",
+   "verdict": "cut",
+   "note": "Sleeping sheriff close-up to rear view of cruiser driving down a town street."
+  },
+  {
+   "t": 24.4,
+   "auto_type": "cut",
+   "verdict": "cut",
+   "note": "Wide road with smoke columns to side view of cruiser with a 15 speed sign."
+  },
+  {
+   "t": 27.17,
+   "auto_type": "cut",
+   "verdict": "cut",
+   "note": "Sheriff face in cab (wide-eyed) to up-angle shot of the tree canopy; hard cut on 'slams'."
+  },
+  {
+   "t": 31.27,
+   "auto_type": "cut",
+   "verdict": "cut",
+   "note": "Furious sheriff with axe and lightning to wide low shot of him at the tree base."
+  },
+  {
+   "t": 35.63,
+   "auto_type": "cut",
+   "verdict": "cut",
+   "note": "Tow guy under a blown-open sky to interior of a garage with wrecked cruiser."
+  },
+  {
+   "t": 37.4,
+   "auto_type": "cut",
+   "verdict": "cut",
+   "note": "Garage with repaired cruiser to sheriff driving, close side view."
+  },
+  {
+   "t": 40.2,
+   "auto_type": "cut",
+   "verdict": "cut",
+   "note": "Cruiser on road seen from above to low shot of the stump with arrow sign."
+  },
+  {
+   "t": 45.63,
+   "auto_type": "cut",
+   "verdict": "cut",
+   "note": "Dashboard POV with TARGET FIXATION sign to rear shot of car on a wet road at night."
+  },
+  {
+   "t": 49.1,
+   "auto_type": "cut",
+   "verdict": "cut",
+   "note": "Rear shot of car approaching tree in fog to dashboard POV with glowing sign ahead."
+  },
+  {
+   "t": 51.73,
+   "auto_type": "cut",
+   "verdict": "cut",
+   "note": "Dashboard POV to sheriff close-up lit from below in the cab."
+  },
+  {
+   "t": 52.98,
+   "auto_type": "inplace_blend",
+   "verdict": "in_place_change",
+   "note": "Same sheriff close-up; eyes change from round glasses to red spiral eyes while lighting warms. State change, not a join."
+  },
+  {
+   "t": 54.6,
+   "auto_type": "cut",
+   "verdict": "cut",
+   "note": "Sheriff glowing face close-up to dashboard POV with sign in the distance."
+  },
+  {
+   "t": 58.47,
+   "auto_type": "cut",
+   "verdict": "cut",
+   "note": "Windshield POV with sign filling the view to wide side shot of cruiser hitting the stump."
+  }
+ ],
+ "missed_joins": [
+  {
+   "t": 43.5,
+   "type": "cut",
+   "note": "Iris-style circular matte opens from the sheriff's face into the dashboard POV (about f1300-1307); a masked transition the detector scored as suspect."
+  }
+ ],
+ "beats": [
+  {
+   "name": "hook",
+   "start": 0.0,
+   "end": 4.1,
+   "said": "Plant a tree beside an empty road and cars will steer right into it.",
+   "shown": "Man plants tree, it grows fast and knocks him over; car veers toward it."
+  },
+  {
+   "name": "setup",
+   "start": 4.1,
+   "end": 9.3,
+   "said": "The road is dead straight for miles and this one tree stands alone beside it.",
+   "shown": "Man on grass by tyre; aerial view of straight road with lone tree."
+  },
+  {
+   "name": "escalation",
+   "start": 9.3,
+   "end": 21.9,
+   "said": "Somebody hits it weekly, so the town adds a flashing arrow, crashes double, tow driver profits.",
+   "shown": "Days-since-crash sign, giant neon arrow, wrecks, tow truck and lawn chair."
+  },
+  {
+   "name": "twist",
+   "start": 21.9,
+   "end": 35.6,
+   "said": "The sheriff investigates, crawls at 15 mph and still crashes, then axes the tree.",
+   "shown": "Sheriff in cruiser, speed sign, crash, furious axe chop with lightning, blast to sky."
+  },
+  {
+   "name": "payoff",
+   "start": 35.6,
+   "end": 42.1,
+   "said": "His cruiser gets fixed, he drives back for peace, and hits the stump again.",
+   "shown": "Garage repair, drive back, cruiser hitting stump by the arrow."
+  },
+  {
+   "name": "explainer",
+   "start": 42.1,
+   "end": 54.6,
+   "said": "It is target fixation: the lone tree stands out, the arrow adds to it, drivers' eyes lock on.",
+   "shown": "Night rain POV of dashboard with road sign, tree glowing in fog, sheriff close-ups."
+  },
+  {
+   "name": "ending",
+   "start": 54.6,
+   "end": 59.5,
+   "said": "Their hands drift the wheel toward it even when it's only a stump.",
+   "shown": "POV of steering wheel, then wide shot of cruiser hitting the stump under dark sky."
+  }
+ ],
+ "hook": {
+  "first_frame": "Cartoon man in red cap and teal jacket stands on grass beside a road, holding a dark mitt-like object, a dirt mound in front of him.",
+  "first_3s": "He plants a seed, a huge tree bursts up and knocks him over; camera pulls out to a wide of the road with a car swerving toward the tree.",
+  "line_type": "second-person hypothetical (if you)",
+  "first_frame_shot_size": "medium-long",
+  "first_frame_subject": "protagonist doing the hook action",
+  "protagonist_looks_at_camera": false,
+  "title_vs_first_line": "Title names the effect (instinct that makes you crash); the first line states the tree premise, and the title's concept is only named at 43s."
+ },
+ "story": {
+  "topic_type": "psychology/behaviour",
+  "setting_era": "modern",
+  "structure": "act first, explain at the end",
+  "real_fact_core": "Target fixation: drivers steer toward what they stare at, so a salient lone obstacle draws crashes.",
+  "likely_source_type": "psychology",
+  "protagonist": "Tow truck guy and the sheriff (a comic escalation duo)",
+  "authority_or_antagonist": "The sheriff, who repeats the mistake despite knowing.",
+  "direct_speech_lines": 0,
+  "second_person": true,
+  "tense": "present",
+  "explainer_turn": "'So how does this keep happening?' at 42.07s, then 'target fixation' at 43.7s",
+  "ending_type": "explanation is the last line",
+  "call_to_action": "none"
+ },
+ "tone": {
+  "humour": "Absurd escalation: the fix makes it worse, tow driver profits, sheriff repeats the crash.",
+  "deadpan_or_irony": "Deadpan narration over slapstick; heavy irony in the arrow and the sheriff returning for a quiet road.",
+  "dialogue_style": "No quoted dialogue; fast narrated present-tense summary, very short sentences."
+ },
+ "characters": [
+  {
+   "role": "Tow truck guy / opening man",
+   "head": "Round white circle head",
+   "hair_or_hat": "White-and-red baseball cap",
+   "eyes": "Two small dots, half-lidded or wide ring eyes",
+   "mouth": "Small line",
+   "body_and_clothes": "Bean-shaped teal jacket with buttons",
+   "limbs": "Thin black stick arms and legs",
+   "accessories": "Lawn chair, mitt",
+   "expressions_seen": [
+    "bored",
+    "smug",
+    "shocked wide-eyed"
+   ]
+  },
+  {
+   "role": "Sheriff",
+   "head": "Round white head, thick black outline",
+   "hair_or_hat": "Brown cowboy hat with gold aviators on the brim",
+   "eyes": "Ring eyes with dots; red glowing angry eyes; spiral eyes",
+   "mouth": "Brown moustache over small mouth",
+   "body_and_clothes": "Khaki uniform with star badge and buttons",
+   "limbs": "Stick limbs",
+   "accessories": "Axe, cruiser",
+   "expressions_seen": [
+    "asleep",
+    "calm",
+    "wide-eyed panic",
+    "furious",
+    "hypnotised"
+   ]
+  },
+  {
+   "role": "Townsfolk extras",
+   "head": "Same round white head",
+   "hair_or_hat": "Hard hat, plain",
+   "eyes": "Dots",
+   "mouth": "Small line",
+   "body_and_clothes": "Green and yellow vests, purple shirt",
+   "limbs": "Stick limbs",
+   "accessories": "Ladder",
+   "expressions_seen": [
+    "neutral"
+   ]
+  }
+ ],
+ "character_style": {
+  "head_height_share_of_body_estimate": 0.33,
+  "outline": "Thick dark brown-black outline on characters and hat; the 3D set has none.",
+  "shading": "Flat fills with mild gradient on the head and soft rim from scene light; face lit by the red glow in the night scene.",
+  "consistency_between_shots": "High: same proportions, colours and face shapes in all shots.",
+  "shadow_under_character": "soft blob"
+ },
+ "animation": {
+  "body_motion": "Posed 2D cut-out figures keyed in the 3D scene: leaning, sitting, rising from the chair, bobbing; arms drawn as stick lines.",
+  "lip_sync": "none (mouth static)",
+  "lip_sync_evidence_frames": [
+   780,
+   795,
+   810,
+   1296,
+   1300
+  ],
+  "eyes_and_blinks": "Eyes swap between sets (dots, rings, red, spiral); no blinks seen; pupils shift between poses.",
+  "idle_motion": "Gentle pose changes; the tyre rolls and tree dust drifts; the 3D camera drifts around.",
+  "squash_and_stretch": "Present on the opening man (bent and rebounding at f12-f30) and in impact poses; otherwise minimal. Estimate."
+ },
+ "environments": [
+  {
+   "start": 0,
+   "end": 4,
+   "place": "Roadside grass at a straight country road",
+   "key_props": [
+    "dirt mound",
+    "fence",
+    "car",
+    "tree"
+   ],
+   "in_world_text": [],
+   "time_of_day": "Day, clear sky with clouds",
+   "lighting": "Sun from upper left, soft shadows, warm/neutral light",
+   "depth_cues": "Strong grass foreground blur and tall grass; a distant car on the road."
+  },
+  {
+   "start": 4,
+   "end": 10,
+   "place": "Same roadside, then aerial view of a road through fields",
+   "key_props": [
+    "tyre",
+    "lone tree",
+    "farmland strips"
+   ],
+   "in_world_text": [],
+   "time_of_day": "Day",
+   "lighting": "High sun, hard tree shadows",
+   "depth_cues": "Long perspective down the road, haze at horizon."
+  },
+  {
+   "start": 10,
+   "end": 21,
+   "place": "Tree on the roadside with signs and crash sites",
+   "key_props": [
+    "days since crash sign",
+    "neon arrow",
+    "wrecked cars",
+    "tow truck"
+   ],
+   "in_world_text": [
+    "DAYS SINCE LAST CRASH 7 to 0",
+    "HIT THIS TREE / DON'T HIT THIS TREE",
+    "TREE TOWING CASH ONLY"
+   ],
+   "time_of_day": "Day, later dusk look at 16-17s",
+   "lighting": "Sun key, darker orange dusk tint at the crash",
+   "depth_cues": "Shallow defocus on the background, haze."
+  },
+  {
+   "start": 21,
+   "end": 35,
+   "place": "Town street and the tree (sheriff's drive, crash, chopping)",
+   "key_props": [
+    "Sheriff's Office sign",
+    "cruiser",
+    "speed sign 15",
+    "axe",
+    "tow truck"
+   ],
+   "in_world_text": [
+    "SHERIFF'S OFFICE",
+    "YOUR SPEED 15",
+    "SHERIFF on cruiser"
+   ],
+   "time_of_day": "Day, stormy sky at 30-32s",
+   "lighting": "Bright sun, then a dark flash with lightning for the axe",
+   "depth_cues": "Smoke on the horizon, bloom, radial burst at 33-35s."
+  },
+  {
+   "start": 35,
+   "end": 42,
+   "place": "Garage, then road back to the tree",
+   "key_props": [
+    "wrecked and repaired cruiser",
+    "red jacks"
+   ],
+   "in_world_text": [],
+   "time_of_day": "Interior lights, then daytime",
+   "lighting": "Overhead fluorescent in the garage; sun outside",
+   "depth_cues": "Cloud-filled sky, long road."
+  },
+  {
+   "start": 42,
+   "end": 59.5,
+   "place": "Stormy night road, driver POV in the cruiser, final wide at the stump",
+   "key_props": [
+    "dashboard",
+    "steering wheel",
+    "glowing neon arrow",
+    "TARGET FIXATION sign"
+   ],
+   "in_world_text": [
+    "TARGET FIXATION",
+    "DON'T HIT THIS TREE"
+   ],
+   "time_of_day": "Night, rain and fog",
+   "lighting": "Cool blue dark ambient, warm headlight and neon glow, orange dash glow",
+   "depth_cues": "Rain streaks, fog glow, vignette, light shafts from the headlights."
+  }
+ ],
+ "set_style": "mixed",
+ "layer_stack": [
+  "3D sky and terrain",
+  "3D tree, signs, vehicles",
+  "2D outlined cut-out characters",
+  "3D foreground grass and dust particles",
+  "FX such as lightning, burst and rain",
+  "Bold white captions"
+ ],
+ "camera": {
+  "shot_sizes": [
+   "wide",
+   "medium",
+   "close-up",
+   "extreme close-up",
+   "POV"
+  ],
+  "angles": [
+   "eye level",
+   "low looking up",
+   "high aerial",
+   "over-the-dash POV"
+  ],
+  "lens_feel": "Wide-angle perspective with strong depth; telephoto compression in the closing zoom (estimate)",
+  "camera_height": "Mostly low to eye level, with an aerial at 6-8s",
+  "notable_moves": [
+   {
+    "t": 0.6,
+    "type": "pull-out / tilt up",
+    "note": "Follows the tree up and then away to a wide of the road."
+   },
+   {
+    "t": 5.0,
+    "type": "fly-through",
+    "note": "Swoops from the man up to the aerial road view."
+   },
+   {
+    "t": 43.0,
+    "type": "zoom into face",
+    "note": "Extreme push-in on the sheriff's eye, then iris-masked reveal of the POV."
+   },
+   {
+    "t": 32.0,
+    "type": "orbit",
+    "note": "Orbits the chopped tree and ring burst."
+   }
+  ]
+ },
+ "effects": [
+  {
+   "t": 0.6,
+   "dur_s": 1.0,
+   "type": "particles",
+   "trigger": "tree plants itself; dirt burst and dust"
+  },
+  {
+   "t": 12.1,
+   "dur_s": 0.3,
+   "type": "in-world sign",
+   "trigger": "Days since last crash resets to 0"
+  },
+  {
+   "t": 14.8,
+   "dur_s": 0.3,
+   "type": "in-world sign",
+   "trigger": "neon arrow sign text swaps"
+  },
+  {
+   "t": 31.2,
+   "dur_s": 0.7,
+   "type": "flash",
+   "trigger": "lightning and axe, chops"
+  },
+  {
+   "t": 32.2,
+   "dur_s": 2.5,
+   "type": "particles",
+   "trigger": "tree blasted into a ring, debris and sky burst"
+  },
+  {
+   "t": 43.3,
+   "dur_s": 0.4,
+   "type": "other",
+   "trigger": "extreme zoom plus circular iris mask into POV"
+  },
+  {
+   "t": 45.0,
+   "dur_s": 14.0,
+   "type": "colour shift",
+   "trigger": "night grade with rain, fog and glow throughout the explainer"
+  },
+  {
+   "t": 58.6,
+   "dur_s": 0.9,
+   "type": "particles",
+   "trigger": "crash debris and light at the stump"
+  }
+ ],
+ "lighting_mood_shifts": [
+  {
+   "t": 16.5,
+   "change": "Warm dusk tint with orange cars",
+   "story_reason": "Crashes double; hazard turns darker."
+  },
+  {
+   "t": 31.0,
+   "change": "Stormy dark sky, lightning flash",
+   "story_reason": "Sheriff's rage with the axe."
+  },
+  {
+   "t": 43.6,
+   "change": "Hard switch to cold, dark rainy night",
+   "story_reason": "Explainer mode, a more serious tone."
+  },
+  {
+   "t": 52.0,
+   "change": "Warm orange glow on the sheriff's face, red eyes",
+   "story_reason": "Hypnotic lock-on to the tree."
+  }
+ ],
+ "generation_evidence": [
+  {
+   "frames": [
+    0,
+    30,
+    42
+   ],
+   "observation": "Tree growth, leaves and bark stay coherent through the move; clean perspective and consistent geometry.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    1296,
+    1300,
+    1304
+   ],
+   "observation": "Zoom into the eye with a vector-clean outline stays sharp, then an iris-mask transition: a compositing effect.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    780,
+    795,
+    810
+   ],
+   "observation": "Sheriff face is identical across frames, static mouth, the hat and glasses crisp; the interior details (turtle toy, beer cup) stay stable.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    300,
+    360
+   ],
+   "observation": "Sign text DAYS SINCE LAST CRASH is crisp and stable and numbers swap cleanly; no warping text.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    125,
+    135,
+    150
+   ],
+   "observation": "Tyre rolls with physical bounce and shadow; cap man changes pose, with a hard outline unaffected.",
+   "points_to": "hand animation"
+  },
+  {
+   "frames": [
+    938,
+    965,
+    975
+   ],
+   "observation": "Chop blast and ring explosion look like stylised particle or sim effects with a radial burst.",
+   "points_to": "3D engine render"
+  }
+ ],
+ "sample_points": [
+  {
+   "frame": 0,
+   "x": 0.1,
+   "y": 0.2,
+   "what": "sky upper left, pale blue and white",
+   "hex": "#D7D5D9",
+   "patch_spread": 2.0
+  },
+  {
+   "frame": 0,
+   "x": 0.5,
+   "y": 0.9,
+   "what": "foreground grass, bright green",
+   "hex": "#40692E",
+   "patch_spread": 15.0
+  },
+  {
+   "frame": 0,
+   "x": 0.6,
+   "y": 0.34,
+   "what": "main character head fill, white",
+   "hex": "#AEAAA4",
+   "patch_spread": 20.4
+  },
+  {
+   "frame": 0,
+   "x": 0.53,
+   "y": 0.47,
+   "what": "main character teal jacket",
+   "hex": "#5B864C",
+   "patch_spread": 20.8
+  },
+  {
+   "frame": 1170,
+   "x": 0.4,
+   "y": 0.78,
+   "what": "sheriff cruiser white body (garage scene)",
+   "hex": "#584C50",
+   "patch_spread": 0.0
+  },
+  {
+   "frame": 810,
+   "x": 0.8,
+   "y": 0.9,
+   "what": "sheriff head near face fill, white",
+   "hex": "#CDCCCA",
+   "patch_spread": 0.5
+  },
+  {
+   "frame": 810,
+   "x": 0.8,
+   "y": 0.58,
+   "what": "sheriff brown hat",
+   "hex": "#3A272F",
+   "patch_spread": 30.9
+  },
+  {
+   "frame": 1470,
+   "x": 0.5,
+   "y": 0.1,
+   "what": "night rain sky, dark blue-grey",
+   "hex": "#414457",
+   "patch_spread": 0.4
+  },
+  {
+   "frame": 1650,
+   "x": 0.5,
+   "y": 0.8,
+   "what": "dashboard and wheel, dark brown-black",
+   "hex": "#141416",
+   "patch_spread": 2.0
+  },
+  {
+   "frame": 330,
+   "x": 0.5,
+   "y": 0.1,
+   "what": "day sky blue near tree",
+   "hex": "#1B261E",
+   "patch_spread": 1.3
+  }
+ ],
+ "thumbnail": "Furious sheriff with red eyes in front of the neon DON'T HIT THIS TREE arrow and tow truck; taken from about 29.5s ('furious').",
+ "could_not_determine": [
+  "Which engine or software built the 3D scenes (visual evidence points to a real-time engine such as Unreal or Unity, not decided)",
+  "Whether the characters are 2D sprites or flat 3D meshes",
+  "Exact transition type at 28.67s (looks like a camera move)"
+ ]
+}
