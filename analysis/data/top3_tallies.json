@@ -1,0 +1,36 @@
+{
+ "seconds_logged": 0,
+ "new_setups_by_eye": 0,
+ "seconds_per_setup": 0.0,
+ "shot_size_share": {},
+ "subject_share": {},
+ "picture_job_share": {},
+ "picture_job_by_beat": {},
+ "shot_size_by_beat": {},
+ "per_video": {
+  "10_7xS87iActkU": {
+   "seconds": 66,
+   "new_setups_by_eye": 0,
+   "seconds_per_setup": null,
+   "shot_size": {},
+   "picture_job": {},
+   "subject": {}
+  },
+  "19_0m6G8pDtzNs": {
+   "seconds": 61,
+   "new_setups_by_eye": 0,
+   "seconds_per_setup": null,
+   "shot_size": {},
+   "picture_job": {},
+   "subject": {}
+  },
+  "11_Mz72MuPgnGY": {
+   "seconds": 65,
+   "new_setups_by_eye": 0,
+   "seconds_per_setup": null,
+   "shot_size": {},
+   "picture_job": {},
+   "subject": {}
+  }
+ }
+}

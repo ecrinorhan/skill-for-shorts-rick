@@ -1,0 +1,13 @@
+# Tested versions (Python 3.12, CPU only). Needed for check_script.py, voice.py and mix.py.
+--extra-index-url https://download.pytorch.org/whl/cpu
+numpy==2.5.5
+scipy==1.18.1
+soundfile==0.14.0
+librosa==1.0.1
+pyloudnorm==0.2.0
+praat-parselmouth==0.4.7
+num2words==0.5.14
+kokoro-onnx==0.6.1
+onnxruntime==1.32.0
+torch==2.5.1
+torchaudio==2.5.1
