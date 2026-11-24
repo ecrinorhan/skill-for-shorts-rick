@@ -2,8 +2,8 @@
 """Write the machine-readable style targets the skill's scripts read.
 
 Usage: 20_style_targets.py <analysis_dir> <skill_dir>
-Reads  <analysis>/data/summary.json, caption_grouping.json, caption_style.json, font_match.json, script_stats.json and, when it
-       exists, reviews_summary.json
+Reads  <analysis>/data/summary.json, caption_grouping.json, caption_style.json, font_match.json, script_stats.json and, when they
+       exist, reviews_summary.json and aligner_check.json
 Writes <skill>/references/style_targets.json and copies the measurement scripts into <skill>/scripts/measure/lib
 """
 import json
@@ -26,7 +26,7 @@ def main():
     rv = json.loads((adir / "data" / "reviews_summary.json").read_text()) if (adir / "data" / "reviews_summary.json").exists() else {}
     rule = grp["best_rule_matching_words_per_caption"] or grp["best_rule"]
     out = {
-        "source": "20 Shorts measured in analysis/ (see analysis/output/03_style_bible.md)", "n_videos": s["n_videos"],
+        "source": "20 Shorts measured in analysis/ (explained in references/style-bible.md)", "n_videos": s["n_videos"],
         "wpm": m["wpm"]["mean"], "words": m["words"]["mean"], "duration_s": m["duration_s"]["mean"], "voice_f0_range_st": m["voice_f0_range_st"]["mean"],
         "voice_f0_median_hz": m["voice_f0_median_hz"]["mean"],
         "caption_rule": {"SHORT": rule["SHORT"], "MAXCHARS": rule["MAXCHARS"], "MAX3": rule["MAX3"], "stop_punct": rule["stop_punct"],
@@ -39,6 +39,12 @@ def main():
         "structure": rv.get("structure_targets", {}),
         "metrics": {k: v for k, v in m.items() if v},
     }
+    ac = adir / "data" / "aligner_check.json"
+    if ac.exists():      # the tools time words with another model than the analysis did: give them the lead measured with theirs
+        lead = json.loads(ac.read_text())["caption_lead_frames"]
+        out["caption_rule"]["lead_frames_analysis_model"] = out["caption_rule"]["lead_frames"]
+        out["caption_rule"]["lead_frames"] = lead["wav2vec2"]["mean"]
+        out["metrics"]["caption_lead_frames_median"] = {**lead["wav2vec2"], "note": "re-measured with the tools' word-timing model (analysis/data/aligner_check.json)"}
     (skill / "references").mkdir(parents=True, exist_ok=True)
     (skill / "references" / "style_targets.json").write_text(json.dumps(out, indent=1))
     lib = skill / "scripts" / "measure" / "lib"

@@ -10,7 +10,8 @@ build
   2. removes pauses: none longer than 80 ms inside a sentence, 60 ms between sentences (the reference style has no pause
      of 250 ms or more anywhere and the voice is on for 98 % of the runtime); the pauses left are measured and reported
   3. sets the pace to the target words per minute
-  4. force-aligns every word (torchaudio MMS_FA) and groups words into 1-2 word captions
+  4. force-aligns every word (wav2vec2 base through torchaudio; MIT-licensed weights, about 360 MB, fetched on first use)
+     and groups words into 1-2 word captions
 
 Kokoro model files (kokoro-v1.0.onnx, voices-v1.0.bin) are looked up in $KOKORO_DIR, then in <skill>/models/kokoro
 (scripts/install.py downloads them there).
@@ -177,6 +178,8 @@ def spoken(tok):
         try:
             if re.fullmatch(r"\d+(st|nd|rd|th)", s):
                 return num2words(int(s[:-2]), to="ordinal")
+            if re.fullmatch(r"(1[0-9]|20)\d\ds?", s):      # years and decades are spoken as "nineteen oh two", "eighteen hundreds"
+                return num2words(int(s.rstrip("s")), to="year") + ("s" if s.endswith("s") else "")
             return num2words(float(s) if "." in s else int(re.sub(r"\D", "", s)))
         except Exception:  # noqa: BLE001
             return s
@@ -186,23 +189,30 @@ def spoken(tok):
 
 
 def align(x, sr, tokens):
+    """(start, end) in seconds for every token, by CTC forced alignment against the letters of its spoken form."""
     import torch
     import torchaudio
-    b = torchaudio.pipelines.MMS_FA
-    model, tok, al = b.get_model(with_star=False), b.get_tokenizer(), b.get_aligner()
-    model.eval()
+    b = torchaudio.pipelines.WAV2VEC2_ASR_BASE_960H          # English; weights under the MIT licence
+    model = b.get_model().eval()
+    idx = {c: i for i, c in enumerate(b.get_labels())}      # '-' blank, '|' word break, A-Z, apostrophe
     wav = torchaudio.functional.resample(torch.from_numpy(x.astype(np.float32)), sr, 16000)
-    lists = [spoken(t) for t in tokens]
-    flat = [w for l in lists for w in l]
+    lists = [[w.upper() for w in spoken(t)] for t in tokens]
+    target = [idx[c] for c in "|".join(w for l in lists for w in l)]
     with torch.inference_mode():
         em, _ = model(wav[None])
-        spans = al(em[0], tok(flat))
+        ali, score = torchaudio.functional.forced_align(torch.log_softmax(em, dim=-1), torch.tensor([target], dtype=torch.int32), blank=0)
+    spans = torchaudio.functional.merge_tokens(ali[0], score[0].exp())
+    if len(spans) != len(target):
+        raise SystemExit("word alignment failed: the narration audio does not match the script text")
     ratio = len(wav) / em.size(1) / 16000
     out, k = [], 0
     for l in lists:
-        sp = spans[k:k + len(l)]
-        k += len(l)
-        out.append((round(ratio * sp[0][0].start, 3), round(ratio * sp[-1][-1].end, 3)) if sp else None)
+        if not l:
+            out.append(None)
+            continue
+        n = sum(len(w) for w in l) + len(l) - 1               # letters, plus the breaks between the words of one token
+        out.append((round(ratio * spans[k].start, 3), round(ratio * spans[k + n - 1].end, 3)))
+        k += n + 1                                            # the break after the token
     return out
 
 

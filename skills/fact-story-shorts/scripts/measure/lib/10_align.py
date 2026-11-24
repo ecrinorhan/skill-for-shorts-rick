@@ -4,7 +4,7 @@
 Usage: 10_align.py <work_dir> [only=<video-stem>]
 Reads  whisper.json (ASR words), captions.json (OCR caption events), stems/vocals.wav
 Writes words.json:
-  words[]      final word list: text, start/end (MMS forced alignment, 20 ms grid), whisper_start/end, caption index, source
+  words[]      final word list: text, start/end (CTC forced alignment, 20 ms grid), whisper_start/end, caption index, source
   captions[]   caption events with their words, word count, and sync offsets in frames
   review[]     ASR/OCR disagreements that could not be auto-resolved (resolved by eye from the frames; see overrides)
   stats        word count, sentences, WPM, caption stats
@@ -14,6 +14,7 @@ captions (OCR) plus manual overrides stored in analysis/data/transcript_override
 """
 import difflib
 import json
+import os
 import re
 import sys
 from pathlib import Path
@@ -135,27 +136,47 @@ def reconcile(asr_words, cap_events):
 
 
 class Aligner:
+    """CTC forced alignment of each token's letters. Default model: torchaudio WAV2VEC2_ASR_BASE_960H (English, weights
+    under the MIT licence). ALIGN_MODEL=mms selects torchaudio MMS_FA, which produced the word times stored in
+    analysis/data; its weights are CC-BY-NC 4.0, so use it for non-commercial work only."""
+
     def __init__(self):
-        b = torchaudio.pipelines.MMS_FA
-        self.model = b.get_model(with_star=False)
+        self.mms = os.environ.get("ALIGN_MODEL", "wav2vec2") == "mms"
+        if self.mms:
+            b = torchaudio.pipelines.MMS_FA
+            self.model = b.get_model(with_star=False)
+            self.tok, self.al = b.get_tokenizer(), b.get_aligner()
+        else:
+            b = torchaudio.pipelines.WAV2VEC2_ASR_BASE_960H
+            self.model = b.get_model()
+            self.idx = {c: i for i, c in enumerate(b.get_labels())}     # '-' blank, '|' word break, A-Z, apostrophe
         self.model.eval()
-        self.tok = b.get_tokenizer()
-        self.al = b.get_aligner()
 
     def __call__(self, wav16k, token_lists):
         flat = [w for toks in token_lists for w in toks]
         with torch.inference_mode():
             em, _ = self.model(torch.from_numpy(wav16k)[None])
-            spans = self.al(em[0], self.tok(flat))
+            if self.mms:
+                words = [[(s.start, s.end, s.score) for s in w] for w in self.al(em[0], self.tok(flat))]
+            else:
+                target = [self.idx[c] for c in "|".join(flat).upper()]
+                ali, score = torchaudio.functional.forced_align(torch.log_softmax(em, dim=-1), torch.tensor([target], dtype=torch.int32), blank=0)
+                spans = [s for s in torchaudio.functional.merge_tokens(ali[0], score[0].exp()) if s.token != self.idx["|"]]
+                if len(spans) != sum(len(w) for w in flat):
+                    raise SystemExit("forced alignment failed: the audio does not match the transcript")
+                words, k = [], 0
+                for w in flat:
+                    words.append([(s.start, s.end, s.score) for s in spans[k:k + len(w)]])
+                    k += len(w)
         ratio = len(wav16k) / em.size(1) / 16000
         out, k = [], 0
         for toks in token_lists:
             if not toks:
                 out.append(None)
                 continue
-            sp = spans[k:k + len(toks)]
+            sp = words[k:k + len(toks)]
             k += len(toks)
-            out.append((ratio * sp[0][0].start, ratio * sp[-1][-1].end, float(np.mean([s.score for w in sp for s in w]))))
+            out.append((ratio * sp[0][0][0], ratio * sp[-1][-1][1], float(np.mean([s[2] for w in sp for s in w]))))
         return out
 
 

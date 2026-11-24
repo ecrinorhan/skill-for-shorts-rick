@@ -1,5 +1,5 @@
 {
- "source": "20 Shorts measured in analysis/ (see analysis/output/03_style_bible.md)",
+ "source": "20 Shorts measured in analysis/ (explained in references/style-bible.md)",
  "n_videos": 20,
  "wpm": 222.0,
  "words": 230.6,
@@ -11,8 +11,9 @@
   "MAXCHARS": 8,
   "MAX3": 12,
   "stop_punct": ".?!,",
-  "lead_frames": 3.729,
-  "boundary_agreement": 0.7774
+  "lead_frames": 4.058,
+  "boundary_agreement": 0.7774,
+  "lead_frames_analysis_model": 3.729
  },
  "caption_style": {
   "font_closest_free": [
@@ -943,14 +944,11 @@
    "p90": 0.356
   },
   "caption_lead_frames_median": {
-   "n": 20,
-   "mean": 3.729,
-   "sd": 0.11,
-   "median": 3.7,
-   "min": 3.52,
-   "max": 4.01,
-   "p10": 3.619,
-   "p90": 3.871
+   "mean": 4.058,
+   "sd": 0.108,
+   "min": 3.89,
+   "max": 4.29,
+   "note": "re-measured with the tools' word-timing model (analysis/data/aligner_check.json)"
   },
   "caption_centre_y_pct": {
    "n": 20,

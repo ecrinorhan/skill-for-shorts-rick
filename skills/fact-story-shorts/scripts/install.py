@@ -6,6 +6,7 @@
 
 Creates  .venv/                         Python packages (requirements.txt)
          models/kokoro/                 text-to-speech model files (about 350 MB, Apache-2.0)
+         ~/.cache/torch/                word-timing model for the captions (wav2vec2 base, about 360 MB, MIT)
          scripts/render/node_modules/   three.js and Playwright, plus a headless Chromium
 
 Needs on the PATH already: Python 3.10+, Node 20+ with npm, ffmpeg, rubberband (and tesseract for --measure).
@@ -55,6 +56,7 @@ def main():
             tmp = kd / (name + ".part")
             urllib.request.urlretrieve(KOKORO + name, tmp)
             tmp.replace(kd / name)
+    run(py, "-c", "import torchaudio; torchaudio.pipelines.WAV2VEC2_ASR_BASE_960H.get_model()")   # word-timing model
     rd = ROOT / "scripts" / "render"
     run("npm", "ci", "--silent", cwd=rd)
     run("npx", "playwright", "install", "chromium", cwd=rd)

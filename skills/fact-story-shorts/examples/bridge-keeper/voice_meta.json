@@ -3,14 +3,14 @@
  "speed": 0.999,
  "stretch": 0.999,
  "words": 233,
- "duration_s": 62.938,
+ "duration_s": 62.935,
  "frames": 1888,
  "wpm": 222.1,
- "f0_median_hz": 199.4,
- "f0_range_st": 14.1,
+ "f0_median_hz": 199.8,
+ "f0_range_st": 14.5,
  "captions": 185,
  "words_per_caption": 1.259,
- "longest_pause_ms": 95,
+ "longest_pause_ms": 90,
  "pauses_ge_120ms": 0,
  "pauses_ge_250ms": 0
 }
