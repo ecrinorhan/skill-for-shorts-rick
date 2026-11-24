@@ -1,0 +1,702 @@
+{
+ "video": "18_VKsamN3Fk4U",
+ "joins_verified": [
+  {
+   "t": 6.02,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Clerk Kyle cross-fades into the customer in a yellow coat and green hat; double exposure in middle tiles."
+  },
+  {
+   "t": 10.62,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Door/customer exiting fades to the trash can with the clerk's red body upside down inside."
+  },
+  {
+   "t": 12.37,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Trash can view fades to a dark round-vignette close-up of Kyle holding the ticket."
+  },
+  {
+   "t": 14.3,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Dark vignette close-up fades to a top-down counter with wallet and ID card."
+  },
+  {
+   "t": 17.08,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Smiling Kyle in the shop fades into the purple moonlit boat scene."
+  },
+  {
+   "t": 18.82,
+   "auto_type": "inplace_blend",
+   "verdict": "camera_move",
+   "note": "Same boat scene, framing drifts slightly closer; no content change, likely a false alarm from the slow push."
+  },
+  {
+   "t": 23.03,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Blue bedroom with Kyle lying down fades to a warm pink-lit version of the room, then toward the road."
+  },
+  {
+   "t": 23.65,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Washed-out pink bedroom fades to the red car on a sunset road."
+  },
+  {
+   "t": 24.47,
+   "auto_type": "inplace_blend",
+   "verdict": "in_place_change",
+   "note": "Same car framing; the driver's face/pose and light flare change only (estimate: mouth changes)."
+  },
+  {
+   "t": 25.65,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Car interior fades to the prize-claims counter with a bespectacled clerk."
+  },
+  {
+   "t": 32.62,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Teal prize-claims counter fades into the yellow 'Our Winners' waiting room with Kyle seated."
+  },
+  {
+   "t": 51.33,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Blue evidence wall with pinned photos fades to a top-down view of a brown floor and green door."
+  },
+  {
+   "t": 55.8,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Blue night shop exterior fades back to the opening lottery shop interior with an agent in front."
+  }
+ ],
+ "missed_joins": [
+  {
+   "t": 21.7,
+   "type": "dissolve",
+   "note": "Boat scene shrinks into a rounded panel that becomes the glass bowl on a bedside table; a shape-morph transition, not a plain cross-fade."
+  },
+  {
+   "t": 54.3,
+   "type": "dissolve",
+   "note": "Short 3-4 frame cross-fade from the close crop of the agent's hat to the blue shop-front shot (f1630-1634)."
+  }
+ ],
+ "beats": [
+  {
+   "name": "hook",
+   "start": 0.0,
+   "end": 5.6,
+   "said": "Clerk scans a ticket, sees a million-dollar win, and tells the customer it is not a winner.",
+   "shown": "Kyle behind the counter, push-in to the scanner and ticket, shocked face, then a deadpan face."
+  },
+  {
+   "name": "setup",
+   "start": 5.6,
+   "end": 17.1,
+   "said": "The customer shrugs and leaves; the clerk fishes the ticket from the trash and pockets it.",
+   "shown": "Customer in green hat, trash can, dark vignette close-up, wallet, smug smile."
+  },
+  {
+   "name": "escalation",
+   "start": 17.1,
+   "end": 23.0,
+   "said": "That night he imagines a boat, a mansion and new friends.",
+   "shown": "Moonlit yacht scene with fireworks, then a shape-wipe into Kyle in bed with a bowl of the dream."
+  },
+  {
+   "name": "escalation",
+   "start": 23.0,
+   "end": 32.6,
+   "said": "Next morning he drives two hours to the lottery office and hands over the ticket; the clerk is delighted.",
+   "shown": "Sunset drive in a red car, prize-claims counter, curly-haired clerk with glasses."
+  },
+  {
+   "name": "twist",
+   "start": 32.6,
+   "end": 43.6,
+   "said": "He waits; the store customer walks in wearing a suit and badge with two police officers.",
+   "shown": "Yellow Our Winners waiting room, Kyle seated grinning, figures appear at the door."
+  },
+  {
+   "name": "explainer",
+   "start": 43.6,
+   "end": 51.3,
+   "said": "Lotteries noticed clerks winning far more often than others, which looked suspicious.",
+   "shown": "Top-down evidence board with pinned winner photos and an 'everyone else' label."
+  },
+  {
+   "name": "payoff",
+   "start": 51.3,
+   "end": 57.8,
+   "said": "So they printed bait winning tickets and sent undercover agents into stores as ordinary customers.",
+   "shown": "Top-down ticket dispenser, agent hat, bait-and-gas shop front, return to opening shop with agent at counter."
+  }
+ ],
+ "hook": {
+  "first_frame": "Wide-ish view of a lottery counter; Kyle in a red shirt stands behind the till under a green hanging lamp, deadpan face looking at camera.",
+  "first_3s": "Slow push-in, then a fast fly-in to the scanner and ticket, then back to Kyle whose face turns to shock with sweat drop and a $1,000,000 display.",
+  "line_type": "strange action by he/they",
+  "first_frame_shot_size": "medium-long",
+  "first_frame_subject": "protagonist doing the hook action",
+  "protagonist_looks_at_camera": true,
+  "title_vs_first_line": "Title asks why cashiers keep winning; first line shows a cashier doing a dodgy thing with a winning ticket, answering by example rather than restating the title."
+ },
+ "story": {
+  "topic_type": "crime/scam",
+  "setting_era": "modern",
+  "structure": "act first, explain at the end",
+  "real_fact_core": "Lotteries noticed clerks winning suspiciously often and now run sting operations with bait tickets and undercover agents.",
+  "likely_source_type": "news",
+  "protagonist": "Kyle, a convenience-store lottery clerk",
+  "authority_or_antagonist": "Undercover lottery agent plus two police officers",
+  "direct_speech_lines": 3,
+  "second_person": false,
+  "tense": "present",
+  "explainer_turn": "'You see' at about 43.7s",
+  "ending_type": "explanation is the last line",
+  "call_to_action": "none"
+ },
+ "tone": {
+  "humour": "Dry, absurd escalation: fishing from the trash, yacht daydream, grinning while waiting for his payout.",
+  "deadpan_or_irony": "Heavy irony: the clerk lies and is smug, then walks into his own trap; deadpan faces on the customer.",
+  "dialogue_style": "Short quoted lines inside narration by a single voice; no separate voices."
+ },
+ "characters": [
+  {
+   "role": "Protagonist clerk (Kyle)",
+   "head": "Large round white circle, about a third of body height (estimate)",
+   "hair_or_hat": "Brown swept hair with a curled tuft on top",
+   "eyes": "Simple black dots or arcs with brow lines; wide white eyes when shocked",
+   "mouth": "Small line, open oval, or toothy grin depending on pose",
+   "body_and_clothes": "Small red polo with a 'KYLE' name tag and fish logo; later a brown suit with yellow tie",
+   "limbs": "Thin black stick arms and legs with small hands",
+   "accessories": "Hand scanner, ticket, sweat drop when shocked",
+   "expressions_seen": [
+    "deadpan",
+    "shocked",
+    "smug smile",
+    "gleeful grin",
+    "laughing"
+   ]
+  },
+  {
+   "role": "Customer / undercover agent",
+   "head": "Round brown head seen mostly from behind, one front view with a frown",
+   "hair_or_hat": "Olive bucket hat with fishing lures",
+   "eyes": "Narrow dark eyes in the front view",
+   "mouth": "Frown, then open shout",
+   "body_and_clothes": "Yellow rain coat",
+   "limbs": "Thin black stick limbs",
+   "accessories": "Green tackle box in the agent scene",
+   "expressions_seen": [
+    "unamused",
+    "shrug",
+    "shouting"
+   ]
+  },
+  {
+   "role": "Prize-claims clerk",
+   "head": "Round pale-blue-white head",
+   "hair_or_hat": "Curly orange hair",
+   "eyes": "Round glasses with dot eyes",
+   "mouth": "Wide open smile, then a toothy grin",
+   "body_and_clothes": "Teal striped top with bead necklace",
+   "limbs": "Thin black arm holding up the ticket",
+   "accessories": "Pencil, security button on the counter",
+   "expressions_seen": [
+    "delighted",
+    "toothy grin"
+   ]
+  },
+  {
+   "role": "Police officers",
+   "head": "Round white heads, small in the background",
+   "hair_or_hat": "Dark police caps",
+   "eyes": "Tiny dots",
+   "mouth": "Small line",
+   "body_and_clothes": "Dark blue uniforms",
+   "limbs": "Stick limbs",
+   "accessories": "Badge (on the agent's belt)",
+   "expressions_seen": [
+    "stern"
+   ]
+  }
+ ],
+ "character_style": {
+  "head_height_share_of_body_estimate": 0.4,
+  "outline": "Thick black ink outlines on characters and props, thinner dark lines on background",
+  "shading": "Soft gradient shading and rim lighting on a flat cel look, with painterly texture on surfaces",
+  "consistency_between_shots": "High: Kyle's head, hair tuft and outfit stay identical across shots; only the expression changes",
+  "shadow_under_character": "soft blob"
+ },
+ "animation": {
+  "body_motion": "Mostly posed holds with small tweens; stick arms raise or drop between poses; most motion is camera and cross-fades.",
+  "lip_sync": "mouth changes with pose only",
+  "lip_sync_evidence_frames": [
+   900,
+   902,
+   904,
+   910,
+   914
+  ],
+  "eyes_and_blinks": "Eyes switch between whole poses (open, arcs, wide); no clear blink cycle seen.",
+  "idle_motion": "Seated Kyle barely moves in holds (f1050-1075), with a slight head/arm shift; mostly the camera drifts and light shifts.",
+  "squash_and_stretch": "Minimal; the opening fly-in has strong perspective stretch, characters themselves look rigid."
+ },
+ "environments": [
+  {
+   "start": 0,
+   "end": 6,
+   "place": "Bait-and-lottery shop counter",
+   "key_props": [
+    "scanner",
+    "register",
+    "scratch ticket",
+    "green lamp",
+    "lottery wall"
+   ],
+   "in_world_text": [
+    "LOTTERY",
+    "KYLE",
+    "REEL BIG CASH",
+    "WINNER! $1,000,000",
+    "LIVE BAIT"
+   ],
+   "time_of_day": "day",
+   "lighting": "Soft warm top light from the lamp, mild cream key, fairly flat",
+   "depth_cues": "Shallow blur on the foreground at the push-in"
+  },
+  {
+   "start": 6,
+   "end": 17,
+   "place": "Shop door, trash can, wallet counter",
+   "key_props": [
+    "trash can",
+    "ticket",
+    "wallet",
+    "ID card"
+   ],
+   "in_world_text": [
+    "KYLE"
+   ],
+   "time_of_day": "day/evening",
+   "lighting": "Warm window light; dark vignette with a rim glow for the fishing close-up",
+   "depth_cues": "Circular vignette and dark surround"
+  },
+  {
+   "start": 17,
+   "end": 22,
+   "place": "Moonlit sea with yacht and castle",
+   "key_props": [
+    "yacht",
+    "castle",
+    "fireworks",
+    "lily pads",
+    "full moon"
+   ],
+   "in_world_text": [
+    "FINDERS KEEPERS"
+   ],
+   "time_of_day": "night",
+   "lighting": "Magenta/violet glow from a big moon, cool blues in the water",
+   "depth_cues": "Moon glow, water reflections, haze at the horizon"
+  },
+  {
+   "start": 22,
+   "end": 23,
+   "place": "Kyle's bedroom at night",
+   "key_props": [
+    "bed",
+    "bowl with the yacht dream",
+    "pizza box",
+    "tickets on floor"
+   ],
+   "in_world_text": [
+    "$$$ SOON!",
+    "HOT PIZZA"
+   ],
+   "time_of_day": "night to morning",
+   "lighting": "Warm bulb glow against a blue-violet room",
+   "depth_cues": "Light halo around the bulb"
+  },
+  {
+   "start": 23,
+   "end": 25,
+   "place": "Country road at sunset",
+   "key_props": [
+    "red boxy car",
+    "fields",
+    "fence"
+   ],
+   "in_world_text": [],
+   "time_of_day": "morning/dusk sky (estimate)",
+   "lighting": "Low pink-orange sun, soft pastel sky, lens flare on windscreen",
+   "depth_cues": "Streaked clouds, distant hills, road motion"
+  },
+  {
+   "start": 25,
+   "end": 33,
+   "place": "State Lottery prize-claims counter",
+   "key_props": [
+    "glass window",
+    "computer",
+    "security button",
+    "employee board",
+    "claim form"
+   ],
+   "in_world_text": [
+    "PRIZE CLAIMS",
+    "PLACE TICKET HERE",
+    "EMPLOYEE OF THE MONTH"
+   ],
+   "time_of_day": "day",
+   "lighting": "Bright cool teal fill, soft",
+   "depth_cues": "Counter in foreground out of focus"
+  },
+  {
+   "start": 33,
+   "end": 44,
+   "place": "Lottery office waiting room",
+   "key_props": [
+    "chairs",
+    "fish tank machine",
+    "staff door",
+    "winner photos"
+   ],
+   "in_world_text": [
+    "OUR WINNERS",
+    "STAFF ONLY"
+   ],
+   "time_of_day": "day",
+   "lighting": "Bright soft overhead, yellow wall bounce",
+   "depth_cues": "Tiled floor with confetti speckles, perspective lines"
+  },
+  {
+   "start": 44,
+   "end": 52,
+   "place": "Evidence/winners pinboard seen from above",
+   "key_props": [
+    "polaroid photos",
+    "cork board",
+    "string",
+    "ruler marks"
+   ],
+   "in_world_text": [
+    "KYLE - LAKE RD",
+    "EDNA, 81",
+    "EVERYONE ELSE",
+    "$1,000,000"
+   ],
+   "time_of_day": "day",
+   "lighting": "Diagonal blinds light and shadow stripes, cool blue fill",
+   "depth_cues": "Top-down, close-up with blur"
+  },
+  {
+   "start": 52,
+   "end": 55,
+   "place": "Top-down ticket dispenser/floor and the agent's hat",
+   "key_props": [
+    "ticket rack",
+    "green door",
+    "GONE FISHIN' sign",
+    "hat with lures"
+   ],
+   "in_world_text": [
+    "GONE FISHIN'"
+   ],
+   "time_of_day": "day",
+   "lighting": "Warm wood and stripe shadows",
+   "depth_cues": "Blur on the near hat"
+  },
+  {
+   "start": 55,
+   "end": 57.8,
+   "place": "Bait & gas shop exterior, then the opening shop",
+   "key_props": [
+    "door",
+    "tackle box",
+    "agent",
+    "counter"
+   ],
+   "in_world_text": [
+    "BAIT - GAS",
+    "LIVE BAIT",
+    "ICE - LOTTO",
+    "TRAINEE"
+   ],
+   "time_of_day": "night exterior, day interior",
+   "lighting": "Deep blue night with a warm interior window; interior returns to the hook's lamp light",
+   "depth_cues": "Agent in the foreground out of focus"
+  }
+ ],
+ "set_style": "toon 3D with ink outlines",
+ "layer_stack": [
+  "rendered 3D-style set with painterly textures",
+  "ink-outlined cel characters",
+  "light/glow overlay",
+  "bold white captions with black outline"
+ ],
+ "camera": {
+  "shot_sizes": [
+   "medium-long",
+   "close-up",
+   "medium",
+   "top-down",
+   "wide"
+  ],
+  "angles": [
+   "eye level",
+   "high angle",
+   "top-down",
+   "low-angle fly-in"
+  ],
+  "lens_feel": "Wide-angle with strong perspective on props; shallow blur at the edges (estimate)",
+  "camera_height": "Mostly eye/counter height, high angles on the board and floor",
+  "notable_moves": [
+   {
+    "t": 1.1,
+    "type": "fly-in",
+    "note": "Quick swing from Kyle to the scanner and ticket."
+   },
+   {
+    "t": 21.7,
+    "type": "shape-wipe zoom out",
+    "note": "Boat shot shrinks into the bowl in the bedroom."
+   },
+   {
+    "t": 43.6,
+    "type": "pull-out / pan",
+    "note": "Waiting room pulls out to a polaroid on a board with a stripe-lit top-down view."
+   },
+   {
+    "t": 54.2,
+    "type": "pull-out",
+    "note": "Agent's hat pulls out to the shop front."
+   }
+  ]
+ },
+ "effects": [
+  {
+   "t": 1.2,
+   "dur_s": 1.4,
+   "type": "glow",
+   "trigger": "scanner laser flash on the ticket"
+  },
+  {
+   "t": 2.9,
+   "dur_s": 0.5,
+   "type": "screen or UI insert",
+   "trigger": "register shows $1,000,000"
+  },
+  {
+   "t": 12.4,
+   "dur_s": 1.9,
+   "type": "colour shift",
+   "trigger": "dark vignette close-up as he fishes the ticket out"
+  },
+  {
+   "t": 19.0,
+   "dur_s": 3.0,
+   "type": "particles",
+   "trigger": "fireworks over the castle"
+  },
+  {
+   "t": 21.7,
+   "dur_s": 0.5,
+   "type": "other",
+   "trigger": "boat scene morphs into a glass bowl (shape wipe)"
+  },
+  {
+   "t": 44.0,
+   "dur_s": 8.0,
+   "type": "other",
+   "trigger": "diagonal light stripes across the evidence board"
+  },
+  {
+   "t": 0.0,
+   "dur_s": 57.8,
+   "type": "screen or UI insert",
+   "trigger": "word-by-word bold captions"
+  }
+ ],
+ "lighting_mood_shifts": [
+  {
+   "t": 12.4,
+   "change": "Goes dark with a round vignette",
+   "story_reason": "Sneaky theft of the ticket"
+  },
+  {
+   "t": 17.1,
+   "change": "Warm shop turns to magenta/violet night",
+   "story_reason": "Daydream of luxury"
+  },
+  {
+   "t": 25.7,
+   "change": "Warm sunset becomes bright teal then yellow",
+   "story_reason": "Arriving at the lottery office, hope and wait"
+  },
+  {
+   "t": 44.0,
+   "change": "Cool blue with warm stripes",
+   "story_reason": "Investigation/evidence tone"
+  },
+  {
+   "t": 55.0,
+   "change": "Deep blue night to the warm opening shop",
+   "story_reason": "Loop back to the sting"
+  }
+ ],
+ "generation_evidence": [
+  {
+   "frames": [
+    1700,
+    1731
+   ],
+   "observation": "The shop interior in the last frames matches frame 0 down to lamp, board, and counter layout; the set is reused as a fixed asset.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    900,
+    906,
+    914
+   ],
+   "observation": "Clerk's glasses, curls, necklace, and pencil stay rigid across the frames; only the mouth shape swaps.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    1400,
+    1450
+   ],
+   "observation": "Tiny pinned photo labels and 'EVERYONE ELSE' stay crisp and consistent as the camera pushes in on the board.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    652,
+    654,
+    656
+   ],
+   "observation": "Boat scene is wrapped as a flat panel into a bowl, a deliberate designed transition with clean geometry.",
+   "points_to": "hand animation"
+  },
+  {
+   "frames": [
+    1050,
+    1065,
+    1075
+   ],
+   "observation": "Seated Kyle with fixed grin and constant geometry over 25 frames; only slight arm shift.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    1626,
+    1630
+   ],
+   "observation": "Low-poly faceted hat and bugs have simple clean shapes with painterly blur, not AI texture swim.",
+   "points_to": "3D engine render"
+  }
+ ],
+ "sample_points": [
+  {
+   "frame": 0,
+   "x": 0.35,
+   "y": 0.35,
+   "what": "Kyle head fill (white)",
+   "hex": "#95A743",
+   "patch_spread": 4.9
+  },
+  {
+   "frame": 0,
+   "x": 0.35,
+   "y": 0.42,
+   "what": "Kyle red shirt",
+   "hex": "#AEB955",
+   "patch_spread": 3.7
+  },
+  {
+   "frame": 0,
+   "x": 0.37,
+   "y": 0.29,
+   "what": "Kyle brown hair",
+   "hex": "#8C9941",
+   "patch_spread": 19.1
+  },
+  {
+   "frame": 0,
+   "x": 0.5,
+   "y": 0.1,
+   "what": "Ceiling tile cream",
+   "hex": "#B39975",
+   "patch_spread": 11.3
+  },
+  {
+   "frame": 0,
+   "x": 0.12,
+   "y": 0.2,
+   "what": "Green shop wall",
+   "hex": "#C0A989",
+   "patch_spread": 1.3
+  },
+  {
+   "frame": 540,
+   "x": 0.5,
+   "y": 0.35,
+   "what": "Purple/magenta sky behind the moon",
+   "hex": "#FFF2F7",
+   "patch_spread": 0.6
+  },
+  {
+   "frame": 560,
+   "x": 0.5,
+   "y": 0.8,
+   "what": "Blue sea",
+   "hex": "#206FC9",
+   "patch_spread": 0.9
+  },
+  {
+   "frame": 1000,
+   "x": 0.5,
+   "y": 0.2,
+   "what": "Yellow waiting-room wall",
+   "hex": "#DDC628",
+   "patch_spread": 2.8
+  },
+  {
+   "frame": 810,
+   "x": 0.5,
+   "y": 0.2,
+   "what": "Teal prize-claims wall",
+   "hex": "#D1AE22",
+   "patch_spread": 25.1
+  },
+  {
+   "frame": 1400,
+   "x": 0.8,
+   "y": 0.1,
+   "what": "Blue evidence-room wall",
+   "hex": "#5C79F4",
+   "patch_spread": 1.8
+  }
+ ],
+ "thumbnail": "Kyle laughing in a red boxy car on a sunset road with a ticket on the seat strap and a '2 hours' caption; from the drive at about 24-25 s.",
+ "could_not_determine": [
+  "Whether the 18.82s in-place blend is a real join or just a slow camera push",
+  "Whether eye blinks exist (eyes appear swapped per pose)",
+  "Exact motion/tween method of characters (hand animation vs rig)",
+  "Real head-to-body ratio, only estimated from frames"
+ ]
+}
