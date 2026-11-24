@@ -118,7 +118,7 @@ def build(d: Path, meta_dir: Path, out_videos: Path):
         "words_in_first_3s": sum(1 for w in W if w["start"] < 3.0), "title_content_words": len(tcw),
         "title_words_in_first_sentence": len(tcw & fcw), "title_words_in_script": len(tcw & acw),
         "you_see_count": len(yousee), "you_see_first_s": yousee[0] if yousee else None, "you_see_first_rel": r(yousee[0] / dur) if yousee else None,
-        "last_sentence": last["text"], "last_sentence_words": last["n"], "last_sentence_start_rel": r(last["start"] / dur),
+        "last_sentence_words": last["n"], "last_sentence_start_rel": r(last["start"] / dur),
         "loop_overlap_words": len(cwords(last["text"]) & fcw),
         "wpm_by_10s": [round(sum(1 for w in W if a <= w["start"] < a + 10) * 60 / min(10, dur - a)) for a in range(0, int(dur), 10) if dur - a >= 4],
         # captions
@@ -192,8 +192,10 @@ def build(d: Path, meta_dir: Path, out_videos: Path):
         (od / stale).unlink(missing_ok=True)
     keep = {k: v_ for k, v_ in meta.items() if k not in ("top_comments", "uploader_comments_in_top100", "sources")}
     (od / "meta.json").write_text(json.dumps(keep, indent=1, ensure_ascii=False))
-    with open(d / "frame_metrics.csv", "rb") as fi, gzip.open(od / "frame_metrics.csv.gz", "wb") as fo:
-        shutil.copyfileobj(fi, fo)
+    gz, src = od / "frame_metrics.csv.gz", (d / "frame_metrics.csv").read_bytes()
+    if not gz.exists() or gzip.decompress(gz.read_bytes()) != src:      # rewrite only when the content changed (keeps git quiet)
+        with open(gz, "wb") as raw, gzip.GzipFile(filename="frame_metrics.csv", mode="wb", fileobj=raw, mtime=0) as fo:
+            fo.write(src)
     return rec, S
 
 
