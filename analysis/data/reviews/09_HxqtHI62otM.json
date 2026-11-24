@@ -1,0 +1,830 @@
+{
+ "video": "09_HxqtHI62otM",
+ "joins_verified": [
+  {
+   "t": 3.65,
+   "auto_type": "inplace_blend",
+   "verdict": "dissolve",
+   "note": "Poster close-up on the cell wall cross-fades into the paint shop; f106 shows the poster over a ghost PAINT SHOP sign and a head outline. The place changes, so a true dissolve."
+  },
+  {
+   "t": 8.05,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Top-down paint pan (swirl turning pink) cross-fades over ~15 f into the hot-pink cell with three characters; f244 is a clear double exposure."
+  },
+  {
+   "t": 11.33,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Scientist close-up beside the paint chip cross-fades into the POD C hall with two guards at a table; double exposure at f342."
+  },
+  {
+   "t": 15.12,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Closed pink door gains a ghost of the scientist (f452) and resolves to him standing at the door, with a small reframe."
+  },
+  {
+   "t": 18.05,
+   "auto_type": "inplace_blend",
+   "verdict": "in_place_change",
+   "note": "Same framing: door goes from closed (f540) to open with a ginger prisoner inside (f542) in about 2-5 f. A state change, no new place."
+  },
+  {
+   "t": 20.35,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Stopwatch close-up cross-fades into the scientist holding it at the door; the stopwatch overlaps his face at f612."
+  },
+  {
+   "t": 21.98,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Scientist with raised stopwatch cross-fades into a wide hall with two guards at the pink door; double exposure at f661."
+  },
+  {
+   "t": 28.75,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Pink cell interior (inmate with red cracks) cross-fades over 17 f into the hall at the open door beside the scientist."
+  },
+  {
+   "t": 30.45,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Calm inmate beside the scientist at the door cross-fades into the wide POD C hall with tables and guards (f915)."
+  },
+  {
+   "t": 38.9,
+   "auto_type": "cut",
+   "verdict": "camera_move",
+   "note": "Camera rises through the hall skylight: f1166 interior with trusses, f1167 floor seen through a grid under a bright roof edge, f1168 roof gravel around the skylight. Estimate: continuous, not a splice."
+  },
+  {
+   "t": 43.85,
+   "auto_type": "inplace_blend",
+   "verdict": "dissolve",
+   "note": "Two similar night views of the guard booth cross-fade (ghosting at f1317), ending on a closer view. Same place, two renders (estimate)."
+  },
+  {
+   "t": 50.27,
+   "auto_type": "inplace_blend",
+   "verdict": "in_place_change",
+   "note": "Same framing of the ginger prisoner on the bench; the top light glow and shaft brighten between f1506 and f1509. A lighting pulse, no new shot."
+  },
+  {
+   "t": 57.27,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Wrecked cell door with the prisoner cross-fades over 12 f into the knitting inmate in the pale pink cell; double exposure at f1716."
+  }
+ ],
+ "missed_joins": [
+  {
+   "t": 43.0,
+   "type": "dissolve",
+   "note": "Day yard with the pink truck cross-fades (about f1288-1297) into the blue night hall: f1290 double exposure with dark beams, f1295 night only. Detector flagged only a suspect."
+  },
+  {
+   "t": 46.6,
+   "type": "dissolve",
+   "note": "Zoom-through of a CRT monitor from booth into the cell (f1388-1398); ghosted drain and window bars at f1404-1410 hint at a short blend of two cell renders. Estimate."
+  }
+ ],
+ "beats": [
+  {
+   "name": "hook",
+   "start": 0.0,
+   "end": 3.32,
+   "said": "A jail cell gets painted pink, and it must be one very particular shade.",
+   "shown": "Guard rolls magenta onto a teal brick wall in a window light shaft; camera swings to a pinned chart reading P-618 Baker-Miller Pink, 1 pint red + 1 gallon white."
+  },
+  {
+   "name": "setup",
+   "start": 3.32,
+   "end": 14.32,
+   "said": "A scientist mixes a precise pink, guards repaint after a bad first coat, then joke about it.",
+   "shown": "Paint shop mixing (red swirls to pink), hot-pink cell with a P-618 chip card, guards laughing at a steel table with cups; dissolves at 8.05 and 11.33 s."
+  },
+  {
+   "name": "escalation",
+   "start": 14.32,
+   "end": 28.39,
+   "said": "One odd rule: each inmate stays exactly fifteen minutes, timed by stopwatch; first up is the largest inmate.",
+   "shown": "Scientist at pink door C-4 with stopwatch, a prisoner walks in, guards flank the door; the huge inmate grins in the pink cell as red cracks spread over walls and floor."
+  },
+  {
+   "name": "escalation",
+   "start": 28.39,
+   "end": 38.55,
+   "said": "Post-treatment, the skinniest guard beats the giant at arm wrestling in two seconds, and nobody knows why.",
+   "shown": "Door opens on a pale smiling inmate; wide sunlit hall; arm wrestle at a steel table with the scientist raising a stopwatch; camera orbits and rises."
+  },
+  {
+   "name": "escalation",
+   "start": 38.55,
+   "end": 42.79,
+   "said": "Within a year, prisons nationwide are repainting cells pink by the truckload.",
+   "shown": "Camera rises through the skylight, flies over roof and patchwork farmland, then lands in a yard where a pink truck marked P-618 arrives."
+  },
+  {
+   "name": "twist",
+   "start": 42.79,
+   "end": 52.73,
+   "said": "A guard forgets a prisoner overnight: calm at fifteen minutes, pacing at twenty, then wrecking the cell.",
+   "shown": "Day-to-night dissolve, dozing guard at a CRT monitor, zoom into the cell; ginger prisoner sits, paces, then lifts the bench in a starburst of debris; pull-out to the hall."
+  },
+  {
+   "name": "explainer",
+   "start": 52.73,
+   "end": 62.41,
+   "said": "Scientists claimed pink drained aggression within fifteen minutes, so prisons applied it to violent inmates, but only briefly.",
+   "shown": "Guards and scientist stare at the wrecked cell door; dissolve to a big inmate knitting a candy-striped scarf; a stopwatch swoops in at the left."
+  },
+  {
+   "name": "ending",
+   "start": 62.41,
+   "end": 65.3,
+   "said": "Stay longer than that, and it backfires completely.",
+   "shown": "Knitter's smile sours to a scowl, punch-in, then red cracks, shock ring and dark vignette as he flexes with red eyes; stopwatch lower-left; hard stop."
+  }
+ ],
+ "hook": {
+  "first_frame": "Full-body cartoon guard in a navy cap raises a paint roller on a long pole against a teal brick cell wall; hard window light shaft, pink tray lower-left, caption 'They' at about 70% height.",
+  "first_3s": "Guard rolls a magenta stripe down the wall in the light shaft (slow push-in, ~2 s); at 2.1 s the camera swings to a pinned chart (P-618 Baker-Miller Pink, 1 pint red + 1 gallon white) that fills the frame by 3 s.",
+  "line_type": "strange action by he/they",
+  "first_frame_shot_size": "long (full body)",
+  "first_frame_subject": "protagonist doing the hook action",
+  "protagonist_looks_at_camera": false,
+  "title_vs_first_line": "Title restates the first line's premise (pink jail cell) and adds the word experiment; it hides the 15-minute rule and the twist."
+ },
+ "story": {
+  "topic_type": "psychology/behaviour",
+  "setting_era": "1900s",
+  "structure": "act first, explain at the end",
+  "real_fact_core": "Baker-Miller pink (P-618, 1 pint red to 1 gallon white) is claimed to sap aggression for about 15 minutes, then backfire; as told in the video, not verified.",
+  "likely_source_type": "psychology",
+  "protagonist": "The scientist (brown hair, striped tie) who sets the paint recipe and the 15-minute rule; inmates are his test subjects.",
+  "authority_or_antagonist": "Prison guards who follow his rules; the pink cell itself flips from calming to enraging.",
+  "direct_speech_lines": 1,
+  "second_person": false,
+  "tense": "mixed",
+  "explainer_turn": "'You see' at 52.73 s",
+  "ending_type": "explanation is the last line",
+  "call_to_action": "none"
+ },
+ "tone": {
+  "humour": "Light absurd gags: delighted guards with a doll-brand quip, a skinny guard beating a huge inmate in two seconds, a giant knitting a candy-striped scarf, then an over-the-top rage burst.",
+  "deadpan_or_irony": "Fast deadpan narration; dramatic irony in the reversal (a calming colour makes the calm man rage); a rhetorical 'wait, what' beat after the arm-wrestle.",
+  "dialogue_style": "No on-screen speech: characters are mute with expression swaps; the one quoted guard remark is voiced inside the narration; captions mirror the narration only."
+ },
+ "characters": [
+  {
+   "role": "Scientist (recurring lead; sets the recipe and the 15-minute rule)",
+   "head": "Large white round head, thick black outline, slightly pink or blue tint from scene light",
+   "hair_or_hat": "Short brown side-swept hair cap on top",
+   "eyes": "Tiny black dots under flat half-lowered lids with thick brows (smug or bored look)",
+   "mouth": "Tiny dark line, occasional small smirk arc",
+   "body_and_clothes": "Small white shirt torso with a brown and gold diagonal-striped tie",
+   "limbs": "Thin black noodle arms ending in dot hands; very long thin black legs, no feet",
+   "accessories": "Analog stopwatch held up; paint chip card",
+   "expressions_seen": [
+    "smug half-lidded stare",
+    "small smirk",
+    "worried frown with hand on chin"
+   ]
+  },
+  {
+   "role": "Guards (several; one with moustache, one skinny, one with round glasses)",
+   "head": "Round white heads with thick black outline; some tinted blue by night light",
+   "hair_or_hat": "Navy peaked cap with gold band and gold star badge; the skinny guard's cap is pulled low over his eyes",
+   "eyes": "Black dots with heavy brows; closed upward arcs when laughing; round glasses on one guard",
+   "mouth": "Flat line, wide toothy grin, open laugh with tongue; one has a black bar moustache",
+   "body_and_clothes": "Navy uniform shirt, gold star badge on chest, black belt with square gold buckle",
+   "limbs": "Thin black noodle arms with dot hands; long thin black legs",
+   "accessories": "Cups in the table scene; no weapons seen",
+   "expressions_seen": [
+    "smirk",
+    "laughing",
+    "drinking from a cup",
+    "worried frown",
+    "dozing with eyes shut"
+   ]
+  },
+  {
+   "role": "Big tattooed inmate (first test subject; also the knitting inmate at the end, estimate)",
+   "head": "Oversized round bald head with fine freckle speckle, blue anchor tattoo on the forehead, pink blush circles",
+   "hair_or_hat": "Bald",
+   "eyes": "Black dots with brows; closed happy arcs when calm; wide rings with pupils when furious; red glowing eyes in the last frames",
+   "mouth": "Small smile; clenched-teeth grid when angry; red-lit grin at the end",
+   "body_and_clothes": "Huge pear-shaped white vest with fine vertical pinstripes and an anchor mark, blue shorts",
+   "limbs": "Thin black noodle arms and legs despite the bulk",
+   "accessories": "Yellow knitting needles, pink-and-white striped scarf, pink yarn ball",
+   "expressions_seen": [
+    "grumpy",
+    "serene closed-eye smile",
+    "suspicious squint",
+    "gritted-teeth fury",
+    "red-eyed grin"
+   ]
+  },
+  {
+   "role": "Ginger prisoner (forgotten overnight; the rage beat)",
+   "head": "Small round white head with thick outline, tinted pink in the cell light",
+   "hair_or_hat": "Curly ginger-auburn hair cap",
+   "eyes": "Black dots with slanted brows; wide ringed eyes when furious",
+   "mouth": "Small line; gritted teeth when he lifts the bench",
+   "body_and_clothes": "Small blue-grey prison shirt with a white number tag",
+   "limbs": "Thin black noodle limbs",
+   "accessories": "None; a bench plank held overhead in the rage",
+   "expressions_seen": [
+    "bored or calm",
+    "faint smirk",
+    "annoyed walk-in",
+    "teeth-gritted strain"
+   ]
+  }
+ ],
+ "character_style": {
+  "head_height_share_of_body_estimate": 0.3,
+  "outline": "Thick uniform black ink line around heads and torsos (about 10-16 px at 1080 wide, estimate); limbs are single black strokes; the 3D set has no outlines",
+  "shading": "Near-flat off-white fills tinted by scene light (blue halls, pink cells, lavender night) with a faint speckle; soft top-light gradient on big heads; no cel bands",
+  "consistency_between_shots": "High: same proportions, cap, tie and stripe details and outline weight in wide shots and close-ups (f480 scientist vs the 10 s close-up).",
+  "shadow_under_character": "cast silhouette"
+ },
+ "animation": {
+  "body_motion": "Puppet-like pose-to-pose motion: noodle limbs swing and bend, torso and head tilt as whole shapes (roller swing f0-f42, slam, pacing); characters often hold a pose and only drift while the camera does the work.",
+  "lip_sync": "mouth changes with pose only",
+  "lip_sync_evidence_frames": [
+   392,
+   400,
+   404,
+   412
+  ],
+  "eyes_and_blinks": "Eyes are swapped sprite states (dots, half-lids, closed arcs, wide rings, red glow); no blink cycle in f480-f505 or f1866-f1896.",
+  "idle_motion": "Minimal: scientist sways about 1-2% of frame width with small head drift (f480-f505); knitter's hands, needles and scarf move; camera creep (2-6%/s push-in) supplies most life.",
+  "squash_and_stretch": "None obvious: limbs keep constant length; the finale head looks larger only through the camera punch-in (f1914-f1932); scarf and yarn stretch."
+ },
+ "environments": [
+  {
+   "start": 0.0,
+   "end": 3.65,
+   "place": "Teal brick cell wall being painted pink",
+   "key_props": [
+    "paint roller on a long pole",
+    "pink paint tray",
+    "barred window with light shaft",
+    "ceiling fluorescent fixture",
+    "pinned chart"
+   ],
+   "in_world_text": [
+    "P-618",
+    "BAKER-MILLER PINK",
+    "1 PINT RED + 1 GALLON WHITE",
+    "EXACTLY!"
+   ],
+   "time_of_day": "day (sun through window, estimate)",
+   "lighting": "Hard sun-like key from upper left through a barred window as a pale diagonal shaft; cool teal ambient; the wet pink stripe blooms white-pink where the shaft hits it",
+   "depth_cues": "Light-shaft haze and corner perspective; no obvious depth-of-field blur (estimate)"
+  },
+  {
+   "start": 3.65,
+   "end": 8.05,
+   "place": "Paint shop with mixing bench",
+   "key_props": [
+    "wooden bench",
+    "shelf of paint cans",
+    "green cutting mat with measuring marks",
+    "red paint pan and white bucket",
+    "stirring stick"
+   ],
+   "in_world_text": [
+    "PAINT SHOP (sign)",
+    "WHITE (can label)",
+    "small recipe lines printed on the mat"
+   ],
+   "time_of_day": "day (window light, estimate)",
+   "lighting": "Soft window and overhead key; warm wood against a saturated green mat; soft shadows (estimate)",
+   "depth_cues": "Wide shot crisp; top-down close-ups show no clear blur (estimate)"
+  },
+  {
+   "start": 8.05,
+   "end": 11.33,
+   "place": "Freshly painted hot-pink cell",
+   "key_props": [
+    "magenta brick walls",
+    "barred window",
+    "ceiling fluorescent fixture",
+    "P-618 paint chip card"
+   ],
+   "in_world_text": [
+    "P-618 (paint chip)"
+   ],
+   "time_of_day": "indoor, time unclear",
+   "lighting": "Flat saturated magenta fill with a bright top light; heads pick up pink bounce (estimate)",
+   "depth_cues": "Shallow set; little haze"
+  },
+  {
+   "start": 11.33,
+   "end": 15.12,
+   "place": "POD C hall, guards' steel table",
+   "key_props": [
+    "steel table and benches",
+    "upper tier railing and cell doors",
+    "pink door in the background",
+    "cups"
+   ],
+   "in_world_text": [
+    "POD C (sign)",
+    "door plates such as C-4"
+   ],
+   "time_of_day": "day",
+   "lighting": "Cool high-key blue-white with soft shadows and bloom around ceiling lights; the pink door is the only warm accent",
+   "depth_cues": "Two-tier hall background, light haze and bloom"
+  },
+  {
+   "start": 15.12,
+   "end": 24.0,
+   "place": "Hall in front of cell C-4 (pink door)",
+   "key_props": [
+    "pink door with barred window",
+    "cyan tile-block lower wall",
+    "yellow floor line",
+    "ceiling fluorescent fixture and trusses",
+    "stopwatch"
+   ],
+   "in_world_text": [
+    "C-4 (door plate)"
+   ],
+   "time_of_day": "day (sun patches)",
+   "lighting": "Hard sun patch through the door and window-shaped shadows; cool teal ambient; warm pink spill from the cell; the scientist casts a hard shadow on the wall",
+   "depth_cues": "Light haze; strong one-point perspective"
+  },
+  {
+   "start": 24.0,
+   "end": 28.75,
+   "place": "Pink cell interior seen from the doorway",
+   "key_props": [
+    "magenta brick walls",
+    "steel bench",
+    "ceiling fluorescent strip",
+    "open door frame"
+   ],
+   "in_world_text": [],
+   "time_of_day": "indoor, time unclear",
+   "lighting": "Flat pink fill with a white top light; from 26.8 s a dark red vignette and red crack lines",
+   "depth_cues": "Vignette darkens the frame edges during the rage beat"
+  },
+  {
+   "start": 28.75,
+   "end": 38.9,
+   "place": "POD C hall: door C-4, then wide hall with tables (arm wrestle)",
+   "key_props": [
+    "steel tables and benches",
+    "tiers of cell doors",
+    "ceiling lamps",
+    "stopwatch"
+   ],
+   "in_world_text": [
+    "POD C",
+    "door plates C-2 to C-10 (thumbnail)"
+   ],
+   "time_of_day": "bright day",
+   "lighting": "Hard sun beams from high windows: window-shaped light patches, long shadows, god-rays and bloom; cool blue fill",
+   "depth_cues": "Haze and light shafts; two-tier background"
+  },
+  {
+   "start": 38.9,
+   "end": 43.2,
+   "place": "Aerial fly-over: prison roof, farmland, yard with pink truck",
+   "key_props": [
+    "gravel roof with skylights",
+    "patchwork green fields, river, cloud puffs",
+    "pink box truck",
+    "guard tower",
+    "loading dock door"
+   ],
+   "in_world_text": [
+    "pink lettering on the truck (looks like P-618, estimate)",
+    "dock sign"
+   ],
+   "time_of_day": "midday, blue sky with cumulus",
+   "lighting": "Hard sun with soft cloud shadows across the fields; saturated stylised greens",
+   "depth_cues": "Aerial perspective; cloud shadows; low-poly look in the yard"
+  },
+  {
+   "start": 43.2,
+   "end": 46.3,
+   "place": "Night: POD C hall exterior and guard booth",
+   "key_props": [
+    "glass guard booth with lit desk",
+    "hanging dome lamp",
+    "steel trusses",
+    "CRT monitor",
+    "stopwatch on green blotter",
+    "mug"
+   ],
+   "in_world_text": [
+    "POD C",
+    "calendar 1979 JUNE",
+    "sticky note COFFEE",
+    "SHIFT / POST board with POD C hours (partly legible)"
+   ],
+   "time_of_day": "night",
+   "lighting": "Deep blue ambient; warm orange practical glow from the booth desk and monitor; cone of light under the dome lamp",
+   "depth_cues": "Blue atmospheric haze, high-angle view"
+  },
+  {
+   "start": 46.3,
+   "end": 52.0,
+   "place": "Pink cell at night (forgotten ginger prisoner)",
+   "key_props": [
+    "steel bench",
+    "barred window",
+    "tally marks on the wall",
+    "floor drain",
+    "debris cubes"
+   ],
+   "in_world_text": [
+    "tally mark groups on the wall"
+   ],
+   "time_of_day": "night (story); cell artificially lit",
+   "lighting": "Pink brick wall with a soft top shaft from the window, blooming wider at 50.3 s; white starburst at 51.6 s; hard dark shadow on the wall at 51 s",
+   "depth_cues": "Light shafts in haze; high camera looking down into the cell"
+  },
+  {
+   "start": 52.0,
+   "end": 57.27,
+   "place": "Hall outside the wrecked cell door",
+   "key_props": [
+    "smashed cell door frame",
+    "pink debris cubes and shards",
+    "yellow floor line",
+    "door plate C-4"
+   ],
+   "in_world_text": [
+    "C-4 (door plate)"
+   ],
+   "time_of_day": "night per story; hall looks evenly lit (estimate)",
+   "lighting": "Pale pink-white glow from the cell with a blue-grey ambient; soft shadows",
+   "depth_cues": "Light haze and floating debris layers"
+  },
+  {
+   "start": 57.27,
+   "end": 65.3,
+   "place": "Pale pink cell with the knitting inmate",
+   "key_props": [
+    "steel bench",
+    "barred window",
+    "pink-white striped scarf",
+    "pink yarn ball",
+    "yellow knitting needles",
+    "floor cracks (final second)"
+   ],
+   "in_world_text": [],
+   "time_of_day": "indoor, time unclear",
+   "lighting": "Soft high-key pink with a top beam from the ceiling; at 64.5 s a dark red vignette, red crack lines and a shock ring",
+   "depth_cues": "Soft beam haze; no blur (estimate)"
+  }
+ ],
+ "set_style": "mixed",
+ "layer_stack": [
+  "sky or aerial backdrop and distant hall walls (rendered 3D)",
+  "3D set: brick walls, floors, doors, tiers, props (stylised, no outlines, soft global light)",
+  "light shafts, haze and bloom",
+  "ink-outlined cartoon characters with noodle limbs, tinted by scene light",
+  "foreground props or characters passing the lens (guard caps, door frames, monitor)",
+  "FX layer: red cracks, starburst, debris cubes, shock ring, dark vignette, stopwatch insert",
+  "caption: 1-2 white bold words with black stroke, around 70% of frame height"
+ ],
+ "camera": {
+  "shot_sizes": [
+   "long (full body)",
+   "medium",
+   "medium close-up",
+   "close-up (prop or face)",
+   "top-down insert",
+   "aerial wide"
+  ],
+  "angles": [
+   "eye-level",
+   "slight low angle on the guard in the booth",
+   "slight high angle on tables",
+   "straight top-down (paint mat)",
+   "high-angle aerial"
+  ],
+  "lens_feel": "Wide-angle (about 20-28 mm equivalent, estimate): strong perspective convergence in halls and cells, little depth-of-field blur",
+  "camera_height": "Mostly about character waist-to-chest height (estimate), with overhead, floor-level and aerial exceptions",
+  "notable_moves": [
+   {
+    "t": 2.13,
+    "type": "swing",
+    "note": "0.7 s swing from the guard to the wall chart; the guard slides out of frame right"
+   },
+   {
+    "t": 5.57,
+    "type": "push-in",
+    "note": "1.4 s push-in on the paint pan as red turns pink"
+   },
+   {
+    "t": 23.33,
+    "type": "fly-through",
+    "note": "A guard sweeps across the lens as the camera slides to the pink cell doorway (f703-f706, 1.3 s)"
+   },
+   {
+    "t": 38.07,
+    "type": "crane-up + fly-over",
+    "note": "Camera tilts down on the hall, rises through the skylight at 38.9 s, flies over roof and farmland to the yard (~4 s)"
+   },
+   {
+    "t": 43.07,
+    "type": "push-in with dissolve",
+    "note": "Yard to night hall: dissolve near 43.0 s, then dolly toward the booth (2.7 s)"
+   },
+   {
+    "t": 46.3,
+    "type": "zoom-through",
+    "note": "Fastest move: dolly into the CRT monitor and out into the cell (f1388-f1398)"
+   },
+   {
+    "t": 51.53,
+    "type": "pull-out",
+    "note": "1 s pull back from inside the cell through the door frame; a guard enters at left (f1552-f1558)"
+   },
+   {
+    "t": 57.27,
+    "type": "slow push-in + crane-up",
+    "note": "7 s drift at about 6%/s over the knitter; fast punch-in at 64.3 s on the rage"
+   }
+  ]
+ },
+ "effects": [
+  {
+   "t": 0.7,
+   "dur_s": 1.2,
+   "type": "glow",
+   "trigger": "paint stripe blooms white-pink where the window light shaft hits it"
+  },
+  {
+   "t": 2.2,
+   "dur_s": 1.4,
+   "type": "in-world sign",
+   "trigger": "wall chart P-618 Baker-Miller Pink on 'not just any pink'"
+  },
+  {
+   "t": 6.0,
+   "dur_s": 2.0,
+   "type": "colour shift",
+   "trigger": "red paint swirls into white and turns pink"
+  },
+  {
+   "t": 10.0,
+   "dur_s": 1.3,
+   "type": "in-world sign",
+   "trigger": "P-618 paint chip held beside the scientist on 'wrong shade'"
+  },
+  {
+   "t": 26.8,
+   "dur_s": 1.9,
+   "type": "other",
+   "trigger": "red crack lines, debris flecks and a dark vignette spread over walls and floor as the giant inmate laughs at the walls"
+  },
+  {
+   "t": 43.0,
+   "dur_s": 0.4,
+   "type": "colour shift",
+   "trigger": "day cross-dissolves to deep blue night on 'one night'"
+  },
+  {
+   "t": 46.0,
+   "dur_s": 0.6,
+   "type": "screen or UI insert",
+   "trigger": "CRT monitor shows the cell, then the camera zooms through it on 'at 15 minutes'"
+  },
+  {
+   "t": 50.2,
+   "dur_s": 0.5,
+   "type": "glow",
+   "trigger": "top light and shaft bloom brighter just before the rage on 'the door'"
+  },
+  {
+   "t": 51.6,
+   "dur_s": 0.1,
+   "type": "flash",
+   "trigger": "white starburst with pink rays as the prisoner rips the bench"
+  },
+  {
+   "t": 51.6,
+   "dur_s": 5.6,
+   "type": "particles",
+   "trigger": "pink debris cubes and shards float around the wrecked door until the dissolve at 57.27 s"
+  },
+  {
+   "t": 60.8,
+   "dur_s": 1.6,
+   "type": "screen or UI insert",
+   "trigger": "stopwatch prop passes the left edge on the 15-minute limit line"
+  },
+  {
+   "t": 64.5,
+   "dur_s": 0.8,
+   "type": "other",
+   "trigger": "shock ring, red vein-like cracks, dark vignette and zoom punch on 'exact opposite'"
+  },
+  {
+   "t": 64.7,
+   "dur_s": 0.6,
+   "type": "screen or UI insert",
+   "trigger": "stopwatch returns lower-left during the rage close"
+  }
+ ],
+ "lighting_mood_shifts": [
+  {
+   "t": 26.8,
+   "change": "Pink fill darkens to a red vignette with red crack lines",
+   "story_reason": "Shows the inmate's violent strength before the pink treatment sets in"
+  },
+  {
+   "t": 29.0,
+   "change": "Bright, pale, calm light at the door; the inmate looks drained of colour",
+   "story_reason": "After fifteen minutes the inmate is docile"
+  },
+  {
+   "t": 31.0,
+   "change": "Hard sun beams, bloom and high contrast in the wide hall",
+   "story_reason": "Comic arm-wrestle demonstration of the weakened giant"
+  },
+  {
+   "t": 43.2,
+   "change": "Daylight cross-dissolves to deep blue night with warm orange booth glow",
+   "story_reason": "Tension rises as a guard forgets the prisoner"
+  },
+  {
+   "t": 50.3,
+   "change": "Cell glow blooms to hot pink with a wide top shaft, then a white starburst at 51.6 s",
+   "story_reason": "The prisoner snaps and rips up the bench"
+  },
+  {
+   "t": 57.3,
+   "change": "Back to soft high-key pale pink around the knitting inmate",
+   "story_reason": "Calm explainer after the chaos"
+  },
+  {
+   "t": 64.4,
+   "change": "Dark red vignette, red cracks and a darkened head with red eyes",
+   "story_reason": "Final reversal: overstaying turns calm into rage"
+  }
+ ],
+ "generation_evidence": [
+  {
+   "frames": [
+    90,
+    106
+   ],
+   "observation": "Wall chart text (P-618, BAKER-MILLER PINK, recipe, EXACTLY!) stays crisp and identical through a push-in and a dissolve; no letter warping.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    1388,
+    1394,
+    1398,
+    1410
+   ],
+   "observation": "Calendar 1979 JUNE and COFFEE note stay legible; the cell inside the CRT screen matches the full-frame cell (window, bench, tally marks, drain) after the zoom-through.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    480,
+    495,
+    505
+   ],
+   "observation": "Hall details (C-4 plate, hanging cable box, ceiling lamp, cyan brick wall, floor line) and the scientist's tie stripes stay identical while the camera pulls out; no swimming textures.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    1552,
+    1554,
+    1556,
+    1558
+   ],
+   "observation": "Debris cubes, cracks and the bar in the prisoner's hands keep consistent positions as the camera pulls out through the door; the guard enters with the same cap design.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    384,
+    392,
+    400,
+    412
+   ],
+   "observation": "Faces swap between a few discrete mouth and eye sprites (grin, laugh, closed arcs) with no in-betweens; the guard designs repeat exactly across shots.",
+   "points_to": "hand animation"
+  },
+  {
+   "frames": [
+    1164,
+    1166,
+    1167,
+    1168
+   ],
+   "observation": "Camera rises through the hall roof with consistent floor, skylight grid and roof gravel; clean perspective and no object morphing.",
+   "points_to": "3D engine render"
+  }
+ ],
+ "sample_points": [
+  {
+   "frame": 1932,
+   "x": 0.51,
+   "y": 0.27,
+   "what": "main character (big inmate, finale) head fill, pale dome above the eyes",
+   "hex": "#DDBFC9",
+   "patch_spread": 0.0
+  },
+  {
+   "frame": 1072,
+   "x": 0.82,
+   "y": 0.62,
+   "what": "big inmate white vest fill (arm-wrestle frame, thumbnail moment)",
+   "hex": "#A2A9BC",
+   "patch_spread": 6.9
+  },
+  {
+   "frame": 1072,
+   "x": 0.3,
+   "y": 0.43,
+   "what": "guard navy cap dome (hat)",
+   "hex": "#3B4964",
+   "patch_spread": 3.1
+  },
+  {
+   "frame": 1410,
+   "x": 0.53,
+   "y": 0.385,
+   "what": "ginger prisoner hair",
+   "hex": "#882217",
+   "patch_spread": 2.3
+  },
+  {
+   "frame": 0,
+   "x": 0.1,
+   "y": 0.3,
+   "what": "teal brick wall of the hook cell",
+   "hex": "#325364",
+   "patch_spread": 6.1
+  },
+  {
+   "frame": 333,
+   "x": 0.08,
+   "y": 0.14,
+   "what": "hot-pink cell wall (left strip above the chip card)",
+   "hex": "#D41C96",
+   "patch_spread": 0.1
+  },
+  {
+   "frame": 480,
+   "x": 0.9,
+   "y": 0.6,
+   "what": "cyan lower tile wall in the hall",
+   "hex": "#79D5E7",
+   "patch_spread": 56.0
+  },
+  {
+   "frame": 1280,
+   "x": 0.8,
+   "y": 0.85,
+   "what": "grey asphalt of the prison yard (day)",
+   "hex": "#6E6772",
+   "patch_spread": 1.0
+  },
+  {
+   "frame": 1305,
+   "x": 0.85,
+   "y": 0.88,
+   "what": "deep blue floor of the night hall",
+   "hex": "#3F52B0",
+   "patch_spread": 0.5
+  },
+  {
+   "frame": 1866,
+   "x": 0.1,
+   "y": 0.4,
+   "what": "pale pink wall of the knitting cell",
+   "hex": "#ED84B8",
+   "patch_spread": 5.9
+  }
+ ],
+ "thumbnail": "Auto-picked video frame near 35.7 s (caption 'seconds.' burned in): skinny guard arm-wrestling the big tattooed inmate in the sunlit POD C hall, scientist raising a stopwatch behind; no designed thumbnail text.",
+ "could_not_determine": [
+  "Whether mouth swaps are timed to narrator syllables (frames sampled only every 4 f).",
+  "Whether 9.5-10.1 s (wide hot-pink cell to scientist close-up) is a fast push-in or a hidden cut; not on the boundary sheets.",
+  "Whether 38.90 s is one continuous camera rise or a spliced match cut (judged continuous, estimate).",
+  "Whether the knitting inmate and the 300-pound inmate are the same character (matching vest and anchor mark; estimate).",
+  "Engine or software (Blender, Unreal, Unity): no UI or watermark visible; the look fits several 3D pipelines.",
+  "Any camera shake on the arm-wrestle slam (33-35 s); contact tiles show nothing conclusive.",
+  "Exact calendar day and the truck lettering (tiny text)."
+ ]
+}

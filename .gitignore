@@ -4,3 +4,11 @@ node_modules/
 .DS_Store
 /build/
 *.tmp
+.venv/
+/skills/fact-story-shorts/models/
+# generated media in project folders (rebuild with the scripts)
+/skills/**/examples/**/*.wav
+/skills/**/examples/**/*.mp4
+/skills/**/examples/**/frames/
+/skills/**/examples/**/stills/
+/skills/**/examples/**/mix_report.json

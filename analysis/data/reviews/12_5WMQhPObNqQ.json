@@ -1,0 +1,879 @@
+{
+ "video": "12_5WMQhPObNqQ",
+ "joins_verified": [
+  {
+   "t": 3.45,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Racetrack shot (slow horse, jockey) cross-fades into the betting room; board and crowd ghosted over the fence at f101-105 (11 frames)."
+  },
+  {
+   "t": 15.33,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Aerial town street cross-fades into the hill meadow with the straw-hat buddy and mirror; double exposure at f458-462 (12 frames)."
+  },
+  {
+   "t": 18.28,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Only 5 frames: hill scene darkens as a circular mirror view of the grandstand grows to fill the frame on black; reads as an iris zoom into the mirror."
+  },
+  {
+   "t": 22.1,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Slumped buddy on the hill cross-fades into the betting room (regulars round a barrel, odds board); clear double exposure at f661-665 (12 frames)."
+  },
+  {
+   "t": 27.35,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Bench pair cross-fades into the grandstand and clay track with a galloping horse; double exposure at f818-822 (13 frames)."
+  },
+  {
+   "t": 35.03,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Parking-lot track shot (cars, 10c sign) cross-fades into the two men on the bench, protagonist now holding a green cash bundle (12 frames)."
+  },
+  {
+   "t": 39.23,
+   "auto_type": "inplace_blend",
+   "verdict": "in_place_change",
+   "note": "Same teller close-up and framing; his face swaps expression (eyes, brows, mouth) over about 6 frames while the slow push-in continues. No scene change."
+  },
+  {
+   "t": 43.18,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Laughing teller close-up cross-fades into the FINISH street with the dairy cart; teller ghosted over bunting at f1297 (13 frames)."
+  },
+  {
+   "t": 46.65,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Close shot of the dairy cart and white horse cross-fades into a wide track view with a striped stand and target pole (13 frames)."
+  },
+  {
+   "t": 52.73,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Regulars at the barrel table cross-fade into the empty hill meadow at sunset; ghosted faces at f1584 (12 frames)."
+  },
+  {
+   "t": 58.12,
+   "auto_type": "dissolve",
+   "verdict": "dissolve",
+   "note": "Sunset finish (white horse galloping) cross-fades into the dusk betting room with board and crowd; longest blend, 15 frames."
+  }
+ ],
+ "missed_joins": [
+  {
+   "t": 19.03,
+   "type": "dissolve",
+   "note": "Circular mirror view on black shrinks back into the hill scene through one blended frame (f570): effectively a 2-frame iris-out the detector did not call."
+  },
+  {
+   "t": 19.73,
+   "type": "dissolve",
+   "note": "Hill scene dims while a small circle at the mirror grows to fill the frame on black (f591-593): a 3-frame iris zoom."
+  },
+  {
+   "t": 20.3,
+   "type": "cut",
+   "note": "f608 is still the circle on black, f609 the sunlit hill with buddy and mirror; no blend frame between them, a hard cut."
+  },
+  {
+   "t": 48.8,
+   "type": "cut",
+   "note": "f1463 dusk street (pink-lit clouds) to f1464 daylight street seen through the betting-room window: similar layout, different sky and camera, a match cut."
+  }
+ ],
+ "beats": [
+  {
+   "name": "hook",
+   "start": 0.0,
+   "end": 3.2,
+   "said": "A man stakes everything he owns on the race's weakest runner.",
+   "shown": "Mint-vest man with a mallet beside a pink piggy bank on a track-side table; bank bursts at 1.0 s; camera whips to horses in dust and a plodding white horse with a jockey."
+  },
+  {
+   "name": "setup",
+   "start": 3.2,
+   "end": 18.3,
+   "said": "The room laughs at his idle day; a friend watches from the hilltop with a giant mirror.",
+   "shown": "Betting room with odds board and jeering regulars; protagonist smug on a window bench; mirror dive to the town street; buddy with a gold-framed mirror on a meadow hill."
+  },
+  {
+   "name": "escalation",
+   "start": 18.3,
+   "end": 34.7,
+   "said": "Favorites keep winning and the hilltop stays unlit; the regulars tease him; the final race is a rout.",
+   "shown": "Circular mirror view of the grandstand cutting back and forth with the buddy on the hill; regulars at a barrel; bench banter; grandstand race; empty track to a parking lot."
+  },
+  {
+   "name": "twist",
+   "start": 34.7,
+   "end": 45.3,
+   "said": "A flash from the hill; he stakes everything on horse nine; the clerk mocks its record.",
+   "shown": "Window sun flash; protagonist carries a green cash bundle to the cage; dim red-walled teller close-up (bill on forehead, laughing); dairy cart on the finish street."
+  },
+  {
+   "name": "explainer",
+   "start": 45.3,
+   "end": 53.2,
+   "said": "Back then, results came into betting rooms by telegraph wire, so wagers stayed open until it clicked.",
+   "shown": "Striped stands and target pole, judges' booth, fast fly-through of a dusk street with a spark on the wire into a telegraph nook with an odds chalkboard; regulars at the barrel."
+  },
+  {
+   "name": "payoff",
+   "start": 53.2,
+   "end": 57.7,
+   "said": "From the hill, the buddy watches horse nine surge out of nowhere and win by a nose.",
+   "shown": "Sunset hill, buddy peering through a huge brass lens; camera dives through it into the track; white horse 9 overtakes in orange light with dust and motion blur."
+  },
+  {
+   "name": "ending",
+   "start": 57.7,
+   "end": 64.13,
+   "said": "While the room still laughs, the wire clicks out the winner; once it spells nine, the laughter dies.",
+   "shown": "Dusk betting room: odds board, ladder man, crowd; sign letters N-I-N-E appear one by one; banknotes rain on the group; heckler's grin turns to shock; final still hold."
+  }
+ ],
+ "hook": {
+  "first_frame": "Protagonist (round white head, small hat, mint vest, polka-dot bow tie) stands behind a wooden table at the track with a mallet raised, a pink piggy bank beside him; white rail and blue sky behind; no caption yet.",
+  "first_3s": "0-1.0 s mallet raised, he smirks and blinks, slow push-in; about 1.0 s piggy bank bursts into shards and coins, camera whips away; 1.6-3.0 s low rail view of horses in dust, then a slow white horse with a jockey.",
+  "line_type": "strange action by he/they",
+  "first_frame_shot_size": "medium-long",
+  "first_frame_subject": "protagonist doing the hook action",
+  "protagonist_looks_at_camera": false,
+  "title_vs_first_line": "Title names the gimmick (a mirror rigging a race); the first line gives only the odd bet on the slowest horse, so the mirror is withheld until about 9.5 s."
+ },
+ "story": {
+  "topic_type": "crime/scam",
+  "setting_era": "1900s",
+  "structure": "act first, explain at the end",
+  "real_fact_core": "Race results reached betting rooms by telegraph wire with a delay and bets stayed open until it arrived, so a faster signal (a mirror flash from the hill) lets someone bet on a race already decided.",
+  "likely_source_type": "history",
+  "protagonist": "Silent, smug bettor in a boater hat, mint vest and polka-dot bow tie (the 'mirror man')",
+  "authority_or_antagonist": "Mocking regulars (plaid-vest man in a derby, round-glasses man) and a pitying teller; no true villain",
+  "direct_speech_lines": 4,
+  "second_person": false,
+  "tense": "mixed",
+  "explainer_turn": "'You see' at 45.37 s",
+  "ending_type": "consequence shown, stops on impact",
+  "call_to_action": "none"
+ },
+ "tone": {
+  "humour": "Absurd exaggeration (a jockey waving at his mother, a horse so far back it is in the car park, a nag beaten by the dairy wagon it hauls) plus small visual gags (pretzel, bill on the teller's head).",
+  "deadpan_or_irony": "Deadpan narration with dramatic irony: the audience knows the dark hill matters while the room mocks him; the ending flips the room from laughing to stunned.",
+  "dialogue_style": "Short taunts and one-liners from side characters plus a viewer-voiced question; faces and mouths animate while lines are spoken; no speech bubbles."
+ },
+ "characters": [
+  {
+   "role": "Protagonist, the silent bettor",
+   "head": "Large round white head about a third of body height, thick dark-navy outline, soft lavender shading low on the head",
+   "hair_or_hat": "Small flat boater hat, brown and cream; no visible hair",
+   "eyes": "Black dots under heavy flat lid lines with dash eyebrows; usually half-lidded and smug; wide rings when shocked",
+   "mouth": "Thin curved line: small smirk or flat; rarely open",
+   "body_and_clothes": "Mint-green capsule torso (vest) with a darker green band at the bottom, red bow tie with white polka dots",
+   "limbs": "Thin dark-navy stick arms and legs with tiny round hands; legs dangle from benches",
+   "accessories": "Mallet, pink piggy bank, pretzel, small gold hand mirror, green cash bundle",
+   "expressions_seen": [
+    "smug half-lidded",
+    "smirk",
+    "wide-eyed shock rings",
+    "eyes-closed calm smile (ending)"
+   ]
+  },
+  {
+   "role": "Heckler, plaid-vest regular",
+   "head": "Round white head with the same thick navy outline, slightly larger in close shots",
+   "hair_or_hat": "Brown derby (bowler) with a black band",
+   "eyes": "Black dots or flat lids with a raised-eyebrow dash; wide rings in shock",
+   "mouth": "Dark open mouth around a wooden toothpick or cigar; smirk; round O in shock",
+   "body_and_clothes": "Mustard-yellow vest with a purple check, buttons and a dark tie; no jacket",
+   "limbs": "Thin grey-purple stick arms and legs",
+   "accessories": "Toothpick or cigar",
+   "expressions_seen": [
+    "smirk with toothpick",
+    "mocking",
+    "raised-eyebrow suspicion",
+    "open-mouth shock"
+   ]
+  },
+  {
+   "role": "Teller behind the counter",
+   "head": "Round white head with navy outline, shown very large in close-ups",
+   "hair_or_hat": "Translucent green eyeshade visor with a white band; no hair",
+   "eyes": "Plain black vertical ovals with no lids or brows in the laugh; worried lids earlier",
+   "mouth": "Zig-zag white moustache-like lip shape over a mouth with pink tongue; wide D or round O when laughing",
+   "body_and_clothes": "Lilac shirt with a pocket of coloured pens, purple tie, red-and-black striped sleeve garters",
+   "limbs": "Arms mostly hidden behind the counter",
+   "accessories": "Banknote stuck at an angle on his visor, cash stacks, milk bottle",
+   "expressions_seen": [
+    "worried with sweat drop",
+    "wince",
+    "wide open laugh",
+    "round O laugh",
+    "small closed smile"
+   ]
+  },
+  {
+   "role": "Hill buddy with the big mirror",
+   "head": "Round white head, same outline weight as the others",
+   "hair_or_hat": "Wide-brim yellow straw hat with a blue band and a few straw sprigs",
+   "eyes": "Round ring eyes with dot pupils (estimate); hidden behind a brass lens in the payoff",
+   "mouth": "Small line, mostly neutral or hidden",
+   "body_and_clothes": "Green shirt under blue denim overalls with stitched pocket and yellow buttons",
+   "limbs": "Thin dark stick arms and legs",
+   "accessories": "Gold-framed mirror on an easel, big round brass-ringed lens, wooden crate, black slate",
+   "expressions_seen": [
+    "blank watching",
+    "slumped napping (22 s)",
+    "peering through the lens"
+   ]
+  }
+ ],
+ "character_style": {
+  "head_height_share_of_body_estimate": 0.33,
+  "outline": "Thick dark-navy ink line, near-constant width, about 0.7-1.5% of frame width depending on shot scale; it grows with a push-in, so it is part of the artwork, not a screen-space filter (estimate).",
+  "shading": "Mostly flat fills with a soft lavender-grey gradient on the shaded side of heads and a darker band low on the vest; faint warm rim in sunset scenes (estimate).",
+  "consistency_between_shots": "Very high: identical shapes, colours and line weight in every shot; heads stay frontal or side-on with features shifting to show a turn (estimate); background regulars reuse the same head and limb kit.",
+  "shadow_under_character": "none"
+ },
+ "animation": {
+  "body_motion": "2D stick-limb puppets: held poses with swaps of arm and leg positions, slight head tilts, arm raises for props (mallet, mirror, pretzel). Big movement comes from the camera and 3D FX, not the characters.",
+  "lip_sync": "flaps while speaking",
+  "lip_sync_evidence_frames": [
+   1242,
+   1250,
+   1256,
+   1260,
+   1264
+  ],
+  "eyes_and_blinks": "Eyes are black dots or ovals that swap between half-lid, open, wide rings and closed lines; a closed-eye frame at f12 looks like a blink; none caught in the sampled frames of the 8.5-10 s hold (estimate).",
+  "idle_motion": "Every 0.3-0.5 s the head tilts a few degrees or the face swaps (the smirk lands as 'smiling' is said, f275); legs sway slightly; torso otherwise still; the set is static apart from the camera push-in.",
+  "squash_and_stretch": "None seen on characters; teller's head may pulse slightly on the laugh at f1256-1262 (could be the camera push-in); stretch appears only in FX (shards, tumbling bills)."
+ },
+ "environments": [
+  {
+   "start": 0.0,
+   "end": 3.4,
+   "place": "Open-air racetrack: table with piggy bank by the rail, then dusty track with galloping horses and a slow white horse",
+   "key_props": [
+    "wooden table",
+    "pink piggy bank",
+    "wooden mallet",
+    "white rail with green garland",
+    "dust cloud"
+   ],
+   "in_world_text": [],
+   "time_of_day": "late afternoon (estimate)",
+   "lighting": "Hard low sun from behind-right; long diagonal fence shadows fall toward camera-left; warm backlit dust; blue sky as cool fill",
+   "depth_cues": "Rail lines converge strongly; layered dust haze; soft clouds and distant hills"
+  },
+  {
+   "start": 3.4,
+   "end": 13.0,
+   "place": "Betting room: odds board behind, bench with striped cushion under a big window onto the town",
+   "key_props": [
+    "odds blackboard",
+    "bench with blue-white cushion",
+    "window onto main street",
+    "torn slips on floor",
+    "hanging sign"
+   ],
+   "in_world_text": [
+    "WINNER",
+    "MILK RUN 100-1",
+    "BETS OPEN",
+    "TELEGRAPH OFFICE",
+    "WESTERN UNION"
+   ],
+   "time_of_day": "daytime",
+   "lighting": "Soft cool daylight from the window as key; warm wood bounce; no hard cast shadows; characters evenly lit",
+   "depth_cues": "Window street view slightly defocused behind sharp characters; layered shopfronts and hill"
+  },
+  {
+   "start": 13.0,
+   "end": 15.3,
+   "place": "Main street flown down through a lens ring, vintage cars and shops, green hill ahead",
+   "key_props": [
+    "vintage cars",
+    "telegraph poles with bunting",
+    "shopfronts",
+    "milk wagon",
+    "green hill"
+   ],
+   "in_world_text": [
+    "THE GILDED SPUR",
+    "BIJOU",
+    "MILK RUN DAIRY"
+   ],
+   "time_of_day": "midday",
+   "lighting": "Bright soft high sun, little shadow, saturated blue sky and warm dirt road",
+   "depth_cues": "Heavy foreground blur around the sharp ring during the dive; hazy hill; strong street convergence"
+  },
+  {
+   "start": 15.3,
+   "end": 22.1,
+   "place": "Grassy hill: gold-framed mirror on an easel, straw-hat buddy, crate; circular mirror views of the grandstand on black",
+   "key_props": [
+    "gold-framed mirror",
+    "easel",
+    "wooden crate",
+    "black slate",
+    "telegraph pole",
+    "target pole in the grandstand view"
+   ],
+   "in_world_text": [
+    "THE GILDED SPUR (mirrored)",
+    "JUDGES"
+   ],
+   "time_of_day": "midday",
+   "lighting": "Bright high sun, soft and even; saturated greens and blue; circle view evenly lit against black",
+   "depth_cues": "Patchwork meadow fading to haze; circle inserts flat with a dark surround"
+  },
+  {
+   "start": 22.1,
+   "end": 27.4,
+   "place": "Betting room again: odds board and barrel table with regulars, then the bench by the window",
+   "key_props": [
+    "odds board with horse names",
+    "barrel table",
+    "pretzel",
+    "window with street view",
+    "MILK RUN board"
+   ],
+   "in_world_text": [
+    "RACE 5 WINNER",
+    "HIGH HAT 1-5",
+    "BEE'S KNEES 4-1",
+    "WHOOPEE 6-1",
+    "APPLESAUCE 8-1",
+    "MILK RUN 100-1",
+    "BETS OPEN"
+   ],
+   "time_of_day": "afternoon, golden hour (estimate)",
+   "lighting": "Low warm sun through the window lays hard-edged amber patches on the floor; warm cast overall (warm share about 0.8)",
+   "depth_cues": "Soft glow around the window; defocused street; slow push-in"
+  },
+  {
+   "start": 27.4,
+   "end": 35.0,
+   "place": "Grandstand and red clay track, then the empty course past poplars to a parking lot",
+   "key_props": [
+    "packed grandstand with red-white awning",
+    "jockeys on horses",
+    "white rail",
+    "poplar trees",
+    "vintage cars",
+    "PARKING sign"
+   ],
+   "in_world_text": [
+    "HILLSIDE DOW... (cropped)",
+    "PARKING 10c",
+    "JUDGES"
+   ],
+   "time_of_day": "midday",
+   "lighting": "Bright hard sun with short shadows; saturated clay red against blue sky",
+   "depth_cues": "Long track perspective; tiny far horse; layered tree and hill haze"
+  },
+  {
+   "start": 35.0,
+   "end": 36.9,
+   "place": "Betting-room window and bench with the sun flashing in",
+   "key_props": [
+    "window",
+    "bench",
+    "green cash bundle"
+   ],
+   "in_world_text": [
+    "BETS OPEN"
+   ],
+   "time_of_day": "afternoon",
+   "lighting": "Backlit through the window; a bright sun-star flare blows out the glass; faces in soft shade",
+   "depth_cues": "Glare bloom around the window; shallow focus on faces"
+  },
+  {
+   "start": 36.9,
+   "end": 43.2,
+   "place": "Teller's cage: green counter, stacks of cash, dark red wallpaper, milk bottle",
+   "key_props": [
+    "green counter",
+    "cash stacks",
+    "lamp bulb",
+    "milk bottle",
+    "pen pocket"
+   ],
+   "in_world_text": [
+    "NOT RESPONSIBLE FOR ERRORS IN WEIGHTS AND JOCKEYS (cropped)",
+    "red sign '...T - NO CRY...' (cropped)"
+   ],
+   "time_of_day": "indoors, lamp-lit",
+   "lighting": "Low-key: warm bulb at top-left plus dim fill; maroon walls; strong dark vignette; luma about 70",
+   "depth_cues": "Shallow dark background; slow push-in on the face; wall board falls into shadow"
+  },
+  {
+   "start": 43.2,
+   "end": 47.0,
+   "place": "FINISH-line street with a dairy cart and white horse, then a wide track view with striped stand and target pole",
+   "key_props": [
+    "milk cart with red wheels",
+    "white horse",
+    "FINISH banner",
+    "bunting",
+    "target pole"
+   ],
+   "in_world_text": [
+    "FINISH",
+    "MILK RUN DAIRY",
+    "MERCANTILE (partly seen)"
+   ],
+   "time_of_day": "midday",
+   "lighting": "Bright hard sun, warm shopfront colours, dust kicked up at the wheels",
+   "depth_cues": "Street recedes with bunting; cart sharp, shops soft"
+  },
+  {
+   "start": 47.0,
+   "end": 48.6,
+   "place": "Judges' booth beside the track, fast fly-through",
+   "key_props": [
+    "striped booth canopy",
+    "booth man with visor cap",
+    "red seat"
+   ],
+   "in_world_text": [
+    "JUDGES"
+   ],
+   "time_of_day": "late afternoon (estimate)",
+   "lighting": "Warm low sun on the canopy; ghosted double images in the booth at 48.1 s (glass reflection or blend, undecided)",
+   "depth_cues": "Rapid scale growth of the sign; motion-stretched background"
+  },
+  {
+   "start": 48.6,
+   "end": 51.0,
+   "place": "Dusk street with a glowing spark on the wire, then in through the window to the telegraph nook",
+   "key_props": [
+    "telegraph pole and wires",
+    "BETS OPEN sign",
+    "green window frame",
+    "odds chalkboard",
+    "desk with telegraph key",
+    "red stool"
+   ],
+   "in_world_text": [
+    "BETS OPEN",
+    "HIGH HAT",
+    "BEE'S KNEES",
+    "WHOOPEE",
+    "APPLESAUCE",
+    "odds 1-5, 4-1, 6-1, 8-1"
+   ],
+   "time_of_day": "dusk outside, lamp-lit inside",
+   "lighting": "Pink-orange dusk sky; inside, a bright bulb practical and a glowing window on red wallpaper; very dark at the desk (luma about 51)",
+   "depth_cues": "Wide-angle fly-through with strong parallax and perspective stretch"
+  },
+  {
+   "start": 51.0,
+   "end": 52.8,
+   "place": "Betting room: odds chalkboard close-up, then the barrel table with the red-cap regular and the heckler",
+   "key_props": [
+    "horse-name chalkboard",
+    "barrel table",
+    "RACE 8 slate",
+    "ladder"
+   ],
+   "in_world_text": [
+    "HIGH HAT 1-5",
+    "BEE'S KNEES 4-1",
+    "WHOOPEE 6-1",
+    "APPLESAUCE 8-1",
+    "RACE 8",
+    "MILK RUN 100"
+   ],
+   "time_of_day": "evening, lamp-lit (estimate)",
+   "lighting": "Warm lamp light, dim chalkboard, desaturated browns",
+   "depth_cues": "Close-up board with soft falloff; short push-in"
+  },
+  {
+   "start": 52.8,
+   "end": 54.3,
+   "place": "Hill meadow at sunset; the buddy peers through a big brass lens",
+   "key_props": [
+    "telegraph pole",
+    "meadow flowers",
+    "round brass lens",
+    "straw hat",
+    "overalls"
+   ],
+   "in_world_text": [],
+   "time_of_day": "sunset",
+   "lighting": "Magenta-purple to orange sky gradient; low warm sun grazing the grass; rim-lit hat",
+   "depth_cues": "Tall grass in soft blur; lens ring crisp; gradient sky backdrop"
+  },
+  {
+   "start": 54.3,
+   "end": 58.1,
+   "place": "Racetrack at sunset: horse 9 overtakes in orange light and dust",
+   "key_props": [
+    "white horse and jockey",
+    "red clay track",
+    "white rail with garland",
+    "grandstand",
+    "poplars"
+   ],
+   "in_world_text": [],
+   "time_of_day": "sunset",
+   "lighting": "Low warm sun, orange rim light on dust, long soft shadows; saturated red track; pink-lavender sky",
+   "depth_cues": "Heavy motion blur on the horse and ground at the finish; soft hill haze"
+  },
+  {
+   "start": 58.1,
+   "end": 64.13,
+   "place": "Dusk betting room: odds board with sign, ladder man, crowd, falling banknotes",
+   "key_props": [
+    "odds board",
+    "window onto dusk street",
+    "ladder with a man",
+    "falling banknotes",
+    "money pile",
+    "barrel"
+   ],
+   "in_world_text": [
+    "WINNER NINE (letters appear one by one)",
+    "9 MILK RUN 1000-1",
+    "odds 1-5, 4-1, 6-1"
+   ],
+   "time_of_day": "dusk, night",
+   "lighting": "Cool blue-violet room (warm share about 0.1), dim; warm lamp specks in the window; low-key, luma about 76",
+   "depth_cues": "Window lights softly out of focus; slow push-in; money pieces sharp in the foreground"
+  }
+ ],
+ "set_style": "mixed",
+ "layer_stack": [
+  "Painted sky gradient and distant hills (backdrop)",
+  "Stylised 3D set render: buildings, track, rooms, props with painted textures and thin dark edge lines",
+  "3D midground FX: dust, haze, cast fence shadows, window light patches",
+  "2D ink-outlined stick characters placed in the 3D space (no cast shadow)",
+  "Foreground set pieces and near objects, often defocused (rail, table, lens ring)",
+  "FX layers: shards and coins, falling banknotes, window glare, spark on the wire",
+  "Circular insert views and in-world signs (mirror view, WINNER NINE sign)",
+  "Word-by-word captions about 70% down the frame, burned in",
+  "Overall grade: vignette and grain (estimate)"
+ ],
+ "camera": {
+  "shot_sizes": [
+   "medium-long",
+   "medium",
+   "close-up",
+   "extreme close-up (mirror, lens)",
+   "wide/long (track, street)"
+  ],
+  "angles": [
+   "eye-level on characters",
+   "near-ground along the rail (hook)",
+   "high angle over the street (13-15 s)",
+   "slightly low on the buddy at sunset (54 s)"
+  ],
+  "lens_feel": "Wide-angle, roughly 24-28 mm equivalent (estimate), strong convergence on rail, street and track; close-ups show mild bulge; shallow focus in the macro dives.",
+  "camera_height": "Varies: seated or waist height in the betting room, near ground for the rail and track, high (several metres, estimate) over the street.",
+  "notable_moves": [
+   {
+    "t": 0.0,
+    "type": "slow push-in then whip",
+    "note": "4.9%/s push-in on the mallet raise (pack), then a fast whip and tilt from the table to the dusty track at 1.3-2.1 s."
+   },
+   {
+    "t": 12.33,
+    "type": "dive into small mirror",
+    "note": "0.7 s accelerating dolly past two large heads into a hand mirror; background defocuses; the ring turns glassy and the street shows through (f370-392)."
+   },
+   {
+    "t": 13.07,
+    "type": "push-in with roll",
+    "note": "2.3 s descent along the main street toward the hill (3.3%/s zoom), ended by a dissolve."
+   },
+   {
+    "t": 28.3,
+    "type": "tracking fly-through",
+    "note": "5.3 s of continuous motion along the track: favorite, empty course, poplars, parking lot (peak 46%H/s)."
+   },
+   {
+    "t": 47.43,
+    "type": "snap zoom",
+    "note": "JUDGES sign scales about 3x in 4 frames (f1421-1424); same object throughout, so a camera move, not a cut."
+   },
+   {
+    "t": 48.9,
+    "type": "whip / orbit",
+    "note": "From f1464 the camera swings through a window, past the BETS OPEN sign and the odds board into the telegraph nook; continuous, peak about 168%H/s."
+   },
+   {
+    "t": 54.13,
+    "type": "dolly through lens",
+    "note": "0.25 s push through a brass lens until its interior fills the frame and becomes the sunset track (f1624-1630); continuous, no cut."
+   },
+   {
+    "t": 62.13,
+    "type": "push-in",
+    "note": "Ending hold of about 4 s with a slow push-in (4.8%/s), then a quick 0.9 s push as the banknotes land."
+   }
+  ]
+ },
+ "effects": [
+  {
+   "t": 1.0,
+   "dur_s": 1.2,
+   "type": "particles",
+   "trigger": "'savings': mallet smashes the piggy bank into shards and coins"
+  },
+  {
+   "t": 0.8,
+   "dur_s": 2.7,
+   "type": "smoke",
+   "trigger": "horses galloping: backlit dust cloud along the rail"
+  },
+  {
+   "t": 12.5,
+   "dur_s": 0.6,
+   "type": "defocus",
+   "trigger": "'Well,': background blurs as the camera dives into the hand mirror"
+  },
+  {
+   "t": 12.93,
+   "dur_s": 0.3,
+   "type": "other",
+   "trigger": "'the racetrack': mirror ring turns glassy and the town street shows through"
+  },
+  {
+   "t": 18.3,
+   "dur_s": 2.0,
+   "type": "screen or UI insert",
+   "trigger": "'Race after race': round mirror view of the grandstand cuts in and out three times"
+  },
+  {
+   "t": 35.5,
+   "dur_s": 0.7,
+   "type": "flash",
+   "trigger": "'the hill flashes': sun-star glare through the window"
+  },
+  {
+   "t": 48.6,
+   "dur_s": 0.2,
+   "type": "glow",
+   "trigger": "'winner': glowing spark with a trail near the telegraph wires (f1458-1462, estimate)"
+  },
+  {
+   "t": 55.0,
+   "dur_s": 2.5,
+   "type": "motion blur",
+   "trigger": "horse 9 surging past: heavy blur on the white horse and track, plus dust"
+  },
+  {
+   "t": 60.8,
+   "dur_s": 2.2,
+   "type": "in-world sign",
+   "trigger": "'the wire starts clicking': letters N-I-N-E appear one by one on the WINNER sign"
+  },
+  {
+   "t": 61.95,
+   "dur_s": 1.6,
+   "type": "particles",
+   "trigger": "'spells out 9': banknotes pour from above and pile up on the crowd"
+  }
+ ],
+ "lighting_mood_shifts": [
+  {
+   "t": 3.45,
+   "change": "From hard low sun to soft cool window light on warm wood (luma about 94-120)",
+   "story_reason": "settling into the betting room and the mocking crowd"
+  },
+  {
+   "t": 22.1,
+   "change": "Warm golden window light with amber floor patches (warm share about 0.8-0.86)",
+   "story_reason": "afternoon passing; heckling builds"
+  },
+  {
+   "t": 35.5,
+   "change": "Sun-star flare blows out the window",
+   "story_reason": "the hill signals; turns the plot"
+  },
+  {
+   "t": 37.7,
+   "change": "Dim low-key lamp light on maroon and green (luma about 70)",
+   "story_reason": "he risks everything; teller pities him"
+  },
+  {
+   "t": 48.6,
+   "change": "Pink-orange dusk sky, then a bright bulb in the dark telegraph nook (luma about 51 at the desk)",
+   "story_reason": "the wire signal; time has passed"
+  },
+  {
+   "t": 52.8,
+   "change": "Magenta-purple sunset on the hill; orange rim light and dust on the track",
+   "story_reason": "payoff race at its most dramatic"
+  },
+  {
+   "t": 58.1,
+   "change": "Cool blue-violet dusk room (warm share about 0.1, luma about 76) with warm window specks",
+   "story_reason": "final reversal: the laughter stops"
+  }
+ ],
+ "generation_evidence": [
+  {
+   "frames": [
+    30,
+    33,
+    36,
+    42
+   ],
+   "observation": "Piggy bank bursts into glossy shards, coins and dust that fly with consistent shading and lighting; pieces keep rigid shape from frame to frame.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    378,
+    380,
+    384,
+    388
+   ],
+   "observation": "Camera dives through a hand mirror: foreground heads scale up with parallax, background blurs with real depth of field, outlines grow with the object, geometry stays solid.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    1831,
+    1861,
+    1891,
+    1921
+   ],
+   "observation": "In-world sign letters N-I-N-E appear crisply one by one and stay readable; banknotes tumble and pile up without morphing; the MILK RUN 1000-1 plate stays identical.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    1242,
+    1250,
+    1260,
+    1264
+   ],
+   "observation": "Teller's face redraws as discrete mouth shapes (D, closed, round O) with identical outline, visor and banknote in all frames; no limb or texture drift.",
+   "points_to": "hand animation"
+  },
+  {
+   "frames": [
+    1458,
+    1464,
+    1469,
+    1475
+   ],
+   "observation": "Fast fly-through from the street into the telegraph nook keeps perspective, signs (BETS OPEN, horse-name board) and room geometry consistent frame to frame: a built set.",
+   "points_to": "3D engine render"
+  },
+  {
+   "frames": [
+    120,
+    720,
+    1560,
+    1900
+   ],
+   "observation": "The same odds board with the 9 MILK RUN plate and the same characters recur identically across the video with matching text and colours: reused assets, not regenerated images.",
+   "points_to": "3D engine render"
+  }
+ ],
+ "sample_points": [
+  {
+   "frame": 255,
+   "x": 0.7,
+   "y": 0.45,
+   "what": "protagonist head fill (right cheek)",
+   "hex": "#E8ECF7",
+   "patch_spread": 2.5
+  },
+  {
+   "frame": 255,
+   "x": 0.56,
+   "y": 0.645,
+   "what": "protagonist mint vest (below bow tie, above caption)",
+   "hex": "#69E1C8",
+   "patch_spread": 0.6
+  },
+  {
+   "frame": 255,
+   "x": 0.556,
+   "y": 0.302,
+   "what": "protagonist boater hat crown",
+   "hex": "#5C3E3B",
+   "patch_spread": 2.3
+  },
+  {
+   "frame": 3,
+   "x": 0.85,
+   "y": 0.07,
+   "what": "racetrack blue sky (hook)",
+   "hex": "#387BEC",
+   "patch_spread": 0.2
+  },
+  {
+   "frame": 870,
+   "x": 0.5,
+   "y": 0.88,
+   "what": "red clay track (grandstand race)",
+   "hex": "#C15D2C",
+   "patch_spread": 2.6
+  },
+  {
+   "frame": 590,
+   "x": 0.12,
+   "y": 0.53,
+   "what": "hill meadow light green field",
+   "hex": "#9CE58C",
+   "patch_spread": 20.2
+  },
+  {
+   "frame": 752,
+   "x": 0.42,
+   "y": 0.96,
+   "what": "betting room wood floor (below bench)",
+   "hex": "#EA944C",
+   "patch_spread": 6.7
+  },
+  {
+   "frame": 1250,
+   "x": 0.76,
+   "y": 0.2,
+   "what": "teller cage dark red wall",
+   "hex": "#341F1A",
+   "patch_spread": 0.3
+  },
+  {
+   "frame": 1596,
+   "x": 0.5,
+   "y": 0.06,
+   "what": "sunset hill sky, purple top",
+   "hex": "#4D218E",
+   "patch_spread": 0.8
+  },
+  {
+   "frame": 1900,
+   "x": 0.88,
+   "y": 0.21,
+   "what": "final dusk room slate-blue board",
+   "hex": "#191F40",
+   "patch_spread": 1.3
+  }
+ ],
+ "thumbnail": "Auto-picked frame at about 25 s ('Hey' line): mint-vest protagonist seated on the bench holding a pretzel and touching his boater beside the plaid-vest heckler with a toothpick; window shows the town and hill; MILK RUN 100-1 board above; caption 'Hey,' burned in.",
+ "could_not_determine": [
+  "Phoneme-level lip-sync: mouth open/closed pattern and an O shape on the stressed vowel were seen, but no audio was checked, so 'flaps while speaking' is an estimate.",
+  "48.10 s suspect (f1441-1444): ghosted double images over the judges' booth could be a 2-3 frame dissolve or glass reflections during a fast move.",
+  "Gaze at frame 0 was judged from a 195 px tile (looks toward the piggy bank); later holds show him facing the lens.",
+  "Blink rate: sampled frames 0.2-0.4 s apart can miss 3-5 frame blinks.",
+  "Whether set outlines are baked into textures or a post-process line shader; whether head turns are true 3D rotation or sliding face features.",
+  "Whether the mirror-and-wire story is a documented incident or an invented illustration of past-posting; software used (Blender, Unreal, After Effects) cannot be told by eye.",
+  "Sample point coordinates were read by eye from the sheets (about +/-0.02); check the hex values land on flat fills."
+ ]
+}
