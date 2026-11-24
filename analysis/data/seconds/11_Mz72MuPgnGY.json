@@ -1,0 +1,525 @@
+{
+ "video": "11_Mz72MuPgnGY",
+ "seconds": [
+  {
+   "s": 0,
+   "shown": "Chef in toque tips a pot, pouring yellow liquid over the ship rail.",
+   "shot_size": "medium",
+   "subject": "protagonist",
+   "picture_job": "shows the narrated action",
+   "new_setup": true
+  },
+  {
+   "s": 1,
+   "shown": "Red-and-cream ship hull with brass porthole; thin yellow stream splashes into blue sea.",
+   "shot_size": "medium",
+   "subject": "environment",
+   "picture_job": "shows the narrated action",
+   "new_setup": true
+  },
+  {
+   "s": 2,
+   "shown": "Distant ship with orange skull sail approaches over bright sea; near hull at right.",
+   "shot_size": "wide",
+   "subject": "object or prop",
+   "picture_job": "shows the object named",
+   "new_setup": true
+  },
+  {
+   "s": 3,
+   "shown": "Pirate ship up close: skull-emblem orange sail, spotted dog-like figure (estimate), tiny crew on deck.",
+   "shot_size": "medium",
+   "subject": "antagonist or authority",
+   "picture_job": "shows the object named",
+   "new_setup": true
+  },
+  {
+   "s": 4,
+   "shown": "Three pirates at the rail, grinning; spotted dog-like figure's ear and face at right.",
+   "shot_size": "medium",
+   "subject": "crowd or group",
+   "picture_job": "shows the narrated action",
+   "new_setup": true
+  },
+  {
+   "s": 5,
+   "shown": "Same pirate trio laughing with eyes shut; dog-like figure's ear at right, skull sail above.",
+   "shot_size": "medium",
+   "subject": "crowd or group",
+   "picture_job": "shows the narrated action",
+   "new_setup": false
+  },
+  {
+   "s": 6,
+   "shown": "Small captain in blue uniform reaches for chef on a deck; sea, hazy island behind.",
+   "shot_size": "long (full body)",
+   "subject": "antagonist or authority",
+   "picture_job": "shows the narrated action",
+   "new_setup": true
+  },
+  {
+   "s": 7,
+   "shown": "Wide-eyed angry captain beside calm chef; big copper pot of green liquid at right.",
+   "shot_size": "medium-long",
+   "subject": "antagonist or authority",
+   "picture_job": "shows the narrated action",
+   "new_setup": true
+  },
+  {
+   "s": 8,
+   "shown": "Same two-shot held: glaring captain at left, unimpressed chef, pot at right.",
+   "shot_size": "medium-long",
+   "subject": "antagonist or authority",
+   "picture_job": "shows the narrated action",
+   "new_setup": false
+  },
+  {
+   "s": 9,
+   "shown": "Same two-shot, slightly closer; captain scowls, chef looks away unbothered, pot at right.",
+   "shot_size": "medium-long",
+   "subject": "antagonist or authority",
+   "picture_job": "shows a reaction",
+   "new_setup": false
+  },
+  {
+   "s": 10,
+   "shown": "Closer two-shot: scowling captain at left, chef looking off, pot of green liquid at right.",
+   "shot_size": "medium",
+   "subject": "protagonist",
+   "picture_job": "shows a reaction",
+   "new_setup": false
+  },
+  {
+   "s": 11,
+   "shown": "Chef at center, captain cropped at left edge, tilted pot of green liquid at right.",
+   "shot_size": "medium",
+   "subject": "protagonist",
+   "picture_job": "shows the narrated action",
+   "new_setup": false
+  },
+  {
+   "s": 12,
+   "shown": "Pulled-back view: tiny captain and chef on deck, striped sail, dark storm sky above.",
+   "shot_size": "wide",
+   "subject": "environment",
+   "picture_job": "shows the object named",
+   "new_setup": true
+  },
+  {
+   "s": 13,
+   "shown": "Sweating captain at left, chef raising an arm (estimate) at right, big pot; dark stormy sky.",
+   "shot_size": "medium",
+   "subject": "protagonist",
+   "picture_job": "shows the narrated action",
+   "new_setup": true
+  },
+  {
+   "s": 14,
+   "shown": "Closer: captain shouts, mouth wide open; chef beside him eyes closed; pot at right.",
+   "shot_size": "medium close-up",
+   "subject": "antagonist or authority",
+   "picture_job": "shows the narrated action",
+   "new_setup": false
+  },
+  {
+   "s": 15,
+   "shown": "Tighter and slightly rolled: captain still shouting, chef smug with eyes shut, stormy sky.",
+   "shot_size": "medium close-up",
+   "subject": "antagonist or authority",
+   "picture_job": "shows the narrated action",
+   "new_setup": false
+  },
+  {
+   "s": 16,
+   "shown": "Cross-dissolve: captain-and-chef close two-shot fading into chef beside tilted pot on deck.",
+   "shot_size": "medium",
+   "subject": "protagonist",
+   "picture_job": "travel or transition",
+   "new_setup": true
+  },
+  {
+   "s": 17,
+   "shown": "Chef alone on the deck, standing full body beside a tilted pot with green liquid.",
+   "shot_size": "long (full body)",
+   "subject": "protagonist",
+   "picture_job": "shows the narrated action",
+   "new_setup": false
+  },
+  {
+   "s": 18,
+   "shown": "Closer on chef with smug half-lidded eyes; big copper pot of green liquid at right.",
+   "shot_size": "medium-long",
+   "subject": "protagonist",
+   "picture_job": "shows the object named",
+   "new_setup": false
+  },
+  {
+   "s": 19,
+   "shown": "High overhead view of ship from behind: striped sails, hook (estimate) on rail, GRAVY BOAT name.",
+   "shot_size": "wide",
+   "subject": "object or prop",
+   "picture_job": "shows the narrated action",
+   "new_setup": true
+  },
+  {
+   "s": 20,
+   "shown": "Low view along the curved teal rail and planks; tiny chef far down the deck.",
+   "shot_size": "wide",
+   "subject": "environment",
+   "picture_job": "shows the object named",
+   "new_setup": true
+  },
+  {
+   "s": 21,
+   "shown": "Small captain at ship's wheel beneath striped sails; tiny chef at rail; hazy island, dark sky.",
+   "shot_size": "wide",
+   "subject": "antagonist or authority",
+   "picture_job": "shows the narrated action",
+   "new_setup": true
+  },
+  {
+   "s": 22,
+   "shown": "Closer on captain gripping the wheel, looking worried; striped sails and island behind.",
+   "shot_size": "medium-long",
+   "subject": "antagonist or authority",
+   "picture_job": "shows the narrated action",
+   "new_setup": false
+  },
+  {
+   "s": 23,
+   "shown": "Low angle: two pirates laughing with mugs, eyes shut; red-coated pirate and distant ship behind.",
+   "shot_size": "medium-long",
+   "subject": "crowd or group",
+   "picture_job": "shows the narrated action",
+   "new_setup": true
+  },
+  {
+   "s": 24,
+   "shown": "Smug pirate captain in red coat and feathered hat beside cannon; parrot-hat pirate at right.",
+   "shot_size": "medium-long",
+   "subject": "antagonist or authority",
+   "picture_job": "shows the narrated action",
+   "new_setup": true
+  },
+  {
+   "s": 25,
+   "shown": "Closer: pirate captain mouth open, one arm raised, yellow cannon beside him, parrot pirate at right.",
+   "shot_size": "medium",
+   "subject": "antagonist or authority",
+   "picture_job": "shows the narrated action",
+   "new_setup": false
+  },
+  {
+   "s": 26,
+   "shown": "Tight on smirking pirate captain, one eyebrow raised; cannon and cropped parrot pirate at right.",
+   "shot_size": "medium close-up",
+   "subject": "antagonist or authority",
+   "picture_job": "shows a reaction",
+   "new_setup": true
+  },
+  {
+   "s": 27,
+   "shown": "Dark rainy night sea; small two-masted ship with striped sails in the middle of frame.",
+   "shot_size": "wide",
+   "subject": "environment",
+   "picture_job": "establishes the place",
+   "new_setup": true
+  },
+  {
+   "s": 28,
+   "shown": "Same stormy sea; a pale wave band now rises behind the ship, rain streaking.",
+   "shot_size": "wide",
+   "subject": "environment",
+   "picture_job": "shows the object named",
+   "new_setup": false
+  },
+  {
+   "s": 29,
+   "shown": "Stormy sea, ship larger and lower, taller wave crest behind, white streaks at upper right.",
+   "shot_size": "wide",
+   "subject": "environment",
+   "picture_job": "establishes the place",
+   "new_setup": true
+  },
+  {
+   "s": 30,
+   "shown": "High angle on deck: captain and red-bandana crewman at wheel, yellow dome object (estimate), coiled rope.",
+   "shot_size": "medium-long",
+   "subject": "crowd or group",
+   "picture_job": "shows the narrated action",
+   "new_setup": true
+  },
+  {
+   "s": 31,
+   "shown": "Tilted camera: chef at left, arm out, yellow-clad glasses crewman at right, life ring, deck.",
+   "shot_size": "medium-long",
+   "subject": "protagonist",
+   "picture_job": "shows the narrated action",
+   "new_setup": true
+  },
+  {
+   "s": 32,
+   "shown": "High angle: chef beside stairs, big copper pot of yellow liquid tipped at lower left.",
+   "shot_size": "medium",
+   "subject": "protagonist",
+   "picture_job": "shows the narrated action",
+   "new_setup": true
+  },
+  {
+   "s": 33,
+   "shown": "Same high-angle view, slightly turned: chef at right, pot at left, life ring and wheel above.",
+   "shot_size": "medium",
+   "subject": "protagonist",
+   "picture_job": "shows the narrated action",
+   "new_setup": false
+  },
+  {
+   "s": 34,
+   "shown": "Camera swings to red hull: pot pours yellow over the side, small chef at lower right.",
+   "shot_size": "medium-long",
+   "subject": "protagonist",
+   "picture_job": "shows the narrated action",
+   "new_setup": true
+  },
+  {
+   "s": 35,
+   "shown": "High overhead: ship's side at right, long yellow-orange streak on dark foamy water at left.",
+   "shot_size": "wide",
+   "subject": "environment",
+   "picture_job": "shows the narrated action",
+   "new_setup": true
+  },
+  {
+   "s": 36,
+   "shown": "Aerial view of ship with tiny crew; yellow-orange trail streams behind it across stormy whitecaps.",
+   "shot_size": "wide",
+   "subject": "object or prop",
+   "picture_job": "shows the narrated action",
+   "new_setup": true
+  },
+  {
+   "s": 37,
+   "shown": "Low angle on black three-masted pirate ship: crew in rigging, bandana pirate on deck.",
+   "shot_size": "wide",
+   "subject": "crowd or group",
+   "picture_job": "shows the narrated action",
+   "new_setup": true
+  },
+  {
+   "s": 38,
+   "shown": "Bandana pirate with gritted teeth swings on a rope beside the black hull; others on ropes.",
+   "shot_size": "medium",
+   "subject": "antagonist or authority",
+   "picture_job": "shows the narrated action",
+   "new_setup": true
+  },
+  {
+   "s": 39,
+   "shown": "Distant dark rainy sea: black pirate ship with green glow, small orange-lit ship at right.",
+   "shot_size": "wide",
+   "subject": "environment",
+   "picture_job": "establishes the place",
+   "new_setup": true
+  },
+  {
+   "s": 40,
+   "shown": "Same distant ships; a white-capped wave crest now stretches across the horizon behind them.",
+   "shot_size": "wide",
+   "subject": "environment",
+   "picture_job": "shows the narrated action",
+   "new_setup": false
+  },
+  {
+   "s": 41,
+   "shown": "Slightly closer on the two ships; wave crest across the top, now much taller, with rain.",
+   "shot_size": "wide",
+   "subject": "environment",
+   "picture_job": "shows the narrated action",
+   "new_setup": true
+  },
+  {
+   "s": 42,
+   "shown": "Ships smaller and darker beneath a towering white-capped wave band across the top.",
+   "shot_size": "wide",
+   "subject": "environment",
+   "picture_job": "shows the narrated action",
+   "new_setup": false
+  },
+  {
+   "s": 43,
+   "shown": "Cozy wooden galley: chef behind counter with bowl, orange pot on stove, round porthole showing storm.",
+   "shot_size": "medium-long",
+   "subject": "protagonist",
+   "picture_job": "establishes the place",
+   "new_setup": true
+  },
+  {
+   "s": 44,
+   "shown": "Pulled back: chef stirring behind counter, lantern hanging, pot on stove, porthole at left.",
+   "shot_size": "wide",
+   "subject": "protagonist",
+   "picture_job": "establishes the place",
+   "new_setup": false
+  },
+  {
+   "s": 45,
+   "shown": "Same galley view: chef holds a ladle over the pot, lantern above, wooden floor in foreground.",
+   "shot_size": "wide",
+   "subject": "protagonist",
+   "picture_job": "establishes the place",
+   "new_setup": false
+  },
+  {
+   "s": 46,
+   "shown": "Punch-in on chef with faint smile; red 'STORM OIL' tin on counter beside a steaming bowl.",
+   "shot_size": "medium",
+   "subject": "protagonist",
+   "picture_job": "shows the object named",
+   "new_setup": true
+  },
+  {
+   "s": 47,
+   "shown": "Closer on chef with narrowed eyes; 'STORM OIL' tin at right, steaming bowl on counter.",
+   "shot_size": "medium close-up",
+   "subject": "protagonist",
+   "picture_job": "shows the narrated action",
+   "new_setup": false
+  },
+  {
+   "s": 48,
+   "shown": "Chef now at left, face over steaming bowl on counter; STORM OIL tin at right.",
+   "shot_size": "medium close-up",
+   "subject": "protagonist",
+   "picture_job": "shows the narrated action",
+   "new_setup": true
+  },
+  {
+   "s": 49,
+   "shown": "Fast push-in: chef's face blowing little breath lines toward bowl, tin at right edge.",
+   "shot_size": "medium close-up",
+   "subject": "protagonist",
+   "picture_job": "shows the narrated action",
+   "new_setup": false
+  },
+  {
+   "s": 50,
+   "shown": "Top-down on round bowl of yellow broth with ripples and bubbles, on wooden planks.",
+   "shot_size": "insert (object or detail)",
+   "subject": "object or prop",
+   "picture_job": "shows the object named",
+   "new_setup": true
+  },
+  {
+   "s": 51,
+   "shown": "Tighter top-down on the broth surface: concentric ripples, golden oil rings, bubbles filling frame.",
+   "shot_size": "insert (object or detail)",
+   "subject": "object or prop",
+   "picture_job": "diagram or explanation",
+   "new_setup": false
+  },
+  {
+   "s": 52,
+   "shown": "Blend of ripple texture over a golden ship tilting on stormy sea; pink-lilac haze (estimate).",
+   "shot_size": "wide",
+   "subject": "environment",
+   "picture_job": "travel or transition",
+   "new_setup": true
+  },
+  {
+   "s": 53,
+   "shown": "Red-hulled ship with striped sails on dark-blue waves, yellow glow under hull, big wave at right.",
+   "shot_size": "wide",
+   "subject": "object or prop",
+   "picture_job": "shows the narrated action",
+   "new_setup": true
+  },
+  {
+   "s": 54,
+   "shown": "Ship with glowing yellow patch beneath it, long white-capped swell on horizon, big waves in foreground.",
+   "shot_size": "wide",
+   "subject": "object or prop",
+   "picture_job": "shows the narrated action",
+   "new_setup": false
+  },
+  {
+   "s": 55,
+   "shown": "Same stormy view: ship with yellow glow at upper left, long swell behind, rain streaks.",
+   "shot_size": "wide",
+   "subject": "object or prop",
+   "picture_job": "shows the narrated action",
+   "new_setup": false
+  },
+  {
+   "s": 56,
+   "shown": "Ship smaller on the horizon with a big white-crested wave rising at right; dark waves below.",
+   "shot_size": "wide",
+   "subject": "object or prop",
+   "picture_job": "shows the narrated action",
+   "new_setup": false
+  },
+  {
+   "s": 57,
+   "shown": "Ship tilting, closer; big wave crest beside it, rain, jagged dark-blue waves in foreground.",
+   "shot_size": "wide",
+   "subject": "object or prop",
+   "picture_job": "shows the narrated action",
+   "new_setup": false
+  },
+  {
+   "s": 58,
+   "shown": "Ship rides up onto a wave, tilted higher in frame; large crest behind at right.",
+   "shot_size": "wide",
+   "subject": "object or prop",
+   "picture_job": "shows the narrated action",
+   "new_setup": false
+  },
+  {
+   "s": 59,
+   "shown": "Ship sits on a pale smooth patch of water at top right; light shafts, waves below.",
+   "shot_size": "wide",
+   "subject": "object or prop",
+   "picture_job": "shows the narrated action",
+   "new_setup": true
+  },
+  {
+   "s": 60,
+   "shown": "Huge pale-blue curling wave arches overhead with white swoosh lines; small ship at lower left.",
+   "shot_size": "wide",
+   "subject": "environment",
+   "picture_job": "shows the narrated action",
+   "new_setup": true
+  },
+  {
+   "s": 61,
+   "shown": "Pulled back: giant wave curls over dark ship at left; small lit ship at right.",
+   "shot_size": "wide",
+   "subject": "environment",
+   "picture_job": "shows the narrated action",
+   "new_setup": true
+  },
+  {
+   "s": 62,
+   "shown": "Same view held: curl grows taller and fuller over the dark ship; white spray at crest.",
+   "shot_size": "wide",
+   "subject": "environment",
+   "picture_job": "shows the narrated action",
+   "new_setup": false
+  },
+  {
+   "s": 63,
+   "shown": "White cloud with yellow-orange burst where the dark ship was; wave behind, small ship at right.",
+   "shot_size": "wide",
+   "subject": "antagonist or authority",
+   "picture_job": "consequence or result",
+   "new_setup": false
+  },
+  {
+   "s": 64,
+   "shown": "Cloud rises over orange-red wreckage; tiny figures float on dark waves; small ship at right.",
+   "shot_size": "wide",
+   "subject": "antagonist or authority",
+   "picture_job": "consequence or result",
+   "new_setup": false
+  }
+ ]
+}
