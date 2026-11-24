@@ -1,0 +1,629 @@
+{
+ "summary": {
+  "f0_median_hz": {
+   "mean": 191.48,
+   "sd": 8.05,
+   "min": 171.7,
+   "max": 202.6
+  },
+  "formant_spacing_hz": {
+   "mean": 1207.45,
+   "sd": 12.64,
+   "min": 1189.0,
+   "max": 1233.0
+  },
+  "vocal_tract_cm_est": {
+   "mean": 14.5,
+   "sd": 0.15,
+   "min": 14.2,
+   "max": 14.7
+  },
+  "jitter_local_pct": {
+   "mean": 2.65,
+   "sd": 0.09,
+   "min": 2.51,
+   "max": 2.85
+  },
+  "shimmer_local_pct": {
+   "mean": 10.39,
+   "sd": 0.45,
+   "min": 9.02,
+   "max": 11.11
+  },
+  "hnr_db": {
+   "mean": 9.71,
+   "sd": 0.4,
+   "min": 9.1,
+   "max": 10.7
+  },
+  "sentence_gap_median_ms": {
+   "mean": 153.5,
+   "sd": 18.51,
+   "min": 120.0,
+   "max": 200.0
+  },
+  "sentence_gap_max_ms": {
+   "mean": 259.1,
+   "sd": 57.82,
+   "min": 180.0,
+   "max": 440.0
+  },
+  "word_gap_p99_ms": {
+   "mean": 245.55,
+   "sd": 27.54,
+   "min": 211.0,
+   "max": 305.0
+  },
+  "rate_syll_s_median": {
+   "mean": 5.03,
+   "sd": 0.19,
+   "min": 4.71,
+   "max": 5.34
+  },
+  "rate_cv": {
+   "mean": 0.12,
+   "sd": 0.03,
+   "min": 0.06,
+   "max": 0.18
+  }
+ },
+ "videos": [
+  {
+   "f0_median_hz": 198.3,
+   "formant_spacing_hz": 1219.0,
+   "vocal_tract_cm_est": 14.4,
+   "f1_f2_f3_f4_median_hz": [
+    368,
+    1664,
+    2770,
+    4085
+   ],
+   "jitter_local_pct": 2.51,
+   "shimmer_local_pct": 9.97,
+   "hnr_db": 9.2,
+   "video": "01_NpRAk-5VKlo",
+   "sentence_gap_median_ms": 160,
+   "sentence_gap_p10_p90_ms": [
+    100,
+    260
+   ],
+   "sentence_gap_max_ms": 440,
+   "word_gap_p99_ms": 260,
+   "rate_syll_s_median": 4.71,
+   "rate_cv": 0.18
+  },
+  {
+   "f0_median_hz": 195.1,
+   "formant_spacing_hz": 1201.0,
+   "vocal_tract_cm_est": 14.6,
+   "f1_f2_f3_f4_median_hz": [
+    390,
+    1723,
+    2748,
+    4036
+   ],
+   "jitter_local_pct": 2.74,
+   "shimmer_local_pct": 10.75,
+   "hnr_db": 9.6,
+   "video": "02_7dGWuCeZ8Ic",
+   "sentence_gap_median_ms": 170,
+   "sentence_gap_p10_p90_ms": [
+    120,
+    220
+   ],
+   "sentence_gap_max_ms": 240,
+   "word_gap_p99_ms": 220,
+   "rate_syll_s_median": 5.05,
+   "rate_cv": 0.074
+  },
+  {
+   "f0_median_hz": 197.9,
+   "formant_spacing_hz": 1205.0,
+   "vocal_tract_cm_est": 14.5,
+   "f1_f2_f3_f4_median_hz": [
+    403,
+    1664,
+    2749,
+    4093
+   ],
+   "jitter_local_pct": 2.67,
+   "shimmer_local_pct": 10.41,
+   "hnr_db": 9.3,
+   "video": "03_R-mWVMM-LAs",
+   "sentence_gap_median_ms": 160,
+   "sentence_gap_p10_p90_ms": [
+    116,
+    224
+   ],
+   "sentence_gap_max_ms": 240,
+   "word_gap_p99_ms": 276,
+   "rate_syll_s_median": 4.94,
+   "rate_cv": 0.115
+  },
+  {
+   "f0_median_hz": 196.1,
+   "formant_spacing_hz": 1189.0,
+   "vocal_tract_cm_est": 14.7,
+   "f1_f2_f3_f4_median_hz": [
+    398,
+    1731,
+    2782,
+    4045
+   ],
+   "jitter_local_pct": 2.71,
+   "shimmer_local_pct": 11.11,
+   "hnr_db": 9.1,
+   "video": "04_aD73kaL_PtY",
+   "sentence_gap_median_ms": 140,
+   "sentence_gap_p10_p90_ms": [
+    120,
+    200
+   ],
+   "sentence_gap_max_ms": 220,
+   "word_gap_p99_ms": 217,
+   "rate_syll_s_median": 4.95,
+   "rate_cv": 0.121
+  },
+  {
+   "f0_median_hz": 188.7,
+   "formant_spacing_hz": 1214.0,
+   "vocal_tract_cm_est": 14.4,
+   "f1_f2_f3_f4_median_hz": [
+    383,
+    1697,
+    2806,
+    4086
+   ],
+   "jitter_local_pct": 2.66,
+   "shimmer_local_pct": 10.46,
+   "hnr_db": 10.1,
+   "video": "05_TRUkQ1wbV2E",
+   "sentence_gap_median_ms": 120,
+   "sentence_gap_p10_p90_ms": [
+    88,
+    192
+   ],
+   "sentence_gap_max_ms": 240,
+   "word_gap_p99_ms": 214,
+   "rate_syll_s_median": 4.73,
+   "rate_cv": 0.145
+  },
+  {
+   "f0_median_hz": 202.6,
+   "formant_spacing_hz": 1233.0,
+   "vocal_tract_cm_est": 14.2,
+   "f1_f2_f3_f4_median_hz": [
+    357,
+    1761,
+    2832,
+    4120
+   ],
+   "jitter_local_pct": 2.65,
+   "shimmer_local_pct": 10.18,
+   "hnr_db": 9.6,
+   "video": "06_i4hYq1oSXTg",
+   "sentence_gap_median_ms": 160,
+   "sentence_gap_p10_p90_ms": [
+    120,
+    208
+   ],
+   "sentence_gap_max_ms": 261,
+   "word_gap_p99_ms": 220,
+   "rate_syll_s_median": 4.71,
+   "rate_cv": 0.14
+  },
+  {
+   "f0_median_hz": 190.4,
+   "formant_spacing_hz": 1209.0,
+   "vocal_tract_cm_est": 14.5,
+   "f1_f2_f3_f4_median_hz": [
+    364,
+    1729,
+    2711,
+    4067
+   ],
+   "jitter_local_pct": 2.55,
+   "shimmer_local_pct": 10.26,
+   "hnr_db": 9.8,
+   "video": "07_e9NoHjAXYIY",
+   "sentence_gap_median_ms": 140,
+   "sentence_gap_p10_p90_ms": [
+    100,
+    184
+   ],
+   "sentence_gap_max_ms": 200,
+   "word_gap_p99_ms": 226,
+   "rate_syll_s_median": 5.07,
+   "rate_cv": 0.112
+  },
+  {
+   "f0_median_hz": 187.0,
+   "formant_spacing_hz": 1206.0,
+   "vocal_tract_cm_est": 14.5,
+   "f1_f2_f3_f4_median_hz": [
+    443,
+    1665,
+    2758,
+    4116
+   ],
+   "jitter_local_pct": 2.85,
+   "shimmer_local_pct": 10.57,
+   "hnr_db": 9.4,
+   "video": "08_QlDPMzGmYac",
+   "sentence_gap_median_ms": 140,
+   "sentence_gap_p10_p90_ms": [
+    112,
+    196
+   ],
+   "sentence_gap_max_ms": 220,
+   "word_gap_p99_ms": 220,
+   "rate_syll_s_median": 4.86,
+   "rate_cv": 0.117
+  },
+  {
+   "f0_median_hz": 198.6,
+   "formant_spacing_hz": 1216.0,
+   "vocal_tract_cm_est": 14.4,
+   "f1_f2_f3_f4_median_hz": [
+    366,
+    1745,
+    2709,
+    4083
+   ],
+   "jitter_local_pct": 2.72,
+   "shimmer_local_pct": 10.87,
+   "hnr_db": 9.6,
+   "video": "09_HxqtHI62otM",
+   "sentence_gap_median_ms": 140,
+   "sentence_gap_p10_p90_ms": [
+    120,
+    200
+   ],
+   "sentence_gap_max_ms": 220,
+   "word_gap_p99_ms": 233,
+   "rate_syll_s_median": 4.94,
+   "rate_cv": 0.159
+  },
+  {
+   "f0_median_hz": 196.9,
+   "formant_spacing_hz": 1222.0,
+   "vocal_tract_cm_est": 14.3,
+   "f1_f2_f3_f4_median_hz": [
+    365,
+    1797,
+    2795,
+    4099
+   ],
+   "jitter_local_pct": 2.59,
+   "shimmer_local_pct": 10.04,
+   "hnr_db": 9.9,
+   "video": "10_7xS87iActkU",
+   "sentence_gap_median_ms": 140,
+   "sentence_gap_p10_p90_ms": [
+    120,
+    200
+   ],
+   "sentence_gap_max_ms": 280,
+   "word_gap_p99_ms": 237,
+   "rate_syll_s_median": 5.0,
+   "rate_cv": 0.132
+  },
+  {
+   "f0_median_hz": 198.7,
+   "formant_spacing_hz": 1215.0,
+   "vocal_tract_cm_est": 14.4,
+   "f1_f2_f3_f4_median_hz": [
+    392,
+    1723,
+    2745,
+    4071
+   ],
+   "jitter_local_pct": 2.75,
+   "shimmer_local_pct": 10.3,
+   "hnr_db": 9.3,
+   "video": "11_Mz72MuPgnGY",
+   "sentence_gap_median_ms": 140,
+   "sentence_gap_p10_p90_ms": [
+    100,
+    202
+   ],
+   "sentence_gap_max_ms": 240,
+   "word_gap_p99_ms": 211,
+   "rate_syll_s_median": 4.9,
+   "rate_cv": 0.133
+  },
+  {
+   "f0_median_hz": 195.6,
+   "formant_spacing_hz": 1195.0,
+   "vocal_tract_cm_est": 14.6,
+   "f1_f2_f3_f4_median_hz": [
+    410,
+    1715,
+    2757,
+    4030
+   ],
+   "jitter_local_pct": 2.66,
+   "shimmer_local_pct": 10.54,
+   "hnr_db": 9.9,
+   "video": "12_5WMQhPObNqQ",
+   "sentence_gap_median_ms": 140,
+   "sentence_gap_p10_p90_ms": [
+    94,
+    212
+   ],
+   "sentence_gap_max_ms": 280,
+   "word_gap_p99_ms": 252,
+   "rate_syll_s_median": 5.02,
+   "rate_cv": 0.105
+  },
+  {
+   "f0_median_hz": 183.2,
+   "formant_spacing_hz": 1228.0,
+   "vocal_tract_cm_est": 14.3,
+   "f1_f2_f3_f4_median_hz": [
+    346,
+    1656,
+    2727,
+    4091
+   ],
+   "jitter_local_pct": 2.63,
+   "shimmer_local_pct": 10.1,
+   "hnr_db": 10.1,
+   "video": "13_ZDy3xXA2iHk",
+   "sentence_gap_median_ms": 160,
+   "sentence_gap_p10_p90_ms": [
+    118,
+    202
+   ],
+   "sentence_gap_max_ms": 360,
+   "word_gap_p99_ms": 231,
+   "rate_syll_s_median": 5.02,
+   "rate_cv": 0.11
+  },
+  {
+   "f0_median_hz": 191.4,
+   "formant_spacing_hz": 1220.0,
+   "vocal_tract_cm_est": 14.3,
+   "f1_f2_f3_f4_median_hz": [
+    333,
+    1796,
+    2746,
+    4046
+   ],
+   "jitter_local_pct": 2.53,
+   "shimmer_local_pct": 9.02,
+   "hnr_db": 10.7,
+   "video": "14_LC8hYwUZ-kU",
+   "sentence_gap_median_ms": 140,
+   "sentence_gap_p10_p90_ms": [
+    76,
+    184
+   ],
+   "sentence_gap_max_ms": 301,
+   "word_gap_p99_ms": 240,
+   "rate_syll_s_median": 5.21,
+   "rate_cv": 0.114
+  },
+  {
+   "f0_median_hz": 182.1,
+   "formant_spacing_hz": 1202.0,
+   "vocal_tract_cm_est": 14.6,
+   "f1_f2_f3_f4_median_hz": [
+    344,
+    1703,
+    2693,
+    4008
+   ],
+   "jitter_local_pct": 2.62,
+   "shimmer_local_pct": 10.48,
+   "hnr_db": 10.3,
+   "video": "15_t3OXkhlI6NQ",
+   "sentence_gap_median_ms": 140,
+   "sentence_gap_p10_p90_ms": [
+    100,
+    200
+   ],
+   "sentence_gap_max_ms": 220,
+   "word_gap_p99_ms": 240,
+   "rate_syll_s_median": 5.26,
+   "rate_cv": 0.064
+  },
+  {
+   "f0_median_hz": 202.0,
+   "formant_spacing_hz": 1189.0,
+   "vocal_tract_cm_est": 14.7,
+   "f1_f2_f3_f4_median_hz": [
+    382,
+    1644,
+    2719,
+    4018
+   ],
+   "jitter_local_pct": 2.52,
+   "shimmer_local_pct": 10.51,
+   "hnr_db": 9.8,
+   "video": "16_DEe0iKH4KIw",
+   "sentence_gap_median_ms": 160,
+   "sentence_gap_p10_p90_ms": [
+    57,
+    260
+   ],
+   "sentence_gap_max_ms": 300,
+   "word_gap_p99_ms": 294,
+   "rate_syll_s_median": 5.34,
+   "rate_cv": 0.175
+  },
+  {
+   "f0_median_hz": 171.7,
+   "formant_spacing_hz": 1195.0,
+   "vocal_tract_cm_est": 14.6,
+   "f1_f2_f3_f4_median_hz": [
+    383,
+    1706,
+    2750,
+    4014
+   ],
+   "jitter_local_pct": 2.68,
+   "shimmer_local_pct": 10.5,
+   "hnr_db": 9.9,
+   "video": "17_GM9UKnZ6JFw",
+   "sentence_gap_median_ms": 180,
+   "sentence_gap_p10_p90_ms": [
+    120,
+    220
+   ],
+   "sentence_gap_max_ms": 240,
+   "word_gap_p99_ms": 260,
+   "rate_syll_s_median": 5.22,
+   "rate_cv": 0.156
+  },
+  {
+   "f0_median_hz": 189.4,
+   "formant_spacing_hz": 1198.0,
+   "vocal_tract_cm_est": 14.6,
+   "f1_f2_f3_f4_median_hz": [
+    383,
+    1682,
+    2726,
+    4033
+   ],
+   "jitter_local_pct": 2.56,
+   "shimmer_local_pct": 10.96,
+   "hnr_db": 9.5,
+   "video": "18_VKsamN3Fk4U",
+   "sentence_gap_median_ms": 180,
+   "sentence_gap_p10_p90_ms": [
+    104,
+    220
+   ],
+   "sentence_gap_max_ms": 220,
+   "word_gap_p99_ms": 280,
+   "rate_syll_s_median": 5.26,
+   "rate_cv": 0.104
+  },
+  {
+   "f0_median_hz": 185.7,
+   "formant_spacing_hz": 1201.0,
+   "vocal_tract_cm_est": 14.6,
+   "f1_f2_f3_f4_median_hz": [
+    363,
+    1744,
+    2716,
+    4063
+   ],
+   "jitter_local_pct": 2.53,
+   "shimmer_local_pct": 9.92,
+   "hnr_db": 9.9,
+   "video": "19_0m6G8pDtzNs",
+   "sentence_gap_median_ms": 200,
+   "sentence_gap_p10_p90_ms": [
+    152,
+    268
+   ],
+   "sentence_gap_max_ms": 280,
+   "word_gap_p99_ms": 275,
+   "rate_syll_s_median": 5.21,
+   "rate_cv": 0.137
+  },
+  {
+   "f0_median_hz": 178.2,
+   "formant_spacing_hz": 1192.0,
+   "vocal_tract_cm_est": 14.7,
+   "f1_f2_f3_f4_median_hz": [
+    398,
+    1696,
+    2748,
+    4047
+   ],
+   "jitter_local_pct": 2.77,
+   "shimmer_local_pct": 10.84,
+   "hnr_db": 9.2,
+   "video": "20_nzbkkEZFM8g",
+   "sentence_gap_median_ms": 160,
+   "sentence_gap_p10_p90_ms": [
+    120,
+    180
+   ],
+   "sentence_gap_max_ms": 180,
+   "word_gap_p99_ms": 305,
+   "rate_syll_s_median": 5.28,
+   "rate_cv": 0.086
+  }
+ ],
+ "references": [
+  {
+   "f0_median_hz": 194.1,
+   "formant_spacing_hz": 1150.0,
+   "vocal_tract_cm_est": 15.2,
+   "f1_f2_f3_f4_median_hz": [
+    499,
+    1573,
+    2934,
+    3984
+   ],
+   "jitter_local_pct": 2.15,
+   "shimmer_local_pct": 7.04,
+   "hnr_db": 11.4,
+   "file": "probe_af_sarah.wav"
+  },
+  {
+   "f0_median_hz": 196.6,
+   "formant_spacing_hz": 1179.0,
+   "vocal_tract_cm_est": 14.8,
+   "f1_f2_f3_f4_median_hz": [
+    521,
+    1627,
+    2832,
+    4099
+   ],
+   "jitter_local_pct": 2.23,
+   "shimmer_local_pct": 8.0,
+   "hnr_db": 11.4,
+   "file": "probe_af_heart.wav"
+  },
+  {
+   "f0_median_hz": 137.6,
+   "formant_spacing_hz": 1033.0,
+   "vocal_tract_cm_est": 16.9,
+   "f1_f2_f3_f4_median_hz": [
+    436,
+    1426,
+    2721,
+    3557
+   ],
+   "jitter_local_pct": 2.28,
+   "shimmer_local_pct": 9.76,
+   "hnr_db": 9.7,
+   "file": "probe_am_fenrir.wav"
+  },
+  {
+   "f0_median_hz": 118.2,
+   "formant_spacing_hz": 1065.0,
+   "vocal_tract_cm_est": 16.4,
+   "f1_f2_f3_f4_median_hz": [
+    509,
+    1552,
+    2730,
+    3636
+   ],
+   "jitter_local_pct": 3.63,
+   "shimmer_local_pct": 11.22,
+   "hnr_db": 9.3,
+   "file": "probe_am_michael.wav"
+  },
+  {
+   "f0_median_hz": 146.2,
+   "formant_spacing_hz": 1195.0,
+   "vocal_tract_cm_est": 14.6,
+   "f1_f2_f3_f4_median_hz": [
+    383,
+    1774,
+    2803,
+    4098
+   ],
+   "jitter_local_pct": 2.36,
+   "shimmer_local_pct": 8.21,
+   "hnr_db": 13.5,
+   "file": "probe_bm_george.wav"
+  }
+ ]
+}
